@@ -20,10 +20,17 @@ from pathlib import Path
 
 import httpx
 
+# HTTP ヘッダは ASCII しか通らない（httpx は latin-1/ascii で encode する）。
+# 日本語を入れると UnicodeEncodeError になるので英字のみで書く。
 DEFAULT_UA = (
     "jp-motorsports-regulations-bot/0.1 "
-    "(+https://jp.motorsports-regulations.org; JAF諸規則のHTML化アーカイブ)"
+    "(+https://jp.motorsports-regulations.org; HTML archive of JAF motorsports regulations)"
 )
+
+
+def _ascii_safe(value: str) -> str:
+    """HTTP ヘッダに載せられる文字だけにする."""
+    return value.encode("ascii", "ignore").decode("ascii").strip() or "jp-motorsports-regulations-bot/0.1"
 
 
 @dataclass
@@ -48,7 +55,10 @@ class JafClient:
         self.delay_sec = delay_sec
         self._last_request = 0.0
         self._client = httpx.Client(
-            headers={"User-Agent": user_agent, "Accept-Language": "ja,en;q=0.8"},
+            headers={
+                "User-Agent": _ascii_safe(user_agent),
+                "Accept-Language": "ja,en;q=0.8",
+            },
             timeout=timeout,
             follow_redirects=True,
         )
@@ -89,7 +99,8 @@ class JafClient:
                     f.write(chunk)
 
         digest = h.hexdigest()
-        head = tmp.open("rb").read(5)
+        with tmp.open("rb") as f:
+            head = f.read(5)
         if not head.startswith(b"%PDF") and "pdf" not in ctype.lower():
             tmp.unlink(missing_ok=True)
             raise ValueError(f"PDF ではないレスポンス: {url} (content-type={ctype!r})")

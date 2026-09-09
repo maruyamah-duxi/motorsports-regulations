@@ -93,66 +93,86 @@ def make_doc_id(pdf_url: str) -> str:
     return f"{stem}-{digest}"
 
 
+# Cookie 同意バナー（OneTrust）の中身は拾わない
+_CONSENT_HINT = re.compile(r"onetrust|ot-pc|ot-sdk|cookie|consent", re.I)
+
+
+def _in_consent_banner(el) -> bool:
+    for node in [el, *el.parents]:
+        ident = " ".join(
+            [str(node.get("id") or "")] + list(node.get("class") or [])
+        ) if hasattr(node, "get") else ""
+        if ident and _CONSENT_HINT.search(ident):
+            return True
+    return False
+
+
 def parse_listing(html: str, source: str, source_url: str) -> list[CatalogEntry]:
-    """1 ページ分の HTML からカタログを組み立てる."""
+    """1 ページ分の HTML からカタログを組み立てる.
+
+    タブ構成に依存せず、**文書順に走査して直前の h2 を大分類とみなす**。
+    国内ページと国際ページで DOM の入れ子が違っても同じコードで通る。
+
+    PDF リンクは `div.toggle-accordion` の中にあるものだけを拾う。
+    「最近のアップデート」タブは同じ PDF をアップロード日順に並べ直した
+    再掲で、アコーディオンの外にあるため、これで自然に重複を避けられる。
+    """
     soup = BeautifulSoup(html, "lxml")
     entries: list[CatalogEntry] = []
     seen: set[str] = set()
     order = 0
+    section = ""
 
-    tab_menu = soup.select_one("div.tab-menu")
-    scope = tab_menu if tab_menu else soup
-    # 「カテゴリ一覧」パネル（1 つ目の js-slideTab-body）だけを見る。
-    # 2 つ目は「最近のアップデート」で同じ PDF の再掲。
-    bodies = scope.select("div._content.js-slideTab-body")
-    category_panel = bodies[0] if bodies else scope
-
-    for section_div in category_panel.select("div[id]"):
-        h2 = section_div.select_one("h2")
-        if h2 is None:
+    for el in soup.find_all(True):
+        if el.name in ("h1", "h2"):
+            text = _clean(el.get_text())
+            # クッキー同意バナーなどの見出しは拾わない
+            if text and "クッキー" not in text and "Cookie" not in text:
+                section = text
             continue
-        section = _clean(h2.get_text())
 
-        accordions = section_div.select("div.toggle-accordion")
-        if not accordions:
-            accordions = [section_div]
+        classes = el.get("class") or []
+        if el.name != "div" or "toggle-accordion" not in classes:
+            continue
+        if _in_consent_banner(el):
+            continue
 
-        for acc in accordions:
-            head = acc.select_one("div._header")
-            group = _clean(head.get_text()) if head else ""
-            for a in acc.select('a[href$=".pdf"], a[href*=".pdf?"]'):
-                href = a.get("href")
-                if not href:
-                    continue
-                pdf_url = urljoin(BASE, href)
-                if pdf_url in seen:
-                    continue
-                seen.add(pdf_url)
+        head = el.select_one("div._header")
+        group = _clean(head.get_text()) if head else ""
 
-                title_el = a.select_one("p._title")
-                raw_title = _clean(title_el.get_text()) if title_el else _clean(a.get_text())
-                m = _TITLE_RE.match(raw_title)
-                title = _clean(m["title"]) if m else raw_title
-                size_text = _clean(m["size"]) if m else None
+        for a in el.select('a[href*=".pdf"]'):
+            href = a.get("href")
+            if not href or ".pdf" not in href.lower():
+                continue
+            pdf_url = urljoin(BASE, href)
+            if pdf_url in seen:
+                continue
+            seen.add(pdf_url)
 
-                date_el = a.select_one("p._date")
-                upload_date = _parse_date(_clean(date_el.get_text())) if date_el else None
+            title_el = a.select_one("p._title")
+            raw_title = _clean(title_el.get_text()) if title_el else _clean(a.get_text())
+            m = _TITLE_RE.match(raw_title)
+            title = _clean(m["title"]) if m else raw_title
+            size_text = _clean(m["size"]) if m else None
 
-                entries.append(
-                    CatalogEntry(
-                        doc_id=make_doc_id(pdf_url),
-                        source=source,
-                        source_url=source_url,
-                        section=section,
-                        group=group,
-                        title=title,
-                        pdf_url=pdf_url,
-                        upload_date=upload_date,
-                        size_text=size_text,
-                        order=order,
-                    )
+            date_el = a.select_one("p._date")
+            upload_date = _parse_date(_clean(date_el.get_text())) if date_el else None
+
+            entries.append(
+                CatalogEntry(
+                    doc_id=make_doc_id(pdf_url),
+                    source=source,
+                    source_url=source_url,
+                    section=section,
+                    group=group,
+                    title=title,
+                    pdf_url=pdf_url,
+                    upload_date=upload_date,
+                    size_text=size_text,
+                    order=order,
                 )
-                order += 1
+            )
+            order += 1
 
     return entries
 

@@ -66,9 +66,28 @@ def cmd_crawl(args) -> int:
             html = client.get_text(url)
             found = parse_listing(html, source, url)
             print(f"[crawl]   {len(found)} 件", flush=True)
+            if not found:
+                print(
+                    f"[crawl]   !! {source} から 1 件も取れていません。"
+                    "JAF 側の DOM が変わった可能性があります。",
+                    flush=True,
+                )
             entries.extend(found)
 
     catalog = [e.to_dict() for e in entries]
+
+    # JAF のリニューアルでセレクタが外れると「全件削除」に見えてしまう。
+    # 前回より大きく減っていたら、書き込まずに止める。
+    previous = _load_json(DATA / "catalog.json", {}).get("count", 0)
+    if previous and len(catalog) < previous * args.shrink_threshold and not args.allow_shrink:
+        print(
+            f"\n[crawl] 中止: 取得件数が前回より大きく減りました "
+            f"({previous} → {len(catalog)} 件)。\n"
+            "        JAF サイトの構造変更が疑われます。想定内なら "
+            "--allow-shrink を付けて再実行してください。"
+        )
+        return 1
+
     _save_json(DATA / "catalog.json", {"generatedAt": _now(), "count": len(catalog), "items": catalog})
     print(f"[crawl] 合計 {len(catalog)} 件 → data/catalog.json")
     return 0
@@ -301,6 +320,17 @@ def main() -> int:
     p.add_argument("--delay", type=float, default=1.5, help="リクエスト間隔（秒）")
     p.add_argument("--dpi", type=int, default=200, help="図版の書き出し解像度")
     p.add_argument("--ocr", action="store_true", help="テキスト層の無いページを OCR する")
+    p.add_argument(
+        "--allow-shrink",
+        action="store_true",
+        help="取得件数が前回より大きく減っても続行する（JAF サイト改修時など）",
+    )
+    p.add_argument(
+        "--shrink-threshold",
+        type=float,
+        default=0.7,
+        help="前回比でこの割合を下回ったら中止する（既定 0.7）",
+    )
     sub = p.add_subparsers(dest="cmd", required=True)
 
     sp = sub.add_parser("crawl", help="カタログのみ取得")
