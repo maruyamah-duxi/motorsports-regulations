@@ -1,0 +1,9 @@
+# PDF 解析・レンダリング
+pymupdf==1.28.2
+# HTML パース（JAF 配布ページのカタログ抽出）
+beautifulsoup4==4.13.4
+lxml==5.3.0
+# HTTP
+httpx==0.28.1
+# 画像最適化
+pillow==11.3.0

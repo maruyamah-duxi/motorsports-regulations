@@ -1,0 +1,101 @@
+name: regulations-sync
+
+# JAF サイトを巡回し、更新された PDF だけを HTML 化してコミットする。
+#  - JAF の PDF には ETag も Last-Modified も無いため、
+#    「一覧ページのアップロード日」→「本体の SHA-256」の 2 段で差分を見る。
+#  - 生成物（content/ と data/）だけをコミットし、PDF 原本はコミットしない。
+
+on:
+  schedule:
+    # 毎日 03:10 JST（= 18:10 UTC）。JAF の更新は平日日中が多い。
+    - cron: "10 18 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "先頭 N 件だけ処理（0 = 全件）"
+        required: false
+        default: "0"
+      only:
+        description: "特定の docId だけ処理（スペース区切り）"
+        required: false
+        default: ""
+      force:
+        description: "差分に関係なく再変換する"
+        type: boolean
+        required: false
+        default: false
+      ocr:
+        description: "テキスト層の無いページを OCR する"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: regulations-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: 依存関係
+        run: pip install -r pipeline/requirements.txt
+
+      - name: OCR ツール（任意）
+        if: ${{ inputs.ocr == true }}
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn tesseract-ocr-jpn-vert
+          echo "TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata" >> "$GITHUB_ENV"
+
+      - name: 巡回・差分検出・変換
+        run: |
+          python pipeline/cli.py \
+            ${{ inputs.ocr == true && '--ocr' || '' }} \
+            sync \
+            --limit "${{ inputs.limit || 0 }}" \
+            ${{ inputs.force == true && '--force' || '' }} \
+            ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }} \
+            | tee sync.log
+
+      - name: 変更サマリ
+        if: always()
+        run: |
+          {
+            echo "## JAF 諸規則 同期結果"
+            echo '```'
+            tail -n 40 sync.log 2>/dev/null || echo "(ログなし)"
+            echo '```'
+            latest=$(ls -1 data/changes/*.json 2>/dev/null | tail -1)
+            if [ -n "$latest" ]; then
+              echo "### 差分 ($latest)"
+              echo '```json'
+              python -c "import json,sys;d=json.load(open(sys.argv[1]));print(json.dumps({k:d[k] for k in ('added','updated','removed','failed') if k in d},ensure_ascii=False,indent=1)[:4000])" "$latest"
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: コミット
+        run: |
+          git config user.name "jaf-regulations-bot"
+          git config user.email "actions@github.com"
+          git add -A content data
+          if git diff --cached --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          python pipeline/commit_message.py > /tmp/commitmsg.txt
+          git commit -F /tmp/commitmsg.txt
+          git push

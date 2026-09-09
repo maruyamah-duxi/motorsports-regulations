@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# --- pipeline ---
+.cache/
+.venv/
+probe*.json
+sync.log
+samples/*.pdf
+__pycache__/
+*.pyc
