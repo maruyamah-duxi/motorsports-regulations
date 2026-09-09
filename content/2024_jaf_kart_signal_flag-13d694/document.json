@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3491/2024_jaf_kart_signal_flag.pdf",
  "uploadDate": "2024-04-26",
  "sha256": "e091047da7be35f9c71750db06b17eb80a5e46b71387af8cb727bf19b0564604",
+ "bytes": 109412,
  "docId": "2024_jaf_kart_signal_flag-13d694",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:41+00:00",
+ "convertedAt": "2026-09-09T20:56:27+00:00",
  "stats": {
   "chars": 567,
   "figures": 12,

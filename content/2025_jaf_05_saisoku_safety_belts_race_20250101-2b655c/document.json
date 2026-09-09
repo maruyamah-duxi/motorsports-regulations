@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2025_jaf_05_saisoku_safety_belts_race_20250101.pdf",
  "uploadDate": "2024-11-25",
  "sha256": "9520587b77bd0fd933f5f07477ed8f78208baf33db78807da93c2f229e2133d7",
+ "bytes": 858584,
  "docId": "2025_jaf_05_saisoku_safety_belts_race_20250101-2b655c",
  "pageCount": 9,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:27+00:00",
  "stats": {
   "chars": 3712,
   "figures": 17,

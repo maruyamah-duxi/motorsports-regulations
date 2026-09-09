@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2026_jaf_sport_reg_ct_20260101.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "aebca96a2feb37a9a4ab5c4d25d899c2b2aa6d980b5e5c2cd154290c0482bc37",
+ "bytes": 177518,
  "docId": "2026_jaf_sport_reg_ct_20260101-14173f",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:15+00:00",
+ "convertedAt": "2026-09-09T20:54:03+00:00",
  "stats": {
   "chars": 3510,
   "figures": 0,

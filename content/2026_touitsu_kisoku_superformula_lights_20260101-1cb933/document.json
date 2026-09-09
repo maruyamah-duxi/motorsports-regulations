@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3492/2026_touitsu_kisoku_superformula_lights_20260101.pdf",
  "uploadDate": "2026-01-23",
  "sha256": "d4031b8a60c2de860731270e42fd7627af9b9edbff88f578cec5cce71ea9ce24",
+ "bytes": 605747,
  "docId": "2026_touitsu_kisoku_superformula_lights_20260101-1cb933",
  "pageCount": 40,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:42+00:00",
+ "convertedAt": "2026-09-09T20:56:32+00:00",
  "stats": {
   "chars": 36745,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2025_jaf_kitei_kaisai_race_gp_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "0919a55e3cc5cd60667ad448b478e6c583db033bebb2981241d40e091265ba0e",
+ "bytes": 156907,
  "docId": "2025_jaf_kitei_kaisai_race_gp_20250401-78d4f2",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:15+00:00",
+ "convertedAt": "2026-09-09T20:53:57+00:00",
  "stats": {
   "chars": 3014,
   "figures": 0,

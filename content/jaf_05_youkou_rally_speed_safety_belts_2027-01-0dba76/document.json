@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/jaf_05_youkou_rally_speed_safety_belts_2027-01.pdf",
  "uploadDate": "2026-09-09",
  "sha256": "4d7540a8ab074c9559846b0a4a94d33019940ddbdfdcbc98b31a081516275680",
+ "bytes": 702154,
  "docId": "jaf_05_youkou_rally_speed_safety_belts_2027-01-0dba76",
  "pageCount": 5,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:39+00:00",
  "stats": {
   "chars": 2401,
   "figures": 13,

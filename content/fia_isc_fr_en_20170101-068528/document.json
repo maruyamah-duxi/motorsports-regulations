@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3471/3500/fia_isc_fr_en_20170101.pdf",
  "uploadDate": "2021-08-03",
  "sha256": "cfd36a608f3c864afdb71618ccdff4c9a43c6892c080de6d2aca07a572cce043",
+ "bytes": 894226,
  "docId": "fia_isc_fr_en_20170101-068528",
  "pageCount": 78,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:40+00:00",
+ "convertedAt": "2026-09-09T20:59:13+00:00",
  "stats": {
   "chars": 322091,
   "figures": 1,

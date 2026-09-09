@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3492/2026_touitsu_kisoku_superformula_20260101.pdf",
  "uploadDate": "2026-01-23",
  "sha256": "9e5eb324f2f4c8660d9b716cbf35a1874247fc6baa8706ae2b2539630ae2369a",
+ "bytes": 621063,
  "docId": "2026_touitsu_kisoku_superformula_20260101-f03955",
  "pageCount": 43,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:42+00:00",
+ "convertedAt": "2026-09-09T20:56:30+00:00",
  "stats": {
   "chars": 39611,
   "figures": 0,

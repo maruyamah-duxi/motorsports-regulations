@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/esports_event_guidelines_20250410.pdf",
  "uploadDate": "2025-04-10",
  "sha256": "dc6bc716d795f330a8d5c13794a85716a78842ece75bf6bc060ddf8717a56422",
+ "bytes": 245891,
  "docId": "esports_event_guidelines_20250410-3818f0",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:01+00:00",
+ "convertedAt": "2026-09-09T20:57:33+00:00",
  "stats": {
   "chars": 1358,
   "figures": 0,

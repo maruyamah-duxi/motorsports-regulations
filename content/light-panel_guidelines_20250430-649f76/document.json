@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/light-panel_guidelines_20250430.pdf",
  "uploadDate": "2025-04-30",
  "sha256": "3e2b3f128dde7fc8427b3d80ebe477a6ad8d729373ba78a179737e16e126d930",
+ "bytes": 320038,
  "docId": "light-panel_guidelines_20250430-649f76",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:00+00:00",
+ "convertedAt": "2026-09-09T20:57:24+00:00",
  "stats": {
   "chars": 1340,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3489/jaf_kart_kitei_sport_reg_20270101-01.pdf",
  "uploadDate": "2026-09-09",
  "sha256": "d378ffbccd96556f59d52da75513b45a5b27647b64ee7cf84450c010975786b8",
+ "bytes": 252503,
  "docId": "jaf_kart_kitei_sport_reg_20270101-01-27628d",
  "pageCount": 8,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:39+00:00",
+ "convertedAt": "2026-09-09T20:56:18+00:00",
  "stats": {
   "chars": 9121,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2025_jaf_kart_kitei_touroku_clubs_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "4cedd5e46e9a48c04d05f49791e11eea85ebf71110ccaa3b681d512400884916",
+ "bytes": 151093,
  "docId": "2025_jaf_kart_kitei_touroku_clubs_20250401-d16473",
  "pageCount": 7,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:04+00:00",
  "stats": {
   "chars": 8322,
   "figures": 0,

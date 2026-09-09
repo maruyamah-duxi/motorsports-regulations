@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2024_jaf_kitei_kaisai_speed_guide_hillc_20200101.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "0fb5646bcde578d82856209da157925501e92f57328ae4805a25e14a3fd72c37",
+ "bytes": 1104611,
  "docId": "2024_jaf_kitei_kaisai_speed_guide_hillc_20200101-7ecf1e",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:18+00:00",
+ "convertedAt": "2026-09-09T20:54:31+00:00",
  "stats": {
   "chars": 2052,
   "figures": 0,

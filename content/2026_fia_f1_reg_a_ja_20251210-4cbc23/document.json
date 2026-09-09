@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3473/3501/2026_fia_f1_reg_a_ja_20251210.pdf",
  "uploadDate": "2026-05-25",
  "sha256": "c4238cc2c1bb1663521363e8e6bdbed1b70980b0ff3f73b9824d75d656275f5c",
+ "bytes": 653118,
  "docId": "2026_fia_f1_reg_a_ja_20251210-4cbc23",
  "pageCount": 66,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:41+00:00",
+ "convertedAt": "2026-09-09T20:59:18+00:00",
  "stats": {
   "chars": 82562,
   "figures": 1,

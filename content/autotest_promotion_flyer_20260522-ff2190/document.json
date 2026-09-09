@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/autotest_promotion_flyer_20260522.pdf",
  "uploadDate": "2026-05-22",
  "sha256": "b3b6c821bba71b87740652ace41ec353f9e44fee25d5ff6c4c578ce88f5adaeb",
+ "bytes": 1101863,
  "docId": "autotest_promotion_flyer_20260522-ff2190",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:01+00:00",
+ "convertedAt": "2026-09-09T20:57:28+00:00",
  "stats": {
   "chars": 1749,
   "figures": 0,

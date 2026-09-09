@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2026_jaf_kitei_shinpan_fukumu.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "cf0f6b7e7b9a995dc49e127eaab3323e945b5d511d722173bf76fd7b34c5163d",
+ "bytes": 461640,
  "docId": "2026_jaf_kitei_shinpan_fukumu-9dad87",
  "pageCount": 11,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:14+00:00",
+ "convertedAt": "2026-09-09T20:53:50+00:00",
  "stats": {
   "chars": 16900,
   "figures": 2,

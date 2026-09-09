@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2024_jaf_kart_kitei_name_clubs_20120101.pdf",
  "uploadDate": "2024-04-26",
  "sha256": "bb794fed2667b9cd83201df9bd183ec8284f1aaa14efdce929d8c15e1268575c",
+ "bytes": 789323,
  "docId": "2024_jaf_kart_kitei_name_clubs_20120101-d45dab",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:05+00:00",
  "stats": {
   "chars": 1047,
   "figures": 0,

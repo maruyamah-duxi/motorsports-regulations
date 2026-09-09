@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3481/2025_jaf_list_kounin_circuit.pdf",
  "uploadDate": "2025-07-31",
  "sha256": "875cbf4fa5c395973b9ce432af218225980c966a91a5d3dc485221e5b10e120c",
+ "bytes": 82804,
  "docId": "2025_jaf_list_kounin_circuit-8ee9ad",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:18+00:00",
+ "convertedAt": "2026-09-09T20:54:46+00:00",
  "stats": {
   "chars": 1091,
   "figures": 0,

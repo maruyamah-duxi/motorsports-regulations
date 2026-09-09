@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3495/2026_touitsu_kisoku_all_japan_gymk_dirt_20260101.pdf",
  "uploadDate": "2026-01-22",
  "sha256": "95a55a617e69664a57d80f7df41516f7240f251687ffad348bef005ce8956ebc",
+ "bytes": 472147,
  "docId": "2026_touitsu_kisoku_all_japan_gymk_dirt_20260101-451f80",
  "pageCount": 16,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:52+00:00",
+ "convertedAt": "2026-09-09T20:57:03+00:00",
  "stats": {
   "chars": 18142,
   "figures": 3,

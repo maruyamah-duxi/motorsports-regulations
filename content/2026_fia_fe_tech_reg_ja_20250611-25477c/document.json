@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3473/4273/2026_fia_fe_tech_reg_ja_20250611.pdf",
  "uploadDate": "2026-06-30",
  "sha256": "8de36b4572009adce21c094de17f98870389749569ec9dabd49cd161f0a7443f",
+ "bytes": 1574975,
  "docId": "2026_fia_fe_tech_reg_ja_20250611-25477c",
  "pageCount": 66,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:54+00:00",
+ "convertedAt": "2026-09-09T20:59:50+00:00",
  "stats": {
   "chars": 51825,
   "figures": 20,

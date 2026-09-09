@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2025_jaf_kitei_koushuu_kaisai_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "22dc4eaebe3e902d2738097ecdb15ace532b5e8efcfdb1143b9616098c834c73",
+ "bytes": 293280,
  "docId": "2025_jaf_kitei_koushuu_kaisai_20250401-c32228",
  "pageCount": 8,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:13+00:00",
+ "convertedAt": "2026-09-09T20:53:41+00:00",
  "stats": {
   "chars": 8008,
   "figures": 1,

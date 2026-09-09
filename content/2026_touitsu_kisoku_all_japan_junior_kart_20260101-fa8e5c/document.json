@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3496/2026_touitsu_kisoku_all_japan_junior_kart_20260101.pdf",
  "uploadDate": "2026-03-16",
  "sha256": "f31c5a0a67e40a86cb95b5c974e39c0dedfd5bee7d70e2dfc279c4c0e562ac18",
+ "bytes": 2247902,
  "docId": "2026_touitsu_kisoku_all_japan_junior_kart_20260101-fa8e5c",
  "pageCount": 46,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:55+00:00",
+ "convertedAt": "2026-09-09T20:57:12+00:00",
  "stats": {
   "chars": 90201,
   "figures": 25,

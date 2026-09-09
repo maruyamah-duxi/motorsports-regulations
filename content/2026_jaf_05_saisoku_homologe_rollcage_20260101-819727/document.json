@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2026_jaf_05_saisoku_homologe_rollcage_20260101.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "21274a2fa034889722bbca025e875fb0b0beb2f32341522d5379712711c4d256",
+ "bytes": 102059,
  "docId": "2026_jaf_05_saisoku_homologe_rollcage_20260101-819727",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:29+00:00",
  "stats": {
   "chars": 864,
   "figures": 0,

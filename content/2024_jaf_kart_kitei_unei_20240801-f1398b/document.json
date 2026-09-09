@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2024_jaf_kart_kitei_unei_20240801.pdf",
  "uploadDate": "2024-09-13",
  "sha256": "a6872e7aacaa662b15cd134656c7679997517008391a0a5c0745309e9ad4b1dd",
+ "bytes": 285545,
  "docId": "2024_jaf_kart_kitei_unei_20240801-f1398b",
  "pageCount": 6,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:36+00:00",
+ "convertedAt": "2026-09-09T20:56:01+00:00",
  "stats": {
   "chars": 6139,
   "figures": 1,

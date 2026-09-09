@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3473/4273/2026_fia_fe_sport_reg_ja_20260227.pdf",
  "uploadDate": "2026-06-30",
  "sha256": "8dc6dc696aa0b4f11564379902f0b679346b5424b7e93b1307d3095cafc84db7",
+ "bytes": 1620959,
  "docId": "2026_fia_fe_sport_reg_ja_20260227-7adf34",
  "pageCount": 83,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:52+00:00",
+ "convertedAt": "2026-09-09T20:59:44+00:00",
  "stats": {
   "chars": 82808,
   "figures": 19,

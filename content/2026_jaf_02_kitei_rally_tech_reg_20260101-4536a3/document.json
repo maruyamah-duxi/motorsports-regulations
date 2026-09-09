@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3483/2026_jaf_02_kitei_rally_tech_reg_20260101.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "2b0107cc22bb5d0d52ab366990a18ded6ece5866f1222b157af3a0e14890d5de",
+ "bytes": 1315645,
  "docId": "2026_jaf_02_kitei_rally_tech_reg_20260101-4536a3",
  "pageCount": 43,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:26+00:00",
+ "convertedAt": "2026-09-09T20:55:09+00:00",
  "stats": {
   "chars": 53218,
   "figures": 34,

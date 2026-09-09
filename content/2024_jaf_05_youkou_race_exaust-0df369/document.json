@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2024_jaf_05_youkou_race_exaust.pdf",
  "uploadDate": "2024-04-24",
  "sha256": "114043ea656918d722d1ffe30093e927ca88d9b00308edcb087b31697c8c928b",
+ "bytes": 751953,
  "docId": "2024_jaf_05_youkou_race_exaust-0df369",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:40+00:00",
  "stats": {
   "chars": 909,
   "figures": 1,

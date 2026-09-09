@@ -12,8 +12,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:44+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:23+00:00"
   },
   "2025_jaf_kitei_soshiki_20250401-fbb9d0": {
    "docId": "2025_jaf_kitei_soshiki_20250401-fbb9d0",
@@ -23,12 +23,12 @@
    "sha256": "9873c02283bf19de280bf5315b762f8a089d8733aec233caed0996961746e4fe",
    "bytes": 255232,
    "pageCount": 11,
-   "chars": 13547,
+   "chars": 13937,
    "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:45+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:24+00:00"
   },
   "jaf_kitei_soshiki_20270101-01-7cd2be": {
    "docId": "jaf_kitei_soshiki_20270101-01-7cd2be",
@@ -38,12 +38,12 @@
    "sha256": "e3aa5504622b6fe126f5b5bb85d04fad675ce2663fcb6ae01647672465e9e582",
    "bytes": 257784,
    "pageCount": 11,
-   "chars": 13581,
+   "chars": 13971,
    "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:47+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:26+00:00"
   },
   "2024_jaf_saisoku_meishou_20120329-36dfb9": {
    "docId": "2024_jaf_saisoku_meishou_20120329-36dfb9",
@@ -57,8 +57,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:48+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:27+00:00"
   },
   "2024_jaf_saisoku_kounin_kaisai-ce034d": {
    "docId": "2024_jaf_saisoku_kounin_kaisai-ce034d",
@@ -68,12 +68,12 @@
    "sha256": "e8ac8668fb90fbf88e8d0c4921c5226496f99d22fb5b813cb93b8e51a4c9c881",
    "bytes": 1119539,
    "pageCount": 2,
-   "chars": 904,
+   "chars": 1502,
    "figures": 1,
    "tables": 5,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:52+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:29+00:00"
   },
   "jaf_kitei_shikaku_touroku_20260801-01-9260bd": {
    "docId": "jaf_kitei_shikaku_touroku_20260801-01-9260bd",
@@ -83,12 +83,12 @@
    "sha256": "83261b921bd4efaba9323b176978ea27ebe8ab8f3f7da66d3a2a7276bf608091",
    "bytes": 549601,
    "pageCount": 15,
-   "chars": 15618,
-   "figures": 3,
+   "chars": 16780,
+   "figures": 2,
    "tables": 6,
    "warnings": 1,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:53+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:31+00:00"
   },
   "2024_jaf_kitei_fia_driver_license_hosoku-948432": {
    "docId": "2024_jaf_kitei_fia_driver_license_hosoku-948432",
@@ -102,8 +102,8 @@
    "figures": 4,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:56+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:35+00:00"
   },
   "2025_jaf_kitei_calendar_touroku_20250401-143921": {
    "docId": "2025_jaf_kitei_calendar_touroku_20250401-143921",
@@ -113,12 +113,12 @@
    "sha256": "cb59fad0cdde53d2aefa9bce7f2623e2687c127545ea2e82f7c8cdb3ee099676",
    "bytes": 167382,
    "pageCount": 3,
-   "chars": 3339,
+   "chars": 3390,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:56+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:36+00:00"
   },
   "2024_jaf_kitei_yonrin_fees_20220901-02-e56390": {
    "docId": "2024_jaf_kitei_yonrin_fees_20220901-02-e56390",
@@ -128,12 +128,12 @@
    "sha256": "21a972e4dbec0bc3bbb0f5305c52f655462757fd32f05de325e071e8e5839416",
    "bytes": 241486,
    "pageCount": 9,
-   "chars": 3537,
+   "chars": 10600,
    "figures": 0,
    "tables": 36,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:58+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:39+00:00"
   },
   "2024_jaf_kitei_all_japan_shinsa_20030601-d1babc": {
    "docId": "2024_jaf_kitei_all_japan_shinsa_20030601-d1babc",
@@ -147,8 +147,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:56:59+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:40+00:00"
   },
   "2025_jaf_kitei_koushuu_kaisai_20250401-c32228": {
    "docId": "2025_jaf_kitei_koushuu_kaisai_20250401-c32228",
@@ -158,12 +158,12 @@
    "sha256": "22dc4eaebe3e902d2738097ecdb15ace532b5e8efcfdb1143b9616098c834c73",
    "bytes": 293280,
    "pageCount": 8,
-   "chars": 7673,
+   "chars": 8008,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:01+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:41+00:00"
   },
   "2025_jaf_kitei_jaf_touroku_homologe_20250401-c2c1d1": {
    "docId": "2025_jaf_kitei_jaf_touroku_homologe_20250401-c2c1d1",
@@ -177,8 +177,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:02+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:42+00:00"
   },
   "2025_jaf_kitei_kokunai_circuit_kounin_20250401-29a5d8": {
    "docId": "2025_jaf_kitei_kokunai_circuit_kounin_20250401-29a5d8",
@@ -192,8 +192,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:04+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:44+00:00"
   },
   "2025_jaf_kitei_kokunai_speed_course_kounin_20250401-439e1d": {
    "docId": "2025_jaf_kitei_kokunai_speed_course_kounin_20250401-439e1d",
@@ -203,12 +203,12 @@
    "sha256": "dda00577c70880ad3f9d4267446fe8a35bca91115ab8cd5a7b2fceba9ae014d5",
    "bytes": 273306,
    "pageCount": 6,
-   "chars": 6306,
+   "chars": 7343,
    "figures": 1,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:05+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:46+00:00"
   },
   "2024_jaf_jmrc_kaigi_19980101-8ebee0": {
    "docId": "2024_jaf_jmrc_kaigi_19980101-8ebee0",
@@ -222,8 +222,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:07+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:47+00:00"
   },
   "2024_jaf_guideline_shinsa_fukumu-6f0b19": {
    "docId": "2024_jaf_guideline_shinsa_fukumu-6f0b19",
@@ -237,8 +237,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:08+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:48+00:00"
   },
   "2026_jaf_kitei_shinpan_fukumu-9dad87": {
    "docId": "2026_jaf_kitei_shinpan_fukumu-9dad87",
@@ -252,8 +252,8 @@
    "figures": 2,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:10+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:50+00:00"
   },
   "2024_jaf_guideline_official_resque-271780": {
    "docId": "2024_jaf_guideline_official_resque-271780",
@@ -267,8 +267,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:11+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:51+00:00"
   },
   "2024_jaf_guideline_safety-8b63f6": {
    "docId": "2024_jaf_guideline_safety-8b63f6",
@@ -282,8 +282,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:13+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:53+00:00"
   },
   "2026_jaf_sport_reg_race_20260101-801c15": {
    "docId": "2026_jaf_sport_reg_race_20260101-801c15",
@@ -293,12 +293,12 @@
    "sha256": "b0c8286f39d0504be152c454e4bc0c2da25415e0738061b1815ef7a69012eedf",
    "bytes": 200852,
    "pageCount": 6,
-   "chars": 7190,
+   "chars": 7563,
    "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:14+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:54+00:00"
   },
   "jaf_sport_reg_race_20270101-01-9289b7": {
    "docId": "jaf_sport_reg_race_20270101-01-9289b7",
@@ -308,12 +308,12 @@
    "sha256": "9b1c2edb6dd2d765c8b1543a230becedd59cc02ab42db87e336f6d6bdf5f1f53",
    "bytes": 201699,
    "pageCount": 6,
-   "chars": 7277,
+   "chars": 7647,
    "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:16+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:56+00:00"
   },
   "2025_jaf_kitei_kaisai_race_gp_20250401-78d4f2": {
    "docId": "2025_jaf_kitei_kaisai_race_gp_20250401-78d4f2",
@@ -327,8 +327,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:17+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:57+00:00"
   },
   "2026_jaf_sport_reg_rally_20260101-02-8852f1": {
    "docId": "2026_jaf_sport_reg_rally_20260101-02-8852f1",
@@ -338,12 +338,12 @@
    "sha256": "a783166c10b019a012610a3ed7701a9f137543e6176ff6988fb4c2bfa8f30180",
    "bytes": 280543,
    "pageCount": 6,
-   "chars": 6758,
+   "chars": 7388,
    "figures": 0,
    "tables": 5,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:19+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:53:59+00:00"
   },
   "2026_jaf_sport_reg_gymk_dirt_20260101-02-3a4e95": {
    "docId": "2026_jaf_sport_reg_gymk_dirt_20260101-02-3a4e95",
@@ -353,12 +353,12 @@
    "sha256": "193162ab611c49c43004cefeda2c8289a35133133334de88befe4021b97e66c2",
    "bytes": 240328,
    "pageCount": 7,
-   "chars": 8105,
+   "chars": 8156,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:20+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:00+00:00"
   },
   "2026_jaf_kitei_jafcup_gymk_dirt_20260401-495b27": {
    "docId": "2026_jaf_kitei_jafcup_gymk_dirt_20260401-495b27",
@@ -372,8 +372,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:22+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:02+00:00"
   },
   "2026_jaf_sport_reg_ct_20260101-14173f": {
    "docId": "2026_jaf_sport_reg_ct_20260101-14173f",
@@ -383,12 +383,12 @@
    "sha256": "aebca96a2feb37a9a4ab5c4d25d899c2b2aa6d980b5e5c2cd154290c0482bc37",
    "bytes": 177518,
    "pageCount": 3,
-   "chars": 3459,
+   "chars": 3510,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:23+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:03+00:00"
   },
   "jaf_sport_reg_ct_20270101-01-4d9cdd": {
    "docId": "jaf_sport_reg_ct_20270101-01-4d9cdd",
@@ -398,12 +398,12 @@
    "sha256": "14fb86fd31526ad40e0de464474f07d8a204dd0e677e13c97614aae84c647e70",
    "bytes": 178599,
    "pageCount": 3,
-   "chars": 3493,
+   "chars": 3544,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:25+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:05+00:00"
   },
   "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2": {
    "docId": "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2",
@@ -417,8 +417,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:26+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:06+00:00"
   },
   "jaf_kitei_jafcup_circuit_20270101-01-63793e": {
    "docId": "jaf_kitei_jafcup_circuit_20270101-01-63793e",
@@ -432,8 +432,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:28+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:08+00:00"
   },
   "2026_jaf_sport_reg_drift_20260101-56d8c3": {
    "docId": "2026_jaf_sport_reg_drift_20260101-56d8c3",
@@ -443,12 +443,12 @@
    "sha256": "cf147aaf5b3161c3e52bc56948aab73e66154189122ba59a2834577882a12022",
    "bytes": 182656,
    "pageCount": 3,
-   "chars": 3187,
+   "chars": 3360,
    "figures": 0,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:29+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:09+00:00"
   },
   "2025_jaf_kitei_kaisai_race_20250501-6eaf2c": {
    "docId": "2025_jaf_kitei_kaisai_race_20250501-6eaf2c",
@@ -462,8 +462,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:31+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:11+00:00"
   },
   "2026_jaf_kitei_kaisai_race_nzero_2060401-01-aa6285": {
    "docId": "2026_jaf_kitei_kaisai_race_nzero_2060401-01-aa6285",
@@ -473,12 +473,12 @@
    "sha256": "aea112c98474af524ba56cd2955fc07bfd27daed5b879c955e9cb31475cbd946",
    "bytes": 211250,
    "pageCount": 5,
-   "chars": 3933,
+   "chars": 4167,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:32+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:12+00:00"
   },
   "2025_jaf_kitei_kaisai_rally_20250401-c7b786": {
    "docId": "2025_jaf_kitei_kaisai_rally_20250401-c7b786",
@@ -488,12 +488,12 @@
    "sha256": "a8a2ae60e40a24b18ff3a0b4b198d583caff791cf79da5509c537050fa78dd7d",
    "bytes": 255274,
    "pageCount": 5,
-   "chars": 6051,
+   "chars": 6599,
    "figures": 1,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:34+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:14+00:00"
   },
   "2026_jaf_kitei_kaisai_rally_ave1_20260101-d63678": {
    "docId": "2026_jaf_kitei_kaisai_rally_ave1_20260101-d63678",
@@ -503,12 +503,12 @@
    "sha256": "46dc0e828401ab880df45ebd820c12836547ab09acc38abd8f6b96da607474bc",
    "bytes": 234277,
    "pageCount": 4,
-   "chars": 4532,
+   "chars": 4968,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:35+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:15+00:00"
   },
   "2024_jaf_kitei_kaisai_rally_ave2_20220101-85df5d": {
    "docId": "2024_jaf_kitei_kaisai_rally_ave2_20220101-85df5d",
@@ -518,12 +518,12 @@
    "sha256": "f91ab06697a30bd66c27941240e2172ec0b179620fe69328524ce5b30d942d42",
    "bytes": 1116033,
    "pageCount": 6,
-   "chars": 6955,
+   "chars": 7360,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:37+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:17+00:00"
   },
   "jaf_kitei_kaisai_rally_ss_20260101-01-c3487b": {
    "docId": "jaf_kitei_kaisai_rally_ss_20260101-01-c3487b",
@@ -533,12 +533,12 @@
    "sha256": "a7f70524060439d63a881764bb7301b444578b396ad9a418f3cc931dc67eeeca",
    "bytes": 1318561,
    "pageCount": 31,
-   "chars": 35929,
+   "chars": 39261,
    "figures": 7,
    "tables": 3,
    "warnings": 1,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:40+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:20+00:00"
   },
   "2024_jaf_kitei_speed_20240527-d000c3": {
    "docId": "2024_jaf_kitei_speed_20240527-d000c3",
@@ -548,12 +548,12 @@
    "sha256": "cd38508eac254e15afa71c6b1e52ec511b3c1240e7d3d77d4600d1eb4f47a004",
    "bytes": 193593,
    "pageCount": 4,
-   "chars": 2984,
+   "chars": 3164,
    "figures": 0,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:40+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:21+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_closed_20170701-a6c860": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_closed_20170701-a6c860",
@@ -567,8 +567,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:42+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:23+00:00"
   },
   "2025_jaf_kitei_kaisai_speed_guide_ct_20250401-69e277": {
    "docId": "2025_jaf_kitei_kaisai_speed_guide_ct_20250401-69e277",
@@ -582,8 +582,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:43+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:24+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_twint_20170701-ab3b78": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_twint_20170701-ab3b78",
@@ -597,8 +597,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:45+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:26+00:00"
   },
   "2025_jaf_kitei_kaisai_speed_guide_dragr_20250401-81b81a": {
    "docId": "2025_jaf_kitei_kaisai_speed_guide_dragr_20250401-81b81a",
@@ -608,12 +608,12 @@
    "sha256": "22c5d0f1649149356fb1582c3d0a0f6cc8cc8a31ef9acd5fc779c761e55a4ef7",
    "bytes": 407311,
    "pageCount": 6,
-   "chars": 6432,
+   "chars": 6487,
    "figures": 2,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:46+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:27+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_drift_20170701-eb38ee": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_drift_20170701-eb38ee",
@@ -627,8 +627,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:48+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:29+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_at_20200101-05d89c": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_at_20200101-05d89c",
@@ -638,12 +638,12 @@
    "sha256": "2334077ccddcd01cae54bbe97b2ccdfc0d6c95e32c47e6c1e11b908c9cdff6f7",
    "bytes": 1130551,
    "pageCount": 2,
-   "chars": 1103,
+   "chars": 1331,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:49+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:30+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_hillc_20200101-7ecf1e": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_hillc_20200101-7ecf1e",
@@ -657,8 +657,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:51+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:31+00:00"
   },
   "2024_jaf_kitei_kaisai_speed_guide_drifttest_20240527-b0d19a": {
    "docId": "2024_jaf_kitei_kaisai_speed_guide_drifttest_20240527-b0d19a",
@@ -668,12 +668,12 @@
    "sha256": "c96f9183fc8a0ba46d55ac842db1a3a31f2c61588309a5ee29a640c42776de01",
    "bytes": 230670,
    "pageCount": 3,
-   "chars": 1552,
+   "chars": 1607,
    "figures": 3,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:52+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:33+00:00"
   },
   "2024_jaf_speed_signal_flag-bfa433": {
    "docId": "2024_jaf_speed_signal_flag-bfa433",
@@ -687,8 +687,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:54+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:35+00:00"
   },
   "2025_jaf_sport_reg_e-sport_20250401-6e9678": {
    "docId": "2025_jaf_sport_reg_e-sport_20250401-6e9678",
@@ -702,8 +702,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:55+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:36+00:00"
   },
   "2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101-c9653b": {
    "docId": "2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101-c9653b",
@@ -717,8 +717,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:57+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:38+00:00"
   },
   "2024_jaf_yb_iin_kitei_shinsaiin_19980101-db828a": {
    "docId": "2024_jaf_yb_iin_kitei_shinsaiin_19980101-db828a",
@@ -732,8 +732,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:58+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:39+00:00"
   },
   "2025_jaf_yb_iin_kitei_shingikai_20250201-9519a6": {
    "docId": "2025_jaf_yb_iin_kitei_shingikai_20250201-9519a6",
@@ -747,8 +747,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:57:59+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:40+00:00"
   },
   "2025_jaf_yb_iin_kitei_senmonbukai_20250101-cdb287": {
    "docId": "2025_jaf_yb_iin_kitei_senmonbukai_20250101-cdb287",
@@ -762,8 +762,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:01+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:42+00:00"
   },
   "2024_jaf_yb_iin_kitei_meiyoiin_19980101-7f2beb": {
    "docId": "2024_jaf_yb_iin_kitei_meiyoiin_19980101-7f2beb",
@@ -777,8 +777,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:03+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:44+00:00"
   },
   "2024_jaf_yb_iin_kitei_tokubetsu_20011018-def966": {
    "docId": "2024_jaf_yb_iin_kitei_tokubetsu_20011018-def966",
@@ -792,8 +792,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:04+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:45+00:00"
   },
   "2025_jaf_list_kounin_circuit-8ee9ad": {
    "docId": "2025_jaf_list_kounin_circuit-8ee9ad",
@@ -803,12 +803,12 @@
    "sha256": "875cbf4fa5c395973b9ce432af218225980c966a91a5d3dc485221e5b10e120c",
    "bytes": 82804,
    "pageCount": 1,
-   "chars": 20,
+   "chars": 1091,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:05+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:46+00:00"
   },
   "2025_jaf_list_kounin_course_speed-92d99c": {
    "docId": "2025_jaf_list_kounin_course_speed-92d99c",
@@ -818,12 +818,12 @@
    "sha256": "adfabdefda7bc4502481770b26d76679ca5e18da6ea4c61888134d492c61fcb1",
    "bytes": 177487,
    "pageCount": 2,
-   "chars": 87,
+   "chars": 4558,
    "figures": 0,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:07+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:48+00:00"
   },
   "2025_jaf_2024_yonrin_toukei-0be851": {
    "docId": "2025_jaf_2024_yonrin_toukei-0be851",
@@ -833,12 +833,12 @@
    "sha256": "670b2c75ce47152c22920b8f3c0a4994d4848ea25846435731c3f34c0bbcf189",
    "bytes": 126056,
    "pageCount": 11,
-   "chars": 665,
+   "chars": 11452,
    "figures": 0,
    "tables": 12,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:09+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:51+00:00"
   },
   "2026_jaf_kokunai_kisoku_homologe_20260101-607ff1": {
    "docId": "2026_jaf_kokunai_kisoku_homologe_20260101-607ff1",
@@ -848,12 +848,12 @@
    "sha256": "6a8d3d41861fad0e800c7d6403db0f24c4247fca147fc2fff3c2a8702a5eac18",
    "bytes": 91172,
    "pageCount": 2,
-   "chars": 594,
+   "chars": 961,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:10+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:54:52+00:00"
   },
   "2026_jaf_01_kitei_race_tech_reg_20260101-52475d": {
    "docId": "2026_jaf_01_kitei_race_tech_reg_20260101-52475d",
@@ -863,12 +863,12 @@
    "sha256": "1f656afa855a6421826e479a23a433950448a858cf4d81341a83dbbf5ca4bdbf",
    "bytes": 4547610,
    "pageCount": 134,
-   "chars": 145875,
+   "chars": 147557,
    "figures": 92,
    "tables": 7,
    "warnings": 1,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:18+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:05+00:00"
   },
   "2026_jaf_02_kitei_rally_tech_reg_20260101-4536a3": {
    "docId": "2026_jaf_02_kitei_rally_tech_reg_20260101-4536a3",
@@ -882,8 +882,8 @@
    "figures": 34,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:20+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:09+00:00"
   },
   "2026_jaf_03_kitei_speed_tech_reg_20260101-cfa515": {
    "docId": "2026_jaf_03_kitei_speed_tech_reg_20260101-cfa515",
@@ -893,12 +893,12 @@
    "sha256": "c5fb9e477fd9b5c86f846ac69ac697daeaff350bb7819299af1f9ec419fe9497",
    "bytes": 7301422,
    "pageCount": 110,
-   "chars": 86661,
+   "chars": 86859,
    "figures": 214,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:26+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:19+00:00"
   },
   "2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101-fb086e": {
    "docId": "2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101-fb086e",
@@ -908,12 +908,12 @@
    "sha256": "661cc740e7711c8b902345238ec753c99cd3a3651fc462b524c587c5c0d5a227",
    "bytes": 809244,
    "pageCount": 32,
-   "chars": 40823,
+   "chars": 46335,
    "figures": 8,
    "tables": 16,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:27+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:23+00:00"
   },
   "jaf_05_saisoku_race_soubi_20260101-121453": {
    "docId": "jaf_05_saisoku_race_soubi_20260101-121453",
@@ -923,12 +923,12 @@
    "sha256": "a9cb070aff2e06b764962f39c2557ce9c5aa501de65f9ec555b62e4b9ce20d44",
    "bytes": 839783,
    "pageCount": 13,
-   "chars": 6744,
+   "chars": 10573,
    "figures": 11,
    "tables": 10,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:28+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:26+00:00"
   },
   "2025_jaf_05_saisoku_safety_belts_race_20250101-2b655c": {
    "docId": "2025_jaf_05_saisoku_safety_belts_race_20250101-2b655c",
@@ -938,12 +938,12 @@
    "sha256": "9520587b77bd0fd933f5f07477ed8f78208baf33db78807da93c2f229e2133d7",
    "bytes": 858584,
    "pageCount": 9,
-   "chars": 3298,
+   "chars": 3712,
    "figures": 17,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:30+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:27+00:00"
   },
   "2025_jaf_05_saisoku_safety_belts_rally_20250101-22e4af": {
    "docId": "2025_jaf_05_saisoku_safety_belts_rally_20250101-22e4af",
@@ -953,12 +953,12 @@
    "sha256": "841b0537b2e718db9eccf0f34e4b4edf26ac8533a57a9267865b82fc9837419b",
    "bytes": 185866,
    "pageCount": 2,
-   "chars": 1289,
+   "chars": 1425,
    "figures": 2,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:31+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:28+00:00"
   },
   "2026_jaf_05_saisoku_homologe_rollcage_20260101-819727": {
    "docId": "2026_jaf_05_saisoku_homologe_rollcage_20260101-819727",
@@ -972,8 +972,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:32+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:29+00:00"
   },
   "2026_jaf_05_saisoku_superfj_operations_20260101-ce2fab": {
    "docId": "2026_jaf_05_saisoku_superfj_operations_20260101-ce2fab",
@@ -983,12 +983,12 @@
    "sha256": "c2778871d9855e3c5d2c497c04b4cfa76674b60a42a200b003ceed9c27e155ec",
    "bytes": 127937,
    "pageCount": 1,
-   "chars": 846,
+   "chars": 932,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:33+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:31+00:00"
   },
   "2025_jaf_05_saisoku_fj1500_operations-697199": {
    "docId": "2025_jaf_05_saisoku_fj1500_operations-697199",
@@ -1002,8 +1002,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:35+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:32+00:00"
   },
   "2026_jaf_05_saisoku_f-be_operations_20260101-922556": {
    "docId": "2026_jaf_05_saisoku_f-be_operations_20260101-922556",
@@ -1017,8 +1017,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:36+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:34+00:00"
   },
   "jaf_05_saisoku_homologe_fuel_cells_2027-01-3f1519": {
    "docId": "jaf_05_saisoku_homologe_fuel_cells_2027-01-3f1519",
@@ -1032,8 +1032,8 @@
    "figures": 2,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:38+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:36+00:00"
   },
   "jaf_05_youkou_speed_helmets_2027-01-d3d2ea": {
    "docId": "jaf_05_youkou_speed_helmets_2027-01-d3d2ea",
@@ -1043,12 +1043,12 @@
    "sha256": "61634efab17f2e968ed822aa1e710e77ac14d7528bb6ea94237ab1204d0c2f2c",
    "bytes": 339275,
    "pageCount": 3,
-   "chars": 2346,
+   "chars": 2482,
    "figures": 5,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:40+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:37+00:00"
   },
   "jaf_05_youkou_rally_speed_safety_belts_2027-01-0dba76": {
    "docId": "jaf_05_youkou_rally_speed_safety_belts_2027-01-0dba76",
@@ -1058,12 +1058,12 @@
    "sha256": "4d7540a8ab074c9559846b0a4a94d33019940ddbdfdcbc98b31a081516275680",
    "bytes": 702154,
    "pageCount": 5,
-   "chars": 2281,
+   "chars": 2401,
    "figures": 13,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:41+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:39+00:00"
   },
   "2024_jaf_05_youkou_race_exaust-0df369": {
    "docId": "2024_jaf_05_youkou_race_exaust-0df369",
@@ -1073,12 +1073,12 @@
    "sha256": "114043ea656918d722d1ffe30093e927ca88d9b00308edcb087b31697c8c928b",
    "bytes": 751953,
    "pageCount": 1,
-   "chars": 831,
+   "chars": 909,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:43+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:40+00:00"
   },
   "2024_jaf_05_youkou_rally_speed_exaust-cc4e37": {
    "docId": "2024_jaf_05_youkou_rally_speed_exaust-cc4e37",
@@ -1088,12 +1088,12 @@
    "sha256": "562abc26218ab07c7d924f996c2158897ae739dd242494631fac5248958d8cbf",
    "bytes": 768626,
    "pageCount": 3,
-   "chars": 2377,
+   "chars": 2412,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:44+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:42+00:00"
   },
   "2024_jaf_05_saisoku_rally_speed_silencer-f94bde": {
    "docId": "2024_jaf_05_saisoku_rally_speed_silencer-f94bde",
@@ -1107,8 +1107,8 @@
    "figures": 4,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:46+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:43+00:00"
   },
   "2024_jaf_05_saisoku_car_accessories-4dca70": {
    "docId": "2024_jaf_05_saisoku_car_accessories-4dca70",
@@ -1122,8 +1122,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:47+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:44+00:00"
   },
   "2024_jaf_05_saisoku_air-spoiler-d4e859": {
    "docId": "2024_jaf_05_saisoku_air-spoiler-d4e859",
@@ -1133,12 +1133,12 @@
    "sha256": "85f0e5e569080b218232e636eb0adc8a7b4a09cea86732e7c9c72cc698f382d9",
    "bytes": 751053,
    "pageCount": 1,
-   "chars": 1210,
+   "chars": 1316,
    "figures": 1,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:49+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:46+00:00"
   },
   "jaf_05_saisoku_fia_homologe_seats_2027-01-73dfce": {
    "docId": "jaf_05_saisoku_fia_homologe_seats_2027-01-73dfce",
@@ -1148,12 +1148,12 @@
    "sha256": "be2e7e2e3cd25cf109180df4bcc80399cbf8e75c372643a8046d7233c1aa983e",
    "bytes": 253326,
    "pageCount": 4,
-   "chars": 1451,
+   "chars": 2837,
    "figures": 5,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:50+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:48+00:00"
   },
   "2025_jaf_05_youkou_kounin_touroku_net-5cf67f": {
    "docId": "2025_jaf_05_youkou_kounin_touroku_net-5cf67f",
@@ -1167,8 +1167,8 @@
    "figures": 3,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:52+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:49+00:00"
   },
   "2025_jaf_05_saisoku_homologe_kounin_20251001-155ce6": {
    "docId": "2025_jaf_05_saisoku_homologe_kounin_20251001-155ce6",
@@ -1178,12 +1178,12 @@
    "sha256": "7e26654d22901514916d450b75646f0487e814ac0f28dea6cfe0ddffa54f544b",
    "bytes": 152107,
    "pageCount": 9,
-   "chars": 292,
+   "chars": 12246,
    "figures": 0,
    "tables": 9,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:53+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:51+00:00"
   },
   "2025_jaf_05_saisoku_homologe_touroku_20251001-aeeaa8": {
    "docId": "2025_jaf_05_saisoku_homologe_touroku_20251001-aeeaa8",
@@ -1193,12 +1193,12 @@
    "sha256": "f1580dde630fe5bf1866793f67f3b4338d19e0513046f92d82b9dd238dbd451b",
    "bytes": 305923,
    "pageCount": 24,
-   "chars": 831,
+   "chars": 57169,
    "figures": 0,
    "tables": 34,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:56+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:56+00:00"
   },
   "2024_jaf_kart_kokunai_sporting_code_20240801-47d80a": {
    "docId": "2024_jaf_kart_kokunai_sporting_code_20240801-47d80a",
@@ -1208,12 +1208,12 @@
    "sha256": "3630460aa0a34d5e4663e8654c21de125723d2406f6c2941836349bc7d20c83c",
    "bytes": 290370,
    "pageCount": 7,
-   "chars": 7043,
+   "chars": 7087,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:57+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:57+00:00"
   },
   "2025_jaf_kart_kitei_soshiki_20250401-9f5979": {
    "docId": "2025_jaf_kart_kitei_soshiki_20250401-9f5979",
@@ -1227,8 +1227,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:58+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:58+00:00"
   },
   "2024_jaf_kart_kitei_entry_20140101-0aaaa8": {
    "docId": "2024_jaf_kart_kitei_entry_20140101-0aaaa8",
@@ -1242,8 +1242,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:58:59+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:55:59+00:00"
   },
   "2024_jaf_kart_kitei_unei_20240801-f1398b": {
    "docId": "2024_jaf_kart_kitei_unei_20240801-f1398b",
@@ -1257,8 +1257,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:01+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:01+00:00"
   },
   "jaf_kart_kitei_license_application_20260801-01-18f747": {
    "docId": "jaf_kart_kitei_license_application_20260801-01-18f747",
@@ -1268,12 +1268,12 @@
    "sha256": "882771a0c319036ca9df80189aac8354b53c34ba3dc4d60fae9a1c0a2ff75bb2",
    "bytes": 446261,
    "pageCount": 10,
-   "chars": 11813,
-   "figures": 2,
+   "chars": 16274,
+   "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:03+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:03+00:00"
   },
   "2025_jaf_kart_kitei_touroku_clubs_20250401-d16473": {
    "docId": "2025_jaf_kart_kitei_touroku_clubs_20250401-d16473",
@@ -1287,8 +1287,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:04+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:04+00:00"
   },
   "2024_jaf_kart_kitei_name_clubs_20120101-d45dab": {
    "docId": "2024_jaf_kart_kitei_name_clubs_20120101-d45dab",
@@ -1302,8 +1302,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:06+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:05+00:00"
   },
   "2025_jaf_kart_kitei_calendar_20250401-931646": {
    "docId": "2025_jaf_kart_kitei_calendar_20250401-931646",
@@ -1313,12 +1313,12 @@
    "sha256": "d49118662d3a49459fdc5119401f72537fe15ebcd9870da31ae5b22ab8624798",
    "bytes": 109835,
    "pageCount": 2,
-   "chars": 1971,
+   "chars": 2175,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:07+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:07+00:00"
   },
   "2025_jaf_kart_kitei_koushuu_driver_20250401-db4598": {
    "docId": "2025_jaf_kart_kitei_koushuu_driver_20250401-db4598",
@@ -1332,8 +1332,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:08+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:08+00:00"
   },
   "2025_jaf_kart_kitei_koushuu_official_20250401-c71713": {
    "docId": "2025_jaf_kart_kitei_koushuu_official_20250401-c71713",
@@ -1343,12 +1343,12 @@
    "sha256": "77fef4a5230b5678f2790b27dd30298f5adf32bd792ea21209fb79d3017a627c",
    "bytes": 179642,
    "pageCount": 3,
-   "chars": 2642,
+   "chars": 3015,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:10+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:10+00:00"
   },
   "2025_jaf_kart_kitei_course_kounin_20250401-017047": {
    "docId": "2025_jaf_kart_kitei_course_kounin_20250401-017047",
@@ -1358,12 +1358,12 @@
    "sha256": "fcdd80f0ca577d457ed5c543bea4cbb3f8088e9063600db1d804b02e5f42f7e9",
    "bytes": 404977,
    "pageCount": 9,
-   "chars": 9385,
+   "chars": 9643,
    "figures": 2,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:12+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:12+00:00"
   },
   "2025_jaf_kart_accreditation_standard_suits-e6c25b": {
    "docId": "2025_jaf_kart_accreditation_standard_suits-e6c25b",
@@ -1377,8 +1377,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:13+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:13+00:00"
   },
   "2024_jaf_kart_kitei_fees_20221101-5e1404": {
    "docId": "2024_jaf_kart_kitei_fees_20221101-5e1404",
@@ -1388,12 +1388,12 @@
    "sha256": "06a21f8e2d03be84c214c12cbff6e196b4eae32bd4efa5445ee541b488966b7b",
    "bytes": 825733,
    "pageCount": 7,
-   "chars": 2672,
+   "chars": 7214,
    "figures": 0,
    "tables": 22,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:15+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:16+00:00"
   },
   "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784": {
    "docId": "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784",
@@ -1403,12 +1403,12 @@
    "sha256": "349a491eaeeae4c37e978dd9c10b2497cc0cb0de43d020f228b389ef685a61b8",
    "bytes": 253541,
    "pageCount": 11,
-   "chars": 10076,
+   "chars": 11329,
    "figures": 0,
    "tables": 8,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:16+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:17+00:00"
   },
   "jaf_kart_kitei_sport_reg_20270101-01-27628d": {
    "docId": "jaf_kart_kitei_sport_reg_20270101-01-27628d",
@@ -1418,12 +1418,12 @@
    "sha256": "d378ffbccd96556f59d52da75513b45a5b27647b64ee7cf84450c010975786b8",
    "bytes": 252503,
    "pageCount": 8,
-   "chars": 8593,
+   "chars": 9121,
    "figures": 0,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:18+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:18+00:00"
   },
   "2026_jaf_kart_kokunai_tech_reg_20260101-02-ca0fb3": {
    "docId": "2026_jaf_kart_kokunai_tech_reg_20260101-02-ca0fb3",
@@ -1433,12 +1433,12 @@
    "sha256": "b0857b8d5b6cbcab01630a55c50e085cb6d2c63448d3b65cf9df837a826ee0b6",
    "bytes": 1009616,
    "pageCount": 54,
-   "chars": 53220,
+   "chars": 55680,
    "figures": 11,
    "tables": 7,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:21+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:22+00:00"
   },
   "jaf_kart_homologe_engine_suits_chassis_tyres-02-ada187": {
    "docId": "jaf_kart_homologe_engine_suits_chassis_tyres-02-ada187",
@@ -1448,12 +1448,12 @@
    "sha256": "2be48f71e01e55414d6ba1a0126d41e822716ae8ef530a41cc016f68ce07f6bb",
    "bytes": 98804,
    "pageCount": 8,
-   "chars": 44,
+   "chars": 5061,
    "figures": 0,
    "tables": 8,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:21+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:23+00:00"
   },
   "2026_jaf_kart_homologe_course-01-97b915": {
    "docId": "2026_jaf_kart_homologe_course-01-97b915",
@@ -1463,12 +1463,12 @@
    "sha256": "e15d35aa48ff969dab5b2f6f82d056ded1714bcb2fc02a6a92fb624b3e1734ef",
    "bytes": 113642,
    "pageCount": 1,
-   "chars": 31,
+   "chars": 2075,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:22+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:24+00:00"
   },
   "2026_jaf_kart_toukei-01-4beeda": {
    "docId": "2026_jaf_kart_toukei-01-4beeda",
@@ -1478,12 +1478,12 @@
    "sha256": "26bb430b8d8ffd146a30110542156c408044a236fac2a1fb98ca7ab35dd69710",
    "bytes": 89735,
    "pageCount": 7,
-   "chars": 4,
+   "chars": 6769,
    "figures": 0,
    "tables": 7,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:24+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:26+00:00"
   },
   "2024_jaf_kart_signal_flag-13d694": {
    "docId": "2024_jaf_kart_signal_flag-13d694",
@@ -1493,12 +1493,12 @@
    "sha256": "e091047da7be35f9c71750db06b17eb80a5e46b71387af8cb727bf19b0564604",
    "bytes": 109412,
    "pageCount": 1,
-   "chars": 555,
-   "figures": 13,
+   "chars": 567,
+   "figures": 12,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:25+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:27+00:00"
   },
   "2026_touitsu_kisoku_superformula_20260101-f03955": {
    "docId": "2026_touitsu_kisoku_superformula_20260101-f03955",
@@ -1508,12 +1508,12 @@
    "sha256": "9e5eb324f2f4c8660d9b716cbf35a1874247fc6baa8706ae2b2539630ae2369a",
    "bytes": 621063,
    "pageCount": 43,
-   "chars": 39152,
+   "chars": 39611,
    "figures": 0,
    "tables": 6,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:28+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:30+00:00"
   },
   "2026_touitsu_kisoku_superformula_lights_20260101-1cb933": {
    "docId": "2026_touitsu_kisoku_superformula_lights_20260101-1cb933",
@@ -1523,12 +1523,12 @@
    "sha256": "d4031b8a60c2de860731270e42fd7627af9b9edbff88f578cec5cce71ea9ce24",
    "bytes": 605747,
    "pageCount": 40,
-   "chars": 36637,
+   "chars": 36745,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:29+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:32+00:00"
   },
   "race_bulletin_001-2026_20260226-fa3156": {
    "docId": "race_bulletin_001-2026_20260226-fa3156",
@@ -1542,8 +1542,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:30+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:33+00:00"
   },
   "race_bulletin_001-2026_att_1_20260226-e86e70": {
    "docId": "race_bulletin_001-2026_att_1_20260226-e86e70",
@@ -1557,8 +1557,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:31+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:34+00:00"
   },
   "race_bulletin_002-2026_20260226-839de8": {
    "docId": "race_bulletin_002-2026_20260226-839de8",
@@ -1572,8 +1572,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:33+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:36+00:00"
   },
   "race_bulletin_002-2026_att_1_20260226-968518": {
    "docId": "race_bulletin_002-2026_att_1_20260226-968518",
@@ -1583,12 +1583,12 @@
    "sha256": "f54b85c1c2e7c6b7b5827af352fb749ef9752d7126f532a45ee1bc23dac34261",
    "bytes": 382796,
    "pageCount": 5,
-   "chars": 706,
+   "chars": 3303,
    "figures": 0,
    "tables": 21,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:35+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:38+00:00"
   },
   "race_bulletin_002-2026_att_2_20260226-d1237f": {
    "docId": "race_bulletin_002-2026_att_2_20260226-d1237f",
@@ -1598,12 +1598,12 @@
    "sha256": "75aed0a2aecffcfe6ec019dc9da30e46208a6861fa77c9cfdd240535f23eefdc",
    "bytes": 929872,
    "pageCount": 18,
-   "chars": 47,
+   "chars": 65863,
    "figures": 1,
    "tables": 18,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:40+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:49+00:00"
   },
   "race_bulletin_002-2026_att_3_20260226-8571e3": {
    "docId": "race_bulletin_002-2026_att_3_20260226-8571e3",
@@ -1613,12 +1613,12 @@
    "sha256": "7a9cff689ca9bf85326d49e31125b046a47885514d5c4b1639ec6965fce1d8bf",
    "bytes": 4810284,
    "pageCount": 42,
-   "chars": 22721,
-   "figures": 112,
+   "chars": 22733,
+   "figures": 109,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:46+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:57+00:00"
   },
   "race_bulletin_003-2026_20260610-299efd": {
    "docId": "race_bulletin_003-2026_20260610-299efd",
@@ -1632,8 +1632,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:46+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:56:59+00:00"
   },
   "2026_touitsu_kisoku_all_japan_rally_20260101-5246e4": {
    "docId": "2026_touitsu_kisoku_all_japan_rally_20260101-5246e4",
@@ -1647,8 +1647,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:48+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:00+00:00"
   },
   "all_japan_rally_regulations_jp4-3e69c4": {
    "docId": "all_japan_rally_regulations_jp4-3e69c4",
@@ -1658,12 +1658,12 @@
    "sha256": "183a2d68b663488c1cdd0160d99521ca925af25322696205233568e1a823743b",
    "bytes": 568843,
    "pageCount": 21,
-   "chars": 23586,
-   "figures": 5,
+   "chars": 24613,
+   "figures": 4,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:50+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:02+00:00"
   },
   "2026_touitsu_kisoku_all_japan_gymk_dirt_20260101-451f80": {
    "docId": "2026_touitsu_kisoku_all_japan_gymk_dirt_20260101-451f80",
@@ -1673,12 +1673,12 @@
    "sha256": "95a55a617e69664a57d80f7df41516f7240f251687ffad348bef005ce8956ebc",
    "bytes": 472147,
    "pageCount": 16,
-   "chars": 17553,
-   "figures": 5,
+   "chars": 18142,
+   "figures": 3,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:51+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:03+00:00"
   },
   "2026_touitsu_kisoku_all_japan_junior_kart_20260101-fa8e5c": {
    "docId": "2026_touitsu_kisoku_all_japan_junior_kart_20260101-fa8e5c",
@@ -1688,12 +1688,12 @@
    "sha256": "f31c5a0a67e40a86cb95b5c974e39c0dedfd5bee7d70e2dfc279c4c0e562ac18",
    "bytes": 2247902,
    "pageCount": 46,
-   "chars": 61182,
+   "chars": 90201,
    "figures": 25,
    "tables": 29,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T12:59:56+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:12+00:00"
   },
   "2026_japanese_karting_championship_specification_fs125-04a2ce": {
    "docId": "2026_japanese_karting_championship_specification_fs125-04a2ce",
@@ -1703,12 +1703,12 @@
    "sha256": "903508e886aa5c27130e22e91ecccbb75a620597bcddc9946d310ff07bbfb178",
    "bytes": 9558837,
    "pageCount": 51,
-   "chars": 457,
-   "figures": 39,
+   "chars": 9724,
+   "figures": 26,
    "tables": 15,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:05+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:22+00:00"
   },
   "e-motorsport_bulletin_001-2026_20260224-0b9466": {
    "docId": "e-motorsport_bulletin_001-2026_20260224-0b9466",
@@ -1722,8 +1722,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:06+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:23+00:00"
   },
   "light-panel_guidelines_20250430-649f76": {
    "docId": "light-panel_guidelines_20250430-649f76",
@@ -1737,8 +1737,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:07+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:24+00:00"
   },
   "autotest_guidelines_20241219-1f2748": {
    "docId": "autotest_guidelines_20241219-1f2748",
@@ -1748,12 +1748,12 @@
    "sha256": "101fcdba561ce44e84f0ef999777252a7192ba4d848706cbed6bc48b4b3b39bf",
    "bytes": 175321,
    "pageCount": 6,
-   "chars": 0,
-   "figures": 6,
+   "chars": 7146,
+   "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:09+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:26+00:00"
   },
   "autotest_promotion_flyer_20260522-ff2190": {
    "docId": "autotest_promotion_flyer_20260522-ff2190",
@@ -1763,12 +1763,12 @@
    "sha256": "b3b6c821bba71b87740652ace41ec353f9e44fee25d5ff6c4c578ce88f5adaeb",
    "bytes": 1101863,
    "pageCount": 2,
-   "chars": 21,
-   "figures": 1,
+   "chars": 1749,
+   "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:11+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:28+00:00"
   },
   "drifttest_guidelines_20240624-d3d9e5": {
    "docId": "drifttest_guidelines_20240624-d3d9e5",
@@ -1782,8 +1782,8 @@
    "figures": 2,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:11+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:29+00:00"
   },
   "vehicles_event_guidelines_20230327-3bce1a": {
    "docId": "vehicles_event_guidelines_20230327-3bce1a",
@@ -1793,12 +1793,12 @@
    "sha256": "177306f24683e18b1817b6afd3b8a93979ad4010284d17fb7920a7070bc60cc7",
    "bytes": 1252038,
    "pageCount": 11,
-   "chars": 9320,
+   "chars": 9639,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:15+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:31+00:00"
   },
   "esports_drivers_guidelines_20251023-04c8e1": {
    "docId": "esports_drivers_guidelines_20251023-04c8e1",
@@ -1808,12 +1808,12 @@
    "sha256": "39e7448f620f7ce0d427331ba3d3ad0f1d8d4ed5fe5c05c9097a115c3813290f",
    "bytes": 250710,
    "pageCount": 2,
-   "chars": 1397,
-   "figures": 1,
+   "chars": 1706,
+   "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:16+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:32+00:00"
   },
   "esports_event_guidelines_20250410-3818f0": {
    "docId": "esports_event_guidelines_20250410-3818f0",
@@ -1827,8 +1827,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:17+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:33+00:00"
   },
   "ethics_requirements_20240901-9ac333": {
    "docId": "ethics_requirements_20240901-9ac333",
@@ -1842,8 +1842,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:19+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:35+00:00"
   },
   "report-consultation_desk_20240901-ca8c2d": {
    "docId": "report-consultation_desk_20240901-ca8c2d",
@@ -1857,8 +1857,8 @@
    "figures": 1,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:20+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:36+00:00"
   },
   "event_go-nogo_decision_guidelines_20260814-5a73e6": {
    "docId": "event_go-nogo_decision_guidelines_20260814-5a73e6",
@@ -1868,12 +1868,12 @@
    "sha256": "7540360ca65c489f4fc5ece831ab2b42d4beb19d9959ceca983174c0e237a5c7",
    "bytes": 1242198,
    "pageCount": 10,
-   "chars": 3294,
-   "figures": 7,
+   "chars": 4170,
+   "figures": 5,
    "tables": 3,
    "warnings": 1,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:23+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:39+00:00"
   },
   "fia_isc_jadr_ja_20260101-e486ab": {
    "docId": "fia_isc_jadr_ja_20260101-e486ab",
@@ -1883,12 +1883,12 @@
    "sha256": "7844b3450abdac7e68902e57160f267612c0ecfdfad36c7672a806bdcd8c2c12",
    "bytes": 1034765,
    "pageCount": 140,
-   "chars": 133238,
-   "figures": 2,
+   "chars": 135136,
+   "figures": 1,
    "tables": 5,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:27+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:44+00:00"
   },
   "fia_isc_apx_a_ja_20210331-ede9aa": {
    "docId": "fia_isc_apx_a_ja_20210331-ede9aa",
@@ -1902,8 +1902,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:29+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:49+00:00"
   },
   "fia_isc_apx_e_ja_20250820-267690": {
    "docId": "fia_isc_apx_e_ja_20250820-267690",
@@ -1913,12 +1913,12 @@
    "sha256": "5c338f75f7d22c438281bdfe4bd5f37738c88f61fc25e2902abda2b45e9e3883",
    "bytes": 479384,
    "pageCount": 38,
-   "chars": 45224,
+   "chars": 45741,
    "figures": 0,
    "tables": 2,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:30+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:51+00:00"
   },
   "fia_isc_apx_h_ja_20260312-ee90dd": {
    "docId": "fia_isc_apx_h_ja_20260312-ee90dd",
@@ -1928,12 +1928,12 @@
    "sha256": "67d32939e60b7d9f4e18811b10238e4fb097e3fbb7422ec57600b2fa8f827cac",
    "bytes": 1379387,
    "pageCount": 218,
-   "chars": 146728,
-   "figures": 12,
+   "chars": 150244,
+   "figures": 5,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:35+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:57+00:00"
   },
   "fia_isc_apx_h_ja_flag-signal-4b4f1c": {
    "docId": "fia_isc_apx_h_ja_flag-signal-4b4f1c",
@@ -1947,8 +1947,8 @@
    "figures": 12,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:00:35+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:57:58+00:00"
   },
   "fia_isc_apx_j_ja_20260109-46cee8": {
    "docId": "fia_isc_apx_j_ja_20260109-46cee8",
@@ -1958,12 +1958,12 @@
    "sha256": "976d7965d0ad5bfe9c0673b91a02578c02e8d22f319ce1de36d5c2d2c22d3f22",
    "bytes": 13908771,
    "pageCount": 782,
-   "chars": 398522,
-   "figures": 74,
+   "chars": 611336,
+   "figures": 54,
    "tables": 251,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:01+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:36+00:00"
   },
   "fia_isc_apx_k_ja_20260101-6bd6d1": {
    "docId": "fia_isc_apx_k_ja_20260101-6bd6d1",
@@ -1973,12 +1973,12 @@
    "sha256": "27984bc743ab0b72dcb881994d9dc3bccc1921cb1c699c5b91d32820bfcd6dfc",
    "bytes": 1102062,
    "pageCount": 113,
-   "chars": 118445,
-   "figures": 13,
+   "chars": 125931,
+   "figures": 12,
    "tables": 31,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:05+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:44+00:00"
   },
   "fia_isc_apx_l_ja_20260326-91f108": {
    "docId": "fia_isc_apx_l_ja_20260326-91f108",
@@ -1988,12 +1988,12 @@
    "sha256": "eec0017d72337dd6766ac87329fd731a0200bf9437d082865ca4fdf3e05e993c",
    "bytes": 652949,
    "pageCount": 64,
-   "chars": 57075,
+   "chars": 65747,
    "figures": 0,
    "tables": 24,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:06+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:49+00:00"
   },
   "fia_isc_apx_o_ja_20251223-e7bf17": {
    "docId": "fia_isc_apx_o_ja_20251223-e7bf17",
@@ -2003,12 +2003,12 @@
    "sha256": "342cd92741e8f4407b0dfca2ec1c5caa031fe37cabc624d0f2a204df0537ee8e",
    "bytes": 471633,
    "pageCount": 22,
-   "chars": 24221,
+   "chars": 28255,
    "figures": 0,
    "tables": 11,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:07+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:51+00:00"
   },
   "fia_isc_apx_s_ja_20230210-9b1058": {
    "docId": "fia_isc_apx_s_ja_20230210-9b1058",
@@ -2022,8 +2022,8 @@
    "figures": 0,
    "tables": 0,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:08+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:52+00:00"
   },
   "fia_isc_apx_s_fr_en_20200901-b8e01c": {
    "docId": "fia_isc_apx_s_fr_en_20200901-b8e01c",
@@ -2033,12 +2033,12 @@
    "sha256": "d08eeb4344d1de2a7e141a5d90bd641cdcb4ae765578fc59167e4ec67c8f3119",
    "bytes": 344342,
    "pageCount": 22,
-   "chars": 48026,
-   "figures": 1,
+   "chars": 95364,
+   "figures": 0,
    "tables": 13,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:12+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:58:58+00:00"
   },
   "fia_driver_categorisation_reg_ja_20231206-f53f0f": {
    "docId": "fia_driver_categorisation_reg_ja_20231206-f53f0f",
@@ -2048,12 +2048,12 @@
    "sha256": "57c0d802a9cae1f1981c9acc9d8b8e53373342a92aad237d2e6ea4f879624cbf",
    "bytes": 216300,
    "pageCount": 7,
-   "chars": 8914,
+   "chars": 9452,
    "figures": 0,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:13+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:00+00:00"
   },
   "fia_isc_fr_en_20170101-068528": {
    "docId": "fia_isc_fr_en_20170101-068528",
@@ -2063,12 +2063,12 @@
    "sha256": "cfd36a608f3c864afdb71618ccdff4c9a43c6892c080de6d2aca07a572cce043",
    "bytes": 894226,
    "pageCount": 78,
-   "chars": 319782,
+   "chars": 322091,
    "figures": 1,
    "tables": 6,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:21+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:13+00:00"
   },
   "2026_fia_f1_reg_a_ja_20251210-4cbc23": {
    "docId": "2026_fia_f1_reg_a_ja_20251210-4cbc23",
@@ -2078,12 +2078,12 @@
    "sha256": "c4238cc2c1bb1663521363e8e6bdbed1b70980b0ff3f73b9824d75d656275f5c",
    "bytes": 653118,
    "pageCount": 66,
-   "chars": 82017,
+   "chars": 82562,
    "figures": 1,
    "tables": 4,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:23+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:18+00:00"
   },
   "2026_fia_f1_reg_b_ja_20251210-beefe0": {
    "docId": "2026_fia_f1_reg_b_ja_20251210-beefe0",
@@ -2093,12 +2093,12 @@
    "sha256": "6ee6965251c88f5ccbe99e7954f21be37c3a3a8e073ef7b046aff3e5c877331f",
    "bytes": 715466,
    "pageCount": 92,
-   "chars": 105624,
+   "chars": 109046,
    "figures": 1,
    "tables": 14,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:25+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:22+00:00"
   },
   "2026_fia_f1_reg_c_ja_20251210-9f87a0": {
    "docId": "2026_fia_f1_reg_c_ja_20251210-9f87a0",
@@ -2108,12 +2108,12 @@
    "sha256": "c35fc7e6da64e0e10526c3023cb7a99b90cd14434221154f0812b01b3e5a842c",
    "bytes": 6250788,
    "pageCount": 245,
-   "chars": 251870,
+   "chars": 271546,
    "figures": 20,
    "tables": 25,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:33+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:36+00:00"
   },
   "2026_fia_fe_sport_reg_ja_20260227-7adf34": {
    "docId": "2026_fia_fe_sport_reg_ja_20260227-7adf34",
@@ -2123,12 +2123,12 @@
    "sha256": "8dc6dc696aa0b4f11564379902f0b679346b5424b7e93b1307d3095cafc84db7",
    "bytes": 1620959,
    "pageCount": 83,
-   "chars": 81702,
-   "figures": 22,
+   "chars": 82808,
+   "figures": 19,
    "tables": 1,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:36+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:44+00:00"
   },
   "2026_fia_fe_tech_reg_ja_20250611-25477c": {
    "docId": "2026_fia_fe_tech_reg_ja_20250611-25477c",
@@ -2138,12 +2138,12 @@
    "sha256": "8de36b4572009adce21c094de17f98870389749569ec9dabd49cd161f0a7443f",
    "bytes": 1574975,
    "pageCount": 66,
-   "chars": 51208,
-   "figures": 21,
+   "chars": 51825,
+   "figures": 20,
    "tables": 3,
    "warnings": 0,
-   "pipelineVersion": "0.1.0",
-   "convertedAt": "2026-09-09T13:01:39+00:00"
+   "pipelineVersion": "0.2.0",
+   "convertedAt": "2026-09-09T20:59:50+00:00"
   },
   "2026_fia_wec_sport_tech_reg_en_ja_20260101-b5a61f": {
    "docId": "2026_fia_wec_sport_tech_reg_en_ja_20260101-b5a61f",
@@ -2401,6 +2401,6 @@
    "convertedAt": "2026-09-09T13:24:12+00:00"
   }
  },
- "updatedAt": "2026-09-09T13:24:12+00:00",
+ "updatedAt": "2026-09-09T20:59:50+00:00",
  "pipelineVersion": "0.2.0"
 }

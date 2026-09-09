@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2024_jaf_guideline_official_resque.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "3305abee17d344e0c6a412fa59c96f0a8a03e37df3e0ef4955d3f34dd335080f",
+ "bytes": 1104465,
  "docId": "2024_jaf_guideline_official_resque-271780",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:14+00:00",
+ "convertedAt": "2026-09-09T20:53:51+00:00",
  "stats": {
   "chars": 2715,
   "figures": 0,

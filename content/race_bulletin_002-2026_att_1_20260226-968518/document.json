@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3493/race_bulletin_002-2026_att_1_20260226.pdf",
  "uploadDate": "2026-02-26",
  "sha256": "f54b85c1c2e7c6b7b5827af352fb749ef9752d7126f532a45ee1bc23dac34261",
+ "bytes": 382796,
  "docId": "race_bulletin_002-2026_att_1_20260226-968518",
  "pageCount": 5,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:43+00:00",
+ "convertedAt": "2026-09-09T20:56:38+00:00",
  "stats": {
   "chars": 3303,
   "figures": 0,

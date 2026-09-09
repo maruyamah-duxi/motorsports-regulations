@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/jaf_kitei_jafcup_circuit_20270101-01.pdf",
  "uploadDate": "2026-09-09",
  "sha256": "3706a186467233cdeddf44258d49d2c59302081f8b36429dab92ac32b74aa8eb",
+ "bytes": 151309,
  "docId": "jaf_kitei_jafcup_circuit_20270101-01-63793e",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:15+00:00",
+ "convertedAt": "2026-09-09T20:54:08+00:00",
  "stats": {
   "chars": 2373,
   "figures": 0,

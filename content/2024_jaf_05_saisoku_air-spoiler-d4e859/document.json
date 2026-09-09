@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2024_jaf_05_saisoku_air-spoiler.pdf",
  "uploadDate": "2024-04-24",
  "sha256": "85f0e5e569080b218232e636eb0adc8a7b4a09cea86732e7c9c72cc698f382d9",
+ "bytes": 751053,
  "docId": "2024_jaf_05_saisoku_air-spoiler-d4e859",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:34+00:00",
+ "convertedAt": "2026-09-09T20:55:46+00:00",
  "stats": {
   "chars": 1316,
   "figures": 1,

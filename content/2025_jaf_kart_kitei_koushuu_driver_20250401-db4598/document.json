@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2025_jaf_kart_kitei_koushuu_driver_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "fe9f8644a14bcc814796d39cec509b867116b44455e0d2acb0de3cc586dc6d5c",
+ "bytes": 160740,
  "docId": "2025_jaf_kart_kitei_koushuu_driver_20250401-db4598",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:08+00:00",
  "stats": {
   "chars": 3187,
   "figures": 0,

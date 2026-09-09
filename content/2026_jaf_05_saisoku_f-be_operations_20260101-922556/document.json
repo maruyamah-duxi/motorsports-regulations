@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2026_jaf_05_saisoku_f-be_operations_20260101.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "35854e6d39eb7abac3ed86d28c13c2df224dc32c445e112c96f4507ebd0102e4",
+ "bytes": 67476,
  "docId": "2026_jaf_05_saisoku_f-be_operations_20260101-922556",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:34+00:00",
  "stats": {
   "chars": 374,
   "figures": 0,

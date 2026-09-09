@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2025_jaf_kitei_calendar_touroku_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "cb59fad0cdde53d2aefa9bce7f2623e2687c127545ea2e82f7c8cdb3ee099676",
+ "bytes": 167382,
  "docId": "2025_jaf_kitei_calendar_touroku_20250401-143921",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:13+00:00",
+ "convertedAt": "2026-09-09T20:53:36+00:00",
  "stats": {
   "chars": 3390,
   "figures": 0,

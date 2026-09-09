@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2024_jaf_jmrc_kaigi_19980101.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "467e151155a6651df930ae5753c87c9c5c396d1050a0c60e19e537675403a1dc",
+ "bytes": 1097727,
  "docId": "2024_jaf_jmrc_kaigi_19980101-8ebee0",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:14+00:00",
+ "convertedAt": "2026-09-09T20:53:47+00:00",
  "stats": {
   "chars": 465,
   "figures": 0,

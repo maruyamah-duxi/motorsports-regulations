@@ -1,8 +1,867 @@
 {
- "generatedAt": "2026-09-09T13:09:06+00:00",
+ "generatedAt": "2026-09-09T20:53:21+00:00",
  "added": [],
- "updated": [],
- "unchanged": 160,
+ "updated": [
+  {
+   "docId": "2025_jaf_kokunai_sporting_code_20250101-6b63ea",
+   "title": "国内競技規則_20250101",
+   "uploadDate": "2024-12-09",
+   "previousUploadDate": "2024-12-09"
+  },
+  {
+   "docId": "2025_jaf_kitei_soshiki_20250401-fbb9d0",
+   "title": "自動車競技の組織に関する規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "jaf_kitei_soshiki_20270101-01-7cd2be",
+   "title": "自動車競技の組織に関する規定_20270101",
+   "uploadDate": "2026-06-10",
+   "previousUploadDate": "2026-06-10"
+  },
+  {
+   "docId": "2024_jaf_saisoku_meishou_20120329-36dfb9",
+   "title": "名称に関する細則_20120329",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_saisoku_kounin_kaisai-ce034d",
+   "title": "公認競技会開催の手続きについて",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "jaf_kitei_shikaku_touroku_20260801-01-9260bd",
+   "title": "JAFスポーツ資格登録規定_20260801",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2024_jaf_kitei_fia_driver_license_hosoku-948432",
+   "title": "FIA国際ドライバーライセンス規定の補足事項",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_kitei_calendar_touroku_20250401-143921",
+   "title": "国内スポーツカレンダー登録規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kitei_yonrin_fees_20220901-02-e56390",
+   "title": "自動車競技に関する申請・登録等手数料規定_20220901",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2024_jaf_kitei_all_japan_shinsa_20030601-d1babc",
+   "title": "全日本選手権競技会等の競技会審査委員に関する規定_20030601",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_kitei_koushuu_kaisai_20250401-c32228",
+   "title": "講習会開設規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kitei_jaf_touroku_homologe_20250401-c2c1d1",
+   "title": "JAF登録車両規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kitei_kokunai_circuit_kounin_20250401-29a5d8",
+   "title": "JAF国内サーキットの公認に関する規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kitei_kokunai_speed_course_kounin_20250401-439e1d",
+   "title": "JAF国内スピード競技コースの公認に関する規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_jmrc_kaigi_19980101-8ebee0",
+   "title": "JAF登録クラブ地域協議会連絡会議_19980101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_guideline_shinsa_fukumu-6f0b19",
+   "title": "JAF公認競技会における審査委員服務要綱",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2026_jaf_kitei_shinpan_fukumu-9dad87",
+   "title": "JAF公認審判員服務要項（レース）",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2024_jaf_guideline_official_resque-271780",
+   "title": "オフィシャル救急活動に関する要項",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_guideline_safety-8b63f6",
+   "title": "JAFモータースポーツ安全ガイドライン（国内版）",
+   "uploadDate": "2024-02-16",
+   "previousUploadDate": "2024-02-16"
+  },
+  {
+   "docId": "2026_jaf_sport_reg_race_20260101-801c15",
+   "title": "2026年日本レース選手権規定_20260101",
+   "uploadDate": "2025-09-29",
+   "previousUploadDate": "2025-09-29"
+  },
+  {
+   "docId": "jaf_sport_reg_race_20270101-01-9289b7",
+   "title": "2027年日本レース選手権規定_20270101",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2025_jaf_kitei_kaisai_race_gp_20250401-78d4f2",
+   "title": "グランプリレース開催規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2026_jaf_sport_reg_rally_20260101-02-8852f1",
+   "title": "2026年日本ラリー選手権規定_20260101",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2026_jaf_sport_reg_gymk_dirt_20260101-02-3a4e95",
+   "title": "2026年日本ジムカーナ / ダートトライアル選手権規定_20260101",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2026_jaf_kitei_jafcup_gymk_dirt_20260401-495b27",
+   "title": "2026年JAFカップオールジャパンジムカーナ / ダートトライアル規定_20260401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2026_jaf_sport_reg_ct_20260101-14173f",
+   "title": "2026年日本サーキットトライアル選手権規定_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "jaf_sport_reg_ct_20270101-01-4d9cdd",
+   "title": "2027年日本サーキットトライアル選手権規定_20270101",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2",
+   "title": "2026年JAFカップオールジャパンサーキットトライアル規定_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "jaf_kitei_jafcup_circuit_20270101-01-63793e",
+   "title": "2027年JAFカップオールジャパンサーキットトライアル規定_20270101",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2026_jaf_sport_reg_drift_20260101-56d8c3",
+   "title": "2026年日本ドリフト選手権規定_20260101",
+   "uploadDate": "2025-09-29",
+   "previousUploadDate": "2025-09-29"
+  },
+  {
+   "docId": "2025_jaf_kitei_kaisai_race_20250501-6eaf2c",
+   "title": "レース競技開催規定_20250501",
+   "uploadDate": "2025-06-04",
+   "previousUploadDate": "2025-06-04"
+  },
+  {
+   "docId": "2026_jaf_kitei_kaisai_race_nzero_2060401-01-aa6285",
+   "title": "自動車登録番号標付車両によるレース開催規定_20260401",
+   "uploadDate": "2026-05-11",
+   "previousUploadDate": "2026-05-11"
+  },
+  {
+   "docId": "2025_jaf_kitei_kaisai_rally_20250401-c7b786",
+   "title": "ラリー競技開催規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2026_jaf_kitei_kaisai_rally_ave1_20260101-d63678",
+   "title": "ラリー競技開催規定細則第1種アベレージラリー開催規定_20260101",
+   "uploadDate": "2026-03-03",
+   "previousUploadDate": "2026-03-03"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_rally_ave2_20220101-85df5d",
+   "title": "ラリー競技開催規定細則第2種アベレージラリー開催規定_20220101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "jaf_kitei_kaisai_rally_ss_20260101-01-c3487b",
+   "title": "ラリー競技開催規定細則スペシャルステージラリー開催規定_20260101",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2024_jaf_kitei_speed_20240527-d000c3",
+   "title": "スピード競技開催規定_20240527",
+   "uploadDate": "2024-08-13",
+   "previousUploadDate": "2024-08-13"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_closed_20170701-a6c860",
+   "title": "スピード競技開催規定細則クローズド競技会開催要項_20170701",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_kitei_kaisai_speed_guide_ct_20250401-69e277",
+   "title": "スピード競技開催規定細則サーキットトライアル競技開催要項_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_twint_20170701-ab3b78",
+   "title": "スピード競技開催規定細則ツイントライアル競技開催要項_20170701",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_kitei_kaisai_speed_guide_dragr_20250401-81b81a",
+   "title": "スピード競技開催規定細則ドラッグレース競技開催要項_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_drift_20170701-eb38ee",
+   "title": "スピード競技開催規定細則ドリフト競技開催要項_20170701",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_at_20200101-05d89c",
+   "title": "スピード競技開催規定細則オートテスト開催要項_20200101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_hillc_20200101-7ecf1e",
+   "title": "スピード競技開催規定細則ヒルクライム競技開催要項_20200101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_kitei_kaisai_speed_guide_drifttest_20240527-b0d19a",
+   "title": "スピード競技開催規定細則ドリフトテスト開催要項_20240527",
+   "uploadDate": "2024-08-13",
+   "previousUploadDate": "2024-08-13"
+  },
+  {
+   "docId": "2024_jaf_speed_signal_flag-bfa433",
+   "title": "スピード競技における旗信号に関する指導要項",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_sport_reg_e-sport_20250401-6e9678",
+   "title": "JAF公認Eモータースポーツ国内リーグ競技規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101-c9653b",
+   "title": "モータースポーツ中央審査委員会規定_19980101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_yb_iin_kitei_shinsaiin_19980101-db828a",
+   "title": "モータースポーツ審査委員会規定_19980101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_yb_iin_kitei_shingikai_20250201-9519a6",
+   "title": "モータースポーツ審議会規定_20250201",
+   "uploadDate": "2025-04-08",
+   "previousUploadDate": "2025-04-08"
+  },
+  {
+   "docId": "2025_jaf_yb_iin_kitei_senmonbukai_20250101-cdb287",
+   "title": "モータースポーツ専門部会規定_20250101",
+   "uploadDate": "2024-12-09",
+   "previousUploadDate": "2024-12-09"
+  },
+  {
+   "docId": "2024_jaf_yb_iin_kitei_meiyoiin_19980101-7f2beb",
+   "title": "JAFモータースポーツ名誉委員規定_19980101",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2024_jaf_yb_iin_kitei_tokubetsu_20011018-def966",
+   "title": "JAFモータースポーツ特別表彰規定_20011018",
+   "uploadDate": "2024-04-22",
+   "previousUploadDate": "2024-04-22"
+  },
+  {
+   "docId": "2025_jaf_list_kounin_circuit-8ee9ad",
+   "title": "2025年JAF公認サーキット",
+   "uploadDate": "2025-07-31",
+   "previousUploadDate": "2025-07-31"
+  },
+  {
+   "docId": "2025_jaf_list_kounin_course_speed-92d99c",
+   "title": "2025年JAF公認スピード競技コース",
+   "uploadDate": "2025-07-31",
+   "previousUploadDate": "2025-07-31"
+  },
+  {
+   "docId": "2025_jaf_2024_yonrin_toukei-0be851",
+   "title": "2024年JAFモータースポーツ統計",
+   "uploadDate": "2025-07-31",
+   "previousUploadDate": "2025-07-31"
+  },
+  {
+   "docId": "2026_jaf_kokunai_kisoku_homologe_20260101-607ff1",
+   "title": "2026年JAF国内競技車両規則_20260101",
+   "uploadDate": "2026-02-01",
+   "previousUploadDate": "2026-02-01"
+  },
+  {
+   "docId": "2026_jaf_01_kitei_race_tech_reg_20260101-52475d",
+   "title": "第1編レース車両規定_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2026_jaf_02_kitei_rally_tech_reg_20260101-4536a3",
+   "title": "第2編ラリー車両規定_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2026_jaf_03_kitei_speed_tech_reg_20260101-cfa515",
+   "title": "第3編スピード車両規定_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101-fb086e",
+   "title": "第4編カーボンニュートラル活動に関する共通規定_20260101",
+   "uploadDate": "2026-03-03",
+   "previousUploadDate": "2026-03-03"
+  },
+  {
+   "docId": "jaf_05_saisoku_race_soubi_20260101-121453",
+   "title": "レース競技に参加するドライバーの装備品に関する細則_20260101",
+   "uploadDate": "2026-06-10",
+   "previousUploadDate": "2026-06-10"
+  },
+  {
+   "docId": "2025_jaf_05_saisoku_safety_belts_race_20250101-2b655c",
+   "title": "レース競技における安全ベルトに関する細則_20250101",
+   "uploadDate": "2024-11-25",
+   "previousUploadDate": "2024-11-25"
+  },
+  {
+   "docId": "2025_jaf_05_saisoku_safety_belts_rally_20250101-22e4af",
+   "title": "ラリー競技に参加するクルーの装備品に関する細則_20250101",
+   "uploadDate": "2024-11-25",
+   "previousUploadDate": "2024-11-25"
+  },
+  {
+   "docId": "2026_jaf_05_saisoku_homologe_rollcage_20260101-819727",
+   "title": "ロールケージ製造者のロールケージJAF公認申請手続きに関する細則_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2026_jaf_05_saisoku_superfj_operations_20260101-ce2fab",
+   "title": "S-FJ車両規定の競技会用実施細則_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2025_jaf_05_saisoku_fj1500_operations-697199",
+   "title": "FJ1500車両規定の競技会用実施細則",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2026_jaf_05_saisoku_f-be_operations_20260101-922556",
+   "title": "F-Be車両規定の競技会用実施細則_20260101",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "jaf_05_saisoku_homologe_fuel_cells_2027-01-3f1519",
+   "title": "JAF / FIA公認の安全燃料タンク_2027",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "jaf_05_youkou_speed_helmets_2027-01-d3d2ea",
+   "title": "スピード競技用ヘルメットに関する指導要綱_2027",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "jaf_05_youkou_rally_speed_safety_belts_2027-01-0dba76",
+   "title": "ラリー競技およびスピード競技における安全ベルトに関する指導要綱_2027",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2024_jaf_05_youkou_race_exaust-0df369",
+   "title": "レース車両の排気音量測定に関する指導要綱",
+   "uploadDate": "2024-04-24",
+   "previousUploadDate": "2024-04-24"
+  },
+  {
+   "docId": "2024_jaf_05_youkou_rally_speed_exaust-cc4e37",
+   "title": "ラリー車両およびスピード車両の排気音量測定に関する指導要綱",
+   "uploadDate": "2024-04-24",
+   "previousUploadDate": "2024-04-24"
+  },
+  {
+   "docId": "2024_jaf_05_saisoku_rally_speed_silencer-f94bde",
+   "title": "ラリー車両およびスピードSA車両の後付マフラーに関する細則",
+   "uploadDate": "2024-04-24",
+   "previousUploadDate": "2024-04-24"
+  },
+  {
+   "docId": "2024_jaf_05_saisoku_car_accessories-4dca70",
+   "title": "アクセサリー等の自動車部品",
+   "uploadDate": "2024-04-24",
+   "previousUploadDate": "2024-04-24"
+  },
+  {
+   "docId": "2024_jaf_05_saisoku_air-spoiler-d4e859",
+   "title": "エア・スポイラの構造基準（参考）",
+   "uploadDate": "2024-04-24",
+   "previousUploadDate": "2024-04-24"
+  },
+  {
+   "docId": "jaf_05_saisoku_fia_homologe_seats_2027-01-73dfce",
+   "title": "FIA公認の競技用シート_2027",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2025_jaf_05_youkou_kounin_touroku_net-5cf67f",
+   "title": "第1編第4章公認車両および登録車両に関する安全規定第22条に規定されるネットの取付方法に係る指導要綱",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2025_jaf_05_saisoku_homologe_kounin_20251001-155ce6",
+   "title": "JAF公認車両一覧_20251001",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2025_jaf_05_saisoku_homologe_touroku_20251001-aeeaa8",
+   "title": "JAF登録車両一覧_20251001",
+   "uploadDate": "2025-12-08",
+   "previousUploadDate": "2025-12-08"
+  },
+  {
+   "docId": "2024_jaf_kart_kokunai_sporting_code_20240801-47d80a",
+   "title": "JAF国内カート競技規則_20240801",
+   "uploadDate": "2024-09-13",
+   "previousUploadDate": "2024-09-13"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_soshiki_20250401-9f5979",
+   "title": "カート競技会組織に関する規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kart_kitei_entry_20140101-0aaaa8",
+   "title": "カート競技会参加に関する規定_20140101",
+   "uploadDate": "2024-04-26",
+   "previousUploadDate": "2024-04-26"
+  },
+  {
+   "docId": "2024_jaf_kart_kitei_unei_20240801-f1398b",
+   "title": "カート競技会運営に関する規定_20240801",
+   "uploadDate": "2024-09-13",
+   "previousUploadDate": "2024-09-13"
+  },
+  {
+   "docId": "jaf_kart_kitei_license_application_20260801-01-18f747",
+   "title": "カートライセンス発給規定_20260801",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_touroku_clubs_20250401-d16473",
+   "title": "カートクラブおよび団体の登録規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kart_kitei_name_clubs_20120101-d45dab",
+   "title": "カートクラブおよびカート団体の名称に関する規定_20120101",
+   "uploadDate": "2024-04-26",
+   "previousUploadDate": "2024-04-26"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_calendar_20250401-931646",
+   "title": "JAFカートカレンダー登録規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_koushuu_driver_20250401-db4598",
+   "title": "カートドライバーライセンス講習会規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_koushuu_official_20250401-c71713",
+   "title": "カートオフィシャルライセンス講習会規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kart_kitei_course_kounin_20250401-017047",
+   "title": "国内カートコース公認規定_20250401",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2025_jaf_kart_accreditation_standard_suits-e6c25b",
+   "title": "カートレーシングスーツの国内公認基準",
+   "uploadDate": "2025-05-28",
+   "previousUploadDate": "2025-05-28"
+  },
+  {
+   "docId": "2024_jaf_kart_kitei_fees_20221101-5e1404",
+   "title": "カート競技に関する申請･登録等手数料規定_20221101",
+   "uploadDate": "2024-04-26",
+   "previousUploadDate": "2024-04-26"
+  },
+  {
+   "docId": "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784",
+   "title": "2026年日本カート選手権規定_20260101",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "jaf_kart_kitei_sport_reg_20270101-01-27628d",
+   "title": "2027年日本カート選手権規定_20270101",
+   "uploadDate": "2026-09-09",
+   "previousUploadDate": "2026-09-09"
+  },
+  {
+   "docId": "2026_jaf_kart_kokunai_tech_reg_20260101-02-ca0fb3",
+   "title": "2026年JAF国内カート競技車両規則_20260101",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "jaf_kart_homologe_engine_suits_chassis_tyres-02-ada187",
+   "title": "JAF公認カートエンジン/カート登録エンジン/公認カートスーツ/登録シャシー/指定カートタイヤ一覧",
+   "uploadDate": "2026-06-10",
+   "previousUploadDate": "2026-06-10"
+  },
+  {
+   "docId": "2026_jaf_kart_homologe_course-01-97b915",
+   "title": "2026年JAF公認カートコース一覧",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2026_jaf_kart_toukei-01-4beeda",
+   "title": "国内カート競技統計",
+   "uploadDate": "2026-03-23",
+   "previousUploadDate": "2026-03-23"
+  },
+  {
+   "docId": "2024_jaf_kart_signal_flag-13d694",
+   "title": "国内カート競技信号旗",
+   "uploadDate": "2024-04-26",
+   "previousUploadDate": "2024-04-26"
+  },
+  {
+   "docId": "2026_touitsu_kisoku_superformula_20260101-f03955",
+   "title": "2026年全日本スーパーフォーミュラ選手権統一規則_20260101",
+   "uploadDate": "2026-01-23",
+   "previousUploadDate": "2026-01-23"
+  },
+  {
+   "docId": "2026_touitsu_kisoku_superformula_lights_20260101-1cb933",
+   "title": "2026年全日本スーパーフォーミュラ・ライツ選手権統一規則_20260101",
+   "uploadDate": "2026-01-23",
+   "previousUploadDate": "2026-01-23"
+  },
+  {
+   "docId": "race_bulletin_001-2026_20260226-fa3156",
+   "title": "No.001-2026_20260226",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_001-2026_att_1_20260226-e86e70",
+   "title": "No.001-2026_添付資料1",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_002-2026_20260226-839de8",
+   "title": "No.002-2026_20260226",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_002-2026_att_1_20260226-968518",
+   "title": "No.002-2026_添付資料1",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_002-2026_att_2_20260226-d1237f",
+   "title": "No.002-2026_添付資料2",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_002-2026_att_3_20260226-8571e3",
+   "title": "No.002-2026_添付資料3",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "race_bulletin_003-2026_20260610-299efd",
+   "title": "No.003-2026_20260610",
+   "uploadDate": "2026-06-10",
+   "previousUploadDate": "2026-06-10"
+  },
+  {
+   "docId": "2026_touitsu_kisoku_all_japan_rally_20260101-5246e4",
+   "title": "2026年全日本ラリー選手権統一規則_20260101",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "all_japan_rally_regulations_jp4-3e69c4",
+   "title": "全日本ラリー選手権適用車両規定 JAF公認車両「JP4」に関する規定",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "2026_touitsu_kisoku_all_japan_gymk_dirt_20260101-451f80",
+   "title": "2026年全日本ジムカーナ / ダートトライアル選手権統一規則_20260101",
+   "uploadDate": "2026-01-22",
+   "previousUploadDate": "2026-01-22"
+  },
+  {
+   "docId": "2026_touitsu_kisoku_all_japan_junior_kart_20260101-fa8e5c",
+   "title": "2026年全日本/ジュニアカート選手権統一規則_20260101",
+   "uploadDate": "2026-03-16",
+   "previousUploadDate": "2026-03-16"
+  },
+  {
+   "docId": "2026_japanese_karting_championship_specification_fs125-04a2ce",
+   "title": "全日本カート選手権FS-125部門適用車両規定別紙X30125ccRL-CTAGエンジン仕様書",
+   "uploadDate": "2026-03-16",
+   "previousUploadDate": "2026-03-16"
+  },
+  {
+   "docId": "e-motorsport_bulletin_001-2026_20260224-0b9466",
+   "title": "No.001-2026_20260224",
+   "uploadDate": "2026-02-26",
+   "previousUploadDate": "2026-02-26"
+  },
+  {
+   "docId": "light-panel_guidelines_20250430-649f76",
+   "title": "ロード管制のためのライトパネル信号運用ガイドライン",
+   "uploadDate": "2025-04-30",
+   "previousUploadDate": "2025-04-30"
+  },
+  {
+   "docId": "autotest_guidelines_20241219-1f2748",
+   "title": "オートテスト オーガナイザーガイドライン",
+   "uploadDate": "2024-12-24",
+   "previousUploadDate": "2024-12-24"
+  },
+  {
+   "docId": "autotest_promotion_flyer_20260522-ff2190",
+   "title": "オートテスト振興チラシ_20250302",
+   "uploadDate": "2026-05-22",
+   "previousUploadDate": "2026-05-22"
+  },
+  {
+   "docId": "drifttest_guidelines_20240624-d3d9e5",
+   "title": "ドリフトテスト オーガナイザーガイドライン",
+   "uploadDate": "2024-06-24",
+   "previousUploadDate": "2024-06-24"
+  },
+  {
+   "docId": "vehicles_event_guidelines_20230327-3bce1a",
+   "title": "ゴーカート等の乗り物体験等を含むイベントに係るガイドライン",
+   "uploadDate": "2023-03-27",
+   "previousUploadDate": "2023-03-27"
+  },
+  {
+   "docId": "esports_drivers_guidelines_20251023-04c8e1",
+   "title": "Eモータースポーツドライバーズガイドライン",
+   "uploadDate": "2025-10-23",
+   "previousUploadDate": "2025-10-23"
+  },
+  {
+   "docId": "esports_event_guidelines_20250410-3818f0",
+   "title": "JAF認定Eモータースポーツイベント開催ガイドライン",
+   "uploadDate": "2025-04-10",
+   "previousUploadDate": "2025-04-10"
+  },
+  {
+   "docId": "ethics_requirements_20240901-9ac333",
+   "title": "モータースポーツ倫理要項",
+   "uploadDate": "2024-09-20",
+   "previousUploadDate": "2024-09-20"
+  },
+  {
+   "docId": "report-consultation_desk_20240901-ca8c2d",
+   "title": "モータースポーツ倫理要項に基づく通報・相談窓口に関する細則",
+   "uploadDate": "2024-09-20",
+   "previousUploadDate": "2024-09-20"
+  },
+  {
+   "docId": "event_go-nogo_decision_guidelines_20260814-5a73e6",
+   "title": "競技会開催判断指針",
+   "uploadDate": "2026-08-14",
+   "previousUploadDate": "2026-08-14"
+  },
+  {
+   "docId": "fia_isc_jadr_ja_20260101-e486ab",
+   "title": "FIA国際モータースポーツ競技規則 / 裁判および懲罰規定_日本語版_20260101(PDF：1,010.5 KB)",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "fia_isc_apx_a_ja_20210331-ede9aa",
+   "title": "FIA国際モータースポーツ競技規則付則A項_日本語版_20210331",
+   "uploadDate": "2023-06-21",
+   "previousUploadDate": "2023-06-21"
+  },
+  {
+   "docId": "fia_isc_apx_e_ja_20250820-267690",
+   "title": "FIA国際モータースポーツ競技規則付則E項_日本語版_20250820",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "fia_isc_apx_h_ja_20260312-ee90dd",
+   "title": "FIA国際モータースポーツ競技規則付則H項_日本語版_20260312",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "fia_isc_apx_h_ja_flag-signal-4b4f1c",
+   "title": "FIA国際モータースポーツ競技規則付則H項旗信号",
+   "uploadDate": "2026-09-01",
+   "previousUploadDate": "2026-09-01"
+  },
+  {
+   "docId": "fia_isc_apx_j_ja_20260109-46cee8",
+   "title": "FIA国際モータースポーツ競技規則付則J項_日本語版_20260109",
+   "uploadDate": "2026-04-03",
+   "previousUploadDate": "2026-04-03"
+  },
+  {
+   "docId": "fia_isc_apx_k_ja_20260101-6bd6d1",
+   "title": "FIA国際モータースポーツ競技規則付則K項_日本語版_20260101",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "fia_isc_apx_l_ja_20260326-91f108",
+   "title": "FIA国際モータースポーツ競技規則付則L項_日本語版_20260326",
+   "uploadDate": "2026-06-12",
+   "previousUploadDate": "2026-06-12"
+  },
+  {
+   "docId": "fia_isc_apx_o_ja_20251223-e7bf17",
+   "title": "FIA国際モータースポーツ競技規則付則O項_日本語版_20251223",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "fia_isc_apx_s_ja_20230210-9b1058",
+   "title": "FIA国際モータースポーツ競技規則付則S項_日本語版_20230210",
+   "uploadDate": "2023-05-08",
+   "previousUploadDate": "2023-05-08"
+  },
+  {
+   "docId": "fia_isc_apx_s_fr_en_20200901-b8e01c",
+   "title": "FIA国際モータースポーツ競技規則付則S項_仏語英語版_20200901",
+   "uploadDate": "2021-08-03",
+   "previousUploadDate": "2021-08-03"
+  },
+  {
+   "docId": "fia_driver_categorisation_reg_ja_20231206-f53f0f",
+   "title": "FIAドライバー分類規定_日本語版_20231206",
+   "uploadDate": "2024-03-26",
+   "previousUploadDate": "2024-03-26"
+  },
+  {
+   "docId": "fia_isc_fr_en_20170101-068528",
+   "title": "FIA国際モータースポーツ競技規則_仏語英語版_20170101",
+   "uploadDate": "2021-08-03",
+   "previousUploadDate": "2021-08-03"
+  },
+  {
+   "docId": "2026_fia_f1_reg_a_ja_20251210-4cbc23",
+   "title": "2026年競技規則（SectionA）_日本語版_20251210",
+   "uploadDate": "2026-05-25",
+   "previousUploadDate": "2026-05-25"
+  },
+  {
+   "docId": "2026_fia_f1_reg_b_ja_20251210-beefe0",
+   "title": "2026年競技規則（SectionB）_日本語版_20251210",
+   "uploadDate": "2026-05-25",
+   "previousUploadDate": "2026-05-25"
+  },
+  {
+   "docId": "2026_fia_f1_reg_c_ja_20251210-9f87a0",
+   "title": "2026年技術規則（SectionC）_日本語版_20251210",
+   "uploadDate": "2026-05-25",
+   "previousUploadDate": "2026-05-25"
+  },
+  {
+   "docId": "2026_fia_fe_sport_reg_ja_20260227-7adf34",
+   "title": "2025年 / 2026年競技規則_日本語版_20260227",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  },
+  {
+   "docId": "2026_fia_fe_tech_reg_ja_20250611-25477c",
+   "title": "2025年 / 2026年技術規則_日本語版_20250611",
+   "uploadDate": "2026-06-30",
+   "previousUploadDate": "2026-06-30"
+  }
+ ],
+ "unchanged": 17,
  "failed": [],
  "removed": []
 }

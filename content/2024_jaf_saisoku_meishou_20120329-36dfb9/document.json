@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2024_jaf_saisoku_meishou_20120329.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "0a00cb818e297558fbd3b3ae8e4ce8ca2c74199c930067a98056c2e9e38f2b0e",
+ "bytes": 1098224,
  "docId": "2024_jaf_saisoku_meishou_20120329-36dfb9",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:20:26+00:00",
+ "convertedAt": "2026-09-09T20:53:27+00:00",
  "stats": {
   "chars": 906,
   "figures": 0,

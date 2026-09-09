@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/esports_drivers_guidelines_20251023.pdf",
  "uploadDate": "2025-10-23",
  "sha256": "39e7448f620f7ce0d427331ba3d3ad0f1d8d4ed5fe5c05c9097a115c3813290f",
+ "bytes": 250710,
  "docId": "esports_drivers_guidelines_20251023-04c8e1",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:01+00:00",
+ "convertedAt": "2026-09-09T20:57:32+00:00",
  "stats": {
   "chars": 1706,
   "figures": 0,

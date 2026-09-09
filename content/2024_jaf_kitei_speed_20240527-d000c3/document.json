@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2024_jaf_kitei_speed_20240527.pdf",
  "uploadDate": "2024-08-13",
  "sha256": "cd38508eac254e15afa71c6b1e52ec511b3c1240e7d3d77d4600d1eb4f47a004",
+ "bytes": 193593,
  "docId": "2024_jaf_kitei_speed_20240527-d000c3",
  "pageCount": 4,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:17+00:00",
+ "convertedAt": "2026-09-09T20:54:21+00:00",
  "stats": {
   "chars": 3164,
   "figures": 0,

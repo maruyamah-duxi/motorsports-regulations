@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3491/2026_jaf_kart_homologe_course-01.pdf",
  "uploadDate": "2026-03-23",
  "sha256": "e15d35aa48ff969dab5b2f6f82d056ded1714bcb2fc02a6a92fb624b3e1734ef",
+ "bytes": 113642,
  "docId": "2026_jaf_kart_homologe_course-01-97b915",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:40+00:00",
+ "convertedAt": "2026-09-09T20:56:24+00:00",
  "stats": {
   "chars": 2075,
   "figures": 0,

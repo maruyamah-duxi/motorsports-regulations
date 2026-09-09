@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2024_jaf_kitei_kaisai_speed_guide_drift_20170701.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "9b53fb57e51934c0f6de3ecfe10d481c6b9a84be393c92958d36a1950c77921c",
+ "bytes": 1105384,
  "docId": "2024_jaf_kitei_kaisai_speed_guide_drift_20170701-eb38ee",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:17+00:00",
+ "convertedAt": "2026-09-09T20:54:29+00:00",
  "stats": {
   "chars": 2415,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2025_jaf_kart_kitei_calendar_20250401.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "d49118662d3a49459fdc5119401f72537fe15ebcd9870da31ae5b22ab8624798",
+ "bytes": 109835,
  "docId": "2025_jaf_kart_kitei_calendar_20250401-931646",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:07+00:00",
  "stats": {
   "chars": 2175,
   "figures": 0,

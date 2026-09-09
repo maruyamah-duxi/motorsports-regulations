@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/4279/2026_jaf_kokunai_kisoku_homologe_20260101.pdf",
  "uploadDate": "2026-02-01",
  "sha256": "6a8d3d41861fad0e800c7d6403db0f24c4247fca147fc2fff3c2a8702a5eac18",
+ "bytes": 91172,
  "docId": "2026_jaf_kokunai_kisoku_homologe_20260101-607ff1",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:19+00:00",
+ "convertedAt": "2026-09-09T20:54:52+00:00",
  "stats": {
   "chars": 961,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2025_jaf_05_youkou_kounin_touroku_net.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "ff1e170f58c32fe4de095095ffa13ac945becdf6393c27a0d2d32110b9210a46",
+ "bytes": 162282,
  "docId": "2025_jaf_05_youkou_kounin_touroku_net-5cf67f",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:34+00:00",
+ "convertedAt": "2026-09-09T20:55:49+00:00",
  "stats": {
   "chars": 661,
   "figures": 3,

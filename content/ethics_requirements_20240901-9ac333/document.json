@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/ethics_requirements_20240901.pdf",
  "uploadDate": "2024-09-20",
  "sha256": "c65aa9be7ebeaea908bd049b00981c87c537047b28f72950c5219c90595d832f",
+ "bytes": 189727,
  "docId": "ethics_requirements_20240901-9ac333",
  "pageCount": 4,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:01+00:00",
+ "convertedAt": "2026-09-09T20:57:35+00:00",
  "stats": {
   "chars": 2783,
   "figures": 0,

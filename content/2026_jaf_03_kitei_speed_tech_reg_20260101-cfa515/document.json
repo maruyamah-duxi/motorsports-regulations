@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3484/2026_jaf_03_kitei_speed_tech_reg_20260101.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "c5fb9e477fd9b5c86f846ac69ac697daeaff350bb7819299af1f9ec419fe9497",
+ "bytes": 7301422,
  "docId": "2026_jaf_03_kitei_speed_tech_reg_20260101-cfa515",
  "pageCount": 110,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:30+00:00",
+ "convertedAt": "2026-09-09T20:55:19+00:00",
  "stats": {
   "chars": 86859,
   "figures": 214,

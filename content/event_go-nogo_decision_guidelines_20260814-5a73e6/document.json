@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/event_go-nogo_decision_guidelines_20260814.pdf",
  "uploadDate": "2026-08-14",
  "sha256": "7540360ca65c489f4fc5ece831ab2b42d4beb19d9959ceca983174c0e237a5c7",
+ "bytes": 1242198,
  "docId": "event_go-nogo_decision_guidelines_20260814-5a73e6",
  "pageCount": 10,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:02+00:00",
+ "convertedAt": "2026-09-09T20:57:39+00:00",
  "stats": {
   "chars": 4170,
   "figures": 5,

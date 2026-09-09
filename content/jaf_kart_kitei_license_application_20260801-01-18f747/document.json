@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/jaf_kart_kitei_license_application_20260801-01.pdf",
  "uploadDate": "2026-09-09",
  "sha256": "882771a0c319036ca9df80189aac8354b53c34ba3dc4d60fae9a1c0a2ff75bb2",
+ "bytes": 446261,
  "docId": "jaf_kart_kitei_license_application_20260801-01-18f747",
  "pageCount": 10,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:03+00:00",
  "stats": {
   "chars": 16274,
   "figures": 0,

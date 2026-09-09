@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3477/2025_jaf_kokunai_sporting_code_20250101.pdf",
  "uploadDate": "2024-12-09",
  "sha256": "01295a9800def2ef5d87f8976feb0e0e9c770ed31236d83e5f450f8b5e260805",
+ "bytes": 548132,
  "docId": "2025_jaf_kokunai_sporting_code_20250101-6b63ea",
  "pageCount": 34,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:20:26+00:00",
+ "convertedAt": "2026-09-09T20:53:23+00:00",
  "stats": {
   "chars": 37068,
   "figures": 0,

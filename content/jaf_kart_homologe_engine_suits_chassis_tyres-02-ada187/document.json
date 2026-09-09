@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3490/jaf_kart_homologe_engine_suits_chassis_tyres-02.pdf",
  "uploadDate": "2026-06-10",
  "sha256": "2be48f71e01e55414d6ba1a0126d41e822716ae8ef530a41cc016f68ce07f6bb",
+ "bytes": 98804,
  "docId": "jaf_kart_homologe_engine_suits_chassis_tyres-02-ada187",
  "pageCount": 8,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:40+00:00",
+ "convertedAt": "2026-09-09T20:56:23+00:00",
  "stats": {
   "chars": 5061,
   "figures": 0,

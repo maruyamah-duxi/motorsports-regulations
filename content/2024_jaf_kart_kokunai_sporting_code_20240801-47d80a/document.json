@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3487/2024_jaf_kart_kokunai_sporting_code_20240801.pdf",
  "uploadDate": "2024-09-13",
  "sha256": "3630460aa0a34d5e4663e8654c21de125723d2406f6c2941836349bc7d20c83c",
+ "bytes": 290370,
  "docId": "2024_jaf_kart_kokunai_sporting_code_20240801-47d80a",
  "pageCount": 7,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:36+00:00",
+ "convertedAt": "2026-09-09T20:55:57+00:00",
  "stats": {
   "chars": 7087,
   "figures": 0,

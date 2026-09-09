@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2024_jaf_kitei_fia_driver_license_hosoku.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "1c245d889d1b533d29adc281a10d69515e8438f7d55b04a858e26c2649d292b1",
+ "bytes": 1677589,
  "docId": "2024_jaf_kitei_fia_driver_license_hosoku-948432",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:13+00:00",
+ "convertedAt": "2026-09-09T20:53:35+00:00",
  "stats": {
   "chars": 808,
   "figures": 4,

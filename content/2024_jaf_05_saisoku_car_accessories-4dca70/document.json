@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2024_jaf_05_saisoku_car_accessories.pdf",
  "uploadDate": "2024-04-24",
  "sha256": "ea21fe45a0db5025c25c56c24092294b570639375d3ce960091da3e1c662c2f7",
+ "bytes": 733353,
  "docId": "2024_jaf_05_saisoku_car_accessories-4dca70",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:34+00:00",
+ "convertedAt": "2026-09-09T20:55:44+00:00",
  "stats": {
   "chars": 898,
   "figures": 0,

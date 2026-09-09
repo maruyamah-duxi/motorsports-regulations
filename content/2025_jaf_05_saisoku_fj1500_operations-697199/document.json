@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2025_jaf_05_saisoku_fj1500_operations.pdf",
  "uploadDate": "2025-12-08",
  "sha256": "c559e89fe1337bfd72a2488bd789f111afe185d431d91cf521fa99bcf5ea9e8c",
+ "bytes": 104156,
  "docId": "2025_jaf_05_saisoku_fj1500_operations-697199",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:33+00:00",
+ "convertedAt": "2026-09-09T20:55:32+00:00",
  "stats": {
   "chars": 1104,
   "figures": 0,

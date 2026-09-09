@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/jaf_05_saisoku_race_soubi_20260101.pdf",
  "uploadDate": "2026-06-10",
  "sha256": "a9cb070aff2e06b764962f39c2557ce9c5aa501de65f9ec555b62e4b9ce20d44",
+ "bytes": 839783,
  "docId": "jaf_05_saisoku_race_soubi_20260101-121453",
  "pageCount": 13,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:32+00:00",
+ "convertedAt": "2026-09-09T20:55:26+00:00",
  "stats": {
   "chars": 10573,
   "figures": 11,

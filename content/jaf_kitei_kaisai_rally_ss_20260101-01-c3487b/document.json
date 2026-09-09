@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/jaf_kitei_kaisai_rally_ss_20260101-01.pdf",
  "uploadDate": "2026-03-23",
  "sha256": "a7f70524060439d63a881764bb7301b444578b396ad9a418f3cc931dc67eeeca",
+ "bytes": 1318561,
  "docId": "jaf_kitei_kaisai_rally_ss_20260101-01-c3487b",
  "pageCount": 31,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:17+00:00",
+ "convertedAt": "2026-09-09T20:54:20+00:00",
  "stats": {
   "chars": 39261,
   "figures": 7,

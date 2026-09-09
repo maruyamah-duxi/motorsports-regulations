@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3490/2026_jaf_kart_kokunai_tech_reg_20260101-02.pdf",
  "uploadDate": "2026-03-23",
  "sha256": "b0857b8d5b6cbcab01630a55c50e085cb6d2c63448d3b65cf9df837a826ee0b6",
+ "bytes": 1009616,
  "docId": "2026_jaf_kart_kokunai_tech_reg_20260101-02-ca0fb3",
  "pageCount": 54,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:40+00:00",
+ "convertedAt": "2026-09-09T20:56:22+00:00",
  "stats": {
   "chars": 55680,
   "figures": 11,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2024_jaf_kitei_kaisai_rally_ave2_20220101.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "f91ab06697a30bd66c27941240e2172ec0b179620fe69328524ce5b30d942d42",
+ "bytes": 1116033,
  "docId": "2024_jaf_kitei_kaisai_rally_ave2_20220101-85df5d",
  "pageCount": 6,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:16+00:00",
+ "convertedAt": "2026-09-09T20:54:17+00:00",
  "stats": {
   "chars": 7360,
   "figures": 0,

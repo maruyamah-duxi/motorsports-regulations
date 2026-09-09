@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/drifttest_guidelines_20240624.pdf",
  "uploadDate": "2024-06-24",
  "sha256": "e62e015ae5e8827a71873df5179309267d31c1241c35b96dd0ba701528fbd1e3",
+ "bytes": 184760,
  "docId": "drifttest_guidelines_20240624-d3d9e5",
  "pageCount": 7,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:01+00:00",
+ "convertedAt": "2026-09-09T20:57:29+00:00",
  "stats": {
   "chars": 4262,
   "figures": 2,

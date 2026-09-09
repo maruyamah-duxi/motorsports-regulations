@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/4299/autotest_guidelines_20241219.pdf",
  "uploadDate": "2024-12-24",
  "sha256": "101fcdba561ce44e84f0ef999777252a7192ba4d848706cbed6bc48b4b3b39bf",
+ "bytes": 175321,
  "docId": "autotest_guidelines_20241219-1f2748",
  "pageCount": 6,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:00+00:00",
+ "convertedAt": "2026-09-09T20:57:26+00:00",
  "stats": {
   "chars": 7146,
   "figures": 1,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/jaf_kitei_soshiki_20270101-01.pdf",
  "uploadDate": "2026-06-10",
  "sha256": "e3aa5504622b6fe126f5b5bb85d04fad675ce2663fcb6ae01647672465e9e582",
+ "bytes": 257784,
  "docId": "jaf_kitei_soshiki_20270101-01-7cd2be",
  "pageCount": 11,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:20:26+00:00",
+ "convertedAt": "2026-09-09T20:53:26+00:00",
  "stats": {
   "chars": 13971,
   "figures": 0,

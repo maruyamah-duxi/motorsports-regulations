@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3480/2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "9e8d64bec9ac69569132f4f7fdb4dfd7a3cd1b2f48da1af91351f2921388f883",
+ "bytes": 1097680,
  "docId": "2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101-c9653b",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:18+00:00",
+ "convertedAt": "2026-09-09T20:54:38+00:00",
  "stats": {
   "chars": 915,
   "figures": 0,

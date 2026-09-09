@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3471/3499/fia_driver_categorisation_reg_ja_20231206.pdf",
  "uploadDate": "2024-03-26",
  "sha256": "57c0d802a9cae1f1981c9acc9d8b8e53373342a92aad237d2e6ea4f879624cbf",
+ "bytes": 216300,
  "docId": "fia_driver_categorisation_reg_ja_20231206-f53f0f",
  "pageCount": 7,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:33+00:00",
+ "convertedAt": "2026-09-09T20:59:00+00:00",
  "stats": {
   "chars": 9452,
   "figures": 0,

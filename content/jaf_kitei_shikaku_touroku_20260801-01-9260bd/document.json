@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/jaf_kitei_shikaku_touroku_20260801-01.pdf",
  "uploadDate": "2026-09-09",
  "sha256": "83261b921bd4efaba9323b176978ea27ebe8ab8f3f7da66d3a2a7276bf608091",
+ "bytes": 549601,
  "docId": "jaf_kitei_shikaku_touroku_20260801-01-9260bd",
  "pageCount": 15,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:20:27+00:00",
+ "convertedAt": "2026-09-09T20:53:31+00:00",
  "stats": {
   "chars": 16780,
   "figures": 2,

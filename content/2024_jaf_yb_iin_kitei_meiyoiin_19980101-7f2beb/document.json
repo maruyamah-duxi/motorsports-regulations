@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3480/2024_jaf_yb_iin_kitei_meiyoiin_19980101.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "00e044bb01a8f8db07ccc2834ce5c531fdb27dea437f2b4104c50a2ab430456b",
+ "bytes": 1096893,
  "docId": "2024_jaf_yb_iin_kitei_meiyoiin_19980101-7f2beb",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:18+00:00",
+ "convertedAt": "2026-09-09T20:54:44+00:00",
  "stats": {
   "chars": 294,
   "figures": 0,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3478/2024_jaf_saisoku_kounin_kaisai.pdf",
  "uploadDate": "2024-04-22",
  "sha256": "e8ac8668fb90fbf88e8d0c4921c5226496f99d22fb5b813cb93b8e51a4c9c881",
+ "bytes": 1119539,
  "docId": "2024_jaf_saisoku_kounin_kaisai-ce034d",
  "pageCount": 2,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:20:26+00:00",
+ "convertedAt": "2026-09-09T20:53:29+00:00",
  "stats": {
   "chars": 1502,
   "figures": 1,

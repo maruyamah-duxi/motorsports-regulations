@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3471/3498/fia_isc_apx_h_ja_flag-signal.pdf",
  "uploadDate": "2026-09-01",
  "sha256": "31f88fa36027802ab0927945784fca2a67bec7160cc195a2d98c87efe86c2250",
+ "bytes": 82206,
  "docId": "fia_isc_apx_h_ja_flag-signal-4b4f1c",
  "pageCount": 1,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:19:08+00:00",
+ "convertedAt": "2026-09-09T20:57:58+00:00",
  "stats": {
   "chars": 643,
   "figures": 12,

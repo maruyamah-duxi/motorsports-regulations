@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/4115/2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101.pdf",
  "uploadDate": "2026-03-03",
  "sha256": "661cc740e7711c8b902345238ec753c99cd3a3651fc462b524c587c5c0d5a227",
+ "bytes": 809244,
  "docId": "2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101-fb086e",
  "pageCount": 32,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:31+00:00",
+ "convertedAt": "2026-09-09T20:55:23+00:00",
  "stats": {
   "chars": 46335,
   "figures": 8,

@@ -7,10 +7,11 @@
  "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3465/3488/2025_jaf_kart_accreditation_standard_suits.pdf",
  "uploadDate": "2025-05-28",
  "sha256": "15d5c5a2fe1346d6fb012231f33efb6626144d7e7830c24ae6488897d76df674",
+ "bytes": 200934,
  "docId": "2025_jaf_kart_accreditation_standard_suits-e6c25b",
  "pageCount": 3,
  "pipelineVersion": "0.2.0",
- "convertedAt": "2026-09-09T13:18:37+00:00",
+ "convertedAt": "2026-09-09T20:56:13+00:00",
  "stats": {
   "chars": 3046,
   "figures": 1,
