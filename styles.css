@@ -190,6 +190,34 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
 
 .doc-list { display: grid; gap: 0.6rem; }
 
+/* トップページの一覧（全規則をここから辿れるようにする） */
+.home-section { margin: 2.5rem 0; }
+.home-section > h2 {
+  font-size: 1.05rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--line);
+}
+.home-cat { margin: 1.5rem 0; scroll-margin-top: calc(var(--header-h) + 1rem); }
+.home-cat > h3 {
+  font-size: 0.95rem;
+  margin: 0 0 0.6rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.55rem;
+}
+.home-cat > h3 .count { font-size: 0.72rem; color: var(--fg-faint); font-weight: 400; margin-left: auto; }
+.home-group { margin: 0.9rem 0 1.2rem; }
+.home-group > h4 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--fg-faint);
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.02em;
+}
+
 .doc-card {
   display: block;
   border: 1px solid var(--line);

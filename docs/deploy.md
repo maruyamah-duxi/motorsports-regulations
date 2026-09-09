@@ -1,6 +1,38 @@
 # 変更を確認する手順（ローカル → Cloud Run）
 
-## 0. 前提: いま動いている Cloud Run はリポジトリから再現できない
+## 0. 重要: 既存サービスに上書きデプロイしてはいけない
+
+2026-09-09、既存サービス `jaf-motorsports-regulations-explorer` に
+`--source .` でプレビューを上げたところ、**API は新しいのにフロントエンドは
+古いまま**という状態になりました。プレビュー URL で実際に観測した挙動:
+
+| パス | 返ってきたもの |
+| --- | --- |
+| `/api/documents` | 新しい FastAPI（160 件） |
+| `/api/search` | 新しい FastAPI（`staticUrl` あり＝最新コード） |
+| `/content/...` | 新しい FastAPI（404 は JSON） |
+| `/` `/doc/abc` `/api-proxy` `/assets/*` | **同一の 99,232 バイトの HTML**（Google Sans と `@modelcontextprotocol/sdk` を読み込む AI Studio のシェル。中身は旧アプリ） |
+| `/healthz` | Google の 404 ページ |
+
+`/` `/doc/*` `/assets/*` が**まったく同じ HTML**を返し、そこに AI Studio が
+注入したシェルが入っていることから、このサービスには **AI Studio が作った
+ラッパーが前段に残っています**。自前のコンテナのフロントエンドは配られません。
+
+**対処: 新しいサービスとしてデプロイしてください**（下の 4-4）。
+AI Studio が触っていないサービスなら、この問題は起きません。
+動作を確認してから独自ドメインを付け替えるのが安全です。
+
+現状を確認したい場合:
+
+```bash
+gcloud run services describe jaf-motorsports-regulations-explorer \
+  --region us-west1 --format=yaml | head -80
+gcloud run revisions list --service jaf-motorsports-regulations-explorer --region us-west1
+```
+
+---
+
+## 0-b. 前提: いま動いている Cloud Run はリポジトリから再現できない
 
 `jp.motorsports-regulations.org` の現行デプロイは **Google AI Studio の「Cloud Run にデプロイ」機能**が作ったものです。
 実際に配信されている HTML には AI Studio が注入した以下のラッパーが入っていました。
@@ -142,16 +174,27 @@ gcloud run services update-traffic jaf-motorsports-regulations-explorer \
 Cloud Run はリビジョンが残るので、**切り戻しは常に数十秒でできます**。
 まずは 4-1 のプレビューだけ回して、納得してから 4-2 に進むのが安全です。
 
-### 4-4. 別サービスとして立てたい場合
+### 4-4. 別サービスとして立てる（いまはこちらを使う）
 
-現行サービスに一切触れたくなければ、別名でデプロイしても構いません。
+上の 0 のとおり、既存サービスには AI Studio のラッパーが残っています。
+**新しいサービス名でデプロイしてください。**
 
 ```bash
 gcloud run deploy jaf-regulations-next \
   --source . --region us-west1 --allow-unauthenticated
 ```
 
-独自ドメインは現行サービスに向いたままなので、影響はありません。
+独自ドメインは現行サービスに向いたままなので、公開中のサイトには影響しません。
+新サービスで確認が取れたら、ドメインマッピングを付け替えます。
+
+```bash
+# 確認
+curl -s https://jaf-regulations-next-XXXX.us-west1.run.app/healthz | jq
+
+# ドメインを付け替える（確認が取れてから）
+gcloud beta run domain-mappings create \
+  --service jaf-regulations-next --domain jp.motorsports-regulations.org --region us-west1
+```
 
 ---
 
