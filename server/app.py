@@ -12,6 +12,7 @@ RAG の /api/ask はこの上に足す（Gemini の API キーはここ＝サー
 from __future__ import annotations
 
 import json
+import mimetypes
 import os
 import re
 import sqlite3
@@ -31,6 +32,11 @@ DIST_DIR = Path(os.environ.get("DIST_DIR", ROOT / "dist"))
 
 MIN_TRIGRAM_LEN = 3
 MAX_LIMIT = 100
+
+# python:3.12-slim には .webp の MIME 定義が無く、図版が text/plain で配られる。
+# ブラウザは中身を見て画像と判断してくれるが、nosniff を効かせた環境では
+# 表示されなくなるので明示しておく。
+mimetypes.add_type("image/webp", ".webp")
 
 app = FastAPI(title="JAF Motorsports Regulations API", docs_url="/api/docs", redoc_url=None)
 
@@ -194,8 +200,7 @@ def document(doc_id: str) -> JSONResponse:
     return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
-@app.get("/healthz")
-def healthz() -> dict[str, Any]:
+def _health() -> dict[str, Any]:
     return {
         "ok": True,
         "searchDb": DB_PATH.exists(),
@@ -203,6 +208,21 @@ def healthz() -> dict[str, Any]:
         "dist": DIST_DIR.exists(),
         "revision": os.environ.get("K_REVISION"),
     }
+
+
+# Cloud Run（Google Front End）は "/healthz" ちょうどのパスを横取りして
+# 自前の 404 を返すため、アプリまで届かない。実測で確認済み:
+#   /healthz  → Google の 404 HTML
+#   /healthz/ /healthz2 /api/healthz → アプリに到達
+# 動作確認には /api/healthz を使う。/healthz はローカル用に残す。
+@app.get("/api/healthz")
+def api_healthz() -> dict[str, Any]:
+    return _health()
+
+
+@app.get("/healthz", include_in_schema=False)
+def healthz() -> dict[str, Any]:
+    return _health()
 
 
 # ---------------------------------------------------------------------------

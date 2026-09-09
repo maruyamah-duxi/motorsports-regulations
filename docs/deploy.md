@@ -12,7 +12,7 @@
 | `/api/search` | 新しい FastAPI（`staticUrl` あり＝最新コード） |
 | `/content/...` | 新しい FastAPI（404 は JSON） |
 | `/` `/doc/abc` `/api-proxy` `/assets/*` | **同一の 99,232 バイトの HTML**（Google Sans と `@modelcontextprotocol/sdk` を読み込む AI Studio のシェル。中身は旧アプリ） |
-| `/healthz` | Google の 404 ページ |
+| `/healthz` | Google の 404 ページ（※これは別要因。下の注記を参照） |
 
 `/` `/doc/*` `/assets/*` が**まったく同じ HTML**を返し、そこに AI Studio が
 注入したシェルが入っていることから、このサービスには **AI Studio が作った
@@ -21,6 +21,12 @@
 **対処: 新しいサービスとしてデプロイしてください**（下の 4-4）。
 AI Studio が触っていないサービスなら、この問題は起きません。
 動作を確認してから独自ドメインを付け替えるのが安全です。
+
+> **注記: `/healthz` は使えません。**
+> Cloud Run（Google Front End）は `/healthz` ちょうどのパスを横取りし、
+> アプリに届く前に自前の 404 を返します。実測:
+> `/healthz` → Google の 404 HTML、`/healthz/` `/healthz2` `/api/healthz` → アプリに到達。
+> 動作確認には **`/api/healthz`** を使ってください。
 
 現状を確認したい場合:
 
@@ -92,7 +98,8 @@ uvicorn server.app:app --reload --port 8080
 - <http://localhost:8080/content/<docId>/index.html> … 規則本文
 - <http://localhost:8080/api/search?q=ロールケージ> … 全文検索
 - <http://localhost:8080/api/docs> … API の一覧（Swagger UI）
-- <http://localhost:8080/healthz> … 各アセットが揃っているか
+- <http://localhost:8080/api/healthz> … 各アセットが揃っているか
+  （`/healthz` はローカルでは使えますが、Cloud Run では Google 側に横取りされます）
 
 ## 3. コンテナで確認（Cloud Run と同じ形）
 
@@ -137,7 +144,7 @@ gcloud run deploy jaf-motorsports-regulations-explorer \
 がプレビュー URL です。ここで確認します。
 
 ```bash
-curl -s https://preview---.../healthz | jq
+curl -s https://preview---.../api/healthz | jq
 curl -s 'https://preview---.../api/search?q=安全ベルト&limit=3' | jq '.items[].headingPath'
 ```
 
@@ -145,7 +152,7 @@ curl -s 'https://preview---.../api/search?q=安全ベルト&limit=3' | jq '.item
 
 | 見るところ | 期待 |
 | --- | --- |
-| `/healthz` | `searchDb` `content` `dist` がすべて true |
+| `/api/healthz` | `searchDb` `content` `dist` がすべて true |
 | トップ | 規則 160 件・約 5,148 ページと表示される |
 | 検索「ロールケージ 溶接」 | 見出し階層つきでヒットし、抜粋がハイライトされる |
 | 検索結果の「該当箇所を開く」 | 該当する条にスクロールする |
@@ -189,7 +196,7 @@ gcloud run deploy jaf-regulations-next \
 
 ```bash
 # 確認
-curl -s https://jaf-regulations-next-XXXX.us-west1.run.app/healthz | jq
+curl -s https://jaf-regulations-next-XXXX.us-west1.run.app/api/healthz | jq
 
 # ドメインを付け替える（確認が取れてから）
 gcloud beta run domain-mappings create \
