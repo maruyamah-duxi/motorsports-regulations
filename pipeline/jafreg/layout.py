@@ -297,9 +297,11 @@ def classify_heading(text: str, size: float, body_size: float, bold: bool) -> in
         m = pattern.match(stripped)
         if not m:
             continue
-        # 「9.4）…」のような項番は、その行がそのまま条文本体であることが多い。
-        # 短いものだけを見出しとして扱い、長いものは本文のままにする。
-        if level >= 5 and len(stripped) > 30:
+        # 採番で始まっていても、その行がそのまま条文本体であることは多い。
+        # 見出しとして扱うのは短い行だけにする（長い行を見出しにすると
+        # 見出し階層が壊れ、チャンクの heading_path まで巻き添えになる）。
+        limit = 40 if level <= 2 else 60 if level <= 4 else 30
+        if len(stripped) > limit:
             return None
         return level
     if size >= body_size * 1.45:

@@ -31,3 +31,6 @@ sync.log
 samples/*.pdf
 __pycache__/
 *.pyc
+
+# 検索インデックス（Dockerビルド時に生成）
+data/search.db

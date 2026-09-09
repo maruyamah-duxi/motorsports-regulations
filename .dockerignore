@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+node_modules
+dist
+docs
+samples
+.cache
+data/search.db
+**/__pycache__
+*.pyc
+probe*.json
+sync.log
+.DS_Store
