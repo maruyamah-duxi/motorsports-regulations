@@ -18,6 +18,15 @@ import sys
 import traceback
 from pathlib import Path
 
+if sys.version_info < (3, 10):
+    raise SystemExit(
+        f"Python 3.10 以上が必要です（いまは {sys.version.split()[0]}）。\n"
+        "  brew install python@3.12\n"
+        "  python3.12 -m venv .venv && source .venv/bin/activate\n"
+        "  pip install -r pipeline/requirements.txt\n"
+        "Docker で動かす方法は docs/deploy.md を参照してください。"
+    )
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from jafreg import __version__

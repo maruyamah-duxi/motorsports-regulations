@@ -26,7 +26,13 @@ window.API_KEY = 'UNUSED_PLACEHOLDER_FOR_API_KEY';
 パイプラインの修正（本文抽出・図版・段落）は**静的ファイルを作るだけ**なので、
 デプロイ不要で確認できます。
 
+**Python 3.10 以上が必要です。** macOS 標準の 3.9 では `pymupdf` が入りません。
+
 ```bash
+python3 --version                      # 3.10 未満なら
+brew install python@3.12
+python3.12 -m venv .venv && source .venv/bin/activate
+
 pip install -r pipeline/requirements.txt
 
 # 手元の PDF を 1 本変換
@@ -59,6 +65,15 @@ docker run --rm -p 8080:8080 jaf-reg
 ```
 
 これが通れば Cloud Run でもほぼそのまま動きます。
+
+### Python を入れずにパイプラインだけ回す
+
+```bash
+docker run --rm -v "$PWD":/app -w /app python:3.12-slim \
+  bash -c "pip install -q -r pipeline/requirements.txt && python pipeline/cli.py sync"
+```
+
+`content/` と `data/` はカレントディレクトリに出るので、そのままコミットできます。
 
 ---
 

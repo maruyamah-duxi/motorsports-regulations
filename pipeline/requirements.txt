@@ -1,3 +1,10 @@
+# !! Python 3.10 以上が必要です !!
+# macOS の標準 python3 は 3.9 系のことが多く、pymupdf が入りません。
+#   brew install python@3.12
+#   python3.12 -m venv .venv && source .venv/bin/activate
+#   pip install -r pipeline/requirements.txt
+# Docker でも動かせます（docs/deploy.md 参照）。
+
 # PDF 解析・レンダリング
 pymupdf==1.28.2
 # HTML パース（JAF 配布ページのカタログ抽出）
