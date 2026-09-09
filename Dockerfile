@@ -13,10 +13,9 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; \
     else npm install --no-audit --no-fund; fi
-COPY tsconfig.json vite.config.ts index.html index.tsx App.tsx ./
+COPY tsconfig.json vite.config.ts index.html index.tsx App.tsx types.ts styles.css ./
 COPY components ./components
-COPY services ./services
-COPY types.ts data.ts data_part1.ts data_part2.ts ./
+COPY lib ./lib
 RUN npm run build
 
 # --- 2. サーバ --------------------------------------------------------------

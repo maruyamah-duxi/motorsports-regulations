@@ -28,8 +28,14 @@ MIN_TRIGRAM_LEN = 3
 
 
 def normalize(text: str) -> str:
-    """検索キーと本文を同じ土俵に載せる（NFKC + 小文字化）."""
-    return unicodedata.normalize("NFKC", text).casefold()
+    """検索キーと本文を同じ土俵に載せる.
+
+    NFKC だけをかけて全角英数・半角カナの揺れを吸収する。
+    大文字小文字は FTS5 の trigram トークナイザが既定で無視するので
+    casefold はしない。抜粋（snippet）はこの正規化後の文字列から作られる
+    ため、小文字化すると「ＦＩＡ」が「fia」と表示されてしまう。
+    """
+    return unicodedata.normalize("NFKC", text)
 
 
 SCHEMA = """

@@ -18,9 +18,10 @@ import sqlite3
 import unicodedata
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import JSONResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 ROOT = Path(os.environ.get("APP_ROOT", Path(__file__).resolve().parent.parent))
@@ -48,6 +49,12 @@ def _connect() -> sqlite3.Connection:
 
 _FTS_UNSAFE = re.compile(r'["]')
 
+# 抜粋のハイライトは HTML ではなく制御文字で囲んで返す。
+# 規則本文には "<" が現れうるので、HTML を組み立てて返すと
+# 受け取り側でエスケープの判断が必要になり事故のもとになる。
+HIGHLIGHT_START = "\u0001"
+HIGHLIGHT_END = "\u0002"
+
 
 def _fts_query(q: str) -> str:
     """ユーザ入力を FTS5 のフレーズ検索式にする.
@@ -55,7 +62,8 @@ def _fts_query(q: str) -> str:
     trigram トークナイザではフレーズ（"…"）が部分一致検索になる。
     空白区切りの語は AND で繋ぐ。
     """
-    normalized = unicodedata.normalize("NFKC", q).casefold()
+    # 大文字小文字は trigram トークナイザが吸収するので NFKC だけかける
+    normalized = unicodedata.normalize("NFKC", q)
     terms = [t for t in _FTS_UNSAFE.sub("", normalized).split() if len(t) >= MIN_TRIGRAM_LEN]
     return " AND ".join(f'"{t}"' for t in terms)
 
@@ -78,7 +86,7 @@ def search(
               SELECT ch.doc_id, ch.anchor, ch.heading, ch.heading_path, ch.clause,
                      ch.page_start, ch.page_end,
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
-                     snippet(chunks_fts, 0, '<mark>', '</mark>', ' … ', 24) AS snippet,
+                     snippet(chunks_fts, 0, char(1), char(2), ' … ', 56) AS snippet,
                      bm25(chunks_fts) AS score
               FROM chunks_fts
               JOIN chunks ch ON ch.id = chunks_fts.rowid
@@ -100,11 +108,11 @@ def search(
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
                      substr(ch.text, 1, 160) AS snippet, 0 AS score
               FROM chunks ch JOIN docs d ON d.doc_id = ch.doc_id
-              WHERE ch.text_norm LIKE :like{where_doc}
+              WHERE ch.text_norm LIKE :like{where_doc} ESCAPE '\\'
               LIMIT :limit OFFSET :offset
             """
-            params["like"] = f"%{unicodedata.normalize('NFKC', q).casefold()}%"
-            count_sql = f"SELECT count(*) FROM chunks ch WHERE ch.text_norm LIKE :like{where_doc}"
+            params["like"] = f"%{unicodedata.normalize('NFKC', q)}%"
+            count_sql = f"SELECT count(*) FROM chunks ch WHERE ch.text_norm LIKE :like{where_doc} ESCAPE '\\'"
 
         rows = con.execute(sql, params).fetchall()
         total = con.execute(count_sql, params).fetchone()[0]
@@ -125,8 +133,12 @@ def search(
             "snippet": r["snippet"],
             "uploadDate": r["upload_date"],
             "pdfUrl": r["pdf_url"],
-            "url": f"/content/{r['doc_id']}/index.html"
-            + (f"#{r['anchor']}" if r["anchor"] else f"#p{r['page_start']}"),
+            # アプリ内の該当箇所への直リンク
+            "url": f"/doc/{quote(r['doc_id'])}"
+            + (f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{r['page_start']}"),
+            # 単体で読める静的 HTML（アプリを介さずに参照したいとき用）
+            "staticUrl": f"/content/{quote(r['doc_id'])}/index.html"
+            + (f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{r['page_start']}"),
         }
         for r in rows
     ]
@@ -194,10 +206,27 @@ def healthz() -> dict[str, Any]:
 
 
 # ---------------------------------------------------------------------------
-# 静的ファイル（API より後にマウントする）
+# 静的ファイル（API より後に登録する。Starlette は登録順にマッチする）
 # ---------------------------------------------------------------------------
 
+# 規則の HTML と図版
 if CONTENT_DIR.exists():
     app.mount("/content", StaticFiles(directory=CONTENT_DIR, html=True), name="content")
+
+# ビルド済み SPA。フロントは History API でルーティングするので、
+# 実ファイルが無いパスには index.html を返す（/doc/<id> の直リンク・リロード対策）。
 if DIST_DIR.exists():
-    app.mount("/", StaticFiles(directory=DIST_DIR, html=True), name="spa")
+    assets = DIST_DIR / "assets"
+    if assets.exists():
+        app.mount("/assets", StaticFiles(directory=assets), name="assets")
+
+    _INDEX = DIST_DIR / "index.html"
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def spa(full_path: str) -> FileResponse:
+        if full_path:
+            candidate = (DIST_DIR / full_path).resolve()
+            root = DIST_DIR.resolve()
+            if candidate.is_file() and root in candidate.parents:
+                return FileResponse(candidate)
+        return FileResponse(_INDEX)

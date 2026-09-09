@@ -16,8 +16,9 @@ window.API_KEY = 'UNUSED_PLACEHOLDER_FOR_API_KEY';
 そこで今回 `Dockerfile` と `server/` を追加し、**リポジトリから自分でビルド・デプロイできる**ようにしています。
 
 > ⚠️ 自前イメージには AI Studio の `/api-proxy` はありません。
-> AI チャット機能は `/api/ask`（RAG、サーバ側に鍵を置く）を実装するまで動きません。
-> 本文表示・検索は動きます。
+> フロントエンドも AI チャットを載せていません（`/api/ask` の RAG を
+> 実装してから、鍵をサーバ側に置いた状態で戻します）。
+> 規則の閲覧・全文検索は動きます。
 
 ---
 
@@ -50,6 +51,10 @@ python pipeline/build_index.py                 # content/ → data/search.db
 npm install && npm run build                   # dist/ を作る
 uvicorn server.app:app --reload --port 8080
 ```
+
+フロントエンドを触るときは、上の uvicorn を動かしたまま別のターミナルで
+`npm run dev` を立てると、Vite の開発サーバ（:3000）が `/api` と `/content` を
+:8080 に転送するのでホットリロードが効きます。
 
 - <http://localhost:8080/> … SPA
 - <http://localhost:8080/content/<docId>/index.html> … 規則本文
@@ -103,6 +108,18 @@ gcloud run deploy jaf-motorsports-regulations-explorer \
 curl -s https://preview---.../healthz | jq
 curl -s 'https://preview---.../api/search?q=安全ベルト&limit=3' | jq '.items[].headingPath'
 ```
+
+### プレビューで確認すること
+
+| 見るところ | 期待 |
+| --- | --- |
+| `/healthz` | `searchDb` `content` `dist` がすべて true |
+| トップ | 規則 160 件・約 5,148 ページと表示される |
+| 検索「ロールケージ 溶接」 | 見出し階層つきでヒットし、抜粋がハイライトされる |
+| 検索結果の「該当箇所を開く」 | 該当する条にスクロールする |
+| 規則ページを直接リロード | 404 にならない（SPA フォールバックが効いている） |
+| 図版の多い規則（第1編レース車両規定など） | 図が本文の正しい位置に出る |
+| ダークモード | OS の設定に追随する |
 
 ### 4-2. 問題なければトラフィックを切り替える
 

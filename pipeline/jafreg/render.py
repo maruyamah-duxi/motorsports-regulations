@@ -106,9 +106,13 @@ def render_html(document: dict[str, Any]) -> str:
         elif btype == "figure":
             src = _esc(b.get("asset", ""))
             cap = b.get("caption")
+            # 縦横比を先に伝えて、画像読み込みによる本文のずれを防ぐ
+            bbox = b.get("bbox") or [0, 0, 0, 0]
+            ratio = (bbox[2] - bbox[0]) / (bbox[3] - bbox[1]) if bbox[3] - bbox[1] else 0
+            style = f' style="aspect-ratio:{ratio:.4f}"' if ratio else ""
             parts.append(
                 f"<figure>{pagemark}"
-                f'<img src="{src}" loading="lazy" alt="{_esc(cap or "図版")}">'
+                f'<img src="{src}" loading="lazy" alt="{_esc(cap or "図版")}"{style}>'
                 + (f"<figcaption>{_esc(cap)}</figcaption>" if cap else "")
                 + "</figure>"
             )
