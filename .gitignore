@@ -34,3 +34,10 @@ __pycache__/
 
 # 検索インデックス（Dockerビルド時に生成）
 data/search.db
+
+# Python 仮想環境
+env/
+venv/
+
+# Claude が会話に添付したファイルの保存先
+Claude outputs/

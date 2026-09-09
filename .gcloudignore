@@ -1,0 +1,22 @@
+# gcloud run deploy --source . が Cloud Build へ送る対象から外すもの。
+# これを置かない場合 gcloud は .gitignore から自動生成するが、
+# 送るものを明示しておいたほうが事故が少ない。
+.git
+.github
+.gitignore
+.venv
+env
+venv
+node_modules
+dist
+docs
+tests
+samples
+.cache
+data
+**/__pycache__
+*.pyc
+probe*.json
+sync.log
+.DS_Store
+README.md

@@ -1,12 +1,15 @@
 .git
 .github
 .venv
+env
+venv
 node_modules
 dist
 docs
+tests
 samples
 .cache
-data/search.db
+data
 **/__pycache__
 *.pyc
 probe*.json
