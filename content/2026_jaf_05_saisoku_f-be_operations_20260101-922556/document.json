@@ -1,0 +1,162 @@
+{
+ "title": "F-Be車両規定の競技会用実施細則_20260101",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "2026年 JAF国内競技車両規則",
+ "group": "第5編 細則",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3485/2026_jaf_05_saisoku_f-be_operations_20260101.pdf",
+ "uploadDate": "2025-12-08",
+ "sha256": "35854e6d39eb7abac3ed86d28c13c2df224dc32c445e112c96f4507ebd0102e4",
+ "docId": "2026_jaf_05_saisoku_f-be_operations_20260101-922556",
+ "pageCount": 1,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:33+00:00",
+ "stats": {
+  "chars": 374,
+  "figures": 0,
+  "tables": 0,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [
+  {
+   "id": "Formula-Beat-車両規定の競技会用実施細則",
+   "level": 3,
+   "text": "Ｆ－Ｂｅ（Formula Beat）車両規定の競技会用実施細則",
+   "page": 1
+  },
+  {
+   "id": "タイヤ",
+   "level": 5,
+   "text": "１．タイヤ",
+   "page": 1
+  },
+  {
+   "id": "エアリストリクター",
+   "level": 5,
+   "text": "２．エアリストリクター",
+   "page": 1
+  }
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    412.7,
+    23.9,
+    555.6,
+    31.9
+   ],
+   "text": "Ｆ－Ｂｅ（Formula Beat）車両規定の競技会用実施細則"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    176.1,
+    67.7,
+    443.3,
+    83.9
+   ],
+   "text": "Ｆ－Ｂｅ（Formula Beat）車両規定の競技会用実施細則",
+   "level": 3,
+   "id": "Formula-Beat-車両規定の競技会用実施細則"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    98.8,
+    558.5,
+    126.6
+   ],
+   "text": "2026年ＪＡＦ国内競技車両規則第１編レース車両規定第10章「Ｆｏｒｍｕｌａ Ｂｅａｔ（Ｆ－Ｂｅ）」車両規定に関し、下記の事項を「Ｆ－Ｂｅ車両規定の競技会用実施細則」として適用する。",
+   "clause": "2026"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    60.9,
+    143.2,
+    107.0,
+    157.3
+   ],
+   "text": "１．タイヤ",
+   "level": 5,
+   "clause": "１",
+   "id": "タイヤ"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    158.3,
+    429.4,
+    171.3
+   ],
+   "text": "（１）ＪＡＦ承認のもとでオーガナイザーによって指定されたタイヤを使用すること。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    173.2,
+    383.4,
+    186.2
+   ],
+   "text": "（２）ハンドカットによるタイヤの加工（溶剤の塗布を含む）を禁止する。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    188.0,
+    457.1,
+    201.0
+   ],
+   "text": "（３）公式予選、決勝レースを通じて競技会に使用するドライタイヤは１セットのみとする。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    202.9,
+    512.4,
+    215.9
+   ],
+   "text": "なお、競技中のタイヤ交換は外的要因（パンク等）により競技長の許可を得た場合以外は認められない。"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    60.9,
+    232.5,
+    162.3,
+    246.6
+   ],
+   "text": "２．エアリストリクター",
+   "level": 5,
+   "clause": "２",
+   "id": "エアリストリクター"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    247.6,
+    475.5,
+    260.6
+   ],
+   "text": "ＪＡＦ承認のもとでオーガナイザーによって指定されたエアリストリクター径を遵守すること。"
+  }
+ ]
+}

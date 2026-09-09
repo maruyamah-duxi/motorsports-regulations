@@ -91,6 +91,11 @@ def convert_pdf(
                     b.asset = f"assets/{name}"
                 elif b.type == "table":
                     table_n += 1
+                    # 一覧・統計のように表が本体の文書もあるので、
+                    # 抽出量の指標には表のセルも数える
+                    char_n += sum(
+                        len(str(cell or "")) for row in (b.rows or []) for cell in row
+                    )
                 elif b.type in ("paragraph", "heading", "caption"):
                     char_n += len(b.text)
 

@@ -195,6 +195,10 @@ def cmd_sync(args) -> int:
                 }
             )
             docs_state[doc_id] = record
+            # 長時間走るので途中経過を残す。中断しても次回は続きから。
+            if (len(changes["added"]) + len(changes["updated"])) % 10 == 0:
+                state["updatedAt"] = _now()
+                _save_json(DATA / "state.json", state)
             print(
                 f"{label} … OK "
                 f"({res.page_count}p / {res.char_count}字 / 図{res.figure_count} / 表{res.table_count}"
@@ -220,6 +224,101 @@ def cmd_sync(args) -> int:
         f"据置 {changes['unchanged']} / 失敗 {len(changes['failed'])}"
     )
     return 0
+
+
+def _converted_version(doc_id: str) -> str | None:
+    """生成済み document.json のパイプライン版を返す（無ければ None）."""
+    path = CONTENT / doc_id / "document.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("pipelineVersion")
+    except Exception:
+        return None
+
+
+def cmd_reconvert(args) -> int:
+    """ダウンロード済みキャッシュから再変換する（ネットワーク不要）.
+
+    パイプラインを直したあとに全件を作り直すための入口。
+    JAF に負荷をかけずに変換品質の変更だけを反映できる。
+    """
+    catalog = {c["doc_id"]: c for c in _load_json(DATA / "catalog.json", {"items": []})["items"]}
+    state = _load_json(DATA / "state.json", {"docs": {}})
+    docs_state: dict = state.setdefault("docs", {})
+
+    targets = list(catalog)
+    if args.only:
+        targets = [d for d in targets if d in set(args.only)]
+    if args.limit:
+        targets = targets[: args.limit]
+
+    ok = failed = missing = skipped = 0
+    for i, doc_id in enumerate(targets, 1):
+        item = catalog[doc_id]
+        pdf = CACHE / f"{doc_id}.pdf"
+        label = f"[{i}/{len(targets)}] {item['title'][:40]}"
+
+        # 変換済み（同じパイプライン版）は飛ばす。長い再変換を途中で
+        # 止めても、もう一度叩けば続きから進められる。判定は生成物
+        # そのものを見るので、state.json が古くても正しく効く。
+        if not args.force and _converted_version(doc_id) == __version__:
+            skipped += 1
+            continue
+        if not pdf.exists():
+            missing += 1
+            print(f"{label} … キャッシュなし（sync が必要）", flush=True)
+            continue
+        meta = {
+            "doc_id": doc_id,
+            "title": item["title"],
+            "source": item["source"],
+            "sourceUrl": item["source_url"],
+            "section": item["section"],
+            "group": item["group"],
+            "pdfUrl": item["pdf_url"],
+            "uploadDate": item.get("upload_date"),
+            "sha256": (docs_state.get(doc_id) or {}).get("sha256"),
+        }
+        try:
+            res = convert_pdf(pdf, CONTENT / doc_id, meta=meta, ocr=args.ocr, figure_dpi=args.dpi)
+        except Exception as exc:
+            failed += 1
+            print(f"{label} … CONVERT FAILED: {exc}", flush=True)
+            continue
+        prev = docs_state.get(doc_id, {})
+        docs_state[doc_id] = {
+            **prev,
+            "docId": doc_id,
+            "title": item["title"],
+            "pdfUrl": item["pdf_url"],
+            "uploadDate": item.get("upload_date"),
+            "pageCount": res.page_count,
+            "chars": res.char_count,
+            "figures": res.figure_count,
+            "tables": res.table_count,
+            "warnings": len(res.warnings),
+            "pipelineVersion": __version__,
+            "convertedAt": _now(),
+        }
+        ok += 1
+        print(
+            f"{label} … OK ({res.page_count}p / {res.char_count}字 / "
+            f"図{res.figure_count} / 表{res.table_count})",
+            flush=True,
+        )
+        if ok % 10 == 0:
+            state["updatedAt"] = _now()
+            _save_json(DATA / "state.json", state)
+
+    state["updatedAt"] = _now()
+    state["pipelineVersion"] = __version__
+    _save_json(DATA / "state.json", state)
+    _write_index(docs_state)
+    print(
+        f"\n[reconvert] 成功 {ok} / 済み {skipped} / 失敗 {failed} / キャッシュなし {missing}"
+    )
+    return 1 if failed else 0
 
 
 def _write_index(docs_state: dict) -> None:
@@ -349,6 +448,14 @@ def main() -> int:
     sp.add_argument("--pdf-url")
     sp.add_argument("--out", default=str(CONTENT))
     sp.set_defaults(func=cmd_convert_one)
+
+    sp = sub.add_parser("reconvert", help="キャッシュ済み PDF から再変換（ネットワーク不要）")
+    sp.add_argument("--limit", type=int, default=0)
+    sp.add_argument("--only", nargs="*", default=None)
+    sp.add_argument(
+        "--force", action="store_true", help="変換済みのものも作り直す"
+    )
+    sp.set_defaults(func=cmd_reconvert)
 
     sp = sub.add_parser("probe", help="PDF の構造診断")
     sp.add_argument("pdf")

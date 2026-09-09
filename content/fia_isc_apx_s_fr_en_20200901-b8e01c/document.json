@@ -1,0 +1,5998 @@
+{
+ "title": "FIA国際モータースポーツ競技規則付則S項_仏語英語版_20200901",
+ "source": "international",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/international",
+ "section": "FIA国際モータースポーツ競技規則",
+ "group": "FIA国際モータースポーツ競技規則付則_日本語版",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3467/3471/3498/fia_isc_apx_s_fr_en_20200901.pdf",
+ "uploadDate": "2021-08-03",
+ "sha256": "d08eeb4344d1de2a7e141a5d90bd641cdcb4ae765578fc59167e4ec67c8f3119",
+ "docId": "fia_isc_apx_s_fr_en_20200901-b8e01c",
+ "pageCount": 22,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:19:33+00:00",
+ "stats": {
+  "chars": 95364,
+  "figures": 0,
+  "tables": 13,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    180.0,
+    145.0,
+    426.1,
+    169.4
+   ],
+   "text": "ANNEXE S AU CODE SPORTIF INTERNATIONAL APPENDIX S TO THE INTERNATIONAL SPORTING CODE"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    106.4,
+    195.2,
+    495.8,
+    205.2
+   ],
+   "text": "CODE DE CONDUITE COVID-19 COVID-19 CODE OF CONDUCT"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    219.7,
+    300.0,
+    327.3
+   ],
+   "text": "1.1 Le présent Code de Conduite COVID-19 (le Code COVID-19) est publié par la FIA dans l\u0001exercice de ses pouvoirs en vertu des articles 1.1 et 19.2 du Code Sportif International. La Première Partie s\u0001appliquera à partir du 19 juin 2020 et ce, jusqu\u0001à ce que la FIA l\u0001abroge. La Seconde Partie s\u0001appliquera à partir du 1er septembre 2020 et ce, jusqu\u0001à ce que la FIA l\u0001abroge. Les termes définis (indiqués en italique) dont la définition ne se trouve pas ci-dessous ont la signification qui leur est donnée dans le Code Sportif International.",
+   "clause": "1.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    219.7,
+    562.2,
+    315.1
+   ],
+   "text": "1.1 This COVID-19 Code of Conduct (the COVID-19 Code) is issued by the FIA in exercise of its powers under Articles 1.1 and 19.2 of the International Sporting Code. Part One will apply from 19 June 2020 until the FIA repeals it. Part Two will apply from 1 September 2020 until the FIA repeals it. Defined terms (denoted by italicised text) that are not defined below have the meaning given to them in the International Sporting Code.",
+   "clause": "1.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    341.7,
+    297.8,
+    363.9
+   ],
+   "text": "1.2 Le contexte dans lequel ce Code COVID-19 est élaboré est le suivant :",
+   "clause": "1.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    341.7,
+    537.0,
+    351.7
+   ],
+   "text": "1.2 The background to this COVID-19 Code is as follows:",
+   "clause": "1.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    378.3,
+    297.7,
+    400.5
+   ],
+   "text": "1.2.1 Le début de la saison de courses automobiles 2020 a été retardé en raison de la pandémie de COVID-19.",
+   "clause": "1.2.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    378.3,
+    559.9,
+    400.5
+   ],
+   "text": "1.2.1 The start of the 2020 motor racing season has been delayed as a result of the COVID-19 pandemic.",
+   "clause": "1.2.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    415.1,
+    300.0,
+    498.2
+   ],
+   "text": "1.2.2 Les équipes et autres parties prenantes des Championnats, coupes, trophées, challenges, séries de la FIA et séries internationales inscrits au Calendrier Sportif International de la FIA souhaitent commencer leurs Compétitions respectives dès que possible, à condition que les risques de transmission du virus de la COVID-19 puissent être réduits à un niveau acceptable.",
+   "clause": "1.2.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    415.1,
+    562.2,
+    498.2
+   ],
+   "text": "1.2.2 There is a desire among the teams and other stakeholders in the FIA Championships, cups, trophies, challenges, series, and international series registered on the FIA international sporting calendar, to start their respective Competitions as soon as possible, provided that the risks of transmission of the COVID-19 virus can be mitigated to an acceptable degree.",
+   "clause": "1.2.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    512.6,
+    300.0,
+    547.0
+   ],
+   "text": "1.2.3 La FIA a donc consulté les directives émises par les autorités de santé publique, et a pris l\u0001avis d\u0001un expert externe indépendant, afin d\u0001élaborer :",
+   "clause": "1.2.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    512.6,
+    562.2,
+    547.0
+   ],
+   "text": "1.2.3 The FIA has therefore consulted the guidance issued by public health authorities, and has taken the advice of an independent external expert, in order to put together:",
+   "clause": "1.2.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    561.5,
+    297.8,
+    632.5
+   ],
+   "text": "(a) les protocoles qui sont énoncés dans la Première Partie du présent Code COVID-19 pour réduire les risques de transmission du virus de la COVID-19 pouvant survenir lors de l\u0001organisation d\u0001Epreuves qui comprennent une Compétition du Championnat du Monde de Formule Un de la FIA (Epreuves soumises à la Première Partie) ; et"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    561.5,
+    560.0,
+    620.3
+   ],
+   "text": "(a) the protocols that are set out in Part One of this COVID-19 Code to mitigate the risks of transmission of the COVID-19 virus that may arise during the staging of Events that include a Competition in the FIA Formula One World Championship (Part One Events); and"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    40.6,
+    646.9,
+    297.8,
+    730.2
+   ],
+   "text": "(b) les protocoles aux mêmes fins qui sont énoncés dans la Seconde Partie pour les Epreuves qui ne comprennent pas une Compétition du Championnat du Monde de Formule Un de la FIA mais qui comprennent une ou plusieurs Compétitions d\u0001un autre Championnat, coupe, trophée, challenge, série de la FIA et/ou série internationale inscrit(e) au calendrier sportif international de la FIA (Epreuves soumises à la Seconde Partie)."
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    308.5,
+    646.9,
+    560.1,
+    717.9
+   ],
+   "text": "(b) the protocols for the same purpose that are set out in Part Two for Events that do not include a Competition in the FIA Formula One World Championship but do include one or more Competitions in another FIA Championship, cup, trophy, challenge, series, and/or international series registered on the FIA international sporting calendar (Part Two Events)."
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    80.9,
+    300.0,
+    139.6
+   ],
+   "text": "1.3 La FIA continuera à examiner le présent Code COVID-19 et pourra le modifier périodiquement pour s\u0001assurer qu\u0001il demeure efficace. Sauf indication contraire, ces amendements entreront en vigueur dès leur publication sur le site internet de la FIA.",
+   "clause": "1.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    80.9,
+    562.2,
+    127.4
+   ],
+   "text": "1.3 The FIA will keep this COVID-19 Code under review and may amend it from time to time to ensure it remains effective. Unless otherwise stated, such amendments will come into effect as soon as they are published on the FIA\u0001s website.",
+   "clause": "1.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    154.0,
+    208.3,
+    164.0
+   ],
+   "text": "1.4 Sous réserve toujours de l\u0001article 1.5 :",
+   "clause": "1.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    154.0,
+    442.8,
+    164.0
+   ],
+   "text": "1.4 Subject always to Article 1.5:",
+   "clause": "1.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    178.5,
+    300.0,
+    249.5
+   ],
+   "text": "1.4.1 Les articles 1, 2, 3 et 4 du présent Code COVID-19 s\u0001appliquent à la fois aux Epreuves soumises à la Première Partie et aux Epreuves soumises à la Seconde Partie. Les références aux Epreuves Couvertes dans ces articles visent tant les Epreuves soumises à la Première Partie que les Epreuves soumises à la Seconde Partie (sauf indication contraire).",
+   "clause": "1.4.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    178.5,
+    562.2,
+    225.1
+   ],
+   "text": "1.4.1 Articles 1, 2, 3 and 4 of this COVID-19 Code apply to both Part One Events and Part Two Events. References in those Articles to Covered Events encompass both Part One Events and Part Two Events (unless otherwise stated).",
+   "clause": "1.4.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    264.0,
+    300.0,
+    298.3
+   ],
+   "text": "1.4.2 La Première Partie du présent Code COVID-19 (article 5) est uniquement applicable aux Epreuves soumises à la Première Partie.",
+   "clause": "1.4.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    264.0,
+    562.1,
+    286.2
+   ],
+   "text": "1.4.2 Part One of this COVID-19 Code (Article 5) applies only to Part One Events.",
+   "clause": "1.4.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    312.8,
+    300.0,
+    347.1
+   ],
+   "text": "1.4.3 La Seconde Partie du présent Code COVID-19 (article 6) est uniquement applicable aux Epreuves soumises à la Seconde Partie.",
+   "clause": "1.4.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    312.8,
+    562.2,
+    335.0
+   ],
+   "text": "1.4.3 Part Two of this COVID-19 Code (Article 6) applies only to Part Two Events.",
+   "clause": "1.4.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    361.6,
+    300.0,
+    591.3
+   ],
+   "text": "1.5 Parce que la compréhension de la pandémie de COVID-19 évolue rapidement de jour en jour, et parce que les autorités officielles de différentes juridictions varient dans les exigences qu\u0001elles imposent et les conseils qu\u0001elles donnent en relation avec la pandémie et peuvent changer ces exigences et/ou ces conseils dans un court délai, le Conseil Mondial du Sport Automobile a délégué, pour une Epreuve soumise à la Première Partie, le pouvoir de modifier les protocoles énoncés dans la Première Partie du présent Code COVID-19 au Délégué COVID- 19 (que ce soit par des ajouts ou des suppressions, ou en les modifiant d\u0001une autre manière) si ce dernier le juge nécessaire, d\u0001une Epreuve soumise à la Première Partie à une autre ou même pendant une Epreuve soumise à la Première Partie. Le Délégué COVID-19 diffusera de tels amendements auprès de toutes les Parties Prenantes dans les Notes du Délégué COVID- 19, et chaque Partie Prenante sera responsable de les distribuer à ses Personnes Présentes. Un Délégué COVID-19 à une Epreuve soumise à la Seconde Partie ne peut pas modifier les protocoles énoncés dans la Seconde Partie du présent Code COVID-19.",
+   "clause": "1.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    361.6,
+    562.2,
+    566.8
+   ],
+   "text": "1.5  Because the understanding of the COVID-19 pandemic is evolving rapidly from day to day, and because official authorities in different jurisdictions vary in the requirements they impose and the advice they give in relation to the pandemic and may change those requirements and/or that advice on short notice, the World Motor Sport Council has delegated authority to the COVID-19 Delegate for a Part One Event to amend the protocols set out in Part One of this COVID- 19 Code (whether by adding to them or subtracting from them or otherwise varying them) as the COVID-19 Delegate deems necessary from one Part One Event to another, or even during a Part One Event. The COVID-19 Delegate will disseminate any such amendments to all Stakeholders in the COVID-19 Delegate\u0001s Notes, and each Stakeholder will be responsible for distributing the COVID-19 Delegate\u0001s Notes to its Attendees. A COVID-19 Delegate to a Part Two Event may not amend the protocols set out in Part Two of this COVID-19 Code.",
+   "clause": "1.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    40.6,
+    605.7,
+    300.0,
+    676.8
+   ],
+   "text": "1.6 Le Délégué COVID-19 peut inclure des directives d\u0001ordre opérationnel dans ses Notes pour guider les Parties Prenantes et les Personnes Présentes dans le fonctionnement et la mise en \u0002uvre du présent Code COVID-19. Ces directives peuvent être d\u0001application générale ou spécifiques à une Epreuve Couverte en particulier.",
+   "clause": "1.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    308.5,
+    605.7,
+    562.2,
+    664.5
+   ],
+   "text": "1.6 The COVID-19 Delegate may include operational guidance in the COVID-19 Delegate\u0001s Notes to guide Stakeholders and Attendees in the operation and implementation of this COVID- 19 Code. Such guidance may be of general application or specific to a particular Covered Event.",
+   "clause": "1.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    80.9,
+    503.7,
+    90.8
+   ],
+   "text": "ARTICLE 2. DEFINITIONS ET INTERPRETATION ARTICLE 2. DEFINITIONS AND INTERPRETATION"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    105.2,
+    526.1,
+    115.2
+   ],
+   "text": "2.1 Les termes subséquents ont la signification suivante : 2.1 The following terms have the following meanings:",
+   "clause": "2.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    129.7,
+    300.0,
+    188.5
+   ],
+   "text": "Par Fournisseur de Tests Agréé, on entend le fournisseur de tests désigné par la FIA ou (si ce fournisseur n\u0001est pas en mesure de fournir des tests dans une localité spécifique) un fournisseur alternatif qui est agréé par l\u0001autorité sanitaire nationale du pays dans lequel le laboratoire opère."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    129.7,
+    562.2,
+    188.5
+   ],
+   "text": "Approved Test Provider means the test provider appointed by the FIA or (if that provider is not able to provide tests in a specific locality) an alternative provider that is accredited by the national health authority of the country in which the laboratory operates."
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    35.2,
+    200.8,
+    565.3,
+    249.6
+   ],
+   "rows": [
+    [
+     "",
+     "Médecin-Chef désigne un docteur en médecine chargé de",
+     "",
+     "",
+     "Chief Medical Officer means a medical doctor who is",
+     ""
+    ],
+    [
+     null,
+     "l\u0001organisation des services médicaux pour toutes les activités",
+     null,
+     null,
+     "responsible for the organisation of the medical service",
+     null
+    ],
+    [
+     null,
+     "liées à une Compétition.",
+     null,
+     null,
+     "connected with all activities generated by a Competition.",
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     "",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    251.7,
+    300.0,
+    322.8
+   ],
+   "text": "Un Contact Etroit signifie que la Personne Présente en question (a) a été à moins de deux mètres d\u0001une personne infectée soit (i) pendant plus de quinze minutes, soit (ii) alors qu\u0001elles se trouvaient toutes deux dans un espace confiné (par exemple, une voiture) ; ou (b) a fourni des soins directs à une personne infectée sans porter d\u0001EPI approprié."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    251.7,
+    562.2,
+    310.5
+   ],
+   "text": "Close Contact means the Attendee in question (a) has been within two metres of an infected person either (i) for more than fifteen minutes, or (ii) while they were both in a confined space (e.g., a car); or (b) provided direct care to an infected person without wearing appropriate PPE."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    337.2,
+    300.0,
+    408.2
+   ],
+   "text": "Délégué COVID-19 signifie la personne désignée par la FIA pour être responsable en son nom de la supervision de l\u0001application du présent Code COVID-19 lors d\u0001une Epreuve Couverte. Pour les Epreuves soumises à la Seconde Partie, le Délégué COVID-19 sera le Délégué Médical de la FIA ou (s\u0001il n\u0001y a pas de Délégué Médical sur l\u0001Epreuve) le Médecin-Chef."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    337.2,
+    562.2,
+    408.2
+   ],
+   "text": "COVID-19 Delegate means the individual designated by the FIA to be the person responsible on its behalf for overseeing the operation of this COVID-19 Code at a Covered Event. For Part Two Events, the COVID-19 Delegate will be the FIA Medical Delegate or (if there is no Medical Delegate at the Event) the Chief Medical Officer."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    422.6,
+    300.0,
+    493.7
+   ],
+   "text": "Les Notes du Délégué COVID-19 désignent le document de ce nom, émis de temps à autre par le Délégué COVID-19, contenant les amendements au présent Code COVID-19 (dans le cas des Epreuves soumises à la Première Partie uniquement) et toute note ou directive d\u0001ordre opérationnel, qu\u0001elle soit d\u0001application générale ou spécifique à une Epreuve Couverte en particulier."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    422.6,
+    562.2,
+    481.4
+   ],
+   "text": "COVID-19 Delegate\u0001s Notes mean the document of that name issued from time to time by the COVID-19 Delegate, containing amendments to this COVID-19 Code (in the case of Part One Events only) and any operational notes or guidance, whether of general application or specific to a particular Covered Event."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    508.1,
+    300.0,
+    591.3
+   ],
+   "text": "Les Symptômes de la COVID-19 sont la fièvre, la toux, l\u0001essoufflement, la fatigue, les maux de tête, l\u0001écoulement nasal (rhinite), le mal de gorge (pharyngite), la perte du goût ou de l\u0001odorat, une éruption cutanée et/ou une décoloration des doigts ou des orteils (et/ou tout autre symptôme que l\u0001Organisation Mondiale de la Santé peut préciser de temps à autre1)."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    508.1,
+    562.2,
+    579.1
+   ],
+   "text": "COVID-19 Symptoms means fever, cough, shortness of breath, fatigue, headache, runny nose (rhinitis), sore throat (pharyngitis), loss of sense of taste or smell, a skin rash, and/or discolouration of fingers or toes (and/or such other symptoms as the World Health Organisation may specify from time to time1)."
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    40.6,
+    605.7,
+    300.0,
+    689.0
+   ],
+   "text": "Apte à Participer signifie que la Personne Présente de Profil 1 (tel que défini à l\u0001article 3.5) en question ne présente pas de facteurs de risque relatifs à la COVID-19 qui l\u0001empêchent de participer à des Epreuves Couvertes. Plus précisément, la confirmation par une Partie Prenante qu\u0001une Personne Présente de Profil 1 est Apte à Participer à une Epreuve Couverte signifie que :"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    308.5,
+    605.7,
+    562.2,
+    664.5
+   ],
+   "text": "Fit to Attend means that the Profile 1 Attendee (as defined in Article 3.5) in question has no COVID-19 risk factors that mean they should not attend Covered Events. More specifically, confirmation by a Stakeholder that a Profile 1 Attendee is Fit to Attend a Covered Event means that:"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    56.6,
+    732.0,
+    285.6,
+    745.4
+   ],
+   "text": "1 Voir/see who.int/health-topics/coronavirus#tab=tab_3",
+   "clause": "1"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    46.9,
+    80.9,
+    300.0,
+    176.2
+   ],
+   "text": "1) la Personne Présente de Profil 1 a subi un Test PCR organisé par la Partie Prenante et effectué par un Fournisseur de Tests Agréé dans les 96 heures précédant son arrivée sur le Site de l\u0001Epreuve Couverte en question (Test Préalable à l\u0001Epreuve), et la Partie Prenante a reçu une communication de la Personne Présente de Profil 1 ou du Fournisseur de Tests Agréé basée sur les résultats du test ; et",
+   "clause": "1)"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    315.0,
+    80.9,
+    562.2,
+    164.0
+   ],
+   "text": "1) the Profile 1 Attendee has undergone one PCR Test organised by the Stakeholder and administered by an Approved Test Provider in the 96 hours prior to arrival at the Venue hosting the Covered Event in question (Pre- Event Test), and the Stakeholder has received a communication from the Profile 1 Attendee or from the Approved Test Provider based on the test results; and",
+   "clause": "1)"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    46.9,
+    190.8,
+    300.0,
+    335.0
+   ],
+   "text": "2) la Partie Prenante a conclu (en examinant soit une déclaration faite par la Personne Présente de Profil 1 soit un questionnaire de dépistage et de profil de risques rempli par la Personne Présente de Profil 1 et/ou par d\u0001autres moyens) que la Personne Présente de Profil 1 n\u0001a pas de problèmes de santé sous-jacents ou d\u0001autres facteurs de risque pertinents spécifiques à la COVID-19 (qu\u0001elle crée des risques pour elle-même ou pour d\u0001autres) qui impliquent qu\u0001elle ne devrait pas assister à l\u0001Epreuve Couverte en question, en tenant compte de tous les facteurs de risque applicables des directives nationales et de l\u0001Organisation Mondiale de la Santé.",
+   "clause": "2)"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    311.8,
+    190.8,
+    562.2,
+    310.5
+   ],
+   "text": "2) the Stakeholder has concluded (either by reviewing a declaration made by the Profile 1 Attendee or a health screening and risk profiling questionnaire filled out by the Profile 1 Attendee and/or by other means) that the Profile 1 Attendee has no underlying health issues or other relevant risk factors specific to COVID-19 (whether creating risks for him/herself or others) that mean he/she should not attend the Covered Event in question, taking into account all applicable risk factors from national and World Health Organisation guidelines.",
+   "clause": "2)"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    40.6,
+    349.4,
+    300.0,
+    420.4
+   ],
+   "text": "Groupe désigne les Personnes Présentes de Profil 1 liées à une Partie Prenante en particulier (par exemple, le \u0003groupe Pirelli\u0004 ou le \u0003groupe Promoteur\u0004) ou qui travaillent pour un sous- traitant ou un fournisseur de la Partie Prenante mais qui interagiront exclusivement avec les Personnes Présentes de Profil 1 de cette Partie Prenante pendant l\u0001Epreuve Couverte."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    308.5,
+    349.4,
+    562.2,
+    408.2
+   ],
+   "text": "Group means the Profile 1 Attendees affiliated with a particular Stakeholder (e.g., the \u0005Pirelli group\u0001, or the \u0005Promoter group\u0001) or who work for a sub-contractor or supplier of the Stakeholder but will be interacting exclusively with that Stakeholder\u0001s Profile 1 Attendees during the Covered Event."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    50.9,
+    434.9,
+    300.0,
+    566.8
+   ],
+   "text": "Note explicative : Pour limiter les perturbations potentielles causées par un test positif sur le Site, il est fortement recommandé que les Parties Prenantes, dans la mesure du possible, désignent comme faisant partie de Sous-Groupes distincts les plus petites catégories possibles de Personnes Présentes de Profil 1 qui leur sont liées (par exemple, le \u0003groupe de l\u0001équipe de la voie des stands\u0004, le \u0003groupe de l\u0001unité de puissance\u0004, etc.) et appliquer les mesures d'atténuation pertinentes décrites dans le présent Code COVID-19 en ce qui concerne les interactions entre les Groupes pour ces Sous-Groupes."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    318.7,
+    434.9,
+    562.2,
+    542.5
+   ],
+   "text": "Guidance note: To limit the potential disruption caused by a positive test at the Venue, it is highly recommended that Stakeholders should wherever possible designate the smallest possible categories of their affiliated Profile 1 Attendees as separate Sub-Groups (e.g., the \u0005pit crew group\u0001, \u0005the power unit group\u0001, etc.) and apply relevant mitigation measures outlined in this COVID-19 Code in respect of interactions between Groups for these Sub- Groups."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    40.6,
+    581.4,
+    300.0,
+    603.6
+   ],
+   "text": "Infecté désigne un individu dont l\u0001infection à la COVID-19 est confirmée."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    308.5,
+    581.4,
+    562.1,
+    603.6
+   ],
+   "text": "Infected means an individual who has a confirmed COVID-19 infection."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    40.6,
+    618.0,
+    300.0,
+    652.3
+   ],
+   "text": "Isolement désigne le confinement des personnes infectées dans une zone dédiée afin d\u0001empêcher la transmission de la COVID- 19 à d\u0001autres personnes."
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    308.5,
+    618.0,
+    562.2,
+    652.3
+   ],
+   "text": "Isolation means the confinement of infected persons to a dedicated area to prevent transmission of the COVID-19 to others."
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    35.2,
+    664.6,
+    565.3,
+    723.5
+   ],
+   "rows": [
+    [
+     "Délégué Médical désigne la personne portant ce titre désignée\npar la FIA pour superviser les services médicaux dispensés sur le\nSite de la Compétition, y compris pour vérifier qu\u0001ils sont\nconformes aux Règles Applicables.",
+     "",
+     "Medical Delegate means the person with that title who is",
+     ""
+    ],
+    [
+     null,
+     null,
+     "appointed by the FIA to supervise the medical services at the",
+     null
+    ],
+    [
+     null,
+     null,
+     "Venue of a Competition, including checking that they comply",
+     null
+    ],
+    [
+     null,
+     null,
+     "with the Applicable Rules.",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    40.6,
+    80.9,
+    300.0,
+    115.2
+   ],
+   "text": "Un Masque de Protection Médical désigne un masque de protection conforme à la Norme Européenne EN 14683:2019+AC:2019."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    308.5,
+    80.9,
+    562.2,
+    103.0
+   ],
+   "text": "Medical Face Mask means a face mask that complies with European Standard EN 14683:2019+AC:2019."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    40.6,
+    129.7,
+    300.0,
+    188.5
+   ],
+   "text": "Test PCR désigne un test de Réaction de Polymérisation en Chaîne (utilisant le ou les échantillons corporels que le Fournisseur de Test Agréé peut préciser) pour la présence d\u0001antigènes de la COVID-19, ou tout autre test que le Délégué COVID-19 peut spécifier."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    308.5,
+    129.7,
+    562.2,
+    176.2
+   ],
+   "text": "PCR Test means a Polymerase Chain Reaction test (using such bodily sample or samples as the Approved Test Provider may specify) for the presence of COVID-19 antigens, or such other test as the COVID-19 Delegate may specify."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    40.6,
+    202.9,
+    300.0,
+    237.3
+   ],
+   "text": "EPI désigne les équipements de protection individuelle, tels qu\u0001un masque de protection, un Masque de Protection Médical, des lunettes, des lunettes de protection, des gants, etc."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    308.5,
+    202.9,
+    562.1,
+    225.1
+   ],
+   "text": "PPE means personal protection equipment, such as a face mask, a Medical Face Mask, glasses, goggles, gloves, etc."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    40.6,
+    251.7,
+    300.0,
+    310.5
+   ],
+   "text": "Quarantaine signifie le confinement des personnes potentiellement infectées dans un endroit approprié sur le Site afin de permettre une surveillance et d\u0001empêcher tout Contact Etroit avec les autres Personnes Présentes jusqu\u0001à ce qu\u0001un diagnostic puisse être établi."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    308.5,
+    251.7,
+    562.1,
+    298.3
+   ],
+   "text": "Quarantine means separation of potentially infected persons in a suitable location at the Venue in order to allow monitoring and to prevent Close Contact with other Attendees until a diagnosis can be made."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    40.6,
+    325.1,
+    300.0,
+    371.6
+   ],
+   "text": "Site désigne les Espaces Réservés, les Zones à Forte Densité, les Zones à Faible Densité et toute autre partie du lieu où se déroule l\u0001Epreuve Couverte en question qui ne peut être accessible qu\u0001aux personnes accréditées."
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    308.5,
+    325.1,
+    562.2,
+    371.6
+   ],
+   "text": "Venue means the Reserved Areas, the High Density Areas, the Low Density Areas, and any other parts of the site where the Covered Event in question is staged that may only be accessed by accredited persons."
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    35.2,
+    383.8,
+    565.3,
+    737.9
+   ],
+   "rows": [
+    [
+     "ARTICLE 3 APPLICATION",
+     null,
+     null,
+     "ARTICLE 3 APPLICATION",
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1 Le présent Code COVID-19 est applicable à chacune des",
+     "",
+     "",
+     "3.1 This COVID-19 Code applies to each of the following parties",
+     ""
+    ],
+    [
+     null,
+     "parties suivantes impliquées dans une Epreuve Couverte",
+     null,
+     null,
+     "involved in a Covered Event (each, a Stakeholder):",
+     null
+    ],
+    [
+     null,
+     "(chacune étant une Partie Prenante) :",
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "3.1.1 La FIA.",
+     null,
+     null,
+     "3.1.1 The FIA.",
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.2 L\u0001ASN du pays dans lequel l\u0001Epreuve Couverte en question",
+     "",
+     "",
+     "3.1.2 The ASN of the country in which the Covered Event in",
+     ""
+    ],
+    [
+     null,
+     "a lieu.",
+     null,
+     null,
+     "question takes place.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.3 L\u0001Organisateur de l\u0001Epreuve Couverte en question (s\u0001il ne",
+     "",
+     "",
+     "3.1.3 The Organiser of the Covered Event in question (if not the",
+     ""
+    ],
+    [
+     null,
+     "s\u0001agit pas de l\u0001ASN).",
+     null,
+     null,
+     "ASN).",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.4 Le Promoteur de l\u0001Epreuve Couverte en question.",
+     "",
+     "",
+     "3.1.4 The Promoter of the Covered Event in question.",
+     ""
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.5 Les détenteurs des droits commerciaux respectifs des",
+     "",
+     "",
+     "3.1.5 The respective commercial rights-holders of the",
+     ""
+    ],
+    [
+     null,
+     "Compétitions de l\u0001Epreuve Couverte en question.",
+     null,
+     null,
+     "Competitions in the Covered Event in question.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.6 Chaque équipe (un Concurrent) qui a participé à une",
+     "",
+     "",
+     "3.1.6 Each team (a Competitor) that has entered a Competition",
+     ""
+    ],
+    [
+     null,
+     "Compétition de l\u0001Epreuve Couverte en question.",
+     null,
+     null,
+     "in the Covered Event in question.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.7 Les diffuseurs et autres média couvrant les Compétitions",
+     "",
+     "",
+     "3.1.7 Broadcasters and other media organisations covering",
+     ""
+    ],
+    [
+     null,
+     "de l\u0001Epreuve Couverte en question.",
+     null,
+     null,
+     "Competitions in the Covered Event in question.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.1.8 Fournisseurs de produits ou de services (ou contractants",
+     "",
+     "",
+     "3.1.8 Suppliers of products or services to (or contractors and",
+     ""
+    ],
+    [
+     null,
+     "et sous-traitants) de l\u0001ensemble des parties énumérées ci-",
+     null,
+     null,
+     "sub-contractors to) all of the parties listed above, or to all of",
+     null
+    ],
+    [
+     null,
+     "dessus, ou de tous les Concurrents d\u0001une Compétition en",
+     null,
+     null,
+     "the Competitors in a Competition at the Covered Event in",
+     null
+    ],
+    [
+     null,
+     "question. (Toutefois, les fournisseurs (ou autres contractants ou",
+     null,
+     null,
+     "question. (However, suppliers (or other contractors or sub-",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 6,
+   "bbox": [
+    35.2,
+    78.5,
+    565.3,
+    737.9
+   ],
+   "rows": [
+    [
+     "",
+     "sous-traitants) d'une ou de certaines des parties énumérées ci-",
+     "",
+     "contractors) to one or some but not all of the parties listed\nabove, or to one or some but not all of the Competitors in a\nCompetition at the Covered Event in question, are not\nStakeholders. Instead, individuals attending a Covered Event\non their behalf are considered to be Attendees of the\nStakeholder that they are supplying.)",
+     null,
+     null
+    ],
+    [
+     null,
+     "dessus, mais non de la totalité, ou d\u0001un ou de certains des",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Concurrents d'une Compétition lors d\u0001une Epreuve Couverte en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "question, mais non de la totalité, ne sont pas des Parties",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Prenantes. Toute personne assistant à une Epreuve Couverte",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "pour leur compte est considérée comme une Personne Présente",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de la Partie Prenante pour laquelle elle fournit.)",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.2 Comme condition d\u0001accès aux Epreuves Couvertes, les",
+     "",
+     "3.2 As a condition of access to the Covered Events,\nStakeholders are required to comply with this COVID-19 Code,\nand to ensure that individuals attending a Covered Event on\ntheir behalf comply with this COVID-19 Code. Non-compliance\nmay lead to exclusion from Covered Events.",
+     null,
+     null
+    ],
+    [
+     null,
+     "Parties Prenantes sont tenues de se conformer au présent Code",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "COVID-19, et de veiller à ce que les personnes assistant à une",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Epreuve Couverte en leur nom se conforment à ce Code COVID-",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "19. Le non-respect de cette condition peut entraîner l\u0001exclusion",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "des Epreuves Couvertes.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.3 Le présent Code COVID-19 s\u0001applique également à chaque",
+     "",
+     "3.3 This COVID-19 Code also applies to each individual\nattending a Covered Event for any purpose on behalf of a\nStakeholder, including (without limitation) the Stakeholder\u0001s\nofficers, employees, members of staff, contractors, agents,\nrepresentatives, consultants, and volunteers, including (in\nrespect of Competitors) Drivers, team principal, sporting\ndirector, technical director, team manager, race engineers,\nand all other team personnel (whether or not they are already\nregistered with the FIA and whether or not they fall within the\ndefinition of Participants) (each, an Attendee).",
+     null,
+     null
+    ],
+    [
+     null,
+     "personne assistant à une Epreuve Couverte pour quelque raison",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "que ce soit au nom d\u0001une Partie Prenante, y compris (sans s\u0001y",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "limiter) les dirigeants, employés, membres du personnel,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "contractants, agents, représentants, consultants et volontaires",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de la Partie Prenante, y compris (en ce qui concerne les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Concurrents) les Pilotes, le team principal, le directeur sportif, le",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "directeur technique, le team manager, les ingénieurs de course",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "et tout autre personnel de l\u0001équipe (qu\u0001ils soient ou non déjà",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "enregistrés auprès de la FIA et qu\u0001ils entrent ou non dans la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "définition des Participants) (chacune étant une Personne",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présente).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "3.4 Comme condition pour avoir accès à une Epreuve Couverte,\nune Personne Présente doit accepter par écrit, sous une forme\napprouvée par la FIA, de se conformer au présent Code COVID-\n19. Aucun individu n\u0001est forcé d\u0001accepter de s\u0001y conformer et\naucun individu ne sera sanctionné par la FIA s\u0001il ne le fait pas ;\nmais tout individu qui n\u0001accepte pas de se conformer au présent\nCode COVID-19 n\u0001aura pas accès et ne pourra pas participer à\nune Epreuve Couverte.",
+     null,
+     null,
+     "",
+     "3.4 As a condition of being granted access to a Covered Event,",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "a Stakeholder must agree in writing, and each Attendee must",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "agree in writing, in a form satisfactory to the FIA, to comply",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "with this COVID-19 Code. No individual is forced to agree to",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "comply with this COVID-19 Code, and no individual will be",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "sanctioned by the FIA for failing to agree; but any individual",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "who does not agree to comply with this COVID-19 Code will",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "not be granted access to and may not attend any Covered",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "Event.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.5 Les Personnes Présentes qui doivent entrer dans des zones",
+     "",
+     "3.5 Attendees who are required to enter high population\ndensity working areas at a Venue (e.g., paddocks, race control\nbuilding, pit lane) (High Density Areas) are referred to in this\nCOVID-19 Code as Profile 1 Attendees. All of the protocols set\nout below that refer to Attendees or to Profile 1 Attendees\napply in full to Profile 1 Attendees.",
+     null,
+     null
+    ],
+    [
+     null,
+     "de travail à forte densité de population sur un Site (par exemple,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "les paddocks, le bâtiment de la direction de course, la voie des",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "stands) (Zones à Forte Densité) sont désignés dans le présent",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Code COVID-19 comme étant des Personnes Présentes de Profil",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "1. Tous les protocoles énoncés ci-dessous qui font référence aux",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes ou aux Personnes Présentes de Profil 1",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "s\u0001appliquent intégralement aux Personnes Présentes de Profil 1.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.6 Les Personnes Présentes qui ne sont tenues d\u0001entrer que",
+     "",
+     "",
+     "3.6 Attendees who are only required to enter low population",
+     ""
+    ],
+    [
+     null,
+     "dans les zones de travail à faible densité de population d\u0001un Site",
+     null,
+     null,
+     "density working areas at a Venue (Low Density Areas) are",
+     null
+    ],
+    [
+     null,
+     "(Zones à Faible Densité) sont désignés dans le présent Code",
+     null,
+     null,
+     "referred to in this COVID-19 Code as Profile 2 Attendees. The",
+     null
+    ],
+    [
+     null,
+     "COVID-19 comme étant des Personnes Présentes de Profil 2. Les",
+     null,
+     null,
+     "protocols below that mention only Profile 1 Attendees do not",
+     null
+    ],
+    [
+     null,
+     "protocoles ci-dessous qui ne mentionnent que les Personnes",
+     null,
+     null,
+     "apply to Profile 2 Attendees, but all protocols referring to",
+     null
+    ],
+    [
+     null,
+     "Présentes de Profil 1 ne s\u0001appliquent pas aux Personnes",
+     null,
+     null,
+     "Attendees do apply to them. Profile 2 Attendees will not be",
+     null
+    ],
+    [
+     null,
+     "Présentes de Profil 2, mais tous les protocoles qui font référence",
+     null,
+     null,
+     "permitted to enter High Density Areas; and the Venue will be",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 7,
+   "bbox": [
+    35.2,
+    78.6,
+    565.3,
+    737.9
+   ],
+   "rows": [
+    [
+     "",
+     "aux Personnes Présentes leur sont applicables. Les Personnes",
+     "",
+     "organised so as to prevent contact at the Venue between\nProfile 1 Attendees and Profile 2 Attendees.",
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes de Profil 2 ne seront pas autorisées à pénétrer dans",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "les Zones à Forte Densité ; et le Site sera organisé de manière à",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "empêcher tout contact sur le Site entre les Personnes Présentes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de Profil 1 et Personnes Présentes de Profil 2.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "Note explicative : Tombent en dehors de ces catégories,",
+     "",
+     "Guidance Note: Falling outside these categories, and\ntherefore outside the scope of this COVID-19 Code, are (1)\nspectators (who are the responsibility of the Organiser of\nthe Covered Event in question); and (2) delivery drivers\nwho come into a Low Density Area only for a brief period\nto drop off or pick up items in a designated area.",
+     null,
+     null
+    ],
+    [
+     null,
+     "et donc en dehors du champ d\u0001application du présent",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Code COVID-19, (1) les spectateurs (qui sont sous la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "responsabilité de l\u0001Organisateur de l\u0001Epreuve Couverte en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "question) ; et (2) les livreurs qui ne viennent dans une",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Zone à Faible Densité que pour une brève période pour",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "déposer ou retirer des articles dans une zone désignée.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.7 Sous réserve toujours de l\u0001article 2.8, une personne qui a",
+     "",
+     "3.7 An individual who has agreed to comply with this COVID-\n19 Code but then withdraws his/her consent to testing or fails\nto comply with the other requirements of the COVID-19 Code\nwill either be excluded from Covered Events or (at the\ndiscretion of the COVID-19 Delegate) will be excluded from the\nHigh Density Areas but permitted to remain in the Low Density\nAreas at Covered Events.",
+     null,
+     null
+    ],
+    [
+     null,
+     "accepté de se conformer au présent Code COVID-19 mais qui",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "retire ensuite son consentement aux tests ou qui ne se",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "conforme pas aux autres exigences du Code COVID-19 sera soit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "exclue des Epreuves Couvertes, soit exclue des Zones à Forte",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Densité mais autorisée à rester dans les Zones à Faible Densité",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "lors des Epreuves Couvertes (à la discrétion du Délégué COVID-",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "19).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "3.8 Interaction entre le Code COVID-19 et d\u0001autres exigences :",
+     null,
+     null,
+     "",
+     "3.8 Interplay between the COVID-19 Code and other",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "requirements:",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.8.1 Rien dans le présent Code COVID-19 n\u0001a pour but de",
+     "",
+     "",
+     "3.8.1 Nothing in this COVID-19 Code is intended to",
+     ""
+    ],
+    [
+     null,
+     "compromettre l\u0001application de ce qui suit :",
+     null,
+     null,
+     "compromise the application of:",
+     null
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "3.8.1.1 les règles et règlements qui régissent les Epreuves",
+     "",
+     "",
+     "3.8.1.1 the rules and regulations that govern the Covered",
+     ""
+    ],
+    [
+     null,
+     "Couvertes, y compris (sans s\u0001y limiter) les Statuts de la FIA, le",
+     null,
+     null,
+     "Events, including (without limitation) the FIA Statutes, the",
+     null
+    ],
+    [
+     null,
+     "Code Sportif International et ses Annexes, et les règlements",
+     null,
+     null,
+     "International Sporting Code and its Appendices, and the",
+     null
+    ],
+    [
+     null,
+     "sportifs, techniques et tout autre règlement spécifique ou",
+     null,
+     null,
+     "sporting, technical, and any other regulations specific to or",
+     null
+    ],
+    [
+     null,
+     "autrement applicable à la Compétition en question (les Règles",
+     null,
+     null,
+     "otherwise applicable to the Competition in question (the",
+     null
+    ],
+    [
+     null,
+     "Applicables) ; ou",
+     null,
+     null,
+     "Applicable Rules); or",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.8.1.2 les lois et règlementations transnationales, nationales et",
+     "",
+     "3.8.1.2 the transnational, national, and local laws and\nregulations that apply to the Covered Events, including laws\nand regulations relating to COVID-19 (the Applicable Laws).",
+     null,
+     null
+    ],
+    [
+     null,
+     "locales applicables aux Epreuves Couvertes, en ce compris les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "lois et réglementations relatives à la COVID-19 (les Lois",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Applicables).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.8.2 Les Règles Applicables et les Lois Applicables prévalent sur",
+     "",
+     "3.8.2 The Applicable Rules and the Applicable Laws take\nprecedence over this COVID-19 Code. In particular, all of the\npit lane and circuit/track discipline and safety measures and all\nother safety requirements in the Applicable Rules or in the\nApplicable Laws (together, the Safety Requirements) take\nprecedence over the requirements of this COVID-19 Code.",
+     null,
+     null
+    ],
+    [
+     null,
+     "le présent Code COVID-19. En particulier, toutes les mesures de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "discipline et de sécurité relatives à la voie des stands et au",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "circuit/à la piste ainsi que toutes les autres exigences de sécurité",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "des Règles Applicables ou des Lois Applicables (ensemble, les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Exigences de Sécurité) priment sur les exigences du présent",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Code COVID-19.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "3.8.3 Les Parties Prenantes et les Personnes Présentes ne",
+     "",
+     "",
+     "3.8.3 Stakeholders and Attendees should only change the way",
+     ""
+    ],
+    [
+     null,
+     "doivent modifier la manière dont elles appliquent les Exigences",
+     null,
+     null,
+     "they carry out the Safety Requirements in order to comply with",
+     null
+    ],
+    [
+     null,
+     "de Sécurité afin de se conformer au présent Code COVID-19 que",
+     null,
+     null,
+     "this COVID-19 Code if they are able to do so without",
+     null
+    ],
+    [
+     null,
+     "si elles sont en mesure de le faire sans compromettre l\u0001efficacité",
+     null,
+     null,
+     "compromising the efficacy of the Safety Requirements. As a",
+     null
+    ],
+    [
+     null,
+     "des Exigences de Sécurité. Par conséquent, un manquement à",
+     null,
+     null,
+     "result, a failure to satisfy a requirement of this COVID-19 Code",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 8,
+   "bbox": [
+    35.2,
+    78.6,
+    565.3,
+    737.9
+   ],
+   "rows": [
+    [
+     "",
+     "une exigence du présent Code COVID-19 en raison d\u0001un conflit",
+     "",
+     "because it conflicts with a Safety Requirement shall not be\ntreated as non-compliance with this COVID-19 Code. In case of\ndoubt, a Stakeholder should consult the COVID-19 Delegate.",
+     null,
+     null
+    ],
+    [
+     null,
+     "avec une Exigence de Sécurité ne doit pas être traité comme une",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "non-conformité au présent Code COVID-19. En cas de doute,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "une Partie Prenante doit consulter le Délégué COVID-19.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "ARTICLE 4 PROCESSUS",
+     null,
+     null,
+     "ARTICLE 4 PROCESS",
+     null,
+     null
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "4.1 Toute non-conformité substantielle aux exigences du",
+     "",
+     "",
+     "4.1 Any material non-compliance with the requirements of this",
+     ""
+    ],
+    [
+     null,
+     "présent Code COVID-19 doit être signalée sans délai au Délégué",
+     null,
+     null,
+     "COVID-19 Code must be reported without delay to the COVID-",
+     null
+    ],
+    [
+     null,
+     "COVID-19.",
+     null,
+     null,
+     "19 Delegate.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "4.2 Une décision du Délégué COVID-19 d\u0001expulser une Personne",
+     "",
+     "4.2 A decision by the COVID-19 Delegate to eject an Attendee\nfrom and/or deny an Attendee access to all or part of any\nCovered Event based on an assessment that the Attendee is or\nmay be infected is final and may not be challenged on any\ngrounds in any forum.",
+     null,
+     null
+    ],
+    [
+     null,
+     "Présente et/ou de lui refuser l\u0001accès à tout ou partie d\u0001une",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Epreuve Couverte sur la base d\u0001une évaluation selon laquelle la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personne Présente est, ou pourrait être, infectée est définitive",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "et ne peut être contestée, quelque soient les motifs et",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "l\u0001instance.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "4.3 Bien que les protocoles énoncés dans le présent Code",
+     "",
+     "4.3 While the protocols set out in this COVID-19 Code are\ndesigned to reduce the risk of transmission of the COVID-19\nvirus, each Stakeholder and each Attendee acknowledges that\nit is not possible to eliminate that risk entirely. Each Attendee\nassumes the risk of suffering an illness or fatality related to\nCOVID-19 as a result of his/her participation in a Covered\nEvent, and (in accordance with Article 1.1.3 of the\nInternational Sporting Code) agrees (on his/her own behalf,\nand on behalf of his/her estate, heirs, successors and assigns)\nthat the FIA and its directors, officers, employees, agents, and\nofficials shall bear no liability in respect of any such illness or\nfatality unless it is proven that the illness or fatality was\nsuffered as a result of the FIA\u0001s willful misconduct or gross\nnegligence. The Attendee will not bring any claim that is\ninconsistent with the foregoing sentence, and each\nStakeholder agrees not to bring and will procure that its\nAttendees do not bring any claim that is inconsistent with the\nforegoing sentence.",
+     null,
+     null
+    ],
+    [
+     null,
+     "COVID-19 soient conçus pour réduire le risque de transmission",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "du virus de la COVID-19, chaque Partie Prenante et chaque",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personne Présente reconnaît qu\u0001il n\u0001est pas possible d\u0001éliminer",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "entièrement ce risque. Chaque Personne Présente assume le",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "risque de maladie ou de décès lié à la COVID-19 à la suite de sa",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "participation à une Epreuve Couverte, et (conformément à",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "l\u0001article 1.1.3 du Code Sportif International) accepte (en son",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "nom propre et au nom de sa succession, de ses héritiers et",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ayants droit) que la FIA et ses directeurs, dirigeants, employés,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "agents et officiels n\u0001assument aucune responsabilité en ce qui",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "concerne une telle maladie ou un tel décès, à moins qu\u0001il ne soit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "prouvé que la maladie ou le décès résulte d\u0001une faute",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "intentionnelle ou d\u0001une négligence grave de la FIA. La Personne",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présente ne déposera aucune réclamation qui soit incompatible",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "avec la phrase précédente, et chaque Partie Prenante accepte",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de ne pas déposer une telle réclamation et fera en sorte que ses",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes ne déposent aucune réclamation qui soit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "incompatible avec la phrase précédente.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "4.4 À moins qu\u0001il n\u0001en soit convenu autrement avec la FIA :",
+     null,
+     null,
+     "4.4 Unless otherwise agreed with the FIA:",
+     null,
+     null
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "4.4.1 Le présent Code COVID-19 et toute réclamation ou",
+     "",
+     "4.4.1 This COVID-19 Code and any claim or controversy arising\nout of, or relating to, this COVID-19 Code shall be exclusively\ngoverned by, and construed in accordance with, French law,\nwithout regard to any conflict of law principles that could\nmandate the application of laws of another jurisdiction.",
+     "4.4.1 This COVID-19 Code and any claim or controversy arising",
+     null
+    ],
+    [
+     null,
+     "controverse découlant du présent Code COVID-19 ou s\u0001y",
+     null,
+     null,
+     "out of, or relating to, this COVID-19 Code shall be exclusively",
+     null
+    ],
+    [
+     null,
+     "rapportant seront exclusivement régis par le droit français et",
+     null,
+     null,
+     "governed by, and construed in accordance with, French law,",
+     null
+    ],
+    [
+     null,
+     "interprétés conformément à celui-ci, sans tenir compte des",
+     null,
+     null,
+     "without regard to any conflict of law principles that could",
+     null
+    ],
+    [
+     null,
+     "principes de conflit de lois qui pourraient imposer l\u0001application",
+     null,
+     null,
+     "mandate the application of laws of another jurisdiction.",
+     null
+    ],
+    [
+     null,
+     "des lois d\u0001une autre juridiction.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "4.4.2 Toute réclamation ou controverse découlant du présent\nCode COVID-19 ou s\u0001y rapportant (1) sera définitivement réglée\nen vertu du Code Sportif International et du Règlement\nDisciplinaire et Juridictionnel de la FIA et conformément à ceux-\nci ; ou (2) (lorsque la réclamation ou la controverse en question\nne relève pas du champ d\u0001application du Règlement",
+     null,
+     null,
+     "",
+     "4.4.2 All claims or controversies arising out of, or relating to,",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "this COVID-19 Code (1) shall be finally settled under, and in",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "accordance with, the International Sporting Code and the FIA",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "Judicial and Disciplinary Rules; or (2) (where the claim or",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "controversy in question falls outside the scope of the FIA",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "Judicial and Disciplinary Rules) shall be determined exclusively",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "by the Tribunal Judiciaire de Paris.",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 9,
+   "bbox": [
+    35.2,
+    78.7,
+    565.9,
+    371.8
+   ],
+   "rows": [
+    [
+     "",
+     "Disciplinaire et Juridictionnel de la FIA) sera tranchée",
+     null,
+     "",
+     "",
+     null,
+     null
+    ],
+    [
+     null,
+     "exclusivement par le Tribunal Judiciaire de Paris.",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "4.4.3 Lorsque le Délégué COVID-19 considère qu\u0001une Personne",
+     null,
+     "",
+     "",
+     "4.4.3 Where the COVID-19 Delegate considers that an",
+     ""
+    ],
+    [
+     null,
+     "Présente devrait être expulsée d\u0001une ou plusieurs Epreuves",
+     null,
+     null,
+     null,
+     "Attendee should be ejected from and denied any further",
+     null
+    ],
+    [
+     null,
+     "Couvertes et se voir refuser tout accès ultérieur à celles-ci, non",
+     null,
+     null,
+     null,
+     "access to a Covered Event(s) not because of a risk that he/she",
+     null
+    ],
+    [
+     null,
+     "pas en raison d\u0001un risque qu\u0001elle soit ou puisse être infectée,",
+     null,
+     null,
+     null,
+     "is or may be infected but instead based on his/her deliberate",
+     null
+    ],
+    [
+     null,
+     "mais plutôt en raison de sa violation délibérée, grave ou répétée",
+     null,
+     null,
+     null,
+     "or serious or repeated breach of the COVID-19 Code, the",
+     null
+    ],
+    [
+     null,
+     "du Code COVID-19, le Délégué COVID-19 doit soumettre un",
+     null,
+     null,
+     null,
+     "COVID-19 Delegate shall submit a report to the Stewards, who",
+     null
+    ],
+    [
+     null,
+     "rapport aux commissaires sportifs, qui procéderont",
+     null,
+     null,
+     null,
+     "shall proceed in accordance with Article 11.9 of the",
+     null
+    ],
+    [
+     null,
+     "conformément à l\u0001article 11.9 du Code Sportif International.",
+     null,
+     null,
+     null,
+     "International Sporting Code.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "4.4.4 Lorsque le Délégué COVID-19 considère qu\u0001une Personne\nPrésente a délibérément ou gravement ou de manière répétée\nenfreint le Code COVID-19, le Délégué COVID-19 doit soumettre\nun rapport aux commissaires sportifs, qui procèderont\nconformément à l\u0001article 11.9 du Code Sportif International.",
+     null,
+     null,
+     null,
+     "",
+     "4.4.4 Where the COVID-19 Delegate considers that a",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     "Stakeholder has deliberately or seriously or repeatedly",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     "breached the COVID-19 Code, the COVID-19 Delegate shall",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     "submit a report to the Stewards, who shall proceed in",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     "accordance with Article 11.9 of the International Sporting",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     null,
+     "Code.",
+     null
+    ],
+    [
+     "",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "PREMIERE PARTIE DU PRESENT CODE COVID-19",
+     "",
+     "PART ONE OF THIS COVID-19 CODE\nARTICLE 5 PROTOCOLS FOR PART ONE EVENTS",
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ARTICLE 5 PROTOCOLES POUR LES EPREUVES SOUMISES A LA",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "PREMIERE PARTIE",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    40.6,
+    373.8,
+    515.7,
+    383.7
+   ],
+   "text": "ARTICLE 5A. PROTOCOLES APPLICABLES EN TOUT TEMPS ARTICLE 5A. PROTOCOLS APPLICABLE AT ALL TIMES"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    40.6,
+    398.2,
+    294.6,
+    469.3
+   ],
+   "text": "5.1 Les Parties Prenantes doivent examiner et revoir leurs fonctionnements afin de s\u0001assurer que les seules personnes qui se rendent sur le Site en leur nom sont des personnes dont la présence sur le Site est essentielle à l\u0001organisation sûre et réussie de la Compétition et/ou de l\u0001Epreuve soumise à la Première Partie en question.",
+   "clause": "5.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    303.1,
+    398.2,
+    563.6,
+    457.1
+   ],
+   "text": "5.1 Stakeholders shall review and revise their operations to ensure that the only persons who attend the Venue on their behalf are persons whose attendance at the Venue is essential to the safe and successful staging of the Competition and/or the Part One Event in question.",
+   "clause": "5.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    40.6,
+    483.7,
+    294.6,
+    566.8
+   ],
+   "text": "5.2 Les Parties Prenantes doivent fournir à leurs Personnes Présentes des copies du présent Code COVID-19 et de tout amendement à celui-ci, doivent s\u0001assurer que leurs Personnes Présentes sont pleinement informées des exigences du présent Code COVID-19 (tel que modifié de temps à autre), et doivent s\u0001assurer que leurs Personnes Présentes respectent les exigences du Code COVID-19.",
+   "clause": "5.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    303.1,
+    483.7,
+    563.7,
+    554.7
+   ],
+   "text": "5.2 Stakeholders shall provide their Attendees with copies of this COVID-19 Code and any amendments thereto, shall ensure their Attendees are fully informed about the requirements of this COVID-19 Code (as amended from time to time), and shall ensure their Attendees\u0001 compliance with the requirements of the COVID-19 Code.",
+   "clause": "5.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    40.6,
+    581.4,
+    294.6,
+    725.6
+   ],
+   "text": "5.3 Les Parties Prenantes doivent consacrer des ressources suffisantes pour leur permettre, ainsi qu\u0001à leurs Personnes Présentes, de se conformer efficacement et sans délai au présent Code COVID-19, y compris (sans s\u0001y limiter) l\u0001organisation de Tests Préalables à l\u0001Epreuve pour toutes leurs Personnes Présentes qui sont des Personnes Présentes de Profil 1, et la recherche et la fourniture de masques de protection (y compris les Masques de Protection Médicaux) en quantité suffisante pour permettre leur remplacement après quatre heures d\u0001utilisation, ainsi que d\u0001autres EPI, à utiliser par les Personnes Présentes de Profil 1 pendant qu\u0001elles se trouvent sur le Site et pendant leur voyage vers et depuis le Site.",
+   "clause": "5.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    303.1,
+    581.4,
+    563.7,
+    689.0
+   ],
+   "text": "5.3 Stakeholders shall devote sufficient resources to enable them and their Attendees to comply with this COVID-19 Code effectively and without delay, including (without limitation) organising Pre-Event Tests for any of their Attendees who are Profile 1 Attendees, and sourcing and supplying face masks (including Medical Face Masks) in sufficient quantities to allow replacement after four hours\u0001 use, as well as other PPE, for use by those Profile 1 Attendees while they are at the Venue and while they are travelling to and from the Venue.",
+   "clause": "5.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    80.9,
+    294.6,
+    151.9
+   ],
+   "text": "5.4 Avant chaque Epreuve soumise à la Première Partie (en ce compris la seconde Epreuve soumise à la Première Partie dans le cas de deux Epreuves soumises à la Première Partie consécutives organisées sur le même Site), chaque Partie Prenante doit fournir au Délégué COVID-19 et à d\u0001autres selon les instructions du Délégué COVID-19 :",
+   "clause": "5.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    80.9,
+    563.6,
+    127.4
+   ],
+   "text": "5.4 Before each Part One Event (including the second of two consecutive Part One Events staged at the same Venue), each Stakeholder must provide to the COVID-19 Delegate and to others as directed by the COVID-19 Delegate:",
+   "clause": "5.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    166.3,
+    294.6,
+    225.1
+   ],
+   "text": "5.4.1 une liste à jour de toutes les Personnes Présentes qu\u0001elle souhaite voir participer à l\u0001Epreuve soumise à la Première Partie en son nom, et la désignation de chacune de ces Personnes Présentes comme Personne Présente de Profil 1 ou Personne Présente de Profil 2 ;",
+   "clause": "5.4.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    166.3,
+    563.6,
+    212.9
+   ],
+   "text": "5.4.1 an up-to-date list of all of the Attendees that it wishes to attend the Part One Event on its behalf, and a designation of each of those Attendees as either a Profile 1 Attendee or a Profile 2 Attendee;",
+   "clause": "5.4.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    239.5,
+    563.6,
+    261.7
+   ],
+   "text": "5.4.2 la confirmation que chaque Personne Présente de Profil 1 est Apte à Participer à l\u0001Epreuve soumise à la Première Partie; 5.4.2 confirmation that each listed Profile 1 Attendee is Fit to Attend the Part One Event;",
+   "clause": "5.4.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    276.2,
+    294.6,
+    347.1
+   ],
+   "text": "5.4.3 la confirmation que chaque Personne Présente inscrite sur la liste a accepté par écrit d\u0001être liée par le présent Code COVID-19, de s\u0001en familiariser et de s\u0001y conformer en tout temps (et la première fois que la Personne Présente est inscrite sur une telle liste, une copie de son accord écrit doit être jointe à la liste) ;",
+   "clause": "5.4.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    276.2,
+    563.6,
+    335.0
+   ],
+   "text": "5.4.3 confirmation that each listed Attendee has agreed in writing to be bound by, to familiarise themselves with, and to comply at all times with this COVID-19 Code (and the first time the Attendee is included on such a list, a copy of their written agreement must be attached to the list);",
+   "clause": "5.4.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    361.6,
+    294.6,
+    420.4
+   ],
+   "text": "5.4.4 la confirmation que chaque Personne Présente listée acceptera les Dépistages Primaires (Personnes Présentes de Profil 1 uniquement) et le Dépistage Secondaire organisés par ou au nom de la FIA pendant l\u0001Epreuve soumise à la Première Partie ;",
+   "clause": "5.4.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    361.6,
+    563.6,
+    396.0
+   ],
+   "text": "5.4.4 confirmation that each listed Attendee will agree to Primary Testing (Profile 1 Attendees only) and Secondary Testing organised by or on behalf of the FIA during the Part One Event;",
+   "clause": "5.4.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    434.9,
+    294.6,
+    505.9
+   ],
+   "text": "5.4.5 la confirmation que chaque Personne Présente listée (a) acceptera de fournir les résultats de ces tests à la Partie Prenante ; et/ou (b) acceptera que le Fournisseur de Tests Agréé révèle à la Partie Prenante si la Personne Présente reste Apte à Participer à l\u0001Epreuve soumise à la Première Partie sur la base des résultats de ces tests ;",
+   "clause": "5.4.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    434.9,
+    563.7,
+    493.7
+   ],
+   "text": "5.4.5 confirmation that each listed Attendee (a) will agree to provide the results of such testing to the Stakeholder; and/or (b) will agree to the Approved Test Provider disclosing to the Stakeholder whether the Attendee remains Fit to Attend the Part One Event based on the results of such testing;",
+   "clause": "5.4.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    520.3,
+    294.6,
+    615.7
+   ],
+   "text": "5.4.6 la désignation du Groupe auquel chaque Personne Présente de Profil 1 figurant sur la liste a été affectée, c\u0001est-à- dire s\u0001il s\u0001agit simplement du Groupe de la Partie Prenante, ou, lorsque la Partie Prenante est un sous-traitant ou un fournisseur d\u0001une autre Partie Prenante et qu\u0001une ou plusieurs des Personnes Présentes figurant sur sa liste vont travailler exclusivement avec cette autre Partie Prenante pendant l\u0001Epreuve, du Groupe de cette autre Partie Prenante ; et",
+   "clause": "5.4.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    520.3,
+    563.6,
+    603.6
+   ],
+   "text": "5.4.6 designation of the Group that each listed Profile 1 Attendee has been assigned to, i.e., whether simply to the Stakeholder\u0001s Group, or, where the Stakeholder is a sub- contractor or supplier of another Stakeholder and one or more of the Attendees on its list is going to work exclusively with that other Stakeholder during the Event, to that other Stakeholder\u0001s Group; and",
+   "clause": "5.4.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    630.2,
+    294.6,
+    701.1
+   ],
+   "text": "5.4.7 le nom d\u0001une Personne Présente dans le Groupe global de chaque Partie Prenante (et non dans un groupe plus restreint au sein de ce groupe plus large) qui est chargée de contrôler la conformité des membres de ce Groupe au présent Code COVID-19 et de signaler tout cas de non-conformité substantielle au Délégué COVID-19.",
+   "clause": "5.4.7"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    630.2,
+    563.6,
+    689.0
+   ],
+   "text": "5.4.7 the name of one Attendee in each Stakeholder\u0001s overall Group (not any smaller group within that larger group) who is responsible for monitoring the compliance of members of that Group with this COVID-19 Code and for reporting any instances of material non-compliance to the COVID-19 Delegate.",
+   "clause": "5.4.7"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    40.6,
+    715.7,
+    294.6,
+    737.7
+   ],
+   "text": "Seules les Personnes Présentes figurant sur la liste et pour lesquelles toutes les informations requises ont été fournies"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    303.1,
+    715.7,
+    563.6,
+    737.7
+   ],
+   "text": "Only Attendees on the list for whom all the required information has been provided will be given access to the Venue. Only Profile"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    80.9,
+    294.6,
+    127.4
+   ],
+   "text": "auront accès au Site. Seules les Personnes Présentes de Profil 1 figurant sur la liste et pour lesquelles toutes les informations requises ont été fournies auront accès aux Zones à Forte Densité du Site."
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    80.9,
+    563.6,
+    115.2
+   ],
+   "text": "1 Attendees on the list for whom all the required information has been provided will be given access to High Density Areas at the Venue.",
+   "clause": "1"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    141.9,
+    294.6,
+    237.3
+   ],
+   "text": "5.5 Avant chaque Epreuve soumise à la Première Partie, si des circonstances surviennent et font qu\u0001une Personne Présente n\u0001est pas Apte à Participer à l\u0001Epreuve soumise à la Première Partie (par exemple, si son test est positif au virus de la COVID- 19 ou si elle commence à souffrir de Symptômes de la COVID- 19 ou si elle a un Contact Etroit avec une personne souffrant de Symptômes de la COVID-19), la Personne Présente ne doit pas se déclarer Apte à Participer.",
+   "clause": "5.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    141.9,
+    563.6,
+    212.9
+   ],
+   "text": "5.5 Prior to each Part One Event, if any circumstances arise that mean an Attendee is not Fit to Attend the Part One Event (e.g., he/she tests positive for the COVID-19 virus or he/she starts to suffer from any COVID-19 Symptoms or he/she has any Close Contact with anyone suffering from COVID-19 Symptoms), the Attendee must not declare him/herself Fit to Attend.",
+   "clause": "5.5"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    251.7,
+    294.6,
+    383.7
+   ],
+   "text": "5.6 Pendant une Epreuve soumise à la Première Partie, chaque Personne Présente doit signaler immédiatement à sa Partie Prenante, ou à un professionnel de santé désigné par sa Partie Prenante, toute circonstance qui pourrait impliquer qu\u0001elle n\u0001est plus Apte à Participer à l\u0001Epreuve soumise à la Première Partie (par exemple, si son test est positif au virus de la COVID- 19 ou si elle commence à souffrir de Symptômes de la COVID- 19 ou si elle a un Contact Etroit avec une personne souffrant de Symptômes de la COVID-19). Par la suite, la Personne Présente doit se conformer aux instructions de sa Partie Prenante et du Délégué COVID-19.",
+   "clause": "5.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    251.7,
+    563.7,
+    371.6
+   ],
+   "text": "5.6 During a Part One Event, each Attendee must report immediately to his/her Stakeholder or to a healthcare professional designated by his/her Stakeholder if any circumstances arise that may mean he/she is no longer Fit to Attend the Part One Event (e.g., he/she tests positive for the COVID-19 virus or he/she starts to suffer from any COVID-19 Symptoms or he/she has any Close Contact with anyone suffering from COVID-19 Symptoms). Thereafter the Attendee must comply with the instructions of his/her Stakeholder and the COVID-19 Delegate.",
+   "clause": "5.6"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    398.2,
+    294.6,
+    554.7
+   ],
+   "text": "5.7 Une Partie Prenante doit surveiller en permanence et informer immédiatement le Délégué COVID-19 si, au cours de l\u0001Epreuve soumise à la Première Partie, des circonstances surviennent (telles qu\u0001une divulgation par le Fournisseur de Tests Agréé concernant une Personne Présente, ou un rapport établi conformément à l\u0001article 5.6) et indiquent que toute Personne Présente dans l\u0001un de ses Groupes n\u0001est plus, ou pourrait ne plus être, Apte à Participer à l\u0001Epreuve soumise à la Première Partie. Par la suite, la Partie Prenante doit coopérer avec le Délégué COVID-19 pour faire face à la situation, y compris en retirant la Personne Présente en question de l\u0001Epreuve soumise à la Première Partie si le Délégué COVID-19 le demande.",
+   "clause": "5.7"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    398.2,
+    563.7,
+    518.0
+   ],
+   "text": "5.7 A Stakeholder must monitor continuously and advise the COVID-19 Delegate immediately if during the Part One Event any circumstances arise (such as a disclosure by the Approved Test Provider in respect of an Attendee, or a report made in accordance with Article 5.6) that indicate that any Attendee in one of its Groups is or may be no longer Fit to Attend the Part One Event. Thereafter the Stakeholder must cooperate with the COVID-19 Delegate in addressing the situation, including by removing the Attendee in question from the Part One Event if so required by the COVID-19 Delegate.",
+   "clause": "5.7"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    569.1,
+    292.2,
+    591.3
+   ],
+   "text": "ARTICLE 5B. PROTOCOLES APPLICABLES AVANT CHAQUE EPREUVE SOUMISE A LA PREMIERE PARTIE"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    569.1,
+    563.6,
+    591.3
+   ],
+   "text": "ARTICLE 5B. PROTOCOLS APPLICABLE PRIOR TO EACH PART ONE EVENT"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.6,
+    605.7,
+    294.6,
+    701.1
+   ],
+   "text": "5.8 Dans la mesure du possible, les Parties Prenantes doivent faire en sorte que les Personnes Présentes se rendent dans le pays du Site uniquement avec des membres du même Groupe. Les Parties Prenantes doivent fournir aux Personnes Présentes les moyens d\u0001observer les mesures d\u0001atténuation appropriées pendant la période de voyage (par exemple, la Distanciation Sociale, l\u0001hygiène/le lavage des mains, l\u0001utilisation de lingettes à base d\u0001alcool, l\u0001utilisation d\u0001EPI).",
+   "clause": "5.8"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    303.1,
+    605.7,
+    563.6,
+    676.8
+   ],
+   "text": "5.8 Wherever possible, Stakeholders shall arrange for Attendees to travel to the country of the Venue only with members of the same Group. Stakeholders shall provide Attendees with the means to observe appropriate mitigation measures during the period of travel (e.g., Social Distancing, hand-washing hygiene, use of alcohol-based hand wipes, use of PPE).",
+   "clause": "5.8"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    63.8,
+    715.7,
+    294.6,
+    737.7
+   ],
+   "text": "Note explicative : Une Personne Présente qui est membre du personnel d\u0001une Partie Prenante mais qui est"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    325.9,
+    715.7,
+    563.6,
+    737.7
+   ],
+   "text": "Guidance note: An Attendee who is a member of staff of one Stakeholder but is assigned to work exclusively in a"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    63.8,
+    80.9,
+    294.6,
+    127.4
+   ],
+   "text": "affectée à un travail exclusif dans un Groupe d\u0001une autre Partie Prenante pendant l\u0001Epreuve soumise à la Première Partie peut se rendre dans le pays du Site soit avec ce Groupe, soit avec le Groupe de sa Partie Prenante."
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    325.9,
+    80.9,
+    563.6,
+    115.2
+   ],
+   "text": "Group of another Stakeholder during the Part One Event may travel to the country of the Venue either with that Group or with his/her Stakeholder\u0001s Group."
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    141.9,
+    294.5,
+    164.0
+   ],
+   "text": "5.9 Les personnes ne seront pas admises sur un Site, même si elles sont titulaires d\u0001une accréditation valide, sauf si :",
+   "clause": "5.9"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    141.9,
+    563.6,
+    164.0
+   ],
+   "text": "5.9 Individuals will not be admitted to a Venue, even if they hold valid accreditation, unless:",
+   "clause": "5.9"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    178.5,
+    294.6,
+    212.9
+   ],
+   "text": "5.9.1 elles ont confirmé par écrit, sous une forme approuvée par la FIA, qu\u0001elles acceptent d\u0001être liées par le présent Code COVID-19 et de s\u0001y conformer ;",
+   "clause": "5.9.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    178.5,
+    563.6,
+    212.9
+   ],
+   "text": "5.9.1 they have confirmed in writing in a form approved by the FIA their agreement to be bound by and to comply with this COVID-19 Code;",
+   "clause": "5.9.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    227.4,
+    294.6,
+    249.5
+   ],
+   "text": "5.9.2 leur Partie Prenante a confirmé qu\u0001elles sont Aptes à Participer (Personnes Présentes de Profil 1 uniquement) ;",
+   "clause": "5.9.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    227.4,
+    563.6,
+    249.5
+   ],
+   "text": "5.9.2 their Stakeholder has confirmed they are Fit to Attend (Profile 1 Attendees only);",
+   "clause": "5.9.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    264.0,
+    294.6,
+    310.5
+   ],
+   "text": "5.9.3 elles passent tous les contrôles (par exemple, contrôle de la température) administrés par les autorités nationales ou locales ou par l\u0001Organisateur de l\u0001Epreuve soumise à la Première Partie ; et",
+   "clause": "5.9.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    264.0,
+    563.6,
+    298.3
+   ],
+   "text": "5.9.3 they pass any checks (e.g., temperature check) administered by the national or local authorities or the Organiser of the Part One Event; and",
+   "clause": "5.9.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    325.1,
+    294.6,
+    359.4
+   ],
+   "text": "5.9.4 elles portent un Masque de Protection Médical jusqu\u0001à ce qu\u0001elles atteignent un espace occupé uniquement par leur Groupe (Personnes Présentes de Profil 1 uniquement).",
+   "clause": "5.9.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    325.1,
+    563.6,
+    347.1
+   ],
+   "text": "5.9.4 they wear a Medical Face Mask until they reach a space occupied only by their Group (Profile 1 Attendees only).",
+   "clause": "5.9.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    373.8,
+    292.2,
+    396.0
+   ],
+   "text": "ARTICLE 5C. PROTOCOLES APPLICABLES LORS D\u0001UNE EPREUVE SOUMISE A LA PREMIERE PARTIE"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    373.8,
+    561.4,
+    396.0
+   ],
+   "text": "ARTICLE 5C. PROTOCOLS APPLICABLE DURING A PART ONE EVENT"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    410.5,
+    294.6,
+    481.4
+   ],
+   "text": "5.10 Tout le temps passé par les Personnes Présentes de Profil 1 en dehors du Site de l\u0001Epreuve soumise à la Première Partie ou entre deux Epreuves soumises à la Première Partie (par exemple, à l\u0001hôtel) doit l\u0001être avec d\u0001autres membres du même Groupe, en limitant au maximum l\u0001interaction avec des personnes extérieures à ce Groupe.",
+   "clause": "5.10"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    410.5,
+    563.7,
+    469.3
+   ],
+   "text": "5.10 Any time that Profile 1 Attendees spend outside the Venue during a Part One Event or between Part One Events (e.g., at a hotel) must be spent with other members of the same Group, keeping interaction with persons outside that Group to a minimum.",
+   "clause": "5.10"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    495.9,
+    294.6,
+    579.1
+   ],
+   "text": "5.11 En dehors du Site, les Personnes Présentes doivent observer les mesures d\u0001atténuation appropriées spécifiées par leurs Parties Prenantes (par exemple, l\u0001hygiène/le lavage des mains, les lingettes à base d\u0001alcool, les EPI). Les Parties Prenantes doivent fournir les EPI et autres ressources dont les Personnes Présentes ont besoin pour respecter ces mesures d\u0001atténuation.",
+   "clause": "5.11"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    495.9,
+    563.6,
+    554.7
+   ],
+   "text": "5.11 While outside the Venue, Attendees shall observe appropriate mitigation measures specified by their Stakeholders (e.g., hand-washing hygiene, alcohol-based hand wipes, PPE). Stakeholders shall provide the PPE and other resources that their Attendees require to observe such mitigation measures.",
+   "clause": "5.11"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    593.6,
+    294.6,
+    664.5
+   ],
+   "text": "5.12 Toutes les Personnes Présentes doivent suivre les procédures d\u0001atténuation mises en place sur le Site, telles que le lavage régulier et efficace des mains (en utilisant des désinfectants pour les mains à base d\u0001alcool si possible), le respect de couloirs piétons à sens unique et/ou des marquages au sol pour faciliter la Distanciation Sociale, et le port d\u0001EPI.",
+   "clause": "5.12"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    593.6,
+    563.6,
+    652.3
+   ],
+   "text": "5.12 All Attendees must follow the mitigation procedures put in place at the Venue, such as regular and effective washing of hands (using alcohol-based hand rubs where available), observance of one-way pedestrian systems and/or floor markings to facilitate Social Distancing, and wearing of PPE.",
+   "clause": "5.12"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    40.6,
+    679.0,
+    294.6,
+    737.7
+   ],
+   "text": "5.13 Les Personnes Présentes de Profil 1 qui sont membres d\u0001un même Groupe peuvent entreprendre des activités communes et partager un espace et des installations communs sur le Site sans observer de Distanciation Sociale (telle que définie ci-dessous).",
+   "clause": "5.13"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    303.1,
+    679.0,
+    563.6,
+    725.6
+   ],
+   "text": "5.13 Profile 1 Attendees who are members of the same Group may undertake common activities and share common space and facilities at the Venue without observing Social Distancing (as defined below).",
+   "clause": "5.13"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    56.8,
+    80.9,
+    294.6,
+    151.9
+   ],
+   "text": "Note explicative : Nonobstant la disposition 5.13, même lorsqu\u0001elles n\u0001interagissent qu\u0001avec des membres du même Groupe, il est recommandé aux Personnes Présentes de Profil 1 de maintenir la Distanciation Sociale, ou bien de recourir à d\u0001autres mesures d\u0001atténuation telles que le port d\u0001un Masque de Protection Médical."
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    318.7,
+    80.9,
+    563.7,
+    139.6
+   ],
+   "text": "Guidance note: Notwithstanding clause 5.13, even when interacting only with members of the same Group, Profile 1 Attendees are recommended to maintain Social Distancing, or else to use alternative mitigation measures such as the wearing of Medical Face Masks."
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    166.3,
+    445.2,
+    176.2
+   ],
+   "text": "5.14 Chaque Personne Présente de Profil 1 : 5.14 Each Profile 1 Attendee must:",
+   "clause": "5.14"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    190.8,
+    294.5,
+    212.9
+   ],
+   "text": "5.14.1 doit réduire au minimum les interactions avec les membres des autres Groupes ;",
+   "clause": "5.14.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    190.8,
+    563.6,
+    212.9
+   ],
+   "text": "5.14.1 keep to a minimum any interactions with any members of other Groups;",
+   "clause": "5.14.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    227.4,
+    294.6,
+    286.2
+   ],
+   "text": "5.14.2 doit porter un Masque de Protection Médical chaque fois qu\u0001elle se trouve dans un espace qui n\u0001est pas exclusivement utilisé par les membres d\u0001un même Groupe (par exemple, la voie des stands, la zone de vérifications techniques) ;",
+   "clause": "5.14.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    227.4,
+    563.6,
+    261.7
+   ],
+   "text": "5.14.2 wear a Medical Face Mask whenever in a space that is not exclusively used by members of the same Group (e.g., pit lane, scrutineering area);",
+   "clause": "5.14.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    300.6,
+    294.6,
+    335.0
+   ],
+   "text": "5.14.3 ne doit pas utiliser d\u0001installations ou de services réservés à l\u0001usage exclusif des membres d\u0001un autre Groupe (par exemple, les espaces repas, les toilettes) ; et",
+   "clause": "5.14.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    300.6,
+    563.7,
+    335.0
+   ],
+   "text": "5.14.3 not use any facilities or services that are dedicated for the exclusive use of members of another Group (e.g., dining areas, toilet facilities); and",
+   "clause": "5.14.3"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    349.4,
+    294.6,
+    383.7
+   ],
+   "text": "5.14.4 doit limiter au maximum son utilisation des installations ou des services qui sont également ouverts aux personnes qui ne font pas partie de leur Groupe.",
+   "clause": "5.14.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    349.4,
+    563.6,
+    371.6
+   ],
+   "text": "5.14.4 keep to a minimum his/her use of any facilities or services that are also open for use by persons who are not in their Group.",
+   "clause": "5.14.4"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    398.2,
+    294.6,
+    603.6
+   ],
+   "text": "5.15 Chaque Personne Présente de Profil 1 doit en tout temps rester à une distance d\u0001au moins deux mètres de toutes les Personnes Présentes qui ne sont pas membres de son Groupe (Distanciation Sociale). La seule exception à cette règle concerne les cas où une telle Distanciation Sociale compromettrait la sécurité, le respect des Règles Applicables ou des Lois Applicables, ou la capacité d\u0001un Concurrent à participer à la Compétition en question. Dans ces cas uniquement, les Personnes Présentes en question ne sont pas tenues d\u0001observer la Distanciation Sociale mais doivent porter un Masque de Protection Médical (et/ou un autre EPI, selon les instructions du Délégué COVID-19) (à moins qu\u0001il ne soit remplacé par une cagoule et un casque intégral couvrant les yeux, le nez et la bouche) et accomplir la tâche en question aussi rapidement que possible, tout en gardant autant de distance que possible avec les Personnes Présentes des autres Groupes.",
+   "clause": "5.15"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    398.2,
+    563.7,
+    554.7
+   ],
+   "text": "5.15 Each Profile 1 Attendee must remain at least two metres distant from all Attendees who are not members of his/her Group (Social Distancing) at all times. The only exception to this is where such Social Distancing would jeopardise safety, compliance with Applicable Rules or Applicable Laws, or the ability of a Competitor to participate in the Competition in question. In such cases only, the Attendees in question do not have to observe Social Distancing but must wear a Medical Face Mask (and/or other PPE, as directed by the COVID-19 Delegate) (unless superseded by a balaclava and full face helmet covering the eyes, nose and mouth) and complete the task in question as quickly as possible, while maintaining as much distance as possible from Attendees from other Groups.",
+   "clause": "5.15"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    40.6,
+    618.0,
+    294.6,
+    737.7
+   ],
+   "text": "5.15.1 Une Partie Prenante qui est un fournisseur de produits ou de services communs à tous les Concurrents d\u0001un Championnat (par exemple, pneus, télémétrie, caméras embarquées, etc.) aura dans son Groupe des Personnes Présentes qui devront interagir dans le paddock avec les Personnes Présentes d\u0001un certain nombre d\u0001autres Groupes. En plus de se conformer aux exigences de l\u0001article 5.15 concernant ces interactions, ces Parties Prenantes peuvent spécifier d\u0001autres mesures d\u0001atténuation (telles que la création de créneaux horaires spécifiques pour l\u0001interaction avec des",
+   "clause": "5.15.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    303.1,
+    618.0,
+    563.6,
+    737.7
+   ],
+   "text": "5.15.1 A Stakeholder that is a supplier of shared products or services to all Competitors in a Championship (e.g. tyres, telemetry, on-board cameras, etc.) will have Attendees in its Group that have to interact within the paddock with Attendees from a number of other Groups. In addition to complying with the requirements of Article 5.15 in respect of such interactions, such Stakeholders may specify further mitigation measures (such as creating specific time-slots for interaction with different Groups) that must be respected by all Attendees using their products or services. They must communicate these measures",
+   "clause": "5.15.1"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    80.9,
+    294.6,
+    139.6
+   ],
+   "text": "Groupes différents) qui doivent être respectées par toutes les Personnes Présentes utilisant leurs produits ou services. Elles doivent communiquer ces mesures à tous ces utilisateurs avant l\u0001Epreuve Couverte en question, en mettant le Délégué COVID-19 en copie."
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    80.9,
+    563.6,
+    103.0
+   ],
+   "text": "to all such users prior to the Covered Event in question, copying the COVID-19 Delegate."
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    154.0,
+    294.6,
+    188.5
+   ],
+   "text": "5.15.2 Une Partie Prenante qui fournit des produits ou des services communs à tous les Concurrents dans plus d\u0001un paddock doit avoir des Groupes séparés pour chaque paddock.",
+   "clause": "5.15.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    154.0,
+    563.7,
+    188.5
+   ],
+   "text": "5.15.2 A Stakeholder that is supplying shared products or services to all Competitors in more than one paddock must have separate Groups for each paddock.",
+   "clause": "5.15.2"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    202.9,
+    294.6,
+    261.7
+   ],
+   "text": "5.16 Tous les Masques de Protection Médicaux et autres EPI usagés doivent être jetés dans des poubelles fermées fournies par l\u0001Organisateur. L\u0001Organisateur doit prendre des dispositions pour l\u0001élimination de ces déchets conformément aux directives et réglementations locales pertinentes.",
+   "clause": "5.16"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    202.9,
+    563.6,
+    261.7
+   ],
+   "text": "5.16 All used Medical Face Masks and other PPE must be disposed of in closed waste receptacles provided by the Organiser. The Organiser must make provision for disposal of this waste consistent with the relevant local guidance and regulations.",
+   "clause": "5.16"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    276.2,
+    296.8,
+    493.7
+   ],
+   "text": "5.17 Chaque Partie Prenante doit veiller à ce que chacune des Personnes Présentes de Profil 1 passe un Test PCR effectué par le Fournisseur de Test Agréé sur le Site (1) au plus tard cinq jours après la date à laquelle elle a passé son Test Préalable à l\u0001Epreuve ; et (2) au moins une fois tous les cinq jours par la suite, tant qu\u0001elle continue à se rendre sur le Site après la course, ainsi que dans l\u0001intervalle entre deux Epreuves soumises à la Première Partie organisées au cours de semaines consécutives sur le même Site (ensemble, les Dépistages Primaires). Une Personne Présente peut refuser de se soumettre à ces Dépistages Primaires à tout moment, mais dans ce cas, elle doit quitter immédiatement les Zones à Forte Densité et ne sera pas réadmise dans une telle Zone. Une Partie Prenante doit confirmer, à la demande de la FIA, que toutes les Personnes Présentes de Profil 1 ont satisfait à cette exigence de Dépistages Primaires ; et doit exclure de toutes les Zones à Forte Densité toutes les Personnes Présentes de Profil 1 qui ne satisfont pas à cette exigence de Dépistages Primaires.",
+   "clause": "5.17"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    276.2,
+    563.7,
+    469.3
+   ],
+   "text": "5.17 Each Stakeholder must ensure that each of its Profile 1 Attendees takes a PCR Test administered by the Approved Test Provider at the Venue (1) no more than five days after the date that he/she took his/her Pre-Event Test; and (2) at least once every five days thereafter for so long as he/she continues to attend at the Venue after the race, as well as in the interval between two Part One Events held in consecutive weeks at the same Venue (together, Primary Testing). An Attendee may decline to submit to such Primary Testing at any time, but in that case he/she must leave the High Density Areas immediately, and he/she will not be re-admitted to any High Density Areas. A Stakeholder must confirm upon request by the FIA that all of its Profile 1 Attendees have complied with this Primary Testing requirement; and must exclude from all High Density Areas any of its Profile 1 Attendees who does not comply with this Primary Testing requirement.",
+   "clause": "5.17"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    508.1,
+    294.6,
+    554.7
+   ],
+   "text": "5.18 Une Personne Présente qui commence à souffrir de tout Symptôme de la COVID-19 alors qu\u0001elle se trouve en dehors du Site doit se rendre immédiatement au centre médical le plus proche, selon les instructions de sa Partie Prenante.",
+   "clause": "5.18"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    508.1,
+    563.6,
+    542.5
+   ],
+   "text": "5.18 An Attendee who begins to suffer from COVID-19 Symptoms while outside the Venue must report immediately to the nearest medical facility, as directed by his/her Stakeholder.",
+   "clause": "5.18"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    40.6,
+    569.1,
+    294.6,
+    713.4
+   ],
+   "text": "5.19 Une Personne Présente qui commence à souffrir de Symptômes de la COVID-19 pendant qu\u0001elle se trouve sur le Site, ou qui a un Dépistage Primaire positif, ou qui est identifiée (par le traçage manuel des contacts) comme ayant eu un Contact Etroit avec une personne qui est une personne infectée, doit se présenter immédiatement en Quarantaine et passer un Test PCR effectué par le Fournisseur de Tests Agréé (Dépistage Secondaire). Si l\u0001infection est confirmée, elle doit se présenter immédiatement à la zone d\u0001Isolement désignée sur le Site. Elle doit en tout temps suivre les instructions du représentant des autorités sanitaires locales lorsqu\u0001elle se trouve en Quarantaine ou en Isolement.",
+   "clause": "5.19"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    303.1,
+    569.1,
+    563.6,
+    689.0
+   ],
+   "text": "5.19 An Attendee who begins to suffer from COVID-19 Symptoms while at the Venue, or has a positive Primary Test, or is identified (by manual contact tracing) as having had any Close Contact with a person who is an infected person, must report immediately to Quarantine and take a PCR Test administered by the Approved Test Provider (Secondary Testing). If infection is confirmed, he/she must report immediately to the designated Isolation area at the Venue. They must at all times follow the instructions of the local healthcare authority representative when in either Quarantine or Isolation.",
+   "clause": "5.19"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    40.6,
+    80.9,
+    292.3,
+    103.0
+   ],
+   "text": "ARTICLE 5D. PROTOCOLES APPLICABLES APRES LA FIN D\u0001UNE EPREUVE SOUMISE A LA PREMIERE PARTIE"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    303.1,
+    80.9,
+    561.4,
+    103.0
+   ],
+   "text": "ARTICLE 5D. PROTOCOLS APPLICABLE AFTER A PART ONE EVENT"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    40.6,
+    117.4,
+    294.6,
+    225.1
+   ],
+   "text": "5.20 Dans la mesure du possible, les Parties Prenantes doivent faire en sorte que les Personnes Présentes quittent le pays hôte après l\u0001Epreuve soumise à la Première Partie uniquement avec des membres du même Groupe. Les Parties Prenantes doivent fournir aux Personnes Présentes les moyens d\u0001observer les mesures d\u0001atténuation appropriées pendant la période de voyage (par exemple, la Distanciation Sociale, l\u0001hygiène/le lavage des mains, l\u0001utilisation de lingettes à base d\u0001alcool, l\u0001utilisation d\u0001EPI).",
+   "clause": "5.20"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    303.1,
+    117.4,
+    563.6,
+    200.7
+   ],
+   "text": "5.20 Wherever possible, Stakeholders shall arrange for Attendees to travel away from the host country after the Part One Event only with members of the same Group. Stakeholders shall provide Attendees with the means to observe appropriate mitigation measures during the period of travel (e.g., Social Distancing, hand-washing hygiene, use of alcohol-based hand wipes, use of PPE).",
+   "clause": "5.20"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    63.8,
+    239.5,
+    294.6,
+    335.0
+   ],
+   "text": "Note explicative (1) : Une Personne Présente qui est membre du personnel d\u0001une Partie Prenante mais qui a été affectée à un travail exclusif dans un Groupe d\u0001une autre Partie Prenante pendant l\u0001Epreuve soumise à la Première Partie peut quitter le pays hôte après l\u0001Epreuve soumise à la Première Partie, soit avec ce même Groupe, soit avec des membres du premier Groupe de la Partie Prenante."
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    325.9,
+    239.5,
+    563.6,
+    310.5
+   ],
+   "text": "Guidance note (1): An Attendee who is a member of staff of one Stakeholder but was assigned to work exclusively in a Group of another Stakeholder during the Part One Event may travel away from the host country after the Part One Event either with that same Group or with members of the first Stakeholder\u0001s Group."
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    63.8,
+    349.4,
+    294.6,
+    432.6
+   ],
+   "text": "Note explicative (2) :  Lorsqu\u0001une Partie Prenante est impliquée dans deux Epreuves soumises à la Première Partie qui se déroulent au cours de semaines consécutives sur le même Site, elle doit, dans la mesure du possible, éviter que ses Personnes Présentes quittent leur lieu d\u0001hébergement entre les deux Epreuves soumises à la Première Partie."
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    325.9,
+    349.4,
+    563.6,
+    408.2
+   ],
+   "text": "Guidance note (2):  Where a Stakeholder is involved in two Part One Events held in consecutive weeks at the same Venue, it should wherever possible avoid its Attendees travelling away from the vicinity of their accommodation in between the two Part One Events."
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    40.6,
+    447.1,
+    294.6,
+    591.3
+   ],
+   "text": "5.21 Si une Personne Présente développe des Symptômes de la COVID-19 ou si son test est positif à la COVID-19 dans les 14 jours suivant la fin d\u0001une Epreuve Couverte, elle doit le signaler immédiatement à sa Partie Prenante ou à un professionnel de santé désigné par sa Partie Prenante, et fournir des renseignements sur toutes les Personnes Présentes avec lesquelles elle a été en Contact Etroit pendant cette période. La Partie Prenante ou le professionnel de santé informera alors le Délégué COVID-19 que la Personne Présente ne doit plus assister aux Epreuves Couvertes, et le Délégué COVID-19 assurera le suivi nécessaire en ce qui concerne les Personnes Présentes avec lesquelles elle a été en Contact Etroit.",
+   "clause": "5.21"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    303.1,
+    447.1,
+    563.6,
+    579.1
+   ],
+   "text": "5.21 If an Attendee develops any COVID-19 Symptoms or tests positive for the COVID-19 within 14 days of the end of a Covered Event, he/she must report this immediately to his/her Stakeholder or to a healthcare professional designated by his/her Stakeholder, and provide details of all Attendees with whom he/she was in Close Contact during that time. The Stakeholder or healthcare professional will then advise the COVID-19 Delegate that the Attendee should no longer attend Covered Events, and the COVID-19 Delegate will follow up as necessary in respect of Attendees with whom that Attendee had been in Close Contact.",
+   "clause": "5.21"
+  },
+  {
+   "type": "table",
+   "page": 16,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    737.9
+   ],
+   "rows": [
+    [
+     "",
+     "SECONDE PARTIE DU PRESENT CODE COVID-19",
+     "",
+     "",
+     "PART TWO OF THIS COVID-19 CODE",
+     ""
+    ],
+    [
+     null,
+     "ARTICLE 6. PROTOCOLES POUR LES EPREUVES SOUMISES A",
+     null,
+     null,
+     "ARTICLE 6. PROTOCOLS FOR PART TWO EVENTS",
+     null
+    ],
+    [
+     null,
+     "LA SECONDE PARTIE",
+     null,
+     null,
+     "ARTICLE 6A. PROTOCOLS APPLICABLE AT ALL TIMES",
+     null
+    ],
+    [
+     null,
+     "ARTICLE 6A. PROTOCOLES APPLICABLES EN TOUT TEMPS",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "6.1 Chaque Organisateur d\u0001une Epreuve soumise à la Seconde",
+     "",
+     "6.1 Each Organiser of a Part Two Event shall establish and\nimplement an effective risk mitigation plan for High Density\nAreas at the Venue that complies with all Applicable Rules and\nApplicable Laws and any public health authority requirements,\nand follows World Health Organisation guidance, such plan to\nincorporate (without limitation) temperature checks, regular\nand effective washing of hands (using alcohol-based hand rubs\nwhere available), and observance of one-way pedestrian\nsystems and/or floor markings to facilitate Social Distancing\nwithin High Density Areas, as well as an effective system for\nensuring only Profile 1 Attendees enter High Density Areas (the\nCOVID-19 Mitigation Plan). The Organiser will make its Part\nTwo Event COVID-19 Plan available to the COVID-19 Delegate\nand to all Stakeholders, in digital form and/or in hard copy form.",
+     "6.1 Each Organiser of a Part Two Event shall establish and",
+     null
+    ],
+    [
+     null,
+     "Partie doit établir et mettre en \u0002uvre un plan efficace",
+     null,
+     null,
+     "implement an effective risk mitigation plan for High Density",
+     null
+    ],
+    [
+     null,
+     "d\u0001atténuation des risques pour les Zones à Forte Densité sur le",
+     null,
+     null,
+     "Areas at the Venue that complies with all Applicable Rules and",
+     null
+    ],
+    [
+     null,
+     "Site, conforme à toutes les Règles Applicables et Lois",
+     null,
+     null,
+     "Applicable Laws and any public health authority requirements,",
+     null
+    ],
+    [
+     null,
+     "Applicables et à toutes les exigences des autorités de santé",
+     null,
+     null,
+     "and follows World Health Organisation guidance, such plan to",
+     null
+    ],
+    [
+     null,
+     "publique, et suivant les directives de l\u0001Organisation mondiale",
+     null,
+     null,
+     "incorporate (without limitation) temperature checks, regular",
+     null
+    ],
+    [
+     null,
+     "de la santé, ce plan devant prévoir (sans s\u0001y limiter) des",
+     null,
+     null,
+     "and effective washing of hands (using alcohol-based hand rubs",
+     null
+    ],
+    [
+     null,
+     "contrôles de température, le lavage régulier et efficace des",
+     null,
+     null,
+     "where available), and observance of one-way pedestrian",
+     null
+    ],
+    [
+     null,
+     "mains (en utilisant des désinfectants à base d\u0001alcool si",
+     null,
+     null,
+     "systems and/or floor markings to facilitate Social Distancing",
+     null
+    ],
+    [
+     null,
+     "possible), et le respect de couloirs piétons à sens unique et/ou",
+     null,
+     null,
+     "within High Density Areas, as well as an effective system for",
+     null
+    ],
+    [
+     null,
+     "des marquages au sol pour faciliter la Distanciation Sociale",
+     null,
+     null,
+     "ensuring only Profile 1 Attendees enter High Density Areas (the",
+     null
+    ],
+    [
+     null,
+     "dans les Zones à Forte Densité, ainsi qu\u0001un système efficace",
+     null,
+     null,
+     "COVID-19 Mitigation Plan). The Organiser will make its Part",
+     null
+    ],
+    [
+     null,
+     "pour garantir que seules les Personnes Présentes de Profil 1",
+     null,
+     null,
+     "Two Event COVID-19 Plan available to the COVID-19 Delegate",
+     null
+    ],
+    [
+     null,
+     "entrent dans les Zones à Forte Densité (le Plan d\u0001Atténuation",
+     null,
+     null,
+     "and to all Stakeholders, in digital form and/or in hard copy form.",
+     null
+    ],
+    [
+     null,
+     "COVID-19). L\u0001Organisateur mettra son Plan d\u0001Atténuation",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "COVID-19 à la disposition du Délégué COVID-19 et de toutes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "les Parties Prenantes, sous forme numérique et/ou sur papier.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.2 Les Parties Prenantes doivent examiner et revoir leurs",
+     "",
+     "6.2 Stakeholders shall review and revise their operations to\nensure that the only persons who attend the Venue on their\nbehalf are persons whose attendance at the Venue is essential\nto the safe and successful staging of the Competition and/or the\nCovered Event in question.\n6.3 Stakeholders shall provide their Attendees with copies of the\nCOVID-19 Mitigation Plan and of this COVID-19 Code (and any\namendments thereto), shall ensure their Attendees are fully\ninformed about the requirements of the COVID-19 Mitigation\nPlan and this COVID-19 Code (as amended from time to time),\nand shall ensure their Attendees\u0001 compliance with the\nrequirements of this COVID-19 Code.",
+     null,
+     null
+    ],
+    [
+     null,
+     "fonctionnements afin de s\u0001assurer que les seules personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "qui se rendent sur le Site en leur nom sont des personnes dont",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "la présence sur le Site est essentielle à l\u0001organisation sûre et",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "réussie de la Compétition et/ou de l\u0001Epreuve Couverte en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "question.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "6.3 Les Parties Prenantes doivent fournir à leurs Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes des copies des Plans d\u0001Atténuation COVID-19 et du",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "présent Code COVID-19 et de tout amendement à celui-ci,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "doivent s\u0001assurer que leurs Personnes Présentes sont",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "pleinement informées des exigences du Plan d\u0001Atténuation",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "COVID-19 et du présent Code COVID-19 (tel que modifié de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "temps à autre), et doivent s\u0001assurer que leurs Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes respectent les exigences du présent Code COVID-19.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.4 Les Parties Prenantes doivent consacrer des ressources",
+     "",
+     "6.4 Stakeholders shall devote sufficient resources to enable\nthemselves and their Attendees to comply with this COVID-19\nCode effectively and without delay, including (without\nlimitation) organising Pre-Event Tests and Medical Face Masks\nfor any of their Attendees who are Profile 1 Attendees.",
+     null,
+     null
+    ],
+    [
+     null,
+     "suffisantes pour se permettre et permettre à leurs Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes de se conformer efficacement et sans délai au",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "présent Code COVID-19, y compris (sans s\u0001y limiter)",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "l\u0001organisation de Tests Préalables à l\u0001Epreuve et la fourniture",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de Masques de Protection Médicaux pour toutes leurs",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes qui sont des Personnes Présentes de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Profil 1.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.5 Avant chaque Epreuve soumise à la Seconde Partie (ou",
+     "",
+     "6.5 Before each Part Two Event (or before the start of multiple\nPart Two Events staged at the same Venue), each Stakeholder\nmust provide the following documents and information to the",
+     null,
+     null
+    ],
+    [
+     null,
+     "avant le début de multiples Epreuves soumises à la Seconde",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie organisées sur le même Site), chaque Partie Prenante",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "doit fournir les informations et documents suivants à",
+     null,
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 17,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    743.5
+   ],
+   "rows": [
+    [
+     "",
+     "l\u0001Organisateur, qui les conservera pendant six ans et les",
+     "",
+     "",
+     "Organiser, who will store them for six years and provide them",
+     ""
+    ],
+    [
+     null,
+     "fournira à la FIA sur demande :",
+     null,
+     null,
+     "to the FIA upon request:",
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.5.1 une liste à jour de toutes les Personnes Présentes que la",
+     "",
+     "6.5.1 an up-to-date list of all of the Attendees that the\nStakeholder wishes to attend the Part Two Event on its behalf,\nand a designation of each of those Attendees as either a Profile\n1 Attendee or a Profile 2 Attendee;",
+     "6.5.1 an up-to-date list of all of the Attendees that the",
+     null
+    ],
+    [
+     null,
+     "Partie Prenante souhaite voir participer à l\u0001Epreuve soumise à",
+     null,
+     null,
+     "Stakeholder wishes to attend the Part Two Event on its behalf,",
+     null
+    ],
+    [
+     null,
+     "la Seconde Partie en son nom, et la désignation de chacune de",
+     null,
+     null,
+     "and a designation of each of those Attendees as either a Profile",
+     null
+    ],
+    [
+     null,
+     "ces Personnes Présentes comme Personnes Présentes de",
+     null,
+     null,
+     "1 Attendee or a Profile 2 Attendee;",
+     null
+    ],
+    [
+     null,
+     "Profil 1 ou Personnes Présentes de Profil 2 ;",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "6.5.2 la confirmation que chaque Personne Présente de Profil 1\nest Apte à Participer à l\u0001Epreuve soumise à la Seconde Partie ;",
+     "6.5.2 la confirmation que chaque Personne Présente de Profil 1",
+     null,
+     "",
+     "6.5.2 confirmation that each listed Profile 1 Attendee is Fit to",
+     ""
+    ],
+    [
+     null,
+     "est Apte à Participer à l\u0001Epreuve soumise à la Seconde Partie ;",
+     null,
+     null,
+     "Attend the Part Two Event;",
+     null
+    ],
+    [
+     "6.5.3 la confirmation que chaque Personne Présente inscrite\nsur la liste a accepté par écrit d\u0001être liée par le présent Code\nCOVID-19, de s\u0001en familiariser et de s\u0001y conformer en tout\ntemps (l\u0001Organisateur conservera ces consentements pendant\nsix ans et les fournira à la FIA sur demande) ;",
+     null,
+     null,
+     "",
+     "6.5.3 confirmation that each listed Attendee has agreed in",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "writing to be bound by, to familiarise themselves with, and to",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "comply at all times with this COVID-19 Code (and the Organiser",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "will store those agreements for six years and provide them to",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "the FIA upon request);",
+     null
+    ],
+    [
+     "",
+     "6.5.4 la désignation du Groupe auquel chaque Personne",
+     "",
+     "",
+     "6.5.4 designation of the Group that each listed Profile 1",
+     ""
+    ],
+    [
+     null,
+     "Présente de Profil 1 figurant sur la liste a été affectée ; et",
+     null,
+     null,
+     "Attendee has been assigned to; and",
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "6.5.5 le nom de l\u0001une des Personnes Présentes de la Partie\nPrenante qui sera chargée de contrôler la conformité des\nPersonnes Présentes de la Partie Prenante avec le présent Code\nCOVID-19, d\u0001être le point de contact du Délégué COVID-19 et\nde lui signaler tout cas de non-conformité substantielle.",
+     "6.5.5 le nom de l\u0001une des Personnes Présentes de la Partie",
+     null,
+     "",
+     "6.5.5 the name of one of the Stakeholder's Attendees who will",
+     ""
+    ],
+    [
+     null,
+     "Prenante qui sera chargée de contrôler la conformité des",
+     null,
+     null,
+     "be responsible for monitoring the compliance of the",
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes de la Partie Prenante avec le présent Code",
+     null,
+     null,
+     "Stakeholder's Attendees with this COVID-19 Code, and for being",
+     null
+    ],
+    [
+     null,
+     "COVID-19, d\u0001être le point de contact du Délégué COVID-19 et",
+     null,
+     null,
+     "the point of contact for, and for reporting any instances of",
+     null
+    ],
+    [
+     null,
+     "de lui signaler tout cas de non-conformité substantielle.",
+     null,
+     null,
+     "material non-compliance to, the COVID-19 Delegate.",
+     null
+    ],
+    [
+     "",
+     "Seules les Personnes Présentes figurant sur la liste et pour",
+     "",
+     "Only Attendees on the list for whom all the required information\nhas been provided will be given access to the Venue. Only Profile\n1 Attendees on the list for whom all the required information\nhas been provided will be given access to High Density Areas at\nthe Venue.",
+     "Only Attendees on the list for whom all the required information",
+     null
+    ],
+    [
+     null,
+     "lesquelles toutes les informations requises ont été fournies",
+     null,
+     null,
+     "has been provided will be given access to the Venue. Only Profile",
+     null
+    ],
+    [
+     null,
+     "auront accès au Site. Seules les Personnes Présentes de Profil 1",
+     null,
+     null,
+     "1 Attendees on the list for whom all the required information",
+     null
+    ],
+    [
+     null,
+     "figurant sur la liste et pour lesquelles toutes les informations",
+     null,
+     null,
+     "has been provided will be given access to High Density Areas at",
+     null
+    ],
+    [
+     null,
+     "requises ont été fournies auront accès aux Zones à Forte",
+     null,
+     null,
+     "the Venue.",
+     null
+    ],
+    [
+     null,
+     "Densité du Site.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.6 Avant chaque Epreuve soumise à la Seconde Partie, si des",
+     "",
+     "6.6 Prior to each Part Two Event, if any circumstances arise that\nmean an Attendee is not Fit to Attend the Part Two Event (e.g.,\nhe/she tests positive for the COVID-19 virus or he/she starts to\nsuffer from any COVID-19 Symptoms or he/she has any Close\nContact with anyone suffering from COVID-19 Symptoms), the\nAttendee must not declare him/herself Fit to Attend.",
+     null,
+     null
+    ],
+    [
+     null,
+     "circonstances surviennent et font qu\u0001une Personne Présente",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "n\u0001est pas Apte à Participer à l\u0001Epreuve soumise à la Seconde",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie (par exemple, si son test est positif au virus de la COVID-",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "19 ou si elle commence à souffrir de Symptômes de la COVID-",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "19 ou si elle a un Contact Etroit avec une personne souffrant",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "de Symptômes de la COVID-19), la Personne Présente ne doit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "pas se déclarer Apte à Participer.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.7 Au cours d\u0001une Epreuve soumise à la Seconde Partie,",
+     "",
+     "6.7 During a Part Two Event, each Attendee must report\nimmediately to his/her Stakeholder or to a healthcare\nprofessional designated by his/her Stakeholder if any\ncircumstances arise that may mean he/she is no longer Fit to\nAttend the Part Two Event (e.g., he/she tests positive for the\nCOVID-19 virus or he/she starts to suffer from any COVID-19\nSymptoms or he/she has any Close Contact with anyone\nsuffering from COVID-19 Symptoms). Thereafter the Attendee\nmust comply with the instructions of his/her Stakeholder and\nthe COVID-19 Delegate.",
+     null,
+     null
+    ],
+    [
+     null,
+     "chaque Personne Présente doit signaler immédiatement à sa",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie Prenante ou à un professionnel de santé désigné par sa",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie Prenante toute circonstance qui pourrait impliquer",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "qu\u0001elle n\u0001est plus Apte à Participer à l\u0001Epreuve soumise à la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Seconde Partie (par exemple, si son test est positif au virus de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "la COVID-19 ou si elle commence à souffrir de Symptômes de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "la COVID-19 ou si elle a un Contact Etroit avec une personne",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "souffrant de Symptômes de la COVID-19). Par la suite, la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personne Présente doit se conformer aux instructions de sa",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie Prenante et du Délégué COVID-19.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 18,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    739.4
+   ],
+   "rows": [
+    [
+     "",
+     "6.8 Chaque Partie Prenante doit surveiller en permanence et",
+     "",
+     "6.8 Each Stakeholder must monitor continuously and advise the\nCOVID-19 Delegate immediately if during the Part Two Event\nany circumstances arise (such as a report made in accordance\nwith Article 6.7) that indicate that any of its Attendees is or may\nbe no longer Fit to Attend the Part Two Event. Thereafter the\nStakeholder must cooperate with the COVID-19 Delegate in\naddressing the situation, including by removing the Attendee in\nquestion from the Part Two Event if so required by the COVID-\n19 Delegate.",
+     null,
+     null
+    ],
+    [
+     null,
+     "informer immédiatement le Délégué COVID-19 si, au cours de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "l\u0001Epreuve soumise à la Seconde Partie, des circonstances",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "surviennent (telles qu\u0001un rapport établi conformément à",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "l\u0001article 6.7) et indiquent que l\u0001une de ses Personnes Présentes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "n\u0001est ou pourrait ne plus être Apte à Participer à l\u0001Epreuve",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "soumise à la Seconde Partie. Par la suite, la Partie Prenante doit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "coopérer avec le Délégué COVID-19 pour faire face à la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "situation, y compris en retirant la Personne Présente en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "question de l\u0001Epreuve soumise à la Seconde Partie si le Délégué",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "COVID-19 le demande.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "ARTICLE 6B. PROTOCOLES APPLICABLES AVANT CHAQUE\nEPREUVE SOUMISE A LA SECONDE PARTIE",
+     "ARTICLE 6B. PROTOCOLES APPLICABLES AVANT CHAQUE",
+     null,
+     "",
+     "ARTICLE 6B. PROTOCOLS APPLICABLE PRIOR TO EACH PART",
+     ""
+    ],
+    [
+     null,
+     "EPREUVE SOUMISE A LA SECONDE PARTIE",
+     null,
+     null,
+     "TWO EVENT",
+     null
+    ],
+    [
+     "",
+     "6.9 Dans la mesure du possible, chaque Partie Prenante doit",
+     "",
+     "6.9 Wherever possible, each Stakeholder shall arrange for\nAttendees to travel to the country of the Venue only with\nmembers of the same Group. Stakeholders shall provide their\nAttendees with the means to observe appropriate mitigation\nmeasures during the period of travel (e.g., Social Distancing,\nhand-washing hygiene, use of alcohol-based hand wipes).\n6.10 Individuals will not be admitted to a Venue, even if they\nhold valid accreditation, unless:\n6.10.1 they have confirmed in writing, in a form approved by the\nFIA, their agreement to be bound by and to comply with this\nCOVID-19 Code;\n6.10.2 their Stakeholder has confirmed they are Fit to Attend\n(Profile 1 Attendees only);\n6.10.3 they pass any checks (e.g., temperature check)\nadministered by the national or local authorities or the\nOrganiser of the Part Two Event; and\n6.10.4 they wear a Medical Face Mask until they reach a space\noccupied only by their Group (Profile 1 Attendees only).",
+     "6.9 Wherever possible, each Stakeholder shall arrange for",
+     null
+    ],
+    [
+     null,
+     "faire en sorte que les Personnes Présentes se rendent dans le",
+     null,
+     null,
+     "Attendees to travel to the country of the Venue only with",
+     null
+    ],
+    [
+     null,
+     "pays du Site uniquement avec des membres du même Groupe.",
+     null,
+     null,
+     "members of the same Group. Stakeholders shall provide their",
+     null
+    ],
+    [
+     null,
+     "Les Parties Prenantes doivent fournir à leurs Personnes",
+     null,
+     null,
+     "Attendees with the means to observe appropriate mitigation",
+     null
+    ],
+    [
+     null,
+     "Présentes les moyens d\u0001observer les mesures d\u0001atténuation",
+     null,
+     null,
+     "measures during the period of travel (e.g., Social Distancing,",
+     null
+    ],
+    [
+     null,
+     "appropriées pendant la période de voyage (par exemple, la",
+     null,
+     null,
+     "hand-washing hygiene, use of alcohol-based hand wipes).",
+     null
+    ],
+    [
+     null,
+     "Distanciation Sociale, l\u0001hygiène/le lavage des mains,",
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     null,
+     "l\u0001utilisation de lingettes à base d\u0001alcool).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "6.10 Les personnes ne seront pas admises sur un Site, même si",
+     null,
+     null,
+     "6.10 Individuals will not be admitted to a Venue, even if they",
+     null
+    ],
+    [
+     null,
+     "elles sont titulaires d\u0001une accréditation valide, sauf si :",
+     null,
+     null,
+     "hold valid accreditation, unless:",
+     null
+    ],
+    [
+     null,
+     "6.10.1 elles ont confirmé par écrit, sous une forme approuvée",
+     null,
+     null,
+     "6.10.1 they have confirmed in writing, in a form approved by the",
+     null
+    ],
+    [
+     null,
+     "par la FIA, qu\u0001elles acceptent d\u0001être liées par le présent Code",
+     null,
+     null,
+     "FIA, their agreement to be bound by and to comply with this",
+     null
+    ],
+    [
+     null,
+     "COVID-19 et de s\u0001y conformer ;",
+     null,
+     null,
+     "COVID-19 Code;",
+     null
+    ],
+    [
+     null,
+     "6.10.2 leur Partie Prenante a confirmé qu\u0001elles sont Aptes à",
+     null,
+     null,
+     "6.10.2 their Stakeholder has confirmed they are Fit to Attend",
+     null
+    ],
+    [
+     null,
+     "Participer (Personnes Présentes de Profil 1 uniquement) ;",
+     null,
+     null,
+     "(Profile 1 Attendees only);",
+     null
+    ],
+    [
+     null,
+     "6.10.3 elles passent tous les contrôles (par exemple, contrôle",
+     null,
+     null,
+     "6.10.3 they pass any checks (e.g., temperature check)",
+     null
+    ],
+    [
+     null,
+     "de la température) administrés par les autorités nationales ou",
+     null,
+     null,
+     "administered by the national or local authorities or the",
+     null
+    ],
+    [
+     null,
+     "locales ou par l\u0001Organisateur de l\u0001Epreuve soumise à la",
+     null,
+     null,
+     "Organiser of the Part Two Event; and",
+     null
+    ],
+    [
+     null,
+     "Seconde Partie ; et",
+     null,
+     null,
+     "6.10.4 they wear a Medical Face Mask until they reach a space",
+     null
+    ],
+    [
+     null,
+     "6.10.4 elles portent un Masque de Protection Médical jusqu\u0001à",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ce qu\u0001elles atteignent un espace occupé uniquement par leur",
+     null,
+     null,
+     "occupied only by their Group (Profile 1 Attendees only).",
+     null
+    ],
+    [
+     null,
+     "Groupe (Personnes Présentes de Profil 1 uniquement).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "ARTICLE 6C. PROTOCOLES APPLICABLES LORS D\u0001UNE",
+     "",
+     "ARTICLE 6C. PROTOCOLS APPLICABLE DURING A PART TWO\nEVENT",
+     null,
+     null
+    ],
+    [
+     null,
+     "EPREUVE SOUMISE A LA SECONDE PARTIE",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "6.11 Tout le temps passé par les Personnes Présentes de\nProfil 1 en dehors du Site pendant une Epreuve soumise à la\nSeconde Partie ou entre deux Epreuves soumises à la Seconde\nPartie (par exemple, à l\u0001hôtel) doit l\u0001être avec d\u0001autres\nmembres du même Groupe, en limitant au maximum\nl\u0001interaction avec des personnes extérieures à ce Groupe.",
+     "6.11 Tout le temps passé par les Personnes Présentes de",
+     null,
+     "",
+     "6.11 Any time that Profile 1 Attendees spend outside the Venue",
+     ""
+    ],
+    [
+     null,
+     "Profil 1 en dehors du Site pendant une Epreuve soumise à la",
+     null,
+     null,
+     "during a Part Two Event or between Part Two Events (e.g., at a",
+     null
+    ],
+    [
+     null,
+     "Seconde Partie ou entre deux Epreuves soumises à la Seconde",
+     null,
+     null,
+     "hotel) must be spent with other members of the same Group,",
+     null
+    ],
+    [
+     null,
+     "Partie (par exemple, à l\u0001hôtel) doit l\u0001être avec d\u0001autres",
+     null,
+     null,
+     "keeping interaction with persons outside that Group to a",
+     null
+    ],
+    [
+     null,
+     "membres du même Groupe, en limitant au maximum",
+     null,
+     null,
+     "minimum.",
+     null
+    ],
+    [
+     null,
+     "l\u0001interaction avec des personnes extérieures à ce Groupe.",
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 19,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    735.7
+   ],
+   "rows": [
+    [
+     "",
+     "6.12 En dehors du Site, les Personnes Présentes doivent",
+     "",
+     "6.12 While outside the Venue, Attendees shall observe\nappropriate mitigation measures specified by their Stakeholders\n(e.g., hand-washing hygiene, alcohol-based hand wipes).\nStakeholders shall provide the resources that their Attendees\nrequire to observe such mitigation measures.",
+     null,
+     null
+    ],
+    [
+     null,
+     "observer les mesures d\u0001atténuation appropriées spécifiées par",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "leurs Parties Prenantes (par exemple, l\u0001hygiène/le lavage des",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "mains, les lingettes à base d\u0001alcool). Les Parties Prenantes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "doivent fournir les ressources dont leurs Personnes Présentes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ont besoin pour respecter ces mesures d\u0001atténuation.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.13 Les Personnes Présentes de Profil 1 qui sont membres",
+     "",
+     "6.13 Profile 1 Attendees who are members of the same Group\nmay undertake common activities and share common space and\nfacilities at the Venue without observing Social Distancing.\nGuidance note: Notwithstanding Article 6.13, even when\ninteracting only with members of the same Group, Profile\n1 Attendees are recommended to maintain Social\nDistancing, or else to use alternative mitigation measures\nsuch as the wearing of Medical Face Masks.",
+     null,
+     null
+    ],
+    [
+     null,
+     "d\u0001un même Groupe peuvent entreprendre des activités",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "communes et partager un espace et des installations communs",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "sur le Site sans observer de Distanciation Sociale.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Note explicative : Nonobstant l\u0001article 6.13, même",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "lorsqu\u0001elles n\u0001interagissent qu\u0001avec des membres du",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "même Groupe, il est recommandé aux Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes de Profil 1 de maintenir la Distanciation",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Sociale, ou bien d\u0001utiliser d\u0001autres mesures",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "d\u0001atténuation telles que le port d\u0001un Masque de",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Protection Médical.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "6.14Chaque Personne Présente de Profil 1 doit :",
+     "6.14Chaque Personne Présente de Profil 1 doit :",
+     null,
+     "6.14 Each Profile 1 Attendee must:",
+     null,
+     null
+    ],
+    [
+     "",
+     "6.14.1 réduire au minimum les interactions avec les membres",
+     "",
+     "",
+     "6.14.1 keep to a minimum any interactions with any members",
+     ""
+    ],
+    [
+     null,
+     "des autres Groupes ;",
+     null,
+     null,
+     "of other Groups;",
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.14.2 porter un Masque de Protection Médical chaque fois",
+     "",
+     "6.14.2 wear a Medical Face Mask whenever in a space that is\nnot exclusively used by members of their Group (e.g., pit lane,\nscrutineering area); and",
+     "6.14.2 wear a Medical Face Mask whenever in a space that is",
+     null
+    ],
+    [
+     null,
+     "qu\u0001elle se trouve dans un espace qui n\u0001est pas exclusivement",
+     null,
+     null,
+     "not exclusively used by members of their Group (e.g., pit lane,",
+     null
+    ],
+    [
+     null,
+     "utilisé par les membres de son Groupe (par exemple, la voie",
+     null,
+     null,
+     "scrutineering area); and",
+     null
+    ],
+    [
+     null,
+     "des stands, la zone de vérifications techniques) ; et",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.14.3 limiter au minimum son utilisation des installations ou",
+     "",
+     "",
+     "6.14.3 keep to a minimum his/her use of any facilities or services",
+     ""
+    ],
+    [
+     null,
+     "services qui sont également ouverts aux membres d\u0001un autre",
+     null,
+     null,
+     "that are also open for use by members of another Group.",
+     null
+    ],
+    [
+     null,
+     "Groupe.",
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     null,
+     "Note explicative : Il est également recommandé que",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "Guidance note: It is also recommended that a Stakeholder's",
+     null
+    ],
+    [
+     null,
+     "les Personnes Présentes de Profil 1 des Parties",
+     null,
+     null,
+     "Profile 1 Attendees not use any facilities or services that are",
+     null
+    ],
+    [
+     null,
+     "Prenantes n\u0001utilisent pas d\u0001installations ou de",
+     null,
+     null,
+     "dedicated for the exclusive use of another Stakeholder's Profile",
+     null
+    ],
+    [
+     null,
+     "services réservés à l\u0001usage exclusif des Personnes",
+     null,
+     null,
+     "1 Attendees (e.g., dining areas, toilet facilities).",
+     null
+    ],
+    [
+     null,
+     "Présentes de Profil 1 d\u0001une autre Partie Prenante (par",
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     null,
+     "exemple, les espaces repas, les toilettes).",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "6.15 Chaque Personne Présente de Profil 1 doit observer en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "6.15 Each Profile 1 Attendee must observe Social Distancing in",
+     null
+    ],
+    [
+     null,
+     "tout temps la Distanciation Sociale à l\u0001égard de toutes les",
+     null,
+     null,
+     "respect of all Attendees who are not members of his/her Group",
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes qui ne sont pas membres de son Groupe.",
+     null,
+     null,
+     "at all times. The only exception to this is where such Social",
+     null
+    ],
+    [
+     null,
+     "La seule exception à cette règle concerne les cas où une telle",
+     null,
+     null,
+     "Distancing would jeopardise safety, compliance with Applicable",
+     null
+    ],
+    [
+     null,
+     "Distanciation Sociale compromettrait la sécurité, le respect",
+     null,
+     null,
+     "Rules or Applicable Laws, or the ability of a Competitor to",
+     null
+    ],
+    [
+     null,
+     "des Règles Applicables ou des Lois Applicables, ou la capacité",
+     null,
+     null,
+     "participate in the Competition in question. In such cases only,",
+     null
+    ],
+    [
+     null,
+     "d\u0001un Concurrent à participer à la Compétition en question.",
+     null,
+     null,
+     "the Attendees in question do not have to observe Social",
+     null
+    ],
+    [
+     null,
+     "Dans ces cas uniquement, les Personnes Présentes en question",
+     null,
+     null,
+     "Distancing but must wear a Medical Face Mask and/or other",
+     null
+    ],
+    [
+     null,
+     "ne sont pas tenues d\u0001observer la Distanciation Sociale mais",
+     null,
+     null,
+     "PPE, as directed by the COVID-19 Delegate) (unless superseded",
+     null
+    ],
+    [
+     null,
+     "doivent porter un Masque de Protection Médical (et/ou un",
+     null,
+     null,
+     "by a balaclava and full face helmet covering the eyes, nose and",
+     null
+    ],
+    [
+     null,
+     "autre EPI, selon les instructions du Délégué COVID-19) (à",
+     null,
+     null,
+     "mouth) and complete the task in question as quickly as possible,",
+     null
+    ],
+    [
+     null,
+     "moins qu\u0001il ne soit remplacé par une cagoule et un casque",
+     null,
+     null,
+     "while maintaining as much distance as possible from Attendees",
+     null
+    ],
+    [
+     null,
+     "intégral couvrant les yeux, le nez et la bouche) et accomplir la",
+     null,
+     null,
+     "from other Groups.",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 20,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    737.9
+   ],
+   "rows": [
+    [
+     "",
+     "tâche en question aussi rapidement que possible, tout en",
+     "",
+     "6.15.1 A Stakeholder that is a supplier of shared products or\nservices to all Competitors in an Event (e.g. tyres, telemetry, on-\nboard cameras, etc.) will have Attendees that have to interact\nwithin the paddock with other Stakeholders' Profile 1 Attendees.\nIn addition to complying with the requirements of Article 6.15 in\nrespect of such interactions, such suppliers may specify further\nmitigation measures (such as creating specific time-slots for\ninteraction with other Stakeholders' Profile 1 Attendees) that\nmust be respected by all Attendees using their products or\nservices. They must communicate these measures to all such\nusers prior to the Part Two Event in question, copying the\nCOVID-19 Delegate.",
+     null,
+     null
+    ],
+    [
+     null,
+     "gardant autant de distance que possible avec les Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes des autres Groupes.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "6.15.1 Une Partie Prenante qui est un fournisseur de produits",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ou de services communs à tous les Concurrents lors d\u0001une",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Epreuve (par exemple, pneus, télémétrie, caméras",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "embarquées, etc.) aura dans son Groupe des Personnes",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes qui devront interagir dans le paddock avec les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes de Profil 1 d\u0001autres Parties Prenantes. En",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "plus de se conformer aux exigences de l\u0001article 6.15",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "concernant ces interactions, ces fournisseurs peuvent",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "spécifier d\u0001autres mesures d\u0001atténuation (telles que la",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "création de créneaux horaires spécifiques pour l\u0001interaction",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "avec des Personnes Présentes de Profil 1 d\u0001autres Parties",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Prenantes) qui doivent être respectées par toutes les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "Personnes Présentes utilisant leurs produits ou services. Elles",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "doivent communiquer ces mesures à tous ces utilisateurs",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "avant l\u0001Epreuve soumise à la Seconde Partie en question, en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "mettant le Délégué COVID-19 en copie.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "6.15.2 Une Partie Prenante qui fournit des produits ou des\nservices communs à tous les Concurrents dans plus d\u0001un\npaddock doit avoir des Groupes séparés pour chaque paddock.",
+     "6.15.2 Une Partie Prenante qui fournit des produits ou des",
+     null,
+     "",
+     "6.15.2 A Stakeholder that is supplying shared products or",
+     ""
+    ],
+    [
+     null,
+     "services communs à tous les Concurrents dans plus d\u0001un",
+     null,
+     null,
+     "services to Competitors in different paddocks must have",
+     null
+    ],
+    [
+     null,
+     "paddock doit avoir des Groupes séparés pour chaque paddock.",
+     null,
+     null,
+     "separate Groups for each paddock.",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     "",
+     "6.16 Il est recommandé, mais non obligatoire, que les Parties",
+     "",
+     "6.16 It is recommended, but not mandated, that Stakeholders\narrange for their Profile 1 Attendees to take a PCR Test no more\nthan five days after the date that he/she took his/her Pre-Event\nTest.\n6.17 An Attendee who begins to suffer from any COVID-19\nSymptoms while outside the Venue must report immediately to\nthe nearest medical facility, as directed by his/her Stakeholder.",
+     "6.16 It is recommended, but not mandated, that Stakeholders",
+     null
+    ],
+    [
+     null,
+     "Prenantes fassent en sorte que les Personnes Présentes de",
+     null,
+     null,
+     "arrange for their Profile 1 Attendees to take a PCR Test no more",
+     null
+    ],
+    [
+     null,
+     "Profil 1 passent un Test PCR au plus tard cinq jours après la",
+     null,
+     null,
+     "than five days after the date that he/she took his/her Pre-Event",
+     null
+    ],
+    [
+     null,
+     "date à laquelle elles ont passé leur Test Préalable à l\u0001Epreuve.",
+     null,
+     null,
+     "Test.",
+     null
+    ],
+    [
+     null,
+     "6.17 Une Personne Présente qui commence à souffrir de tout",
+     null,
+     null,
+     "6.17 An Attendee who begins to suffer from any COVID-19",
+     null
+    ],
+    [
+     null,
+     "Symptôme de la COVID-19 alors qu\u0001elle se trouve en dehors du",
+     null,
+     null,
+     "Symptoms while outside the Venue must report immediately to",
+     null
+    ],
+    [
+     null,
+     "Site doit se rendre immédiatement au centre médical le plus",
+     null,
+     null,
+     "the nearest medical facility, as directed by his/her Stakeholder.",
+     null
+    ],
+    [
+     null,
+     "proche, selon les instructions de sa Partie Prenante.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "6.18 Une Personne Présente qui commence à souffrir de tout",
+     "",
+     "6.18 An Attendee who begins to suffer from any COVID-19\nSymptoms while at the Venue, or is identified as having had any\nClose Contact with a person who is or may be an infected person,\nmust report immediately to Quarantine and follow the\ninstruction of the local healthcare authority representative on\nduty there.",
+     null,
+     null
+    ],
+    [
+     null,
+     "Symptôme de la COVID-19 pendant qu\u0001elle se trouve sur le Site,",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "ou qui est identifiée comme ayant eu un Contact Etroit avec",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "une personne qui est ou peut être une personne infectée, doit",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "se présenter immédiatement en Quarantaine et suivre les",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "instructions du représentant des autorités sanitaires locales en",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "poste sur place.",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     null,
+     "",
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     "ARTICLE 6D. PROTOCOLES APPLICABLES APRES UNE EPREUVE\nSOUMISE A LA SECONDE PARTIE",
+     "ARTICLE 6D. PROTOCOLES APPLICABLES APRES UNE EPREUVE",
+     null,
+     "",
+     "ARTICLE 6D. PROTOCOLS APPLICABLE AFTER A PART TWO",
+     ""
+    ],
+    [
+     null,
+     "SOUMISE A LA SECONDE PARTIE",
+     null,
+     null,
+     "EVENT",
+     null
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     "",
+     "6.21 Dans la mesure du possible, les Parties Prenantes doivent",
+     "",
+     "",
+     "6.21 Wherever possible, Stakeholders shall arrange for",
+     ""
+    ],
+    [
+     null,
+     "faire en sorte que les Personnes Présentes quittent le pays hôte",
+     null,
+     null,
+     "Attendees to travel away from the host country after the Part",
+     null
+    ],
+    [
+     null,
+     "après l\u0001Epreuve soumise à la Seconde Partie uniquement avec",
+     null,
+     null,
+     "Two Event only with members of their Group. Stakeholders shall",
+     null
+    ],
+    [
+     null,
+     "des membres du même Groupe. Les Parties Prenantes doivent",
+     null,
+     null,
+     "provide Attendees with the means to observe appropriate",
+     null
+    ],
+    [
+     null,
+     "fournir aux Personnes Présentes les moyens d\u0001observer les",
+     null,
+     null,
+     "mitigation measures during the period of travel (e.g., Social",
+     null
+    ],
+    [
+     null,
+     "mesures d\u0001atténuation appropriées pendant la période de",
+     null,
+     null,
+     "Distancing, hand-washing hygiene, use of alcohol-based hand",
+     null
+    ],
+    [
+     null,
+     "voyage (par exemple, la Distanciation Sociale, l\u0001hygiène/le",
+     null,
+     null,
+     "wipes).",
+     null
+    ],
+    [
+     null,
+     "lavage des mains, l\u0001utilisation de lingettes à base d\u0001alcool).",
+     null,
+     null,
+     "",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 21,
+   "bbox": [
+    35.2,
+    78.6,
+    566.8,
+    249.6
+   ],
+   "rows": [
+    [
+     "",
+     "6.22 Si une Personne Présente développe des Symptômes de la",
+     "",
+     "6.22 If an Attendee develops any COVID-19 Symptoms or tests\npositive for the COVID-19 virus within 14 days of the end of a\nPart Two Event, he/she must report this immediately to his/her\nStakeholder or to a healthcare professional designated by\nhis/her Stakeholder, and provide details of all Attendees with\nwhom he/she was in Close Contact during that time. The\nStakeholder or healthcare professional will then advise the\nCOVID-19 Delegate that the Attendee should no longer attend\nPart Two Events, and the COVID-19 Delegate will follow up as\nnecessary in respect of Attendees with whom that Attendee had\nbeen in Close Contact."
+    ],
+    [
+     null,
+     "COVID-19 ou si son test est positif au virus de la COVID-19 dans",
+     null,
+     null
+    ],
+    [
+     null,
+     "les 14 jours suivant la fin d\u0001une Epreuve soumise à la Seconde",
+     null,
+     null
+    ],
+    [
+     null,
+     "Partie, elle doit le signaler immédiatement à sa Partie Prenante",
+     null,
+     null
+    ],
+    [
+     null,
+     "ou à un professionnel de santé désigné par sa Partie Prenante,",
+     null,
+     null
+    ],
+    [
+     null,
+     "et fournir des renseignements sur toutes les Personnes",
+     null,
+     null
+    ],
+    [
+     null,
+     "Présentes avec lesquelles elle a été en Contact Etroit pendant",
+     null,
+     null
+    ],
+    [
+     null,
+     "cette période. La Partie Prenante ou le professionnel de santé",
+     null,
+     null
+    ],
+    [
+     null,
+     "informera alors le Délégué COVID-19 que la Personne Présente",
+     null,
+     null
+    ],
+    [
+     null,
+     "ne doit plus assister à l\u0001Epreuve soumise à la Seconde Partie, et",
+     null,
+     null
+    ],
+    [
+     null,
+     "le Délégué COVID-19 assurera le suivi nécessaire en ce qui",
+     null,
+     null
+    ],
+    [
+     null,
+     "concerne les Personnes Présentes avec lesquelles elle a été en",
+     null,
+     null
+    ],
+    [
+     null,
+     "Contact Etroit.",
+     null,
+     null
+    ]
+   ]
+  }
+ ]
+}

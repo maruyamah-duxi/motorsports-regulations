@@ -199,25 +199,44 @@ def is_framed_text(
     region: Rect,
     text_rects: list[Rect],
     drawings: list,
+    page_rect: Rect | None = None,
     *,
-    text_cover: float = 0.30,
     max_paths: int = 4,
 ) -> bool:
     """「罫線で囲んだ本文」を図版と誤認しないための判定.
 
-    JAF の規則には ［参考］ のような枠囲みの本文が頻出する。これを図版
-    として画像化してしまうと、その中の条文が全文検索にも AI の根拠にも
-    出てこなくなる。枠の中が文字で埋まっていて、描画パスが枠線程度しか
-    無いものは本文として扱う。
+    JAF の規則には次の 2 つが頻出し、どちらも罫線をベクタ図と見なすと
+    中の条文が丸ごと画像化されて全文検索からも AI の根拠からも消える。
+
+      * ［参考］… のような枠囲みの本文
+      * ページ全体を囲む飾り罫（オートテストのガイドライン等）
+
+    判定は **枠の中がどれだけ文字で埋まっているか** を主軸にする。
+    本物の技術図は寸法線や引き出し番号が入るだけで、文字が占める面積は
+    小さい。パス数は補助的な条件に留める（飾り罫のページは装飾パスが
+    十数本あり、パス数だけでは弾けない）。
     """
     area = _area(region)
     if area <= 0:
         return False
     inside = sum(_area(t) for t in text_rects if _overlap_ratio(t, region) > 0.7)
-    if inside / area < text_cover:
-        return False
-    paths = sum(1 for d in drawings if _overlap_ratio(tuple(d["rect"]), region) > 0.5)
-    return paths <= max_paths
+    cover = inside / area
+
+    # 文字がびっしり入っていれば、罫線が何本あろうと本文
+    if cover >= 0.25:
+        return True
+    # 枠線程度の描画しか無く、そこそこ文字がある
+    if cover >= 0.10 and _count_paths(drawings, region) <= max_paths:
+        return True
+    # ページの大半を覆う枠に文字が入っている＝飾り罫
+    if page_rect is not None and _area(page_rect) > 0:
+        if _area(region) / _area(page_rect) >= 0.55 and cover >= 0.12:
+            return True
+    return False
+
+
+def _count_paths(drawings: list, region: Rect) -> int:
+    return sum(1 for d in drawings if _overlap_ratio(tuple(d["rect"]), region) > 0.5)
 
 
 # ---------------------------------------------------------------------------
@@ -364,7 +383,7 @@ def analyze_page(
     fig_rects = [
         r
         for r in figure_regions(page, table_rects, drawings=drawings)
-        if not is_framed_text(r, text_rects, drawings)
+        if not is_framed_text(r, text_rects, drawings, page_rect)
     ]
     figure_blocks = [
         Block(type="figure", page=page.number, bbox=r, meta={"clip": r}) for r in fig_rects

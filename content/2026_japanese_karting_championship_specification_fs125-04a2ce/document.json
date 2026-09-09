@@ -1,0 +1,1812 @@
+{
+ "title": "全日本カート選手権FS-125部門適用車両規定別紙X30125ccRL-CTAGエンジン仕様書",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "全日本選手権等統一規則およびブルテン",
+ "group": "2026年 全日本 / ジュニアカート選手権統一規則",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3496/2026_japanese_karting_championship_specification_fs125.pdf",
+ "uploadDate": "2026-03-16",
+ "sha256": "903508e886aa5c27130e22e91ecccbb75a620597bcddc9946d310ff07bbfb178",
+ "docId": "2026_japanese_karting_championship_specification_fs125-04a2ce",
+ "pageCount": 51,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:19:00+00:00",
+ "stats": {
+  "chars": 9724,
+  "figures": 26,
+  "tables": 15,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [
+  {
+   "id": "ALTERNATIVE",
+   "level": 2,
+   "text": "ALTERNATIVE",
+   "page": 28
+  },
+  {
+   "id": "FROM-2025-ON-A-PARTIR-DE-2025",
+   "level": 2,
+   "text": "FROM 2025 ON - A PARTIR DE 2025",
+   "page": 29
+  },
+  {
+   "id": "sec",
+   "level": 1,
+   "text": "* *",
+   "page": 37
+  },
+  {
+   "id": "IAME",
+   "level": 1,
+   "text": "IAME",
+   "page": 43
+  },
+  {
+   "id": "NOW-COULD-BE-MARKED-WITH-NEW-LOGO-IAME",
+   "level": 3,
+   "text": "NOW COULD BE MARKED WITH NEW LOGO “IAME”",
+   "page": 43
+  },
+  {
+   "id": "NOUVEAU-LOGO-IAME",
+   "level": 3,
+   "text": "NOUVEAU LOGO “IAME”",
+   "page": 43
+  }
+ ],
+ "blocks": [
+  {
+   "type": "figure",
+   "page": 1,
+   "bbox": [
+    169.0,
+    28.4,
+    441.6,
+    107.5
+   ],
+   "asset": "assets/fig-p0001-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    68.4,
+    70.5,
+    539.4,
+    171.5
+   ],
+   "text": "X30 125cc RL-C TaG"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    33.6,
+    119.8,
+    565.5,
+    762.2
+   ],
+   "rows": [
+    [
+     "X30 125 R L-C T aG\ncc",
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     null,
+     "FEATURES - CARACTERISTIQUES",
+     null
+    ],
+    [
+     null,
+     null,
+     "Cylinder volume\nVolume du cylindre",
+     "123.67 cm³"
+    ],
+    [
+     null,
+     null,
+     "Bore\nAlésage",
+     "54 mm"
+    ],
+    [
+     null,
+     null,
+     "Max. bore\nAlésage max.",
+     "54.28 mm"
+    ],
+    [
+     null,
+     null,
+     "Stroke\nCourse",
+     "54 mm"
+    ],
+    [
+     null,
+     null,
+     "Cooling system\nSystème de refroidissement",
+     "Water\nÀ Eau"
+    ],
+    [
+     null,
+     null,
+     "Inlet system\nSystème d' admission",
+     "Reed valve\nÀ clapets"
+    ],
+    [
+     null,
+     null,
+     "Cylinder / crankcase transfers n°\nN° de canaux cylindre / carter",
+     "3 / 3"
+    ],
+    [
+     "Carburetor Tillotson\nCarburateur Tillotson",
+     "HW-27A\n(Venturi Ø27)",
+     "Inlet / exhaust ports number\nN° lumières admiss. / échapp.",
+     "3 / 3"
+    ],
+    [
+     "Number of piston rings\nNombre de segments",
+     "1",
+     "Combustion chamber shape\nForme chambre de combustion",
+     "Spherical\nSphèrique"
+    ],
+    [
+     "Big end conr. bearing diam.\nDiamètre roulement tête de\nbielle",
+     "20x26x15",
+     "Selettra or PVL ignition\nAllumage Selettra ou PVL",
+     "Digital"
+    ],
+    [
+     "Crankshaft bearing diam.\nDiamètre roulement du\nvilebrequin",
+     "30x62x16",
+     "Distance between conrod centers\nLongueur (entraxe) de la bielle",
+     "102 mm"
+    ],
+    [
+     "Small end conr. bearing diam.\nDiamètre roulement pied de\nbielle",
+     "14x18x17.5",
+     "RPM limiter\nLimiteur de régime",
+     "Yes\nOui"
+    ],
+    [
+     "Balancing shaft\nArbre d’équilibrage du\nvilebrequin",
+     "Yes\nOui",
+     "Electric starter\nDémarreur électrique",
+     "Yes\nOui"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 2,
+   "bbox": [
+    33.6,
+    28.5,
+    565.5,
+    793.7
+   ],
+   "rows": [
+    [
+     "DESCRIPTION OF THE MATERIAL\nDESCRIPTION DES MATERIAUX",
+     null,
+     "PISTON"
+    ],
+    [
+     "Conrod material\nMatériau de la bielle",
+     "Steel\nAcier",
+     "Piston min. weight (ring incl.) 128 g\nPoids min. piston (avec segment) 128g"
+    ],
+    [
+     "Crankshaft material\nMatériau du vilebrequin",
+     "Steel\nAcier",
+     null
+    ],
+    [
+     "Balancing shaft material\nMatériau de l’ arbre d’\néquilibrage",
+     "Steel\nAcier",
+     null
+    ],
+    [
+     "Gears material\nMatériau des engrenages",
+     "Steel\nAcier",
+     null
+    ],
+    [
+     "Starter ring material\nMatériau de la couronne\ndémarr.",
+     "Steel\nAcier",
+     null
+    ],
+    [
+     "Head material\nMatériau de la culasse",
+     "Aluminium",
+     "DISTANCE BETWEEN CONROD CENTERS\nENTRAXE DE LA BIELLE"
+    ],
+    [
+     "Cylinder material\nMatériau du cylindre",
+     "Aluminium",
+     "Min. weight 110 g\nPoids min. 110 g"
+    ],
+    [
+     "Liner material\nMatériau de la chemise",
+     "Iron\nFonte",
+     null
+    ],
+    [
+     "Crankcase material\nMatériau du carter",
+     "Aluminium",
+     null
+    ],
+    [
+     "Piston material\nMatériau du piston",
+     "Aluminium",
+     null
+    ],
+    [
+     "Piston rings material\nMatériau des segments",
+     "Iron\nFonte",
+     null
+    ],
+    [
+     "Exhaust muffler material\nMatériau du pot d' échappement",
+     "Sheet-steel\nTôle acier",
+     null
+    ],
+    [
+     "Ball-bearings\nRoulements",
+     "Type 6206",
+     null
+    ],
+    [
+     "CRANKSHAFT - VILEBREQUIN",
+     null,
+     "BALANCING SHAFT\nARBRE D’ EQUILIBRAGE"
+    ],
+    [
+     "",
+     null,
+     "Min. weight 315 g\nPoids Min. 315 g"
+    ],
+    [
+     null,
+     null,
+     "CRANKSHAFT BALL BEARINGS\nROULEMENT À BILLES DU VILEBREQUIN"
+    ],
+    [
+     null,
+     null,
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    69.2,
+    44.5,
+    533.3,
+    74.7
+   ],
+   "text": "DIMENSIONS OF ALTERNATIVE CRANKSHAFT WITH ROLLER MAIN BEARINGS DIMENSIONS DU VILEBREQUIN ALTERNATIF AVEC ROULEMENTS À ROULEAUX"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    187.8,
+    486.8,
+    414.6,
+    503.2
+   ],
+   "text": "Crankshaft complete min. Weight   2220 g"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    37.2,
+    501.1,
+    369.9,
+    530.8
+   ],
+   "text": "Poids min. du vilebrequin"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    165.1,
+    528.2,
+    437.3,
+    572.2
+   ],
+   "text": "ROLLER MAIN BEARING ROULEMENTS À ROULEAUX DU VILEBREQUIN"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    33.5,
+    28.5,
+    565.5,
+    766.4
+   ],
+   "rows": [
+    [
+     "CYLINDER DEVELOPMENT - DEVELOPPEMENT DU CYLINDRE",
+     null
+    ],
+    [
+     "* CHORDAL READING\nLECTURE CORDALE\nO ANGULAR READING BY INSERTING A 0.2x5 mm GAUGE\nLECTURE ANGULAIRE PAR INSERTION D’UNE CALE DE 0.2x5 mm",
+     null
+    ],
+    [
+     "CYLINDER BASE VIEW\nVUE DE LA BASE DU CYLINDRE",
+     "CYLINDER CROSS SECTION VIEW\nVUE EN SECTION DU CYLINDRE"
+    ],
+    [
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 5,
+   "bbox": [
+    33.2,
+    28.3,
+    565.8,
+    765.8
+   ],
+   "asset": "assets/fig-p0005-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 6,
+   "bbox": [
+    33.2,
+    28.3,
+    565.8,
+    765.8
+   ],
+   "asset": "assets/fig-p0006-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 7,
+   "bbox": [
+    36.6,
+    28.3,
+    559.9,
+    760.9
+   ],
+   "asset": "assets/fig-p0007-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 8,
+   "bbox": [
+    33.2,
+    23.9,
+    569.2,
+    775.2
+   ],
+   "asset": "assets/fig-p0008-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 9,
+   "bbox": [
+    33.2,
+    28.3,
+    569.2,
+    773.3
+   ],
+   "asset": "assets/fig-p0009-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 10,
+   "bbox": [
+    33.2,
+    28.3,
+    565.7,
+    753.6
+   ],
+   "asset": "assets/fig-p0010-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    139.3,
+    32.3,
+    466.8,
+    62.5
+   ],
+   "text": "EXHAUST MUFFLER VIEW AND DIMENSIONS VUE ET DIMENSIONS DU SILENCIEUX D’ECHAPPEMENT"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    241.4,
+    357.7,
+    335.0,
+    394.2
+   ],
+   "text": "The tape must follow the centerline of the weld at all points"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    241.4,
+    404.5,
+    335.0,
+    440.8
+   ],
+   "text": "Le ruban doit suivre l'axe de la soudure en tous points"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    247.4,
+    467.5,
+    357.5,
+    483.9
+   ],
+   "text": "Min. Weight 1.780 g"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    251.2,
+    481.8,
+    353.9,
+    497.7
+   ],
+   "text": "Poids min. 1.780 g"
+  },
+  {
+   "type": "table",
+   "page": 11,
+   "bbox": [
+    41.0,
+    510.6,
+    551.3,
+    607.6
+   ],
+   "rows": [
+    [
+     "ØA1: 110 ±1.5 Øext.",
+     "B2: 60 ±3",
+     "ØE: 23.5 ±2 Øext.",
+     "ØI: 21 ±1 Øint.",
+     "N: 341 ±3",
+     "T: 690 ±3"
+    ],
+    [
+     "ØA2: 102 ±1.5 Øext.",
+     "C: 219 ±3",
+     "F: 36 ±2",
+     "K: 170 ±3",
+     "ØO: 21 ±1 Øint.",
+     "W: 170 ±3"
+    ],
+    [
+     "ØA3: 100 ±1.5 Øext.",
+     "D1: 90 ±3",
+     "ØG: 35 ±1 Øext.",
+     "ØL: 42.5 ±1.5 Øext.",
+     "P: 50 ±10",
+     "Q: 182 ±3"
+    ],
+    [
+     "B1: 60 ±3",
+     "D2: 109 ±3",
+     "H: 132 ±3",
+     "M: 437 ±3",
+     "S: 29 ±1.5",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    265.1,
+    606.4,
+    341.1,
+    623.6
+   ],
+   "text": "ATTENTION:"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    40.8,
+    625.1,
+    561.2,
+    746.3
+   ],
+   "text": "The dimensions “M”, “N” and “T” must be taken by steel tape measure 6mm wide. The dimensions “M” and “N” must be taken on the weld centerline. Les dimensions « M », « N » et « T » doivent être à l’aide d’un ruban à mesurer en acier 6 mm de large. Les dimensions « M », « N » doivent être prises sur l'axe de la soudure. The dimensions “Q” and “W” must be taken by steel tape measure 12mm wide. Les dimensions « Q » et « W » doivent être prises à l'aide d'un ruban à mesurer en acier 12 mm de large."
+  },
+  {
+   "type": "figure",
+   "page": 12,
+   "bbox": [
+    35.2,
+    28.3,
+    559.9,
+    772.9
+   ],
+   "asset": "assets/fig-p0012-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 13,
+   "bbox": [
+    33.2,
+    28.3,
+    565.6,
+    760.2
+   ],
+   "asset": "assets/fig-p0013-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    89.8,
+    41.9,
+    512.4,
+    72.1
+   ],
+   "text": "RADIATOR DESCRIPTION AND SKETCH OF PARTS DESCRIPTION DU RADIATEUR ET SCHEMA ILLUSTRANT LES ELEMENTS"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    168.4,
+    355.2,
+    554.6,
+    373.9
+   ],
+   "text": "FRONT / AVANT REAR / ARRIERE"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    114.5,
+    406.6,
+    282.6,
+    422.9
+   ],
+   "text": "PAINTED AND NOT PAINTED"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    136.9,
+    420.9,
+    260.3,
+    436.7
+   ],
+   "text": "PEINT ET PAS PEINT"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    423.8,
+    554.4,
+    482.0,
+    573.6
+   ],
+   "text": "Ø16.5 ±1"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    523.1,
+    543.4,
+    542.3,
+    592.8
+   ],
+   "text": "315 ±10",
+   "clause": "315"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    68.8,
+    712.7,
+    325.5,
+    730.9
+   ],
+   "text": "REAR / ARRIERE FRONT / AVANT"
+  },
+  {
+   "type": "figure",
+   "page": 15,
+   "bbox": [
+    39.4,
+    37.7,
+    571.7,
+    746.8
+   ],
+   "asset": "assets/fig-p0015-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    142.8,
+    35.6,
+    459.6,
+    52.0
+   ],
+   "text": "RADIATOR ALTERNATIVE DESCRIPTION AND SKETCH"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    173.5,
+    49.9,
+    428.9,
+    65.8
+   ],
+   "text": "DESCRIPTION DU RADIATEUR ALTERNATIF"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    181.0,
+    357.9,
+    544.7,
+    376.2
+   ],
+   "text": "REAR / ARRIERE FRONT / AVANT"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    90.1,
+    698.1,
+    357.1,
+    716.8
+   ],
+   "text": "FRONT / AVANT REAR / ARRIERE"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    421.1,
+    537.0,
+    475.3,
+    556.2
+   ],
+   "text": "Ø16.5±1"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    520.7,
+    521.5,
+    539.9,
+    570.9
+   ],
+   "text": "335 ±10",
+   "clause": "335"
+  },
+  {
+   "type": "figure",
+   "page": 17,
+   "bbox": [
+    29.6,
+    28.4,
+    562.0,
+    758.9
+   ],
+   "asset": "assets/fig-p0017-01.webp"
+  },
+  {
+   "type": "table",
+   "page": 17,
+   "bbox": [
+    212.8,
+    444.5,
+    357.8,
+    590.2
+   ],
+   "rows": [
+    [
+     null,
+     null,
+     null,
+     null,
+     "RACE BOTTOM\nFOND GORGE",
+     null
+    ],
+    [
+     null,
+     null,
+     "",
+     null,
+     "78 ±1",
+     ""
+    ],
+    [
+     null,
+     null,
+     null,
+     null,
+     "",
+     null
+    ],
+    [
+     "Ø82 ±1",
+     "",
+     "",
+     "",
+     null,
+     null
+    ],
+    [
+     null,
+     null,
+     "",
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 18,
+   "bbox": [
+    33.2,
+    28.3,
+    558.5,
+    766.2
+   ],
+   "asset": "assets/fig-p0018-01.webp"
+  },
+  {
+   "type": "table",
+   "page": 19,
+   "bbox": [
+    33.5,
+    42.3,
+    558.2,
+    763.1
+   ],
+   "rows": [
+    [
+     "PISTON IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION PISTON",
+     null
+    ],
+    [
+     "",
+     null
+    ],
+    [
+     "PHOTO IDENTIFICATION CONROD\nMARQUAGE D'IDENTIFICATION BIELLE",
+     "IDENTIFICATION BALANCING SHAFT\nMARKING\nMARQUAGE D'IDENTIFICATION ARBRE\nD’EQUILIBRAGE"
+    ],
+    [
+     "",
+     "VARIABLE"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 20,
+   "bbox": [
+    33.5,
+    28.5,
+    558.2,
+    754.7
+   ],
+   "rows": [
+    [
+     "CRANKSHAFT IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DU VILEBREQUIN",
+     null
+    ],
+    [
+     "VARIABLE\nVARIABLE",
+     null
+    ],
+    [
+     "GEAR COMMAND BALANCING SHAFT\nIDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION\nENGRENAGE ARBRE D’EQUILIBRAGE",
+     "SPROCKET IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DU PIGNON"
+    ],
+    [
+     "VARIABLE\nALTERNATIVE\nMARKING/\nMARQUAGE:\nX300125755\nX300125755A\nX300125755B",
+     "VARIABLE\nVARIABLE"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 21,
+   "bbox": [
+    33.5,
+    28.6,
+    558.2,
+    749.0
+   ],
+   "rows": [
+    [
+     "CLUTCH BODY IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DU CORPS\nDE L’EMBRAYAGE",
+     "CLUTCH DRUM IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DE LA\nCALOTTE"
+    ],
+    [
+     "ALTERNATIVE\nFRICTION\nMATERIAL\n-------------------------------\nMATÉRIAU DE\nFRICTION\nALTERNATIVE\nVARIABLE",
+     ""
+    ],
+    [
+     "STARTER RING IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DE LA\nCOURONNE DE DEMARRAGE",
+     "STARTER IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DU\nDEMARREUR"
+    ],
+    [
+     "VARIABLE",
+     "VARIABLE"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 22,
+   "bbox": [
+    33.5,
+    28.5,
+    558.2,
+    750.8
+   ],
+   "rows": [
+    [
+     "REED GROUP & PETALS IDENTIFICATION MARKING\nMARQUAGE D'IDENTIFICATION DE LA BOÎTE À CLAPETS & CLAPETS",
+     null
+    ],
+    [
+     "VETRONITE – FIBRE DE VERRE\nCARBON FIBER / FIBRE CARBONE\nFRONT SIDE\nCÔTÉ AVANT\nREAR SIDE\nCÔTÉ\nARRIÈRE",
+     null
+    ],
+    [
+     "PHOTO IDENTIFICATION CARBURETOR\nINLET CONVEYOR\nMARQUAGE D'IDENTIFICATION DU\nCOLLECTEUR D'ASPIRATION",
+     "EXHAUST SILENCER IDENTIFICATION\nMARKING\nMARQUAGE D'IDENTIFICATION\nECHAPPEMENT"
+    ],
+    [
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 23,
+   "bbox": [
+    40.3,
+    28.3,
+    558.5,
+    759.2
+   ],
+   "asset": "assets/fig-p0023-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 24,
+   "bbox": [
+    40.3,
+    28.3,
+    558.5,
+    757.0
+   ],
+   "asset": "assets/fig-p0024-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 25,
+   "bbox": [
+    40.3,
+    28.3,
+    559.9,
+    758.4
+   ],
+   "asset": "assets/fig-p0025-01.webp"
+  },
+  {
+   "type": "table",
+   "page": 26,
+   "bbox": [
+    40.6,
+    28.5,
+    559.6,
+    765.6
+   ],
+   "rows": [
+    [
+     "FROM 2014 ON - A PARTIR DE 2014",
+     null
+    ],
+    [
+     "STICKER APPLICATION AREA - ESPACE POUR L'APPLICATION DES ADHÉSIFS",
+     null
+    ],
+    [
+     "ALTERNATIVE AREA / ZONE ALTERNATIVE",
+     null
+    ],
+    [
+     "EXHAUST TEMPERATURE SENSOR\nCAPTEUR DE TEMPERATURE D’ECHAPPEMENT",
+     "CYLINDER CROSS SECTION VIEW\nVUE EN SECTION DU CYLINDRE"
+    ],
+    [
+     "EXHAUST\nTEMPERATURE\nSENSOR POSITION\n(OPTIONAL)\nPOSITION DU\nCAPTEUR\nDE TEMPERATURE\nD’ECHAPPEMENT\n(EN OPTION)",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 27,
+   "bbox": [
+    51.1,
+    28.3,
+    560.0,
+    754.7
+   ],
+   "asset": "assets/fig-p0027-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "bbox": [
+    164.0,
+    40.7,
+    452.1,
+    71.5
+   ],
+   "text": "CYLINDER BASE ALTERNATIVE MARKING MARQUAGE ALTERNATIF DU LA BASE CYLINDRE"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    55.0,
+    103.5,
+    366.8,
+    190.2
+   ],
+   "text": "ALTERNATIVE",
+   "level": 2,
+   "id": "ALTERNATIVE"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "bbox": [
+    458.2,
+    551.9,
+    522.8,
+    569.1
+   ],
+   "text": "VARIABLE"
+  },
+  {
+   "type": "heading",
+   "page": 29,
+   "bbox": [
+    163.2,
+    35.0,
+    435.1,
+    57.8
+   ],
+   "text": "FROM 2025 ON - A PARTIR DE 2025",
+   "level": 2,
+   "id": "FROM-2025-ON-A-PARTIR-DE-2025"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    66.7,
+    69.6,
+    534.9,
+    97.3
+   ],
+   "text": "CYLINDER IDENTIFICATION – ALTERNATIVE CYLINDER LINER LOCK PIN IDENTIFICATION DU CYLINDRE – GOUPILLE DE BLOCAGE DE LA CHEMISE ALTERNATIF"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    166.0,
+    101.5,
+    435.9,
+    159.3
+   ],
+   "text": "CURRENT PIN (SPRING PIN) GOUPILLE COURANTE (GOUPILLE À RESORT)"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    157.6,
+    428.0,
+    444.2,
+    490.6
+   ],
+   "text": "ALTERNATIVE PIN (GROOVED PIN) GOUPILLE ALTERNATIF - (GOUPILLE CANNELÉE)"
+  },
+  {
+   "type": "table",
+   "page": 30,
+   "bbox": [
+    51.4,
+    28.5,
+    559.8,
+    751.1
+   ],
+   "rows": [
+    [
+     "FROM 2025 ON - A PARTIR DE 2025",
+     null
+    ],
+    [
+     "CYLINDER IDENTIFICATION – ALTERNATIVE CYLINDER LINER LOCK PIN\nIDENTIFICATION DU CYLINDRE – GOUPILLE DE BLOCAGE DE LA CHEMISE ALTERNATIF",
+     null
+    ],
+    [
+     "CURRENT PIN\nGOUPILLE COURANTE\nSPRING PIN\nGOUPILLE À RESORT",
+     "ALTERNATIVE PIN\nGOUPILLE ALTERNATIF\nGROOVED PIN\nGOUPILLE CANNELÉE"
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 31,
+   "bbox": [
+    36.4,
+    32.6,
+    558.0,
+    764.3
+   ],
+   "asset": "assets/fig-p0031-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 32,
+   "bbox": [
+    33.2,
+    28.3,
+    565.6,
+    766.6
+   ],
+   "asset": "assets/fig-p0032-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 33,
+   "bbox": [
+    33.2,
+    37.7,
+    565.6,
+    768.0
+   ],
+   "asset": "assets/fig-p0033-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 34,
+   "bbox": [
+    36.4,
+    36.6,
+    568.3,
+    766.8
+   ],
+   "asset": "assets/fig-p0034-01.webp"
+  },
+  {
+   "type": "table",
+   "page": 35,
+   "bbox": [
+    35.3,
+    28.4,
+    559.7,
+    755.4
+   ],
+   "rows": [
+    [
+     "PHOTO IDENTIFICATION REED GROUP\nPHOTO IDENTIFICATION BOÎTE À CLAPETS",
+     null
+    ],
+    [
+     "VERSION ACTUAL\nVERSION COURANTE",
+     "ALTERNATIVE VERSION\nVERSION ALTERNATIVE"
+    ],
+    [
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "figure",
+   "page": 36,
+   "bbox": [
+    39.5,
+    37.6,
+    571.6,
+    765.6
+   ],
+   "asset": "assets/fig-p0036-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    197.8,
+    42.8,
+    416.5,
+    73.0
+   ],
+   "text": "ALTERNATIVE PISTON MARKING MARQUAGE ALTERNATIF DU PISTON"
+  },
+  {
+   "type": "heading",
+   "page": 37,
+   "bbox": [
+    60.4,
+    254.6,
+    450.0,
+    362.0
+   ],
+   "text": "* *",
+   "level": 1,
+   "id": "sec"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    296.3,
+    266.7,
+    350.2,
+    280.9
+   ],
+   "text": "VARIABLE"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    292.3,
+    371.4,
+    346.2,
+    385.7
+   ],
+   "text": "VARIABLE"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    197.8,
+    400.8,
+    416.5,
+    431.0
+   ],
+   "text": "ALTERNATIVE PISTON MARKING MARQUAGE ALTERNATIF DU PISTON"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    88.8,
+    625.5,
+    143.3,
+    642.7
+   ],
+   "text": "VARIABLE"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    283.2,
+    723.0,
+    337.1,
+    737.3
+   ],
+   "text": "VARIABLE"
+  },
+  {
+   "type": "figure",
+   "page": 38,
+   "bbox": [
+    39.5,
+    37.6,
+    571.6,
+    771.4
+   ],
+   "asset": "assets/fig-p0038-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    65.8,
+    41.2,
+    554.0,
+    71.3
+   ],
+   "text": "PHOTO IDENTIFICATION OF SMALL END CONROD BEARING – TYPES ALTERNATIVE PHOTO D’IDENTIFICATION DU ROULEMENT PIED DE BIELLE – TYPES ALTERNATIFS"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    175.2,
+    139.3,
+    444.6,
+    155.7
+   ],
+   "text": "TYPE 1                                                       TYPE 2"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    102.2,
+    388.0,
+    517.5,
+    404.3
+   ],
+   "text": "PHOTO IDENTIFICATION OF CONROD WASHER – TYPES ALTERNATIVE"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    107.2,
+    402.3,
+    512.7,
+    418.1
+   ],
+   "text": "PHOTO D’IDENTIFICATION RONDELLE BIELLE – TYPES ALTERNATIFS"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    175.2,
+    495.1,
+    444.6,
+    511.5
+   ],
+   "text": "TYPE 1                                                       TYPE 2"
+  },
+  {
+   "type": "paragraph",
+   "page": 40,
+   "bbox": [
+    84.4,
+    43.5,
+    520.8,
+    79.7
+   ],
+   "text": "PARTS WITH ALTERNATIVE NEW LOGO “IAME” COMPOSANTS AVEC UN NOUVEAU LOGO ALTERNATIF «IAME»"
+  },
+  {
+   "type": "table",
+   "page": 40,
+   "bbox": [
+    40.1,
+    86.3,
+    575.4,
+    760.7
+   ],
+   "rows": [
+    [
+     "CYLINDER HEAD\nCULASSE",
+     "CYLINDER\nCYLINDRE"
+    ],
+    [
+     "NEW / NOUVEAU LOGO",
+     "NEW / NOUVEAU LOGO"
+    ],
+    [
+     "SEMICARTER TRANSMISSION SIDE\nDEMI-CARTER CÔTÉ PIGNON",
+     "SEMICARTER IGNITION SIDE\nDEMI-CARTER CÔTÉ ALLUMAGE"
+    ],
+    [
+     "NEW / NOUVEAU LOGO",
+     "NEW / NOUVEAU LOGO"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 41,
+   "bbox": [
+    84.4,
+    43.5,
+    520.2,
+    79.7
+   ],
+   "text": "PARTS WITH ALTERNATIVE NEW LOGO “IAME” COMPOSANTS AVEC UN NOUVEAU LOGO ALTERNATIF «IAME»"
+  },
+  {
+   "type": "table",
+   "page": 41,
+   "bbox": [
+    40.1,
+    86.3,
+    575.4,
+    783.1
+   ],
+   "rows": [
+    [
+     "IGNITION COVER\nCOUVERCLE DE L’ALLUMAGE",
+     "CLUTCH COVER\nCOUVERCLE D'EMBRAYAGE"
+    ],
+    [
+     "NEW / NOUVEAU LOGO",
+     "NEW / NOUVEAU LOGO"
+    ],
+    [
+     "REED GROUP\nGROUPE CLAPETS",
+     "CARBURETTOR INLET CONVEYOR\nCONVOYEUR D’ADMISSION"
+    ],
+    [
+     "NEW / NOUVEAU LOGO",
+     "NEW / NOUVEAU LOGO"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "bbox": [
+    84.4,
+    43.5,
+    520.2,
+    79.7
+   ],
+   "text": "PARTS WITH ALTERNATIVE NEW LOGO “IAME” COMPOSANTS AVEC UN NOUVEAU LOGO ALTERNATIF «IAME»"
+  },
+  {
+   "type": "table",
+   "page": 42,
+   "bbox": [
+    40.1,
+    86.3,
+    575.4,
+    761.8
+   ],
+   "rows": [
+    [
+     "EXHAUST SILENCER\nECHAPPEMENT",
+     "RADIATOR\nRADIATEUR"
+    ],
+    [
+     "NEW / NOVEAU\nLOGO\nNEW / NOUVEAU LOGO",
+     "NEW\nNOUVEAU LOGO"
+    ],
+    [
+     null,
+     "BALANCING SHAFT\nARBRE D’EQUILIBRAGE"
+    ],
+    [
+     null,
+     "NEW / NOUVEAU LOGO"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    59.5,
+    39.6,
+    559.7,
+    75.4
+   ],
+   "text": "THE OTHERS COMPONENTS OF ENGINE THAT ARE MARKED (LASER OR PUNCHING) UNTIL TODAY WITH LOGO OR WRITTEN “IAME”"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    45.2,
+    72.3,
+    574.1,
+    116.8
+   ],
+   "text": "LES AUTRES COMPOSANTS DU MOTEUR AVEC COMME MARQUAGE (LASER OU POINÇONNEUSE) L’ANCIEN LOGO OU ÉCRIT «IAME»"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    300.7,
+    214.8,
+    492.6,
+    259.4
+   ],
+   "text": "or"
+  },
+  {
+   "type": "heading",
+   "page": 43,
+   "bbox": [
+    262.7,
+    256.0,
+    362.7,
+    318.2
+   ],
+   "text": "IAME",
+   "level": 1,
+   "id": "IAME"
+  },
+  {
+   "type": "heading",
+   "page": 43,
+   "bbox": [
+    133.6,
+    323.5,
+    485.8,
+    343.1
+   ],
+   "text": "NOW COULD BE MARKED WITH NEW LOGO “IAME”",
+   "level": 3,
+   "id": "NOW-COULD-BE-MARKED-WITH-NEW-LOGO-IAME"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    122.5,
+    351.6,
+    500.6,
+    371.2
+   ],
+   "text": "POURRAIENT MAINTENANT ETRE MARQUES AVEC LE"
+  },
+  {
+   "type": "heading",
+   "page": 43,
+   "bbox": [
+    223.7,
+    367.7,
+    395.0,
+    387.2
+   ],
+   "text": "NOUVEAU LOGO “IAME”",
+   "level": 3,
+   "id": "NOUVEAU-LOGO-IAME"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    300.7,
+    500.2,
+    434.6,
+    545.3
+   ],
+   "text": "or"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "bbox": [
+    300.7,
+    639.8,
+    492.9,
+    666.5
+   ],
+   "text": "or"
+  },
+  {
+   "type": "figure",
+   "page": 44,
+   "bbox": [
+    42.2,
+    28.3,
+    574.3,
+    791.3
+   ],
+   "asset": "assets/fig-p0044-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "bbox": [
+    56.2,
+    27.4,
+    563.7,
+    71.6
+   ],
+   "text": "NO GO GAUGE FOR THE HEIGHT OF EXHAUST PORT AND LATERAL TRANSFERS GABARIT POUR LA HAUTEUR DE LA LUMIÈRE D’ÉCHAPPEMENT ET  DES TRANSFERTS"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "bbox": [
+    276.6,
+    69.5,
+    343.3,
+    85.4
+   ],
+   "text": "LATÉRAUX"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "bbox": [
+    118.9,
+    409.0,
+    501.0,
+    439.1
+   ],
+   "text": "CHECKING TOOL FOR PORTS IN THE CYLINDER LINER GABARIT POUR LES LUMIÈRES DANS LA CHEMISE DU CYLINDRE"
+  },
+  {
+   "type": "figure",
+   "page": 46,
+   "bbox": [
+    42.2,
+    28.3,
+    574.3,
+    787.4
+   ],
+   "asset": "assets/fig-p0046-01.webp"
+  },
+  {
+   "type": "figure",
+   "page": 47,
+   "bbox": [
+    42.2,
+    28.3,
+    574.3,
+    782.4
+   ],
+   "asset": "assets/fig-p0047-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    87.0,
+    27.6,
+    536.1,
+    71.6
+   ],
+   "text": "TEMPLATE FOR THE MARKING POSITION ON SELETTRA DIGITAL \"S\" ROTOR"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    182.2,
+    69.0,
+    437.6,
+    85.4
+   ],
+   "text": "OK when the marking is hidden by the template"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    62.2,
+    83.3,
+    557.6,
+    113.0
+   ],
+   "text": "GABARIT POUR LA LE MARQUAGE DE PHASE SUR LE ROTOR SELETTRA DIGITAL “S”"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    190.9,
+    110.9,
+    429.0,
+    126.8
+   ],
+   "text": "OK si le marquage est couvert par le gabarit"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    82.0,
+    386.6,
+    537.9,
+    408.1
+   ],
+   "text": "TEMPLATE FOR THE VENTURI SHAPE OF TILLOTSON HW-27A CARBURETTOR"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "bbox": [
+    108.8,
+    406.0,
+    510.9,
+    421.9
+   ],
+   "text": "GABARIT POUR LE VENTURI DU CARBURATEUR TILLOTSON HW-27A"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    97.0,
+    27.6,
+    499.7,
+    71.6
+   ],
+   "text": "GAUGE FOR THE HEIGHT OF THE ATOMISER – IT MUST ENTER GABARIT POUR LA HAUTEUR DU PULVERISATEUR - IL DOIT ENTRER"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    155.8,
+    99.8,
+    229.2,
+    117.0
+   ],
+   "text": "ATT.035 / 12"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    158.3,
+    283.1,
+    438.3,
+    304.6
+   ],
+   "text": "NO GO GAUGE FOR THE HOLE OF THE NOZZLE"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    47.9,
+    302.5,
+    435.1,
+    323.4
+   ],
+   "text": "GABARIT POUR LE TROU DU PULVERISATEUR"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    97.6,
+    347.0,
+    216.9,
+    363.4
+   ],
+   "text": "GO Side – must enter"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    98.2,
+    360.8,
+    216.2,
+    377.2
+   ],
+   "text": "Côté GO – doit entrer"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    68.9,
+    545.0,
+    247.7,
+    575.2
+   ],
+   "text": "NO GO Side – must not enter Côté NO GO – ne doit pas entrer"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "bbox": [
+    446.4,
+    530.3,
+    519.8,
+    547.5
+   ],
+   "text": "ATT.035 / 19"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "bbox": [
+    61.9,
+    61.1,
+    558.0,
+    77.5
+   ],
+   "text": "EXHAUST MANIFOLD CHECKING TOOL - CONTRÔLE DU RACCORD D’ECHAPPEMENT"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "bbox": [
+    73.1,
+    626.2,
+    546.6,
+    667.7
+   ],
+   "text": "THE NO-GO GAUGE MUST NOT ENTER INTO THE EXHAUST RESTRICTOR, (FIG.2); LE GABARIT NE DOIT PAS ENTRER DANS LE TROU DU RESTRICTEUR D'ECHAPPEMENT."
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "bbox": [
+    53.4,
+    665.2,
+    566.1,
+    705.6
+   ],
+   "text": "THE SHAPE OF THE DUCT IN THE HEADER MUST MATCH WITH THE TEMPLATE, (FIG.1,3 AND 4). LA FORME DU CONDUIT DANS LE COLLECTEUR TOIT ÊTRE LA MEME QUE L’OUTIL"
+  },
+  {
+   "type": "figure",
+   "page": 51,
+   "bbox": [
+    56.6,
+    50.3,
+    536.6,
+    759.6
+   ],
+   "asset": "assets/fig-p0051-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "bbox": [
+    49.6,
+    783.7,
+    537.0,
+    807.8
+   ],
+   "text": "VOIDS AND REPLACES THE FORM n° 246/Q OF 13/11/24.                                                        12/12/25   n° 246/R ANNULE ET REMPLACE LA FICHE   n° 246/Q DU 13/11/24"
+  }
+ ]
+}

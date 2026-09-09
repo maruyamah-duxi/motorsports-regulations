@@ -1,0 +1,143 @@
+{
+ "title": "スピード競技における旗信号に関する指導要項",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "2026年 JAF国内競技規則・細則・各種規定",
+ "group": "選手権規定 / 開催規定",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3463/3479/2024_jaf_speed_signal_flag.pdf",
+ "uploadDate": "2024-04-22",
+ "sha256": "db7a3f6caaa5c4323d5f7a0f68cf2cd62779a39d2e8c7fc1f2e813f51aaa9d37",
+ "docId": "2024_jaf_speed_signal_flag-bfa433",
+ "pageCount": 1,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:18+00:00",
+ "stats": {
+  "chars": 226,
+  "figures": 0,
+  "tables": 0,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [
+  {
+   "id": "スピード競技における旗信号に関する指導要項",
+   "level": 1,
+   "text": "スピード競技における旗信号に関する指導要項",
+   "page": 1
+  }
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    394.7,
+    20.4,
+    558.4,
+    32.3
+   ],
+   "text": "スピード競技における旗信号に関する指導要項"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    142.3,
+    66.8,
+    477.1,
+    91.2
+   ],
+   "text": "スピード競技における旗信号に関する指導要項",
+   "level": 1,
+   "id": "スピード競技における旗信号に関する指導要項"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    70.2,
+    128.5,
+    558.4,
+    141.5
+   ],
+   "text": "ＪＡＦは、1979年度より、スピード競技における旗信号に関し、以下の指導要項を定める。ここに定めていないものに"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    143.4,
+    374.2,
+    156.4
+   ],
+   "text": "ついては、国際モータースポーツ競技規則付則Ｈ項に従うことが望ましい。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    173.2,
+    199.1,
+    186.2
+   ],
+   "text": "スタート旗競技スタートの信号"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    116.2,
+    188.0,
+    245.2,
+    201.1
+   ],
+   "text": "国旗またはクラブ旗を用いる。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    202.9,
+    392.6,
+    215.9
+   ],
+   "text": "黄旗真横または真上に静止して提示———パイロン移動、転倒、脱輪。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    217.8,
+    162.3,
+    230.8
+   ],
+   "text": "黒旗ミスコース"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    232.7,
+    236.0,
+    245.7
+   ],
+   "text": "赤旗危険あり。直ちに停止せよ。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    60.9,
+    247.6,
+    217.6,
+    260.6
+   ],
+   "text": "緑旗コースがクリアされた。"
+  }
+ ]
+}

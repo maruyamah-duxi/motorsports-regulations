@@ -1,0 +1,4496 @@
+{
+ "title": "No.002-2026_添付資料3",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "全日本選手権等統一規則およびブルテン",
+ "group": "2026年 全日本選手権レースブルテン",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3493/race_bulletin_002-2026_att_3_20260226.pdf",
+ "uploadDate": "2026-02-26",
+ "sha256": "7a9cff689ca9bf85326d49e31125b046a47885514d5c4b1639ec6965fce1d8bf",
+ "docId": "race_bulletin_002-2026_att_3_20260226-8571e3",
+ "pageCount": 42,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:51+00:00",
+ "stats": {
+  "chars": 22733,
+  "figures": 109,
+  "tables": 0,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [
+  {
+   "id": "DALLARA-324-SPECIFICATION-FORM",
+   "level": 1,
+   "text": "DALLARA 324 SPECIFICATION FORM",
+   "page": 1
+  },
+  {
+   "id": "1-GENERAL",
+   "level": 1,
+   "text": "1    GENERAL",
+   "page": 1
+  },
+  {
+   "id": "101-MANUFACTURER-Dallara",
+   "level": 1,
+   "text": "101 MANUFACTURER  Dallara",
+   "page": 1
+  },
+  {
+   "id": "102-MODEL-324",
+   "level": 1,
+   "text": "102 MODEL  324",
+   "page": 1
+  },
+  {
+   "id": "Survival-Cell-Main-Dimensions",
+   "level": 1,
+   "text": "Survival Cell - Main Dimensions",
+   "page": 2
+  },
+  {
+   "id": "203-MAIN-ROLL-HOOP-a-Nominal-Weight-2-030-kg",
+   "level": 1,
+   "text": "203 MAIN ROLL HOOP  a) Nominal Weight: 2,030 [kg]",
+   "page": 3
+  },
+  {
+   "id": "b-Height-above-survival-cell-151-mm-measured-at",
+   "level": 1,
+   "text": "b) Height above survival cell: 151 [mm] (measured at the car centerline)",
+   "page": 3
+  },
+  {
+   "id": "203-a-HALO",
+   "level": 1,
+   "text": "203-a HALO",
+   "page": 3
+  },
+  {
+   "id": "a-Halo-Ti-3B-Halo-Mounted",
+   "level": 1,
+   "text": "a) Halo Ti 3B     Halo - Mounted",
+   "page": 3
+  },
+  {
+   "id": "compromised-belts-may-be-extended-Extractable-Se",
+   "level": 1,
+   "text": "compromised, belts may be extended   Extractable Seat - Unmounted",
+   "page": 4
+  },
+  {
+   "id": "206-LEG-PADDING-ASSEMBLY",
+   "level": 1,
+   "text": "206 LEG PADDING ASSEMBLY",
+   "page": 5
+  },
+  {
+   "id": "a-Nominal-Weight-1-870-kg",
+   "level": 1,
+   "text": "a) Nominal Weight: 1,870 [kg]",
+   "page": 5
+  },
+  {
+   "id": "b-Comment-may-be-shortened-for-small-driver-in-a",
+   "level": 1,
+   "text": "b) Comment: may be shortened for small driver in a way that the leg padding covers up",
+   "page": 5
+  },
+  {
+   "id": "to-100mm-behind-the-face-of-the-rearmost-pedal-w",
+   "level": 1,
+   "text": "to 100mm behind the face of the rearmost pedal when in the inoperative position.",
+   "page": 5
+  },
+  {
+   "id": "302-FRONT-WING-MAIN-PLANE",
+   "level": 1,
+   "text": "302 FRONT WING MAIN PLANE",
+   "page": 7
+  },
+  {
+   "id": "302a-FRONT-WING-MAIN-PLANE-OPTION",
+   "level": 1,
+   "text": "302a FRONT WING MAIN PLANE (OPTION)",
+   "page": 8
+  },
+  {
+   "id": "303-FRONT-WING-ADDITIONAL-BODYWORK-OPTION",
+   "level": 1,
+   "text": "303 FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "page": 9
+  },
+  {
+   "id": "a-Nominal-Weight-0-327-kg-b-Comment-HDF-option-w",
+   "level": 1,
+   "text": "a) Nominal Weight: 0,327 [kg]  b) Comment: HDF option without gurney",
+   "page": 9
+  },
+  {
+   "id": "303a-FRONT-WING-ADDITIONAL-BODYWORK-OPTION",
+   "level": 1,
+   "text": "303a FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "page": 9
+  },
+  {
+   "id": "303b-FRONT-WING-ADDITIONAL-BODYWORK-OPTION",
+   "level": 1,
+   "text": "303b FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "page": 10
+  },
+  {
+   "id": "a-Nominal-Weight-0-327-kg-b-Comment-HDF-option-w-2",
+   "level": 1,
+   "text": "a) Nominal Weight: 0,327 [kg]  b) Comment: HDF option with 5mm gurney",
+   "page": 10
+  },
+  {
+   "id": "303c-FRONT-WING-ADDITIONAL-BODYWORK-OPTION",
+   "level": 1,
+   "text": "303c FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "page": 10
+  },
+  {
+   "id": "303d-FRONT-WING-ADDITIONAL-BODYWORK-OPTION",
+   "level": 1,
+   "text": "303d FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "page": 10
+  },
+  {
+   "id": "a-Nominal-Weight-0-178-kg",
+   "level": 1,
+   "text": "a) Nominal Weight: 0,178 [kg]",
+   "page": 10
+  },
+  {
+   "id": "b-Comment-Adjustment-slots-may-be-added-bottom-e",
+   "level": 1,
+   "text": "b) Comment: Adjustment slots may be added, bottom edge may be trimmed up to 3mm",
+   "page": 11
+  },
+  {
+   "id": "304-FRONT-WING-ENDPLATE",
+   "level": 1,
+   "text": "304 FRONT WING ENDPLATE",
+   "page": 11
+  },
+  {
+   "id": "305-FRONT-WING-SUPPORT-a-Nominal-Weight-0-127-kg",
+   "level": 1,
+   "text": "305 FRONT WING SUPPORT  a) Nominal Weight: 0,127 [kg]",
+   "page": 12
+  },
+  {
+   "id": "b-Comment-may-be-grinded-to-conform-the-wing-pos",
+   "level": 1,
+   "text": "b) Comment: may be grinded to conform the wing position to the regulation.",
+   "page": 12
+  },
+  {
+   "id": "306-FRONT-WING-SUPPORT-COVER",
+   "level": 1,
+   "text": "306 FRONT WING SUPPORT COVER",
+   "page": 12
+  },
+  {
+   "id": "a-Nominal-Weight-As-originally-supplied",
+   "level": 1,
+   "text": "a) Nominal Weight: As originally supplied",
+   "page": 12
+  },
+  {
+   "id": "b-May-be-repaired-Front-Wing-Support-Cover-Unmou",
+   "level": 1,
+   "text": "b) May be repaired  Front Wing Support Cover - Unmounted",
+   "page": 12
+  },
+  {
+   "id": "307-REAR-CRASH-STRUCTURE",
+   "level": 1,
+   "text": "307 REAR CRASH STRUCTURE",
+   "page": 13
+  },
+  {
+   "id": "a-Nominal-Weight-2-450-kg",
+   "level": 1,
+   "text": "a) Nominal Weight: 2,450 [kg]",
+   "page": 13
+  },
+  {
+   "id": "308-LOWER-REAR-WING-AND-SUPPORT",
+   "level": 1,
+   "text": "308 LOWER REAR WING AND SUPPORT",
+   "page": 13
+  },
+  {
+   "id": "a-Nominal-Weight-1-495-kg",
+   "level": 1,
+   "text": "a) Nominal Weight: 1,495 [kg]",
+   "page": 13
+  },
+  {
+   "id": "309-UPPER-REAR-WING-HDF-OPTIONAL",
+   "level": 1,
+   "text": "309 UPPER REAR WING – HDF (OPTIONAL)",
+   "page": 14
+  },
+  {
+   "id": "a-Nominal-Weight-HDF-Upper-Wing-0-837-kg",
+   "level": 1,
+   "text": "a) Nominal Weight HDF Upper Wing: 0,837 [kg]",
+   "page": 14
+  },
+  {
+   "id": "309a-UPPER-REAR-WING-MDF-OPTIONAL-a-Nominal-Weig",
+   "level": 1,
+   "text": "309a UPPER REAR WING – MDF (OPTIONAL)  a) Nominal Weight Top Flap: 0,330 [kg]",
+   "page": 16
+  },
+  {
+   "id": "309b-UPPER-REAR-WING-LDF-OPTIONAL-a-Nominal-Weig",
+   "level": 1,
+   "text": "309b UPPER REAR WING – LDF (OPTIONAL)  a) Nominal Weight Top Flap: 0,330 [kg]",
+   "page": 18
+  },
+  {
+   "id": "310-REAR-WING-SUPPORT-II-a-Nominal-Weight-0-203",
+   "level": 1,
+   "text": "310 REAR WING SUPPORT II  a) Nominal Weight: 0,203 [kg]",
+   "page": 19
+  },
+  {
+   "id": "b-Type-LDF-c-Comment-the-component-can-be-obtain",
+   "level": 1,
+   "text": "b) Type: LDF  c) Comment: the component can be obtained from the 317 part code 31227077 enlarging",
+   "page": 19
+  },
+  {
+   "id": "310a-REAR-WING-SUPPORT-II-OPTION-a-Nominal-Weigh",
+   "level": 1,
+   "text": "310a REAR WING SUPPORT II (OPTION)  a) Nominal Weight: 0,200 [kg]",
+   "page": 19
+  },
+  {
+   "id": "b-Type-HDF-c-Comment-the-component-can-be-obtain",
+   "level": 1,
+   "text": "b) Type: HDF  c) Comment: the component can be obtained from the 317 part code 31227076 enlarging",
+   "page": 19
+  },
+  {
+   "id": "311-REAR-WING-ENDPLATE",
+   "level": 1,
+   "text": "311 REAR WING ENDPLATE",
+   "page": 20
+  },
+  {
+   "id": "312-UPPER-BODYWORK-a-Nominal-Weight-of-Gearbox-C",
+   "level": 1,
+   "text": "312 UPPER BODYWORK  a)  Nominal Weight of Gearbox Cover: 0,601 [kg]",
+   "page": 20
+  },
+  {
+   "id": "b-Nominal-Weight-of-Engine-Cover-1-800-kg",
+   "level": 1,
+   "text": "b)  Nominal Weight of Engine Cover: 1,800 [kg]",
+   "page": 20
+  },
+  {
+   "id": "c-Nominal-Weight-of-Right-Sidepod-2-000-kg",
+   "level": 1,
+   "text": "c)  Nominal Weight of Right Sidepod: 2,000 [kg]",
+   "page": 20
+  },
+  {
+   "id": "d-Nominal-Weight-of-Left-Sidepod-2-000-kg",
+   "level": 1,
+   "text": "d)  Nominal Weight of Left Sidepod: 2,000 [kg]",
+   "page": 20
+  },
+  {
+   "id": "e-Nominal-Weight-of-Pod-Wing-0-295-kg",
+   "level": 1,
+   "text": "e)  Nominal Weight of Pod Wing: 0,295 [kg]",
+   "page": 20
+  },
+  {
+   "id": "f-Nominal-Weight-of-Bargeboard-0-135-kg",
+   "level": 1,
+   "text": "f)  Nominal Weight of Bargeboard: 0,135 [kg]",
+   "page": 20
+  },
+  {
+   "id": "g-Nominal-Weight-of-Gearbox-Side-Cover-0-129-kg",
+   "level": 1,
+   "text": "g) Nominal Weight of Gearbox Side Cover: 0,129 [kg]",
+   "page": 20
+  },
+  {
+   "id": "b-Engine-Cover-Unmounted",
+   "level": 1,
+   "text": "b) Engine Cover - Unmounted",
+   "page": 21
+  },
+  {
+   "id": "e-Pod-Wing-Unmounted-f-Bargeboard-Unmounted-g-Ge",
+   "level": 1,
+   "text": "e) Pod Wing - Unmounted           f) Bargeboard - Unmounted                g) Gearbox Side Cover - Unmounted",
+   "page": 23
+  },
+  {
+   "id": "h-Front-Lower-Wishbone-Fairing-Unmounted",
+   "level": 1,
+   "text": "h) Front Lower Wishbone Fairing - Unmounted",
+   "page": 24
+  },
+  {
+   "id": "313-RADIATOR-DUCT-a-Nominal-Weight-of-RH-2-300-k",
+   "level": 1,
+   "text": "313 RADIATOR DUCT  a) Nominal Weight of RH: 2,300 [kg]  b) Nominal Weight of LH: 1,330 [kg]",
+   "page": 24
+  },
+  {
+   "id": "c-Comment-May-be-trimmed-to-facilitate-installat",
+   "level": 1,
+   "text": "c) Comment: May be trimmed to facilitate installation, Weight may be increased by repair a) Radiator Duct RH - Unmounted",
+   "page": 24
+  },
+  {
+   "id": "314-LOWER-BODYWORK",
+   "level": 1,
+   "text": "314 LOWER BODYWORK",
+   "page": 25
+  },
+  {
+   "id": "a-Nominal-Weight-of-Chassis-Keel-0-945-kg",
+   "level": 1,
+   "text": "a) Nominal Weight of Chassis Keel: 0,945 [kg]",
+   "page": 25
+  },
+  {
+   "id": "b-Nominal-Weight-of-Right-Front-Floor-Left-2-02",
+   "level": 1,
+   "text": "b) Nominal Weight of Right Front Floor ( ≡ Left ): 2,02 [kg]",
+   "page": 25
+  },
+  {
+   "id": "c-Nominal-Weight-of-Rear-Floor-and-Diffusor-5-67",
+   "level": 1,
+   "text": "c) Nominal Weight of Rear Floor and Diffusor: 5,670 [kg]",
+   "page": 25
+  },
+  {
+   "id": "f-Comment-to-avoid-contact-with-the-rear-tyres-f",
+   "level": 1,
+   "text": "f) Comment: to avoid contact with the rear tyres floor trim max. 5mm allowed a) Chassis Keel - Unmounted",
+   "page": 25
+  },
+  {
+   "id": "c-Rear-Floor-and-Diffusor-Unmounted-c-Rear-Floor",
+   "level": 1,
+   "text": "c) Rear Floor and Diffusor - Unmounted                        c) Rear Floor and Diffusor - Main Dimensions",
+   "page": 27
+  },
+  {
+   "id": "316-SKID-BLOCK-a-Number-of-parts-2",
+   "level": 1,
+   "text": "316 SKID BLOCK  a)  Number of parts: 2",
+   "page": 28
+  },
+  {
+   "id": "b-Nominal-Weight-of-Front-Skid-Block-3-680-kg",
+   "level": 1,
+   "text": "b)  Nominal Weight of Front Skid Block: 3.680 [kg]",
+   "page": 28
+  },
+  {
+   "id": "c-Nominal-Weight-of-Rear-Skid-Block-2-150-kg",
+   "level": 1,
+   "text": "c)  Nominal Weight of Rear Skid Block: 2,150 [kg]",
+   "page": 28
+  },
+  {
+   "id": "d-Comment-Standard-fixation-material-may-be-adde",
+   "level": 1,
+   "text": "d)  Comment: - Standard fixation material may be added to attach the skid block to the",
+   "page": 28
+  },
+  {
+   "id": "wooden-floor-e-Comment-Fixation-of-the-skid-to-t",
+   "level": 1,
+   "text": "wooden floor  e) Comment: - Fixation of the skid to the floor can be indifferently screw and nut or trap nut.",
+   "page": 28
+  },
+  {
+   "id": "4-AXLE-AND-SUSPENSION",
+   "level": 5,
+   "text": "4. AXLE AND SUSPENSION",
+   "page": 30
+  },
+  {
+   "id": "401-FRONT-UPRIGHT-a-Nominal-Weight-As-supplied",
+   "level": 1,
+   "text": "401 FRONT UPRIGHT  a) Nominal Weight: As supplied",
+   "page": 30
+  },
+  {
+   "id": "b-Comment-Stud-length-may-not-be-modified-Homolo",
+   "level": 1,
+   "text": "b) Comment: Stud length may not be modified. Homologated wheel speed trigger only",
+   "page": 30
+  },
+  {
+   "id": "402-REAR-UPRIGHT-a-Nominal-Weight-As-supplied",
+   "level": 1,
+   "text": "402 REAR UPRIGHT  a) Nominal Weight: As supplied",
+   "page": 31
+  },
+  {
+   "id": "403-FRONT-BRAKE-DUCT-OPTIONAL-a-Nominal-Weight-A",
+   "level": 1,
+   "text": "403 FRONT BRAKE DUCT (OPTIONAL)  a) Nominal Weight: As supplied",
+   "page": 32
+  },
+  {
+   "id": "b-Comment-Fixation-studs-free-following-the-tech",
+   "level": 1,
+   "text": "b) Comment: Fixation studs free following the technical regulations. Opening of cooling",
+   "page": 32
+  },
+  {
+   "id": "404-REAR-BRAKE-DUCT-OPTIONAL-a-Nominal-Weight-As",
+   "level": 1,
+   "text": "404 REAR BRAKE DUCT (OPTIONAL)  a) Nominal Weight: As originally supplied",
+   "page": 33
+  },
+  {
+   "id": "b-Comment-Fixation-studs-free-following-the-tech-2",
+   "level": 1,
+   "text": "b) Comment: Fixation studs free following the technical regulations.",
+   "page": 33
+  },
+  {
+   "id": "406-FRONT-LOWER-WISHBONE-a-Nominal-Weight-1-920",
+   "level": 1,
+   "text": "406 FRONT LOWER WISHBONE  a) Nominal Weight: 1,920 [kg]",
+   "page": 34
+  },
+  {
+   "id": "409-REAR-UPPER-WISHBONE-a-Nominal-Weight-1-280-k",
+   "level": 1,
+   "text": "409 REAR UPPER WISHBONE  a) Nominal Weight: 1,280 [kg]",
+   "page": 36
+  },
+  {
+   "id": "410-REAR-LOWER-WISHBONE-a-Nominal-Weight-1-262-k",
+   "level": 1,
+   "text": "410 REAR LOWER WISHBONE  a) Nominal Weight: 1,262 [kg] / New specification 1,276 [kg]",
+   "page": 36
+  },
+  {
+   "id": "5-RUNNING-GEAR",
+   "level": 5,
+   "text": "5. RUNNING GEAR",
+   "page": 37
+  },
+  {
+   "id": "501-STEERING-RACK-a-Nominal-Weight-1-950-kg",
+   "level": 1,
+   "text": "501 STEERING RACK  a) Nominal Weight: 1,950 [kg]",
+   "page": 38
+  },
+  {
+   "id": "502-STEERING-COLUMN-a-Nominal-Weight-standard-1",
+   "level": 1,
+   "text": "502 STEERING COLUMN  a) Nominal Weight: standard 1,150 [kg], for EPS installation 1,350 [kg]",
+   "page": 38
+  },
+  {
+   "id": "b-Comment-317-Part-code-31212A003-may-also-be-us",
+   "level": 1,
+   "text": "b) Comment: 317 Part code 31212A003 may also be used   Steering Column - Unmounted",
+   "page": 38
+  },
+  {
+   "id": "TO-BE-DONE",
+   "level": 1,
+   "text": "[TO BE DONE]",
+   "page": 38
+  },
+  {
+   "id": "Fuel-Tank",
+   "level": 2,
+   "text": "Fuel Tank",
+   "page": 40
+  },
+  {
+   "id": "602-FUEL-PUMP-ASSEMBLY",
+   "level": 1,
+   "text": "602 FUEL PUMP ASSEMBLY",
+   "page": 42
+  },
+  {
+   "id": "a-Fuel-pump-can-be-run-off-either-side-of-the-pu",
+   "level": 1,
+   "text": "a) Fuel pump can be run off either side of the pump switch",
+   "page": 42
+  },
+  {
+   "id": "b-Fuel-pump-specification-permitted",
+   "level": 1,
+   "text": "b) Fuel pump specification permitted:",
+   "page": 42
+  },
+  {
+   "id": "a-FCOM1540-PREMIER-PN-0700-0105-and-FCOM1582-PRE",
+   "level": 1,
+   "text": "a. FCOM1540 (PREMIER PN: 0700-0105) and FCOM1582 (PREMIER PN: 0700-",
+   "page": 42
+  },
+  {
+   "id": "0101-Nominal-weigth-0-17-g-Fuel-pump-Unmounted",
+   "level": 1,
+   "text": "0101) Nominal weigth: 0.17 [g]  Fuel pump - Unmounted",
+   "page": 42
+  },
+  {
+   "id": "b-ATL-PN-PU-AC-020",
+   "level": 1,
+   "text": "b. ATL  PN: PU-AC-020",
+   "page": 42
+  },
+  {
+   "id": "Nominal-weigth-0-17-g-Fuel-pump-Unmounted",
+   "level": 1,
+   "text": "Nominal weigth: 0.17 [g]   Fuel pump - Unmounted",
+   "page": 42
+  }
+ ],
+ "blocks": [
+  {
+   "type": "figure",
+   "page": 1,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0001-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    42.6,
+    93.6,
+    533.6,
+    154.1
+   ],
+   "text": "DALLARA 324 SPECIFICATION FORM",
+   "level": 1,
+   "id": "DALLARA-324-SPECIFICATION-FORM"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    42.6,
+    154.1,
+    146.0,
+    197.5
+   ],
+   "text": "1    GENERAL",
+   "level": 1,
+   "clause": "1",
+   "id": "1-GENERAL"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    42.6,
+    197.5,
+    199.0,
+    255.5
+   ],
+   "text": "101 MANUFACTURER  Dallara",
+   "level": 1,
+   "clause": "101",
+   "id": "101-MANUFACTURER-Dallara"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    42.6,
+    255.5,
+    148.1,
+    371.4
+   ],
+   "text": "102 MODEL  324",
+   "level": 1,
+   "clause": "102",
+   "id": "102-MODEL-324"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    42.6,
+    371.4,
+    473.4,
+    781.9
+   ],
+   "text": "2  SAFETY STRUCTURES   201 SURVIVAL CELL  a) TYPICAL serial number: 320 - 001  b) Nominal Weight: As supplied, it may be increased by authorized repair   Survival Cell",
+   "clause": "2"
+  },
+  {
+   "type": "figure",
+   "page": 1,
+   "bbox": [
+    40.2,
+    525.1,
+    554.8,
+    757.0
+   ],
+   "asset": "assets/fig-p0001-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 1 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 2,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0002-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 2,
+   "bbox": [
+    42.6,
+    91.2,
+    174.3,
+    409.1
+   ],
+   "text": "Survival Cell - Main Dimensions",
+   "level": 1,
+   "id": "Survival-Cell-Main-Dimensions"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    28.4,
+    409.1,
+    565.2,
+    521.6
+   ],
+   "text": "202 HEAD REST  a)  Nominal Weight: As supplied  b)  Comment: Rear surface may be grinded to allow installation of additional roll structure          Head Rest - Unmounted",
+   "clause": "202"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 2 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 3,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0003-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 3,
+   "bbox": [
+    76.3,
+    95.2,
+    245.6,
+    138.7
+   ],
+   "text": "203 MAIN ROLL HOOP  a) Nominal Weight: 2,030 [kg]",
+   "level": 1,
+   "clause": "203",
+   "id": "203-MAIN-ROLL-HOOP-a-Nominal-Weight-2-030-kg"
+  },
+  {
+   "type": "heading",
+   "page": 3,
+   "bbox": [
+    76.3,
+    138.7,
+    469.1,
+    167.7
+   ],
+   "text": "b) Height above survival cell: 151 [mm] (measured at the car centerline)",
+   "level": 1,
+   "id": "b-Height-above-survival-cell-151-mm-measured-at"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    42.6,
+    167.7,
+    388.5,
+    221.5
+   ],
+   "text": "c) Fixation bolts: 4  x  ½” 20UNF    Main Roll Hoop - Unmounted                                                       Main Roll Hoop - Mounted"
+  },
+  {
+   "type": "heading",
+   "page": 3,
+   "bbox": [
+    78.6,
+    510.5,
+    149.9,
+    539.4
+   ],
+   "text": "203-a HALO",
+   "level": 1,
+   "clause": "203",
+   "id": "203-a-HALO"
+  },
+  {
+   "type": "heading",
+   "page": 3,
+   "bbox": [
+    42.6,
+    539.5,
+    160.3,
+    776.1
+   ],
+   "text": "a) Halo Ti 3B     Halo - Mounted",
+   "level": 1,
+   "id": "a-Halo-Ti-3B-Halo-Mounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 3 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 4,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0004-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    78.6,
+    95.2,
+    528.9,
+    167.7
+   ],
+   "text": "204 EXTRACTABLE SEAT  a) Nominal Weight: As supplied  b) Comment: Edges may be trimmed for installation, structural integrity may not be",
+   "clause": "204"
+  },
+  {
+   "type": "heading",
+   "page": 4,
+   "bbox": [
+    42.6,
+    167.7,
+    299.0,
+    467.1
+   ],
+   "text": "compromised, belts may be extended   Extractable Seat - Unmounted",
+   "level": 1,
+   "id": "compromised-belts-may-be-extended-Extractable-Se"
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 4 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 5,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0005-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    42.6,
+    95.2,
+    252.9,
+    418.7
+   ],
+   "text": "205 FIRE EXTINGUISHER  a) Type: Ecolife AFFF Family  b) Total Capacity: 1,3 [ l ]  c) FIA Homologation EX.036.11  Fire Extinguisher - Unmounted",
+   "clause": "205"
+  },
+  {
+   "type": "figure",
+   "page": 5,
+   "bbox": [
+    42.0,
+    219.9,
+    347.9,
+    398.6
+   ],
+   "asset": "assets/fig-p0005-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    42.6,
+    418.7,
+    244.3,
+    447.8
+   ],
+   "text": "206 LEG PADDING ASSEMBLY",
+   "level": 1,
+   "clause": "206",
+   "id": "206-LEG-PADDING-ASSEMBLY"
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    78.6,
+    447.8,
+    255.3,
+    462.3
+   ],
+   "text": "a) Nominal Weight: 1,870 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-1-870-kg"
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    78.6,
+    462.2,
+    552.3,
+    491.2
+   ],
+   "text": "b) Comment: may be shortened for small driver in a way that the leg padding covers up",
+   "level": 1,
+   "id": "b-Comment-may-be-shortened-for-small-driver-in-a"
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    96.6,
+    491.2,
+    539.7,
+    505.7
+   ],
+   "text": "to 100mm behind the face of the rearmost pedal when in the inoperative position.",
+   "level": 1,
+   "id": "to-100mm-behind-the-face-of-the-rearmost-pedal-w"
+  },
+  {
+   "type": "figure",
+   "page": 5,
+   "bbox": [
+    42.6,
+    520.3,
+    378.2,
+    772.7
+   ],
+   "asset": "assets/fig-p0005-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 5 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 6,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0006-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 6,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 6,
+   "bbox": [
+    42.6,
+    95.2,
+    563.9,
+    230.4
+   ],
+   "text": "3. BODYWORK  301 FRONT CRASH STRUCTURE  a) Nominal Weight (incl. Supports): 4,650 [kg]  b) Fixation bolts: 4 x M8   Front Crash Structure (+Wing) - Mounted",
+   "clause": "3"
+  },
+  {
+   "type": "figure",
+   "page": 6,
+   "bbox": [
+    42.1,
+    233.2,
+    325.9,
+    437.5
+   ],
+   "asset": "assets/fig-p0006-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 6,
+   "bbox": [
+    42.6,
+    433.1,
+    204.0,
+    471.9
+   ],
+   "text": "Front Crash Structure - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 6,
+   "bbox": [
+    42.1,
+    467.1,
+    554.8,
+    762.1
+   ],
+   "asset": "assets/fig-p0006-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 6,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 6 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 7,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0007-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    104.9
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 Front Crash Structure – Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 7,
+   "bbox": [
+    42.0,
+    110.5,
+    553.5,
+    302.5
+   ],
+   "asset": "assets/fig-p0007-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 7,
+   "bbox": [
+    78.0,
+    336.6,
+    248.5,
+    365.7
+   ],
+   "text": "302 FRONT WING MAIN PLANE",
+   "level": 1,
+   "clause": "302",
+   "id": "302-FRONT-WING-MAIN-PLANE"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "bbox": [
+    42.6,
+    365.7,
+    395.2,
+    769.9
+   ],
+   "text": "a) Nominal Weight: 3,578 [kg]   Front Wing - Unmounted                                                                           Front Wing - Unmounted           Front Wing – Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 7,
+   "bbox": [
+    43.3,
+    417.1,
+    527.0,
+    541.9
+   ],
+   "asset": "assets/fig-p0007-03.webp"
+  },
+  {
+   "type": "figure",
+   "page": 7,
+   "bbox": [
+    40.8,
+    573.1,
+    404.1,
+    744.0
+   ],
+   "asset": "assets/fig-p0007-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 7 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 8,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0008-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 8,
+   "bbox": [
+    42.6,
+    95.2,
+    310.8,
+    138.7
+   ],
+   "text": "302a FRONT WING MAIN PLANE (OPTION)",
+   "level": 1,
+   "clause": "302",
+   "id": "302a-FRONT-WING-MAIN-PLANE-OPTION"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "bbox": [
+    42.6,
+    138.7,
+    465.9,
+    778.5
+   ],
+   "text": "a) Nominal Weight of mainplane: 3,044 [kg]  b) Nominal Weight of Spacer: 0,217 [kg]   Front Wing End Spacer - Unmounted                                                      Front Wing End Spacer - Main Dimensions               Front Wing - Unmounted                                                                               Front Wing - Unmounted            Front Wing Main Plane - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 8,
+   "bbox": [
+    42.0,
+    227.8,
+    556.5,
+    334.8
+   ],
+   "asset": "assets/fig-p0008-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 8,
+   "bbox": [
+    42.0,
+    363.4,
+    556.5,
+    484.0
+   ],
+   "asset": "assets/fig-p0008-03.webp"
+  },
+  {
+   "type": "figure",
+   "page": 8,
+   "bbox": [
+    40.8,
+    527.0,
+    398.7,
+    714.1
+   ],
+   "asset": "assets/fig-p0008-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 8 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 9,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0009-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 9,
+   "bbox": [
+    42.6,
+    95.2,
+    374.5,
+    138.7
+   ],
+   "text": "303 FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "level": 1,
+   "clause": "303",
+   "id": "303-FRONT-WING-ADDITIONAL-BODYWORK-OPTION"
+  },
+  {
+   "type": "heading",
+   "page": 9,
+   "bbox": [
+    78.6,
+    138.7,
+    302.4,
+    196.7
+   ],
+   "text": "a) Nominal Weight: 0,327 [kg]  b) Comment: HDF option without gurney",
+   "level": 1,
+   "id": "a-Nominal-Weight-0-327-kg-b-Comment-HDF-option-w"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    42.6,
+    196.6,
+    468.3,
+    438.0
+   ],
+   "text": "Front Wing Additional Bodywork - Unmounted                                     Front Wing Additional Bodywork - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 9,
+   "bbox": [
+    39.0,
+    227.2,
+    551.4,
+    385.9
+   ],
+   "asset": "assets/fig-p0009-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 9,
+   "bbox": [
+    42.6,
+    438.1,
+    380.9,
+    467.1
+   ],
+   "text": "303a FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "level": 1,
+   "clause": "303",
+   "id": "303a-FRONT-WING-ADDITIONAL-BODYWORK-OPTION"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    42.6,
+    467.0,
+    470.7,
+    776.1
+   ],
+   "text": "a) Nominal Weight: 0,327 [kg]  b) Comment: HDF option with 10mm gurney  Front Wing Additional Bodywork - Unmounted                                     Front Wing Additional Bodywork - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 9,
+   "bbox": [
+    39.0,
+    534.6,
+    547.1,
+    695.1
+   ],
+   "asset": "assets/fig-p0009-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 9,
+   "bbox": [
+    42.6,
+    783.9,
+    301.8,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 9 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 10,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0010-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 10,
+   "bbox": [
+    42.6,
+    95.2,
+    381.2,
+    124.2
+   ],
+   "text": "303b FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "level": 1,
+   "clause": "303",
+   "id": "303b-FRONT-WING-ADDITIONAL-BODYWORK-OPTION"
+  },
+  {
+   "type": "heading",
+   "page": 10,
+   "bbox": [
+    78.6,
+    124.2,
+    315.7,
+    167.7
+   ],
+   "text": "a) Nominal Weight: 0,327 [kg]  b) Comment: HDF option with 5mm gurney",
+   "level": 1,
+   "id": "a-Nominal-Weight-0-327-kg-b-Comment-HDF-option-w-2"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    42.6,
+    167.5,
+    467.3,
+    360.9
+   ],
+   "text": "Front Wing Additional Bodywork - Unmounted                                   Front Wing Additional Bodywork - Unmounted"
+  },
+  {
+   "type": "heading",
+   "page": 10,
+   "bbox": [
+    42.6,
+    360.8,
+    380.1,
+    404.3
+   ],
+   "text": "303c FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "level": 1,
+   "clause": "303",
+   "id": "303c-FRONT-WING-ADDITIONAL-BODYWORK-OPTION"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    42.6,
+    404.2,
+    465.0,
+    718.1
+   ],
+   "text": "a) Nominal Weight: 0,191 [kg]  b) Comment: HDF option with 5mm gurney  Front Wing Additional Bodywork - Unmounted                                  Front Wing Additional Bodywork - Unmounted"
+  },
+  {
+   "type": "heading",
+   "page": 10,
+   "bbox": [
+    42.6,
+    718.2,
+    381.2,
+    747.1
+   ],
+   "text": "303d FRONT WING ADDITIONAL BODYWORK (OPTION)",
+   "level": 1,
+   "clause": "303",
+   "id": "303d-FRONT-WING-ADDITIONAL-BODYWORK-OPTION"
+  },
+  {
+   "type": "heading",
+   "page": 10,
+   "bbox": [
+    78.6,
+    747.1,
+    247.9,
+    776.1
+   ],
+   "text": "a) Nominal Weight: 0,178 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-0-178-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 10,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 10 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 11,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0011-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 11,
+   "bbox": [
+    78.6,
+    95.2,
+    553.5,
+    109.7
+   ],
+   "text": "b) Comment: Adjustment slots may be added, bottom edge may be trimmed up to 3mm",
+   "level": 1,
+   "id": "b-Comment-Adjustment-slots-may-be-added-bottom-e"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    42.6,
+    109.7,
+    504.4,
+    365.7
+   ],
+   "text": "to bring part in legal condiction  Front Wing Additional Bodywork - Unmounted                                         Front Wing Additional Bodywork – Main Dimensions"
+  },
+  {
+   "type": "heading",
+   "page": 11,
+   "bbox": [
+    42.6,
+    365.7,
+    237.6,
+    394.6
+   ],
+   "text": "304 FRONT WING ENDPLATE",
+   "level": 1,
+   "clause": "304",
+   "id": "304-FRONT-WING-ENDPLATE"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    42.6,
+    394.6,
+    434.2,
+    776.1
+   ],
+   "text": "a) Nominal Weight: 1,518 [kg]  Front Wing Endplate - Unmounted                                                        Front Wing Endplate - Unmounted              Front Wing Endplate - Unmounted                                  Front Wing Endplate - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 11,
+   "bbox": [
+    42.0,
+    437.4,
+    562.7,
+    609.3
+   ],
+   "asset": "assets/fig-p0011-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 11,
+   "bbox": [
+    40.8,
+    637.4,
+    577.8,
+    789.6
+   ],
+   "asset": "assets/fig-p0011-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 11 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 12,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0012-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 12,
+   "bbox": [
+    78.6,
+    95.2,
+    247.9,
+    138.7
+   ],
+   "text": "305 FRONT WING SUPPORT  a) Nominal Weight: 0,127 [kg]",
+   "level": 1,
+   "clause": "305",
+   "id": "305-FRONT-WING-SUPPORT-a-Nominal-Weight-0-127-kg"
+  },
+  {
+   "type": "heading",
+   "page": 12,
+   "bbox": [
+    42.6,
+    138.7,
+    493.5,
+    182.1
+   ],
+   "text": "b) Comment: may be grinded to conform the wing position to the regulation.",
+   "level": 1,
+   "id": "b-Comment-may-be-grinded-to-conform-the-wing-pos"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    42.6,
+    182.2,
+    466.0,
+    215.9
+   ],
+   "text": "Front Wing Support - Unmounted                                                                Front Wing Support – Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 12,
+   "bbox": [
+    41.4,
+    211.7,
+    549.7,
+    376.6
+   ],
+   "asset": "assets/fig-p0012-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 12,
+   "bbox": [
+    42.6,
+    389.8,
+    273.3,
+    418.7
+   ],
+   "text": "306 FRONT WING SUPPORT COVER",
+   "level": 1,
+   "clause": "306",
+   "id": "306-FRONT-WING-SUPPORT-COVER"
+  },
+  {
+   "type": "heading",
+   "page": 12,
+   "bbox": [
+    42.6,
+    418.7,
+    305.3,
+    447.8
+   ],
+   "text": "a) Nominal Weight: As originally supplied",
+   "level": 1,
+   "id": "a-Nominal-Weight-As-originally-supplied"
+  },
+  {
+   "type": "heading",
+   "page": 12,
+   "bbox": [
+    42.6,
+    447.8,
+    194.2,
+    771.3
+   ],
+   "text": "b) May be repaired  Front Wing Support Cover - Unmounted",
+   "level": 1,
+   "id": "b-May-be-repaired-Front-Wing-Support-Cover-Unmou"
+  },
+  {
+   "type": "figure",
+   "page": 12,
+   "bbox": [
+    41.4,
+    483.8,
+    220.7,
+    612.8
+   ],
+   "asset": "assets/fig-p0012-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 12 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 13,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0013-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 13,
+   "bbox": [
+    42.6,
+    95.2,
+    244.0,
+    119.3
+   ],
+   "text": "307 REAR CRASH STRUCTURE",
+   "level": 1,
+   "clause": "307",
+   "id": "307-REAR-CRASH-STRUCTURE"
+  },
+  {
+   "type": "heading",
+   "page": 13,
+   "bbox": [
+    42.6,
+    119.4,
+    247.9,
+    148.3
+   ],
+   "text": "a) Nominal Weight: 2,450 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-2-450-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    42.6,
+    148.3,
+    597.3,
+    529.8
+   ],
+   "text": "b) Fixation Bolts: 6 x M8  c) Comment: New jacking hook is mandatory   Rear Crash Structure - Unmounted                                                            Rear Crash Structure - Unmounted           Rear Crash Structure - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 13,
+   "bbox": [
+    48.2,
+    236.6,
+    550.3,
+    355.3
+   ],
+   "asset": "assets/fig-p0013-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 13,
+   "bbox": [
+    50.1,
+    388.0,
+    559.5,
+    534.5
+   ],
+   "asset": "assets/fig-p0013-03.webp"
+  },
+  {
+   "type": "heading",
+   "page": 13,
+   "bbox": [
+    42.6,
+    529.9,
+    294.6,
+    568.4
+   ],
+   "text": "308 LOWER REAR WING AND SUPPORT",
+   "level": 1,
+   "clause": "308",
+   "id": "308-LOWER-REAR-WING-AND-SUPPORT"
+  },
+  {
+   "type": "heading",
+   "page": 13,
+   "bbox": [
+    42.6,
+    568.4,
+    247.9,
+    597.4
+   ],
+   "text": "a) Nominal Weight: 1,495 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-1-495-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    42.6,
+    597.4,
+    561.6,
+    776.1
+   ],
+   "text": "b) Comment: lateral end inserts can be secured with rivets and bonding agent if required.  Rear Wing and Support - Unmounted                                                         Rear Wing and Support - Unmounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 13 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 14,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0014-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    42.6,
+    91.2,
+    569.3,
+    249.7
+   ],
+   "text": "Rear Wing Support - Unmounted                                                                Rear Wing Support - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 14,
+   "bbox": [
+    42.0,
+    108.2,
+    284.7,
+    222.5
+   ],
+   "asset": "assets/fig-p0014-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 14,
+   "bbox": [
+    313.7,
+    108.2,
+    545.1,
+    222.5
+   ],
+   "asset": "assets/fig-p0014-03.webp"
+  },
+  {
+   "type": "heading",
+   "page": 14,
+   "bbox": [
+    42.6,
+    249.8,
+    314.5,
+    273.9
+   ],
+   "text": "309 UPPER REAR WING – HDF (OPTIONAL)",
+   "level": 1,
+   "clause": "309",
+   "id": "309-UPPER-REAR-WING-HDF-OPTIONAL"
+  },
+  {
+   "type": "heading",
+   "page": 14,
+   "bbox": [
+    42.6,
+    273.9,
+    340.3,
+    302.9
+   ],
+   "text": "a) Nominal Weight HDF Upper Wing: 0,837 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-HDF-Upper-Wing-0-837-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    78.6,
+    302.8,
+    598.9,
+    375.3
+   ],
+   "text": "b) Nominal Weight Top Flap: 0,330 [kg]  c) Nominal Weight HDF Sideplate: 0,110 [kg]  d) HDF Gap Separator: Outer shape of gap separator may not be changed."
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    42.6,
+    375.3,
+    518.1,
+    776.1
+   ],
+   "text": "Angle of wings to each other may not be changed  e) Comment: Trap nuts FCOM1289 may be replaced by standard fixation material   Upper Rear Wing Assembly - Mounted                                                 Upper Rear Wing Assembly - Mounted       HDF Upper Wing above - Unmounted                                                 HDF Upper Wing above - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 14,
+   "bbox": [
+    42.0,
+    465.3,
+    550.0,
+    700.8
+   ],
+   "asset": "assets/fig-p0014-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 14 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 15,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0015-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    756.8
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 Top Flap - Unmounted                                                                        Top Flap - Unmounted            HDF Sideplate - Unmounted                                                              HDF Gap Seperator - Unmounted              HDF Sideplate - Unmounted (OPTIONAL)"
+  },
+  {
+   "type": "figure",
+   "page": 15,
+   "bbox": [
+    42.0,
+    109.8,
+    549.5,
+    244.4
+   ],
+   "asset": "assets/fig-p0015-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 15,
+   "bbox": [
+    40.8,
+    273.1,
+    554.4,
+    428.2
+   ],
+   "asset": "assets/fig-p0015-03.webp"
+  },
+  {
+   "type": "figure",
+   "page": 15,
+   "bbox": [
+    40.8,
+    470.9,
+    276.6,
+    625.2
+   ],
+   "asset": "assets/fig-p0015-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 15 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 16,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0016-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 16,
+   "bbox": [
+    42.6,
+    95.2,
+    321.9,
+    148.3
+   ],
+   "text": "309a UPPER REAR WING – MDF (OPTIONAL)  a) Nominal Weight Top Flap: 0,330 [kg]",
+   "level": 1,
+   "clause": "309",
+   "id": "309a-UPPER-REAR-WING-MDF-OPTIONAL-a-Nominal-Weig"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    78.6,
+    148.3,
+    596.3,
+    249.7
+   ],
+   "text": "b) Nominal Weight Top Flap (Small Element): 0,258 [kg]  c) Nominal Weight MDF Sideplate: 0,178 [kg]  d) Nominal Weight MDF Sideplate Option: As supplied  e) MDF Gap Separator: Outer shape of gap separator may not be changed."
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    42.6,
+    249.8,
+    518.1,
+    779.6
+   ],
+   "text": "Angle of wings to each other may not be changed  f) Comment: Trap nuts FCOM1289 may be replaced by standard fixation material    Upper Rear Wing Assembly - Mounted                                                  Upper Rear Wing Assembly - Mounted             Top Flap - Unmounted                                                                              Top Flap - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 16,
+   "bbox": [
+    40.8,
+    348.0,
+    554.8,
+    494.3
+   ],
+   "asset": "assets/fig-p0016-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 16,
+   "bbox": [
+    40.8,
+    526.9,
+    551.5,
+    702.6
+   ],
+   "asset": "assets/fig-p0016-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 16 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 17,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0017-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 17,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    770.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 Top Flap (Small Element) - Unmounted                                                   Top Flap (Small Element) - Unmounted               MDF Sideplate - Unmounted                                                                 MDF Gap Seperator - Unmounted              MDF Sideplate - Unmounted (OPTIONAL)"
+  },
+  {
+   "type": "figure",
+   "page": 17,
+   "bbox": [
+    40.8,
+    107.8,
+    551.4,
+    472.0
+   ],
+   "asset": "assets/fig-p0017-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 17,
+   "bbox": [
+    42.0,
+    515.4,
+    278.8,
+    669.7
+   ],
+   "asset": "assets/fig-p0017-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 17,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 17 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 18,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0018-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 18,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 18,
+   "bbox": [
+    42.6,
+    95.2,
+    319.1,
+    148.3
+   ],
+   "text": "309b UPPER REAR WING – LDF (OPTIONAL)  a) Nominal Weight Top Flap: 0,330 [kg]",
+   "level": 1,
+   "clause": "309",
+   "id": "309b-UPPER-REAR-WING-LDF-OPTIONAL-a-Nominal-Weig"
+  },
+  {
+   "type": "paragraph",
+   "page": 18,
+   "bbox": [
+    78.6,
+    148.3,
+    596.5,
+    220.8
+   ],
+   "text": "b) Nominal Weight LDF Sideplate: 0,058 [kg]  c) Nominal Weight LDF Sideplate Option: As supplied  d) Comment: Trap nuts FCOM1289 may be replaced by standard fixation material."
+  },
+  {
+   "type": "paragraph",
+   "page": 18,
+   "bbox": [
+    42.6,
+    220.8,
+    562.9,
+    775.6
+   ],
+   "text": "Fixation of LDF sideplate with one bolt to the endplate through the already existing slot is allowed  Upper Rear Wing Assembly - Mounted                                                     Upper Rear Wing Assembly - Mounted           Top Flap - Unmounted                                                                         Top Flap - Unmounted              LDF Sideplate - Unmounted                                                                   LDF Sideplate - Unmounted (OPTIONAL)"
+  },
+  {
+   "type": "figure",
+   "page": 18,
+   "bbox": [
+    42.0,
+    282.3,
+    554.8,
+    392.2
+   ],
+   "asset": "assets/fig-p0018-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 18,
+   "bbox": [
+    40.8,
+    436.1,
+    554.8,
+    784.0
+   ],
+   "asset": "assets/fig-p0018-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 18,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 18 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 19,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0019-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 19,
+   "bbox": [
+    78.6,
+    95.2,
+    247.9,
+    138.7
+   ],
+   "text": "310 REAR WING SUPPORT II  a) Nominal Weight: 0,203 [kg]",
+   "level": 1,
+   "clause": "310",
+   "id": "310-REAR-WING-SUPPORT-II-a-Nominal-Weight-0-203"
+  },
+  {
+   "type": "heading",
+   "page": 19,
+   "bbox": [
+    78.6,
+    138.7,
+    563.9,
+    197.1
+   ],
+   "text": "b) Type: LDF  c) Comment: the component can be obtained from the 317 part code 31227077 enlarging",
+   "level": 1,
+   "id": "b-Type-LDF-c-Comment-the-component-can-be-obtain"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "bbox": [
+    42.6,
+    196.6,
+    462.9,
+    259.3
+   ],
+   "text": "the holes as specified from the drawing.   Rear Wing Support - Unmounted                                                                Rear Wing Support – Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 19,
+   "bbox": [
+    40.8,
+    254.7,
+    559.6,
+    403.5
+   ],
+   "asset": "assets/fig-p0019-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 19,
+   "bbox": [
+    78.6,
+    418.7,
+    303.0,
+    462.3
+   ],
+   "text": "310a REAR WING SUPPORT II (OPTION)  a) Nominal Weight: 0,200 [kg]",
+   "level": 1,
+   "clause": "310",
+   "id": "310a-REAR-WING-SUPPORT-II-OPTION-a-Nominal-Weigh"
+  },
+  {
+   "type": "heading",
+   "page": 19,
+   "bbox": [
+    78.6,
+    462.2,
+    563.9,
+    520.5
+   ],
+   "text": "b) Type: HDF  c) Comment: the component can be obtained from the 317 part code 31227076 enlarging",
+   "level": 1,
+   "id": "b-Type-HDF-c-Comment-the-component-can-be-obtain"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "bbox": [
+    42.6,
+    520.2,
+    462.4,
+    592.5
+   ],
+   "text": "the holes as specified from the drawing above  Rear Wing Support - Unnmounted                                                              Rear Wing Support - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 19,
+   "bbox": [
+    40.8,
+    566.5,
+    559.6,
+    722.9
+   ],
+   "asset": "assets/fig-p0019-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 19 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 20,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0020-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    95.2,
+    323.1,
+    124.2
+   ],
+   "text": "311 REAR WING ENDPLATE",
+   "level": 1,
+   "clause": "311",
+   "id": "311-REAR-WING-ENDPLATE"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "bbox": [
+    42.6,
+    124.2,
+    450.5,
+    370.5
+   ],
+   "text": "a) Nominal Weight: 1,120 [kg]  Rear Wing Endplate - Unnmounted                                                  Rear Wing Endplate - Main Dimensions"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    370.5,
+    329.6,
+    443.0
+   ],
+   "text": "312 UPPER BODYWORK  a)  Nominal Weight of Gearbox Cover: 0,601 [kg]",
+   "level": 1,
+   "clause": "312",
+   "id": "312-UPPER-BODYWORK-a-Nominal-Weight-of-Gearbox-C"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    442.9,
+    328.9,
+    471.9
+   ],
+   "text": "b)  Nominal Weight of Engine Cover: 1,800 [kg]",
+   "level": 1,
+   "id": "b-Nominal-Weight-of-Engine-Cover-1-800-kg"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    471.9,
+    332.5,
+    500.8
+   ],
+   "text": "c)  Nominal Weight of Right Sidepod: 2,000 [kg]",
+   "level": 1,
+   "id": "c-Nominal-Weight-of-Right-Sidepod-2-000-kg"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    500.8,
+    325.1,
+    529.8
+   ],
+   "text": "d)  Nominal Weight of Left Sidepod: 2,000 [kg]",
+   "level": 1,
+   "id": "d-Nominal-Weight-of-Left-Sidepod-2-000-kg"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    42.6,
+    529.9,
+    309.3,
+    558.8
+   ],
+   "text": "e)  Nominal Weight of Pod Wing: 0,295 [kg]",
+   "level": 1,
+   "id": "e-Nominal-Weight-of-Pod-Wing-0-295-kg"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    60.6,
+    558.8,
+    320.0,
+    573.3
+   ],
+   "text": "f)  Nominal Weight of Bargeboard: 0,135 [kg]",
+   "level": 1,
+   "id": "f-Nominal-Weight-of-Bargeboard-0-135-kg"
+  },
+  {
+   "type": "heading",
+   "page": 20,
+   "bbox": [
+    60.6,
+    573.3,
+    351.9,
+    602.2
+   ],
+   "text": "g) Nominal Weight of Gearbox Side Cover: 0,129 [kg]",
+   "level": 1,
+   "id": "g-Nominal-Weight-of-Gearbox-Side-Cover-0-129-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "bbox": [
+    42.6,
+    602.2,
+    596.3,
+    776.0
+   ],
+   "text": "h) Nominal Weight of Front Lower Wishbone Fairing: 0,072 [kg]       i)  Comment: May be trimmed to facilitate installation Gearbox cover may be trimmed for 3rd element installation. Optional parts may be removed modifications are allowed only for the sole purpose of the installation of engine airbox and the associated intake manifold shroud. Weight may be increased by repair."
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 20 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 21,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0021-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    104.9
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 a) Gearbox Cover - Unmounted"
+  },
+  {
+   "type": "heading",
+   "page": 21,
+   "bbox": [
+    42.6,
+    104.9,
+    186.8,
+    394.6
+   ],
+   "text": "b) Engine Cover - Unmounted",
+   "level": 1,
+   "id": "b-Engine-Cover-Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 21,
+   "bbox": [
+    66.4,
+    394.6,
+    536.1,
+    690.9
+   ],
+   "asset": "assets/fig-p0021-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 21 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 22,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0022-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    104.9
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 c) Right Sidepod - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 22,
+   "bbox": [
+    42.5,
+    112.8,
+    558.2,
+    406.9
+   ],
+   "asset": "assets/fig-p0022-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "bbox": [
+    42.6,
+    407.9,
+    469.8,
+    466.0
+   ],
+   "text": "NOTE: both DALLARA labels 32425098 and 32025048RH are fine for the side-pods due to the re-work from 320 to 324.    d) Left Sidepod – Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 22,
+   "bbox": [
+    42.2,
+    474.2,
+    559.2,
+    751.5
+   ],
+   "asset": "assets/fig-p0022-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "bbox": [
+    42.6,
+    753.5,
+    471.2,
+    782.5
+   ],
+   "text": "NOTE: both DALLARA labels 32425097 and 32025048LH are fine for the side-pods due to the re-work from 320 to 324."
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 22 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 23,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0023-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 23,
+   "bbox": [
+    42.6,
+    95.2,
+    309.9,
+    780.9
+   ],
+   "text": "e) Pod Wing - Unmounted           f) Bargeboard - Unmounted                g) Gearbox Side Cover - Unmounted",
+   "level": 1,
+   "id": "e-Pod-Wing-Unmounted-f-Bargeboard-Unmounted-g-Ge"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 23 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 24,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0024-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 24,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 24,
+   "bbox": [
+    42.6,
+    91.2,
+    216.9,
+    278.8
+   ],
+   "text": "h) Front Lower Wishbone Fairing - Unmounted",
+   "level": 1,
+   "id": "h-Front-Lower-Wishbone-Fairing-Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 24,
+   "bbox": [
+    111.1,
+    114.5,
+    455.3,
+    270.3
+   ],
+   "asset": "assets/fig-p0024-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 24,
+   "bbox": [
+    78.6,
+    278.7,
+    285.0,
+    351.2
+   ],
+   "text": "313 RADIATOR DUCT  a) Nominal Weight of RH: 2,300 [kg]  b) Nominal Weight of LH: 1,330 [kg]",
+   "level": 1,
+   "clause": "313",
+   "id": "313-RADIATOR-DUCT-a-Nominal-Weight-of-RH-2-300-k"
+  },
+  {
+   "type": "heading",
+   "page": 24,
+   "bbox": [
+    42.6,
+    351.2,
+    560.8,
+    389.8
+   ],
+   "text": "c) Comment: May be trimmed to facilitate installation, Weight may be increased by repair a) Radiator Duct RH - Unmounted",
+   "level": 1,
+   "id": "c-Comment-May-be-trimmed-to-facilitate-installat"
+  },
+  {
+   "type": "figure",
+   "page": 24,
+   "bbox": [
+    42.5,
+    389.8,
+    457.7,
+    682.6
+   ],
+   "asset": "assets/fig-p0024-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 24,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 24 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 25,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0025-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 25,
+   "bbox": [
+    42.6,
+    95.2,
+    196.2,
+    109.7
+   ],
+   "text": "314 LOWER BODYWORK",
+   "level": 1,
+   "clause": "314",
+   "id": "314-LOWER-BODYWORK"
+  },
+  {
+   "type": "heading",
+   "page": 25,
+   "bbox": [
+    42.6,
+    109.7,
+    316.5,
+    153.2
+   ],
+   "text": "a) Nominal Weight of Chassis Keel: 0,945 [kg]",
+   "level": 1,
+   "id": "a-Nominal-Weight-of-Chassis-Keel-0-945-kg"
+  },
+  {
+   "type": "heading",
+   "page": 25,
+   "bbox": [
+    42.6,
+    153.1,
+    383.4,
+    182.1
+   ],
+   "text": "b) Nominal Weight of Right Front Floor ( ≡ Left ): 2,02 [kg]",
+   "level": 1,
+   "id": "b-Nominal-Weight-of-Right-Front-Floor-Left-2-02"
+  },
+  {
+   "type": "heading",
+   "page": 25,
+   "bbox": [
+    42.6,
+    182.2,
+    374.5,
+    211.1
+   ],
+   "text": "c) Nominal Weight of Rear Floor and Diffusor: 5,670 [kg]",
+   "level": 1,
+   "id": "c-Nominal-Weight-of-Rear-Floor-and-Diffusor-5-67"
+  },
+  {
+   "type": "figure",
+   "page": 25,
+   "bbox": [
+    17.3,
+    212.5,
+    566.7,
+    523.4
+   ],
+   "asset": "assets/fig-p0025-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 25,
+   "bbox": [
+    42.6,
+    254.6,
+    484.5,
+    780.9
+   ],
+   "text": "f) Comment: to avoid contact with the rear tyres floor trim max. 5mm allowed a) Chassis Keel - Unmounted",
+   "level": 1,
+   "id": "f-Comment-to-avoid-contact-with-the-rear-tyres-f"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 25 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 26,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0026-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    119.4
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 b) Front Floor - Unmounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 26 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 27,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0027-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 27,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 27,
+   "bbox": [
+    42.6,
+    95.2,
+    215.2,
+    766.4
+   ],
+   "text": "c) Rear Floor and Diffusor - Unmounted                        c) Rear Floor and Diffusor - Main Dimensions",
+   "level": 1,
+   "id": "c-Rear-Floor-and-Diffusor-Unmounted-c-Rear-Floor"
+  },
+  {
+   "type": "figure",
+   "page": 27,
+   "bbox": [
+    42.2,
+    109.5,
+    351.5,
+    415.5
+   ],
+   "asset": "assets/fig-p0027-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 27,
+   "bbox": [
+    40.6,
+    450.1,
+    554.0,
+    789.6
+   ],
+   "asset": "assets/fig-p0027-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 27,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 27 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 28,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0028-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "bbox": [
+    42.6,
+    95.2,
+    544.8,
+    602.2
+   ],
+   "text": "d) Rear Floor Extension - Unmounted                    e) Rear Floor Fin - Unmounted             Comment: fin can be secure to the rear floor and diiffuser using indifferently screw and nut or rivet."
+  },
+  {
+   "type": "figure",
+   "page": 28,
+   "bbox": [
+    50.2,
+    115.2,
+    454.0,
+    351.6
+   ],
+   "asset": "assets/fig-p0028-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 28,
+   "bbox": [
+    50.2,
+    407.7,
+    453.7,
+    524.1
+   ],
+   "asset": "assets/fig-p0028-03.webp"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    42.6,
+    602.2,
+    187.2,
+    660.2
+   ],
+   "text": "316 SKID BLOCK  a)  Number of parts: 2",
+   "level": 1,
+   "clause": "316",
+   "id": "316-SKID-BLOCK-a-Number-of-parts-2"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    42.6,
+    660.2,
+    340.4,
+    689.2
+   ],
+   "text": "b)  Nominal Weight of Front Skid Block: 3.680 [kg]",
+   "level": 1,
+   "id": "b-Nominal-Weight-of-Front-Skid-Block-3-680-kg"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    42.6,
+    689.1,
+    333.2,
+    718.1
+   ],
+   "text": "c)  Nominal Weight of Rear Skid Block: 2,150 [kg]",
+   "level": 1,
+   "id": "c-Nominal-Weight-of-Rear-Skid-Block-2-150-kg"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    60.6,
+    718.2,
+    598.7,
+    732.7
+   ],
+   "text": "d)  Comment: - Standard fixation material may be added to attach the skid block to the",
+   "level": 1,
+   "id": "d-Comment-Standard-fixation-material-may-be-adde"
+  },
+  {
+   "type": "heading",
+   "page": 28,
+   "bbox": [
+    60.6,
+    732.6,
+    561.4,
+    776.1
+   ],
+   "text": "wooden floor  e) Comment: - Fixation of the skid to the floor can be indifferently screw and nut or trap nut.",
+   "level": 1,
+   "id": "wooden-floor-e-Comment-Fixation-of-the-skid-to-t"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 28 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 29,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0029-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    42.6,
+    95.2,
+    169.2,
+    684.3
+   ],
+   "text": "a) Front Skid Block - Unmounted              b) Front Skid Block - Unmounted                         c) Skid Block - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 29,
+   "bbox": [
+    41.5,
+    108.7,
+    478.2,
+    270.6
+   ],
+   "asset": "assets/fig-p0029-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 29,
+   "bbox": [
+    40.7,
+    307.4,
+    479.4,
+    596.3
+   ],
+   "asset": "assets/fig-p0029-03.webp"
+  },
+  {
+   "type": "figure",
+   "page": 29,
+   "bbox": [
+    40.5,
+    633.8,
+    554.5,
+    786.2
+   ],
+   "asset": "assets/fig-p0029-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 29 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 30,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0030-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 30,
+   "bbox": [
+    42.6,
+    95.2,
+    226.9,
+    124.2
+   ],
+   "text": "4. AXLE AND SUSPENSION",
+   "level": 5,
+   "clause": "4",
+   "id": "4-AXLE-AND-SUSPENSION"
+  },
+  {
+   "type": "heading",
+   "page": 30,
+   "bbox": [
+    78.6,
+    124.2,
+    252.4,
+    167.7
+   ],
+   "text": "401 FRONT UPRIGHT  a) Nominal Weight: As supplied",
+   "level": 1,
+   "clause": "401",
+   "id": "401-FRONT-UPRIGHT-a-Nominal-Weight-As-supplied"
+  },
+  {
+   "type": "heading",
+   "page": 30,
+   "bbox": [
+    78.6,
+    167.7,
+    544.9,
+    196.7
+   ],
+   "text": "b) Comment: Stud length may not be modified. Homologated wheel speed trigger only",
+   "level": 1,
+   "id": "b-Comment-Stud-length-may-not-be-modified-Homolo"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "bbox": [
+    42.6,
+    196.6,
+    449.6,
+    775.1
+   ],
+   "text": "mandatory when marshalling system is being used.   Front Upright Assembly - Unmounted                                           Front Upright - Main Dimensions                 Front Upright - As Weighed                                                                               Wheel Speed Trigger - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 30,
+   "bbox": [
+    40.8,
+    257.0,
+    570.4,
+    438.7
+   ],
+   "asset": "assets/fig-p0030-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 30,
+   "bbox": [
+    40.8,
+    490.8,
+    550.8,
+    684.1
+   ],
+   "asset": "assets/fig-p0030-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 30 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 31,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0031-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 31,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 31,
+   "bbox": [
+    78.6,
+    95.2,
+    252.4,
+    138.7
+   ],
+   "text": "402 REAR UPRIGHT  a) Nominal Weight: As supplied",
+   "level": 1,
+   "clause": "402",
+   "id": "402-REAR-UPRIGHT-a-Nominal-Weight-As-supplied"
+  },
+  {
+   "type": "paragraph",
+   "page": 31,
+   "bbox": [
+    42.6,
+    138.7,
+    408.2,
+    780.4
+   ],
+   "text": "b) Comment: Stud length may not be modified.   Rear Upright  Assembly - Unmounted                                                Rear Upright - Main Dimensions                 Front Upright - As Weighed"
+  },
+  {
+   "type": "figure",
+   "page": 31,
+   "bbox": [
+    40.8,
+    209.4,
+    563.0,
+    394.9
+   ],
+   "asset": "assets/fig-p0031-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 31,
+   "bbox": [
+    42.2,
+    452.9,
+    292.6,
+    653.7
+   ],
+   "asset": "assets/fig-p0031-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 31,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 31 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 32,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0032-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 32,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 32,
+   "bbox": [
+    78.6,
+    95.2,
+    289.2,
+    138.7
+   ],
+   "text": "403 FRONT BRAKE DUCT (OPTIONAL)  a) Nominal Weight: As supplied",
+   "level": 1,
+   "clause": "403",
+   "id": "403-FRONT-BRAKE-DUCT-OPTIONAL-a-Nominal-Weight-A"
+  },
+  {
+   "type": "heading",
+   "page": 32,
+   "bbox": [
+    78.6,
+    138.7,
+    547.8,
+    167.7
+   ],
+   "text": "b) Comment: Fixation studs free following the technical regulations. Opening of cooling",
+   "level": 1,
+   "id": "b-Comment-Fixation-studs-free-following-the-tech"
+  },
+  {
+   "type": "paragraph",
+   "page": 32,
+   "bbox": [
+    42.6,
+    167.7,
+    530.4,
+    220.7
+   ],
+   "text": "duct may be reduced or closed with tape, any other openings may not be closed.   Front Brake Duct - Unmounted                                             Front Brake Duct - Unmounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 32,
+   "bbox": [
+    42.6,
+    220.8,
+    440.5,
+    462.2
+   ],
+   "text": "Front Brake Duct - Unmounted                                                            Front Brake Duct – Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 32,
+   "bbox": [
+    42.0,
+    467.5,
+    523.5,
+    681.9
+   ],
+   "asset": "assets/fig-p0032-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 32,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 32 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 33,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0033-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 33,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 33,
+   "bbox": [
+    78.6,
+    95.2,
+    303.7,
+    138.7
+   ],
+   "text": "404 REAR BRAKE DUCT (OPTIONAL)  a) Nominal Weight: As originally supplied",
+   "level": 1,
+   "clause": "404",
+   "id": "404-REAR-BRAKE-DUCT-OPTIONAL-a-Nominal-Weight-As"
+  },
+  {
+   "type": "heading",
+   "page": 33,
+   "bbox": [
+    78.6,
+    138.7,
+    598.1,
+    167.7
+   ],
+   "text": "b) Comment: Fixation studs free following the technical regulations.",
+   "level": 1,
+   "id": "b-Comment-Fixation-studs-free-following-the-tech-2"
+  },
+  {
+   "type": "paragraph",
+   "page": 33,
+   "bbox": [
+    42.6,
+    167.7,
+    595.8,
+    249.7
+   ],
+   "text": "May be used without cooling duct (in this case additional fixation holes may be added). Opening of cooling duct may be reduced or closed with tape, any other openings may not be closed.   Rear Brake Duct - Unmounted                                                             Rear Brake Duct - Unmounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 33,
+   "bbox": [
+    42.6,
+    249.8,
+    433.3,
+    506.4
+   ],
+   "text": "Rear Brake Duct - Unmounted                                                            Rear Brake Duct - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 33,
+   "bbox": [
+    40.8,
+    511.5,
+    549.6,
+    672.8
+   ],
+   "asset": "assets/fig-p0033-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 33,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 33 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 34,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0034-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    276.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 405 FRONT UPPER WISHBONE  a) Nominal Weight: 1,082 [kg]   Front Upper Wishbone - Unmounted                                                         Front Upper Wishbone - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 34,
+   "bbox": [
+    40.5,
+    174.5,
+    565.8,
+    392.3
+   ],
+   "asset": "assets/fig-p0034-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 34,
+   "bbox": [
+    78.6,
+    433.3,
+    254.1,
+    476.7
+   ],
+   "text": "406 FRONT LOWER WISHBONE  a) Nominal Weight: 1,920 [kg]",
+   "level": 1,
+   "clause": "406",
+   "id": "406-FRONT-LOWER-WISHBONE-a-Nominal-Weight-1-920"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "bbox": [
+    42.6,
+    476.7,
+    471.2,
+    544.4
+   ],
+   "text": "b) Comment: Welded washers may be removed  Front Lower Wishbone - Unmounted                                                         Front Lower Wishbone - Main Dimensions"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 34 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 35,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0035-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 35,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    293.2
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 407 PUSHROD FRONT  a) Nominal Weight: 0,705 [kg]  Pushrod front - Unmounted                                                                  Pushrod front - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 35,
+   "bbox": [
+    40.8,
+    161.6,
+    559.8,
+    282.6
+   ],
+   "asset": "assets/fig-p0035-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 35,
+   "bbox": [
+    42.6,
+    293.2,
+    440.6,
+    514.4
+   ],
+   "text": "408 TRACK ROD FRONT  a) Nominal Weight: 0,401 [kg]  Track Rod Front - Unmounted                                                                     Track Rod Front - Main Dimensions",
+   "clause": "408"
+  },
+  {
+   "type": "figure",
+   "page": 35,
+   "bbox": [
+    42.0,
+    373.0,
+    556.4,
+    488.8
+   ],
+   "asset": "assets/fig-p0035-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 35,
+   "bbox": [
+    42.6,
+    514.4,
+    440.6,
+    547.4
+   ],
+   "text": "b) Nominal Weight: 0,395 [kg]  Track Rod Front - Unmounted                                                                     Track Rod Front - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 35,
+   "bbox": [
+    42.5,
+    555.0,
+    556.5,
+    672.8
+   ],
+   "asset": "assets/fig-p0035-04.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 35,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 35 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 36,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0036-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 36,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 36,
+   "bbox": [
+    78.6,
+    95.2,
+    247.9,
+    153.3
+   ],
+   "text": "409 REAR UPPER WISHBONE  a) Nominal Weight: 1,280 [kg]",
+   "level": 1,
+   "clause": "409",
+   "id": "409-REAR-UPPER-WISHBONE-a-Nominal-Weight-1-280-k"
+  },
+  {
+   "type": "paragraph",
+   "page": 36,
+   "bbox": [
+    42.6,
+    153.1,
+    472.0,
+    389.8
+   ],
+   "text": "b) Comment: Welded washers may be removed  Rear Upper Wishbone - Unmounted                                                            Rear Upper Wishbone - Main Dimensions"
+  },
+  {
+   "type": "heading",
+   "page": 36,
+   "bbox": [
+    78.6,
+    389.8,
+    411.1,
+    433.2
+   ],
+   "text": "410 REAR LOWER WISHBONE  a) Nominal Weight: 1,262 [kg] / New specification 1,276 [kg]",
+   "level": 1,
+   "clause": "410",
+   "id": "410-REAR-LOWER-WISHBONE-a-Nominal-Weight-1-262-k"
+  },
+  {
+   "type": "paragraph",
+   "page": 36,
+   "bbox": [
+    42.6,
+    433.3,
+    465.3,
+    771.3
+   ],
+   "text": "b) Comment: Welded washers may be removed.  c) Comment: Rear leg has been reinforced in the new specification  Rear Lower Wishbone - Unmounted                                                         Rear Lower Wishbone - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 36,
+   "bbox": [
+    40.8,
+    514.3,
+    550.8,
+    682.5
+   ],
+   "asset": "assets/fig-p0036-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 36,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 36 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 37,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0037-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    278.8
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 411 PUSHROD REAR  a) Nominal Weight: 0,798 [kg]  Rear Pushrod - Unmounted                                                                    Rear Pushrod - Main Dimensions"
+  },
+  {
+   "type": "figure",
+   "page": 37,
+   "bbox": [
+    41.5,
+    165.8,
+    546.5,
+    275.7
+   ],
+   "asset": "assets/fig-p0037-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    42.6,
+    278.7,
+    453.0,
+    462.3
+   ],
+   "text": "412 TRACK ROD REAR  a) Nominal Weight: 0,538 [kg]  Track Rear Rear - Unmounted                                                                      Track Rod Rear - Main Dimensions",
+   "clause": "412"
+  },
+  {
+   "type": "figure",
+   "page": 37,
+   "bbox": [
+    42.2,
+    364.8,
+    558.5,
+    477.5
+   ],
+   "asset": "assets/fig-p0037-03.webp"
+  },
+  {
+   "type": "heading",
+   "page": 37,
+   "bbox": [
+    42.6,
+    462.2,
+    179.0,
+    780.9
+   ],
+   "text": "5. RUNNING GEAR",
+   "level": 5,
+   "clause": "5",
+   "id": "5-RUNNING-GEAR"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 37 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 38,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0038-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 38,
+   "bbox": [
+    78.6,
+    95.2,
+    247.9,
+    138.7
+   ],
+   "text": "501 STEERING RACK  a) Nominal Weight: 1,950 [kg]",
+   "level": 1,
+   "clause": "501",
+   "id": "501-STEERING-RACK-a-Nominal-Weight-1-950-kg"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "bbox": [
+    42.6,
+    138.7,
+    150.9,
+    162.8
+   ],
+   "text": "Steering Rack - Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 38,
+   "bbox": [
+    42.1,
+    165.1,
+    439.1,
+    508.6
+   ],
+   "asset": "assets/fig-p0038-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 38,
+   "bbox": [
+    78.6,
+    438.1,
+    463.6,
+    568.5
+   ],
+   "text": "502 STEERING COLUMN  a) Nominal Weight: standard 1,150 [kg], for EPS installation 1,350 [kg]",
+   "level": 1,
+   "clause": "502",
+   "id": "502-STEERING-COLUMN-a-Nominal-Weight-standard-1"
+  },
+  {
+   "type": "heading",
+   "page": 38,
+   "bbox": [
+    42.6,
+    568.4,
+    392.4,
+    660.2
+   ],
+   "text": "b) Comment: 317 Part code 31212A003 may also be used   Steering Column - Unmounted",
+   "level": 1,
+   "id": "b-Comment-317-Part-code-31212A003-may-also-be-us"
+  },
+  {
+   "type": "heading",
+   "page": 38,
+   "bbox": [
+    203.3,
+    703.7,
+    446.7,
+    747.1
+   ],
+   "text": "[TO BE DONE]",
+   "level": 1,
+   "id": "TO-BE-DONE"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 38 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 39,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0039-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    104.9
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 Steering Column EPS (electric power steering) - Unmounted"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    42.6,
+    104.9,
+    445.8,
+    413.9
+   ],
+   "text": "6. FUEL SYSTEM  601 FUEL TANK  a)  Manufacturer: Merin S.r.l.  b)  Capacity: 45 [ l ]  c) Homologation Certificate SFT 5030.1  Fuel Tank",
+   "clause": "6"
+  },
+  {
+   "type": "figure",
+   "page": 39,
+   "bbox": [
+    45.6,
+    111.1,
+    433.1,
+    243.6
+   ],
+   "asset": "assets/fig-p0039-02.webp"
+  },
+  {
+   "type": "figure",
+   "page": 39,
+   "bbox": [
+    43.7,
+    419.0,
+    393.7,
+    614.6
+   ],
+   "asset": "assets/fig-p0039-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 39 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 40,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0040-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 40,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    104.9
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478 Fuel Tank"
+  },
+  {
+   "type": "figure",
+   "page": 40,
+   "bbox": [
+    43.7,
+    106.0,
+    400.7,
+    345.6
+   ],
+   "asset": "assets/fig-p0040-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 40,
+   "bbox": [
+    42.6,
+    334.5,
+    406.5,
+    370.5
+   ],
+   "text": "Fuel Tank",
+   "level": 2,
+   "id": "Fuel-Tank"
+  },
+  {
+   "type": "figure",
+   "page": 40,
+   "bbox": [
+    43.7,
+    371.7,
+    398.2,
+    665.9
+   ],
+   "asset": "assets/fig-p0040-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 40,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 40 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 41,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0041-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 41,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "paragraph",
+   "page": 41,
+   "bbox": [
+    42.6,
+    95.2,
+    145.5,
+    119.3
+   ],
+   "text": "FIA Fuel Tank Homologation"
+  },
+  {
+   "type": "figure",
+   "page": 41,
+   "bbox": [
+    42.5,
+    124.0,
+    262.9,
+    414.4
+   ],
+   "asset": "assets/fig-p0041-02.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 41,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 41 of 42",
+   "clause": "2024.04.05-324"
+  },
+  {
+   "type": "figure",
+   "page": 42,
+   "bbox": [
+    49.9,
+    21.0,
+    188.4,
+    45.9
+   ],
+   "asset": "assets/fig-p0042-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "bbox": [
+    42.6,
+    35.9,
+    540.1,
+    95.3
+   ],
+   "text": "Dallara Automobili S.p.A. - Via Provinciale, 33 - 43040 - Varano de’ Melegari (PR) - ITALY - Tel. +39 0525 550711 - Fax +39 0525 53478"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    42.6,
+    95.2,
+    227.0,
+    118.9
+   ],
+   "text": "602 FUEL PUMP ASSEMBLY",
+   "level": 1,
+   "clause": "602",
+   "id": "602-FUEL-PUMP-ASSEMBLY"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    78.6,
+    118.9,
+    399.1,
+    133.5
+   ],
+   "text": "a) Fuel pump can be run off either side of the pump switch",
+   "level": 1,
+   "id": "a-Fuel-pump-can-be-run-off-either-side-of-the-pu"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    78.6,
+    133.3,
+    287.7,
+    176.9
+   ],
+   "text": "b) Fuel pump specification permitted:",
+   "level": 1,
+   "id": "b-Fuel-pump-specification-permitted"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    114.6,
+    176.9,
+    533.6,
+    191.4
+   ],
+   "text": "a. FCOM1540 (PREMIER PN: 0700-0105) and FCOM1582 (PREMIER PN: 0700-",
+   "level": 1,
+   "id": "a-FCOM1540-PREMIER-PN-0700-0105-and-FCOM1582-PRE"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    42.6,
+    191.3,
+    269.5,
+    254.0
+   ],
+   "text": "0101) Nominal weigth: 0.17 [g]  Fuel pump - Unmounted",
+   "level": 1,
+   "clause": "0101)",
+   "id": "0101-Nominal-weigth-0-17-g-Fuel-pump-Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 42,
+   "bbox": [
+    78.6,
+    254.1,
+    356.8,
+    490.7
+   ],
+   "asset": "assets/fig-p0042-02.webp"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    114.6,
+    505.6,
+    247.8,
+    520.2
+   ],
+   "text": "b. ATL  PN: PU-AC-020",
+   "level": 1,
+   "id": "b-ATL-PN-PU-AC-020"
+  },
+  {
+   "type": "heading",
+   "page": 42,
+   "bbox": [
+    42.6,
+    520.2,
+    269.5,
+    616.7
+   ],
+   "text": "Nominal weigth: 0.17 [g]   Fuel pump - Unmounted",
+   "level": 1,
+   "id": "Nominal-weigth-0-17-g-Fuel-pump-Unmounted"
+  },
+  {
+   "type": "figure",
+   "page": 42,
+   "bbox": [
+    78.0,
+    582.6,
+    388.1,
+    743.0
+   ],
+   "asset": "assets/fig-p0042-03.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "bbox": [
+    42.6,
+    783.9,
+    304.5,
+    806.5
+   ],
+   "text": "2024.04.05-324-Component.Specification 42 of 42",
+   "clause": "2024.04.05-324"
+  }
+ ]
+}

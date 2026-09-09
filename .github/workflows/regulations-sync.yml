@@ -53,6 +53,9 @@ jobs:
       - name: 依存関係
         run: pip install -r pipeline/requirements.txt
 
+      - name: テスト
+        run: python tests/test_catalog.py
+
       - name: OCR ツール（任意）
         if: ${{ inputs.ocr == true }}
         run: |

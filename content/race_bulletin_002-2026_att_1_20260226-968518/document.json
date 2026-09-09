@@ -1,0 +1,1358 @@
+{
+ "title": "No.002-2026_添付資料1",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "全日本選手権等統一規則およびブルテン",
+ "group": "2026年 全日本選手権レースブルテン",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3493/race_bulletin_002-2026_att_1_20260226.pdf",
+ "uploadDate": "2026-02-26",
+ "sha256": "f54b85c1c2e7c6b7b5827af352fb749ef9752d7126f532a45ee1bc23dac34261",
+ "docId": "race_bulletin_002-2026_att_1_20260226-968518",
+ "pageCount": 5,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:43+00:00",
+ "stats": {
+  "chars": 3303,
+  "figures": 0,
+  "tables": 21,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    139.3,
+    72.6,
+    447.3,
+    82.1
+   ],
+   "text": "２０２６年 全日本スーパーフォーミュラ・ライツ選手権 車両規定運用要項（案）",
+   "clause": "２０２６"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    372.5,
+    88.8,
+    510.5,
+    98.3
+   ],
+   "text": "（赤文字：2025年からの変更箇所）"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    24.7,
+    119.8,
+    494.6,
+    129.3
+   ],
+   "text": "２０２６年 全日本スーパーフォーミュラ・ライツ選手権 適用車両規定 及び 下記の項目に合致する車両とする。",
+   "clause": "２０２６"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    24.7,
+    151.4,
+    230.7,
+    160.8
+   ],
+   "text": "①　以下のコンポーネンツを使用すること。"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    182.8,
+    105.4,
+    192.3
+   ],
+   "text": "Chassis"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    67.2,
+    195.6,
+    519.0,
+    227.4
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Dallara",
+     "320"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    261.4,
+    100.9,
+    270.9
+   ],
+   "text": "Engine"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    67.2,
+    274.2,
+    519.0,
+    306.0
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Tom's",
+     "TGE33"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    340.1,
+    107.6,
+    349.5
+   ],
+   "text": "Gearbox"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    67.2,
+    353.0,
+    519.0,
+    384.4
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Hewland",
+     "F3B"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    418.7,
+    123.5,
+    428.1
+   ],
+   "text": "Bellhousing"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    67.2,
+    431.6,
+    519.0,
+    463.0
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Dallara",
+     "32432021"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    497.3,
+    130.1,
+    506.8
+   ],
+   "text": "Brake caliper"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    67.2,
+    510.0,
+    519.0,
+    651.9
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Brembo",
+     "XA6.S0.01/XA6.S0.21(FR-LH)"
+    ],
+    [
+     null,
+     "XA6.S0.02/XA6.S0.22(FR-RH)"
+    ],
+    [
+     null,
+     "XA6.S0.03/XA6.S0.23(RR-LH)"
+    ],
+    [
+     null,
+     "XA6.S0.04/XA6.S0.24(RR-RH)"
+    ],
+    [
+     null,
+     "XA6.S0.31/XA6.S0.41(FR-LH)"
+    ],
+    [
+     null,
+     "XA6.S0.32/XA6.S0.42(FR-RH)"
+    ],
+    [
+     null,
+     "XA6.S0.33/XA6.S0.43(RR-LH)"
+    ],
+    [
+     null,
+     "XA6.S0.34/XA6.S0.44(RR-RH)"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    69.2,
+    764.6,
+    119.2,
+    774.1
+   ],
+   "text": "Brake Disc"
+  },
+  {
+   "type": "table",
+   "page": 2,
+   "bbox": [
+    67.2,
+    54.1,
+    519.1,
+    400.4
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Brembo",
+     "09.A261.11"
+    ],
+    [
+     null,
+     "09.A261.21"
+    ],
+    [
+     null,
+     "709.A261.11"
+    ],
+    [
+     null,
+     "709.A261.21"
+    ],
+    [
+     null,
+     "09.A261.30"
+    ],
+    [
+     null,
+     "09.A261.40"
+    ],
+    [
+     null,
+     "709.A261.30"
+    ],
+    [
+     null,
+     "709.A261.40"
+    ],
+    [
+     "AP RACING",
+     "CP3947-102C G4 B4"
+    ],
+    [
+     null,
+     "CP3947-103C G4 B4"
+    ],
+    [
+     null,
+     "CP3947-132C G4 B4"
+    ],
+    [
+     null,
+     "CP3947-133C G4 B4"
+    ],
+    [
+     "Endless",
+     "E89-7818-E012-CG4"
+    ],
+    [
+     null,
+     "E89-7818-E030-CG4"
+    ],
+    [
+     null,
+     "E99-7818-E110-CG4"
+    ],
+    [
+     null,
+     "E99-7818-E120-CG4"
+    ],
+    [
+     null,
+     "E89-7818-B120-CG4"
+    ],
+    [
+     "PFC",
+     "278.18.0036.452"
+    ],
+    [
+     null,
+     "278.18.0036.462"
+    ],
+    [
+     "TM Performance",
+     "COMP262363"
+    ],
+    [
+     null,
+     "COMP262373"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    69.2,
+    434.4,
+    116.8,
+    443.9
+   ],
+   "text": "Brake Pad"
+  },
+  {
+   "type": "table",
+   "page": 2,
+   "bbox": [
+    67.2,
+    447.1,
+    519.1,
+    777.6
+   ],
+   "rows": [
+    [
+     "Make",
+     "Compound",
+     "Model"
+    ],
+    [
+     "Pagid",
+     "PST 1",
+     "S8049X01001/B01"
+    ],
+    [
+     null,
+     "PST 2",
+     "S8049T02001/B01"
+    ],
+    [
+     null,
+     "PST 3",
+     "S8049T03001/B01"
+    ],
+    [
+     null,
+     "PST 4",
+     "S8049T04001/B01"
+    ],
+    [
+     null,
+     "RSL 19",
+     "S8049R19001/B01"
+    ],
+    [
+     null,
+     "RSL 29",
+     "S8049R29001/B01"
+    ],
+    [
+     null,
+     "RS 5",
+     "S8049R05001/B01"
+    ],
+    [
+     null,
+     "RS 7",
+     "S8049R07001/B01"
+    ],
+    [
+     null,
+     "RS 33",
+     "S8049R33001/B01"
+    ],
+    [
+     null,
+     "RS 34",
+     "S8049R34001/B01"
+    ],
+    [
+     null,
+     "RS 36",
+     "S8049R36001/B01"
+    ],
+    [
+     null,
+     "RS 42",
+     "S8049R42001/B01"
+    ],
+    [
+     "Mintex",
+     "F6R",
+     "2899 F6R 15.75"
+    ],
+    [
+     "Ferodo",
+     "PRO187",
+     "FRP3102x"
+    ],
+    [
+     null,
+     "PRO222",
+     "FRP3103Z"
+    ],
+    [
+     null,
+     "PRO223",
+     "FRP3103ZB"
+    ],
+    [
+     "Brembo",
+     "RB170",
+     "107.A469.02"
+    ],
+    [
+     null,
+     "RB170",
+     "707.A469.02"
+    ],
+    [
+     "PFC",
+     "",
+     "7762.01.16.44"
+    ],
+    [
+     null,
+     "",
+     "7762.07.16.44"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "bbox": [
+    69.1,
+    771.9,
+    87.6,
+    781.4
+   ],
+   "text": "PFC"
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    69.1,
+    48.7,
+    87.6,
+    58.1
+   ],
+   "text": "PFC"
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    67.1,
+    54.3,
+    519.1,
+    180.3
+   ],
+   "rows": [
+    [
+     "",
+     "",
+     "7762.11.16.44"
+    ],
+    [
+     null,
+     "",
+     "7762.15.16.44"
+    ],
+    [
+     "Endless",
+     "",
+     "RCP155T65Q"
+    ],
+    [
+     null,
+     "",
+     "RCP155T36F50"
+    ],
+    [
+     null,
+     "",
+     "RCP155T22U"
+    ],
+    [
+     "SEIDOYA",
+     "",
+     "SDY1055FL-3970K"
+    ],
+    [
+     null,
+     "",
+     "SDY1055FL-4860R"
+    ],
+    [
+     null,
+     "",
+     "SDY1055FL-4800R"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    69.2,
+    214.3,
+    105.7,
+    223.8
+   ],
+   "text": "Damper"
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    67.1,
+    227.0,
+    519.1,
+    589.1
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Koni",
+     "2612 001"
+    ],
+    [
+     null,
+     "2612 027"
+    ],
+    [
+     null,
+     "2812 899"
+    ],
+    [
+     null,
+     "2812 982"
+    ],
+    [
+     null,
+     "2812 984"
+    ],
+    [
+     null,
+     "2812 985"
+    ],
+    [
+     null,
+     "2812 026"
+    ],
+    [
+     null,
+     "2812 027"
+    ],
+    [
+     "Multimatic",
+     "55390-5000"
+    ],
+    [
+     null,
+     "55390-5001"
+    ],
+    [
+     null,
+     "55996-5008"
+    ],
+    [
+     null,
+     "56196-5000"
+    ],
+    [
+     null,
+     "56196-5002"
+    ],
+    [
+     null,
+     "56196-5006"
+    ],
+    [
+     null,
+     "56196-5008"
+    ],
+    [
+     null,
+     "56196-5010"
+    ],
+    [
+     null,
+     "56196-5012"
+    ],
+    [
+     null,
+     "56196-5014"
+    ],
+    [
+     "Quantum",
+     "RW916"
+    ],
+    [
+     null,
+     "RW917"
+    ],
+    [
+     null,
+     "RW918"
+    ],
+    [
+     null,
+     "RW919"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    69.2,
+    623.1,
+    132.2,
+    632.6
+   ],
+   "text": "Bump Rubber"
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    67.1,
+    632.5,
+    519.1,
+    699.1
+   ],
+   "rows": [
+    [
+     "",
+     null
+    ],
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Multimatic",
+     "P08 001 50"
+    ],
+    [
+     null,
+     "P08 011 50"
+    ],
+    [
+     null,
+     "P08 012 50"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 3,
+   "bbox": [
+    69.2,
+    733.1,
+    124.9,
+    742.6
+   ],
+   "text": "3rd Element",
+   "clause": "3"
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    67.1,
+    742.6,
+    519.1,
+    777.6
+   ],
+   "rows": [
+    [
+     "",
+     null,
+     null
+    ],
+    [
+     "Make",
+     null,
+     "Model"
+    ],
+    [
+     "Tom’s",
+     "Front",
+     "TOMS25-F001"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    69.1,
+    48.7,
+    95.8,
+    58.1
+   ],
+   "text": "Tom s"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    67.2,
+    54.2,
+    519.1,
+    133.1
+   ],
+   "rows": [
+    [
+     "",
+     "Rear",
+     "TOMS25-R001"
+    ],
+    [
+     "B-Max",
+     "Front",
+     "F319-3RD-F"
+    ],
+    [
+     null,
+     "Rear",
+     "F319-3RD-R"
+    ],
+    [
+     "Toda",
+     "Front",
+     "51700-FD3-000"
+    ],
+    [
+     null,
+     "Rear",
+     "51800-FD3-000"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    69.2,
+    167.1,
+    99.4,
+    176.6
+   ],
+   "text": "Clutch"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    67.2,
+    179.9,
+    519.1,
+    211.7
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "ZF SACHS",
+     "883082002058"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    69.2,
+    245.7,
+    196.9,
+    255.2
+   ],
+   "text": "Clutch Release and Bearing"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    67.2,
+    258.5,
+    519.1,
+    353.2
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "ZF SACHS",
+     "88 3182 000 037"
+    ],
+    [
+     "AP RACING",
+     "CP3959-38"
+    ],
+    [
+     null,
+     "CP3457-16"
+    ],
+    [
+     "Tilton",
+     "61-303"
+    ],
+    [
+     null,
+     "60-3330"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    69.2,
+    387.2,
+    152.6,
+    396.7
+   ],
+   "text": "Electronic System"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    67.2,
+    400.0,
+    519.1,
+    699.0
+   ],
+   "rows": [
+    [
+     "Make",
+     "Component",
+     null,
+     "Model"
+    ],
+    [
+     "Cosworth",
+     "ECU / Data Logger",
+     null,
+     "Antares8 SFL"
+    ],
+    [
+     "XAP",
+     "Steering Dash",
+     "",
+     "Formula"
+    ],
+    [
+     "Bosch",
+     "Wheel Speed Se",
+     "nsor",
+     "0232.103.037"
+    ],
+    [
+     "Bosch",
+     "Wheel Speed Se",
+     "nsor",
+     "0281.002.728"
+    ],
+    [
+     null,
+     "",
+     null,
+     null
+    ],
+    [
+     "Bosch",
+     "Pressure Sensor",
+     "",
+     "0261.545.953"
+    ],
+    [
+     "Bosch",
+     "Gear Position Se",
+     "nsor",
+     "F02U.V02.084-01"
+    ],
+    [
+     "Bosch",
+     "Gear Position Se",
+     "nsor",
+     "F02U.V01.667-01"
+    ],
+    [
+     "Shiftec",
+     "Gear Position Se",
+     "nsor",
+     "ZK024-1"
+    ],
+    [
+     null,
+     "",
+     null,
+     null
+    ],
+    [
+     "Bosch",
+     "Linear Potentiom",
+     "eter 100mm",
+     "B261.209.853-02"
+    ],
+    [
+     "Bosch",
+     "Linear Potentiom",
+     "eter 75mm",
+     "B261.209.852-02"
+    ],
+    [
+     "Bosch",
+     "Linear Potentiom",
+     "eter 50mm",
+     "F02U.V01.319-02"
+    ],
+    [
+     "Position Sensors",
+     "Linear Potentiom",
+     "eter 100mm",
+     "PS-C95P-100"
+    ],
+    [
+     null,
+     "",
+     null,
+     null
+    ],
+    [
+     "Position Sensors",
+     "Linear Potentiom",
+     "eter 75mm",
+     "PS-C95P-75"
+    ],
+    [
+     null,
+     "",
+     null,
+     null
+    ],
+    [
+     "Position Sensors",
+     "Linear Potentiom",
+     "eter 50mm",
+     "PS-C95P-50"
+    ],
+    [
+     null,
+     "",
+     null,
+     null
+    ],
+    [
+     "Bosch",
+     "Accelerometer 2",
+     "-axis",
+     "0265.005.838"
+    ],
+    [
+     "",
+     null,
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 4,
+   "bbox": [
+    69.2,
+    717.4,
+    179.4,
+    726.9
+   ],
+   "text": "Semi Automatic System"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    67.2,
+    730.2,
+    519.1,
+    777.6
+   ],
+   "rows": [
+    [
+     "Make Component Model",
+     null,
+     null,
+     null
+    ],
+    [
+     "",
+     "Actuator",
+     null,
+     "410-141-011"
+    ],
+    [
+     "",
+     "Valve Block",
+     "",
+     "410-072-011"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    67.2,
+    54.3,
+    519.0,
+    101.5
+   ],
+   "rows": [
+    [
+     "Mega-Line",
+     "Valve Block",
+     "410-053-011"
+    ],
+    [
+     "",
+     "Compressor",
+     "460-011-011"
+    ],
+    [
+     "",
+     "Compressor",
+     "470-111-011"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    69.2,
+    135.7,
+    177.0,
+    145.2
+   ],
+   "text": "Power Steering System"
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    67.2,
+    148.4,
+    519.0,
+    211.7
+   ],
+   "rows": [
+    [
+     "Make Component Model",
+     null,
+     null
+    ],
+    [
+     "KYB",
+     "Motor",
+     "R2719-05000"
+    ],
+    [
+     null,
+     "ECU",
+     "R2711-31000"
+    ],
+    [
+     "",
+     "Sensor",
+     "R2712-08000"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    69.2,
+    245.7,
+    103.0,
+    255.2
+   ],
+   "text": "Battery"
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    67.2,
+    258.5,
+    519.0,
+    290.3
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Super B",
+     "SB12V15P-EC"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    69.2,
+    324.3,
+    106.9,
+    333.8
+   ],
+   "text": "CV Boot"
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    67.2,
+    337.1,
+    519.0,
+    384.6
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model"
+    ],
+    [
+     "Dallara",
+     "FCOM1145"
+    ],
+    [
+     "Pankl",
+     "43662"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    69.2,
+    418.7,
+    147.7,
+    428.1
+   ],
+   "text": "Fire Extinguisher"
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    67.2,
+    431.4,
+    519.0,
+    479.0
+   ],
+   "rows": [
+    [
+     "Make",
+     "Model",
+     "Homologation.No."
+    ],
+    [
+     "OMP",
+     "Ecolife",
+     "EX.036.11"
+    ],
+    [
+     "Lifeline",
+     "Zero",
+     "EX.027.08"
+    ]
+   ]
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    513.6,
+    294.3,
+    523.0
+   ],
+   "text": "②　以下の改造、取り付け および変更を行うことができる。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    530.7,
+    298.6,
+    540.2
+   ],
+   "text": "a） キール部の保持のみを目的としたステーの取り付け。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    547.9,
+    388.6,
+    557.4
+   ],
+   "text": "b） フロア位置を保持するため、吊り下げのみを目的としたフロアステーの改造。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    565.0,
+    368.2,
+    574.5
+   ],
+   "text": "c） ボディワークを固定しているボルトのファスナー/ライブロックへの変更。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    582.2,
+    441.1,
+    591.7
+   ],
+   "text": "d)  ミラー位置を調整するためステーの改造を行う場合、オリジナル仕様と同形状にすること。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    599.4,
+    479.9,
+    608.9
+   ],
+   "text": "② e)  車両コンポーネンツをエンジンやエキゾーストの熱から保護するための遮熱板の取り付けができる。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    616.7,
+    399.8,
+    626.2
+   ],
+   "text": "但しエキゾーストに直接取り付けられる遮熱部品は、金属製のものに限られる。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    651.0,
+    410.2,
+    660.5
+   ],
+   "text": "③ 車両の排気音量は、レース車両規定第２章 レース車両の排気音量規制を遵守する。"
+  },
+  {
+   "type": "paragraph",
+   "page": 5,
+   "bbox": [
+    24.7,
+    685.2,
+    498.1,
+    694.7
+   ],
+   "text": "④ ダンパーは、車両供給者が純正仕様品であることを確認し、ガス充填ボルトに封印したものを使用すること。"
+  }
+ ]
+}

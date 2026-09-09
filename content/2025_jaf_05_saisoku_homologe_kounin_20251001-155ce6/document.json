@@ -1,0 +1,1074 @@
+{
+ "title": "JAF公認車両一覧_20251001",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "2026年 JAF国内競技車両規則",
+ "group": "第5編 JAF公認車両 / 登録車両一覧",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3464/3486/2025_jaf_05_saisoku_homologe_kounin_20251001.pdf",
+ "uploadDate": "2025-12-08",
+ "sha256": "7e26654d22901514916d450b75646f0487e814ac0f28dea6cfe0ddffa54f544b",
+ "docId": "2025_jaf_05_saisoku_homologe_kounin_20251001-155ce6",
+ "pageCount": 9,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:34+00:00",
+ "stats": {
+  "chars": 12246,
+  "figures": 0,
+  "tables": 9,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [
+  {
+   "id": "公認車両一覧",
+   "level": 1,
+   "text": "ＪＡＦ公認車両一覧",
+   "page": 1
+  },
+  {
+   "id": "2025年10月1日現在",
+   "level": 1,
+   "text": "（2025年10月1日現在）",
+   "page": 1
+  },
+  {
+   "id": "トヨタ自動車-株",
+   "level": 1,
+   "text": "トヨタ自動車（株）",
+   "page": 1
+  },
+  {
+   "id": "JAF公認車両一覧-トヨタ",
+   "level": 3,
+   "text": "JAF公認車両一覧　トヨタ",
+   "page": 2
+  },
+  {
+   "id": "JAF公認車両一覧-トヨタ-2",
+   "level": 3,
+   "text": "JAF公認車両一覧　トヨタ",
+   "page": 3
+  },
+  {
+   "id": "JAF公認車両一覧-トヨタ-3",
+   "level": 3,
+   "text": "JAF公認車両一覧　トヨタ",
+   "page": 4
+  },
+  {
+   "id": "JAF公認車両一覧-日産",
+   "level": 3,
+   "text": "JAF公認車両一覧　日産",
+   "page": 5
+  },
+  {
+   "id": "日産自動車-株",
+   "level": 1,
+   "text": "日産自動車（株）",
+   "page": 5
+  },
+  {
+   "id": "JAF公認車両一覧-日産-2",
+   "level": 3,
+   "text": "JAF公認車両一覧　日産",
+   "page": 6
+  },
+  {
+   "id": "JAF公認車両一覧-三菱",
+   "level": 3,
+   "text": "JAF公認車両一覧　三菱",
+   "page": 7
+  },
+  {
+   "id": "三菱自動車工業-株",
+   "level": 1,
+   "text": "三菱自動車工業（株）",
+   "page": 7
+  },
+  {
+   "id": "JAF公認車両一覧-SUBARU",
+   "level": 3,
+   "text": "JAF公認車両一覧　SUBARU",
+   "page": 8
+  },
+  {
+   "id": "株-SUBARU",
+   "level": 1,
+   "text": "（株）SUBARU",
+   "page": 8
+  },
+  {
+   "id": "JAF公認車両一覧-いすゞ",
+   "level": 3,
+   "text": "JAF公認車両一覧　いすゞ",
+   "page": 9
+  },
+  {
+   "id": "いすゞ自動車-株",
+   "level": 1,
+   "text": "いすゞ自動車（株）",
+   "page": 9
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    55.3,
+    75.7,
+    208.3,
+    101.7
+   ],
+   "text": "ＪＡＦ公認車両一覧",
+   "level": 1,
+   "id": "公認車両一覧"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    409.6,
+    109.0,
+    521.2,
+    124.0
+   ],
+   "text": "（2025年10月1日現在）",
+   "level": 1,
+   "id": "2025年10月1日現在"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    55.3,
+    152.8,
+    515.9,
+    184.1
+   ],
+   "text": "国内競技車両規則およびFIA国際モータースポーツ競技規則付則Ｊ項により競技参加者は各自の車両公認書を携帯することが義務づけられております。車両公認書の購入方法については最寄のＪＡＦ各支部へお問い合せ下さい。（注）ゴシックは基本公認車両です。"
+  },
+  {
+   "type": "heading",
+   "page": 1,
+   "bbox": [
+    36.9,
+    200.3,
+    144.6,
+    219.8
+   ],
+   "text": "トヨタ自動車（株）",
+   "level": 1,
+   "id": "トヨタ自動車-株"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    36.8,
+    220.7,
+    534.3,
+    780.2
+   ],
+   "rows": [
+    [
+     "JAF\n公認No.",
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     "有効期限"
+    ],
+    [
+     "FT-099",
+     "2008年",
+     "トヨタランドクルーザー",
+     "VDJ200",
+     "6691.8",
+     "2575",
+     "T2-2010",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-100",
+     "2011年",
+     "トヨタランドクルーザー",
+     "KDJ155",
+     "4486.9",
+     "1944",
+     "T2-2011",
+     "T",
+     "2026年"
+    ],
+    [
+     "JA-223",
+     "2012年",
+     "ヴィッツ",
+     "NCP131",
+     "1500.8",
+     "",
+     "A-5742",
+     "A",
+     "2026年"
+    ],
+    [
+     "VR1-1/1\nVR1-2/2\nER-3/1",
+     "",
+     "R1B変型\nR1B変型-燃料タンク\n燃料ポンプ",
+     "",
+     "",
+     "",
+     "1/1VR1B\n2/2VR1B\n3/1ER",
+     "",
+     ""
+    ],
+    [
+     "JA-226",
+     "2014年",
+     "GT86",
+     "ZN6",
+     "1999.2",
+     "",
+     "A-5756",
+     "A",
+     "2027年"
+    ],
+    [
+     "VR3-1/1\nVO-2/1\nVO-3/2\nVO-4/3\nVO-5/4\nVR3-6/2\nVO-7/5\nVO-8/6\nVR3-9/3",
+     "",
+     "R3C変型\nDOOR FORM\nGLAZING\nSAFETY CAGE\nBODY SHELL\nスタビライザー、ウィッシュボーン、ステアリングロッド\nVO変型-エンジン、ギア比、ブレーキ、ドライブシャフト他\nVO変型-BODY SHELL\nエンジン、ギア比、ブレーキ、ドライブシャフト他",
+     "",
+     "",
+     "",
+     "2/1 VR3C\n5/4 VO\n4/ 3 VO\n1/1 VO\n3/2 VO\n6/2 VR3C\n7/5 VO\n8/3 VR3C",
+     "",
+     ""
+    ],
+    [
+     "JA-229",
+     "2017年",
+     "ヤリス",
+     "NSP131",
+     "1496.1",
+     "",
+     "A-5771",
+     "A",
+     "2027年"
+    ],
+    [
+     "WR-1/1\nVO-2/1\nVO-3/2\nER-4/1\nER-5/2\nER-6/3\nER-7/4\nVO-8/3\nER-9/5\nVO-10/4\nVO-11/5\nER-12/6\nER-13/7\nER-14/8\nVO-15/6\nVO-16/7\nER-17/9\nER-18/10\nER-19/11\nER-20/12\nVO-21/8\nVO-22/9\nER-23/13\nER-24/14\nVO-25/10\nER-26/15\nER-27/16\nER-28/17\nVO-29/11\nER-30/18\nVO-31/12\nER-32/19\nER-33/20\nVO-34/13",
+     "",
+     "ワールドラリーカー\nVO変型-ALTERNATOR, FAN, SEAT BRACKET,\nSUSPENSION, BRAKE, ROOF VENT\nVO変型-GLAZING\nブレーキディスク冷却穴数訂正\nFIAデータロガーch追加指示対応、Rrデフレール追加等\nFIAデータロギングシステムの写真差し替え\n吸排気バルブ及び吸気カムシャフトの誤記訂正\nVO変型 - GLAZING\nカムシャフト\nVO変型-Seat Bracket\nVO変型-Strut、Shock Absorber他\nエンジンソフトウェア\nボディシェル\nボディシェル\nサスペンション\nブレーキダクト、ドアフォーム\nエンジン制御システム\n燃料タンク、ドアフォーム\nインタークーラー、Frバンパー、Frフェンダー\nシリンダーヘッド、インジェクター\nFrフェンダールーバー、クーリングファン\nELECTRICAL EQUIPMENT, TRANSMISSION, AXLES/\nSUSPENSIONS, RUNNING GEAR, BODYWORK/CHASSIS\nENGINE CONTROL SYSTEM\nENGINE - TIMING\nSEAT BRACKET\nTRANSMISSION 1\nTRANSMISSION 2\nFIA DATA LOGGING SYSTEM\nSEAT BRACKET\nENGINE\nENGINE, COOLING FAN, SUSPENSION, BRAKES,\nDOOR FORM\nIntake Manifold\nSoftware\nEngine Cooling Fan, Alternator, Front Brake Cooling\nDuct, Energy Absorbing Device",
+     "",
+     "",
+     "",
+     "400/01WR\n401/01 VO\n402/02 VO\n403/01 ER\n404/02 ER\n405/03 ER\n406/04 ER\n407/03 VO\n409/01ERJ\n408/04 VO\n411/05VO\n410/02ERJ\n01/01 ER\n414/06 ER\n412/06 1VO\n415/07 VO\n413/05 ER\n419/07ER\n417/04ERJ\n416/03ERJ\n418/08VO\n426/10VO\n420/08 ER\n421/09 ER\n422-09 VO\n423/10 ER\n424/11 ER\n425/12 ER\n427/11 VO\n429/05 ERJ\n430/12VO\n433/07ERJ\n431/06ERJ\n432/13 VO",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 2,
+   "bbox": [
+    466.0,
+    20.4,
+    558.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　トヨタ",
+   "level": 3,
+   "id": "JAF公認車両一覧-トヨタ"
+  },
+  {
+   "type": "table",
+   "page": 2,
+   "bbox": [
+    60.9,
+    57.0,
+    558.4,
+    786.3
+   ],
+   "rows": [
+    [
+     "JAF\n公認No.",
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     "有効期限"
+    ],
+    [
+     "ER-35/21\nER-36/22\nVO-37/14\n-\nER-38/23\nER-39/24\nER-40/25\nVF-41/1\nVO-42/15\nVO-43/16\nVO-44/17\nVO-45/18\nVO-46/19\nER-47/26\nER-48/27\nER-49/28\nVO-50/20\nVO-51/21\nER-52/29\nER-53/30\nVO-54/22\nVO-55/23\nVO-56/24\nVO-57/25\nER-58/31\nVO-59/26\nER-60/32\nER-61/33\nER-62/34\nVO-63/27\nER-64/35\nER-65/36\nVO-66/28\nVO-67/29\nVO-68/30\nVO-69/31\nVO-70/32\nVF-71/2\nER-72/37\nVO-73/33\nVO-74/34\nVO-75/35\nER-76/38\nER-77/39\nVO-78/36\nER-79/40\nER-80/41\nER-81/42\nER-82/43\nVO-83/37\nVF-84/3\nER-85/44\nVO-86/38\nER-87/45\nVO-88/39\nER-89/46\nER-90/47\nVO-91/40\nERJ92/48",
+     "",
+     "ENGINE CONTROL SYSTEM\nTRANSFER BOX AND CENTRAL DIFFERENTIAL\nTURBOCHARGING,\nBODYWORK\nBODY WORK\nFIA DATA LOGGING SYSTEM, BODYWORK\nGEARBOX\nTHROTTLE UNIT\nENGINE COOLING FAN, ALTERNATOR, STRUT,\nSHOCK ABSORBER, AIR DUCT\nBRAKE DISC\nSEAT BRACKET\nSEAT BRACKET\nSEAT BRACKET\nBODYWORK\nSOFTWARE\nENGINE\nAlternator,Gearbox Paddle,Suspension,Brake,Exterior\nSEAT BRACKET\nMedical Lights\nDifferrential\nENGINE COOLING FAN, BRAKE\nBRAKE\nSEAT BRACKET\nUPRIGHT BRACKET\nREAR WING\nSEAT BRACKET\nENGINE\nENGINE\nTransmission, Sub Frame, Tub\nCooling Duct, Wheel Spacer\nENGINE CONTROL SYSTEM\nHub Carrier\nPaddle, Wheel Spacer, Fluid Tank, VA Form\nSEAT BRACKET\nBRAKE DISC\nSEAT MOUNT\nVA Foam\nGearshift Actuator\nGearbox Power Cylinder\nBrake Cooling Air Duct, Wheel Arch Protection\nBRAKE DISC\nBRAKE DISC BELL\nVA Foam\nFront Differential\nRear Stoneguard\nRear Wishbone\nENGINE\nFront fender\nGearbox Casing\nFront wheel arch protection ducts、Front fender louver\nENGINE/TRNSMISSION Electric Motor\nEngine Software\nWheel Arch Protection\nRear Differential\nBrake Disc\nENGINE\nRemovable part of front bumper\nBrake Disc\nENGINE",
+     "",
+     "",
+     "",
+     "428/13 ER\n434/14 VO\n435/15 VO\n436/14 ER\n439/15 ER\n440/08 ERJ\n443/01 VF\n441/18 VO\n437/16 VO\n438/17 VO\n442/19 VO\n444/20 VO\n445/09 ERJ\n448/11 ERJ\n447/10 ERJ\n449/22 VO\n450/23VO\n451/16ER\n452/17ER\n456/26VO\n453/24 VO\n454/25 VO\n456/26VO\n455/18 ER\n446/21 VO\n459/12 ER\n462/14 ERJ\n460/13 ERJ\n461/29 VO\n470/16 ERJ\n464/15 ERJ\n466/31 VO\n457/27 VO\n458/28 VO\n463/30 VO\n467/32 VO\n473/02 VF\n472/17 ERJ\n474/35VO\n468/33 VO\n469/34 VO\n465/19ER\n471/20ER\n478/37 VO\n477/18 ERJ\n483/20 ERJ\n484/21 ERJ\n480/19 ERJ\n485/39 VO\n479/03 VF\n476/21ER\n475/36VO\n482/22 ER\n481/38 VO\n488/23 ERJ\n486/22 ERJ\n487/40VO\n488/23ERJ",
+     "",
+     ""
+    ],
+    [
+     "JG-007",
+     "2017年",
+     "LEXUS RC F",
+     "USC10",
+     "5421.0",
+     "1300",
+     "GT3-046",
+     "GT3",
+     "2031年"
+    ],
+    [
+     "VO-1/1\nVO-2/2\nVO-3/3\nER-4/1\nER-5/2\nVO-6/4\nER-7/3\nER-8/4\nEVO-9/1",
+     "",
+     "VO変型-AIR CONDITIONING SYSTEM\nVO変型-ENDURANCE RACE\nVO変型-SAFETY CAGE\nブレーキディスク\nオイルタンク、ウォータータンク、ブレーキディスク、ス\nキッドプレート\nVO変型-ENDURANCE RACE\n燃料系統、ウィッシュボーンブラケット\nアンチロールバー、ブレーキ、コックピッド\nパワートレイン、サスペンション、ブレーキ、コックピッド、\n空力装置、衝撃吸収構造",
+     "",
+     "",
+     "",
+     "01/01 VO\n02/02 VO\n03/03 VO\n04/01ER\n05/04VO\n06/02ER\n08/04ER\n〃",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 3,
+   "bbox": [
+    36.9,
+    20.4,
+    129.2,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　トヨタ",
+   "level": 3,
+   "id": "JAF公認車両一覧-トヨタ-2"
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    36.8,
+    57.0,
+    534.3,
+    777.0
+   ],
+   "rows": [
+    [
+     "JAF\n公認No.",
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     "有効期限"
+    ],
+    [
+     "VO-10/5\nVO-11/6\nER-12/5\nER-13/6\nVF-14/1\nVO-15/7\nER-16/7\nER-17/8\nER-18/9\nER-19/10\nVF-20/2\nVO-21/8\nER-22/11\nVF-23/9\nER-24/12",
+     "",
+     "VO変型-ENDURANCE RACE\n安全ケージ\n諸元\n諸元、ギアボックス、サスペンション、ブレーキ\nクラッチ\nエアコン\nエンジンデータシート\nSTEERING MECHANISM\nSUSPENSION\nENGINE\nFUEL PUMP, DASHBOARD SWITCHS\nADR POSISION\nENGINE\nPOWER TRAIN, BRAKING SYSTEM\nENGINE",
+     "",
+     "",
+     "",
+     "10/06VO\n09/05VO\n07/03ER\n11/05ER\n13/01VF\n12/06VO\n14/06ER\n15/07ER\n17/09ER\n16/08ER\n18/02VF\n19/07VO\n20/10ER\n21/03VF\n22/11ER",
+     "",
+     ""
+    ],
+    [
+     "JRa1-001",
+     "2022年",
+     "GR YARIS RALLY1",
+     "MXPA12",
+     "",
+     "",
+     "Ra1-22/03",
+     "Rally1",
+     "2030年"
+    ],
+    [
+     "VO-1/1\nER-2/1\nERJ-3/1\nER-4/2\nVO-5/2\nERJ-6/2\nVO-7/3\nER-8/3\nVO-9/4\nER-10/4\nVF-11/1\nVO-12/5\nERJ-13/3\nERJ-14/4\nER-15/5\nERJ-16/5\nERJ-17/6\nVO-18/6\nERJ-19/7\nVO-20/7\nERJ-21/8\nERJ-22/9\nERJ-23/10\nER-24/6\nVO-25/8\nVO-26/9\nVO-27/11\nVO-28/12\nERJ-29/13\nVO-30/10\nER31/7\nERJ-32/14\nERJ-33/15\nERJ-34/16\nVO-35/11\nVF-36/02\nERJ-37/17\nVO-38/12\nERJ-39/18\nER-40/08\nERJ-41/19\nVO-42/13\nER-43/9\nVO-44/14\nERJ-45/20\nER-46/10\nER-47/11\nERJ-48/21\nVO-49/15\nERJ-50/22\nER-51/12\nER-52/13\nER-53/14",
+     "",
+     "GENERAL, ENGINE, ELECTRICAL EQUIPMENT,\nPOWER TRAIN,SUSPENSION, RUNNING GEAR,\nCHASSIS, SAFETY\nGENERAL, ENGINE, SUSPENSION\nGENERAL, ENGINE\nGENERAL, ENGINE\nGENERAL, CHASSIS\nGENERAL, ENGINE\nGENERAL, SUSPENSION\nGENERAL, BODYWORK\nGENERAL, SUSPENSION\nGENERAL\nENGINE\nGENERAL, BODYWORK\nGENERAL, ENGINE\nGENERAL, BODYWORK\nGENERAL, ENGINE\nGENERAL, ENGINE\nGENERAL, BODYWORK-CHASSIS, SAFETY\nGENERAL, TRANSMISSION\nGENERAL, CHASSIS\nGENERAL, CHASSIS\nGENERAL, TRANSMISSION\nGENERAL, ENGINE\nGENERAL, TRANSMISSION\nGENERAL, ENGINE\nGENERAL, SUSPENSION, BRAKE, STEERING, CHASSIS\nENGINE, BODYWORK\nENGINE\nPOWER TRAIN\nENGINE\nSUSPENSIONS, RUNNING GEAR\nENGINE\nENGINE, POWER TRAIN\nENGINE\nSUSPENSION\nSUSPENSION, RUNNING GEAR\nENGINE\nENGINE\nSUSPENSION, BODYWORK\nENGINE\nENGINE\nTRANSMISSION\nSUSPENSIONS\nENGINE\nRUNNING GEAR\nCAMSHAFT\nGENERAL\nTRANSMISSION\nENGINE\nAXLES-SUSPENSIONS, RUNNING GEAR\nTRANSMISSION\nENGINE\nAXLES-SUSPENSIONS\nENGINE",
+     "",
+     "",
+     "",
+     "01/01 VO\n02/01 ER\n03/01 ERJ\n04/02 ER\n05/02 VO\n06/02 ERJ\n07/03 VO\n08/03 ER\n09/04 VO\n10/04 ER\n11/01 VF\n12/05 VO\n13/03 ERJ\n14/04 ERJ\n15/05 ER\n16/05 ERJ\n17/06 ERJ\n18/06 VO\n19/07 ERJ\n20/07 VO\n21/08 ERJ\n22/09 ERJ\n23/10 ERJ\n24/06 ER\n25/08 VO\n26/09 VO\n27/11 VO\n28/12 VO\n29/13 ERJ\n30/10 VO\n31/07 ER\n32/14 ERJ\n33/15 ERJ\n34/16 ERJ\n35/11 VO\n36/02 VF\n37/17 ERJ\n38/12 VO\n39/18 ERJ\n40/08 ER\n41/19 ERJ\n42/13 VO\n43/09 ER\n44/14 VO\n45/20 ERJ\n46/10 ER\n47/11 ER\n48/21 ERJ\n49/15 VO\n50/22 ERJ\n51/12 ER\n52/13 ER\n53/14 ER",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 4,
+   "bbox": [
+    466.0,
+    20.4,
+    558.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　トヨタ",
+   "level": 3,
+   "id": "JAF公認車両一覧-トヨタ-3"
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    60.9,
+    57.0,
+    558.4,
+    496.4
+   ],
+   "rows": [
+    [
+     "JAF\n公認No.",
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     "有効期限"
+    ],
+    [
+     "ER-54/15\nVO-55/16\nERJ-56/23\nVO-57/17\nER-58/16\nVO-59/18\nVF-60/03\nER-61/17\nER-62/18",
+     "",
+     "ENGINE\nAXLES-SUSPENSIONS, RUNNING GEAR\nENGINE\nAXLES-SUSPENSIONS\nENGINE\nRUNNING GEAR\nFUEL CIRCUIT\nENGINE\nENGINE",
+     "",
+     "",
+     "",
+     "54/15 ER\n55/16 VO\n56/23 ERJ\n57/17 VO\n58/16 ER\n59/18 VO\n60/03 VF\n61/17 ER\n62/18 ER",
+     "",
+     ""
+    ],
+    [
+     "FT-104",
+     "2022年",
+     "LAND CRUISER GR SPORT",
+     "FJA300",
+     "5030.5",
+     "",
+     "T2-2018",
+     "T",
+     "2031年"
+    ],
+    [
+     "VF-1/1\nVO-2/1\nVO-3/2\nVO-4/3\nVO-5/4",
+     "",
+     "ENGINE\nPOWER TRAIN, RUNNING GEAR, BODYWORK\nENGINE\nBODY WORK\nENGINE",
+     "",
+     "",
+     "",
+     "01/01 VF\n02/01 VO\n03/02 VO\n04/03 VO\n05/04 VO",
+     "",
+     ""
+    ],
+    [
+     "JA-230",
+     "2024年",
+     "G16E-GTS （ENGINE）",
+     "",
+     "",
+     "",
+     "A-5787",
+     "A",
+     "2031年"
+    ],
+    [
+     "VF-1/1",
+     "",
+     "ENGINE",
+     "",
+     "",
+     "",
+     "01/01 VF",
+     "",
+     ""
+    ],
+    [
+     "JA-231",
+     "2024年",
+     "GR YARIS RS 1.5L",
+     "MXPA12",
+     "",
+     "",
+     "A-5788",
+     "A",
+     "2031年"
+    ],
+    [
+     "VRa2-1/1\nVO-2/1\nVO-3/2\nVO-4/3\nVF-5/1\nVF-6/2\nER-7/1\nER-8/2\nER-9/3\nER-10/4\nERJ-11/1\nVO-12/4\nVO-13/5\nERJ-14/2\nERJ-15/3\nER-16/5\nVO-17/6\nER-18/6\nVF-19/3\nERJ-20/4\nVO-21/7",
+     "",
+     "DIMENSIONS WEIGHT, ENGINE, FUEL CIRCUIT,\nELECTRICAL EQUIPMENT,\nPOWER TRAIN, SUSPENSION, RUNNING GEAR,\nBODYWORK, SAFETY\nBODYWORK\nBODYWORK\nPOWER TRAIN, RUNNING GEAR, BODYWORK,\nSAFETY\nBODYWORK\nENGINE\nPOWER TRAIN\nBODYWORK\nAXLES AND SUSPENTION\nTRANSMISSION\nBODYWORK-CHASSIS(BODYSHELL)\nGENERAL\nBODYWORK-CHASSIS(BODYSHELL)\nENGINE\nENGINE\nAXLES AND SUSPENTION\nBODYWORK-CHASSIS(BODYSHELL)\nENGINE\nENGINE\nBODYWORK-CHASSIS(BODYSHELL)\nGENERAL",
+     "",
+     "",
+     "",
+     "01/01 VRa2\n02/01 VO\n03/02 VO\n04/03 VO\n05/01 VF\n06/02 VF\n07/01 ER\n08/02 ER\n09/03 ER\n10/04 ER\n11/01 ERJ\n12/04 VO\n13/05 VO\n14/02 ERJ\n15/03 ERJ\n16/05 ER\n17/06 VO\n18/06 ER\n19/03 VF\n20/04 ERJ\n21/07 VO",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    36.9,
+    20.4,
+    121.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　日産",
+   "level": 3,
+   "id": "JAF公認車両一覧-日産"
+  },
+  {
+   "type": "heading",
+   "page": 5,
+   "bbox": [
+    36.9,
+    52.9,
+    132.5,
+    72.4
+   ],
+   "text": "日産自動車（株）",
+   "level": 1,
+   "id": "日産自動車-株"
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    36.8,
+    73.3,
+    534.3,
+    783.1
+   ],
+   "rows": [
+    [
+     "JAF\n公認No.",
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     "有効期限"
+    ],
+    [
+     "FT-069",
+     "1998年",
+     "パトロール",
+     "TBSY61",
+     "4478.8",
+     "2081",
+     "T-1093",
+     "T",
+     "2026年"
+    ],
+    [
+     "VO-1/1",
+     "",
+     "ファイナルドライブ",
+     "",
+     "",
+     "",
+     "1/1VO",
+     "",
+     ""
+    ],
+    [
+     "FT-085",
+     "2002年",
+     "パトロール",
+     "TGPSY61",
+     "4758.7",
+     "2083",
+     "T-1111",
+     "T",
+     "2026年"
+    ],
+    [
+     "VO-1/1\nER-2/1\nET-3/1",
+     "",
+     "ファイナルドライブ\nフライホイール、スタビライザー\nフロントバンパー、リアバンパー",
+     "",
+     "",
+     "",
+     "1/1VO\n2/1ER\n3/1ET",
+     "",
+     ""
+    ],
+    [
+     "FT-086",
+     "2002年",
+     "ダブルキャブ",
+     "D22",
+     "3728.0",
+     "1775",
+     "T-1110",
+     "T",
+     "2026年"
+    ],
+    [
+     "ER-2/1\nVP-3/2",
+     "",
+     "エンジン\nトランスミッション,ブレーキ",
+     "",
+     "",
+     "",
+     "1/1ER\n2/1VP",
+     "",
+     ""
+    ],
+    [
+     "FT-096",
+     "2007年",
+     "ナバラ",
+     "D40",
+     "3732.6",
+     "2013",
+     "T2-2006",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-098",
+     "2008年",
+     "パスファインダー",
+     "R51",
+     "3732.75",
+     "2170",
+     "T2-2009",
+     "T",
+     "2026年"
+    ],
+    [
+     "JG-003",
+     "2009年",
+     "GT-R",
+     "R35",
+     "",
+     "",
+     "GT1-003",
+     "GT1",
+     "2026年"
+    ],
+    [
+     "VO-1/1\nVO-2/2\nVO-3/3\nER-4/1\nER-5/2\nER-6/3",
+     "",
+     "FIA-GT1ロールケージ\n2009年GT1参戦に伴う暫定VO（FIA指示による）\n2009年GT1参戦に伴うVO（GT Bureauによる発行）\nリアサスペンション\nリアサブフレーム\n2009年GT1参戦に伴うER",
+     "",
+     "",
+     "",
+     "1/1VO\n2/2VO\n3/3VO\n4/1ER\n5/2ER\n6/3ER",
+     "",
+     ""
+    ],
+    [
+     "JG-004",
+     "2010年",
+     "GT-R",
+     "R35",
+     "5557.6",
+     "1250",
+     "GT1-101",
+     "GT1",
+     "2026年"
+    ],
+    [
+     "VO-1/1\nER-2/1\nER-3/2\nER-4/3\nER-5/4\nER-6/5\nER-7/6",
+     "",
+     "ロールケージ\nバンパー\nフェンダー\nトランスミッションシャフト\n2011年仕様のER（ルーフ他９件）\nFr upr arm重量 誤記訂正\nCam dimensions 誤記訂正",
+     "",
+     "",
+     "",
+     "1/1VO\n2/1ER\n3/2ER\n4/3ER\n5/4ER\n6/5ER\n7/6ER",
+     "",
+     ""
+    ],
+    [
+     "JG-005",
+     "2012年",
+     "GT-R",
+     "R35",
+     "6458.8",
+     "1300",
+     "GT3-030",
+     "GT3",
+     "2026年"
+    ],
+    [
+     "VO-1/1\nVO-2/2\nER-3/1\nER-5/2\nVO-6/4\nVF-7/1\nEVO-8/1\nVO-10/6\nVO-11/7\nER-12/3\nVO-13/8\nER-14/4\nER-15/5\nER-16/6\nER-17/7\nEVO-18/2\nVO-19/9\nVO-20/10\nVF-21/2\nER-22/8\nVF-23/3\nER-24/9\nVO-25/11\nVF-26/4\nVF-27/5\nER-28/10\nVO-29/12\nER-30/11\nER-31/12",
+     "",
+     "ロールケージ\nエアコンディショナー\nサイドシルカバー排熱口追加\nホイールベース、最低車高、デファレンシャル、アクスル等\n触媒\nオイルサンプ（バッフルプレート）、ショックアブソーバー\nコンロッド、カムシャフト、トランク穴、燃料タンク、リ\nアブレーキ、リアウイング等\nEndurance KIT\nエアコン\nフライホイール、ギアボックスピニオンBRG他\nEndurance FR AXL Parts（Hub Brg.、Center Sft.）\nWheel Speed Sensor\nエアジャッキバルブ位置、サイドミラーステイ、前後アク\nスルシステム、ホイール固定装置等\nカムシャフト\nフューエルポンプ製品番号、バッテリー位置、ステアリン\nグラック比ストローク値\n外観意匠変更、アクスル、ブレーキ、フライホイール、イ\nンタークーラー、ラジエター他\nロールケージ\nブレーキ･リザーバータンク、クラッチ･リザーバータンク\n追加他\nアウトサイドミラー\nBrake Master Cylinder変更（耐久信頼性向上）\n日産自動車、及び、レインライトのサプライヤー都合によ\nる部品仕様の変更\nセーフティーネットの追加対応\nENDURANCE VOへのFRブレーキシステムの追加申請\nプロペラシャフトに関するメーカー並びに使用変更の申請\nLENTUS製プロペラシャフトに関するVF申請（耐久信頼\n性向上）\n車両公認書中の車両全長に関する交差変更に伴う申請（±\n5→±10）\nENDURANCE VO/FRブレーキディスク・ベルの一部形状\n変更に関するVO申請\nFRブレーキディスク・ベルの一部形状変更に関するER申請\nスパークプラグ",
+     "",
+     "",
+     "",
+     "1/1VO\n2/2VO\n3/1ER\n4/2ER\n8/3VO\n5/1VF\n6/1EVO\n10/5VO\n9/4VO\n7/3ER\n12/6VO\n11/4ER\n13/5ER\n〃\n15/6ER\n16/2EVO\n14/7VO\n18/8VO\n17/2VF\n19/7ER\n21/08 ER\n22/09 VO\n26/05VF\n28/12ER\n30/10VO\n29/13ER\n31/14ER",
+     "",
+     ""
+    ],
+    [
+     "FT-102",
+     "2014年",
+     "PATROL",
+     "Y62",
+     "5569.6",
+     "2434",
+     "T2-2016",
+     "T",
+     "2026年"
+    ],
+    [
+     "JG-008",
+     "2017年",
+     "NISSAN GT-R",
+     "R35",
+     "",
+     "1290",
+     "GT3-048",
+     "GT3",
+     "2031年"
+    ],
+    [
+     "VO-1/1\nVO-2/2\nER-3/1",
+     "",
+     "Safety Cage\nAir Conditioner\nRear window fastener, Exhaust Manifold, Gear ratio,\nSuspension Arm, Brake Disc, etc..",
+     "",
+     "",
+     "",
+     "01/01 VO\n02/02 VO\n03/01 ER",
+     "",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 6,
+   "bbox": [
+    473.8,
+    20.4,
+    558.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　日産",
+   "level": 3,
+   "id": "JAF公認車両一覧-日産-2"
+  },
+  {
+   "type": "table",
+   "page": 6,
+   "bbox": [
+    100.6,
+    57.0,
+    524.4,
+    241.3
+   ],
+   "rows": [
+    [
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ"
+    ],
+    [
+     "",
+     "Endurance VO: Sub fuel pump\nAirconditioning system\nReinforced Rear subframe\nSpark plug(FIA request)\nEndurance VO: Carbon Clutch\nGear Ratio（6th）\n10 COCPIT: Switches on a Steering Wheel and a\nDashboard\nAirconditioning system\n10 COCPIT: Main Switch on a Dashboard\n8 BRAKING SYSTEM: ANTI-BLOCKING SYSTEM\n（ABS）\nROLLBAR\nADR POSITION\nRR ANTI-ROLL BAR\nFUEL CIRCUIT\nAXLES, STEERING AND SUSPENSION",
+     "",
+     "",
+     "",
+     "04/03 VO\n05/04 VO\n07/03 ER\n06/02 ER\n08/05 VO\n09/04 ER\n10/01 EVO\n11/06 VO\n12/05 ER\n13/01 VF\n14/02 VF\n15/07 VO\n16/6 ER\n17/03 VF\n18/01ESF",
+     ""
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 7,
+   "bbox": [
+    36.9,
+    20.4,
+    121.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　三菱",
+   "level": 3,
+   "id": "JAF公認車両一覧-三菱"
+  },
+  {
+   "type": "heading",
+   "page": 7,
+   "bbox": [
+    36.9,
+    52.9,
+    153.1,
+    72.4
+   ],
+   "text": "三菱自動車工業（株）",
+   "level": 1,
+   "id": "三菱自動車工業-株"
+  },
+  {
+   "type": "table",
+   "page": 7,
+   "bbox": [
+    36.8,
+    73.3,
+    534.3,
+    102.0
+   ],
+   "rows": [
+    [
+     null,
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     null
+    ],
+    [
+     "FT-094",
+     "2007年",
+     "パジェロターボディーゼル",
+     "V88W",
+     "4800.8",
+     "1936",
+     "T2-2004",
+     "T",
+     "2026年"
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 8,
+   "bbox": [
+    456.2,
+    20.4,
+    558.4,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　SUBARU",
+   "level": 3,
+   "id": "JAF公認車両一覧-SUBARU"
+  },
+  {
+   "type": "heading",
+   "page": 8,
+   "bbox": [
+    54.6,
+    52.9,
+    140.8,
+    72.4
+   ],
+   "text": "（株）SUBARU",
+   "level": 1,
+   "id": "株-SUBARU"
+  },
+  {
+   "type": "table",
+   "page": 8,
+   "bbox": [
+    60.9,
+    73.3,
+    558.4,
+    170.8
+   ],
+   "rows": [
+    [
+     null,
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     null
+    ],
+    [
+     "JA-228",
+     "2015年",
+     "スバル WRX STI",
+     "VAB",
+     "3396.3",
+     "",
+     "A-5758",
+     "A",
+     "2027年"
+    ],
+    [
+     null,
+     "",
+     "外装、インタークーラー、ホイール、ブレーキ、内装、フ\nロントガラス",
+     "",
+     "",
+     "",
+     "1/1ET",
+     "",
+     null
+    ],
+    [
+     "FN-089",
+     "2015年",
+     "スバル WRX STI",
+     "VAB",
+     "3396.3",
+     "1393",
+     "N-5758",
+     "N",
+     "2027年"
+    ],
+    [
+     null,
+     "",
+     "ターボ、サスペンション、ブレーキ\nウィンドウ\n不要ブラケット削除\n最低重量、スタビライザー",
+     "",
+     "",
+     "",
+     "1/1VO\n2/2VO\n3/1ET",
+     "",
+     null
+    ]
+   ]
+  },
+  {
+   "type": "heading",
+   "page": 9,
+   "bbox": [
+    36.9,
+    20.4,
+    129.2,
+    32.3
+   ],
+   "text": "JAF公認車両一覧　いすゞ",
+   "level": 3,
+   "id": "JAF公認車両一覧-いすゞ"
+  },
+  {
+   "type": "heading",
+   "page": 9,
+   "bbox": [
+    36.9,
+    52.9,
+    144.6,
+    72.4
+   ],
+   "text": "いすゞ自動車（株）",
+   "level": 1,
+   "id": "いすゞ自動車-株"
+  },
+  {
+   "type": "table",
+   "page": 9,
+   "bbox": [
+    36.8,
+    73.3,
+    534.3,
+    152.4
+   ],
+   "rows": [
+    [
+     null,
+     "FIA\n公認発効年",
+     "車 両 名\n（変型・正常進化の内容）",
+     "型式",
+     "排気量",
+     "最低重量\n（kg）",
+     "FIA公認No.",
+     "グループ",
+     null
+    ],
+    [
+     "FT-087",
+     "2003年",
+     "D-MAX",
+     "TFS26",
+     "3494.3",
+     "1770",
+     "T-1112",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-088",
+     "2003年",
+     "D-MAX",
+     "TFS77",
+     "4499.0",
+     "1850",
+     "T-1113",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-092",
+     "2005年",
+     "D-MAX",
+     "TFS85",
+     "4499.0",
+     "1800",
+     "T2-2002",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-093",
+     "2007年",
+     "D-MAX",
+     "TFS85H",
+     "4499.0",
+     "1810",
+     "T2-2003",
+     "T",
+     "2026年"
+    ],
+    [
+     "FT-101",
+     "2013年",
+     "D-MAX",
+     "TFS85",
+     "4499",
+     "1810/1834",
+     "T2-2013",
+     "T",
+     "2029年"
+    ],
+    [
+     "FT-103",
+     "2015年",
+     "MU-X",
+     "UCS85",
+     "4499",
+     "1895/1920",
+     "T2-2017",
+     "T",
+     "2028年"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10468 @@
+{
+ "title": "No.002-2026_添付資料2",
+ "source": "internal",
+ "sourceUrl": "https://motorsports.jaf.or.jp/regulations/information/internal",
+ "section": "全日本選手権等統一規則およびブルテン",
+ "group": "2026年 全日本選手権レースブルテン",
+ "pdfUrl": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3400/3462/3466/3493/race_bulletin_002-2026_att_2_20260226.pdf",
+ "uploadDate": "2026-02-26",
+ "sha256": "75aed0a2aecffcfe6ec019dc9da30e46208a6861fa77c9cfdd240535f23eefdc",
+ "docId": "race_bulletin_002-2026_att_2_20260226-d1237f",
+ "pageCount": 18,
+ "pipelineVersion": "0.2.0",
+ "convertedAt": "2026-09-09T13:18:47+00:00",
+ "stats": {
+  "chars": 65863,
+  "figures": 1,
+  "tables": 18,
+  "ocrPages": []
+ },
+ "warnings": [],
+ "toc": [],
+ "blocks": [
+  {
+   "type": "figure",
+   "page": 1,
+   "bbox": [
+    28.1,
+    14.2,
+    578.9,
+    73.3
+   ],
+   "asset": "assets/fig-p0001-01.webp"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "bbox": [
+    103.9,
+    75.6,
+    503.7,
+    84.8
+   ],
+   "text": "本パーツリスト中、黄色枠のパーツは車両製造メーカー純正品のみ使用可能であることを示しています。"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "bbox": [
+    28.8,
+    88.2,
+    578.9,
+    817.3
+   ],
+   "rows": [
+    [
+     "Pos artic",
+     "Commercial Co",
+     "Item Code",
+     "English Description",
+     "QTY"
+    ],
+    [
+     "1",
+     "",
+     "32091001A",
+     "Monocoque & Accessories - Monocoque & External Items",
+     "1"
+    ],
+    [
+     "1",
+     "F32001A001",
+     "32021035",
+     "Monocoque with bushings and studs (no engine studs)",
+     "1"
+    ],
+    [
+     "2",
+     "F31701A048",
+     "31722003",
+     "Stud M8 - upper nose",
+     "4"
+    ],
+    [
+     "3",
+     "F32001A003",
+     "FE1822017",
+     "Stud M8x1.25",
+     "4"
+    ],
+    [
+     "4",
+     "FCOM1100",
+     "39922008",
+     "Front wing mounting stud",
+     "4"
+    ],
+    [
+     "5",
+     "F32001A005",
+     "G31622007",
+     "Camloc",
+     "2"
+    ],
+    [
+     "6",
+     "F32001A006",
+     "32022002",
+     "Bushing for ARB fixing on chassis front face",
+     "4"
+    ],
+    [
+     "7",
+     "FCOM1523",
+     "30222055",
+     "Stud M8X32",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0329",
+     "39722035",
+     "Stud M8",
+     "1"
+    ],
+    [
+     "9",
+     "FCOM0206",
+     "30522005",
+     "Bush",
+     "5"
+    ],
+    [
+     "10",
+     "F32001A010",
+     "32021151LH",
+     "Chassis front block LH",
+     "1"
+    ],
+    [
+     "11",
+     "F32001A011",
+     "32021151RH",
+     "Chassis front block RH",
+     "1"
+    ],
+    [
+     "12",
+     "F32001A012",
+     "SF1921200LH",
+     "Chassis - Pedal access cover LH",
+     "1"
+    ],
+    [
+     "13",
+     "F32001A013",
+     "SF1921200RH",
+     "Chassis - Pedal access cover RH",
+     "1"
+    ],
+    [
+     "14",
+     "F32001A014",
+     "SF1921201",
+     "Chassis - Damper access cover",
+     "1"
+    ],
+    [
+     "15",
+     "F32001A015",
+     "SF1922021",
+     "Halo front fixing Nut",
+     "1"
+    ],
+    [
+     "16",
+     "F32001A016",
+     "SF1922020",
+     "Halo front fixing pivot",
+     "1"
+    ],
+    [
+     "17",
+     "F32001A017",
+     "SF1921230",
+     "Halo front fixing clevis",
+     "1"
+    ],
+    [
+     "18",
+     "F32001A018",
+     "FE1822013",
+     "Rear halo attachment Bolt",
+     "2"
+    ],
+    [
+     "19",
+     "F32001A019",
+     "FE1822018",
+     "M10 x 1.5 screw for halo mid rear attachment",
+     "2"
+    ],
+    [
+     "20",
+     "F32001A020",
+     "FE1822014",
+     "Rear halo attachment pin with oblique cut",
+     "1"
+    ],
+    [
+     "21",
+     "F32001A021",
+     "SF1918008",
+     "Fire Extinguisher Bracket",
+     "1"
+    ],
+    [
+     "22",
+     "F32001A022",
+     "SF1921166LH",
+     "Upper Cone LH",
+     "1"
+    ],
+    [
+     "23",
+     "F32001A023",
+     "SF1921166RH",
+     "Upper Cone RH",
+     "1"
+    ],
+    [
+     "24",
+     "F32001A024",
+     "SF1921168LH",
+     "Lower Cone LH",
+     "1"
+    ],
+    [
+     "25",
+     "F32001A025",
+     "SF1921168RH",
+     "Lower Cone RH",
+     "1"
+    ],
+    [
+     "26",
+     "F32001A026",
+     "32021221",
+     "Bush",
+     "2"
+    ],
+    [
+     "27",
+     "F32001A027",
+     "SF1922022",
+     "Seat Fixing Point Pin",
+     "2"
+    ],
+    [
+     "28",
+     "FCOM0330",
+     "39722036",
+     "Suspension Bracket Stud",
+     "4"
+    ],
+    [
+     "29",
+     "FCOM0325",
+     "39722011",
+     "Dowel Bush",
+     "2"
+    ],
+    [
+     "30",
+     "F32001A030",
+     "SF1922027",
+     "Belt Lower Fixing Point - Stud",
+     "2"
+    ],
+    [
+     "31",
+     "F32001A031",
+     "32021237",
+     "Rear Chassis panel",
+     "1"
+    ],
+    [
+     "32",
+     "F32001A032",
+     "32021074",
+     "Roll hoop",
+     "1"
+    ],
+    [
+     "33",
+     "F32001A033",
+     "SF1921215",
+     "Assembly - Keel",
+     "1"
+    ],
+    [
+     "34",
+     "F31201A010",
+     "31255275",
+     "Top hat bush",
+     "4"
+    ],
+    [
+     "35",
+     "F31201A011",
+     "31255276",
+     "Top hat bush",
+     "4"
+    ],
+    [
+     "36",
+     "F32001A036",
+     "32022003",
+     "Top hat for bushings (id=10mm - oD=22mm - h=3.5mm)",
+     "2"
+    ],
+    [
+     "37",
+     "F32001A037",
+     "SF1422008",
+     "Bush",
+     "2"
+    ],
+    [
+     "38",
+     "F32001A038",
+     "32021142RH",
+     "RH Lateral Bodywork Outline",
+     "1"
+    ],
+    [
+     "39",
+     "F32001A039",
+     "32021142LH",
+     "LH Lateral Bodywork Outline",
+     "1"
+    ],
+    [
+     "40",
+     "F32001A040",
+     "SF1922029",
+     "Seat Fixing Point Pin - Seat Bulkhead",
+     "2"
+    ],
+    [
+     "41",
+     "F32001A041",
+     "AFP21002",
+     "HALO 3/B - Machined Assembly",
+     "1"
+    ],
+    [
+     "42",
+     "F32001A042",
+     "SF1921256",
+     "Halo - front fix fairing",
+     "1"
+    ],
+    [
+     "51",
+     "FCOM0674",
+     "MINU36007",
+     "Time Sert M8x1.25x16.2 mm",
+     "2"
+    ],
+    [
+     "52",
+     "F320100002",
+     "VITE30294",
+     "Bolt MS21250-08016",
+     "4"
+    ],
+    [
+     "53",
+     "F320100003",
+     "32022010",
+     "Bolt LWB 22-6-6",
+     "2"
+    ],
+    [
+     "54",
+     "F320100004",
+     "VITE27149",
+     "Bolt LWB 22-6-16",
+     "2"
+    ],
+    [
+     "55",
+     "FCOM0798",
+     "VITE38013",
+     "Washer dia.10 (10.15x18x2) Uni 1750",
+     "2"
+    ],
+    [
+     "56",
+     "FCOM0774",
+     "VITE32255",
+     "Nut 3/8-24",
+     "2"
+    ],
+    [
+     "57",
+     "F320100007",
+     "VITE08037",
+     "FHCS 5 x 12 - 10.9",
+     "11"
+    ],
+    [
+     "58",
+     "F320100008",
+     "MINU362491X",
+     "Bighead Male SM1/B23-M6x12 ( Inox steel 316)",
+     "2"
+    ],
+    [
+     "59",
+     "FCOM0735",
+     "VITE08021",
+     "FHCS 4 x 10 - 10.9",
+     "10"
+    ],
+    [
+     "60",
+     "FCOM0721",
+     "VITE06019",
+     "BHCS M5 x 12 - 10.9",
+     "4"
+    ],
+    [
+     "61",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "4"
+    ],
+    [
+     "62",
+     "FCOM1281",
+     "VITE38003",
+     "Washer dia. 6 Uni 1734",
+     "4"
+    ],
+    [
+     "63",
+     "F320100013",
+     "VITE40005",
+     "Washer MS20002C8",
+     "4"
+    ],
+    [
+     "64",
+     "FCOM1297",
+     "VITE32257",
+     "Nut 1/2-20",
+     "4"
+    ],
+    [
+     "65",
+     "F302015041",
+     "VITE08081",
+     "FHCS 8 x 45 - 10.9",
+     "2"
+    ],
+    [
+     "66",
+     "FCOM0776",
+     "VITE34054",
+     "Floating Nutplate M6 Astori F700L-06",
+     "4"
+    ],
+    [
+     "67",
+     "F320100017",
+     "MINU27133",
+     "Rivet, Blind, Countersunk, Textron p/n 1604-0412",
+     "8"
+    ],
+    [
+     "2",
+     "",
+     "32091001B 24",
+     "Monocoque & Accessories - Cockpit Area - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32001B001",
+     "_\n32023040",
+     "Leg Padding",
+     "1"
+    ],
+    [
+     "2",
+     "F32001B002",
+     "32023027",
+     "Headrest - CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32001B003",
+     "SF1923029",
+     "Seat Support",
+     "1"
+    ],
+    [
+     "4",
+     "F32401B004",
+     "32423021",
+     "Cockpit Area Switch Support SX",
+     "1"
+    ],
+    [
+     "5",
+     "F32001B005",
+     "32023032",
+     "Dash Panel RH",
+     "1"
+    ],
+    [
+     "6",
+     "F31202B002",
+     "20823014",
+     "Head rest retaining pin",
+     "2"
+    ],
+    [
+     "7",
+     "F31202B005",
+     "31223010",
+     "Wind Screen",
+     "1"
+    ],
+    [
+     "8",
+     "F320100369",
+     "20822016",
+     "Head rest fixing pin",
+     "2"
+    ],
+    [
+     "21",
+     "FCOM0795",
+     "VITE38009",
+     "Washer dia. 5 (5.14x10x0.8) Uni 1750",
+     "6"
+    ],
+    [
+     "22",
+     "FCOM1149",
+     "VITE38008",
+     "Washer dia. 4 (4.14x8x0.5)",
+     "9"
+    ],
+    [
+     "23",
+     "FCOM0721",
+     "VITE06019",
+     "BHCS M5 x 12 - 10.9",
+     "6"
+    ],
+    [
+     "24",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "9"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 2,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "25",
+     "FCOM0815",
+     "VITE38073",
+     "Washer dia. 6 (6.4x12x0.5)",
+     "4"
+    ],
+    [
+     "26",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "4"
+    ],
+    [
+     "3",
+     "",
+     "32091001C",
+     "Monocoque & Accessories - Seat & Seat Belts",
+     "1"
+    ],
+    [
+     "1",
+     "F32001C001",
+     "G31623020",
+     "Extractable seat - CPL",
+     "1"
+    ],
+    [
+     "2",
+     "F32001C002",
+     "G31623021",
+     "Driver seat EPP bottom area",
+     "1"
+    ],
+    [
+     "3",
+     "F32001C003",
+     "G31623022",
+     "Driver seat EPP driver's back area",
+     "1"
+    ],
+    [
+     "4",
+     "F32001C004",
+     "G31623023",
+     "Driver seat EPP driver's shoulder area",
+     "1"
+    ],
+    [
+     "5",
+     "F32001C005",
+     "32023022",
+     "Seat Belts SPARCO F3 DALLARA 320 04823HNRSP02",
+     "1"
+    ],
+    [
+     "6",
+     "FCOM0314",
+     "39721072",
+     "Shoulders Safety Belts Bracket",
+     "2"
+    ],
+    [
+     "21",
+     "FCOM0797",
+     "VITE38012",
+     "Washer dia.8 (8.15x15x1.5) Uni 1750",
+     "4"
+    ],
+    [
+     "22",
+     "F320100024",
+     "VITE02358",
+     "SHCS M8 x 25 - 12.9",
+     "4"
+    ],
+    [
+     "23",
+     "F320100025",
+     "VITE38094",
+     "Washer dia.8 (9x24x2)",
+     "2"
+    ],
+    [
+     "24",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "4"
+    ],
+    [
+     "3",
+     "",
+     "32091001D 24",
+     "Monocoque & Accessories - Fire Extinguisher & Heat Protections - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32001D001",
+     "_\nSF1918019",
+     "KIT Extinguisher OMP Cefal3 - Without Control Unit - NO PRESSURE - DL-21818014/SP/E",
+     "1"
+    ],
+    [
+     "2",
+     "F32001D002",
+     "21818019",
+     "ECU extinguisher",
+     "1"
+    ],
+    [
+     "3",
+     "F32001D003",
+     "21818016",
+     "Spray line kit 8mm",
+     "1"
+    ],
+    [
+     "4",
+     "F32001D004",
+     "21818017",
+     "Spray line kit 6mm",
+     "1"
+    ],
+    [
+     "5",
+     "F32001D005",
+     "SF1918020",
+     "Extinguisher OMP - Bottle D100 Complete - NO PRESSURE DL-21818014/B/SP/E",
+     "1"
+    ],
+    [
+     "6",
+     "F31201D010",
+     "31218027",
+     "3 nozzle engine spray bracket",
+     "1"
+    ],
+    [
+     "7",
+     "F31201D011",
+     "31218028",
+     "2 nozzle Toyota engine spray bracket LH",
+     "1"
+    ],
+    [
+     "8",
+     "F32001D009",
+     "32021239",
+     "Chassis Rear Heatshield LH",
+     "1"
+    ],
+    [
+     "9",
+     "F32001D010",
+     "32021238",
+     "Chassis Rear Heatshield RH",
+     "1"
+    ],
+    [
+     "10",
+     "F32001D011",
+     "32021236",
+     "Chassis Rear Panel Heatshield",
+     "1"
+    ],
+    [
+     "11",
+     "F32401D011",
+     "32021267",
+     "Heat protection LH",
+     "1"
+    ],
+    [
+     "12",
+     "F32401D012",
+     "32021268",
+     "Heat protection RH",
+     "1"
+    ],
+    [
+     "13",
+     "F32401D013",
+     "32021269",
+     "Heat protection Carbon Dynema Panel LH",
+     "1"
+    ],
+    [
+     "14",
+     "F32401D014",
+     "32021270",
+     "Heat protection Carbon Dynema Panel RH",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM1338",
+     "COMP71832",
+     "Spray nozzle",
+     "6"
+    ],
+    [
+     "22",
+     "FCOM1336",
+     "COMP71830",
+     "90° threaded fitting",
+     "2"
+    ],
+    [
+     "23",
+     "FCOM1337",
+     "COMP71831",
+     "T threaded fitting",
+     "3"
+    ],
+    [
+     "24",
+     "FCOM1339",
+     "COMP71833",
+     "T push on fitting",
+     "1"
+    ],
+    [
+     "25",
+     "FCOM1341",
+     "COMP71835",
+     "Reduction adapter",
+     "1"
+    ],
+    [
+     "26",
+     "FCOM1340",
+     "COMP71834",
+     "90° push on fitting",
+     "1"
+    ],
+    [
+     "27",
+     "F324100013",
+     "MINU22034",
+     "Hoose Clamp 87-112",
+     "2"
+    ],
+    [
+     "28",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "2"
+    ],
+    [
+     "29",
+     "FCOM1342",
+     "COMP71836",
+     "Y fitting M8",
+     "1"
+    ],
+    [
+     "30",
+     "FCOM1354",
+     "ELET15523",
+     "Fire button",
+     "1"
+    ],
+    [
+     "31",
+     "F320100037",
+     "COMP718471",
+     "90 Degree Fitting Legris 3182 08 00",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM1554",
+     "COMP20033",
+     "Extinguisher Bottle Mrk 2",
+     "1"
+    ],
+    [
+     "33",
+     "FCOM1280",
+     "VITE02058",
+     "_\nSHCS M4 x 8 - 8.8",
+     "4"
+    ],
+    [
+     "4",
+     "",
+     "32091002A 24",
+     "Complete Bodywork - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32402A001",
+     "_\n32425098",
+     "RHS Sidepod - CPL",
+     "1"
+    ],
+    [
+     "2",
+     "F32402A002",
+     "32425097",
+     "LHS Sidepod - CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32402A003",
+     "32425044",
+     "Engine cover - CPL",
+     "1"
+    ],
+    [
+     "4",
+     "F32402A004",
+     "32425066",
+     "RHS Air Inlet - CPL",
+     "1"
+    ],
+    [
+     "5",
+     "F32002A004",
+     "32025057LH",
+     "LHS Inlet - CPL",
+     "1"
+    ],
+    [
+     "6",
+     "F31702A033",
+     "31725008",
+     "Gear box cover",
+     "1"
+    ],
+    [
+     "7",
+     "F31702A034",
+     "31725009RH",
+     "Gearbox side cover RH",
+     "1"
+    ],
+    [
+     "8",
+     "F32402A008",
+     "32425119",
+     "LHS GB quarter panel",
+     "1"
+    ],
+    [
+     "9",
+     "F32402A009",
+     "32425060RH",
+     "Support bracket chassis - engine cover - CPL",
+     "1"
+    ],
+    [
+     "10",
+     "F32402A010",
+     "32425060LH",
+     "Support bracket chassis - engine cover - CPL",
+     "1"
+    ],
+    [
+     "11",
+     "F32002A009",
+     "32025061",
+     "Bracket between chassis and sidepod - CPL",
+     "10"
+    ],
+    [
+     "12",
+     "F31218A004",
+     "31225094",
+     "Mtg bracket gear box cover",
+     "1"
+    ],
+    [
+     "13",
+     "F31218A001",
+     "31225090RH",
+     "Mtg bracket side cover RH",
+     "1"
+    ],
+    [
+     "14",
+     "F31218A002",
+     "31225090LH",
+     "Mtg bracket side cover LH",
+     "1"
+    ],
+    [
+     "15",
+     "F31202A026",
+     "31225127",
+     "Mtg bracket upper gearbox side cover",
+     "1"
+    ],
+    [
+     "16",
+     "F31202A025",
+     "31225087",
+     "Mtg bracket lower gearbox side cover",
+     "2"
+    ],
+    [
+     "17",
+     "F32402A017",
+     "32425110",
+     "LHS gearbox cover upper bracket - CPL",
+     "1"
+    ],
+    [
+     "18",
+     "F32402A018",
+     "32425069",
+     "Bracket on Sidepod LH for fixing upgrade - CPL",
+     "1"
+    ],
+    [
+     "19",
+     "F32002A016",
+     "32036023RH",
+     "RHS Podwing - CPL",
+     "1"
+    ],
+    [
+     "20",
+     "F32002A015",
+     "32036023LH",
+     "LHS Podwing - CPL",
+     "1"
+    ],
+    [
+     "21",
+     "F320100038",
+     "BOC07055",
+     "Bodywork Bushing (for SCREW M6)",
+     "28"
+    ],
+    [
+     "22",
+     "FCOM1591",
+     "32025078",
+     "Retaining washer for bodywork bush",
+     "10"
+    ],
+    [
+     "23",
+     "F32402A023",
+     "32425100",
+     "RHS Air Inlet - Front tie rod Crimped",
+     "1"
+    ],
+    [
+     "24",
+     "F32402A024",
+     "32425101",
+     "RHS Air Inlet - Rear tie rod Crimped",
+     "1"
+    ],
+    [
+     "25",
+     "FCOM1443",
+     "20828008",
+     "Floor Stay Support",
+     "3"
+    ],
+    [
+     "26",
+     "F32402A026",
+     "32425079",
+     "RHS Air Inlet - Beam",
+     "1"
+    ],
+    [
+     "27",
+     "F32402A027",
+     "32425085",
+     "RHS Air Inlet - Stoneguard Mesh Assy",
+     "1"
+    ],
+    [
+     "28",
+     "F32402A028",
+     "32425106",
+     "RHS Air Inlet - Stoneguard Mesh Assy - G319 Mesh",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0692",
+     "VITE02073",
+     "SHCS M5x12 - 8.8",
+     "12"
+    ],
+    [
+     "42",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "28"
+    ],
+    [
+     "43",
+     "FCOM0697",
+     "VITE02087",
+     "SHCS M6 x 12 - 8.8",
+     "38"
+    ],
+    [
+     "44",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "26"
+    ],
+    [
+     "45",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "8"
+    ],
+    [
+     "46",
+     "FCOM1474",
+     "VITE02089",
+     "SHCS M6 x 20 - 8.8",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "10"
+    ],
+    [
+     "48",
+     "FCOM0722",
+     "VITE06020",
+     "BHCS M5 x 15 - 10.9",
+     "8"
+    ],
+    [
+     "49",
+     "FCOM1109",
+     "MINU14056",
+     "Camloc",
+     "3"
+    ],
+    [
+     "50",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "30"
+    ],
+    [
+     "51",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "9"
+    ],
+    [
+     "5",
+     "",
+     "32091002B",
+     "Mirrors",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 3,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "1",
+     "FCOM0491",
+     "30525114LH",
+     "LH mirror",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM0492",
+     "30525114RH",
+     "RH mirror",
+     "1"
+    ],
+    [
+     "3",
+     "F30507G009",
+     "30425009",
+     "Mirror glass (only)",
+     "2"
+    ],
+    [
+     "4",
+     "F32002B004",
+     "32025045",
+     "Mirror support stem",
+     "2"
+    ],
+    [
+     "5",
+     "F32002B005",
+     "30425013LH",
+     "Mirror bracket LH",
+     "2"
+    ],
+    [
+     "6",
+     "F32002B006",
+     "30425013RH",
+     "Mirror bracket RH",
+     "2"
+    ],
+    [
+     "7",
+     "F32002B007",
+     "30425010LH",
+     "Mirror body LH",
+     "1"
+    ],
+    [
+     "8",
+     "F32002B008",
+     "30425010RH",
+     "Mirror body RH",
+     "1"
+    ],
+    [
+     "9",
+     "FCOM1583",
+     "32025075",
+     "Mirror glass optional ( less convex )",
+     "1"
+    ],
+    [
+     "10",
+     "F32002B010",
+     "32025076",
+     "Optional support Speiss",
+     "1"
+    ],
+    [
+     "11",
+     "F32002B011",
+     "32025079",
+     "Mirror support stem optional HWA",
+     "1"
+    ],
+    [
+     "18",
+     "FCOM0722",
+     "VITE06020",
+     "BHCS M5 x 15 - 10.9",
+     "2"
+    ],
+    [
+     "19",
+     "FCOM0794",
+     "VITE38002",
+     "Washer dia.5 Uni 1734",
+     "2"
+    ],
+    [
+     "20",
+     "F320100042",
+     "VITE06030",
+     "BHCS M6 x 12 - 10.9",
+     "4"
+    ],
+    [
+     "21",
+     "FCOM1146",
+     "MINU61012",
+     "Grommit",
+     "2"
+    ],
+    [
+     "22",
+     "F305200081",
+     "VITE38202",
+     "Washer dia.5 (5.5x15x1.6) Uni 6593",
+     "2"
+    ],
+    [
+     "6",
+     "",
+     "32091003A 24",
+     "Underwing - Complete Assembly - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32403A001",
+     "_\n32428053",
+     "RHS Front Underwing - TOM’S Yaris (2022) - CPL",
+     "1"
+    ],
+    [
+     "2",
+     "F32003A002",
+     "32028034LH",
+     "LHS Front Underwing - CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32003A003",
+     "32028051RH",
+     "RHS Rear diffuser fin - Machined",
+     "1"
+    ],
+    [
+     "4",
+     "F32003A004",
+     "32028051LH",
+     "LHS Rear diffuser fin - Machined",
+     "1"
+    ],
+    [
+     "5",
+     "F32403A005",
+     "32428070",
+     "Gearbox cover bottom part - CPL",
+     "1"
+    ],
+    [
+     "6",
+     "F32003A006",
+     "32028041",
+     "Front Plank - Bonded",
+     "1"
+    ],
+    [
+     "7",
+     "F32003A007",
+     "32028045",
+     "Rear Plank - Bonded",
+     "1"
+    ],
+    [
+     "8",
+     "F32403A008",
+     "32428060",
+     "Rear diffuser - CPL",
+     "1"
+    ],
+    [
+     "9",
+     "F32003A009",
+     "32028030",
+     "Keel - CPL",
+     "1"
+    ],
+    [
+     "10",
+     "F32403A010",
+     "32428029LH",
+     "LHS Bracket Between Rear Diffuser And Gearbox - CPL",
+     "1"
+    ],
+    [
+     "11",
+     "F32403A011",
+     "32428029RH",
+     "RHS Bracket Between Rear Diffuser And Gearbox - CPL",
+     "1"
+    ],
+    [
+     "13",
+     "F32003A013",
+     "32036028LH",
+     "LHS Bargeboard - Bonded",
+     "1"
+    ],
+    [
+     "14",
+     "F32003A014",
+     "32036028RH",
+     "RHS Bargeboard - Bonded",
+     "1"
+    ],
+    [
+     "15",
+     "F320100050",
+     "BOC06010",
+     "M6 Flush Washer, Thickness 1.2mm",
+     "24"
+    ],
+    [
+     "16",
+     "F32003A016",
+     "32036033",
+     "Braket Between Bargeboard And Front Underwing",
+     "2"
+    ],
+    [
+     "17",
+     "F320100038",
+     "BOC07055",
+     "Bodywork Bushing (for SCREW M6)",
+     "8"
+    ],
+    [
+     "18",
+     "F32003A018",
+     "32036032LH",
+     "LHS Braket Between Bargeboard And Chassis",
+     "1"
+    ],
+    [
+     "19",
+     "F32003A019",
+     "32036032RH",
+     "RHS Braket Between Bargeboard And Chassis",
+     "1"
+    ],
+    [
+     "20",
+     "F32003A020",
+     "32036031",
+     "Braket Between Bargeboard And Keel",
+     "2"
+    ],
+    [
+     "21",
+     "F30203A021",
+     "32028043",
+     "Bracket rear diffusor",
+     "4"
+    ],
+    [
+     "32",
+     "F320100017",
+     "MINU27133",
+     "Rivet, Blind, Countersunk, Textron p/n 1604-0412",
+     "14"
+    ],
+    [
+     "33",
+     "FCOM0697",
+     "VITE02087",
+     "SHCS M6 x 12 - 8.8",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM0722",
+     "VITE06020",
+     "BHCS M5 x 15 - 10.9",
+     "11"
+    ],
+    [
+     "35",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "8"
+    ],
+    [
+     "36",
+     "FCOM1286",
+     "VITE08038",
+     "FHCS 5 x 14 - 10.9",
+     "6"
+    ],
+    [
+     "37",
+     "FCOM0740",
+     "VITE08039",
+     "FHCS 5 x 16 - 10.9",
+     "4"
+    ],
+    [
+     "38",
+     "F320100053",
+     "VITE08055",
+     "FHCS 6 x 14 - 10.9",
+     "2"
+    ],
+    [
+     "39",
+     "FCOM0742",
+     "VITE08056",
+     "FHCS 6 x 16 - 10.9",
+     "24"
+    ],
+    [
+     "40",
+     "FCOM0743",
+     "VITE08058",
+     "FHCS 6 x 20 - 10.9",
+     "6"
+    ],
+    [
+     "41",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "6"
+    ],
+    [
+     "42",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "15"
+    ],
+    [
+     "43",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "14"
+    ],
+    [
+     "44",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "6"
+    ],
+    [
+     "45",
+     "F320100057",
+     "MINU27113",
+     "Rivet Pop TAPK 36 BS (US # PR34ASC)",
+     "18"
+    ],
+    [
+     "46",
+     "F320100058",
+     "VITE06931",
+     "BHCS M6 x 8 - 10.9",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0725",
+     "VITE06033",
+     "BHCS M6 x 20 - 10.9",
+     "2"
+    ],
+    [
+     "48",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "2"
+    ],
+    [
+     "49",
+     "F320100366",
+     "VITE06933",
+     "Button head bolt with washer M6*12 10.9",
+     "4"
+    ],
+    [
+     "7",
+     "",
+     "32091003B 24",
+     "Underwing - Floor Stays - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32403B001",
+     "_\n32428075",
+     "LHS midle tie rod - Crimped",
+     "1"
+    ],
+    [
+     "2",
+     "F32003B002",
+     "32028077",
+     "Tie rod Assembly underwing - L 561.5mm",
+     "2"
+    ],
+    [
+     "3",
+     "F32403B003",
+     "32428040",
+     "Rear Tie Rod Fixing Bracket to Bellhousing - Welded",
+     "2"
+    ],
+    [
+     "4",
+     "FCOM1443",
+     "20828008",
+     "Floor Stay Support",
+     "2"
+    ],
+    [
+     "5",
+     "F32403B005",
+     "32428035",
+     "Tie Rod Between Endplate And Rear Diffuser",
+     "2"
+    ],
+    [
+     "6",
+     "F32003B006",
+     "32028074",
+     "Tie rod support",
+     "2"
+    ],
+    [
+     "7",
+     "F32003B007",
+     "32028073",
+     "Aluminium Bracket Support Front Underwing",
+     "2"
+    ],
+    [
+     "8",
+     "F32403B008",
+     "32428045",
+     "RHS Front tie rod - Crimped",
+     "1"
+    ],
+    [
+     "9",
+     "F32403B009",
+     "32428022",
+     "Tie rod support with screw hole - Removable with Seeger",
+     "1"
+    ],
+    [
+     "10",
+     "F32403B010",
+     "32428077",
+     "Spacer for LHS middle tie rod",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM1385",
+     "MINU18102",
+     "Cable end clevis",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM1183",
+     "MINU18132",
+     "Spring Clip",
+     "5"
+    ],
+    [
+     "23",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "6"
+    ],
+    [
+     "24",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "4"
+    ],
+    [
+     "25",
+     "FCOM0743",
+     "VITE08058",
+     "FHCS 6 x 20 - 10.9",
+     "4"
+    ],
+    [
+     "26",
+     "FCOM0725",
+     "VITE06033",
+     "BHCS M6 x 20 - 10.9",
+     "2"
+    ],
+    [
+     "27",
+     "FCOM1474",
+     "VITE02089",
+     "SHCS M6 x 20 - 8.8",
+     "1"
+    ],
+    [
+     "28",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "2"
+    ],
+    [
+     "29",
+     "FCOM0779",
+     "VITE36004",
+     "Nut M7 Uni 5588",
+     "4"
+    ],
+    [
+     "30",
+     "F320100065",
+     "MINU909345",
+     "DALMAR P11883220TD polyamide leveling foot",
+     "2"
+    ],
+    [
+     "31",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "2"
+    ],
+    [
+     "32",
+     "F324100048",
+     "VITE0603921",
+     "BHCS 6x65",
+     "1"
+    ],
+    [
+     "33",
+     "F320100042",
+     "VITE06030",
+     "BHCS M6 x 12 - 10.9",
+     "2"
+    ],
+    [
+     "8",
+     "",
+     "32091004A",
+     "Front Wing & Nosecone",
+     "1"
+    ],
+    [
+     "1",
+     "F32004A001",
+     "32026033",
+     "Nose - Bonded",
+     "1"
+    ],
+    [
+     "2",
+     "F32004A002",
+     "32026037",
+     "Nose Tip",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 4,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "3",
+     "F32004A003",
+     "32026046",
+     "Nose Pillar with Studs",
+     "2"
+    ],
+    [
+     "4",
+     "F32004A004",
+     "32026041",
+     "Wing Pillar Fairing",
+     "2"
+    ],
+    [
+     "5",
+     "F31704A016",
+     "31726061",
+     "Hanger plate spacers",
+     "2"
+    ],
+    [
+     "6",
+     "F31704A004",
+     "31726054LH",
+     "Front wing endplate LH 2017",
+     "1"
+    ],
+    [
+     "7",
+     "F31704A003",
+     "31726054RH",
+     "Front wing endplate RH 2017",
+     "1"
+    ],
+    [
+     "8",
+     "F31704B002",
+     "31726044LH",
+     "Front flap HDF LH 2017",
+     "1"
+    ],
+    [
+     "9",
+     "F31704B001",
+     "31726044RH",
+     "Front flap HDF RH 2017",
+     "1"
+    ],
+    [
+     "10",
+     "F31704B011",
+     "31726048",
+     "Front Flap inner plate 2017",
+     "2"
+    ],
+    [
+     "11",
+     "F31204B010",
+     "31226116LH",
+     "Mtg bracket front flap middle L/H",
+     "1"
+    ],
+    [
+     "12",
+     "F31204B009",
+     "31226116RH",
+     "Mtg bracket front flap middle R/H",
+     "1"
+    ],
+    [
+     "13",
+     "F31704B008",
+     "31726085LH",
+     "Gurney flap front 10mm LH",
+     "1"
+    ],
+    [
+     "14",
+     "F31704B007",
+     "31726085RH",
+     "Gurney flap front 10mm RH",
+     "1"
+    ],
+    [
+     "15",
+     "F31704A002",
+     "31726078",
+     "2017 Front Wing Mainplane",
+     "1"
+    ],
+    [
+     "16",
+     "F31204A002",
+     "31226091",
+     "2012 Front Wing Mainplane",
+     "1"
+    ],
+    [
+     "17",
+     "F31704A013",
+     "31726020LH",
+     "Front wing end spacer LH 2017",
+     "1"
+    ],
+    [
+     "18",
+     "F31704A012",
+     "31726020RH",
+     "Front wing end spacer RH 2017",
+     "1"
+    ],
+    [
+     "19",
+     "F31704A014",
+     "31726066",
+     "Stud for front wing spacer 2017",
+     "4"
+    ],
+    [
+     "20",
+     "F31704A006",
+     "31722004",
+     "M6 stud for wing pillar attachment on nosecone",
+     "4"
+    ],
+    [
+     "21",
+     "F31704B006",
+     "31726082LH",
+     "Gurney flap front outer LH",
+     "1"
+    ],
+    [
+     "22",
+     "F31704B005",
+     "31726082RH",
+     "Gurney flap front outer RH",
+     "1"
+    ],
+    [
+     "23",
+     "F31704B004",
+     "31726081LH",
+     "LH front flap - LDF",
+     "1"
+    ],
+    [
+     "24",
+     "F31704B003",
+     "31726081RH",
+     "RH Front flap - LDF",
+     "1"
+    ],
+    [
+     "38",
+     "FCOM0797",
+     "VITE38012",
+     "Washer dia.8 (8.15x15x1.5) Uni 1750",
+     "4"
+    ],
+    [
+     "39",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "4"
+    ],
+    [
+     "40",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "41",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "4"
+    ],
+    [
+     "42",
+     "FCOM0803",
+     "VITE38020",
+     "Washer dia.7 (7x14x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "43",
+     "FCOM0766",
+     "VITE32204",
+     "Nut (M7x1) (Astori DS10-07)",
+     "4"
+    ],
+    [
+     "44",
+     "FCOM0741",
+     "VITE08041",
+     "FHCS 5 x 20 - 10.9",
+     "4"
+    ],
+    [
+     "45",
+     "FCOM0743",
+     "VITE08058",
+     "FHCS 6 x 20 - 10.9",
+     "6"
+    ],
+    [
+     "46",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "10"
+    ],
+    [
+     "47",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "6"
+    ],
+    [
+     "48",
+     "FCOM0721",
+     "VITE06019",
+     "BHCS M5 x 12 - 10.9",
+     "4"
+    ],
+    [
+     "49",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "14"
+    ],
+    [
+     "50",
+     "FCOM0719",
+     "VITE06013",
+     "BHCS M4 x 12 - 10.9",
+     "8"
+    ],
+    [
+     "51",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "10"
+    ],
+    [
+     "52",
+     "FCOM1325",
+     "VITE06004",
+     "BHCS M4 x 10 - 10.9",
+     "8"
+    ],
+    [
+     "53",
+     "FCOM1549",
+     "VITE32200",
+     "Nut (M3x0.5 ) (Astori DS10-03)",
+     "8"
+    ],
+    [
+     "54",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "4"
+    ],
+    [
+     "9",
+     "",
+     "32091005A",
+     "Rear Wing & Impact Structure - RIS",
+     "1"
+    ],
+    [
+     "1",
+     "F32005A001",
+     "32027029",
+     "Rear Crash - Bonded",
+     "1"
+    ],
+    [
+     "2",
+     "F31705A006",
+     "G31627086",
+     "2017 Rear Carbon Hook",
+     "1"
+    ],
+    [
+     "3",
+     "F32005A003",
+     "32027033",
+     "Rear Crash - Rain Light Support",
+     "1"
+    ],
+    [
+     "4",
+     "FCOM0224",
+     "30527040",
+     "Toe Hook Bush",
+     "2"
+    ],
+    [
+     "5",
+     "FCOM0223",
+     "30527039",
+     "Toe Hook",
+     "2"
+    ],
+    [
+     "6",
+     "F320100074",
+     "ELET25026",
+     "Rain Light Next Solution",
+     "1"
+    ],
+    [
+     "7",
+     "F32005A007",
+     "32027047",
+     "Top bush for RIS",
+     "2"
+    ],
+    [
+     "11",
+     "F32005A011",
+     "32027056",
+     "Lateral fixing longer bush for RIS with Cap Head Screw",
+     "2"
+    ],
+    [
+     "25",
+     "F320100365",
+     "MINU611125",
+     "Grommit",
+     "2"
+    ],
+    [
+     "26",
+     "F320100076",
+     "MINU08109",
+     "AVA antivibration mounting p/n 268/2",
+     "4"
+    ],
+    [
+     "27",
+     "F320100077",
+     "VITE02359",
+     "SHCS M8 x 30 - 12.9",
+     "2"
+    ],
+    [
+     "28",
+     "F320100078",
+     "VITE02362",
+     "SHCS M8 x 45 12.9",
+     "2"
+    ],
+    [
+     "29",
+     "FCOM0717",
+     "VITE06011",
+     "BHCS M4 x 8 - 10.9",
+     "4"
+    ],
+    [
+     "30",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "2"
+    ],
+    [
+     "31",
+     "FCOM0742",
+     "VITE08056",
+     "FHCS 6 x 16 - 10.9",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "4"
+    ],
+    [
+     "33",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "3"
+    ],
+    [
+     "34",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "3"
+    ],
+    [
+     "37",
+     "FCOM1149",
+     "VITE38008",
+     "Washer dia. 4 (4.14x8x0.5)",
+     "4"
+    ],
+    [
+     "38",
+     "FCOM1592",
+     "MINU02477",
+     "Circlip",
+     "2"
+    ],
+    [
+     "39",
+     "F320100370",
+     "VITE02360",
+     "Cap Head Bolt 8 x 35 mm",
+     "2"
+    ],
+    [
+     "10",
+     "",
+     "32091005B",
+     "Rear Wing & Impact Structure - Rear Wing",
+     "1"
+    ],
+    [
+     "1",
+     "F32005B001",
+     "32027035",
+     "Beam Wing Pillar - HDF",
+     "2"
+    ],
+    [
+     "2",
+     "F32005B002",
+     "32027024",
+     "Beam wing pillar fixing bushing",
+     "4"
+    ],
+    [
+     "3",
+     "F32005B003",
+     "32027036",
+     "Endplate - CPL With Rear Light",
+     "2"
+    ],
+    [
+     "4",
+     "FCOM0422",
+     "39925070",
+     "Countersunk Washer",
+     "10"
+    ],
+    [
+     "5",
+     "F31205B001",
+     "31227024",
+     "Main plane rear",
+     "1"
+    ],
+    [
+     "6",
+     "F31205B005",
+     "31227038LH",
+     "Mtg bracket main plane L/H",
+     "1"
+    ],
+    [
+     "7",
+     "F31205B004",
+     "31227038RH",
+     "Mtg bracket main plane R/H",
+     "1"
+    ],
+    [
+     "8",
+     "F32005B008",
+     "32027044",
+     "Beam Wing Pillar - LDF",
+     "1"
+    ],
+    [
+     "9",
+     "F320100081",
+     "ELET25027",
+     "Endplate Rain Light Next Solution",
+     "1"
+    ],
+    [
+     "31",
+     "F320100082",
+     "VITE06024",
+     "BHCS M5 x 25 - 10.9",
+     "2"
+    ],
+    [
+     "32",
+     "FCOM0728",
+     "VITE06046",
+     "BHCS M8 x 25 - 10.9",
+     "8"
+    ],
+    [
+     "33",
+     "FCOM0743",
+     "VITE08058",
+     "FHCS 6 x 20 - 10.9",
+     "2"
+    ],
+    [
+     "34",
+     "FCOM0744",
+     "VITE08059",
+     "FHCS 6 x 25 - 10.9",
+     "8"
+    ],
+    [
+     "35",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "8"
+    ],
+    [
+     "36",
+     "FCOM0794",
+     "VITE38002",
+     "Washer dia.5 Uni 1734",
+     "2"
+    ],
+    [
+     "37",
+     "FCOM0797",
+     "VITE38012",
+     "Washer dia.8 (8.15x15x1.5) Uni 1750",
+     "16"
+    ],
+    [
+     "38",
+     "FCOM0804",
+     "VITE38021",
+     "Washer dia.8 (8x16x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "39",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "2"
+    ],
+    [
+     "40",
+     "FCOM1585",
+     "MINU66374",
+     "roll pin 4 * 10",
+     "4"
+    ],
+    [
+     "11",
+     "",
+     "32091005C",
+     "Rear Wing & Impact Structure - Rear Wing Options",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 5,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "1",
+     "F31205C001",
+     "31227045",
+     "Flap top rear",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM1118",
+     "39925052",
+     "Top flap (small element)",
+     "1"
+    ],
+    [
+     "3",
+     "F31705C004",
+     "31727012",
+     "2017 rear UHDF upper wing",
+     "1"
+    ],
+    [
+     "4",
+     "F31705C005",
+     "31727015",
+     "Ultra high downforce rear wing slot gap separator",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM0063",
+     "30227017",
+     "MDF spacer",
+     "1"
+    ],
+    [
+     "6",
+     "F31705C008",
+     "31727016RH",
+     "Ultra high downforce sideplate RH",
+     "1"
+    ],
+    [
+     "7",
+     "F31705C009",
+     "31727016LH",
+     "Ultra high downforce sideplate LH",
+     "1"
+    ],
+    [
+     "8",
+     "F31705C010",
+     "31727009RH",
+     "Mid downforce sideplate RH",
+     "1"
+    ],
+    [
+     "9",
+     "F31705C011",
+     "31727009LH",
+     "Mid downforce sideplate LH",
+     "1"
+    ],
+    [
+     "10",
+     "F31705C012",
+     "31727010RH",
+     "Low downforce sideplate RH",
+     "1"
+    ],
+    [
+     "11",
+     "F31705C013",
+     "31727010LH",
+     "Low downforce sideplate LH",
+     "1"
+    ],
+    [
+     "12",
+     "F31705C014",
+     "31727028RH",
+     "Ultra high downforce sideplate RH - carbon fiber",
+     "1"
+    ],
+    [
+     "13",
+     "F31705C015",
+     "31727028LH",
+     "Ultra high downforce sideplate LH - carbon fiber",
+     "1"
+    ],
+    [
+     "14",
+     "F31705C016",
+     "31727029RH",
+     "Mid downforce sideplate RH - carbon fiber",
+     "1"
+    ],
+    [
+     "15",
+     "F31705C017",
+     "31727029LH",
+     "Mid downforce sideplate LH - carbon fiber",
+     "1"
+    ],
+    [
+     "16",
+     "F31705C018",
+     "31727030RH",
+     "Low downforce sideplate RH - carbon fiber",
+     "1"
+    ],
+    [
+     "17",
+     "F31705C019",
+     "31727030LH",
+     "Low downforce sideplate LH - carbon fiber",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0742",
+     "VITE08056",
+     "FHCS 6 x 16 - 10.9",
+     "6"
+    ],
+    [
+     "32",
+     "FCOM1289",
+     "VITE34342",
+     "Trap Nut M5",
+     "2"
+    ],
+    [
+     "12",
+     "",
+     "32091006A",
+     "Front Suspension - Monocoque Side",
+     "1"
+    ],
+    [
+     "1",
+     "F31206A001",
+     "31255241",
+     "Mtg bracket inner front upper W/bone",
+     "4"
+    ],
+    [
+     "2",
+     "F31208A005",
+     "31245199",
+     "Bracket",
+     "2"
+    ],
+    [
+     "3",
+     "F32006A003",
+     "32055023",
+     "Lower Wishbone Front Fixing Bracket CPL",
+     "1"
+    ],
+    [
+     "4",
+     "FCOM1120",
+     "30821078",
+     "Tether cable bush",
+     "2"
+    ],
+    [
+     "5",
+     "F32006A005",
+     "31222003",
+     "Bolt Wheel tether",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM1364",
+     "BOC01022",
+     "Bush",
+     "4"
+    ],
+    [
+     "7",
+     "F32006A007",
+     "32025064RH",
+     "Cover Lower Wishbone - RH",
+     "1"
+    ],
+    [
+     "8",
+     "F32006A008",
+     "32025064LH",
+     "Cover Lower Wishbone - LH",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM0752",
+     "VITE26076",
+     "NAS 1304-11",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM1291",
+     "VITE26082",
+     "Bolt NAS 1304-17",
+     "8"
+    ],
+    [
+     "23",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "12"
+    ],
+    [
+     "24",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "12"
+    ],
+    [
+     "25",
+     "FCOM0756",
+     "VITE26141",
+     "Bolt Nas 1305-12",
+     "2"
+    ],
+    [
+     "26",
+     "FCOM0758",
+     "VITE26145",
+     "Bolt NAS 1305-16",
+     "2"
+    ],
+    [
+     "27",
+     "FCOM0811",
+     "VITE38068",
+     "Washer dia.8 (8.4x15x0.5) DIN 137A",
+     "2"
+    ],
+    [
+     "28",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "4"
+    ],
+    [
+     "29",
+     "FCOM0823",
+     "VITE40002",
+     "Washer MS20002C5",
+     "4"
+    ],
+    [
+     "30",
+     "FCOM1305",
+     "VITE38164",
+     "Washer dia.8 ( 8.4x14x1.6) UNI 6592-TC",
+     "3"
+    ],
+    [
+     "31",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "7"
+    ],
+    [
+     "32",
+     "FCOM0798",
+     "VITE38013",
+     "Washer dia.10 (10.15x18x2) Uni 1750",
+     "4"
+    ],
+    [
+     "33",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM0768",
+     "VITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "2"
+    ],
+    [
+     "35",
+     "FCOM0721",
+     "VITE06019",
+     "BHCS M5 x 12 - 10.9",
+     "6"
+    ],
+    [
+     "36",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "6"
+    ],
+    [
+     "13",
+     "",
+     "32091006B",
+     "Front Suspension - Rocker",
+     "1"
+    ],
+    [
+     "1",
+     "F31206B001",
+     "31255320RH",
+     "Rocker front R/H",
+     "1"
+    ],
+    [
+     "2",
+     "F31206B002",
+     "31255320LH",
+     "Rocker front L/H",
+     "1"
+    ],
+    [
+     "3",
+     "F31206B003",
+     "31255224",
+     "Rocker shaft",
+     "2"
+    ],
+    [
+     "4",
+     "F31206B029",
+     "31255203",
+     "Bearing support",
+     "2"
+    ],
+    [
+     "5",
+     "F31206B007",
+     "31255204RH",
+     "Reactor housing R/H",
+     "1"
+    ],
+    [
+     "6",
+     "F31206B008",
+     "31255204LH",
+     "Reactor housing L/H",
+     "1"
+    ],
+    [
+     "7",
+     "F31206B030",
+     "31255158",
+     "Bearing Retainer Ring",
+     "2"
+    ],
+    [
+     "8",
+     "F31206B048",
+     "31255287",
+     "Spacer Washer",
+     "2"
+    ],
+    [
+     "9",
+     "F31206B006",
+     "31222006",
+     "Bolt Push rod to rocker",
+     "2"
+    ],
+    [
+     "10",
+     "F32006B010",
+     "32055057",
+     "Front supension rebound stop plate",
+     "2"
+    ],
+    [
+     "11",
+     "F31206B010",
+     "31222007",
+     "Grub screw",
+     "2"
+    ],
+    [
+     "12",
+     "F32006B012",
+     "P21722003",
+     "Preload Bar Pin",
+     "2"
+    ],
+    [
+     "13",
+     "F31206B011",
+     "31255211",
+     "Preload block",
+     "2"
+    ],
+    [
+     "14",
+     "F31206B014",
+     "31255353",
+     "Front torsion spring 24,5 Nm/deg",
+     "2"
+    ],
+    [
+     "15",
+     "F31206B015",
+     "31255354",
+     "Front torsion spring 23 Nm/deg",
+     "2"
+    ],
+    [
+     "16",
+     "F31206B016",
+     "31255355",
+     "Front torsion spring 21,5 Nm/deg",
+     "2"
+    ],
+    [
+     "17",
+     "F31206B017",
+     "31255356",
+     "Front torsion spring 20 Nm/deg",
+     "2"
+    ],
+    [
+     "18",
+     "F31206B018",
+     "31255357",
+     "Front torsion spring 18,5 Nm/deg",
+     "2"
+    ],
+    [
+     "19",
+     "F31206B019",
+     "31255358",
+     "Front torsion spring 17 Nm/deg (STD)",
+     "2"
+    ],
+    [
+     "20",
+     "F31206B020",
+     "31255359",
+     "Front torsion spring 15,5 Nm/deg",
+     "2"
+    ],
+    [
+     "21",
+     "F31206B021",
+     "31255360",
+     "Front torsion spring 14 Nm/deg",
+     "2"
+    ],
+    [
+     "22",
+     "F31206B022",
+     "31255361",
+     "Front torsion spring 12,5 Nm/deg",
+     "2"
+    ],
+    [
+     "23",
+     "F31206B023",
+     "31255362",
+     "Front torsion spring 11 Nm/deg",
+     "2"
+    ],
+    [
+     "24",
+     "F31206B009",
+     "31255234",
+     "Rocker support",
+     "2"
+    ],
+    [
+     "25",
+     "FCOM1140",
+     "BOC01003",
+     "Bush",
+     "12"
+    ],
+    [
+     "26",
+     "F31206B024",
+     "31255328",
+     "Fixing plate damper",
+     "2"
+    ],
+    [
+     "27",
+     "F31206B027",
+     "31255326RH",
+     "Fixing plate 3rd element RH",
+     "1"
+    ],
+    [
+     "28",
+     "F31206B028",
+     "31255326LH",
+     "Fixing plate 3rd element LH",
+     "1"
+    ],
+    [
+     "29",
+     "F31206B025",
+     "31255322RH",
+     "Fixing plate push rod RH",
+     "1"
+    ],
+    [
+     "30",
+     "F31206B026",
+     "31255322LH",
+     "Fixing plate push rod LH",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0041",
+     "30222020",
+     "Stud M6",
+     "6"
+    ],
+    [
+     "32",
+     "FCOM1360",
+     "BOC01075",
+     "Bush",
+     "4"
+    ],
+    [
+     "51",
+     "FCOM1185",
+     "MINU02370",
+     "Circlip",
+     "2"
+    ],
+    [
+     "52",
+     "FCOM1366",
+     "CUSC23001",
+     "Control Bearing B542DD-FS464",
+     "4"
+    ],
+    [
+     "53",
+     "FCOM1293",
+     "VITE26068",
+     "Bolt NAS 1304-3",
+     "4"
+    ],
+    [
+     "54",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "6"
+    ],
+    [
+     "55",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "12"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 6,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "56",
+     "FCOM0815",
+     "VITE38073",
+     "Washer dia. 6 (6.4x12x0.5)",
+     "4"
+    ],
+    [
+     "57",
+     "FCOM0816",
+     "VITE38075",
+     "Washerdia.8 (8.4x15x0.8)",
+     "6"
+    ],
+    [
+     "58",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "4"
+    ],
+    [
+     "59",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "4"
+    ],
+    [
+     "60",
+     "FCOM0823",
+     "VITE40002",
+     "Washer MS20002C5",
+     "2"
+    ],
+    [
+     "61",
+     "FCOM0822",
+     "VITE40001",
+     "Washer MS20002C5",
+     "6"
+    ],
+    [
+     "62",
+     "FCOM1294",
+     "VITE26081",
+     "Bolt NAS 1304-16",
+     "6"
+    ],
+    [
+     "63",
+     "FCOM1295",
+     "VITE26155",
+     "Bolt NAS 1305-26",
+     "4"
+    ],
+    [
+     "64",
+     "FCOM1184",
+     "MINU02432",
+     "Circlip",
+     "2"
+    ],
+    [
+     "65",
+     "FCOM1369",
+     "CUSC260023",
+     "Bearing",
+     "2"
+    ],
+    [
+     "66",
+     "F320100109",
+     "MINU27106",
+     "Rivet Pop TAPD 46 BS / Cod. RS Components 3513688",
+     "12"
+    ],
+    [
+     "67",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "6"
+    ],
+    [
+     "14",
+     "",
+     "32091006C",
+     "Front Suspension - Damper",
+     "1"
+    ],
+    [
+     "1",
+     "F31206C001",
+     "31255252",
+     "Damper front",
+     "3"
+    ],
+    [
+     "2",
+     "F31206C002",
+     "31255419",
+     "Mtg bracket front damper",
+     "2"
+    ],
+    [
+     "3",
+     "F32006C003",
+     "31255250",
+     "F312 front 3th damper Koni 2812-983-925",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM1296",
+     "VITE40019",
+     "Washer MS20002-8",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM1297",
+     "VITE32257",
+     "Nut 1/2-20",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM0751",
+     "VITE26075",
+     "Bolt NAS 1304 10",
+     "2"
+    ],
+    [
+     "14",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "2"
+    ],
+    [
+     "15",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "2"
+    ],
+    [
+     "15",
+     "",
+     "32091006D",
+     "Front Suspension - Pushrod & Toe Link",
+     "1"
+    ],
+    [
+     "1",
+     "F31206D001",
+     "31255081",
+     "Push rod front",
+     "2"
+    ],
+    [
+     "2",
+     "F32006D002",
+     "SF1955039",
+     "Adjuster LockNut (RH Thread)",
+     "2"
+    ],
+    [
+     "3",
+     "F32006D003",
+     "SF1955038",
+     "Pushrod Adjuster",
+     "2"
+    ],
+    [
+     "4",
+     "F32006D004",
+     "SF1955040",
+     "Adjuster LockNut (LH Thread)",
+     "2"
+    ],
+    [
+     "5",
+     "F31206D002",
+     "31255325",
+     "Adjuster",
+     "2"
+    ],
+    [
+     "6",
+     "F31206H017",
+     "31255245",
+     "Track rod front",
+     "2"
+    ],
+    [
+     "6",
+     "F32006D005",
+     "32055079",
+     "320 track rod",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM0587",
+     "CUSC50017",
+     "Spherical Bearing NMB ABWT 5V",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM1142",
+     "CUSC50043",
+     "Spherical Bearing NMB ABYT 4V",
+     "4"
+    ],
+    [
+     "13",
+     "FCOM0790",
+     "VITE36247",
+     "Nut AN316-5",
+     "2"
+    ],
+    [
+     "16",
+     "",
+     "32091006E",
+     "Front Suspension - Anti-Roll Bar",
+     "1"
+    ],
+    [
+     "1",
+     "F31206E003",
+     "31255396",
+     "Anti roll bar twin blade (std)",
+     "1"
+    ],
+    [
+     "2",
+     "F31206E004",
+     "31255413",
+     "Anti roll bar twin blade (solid)",
+     "1"
+    ],
+    [
+     "3",
+     "F31206E005",
+     "31255202",
+     "Anti roll bar twin blade (solid-soft)",
+     "1"
+    ],
+    [
+     "4",
+     "F31206E009",
+     "31255408",
+     "Blade U-type (short lenght)",
+     "2"
+    ],
+    [
+     "5",
+     "F31206E007",
+     "31255409",
+     "Blade U-type (medium length)",
+     "2"
+    ],
+    [
+     "6",
+     "F31206E008",
+     "31255406",
+     "Blade U-type (long lenght)",
+     "2"
+    ],
+    [
+     "7",
+     "F31206E011",
+     "31255190RH",
+     "Mtg bracket anti roll bar RH",
+     "1"
+    ],
+    [
+     "8",
+     "F31206E012",
+     "31255190LH",
+     "Mtg bracket anti roll bar LH",
+     "1"
+    ],
+    [
+     "9",
+     "F31206E014",
+     "31255390",
+     "Spacer block",
+     "2"
+    ],
+    [
+     "10",
+     "F32006E010",
+     "31255334RH",
+     "Mtg bracket anti roll bar RH",
+     "1"
+    ],
+    [
+     "11",
+     "F32006E011",
+     "31255334LH",
+     "Mtg bracket anti roll bar LH",
+     "1"
+    ],
+    [
+     "12",
+     "F31206E013",
+     "31255332",
+     "Fixing plate roll bar mtg",
+     "2"
+    ],
+    [
+     "13",
+     "F31206E010",
+     "31255290",
+     "Push rod - anti roll bar",
+     "2"
+    ],
+    [
+     "14",
+     "FCOM0361",
+     "39745008",
+     "Front anti roll bar body plug",
+     "1"
+    ],
+    [
+     "15",
+     "FCOM1387",
+     "31222011",
+     "Bolt C/H 6mm",
+     "1"
+    ],
+    [
+     "16",
+     "F31206E015",
+     "31255460",
+     "Fixing plate",
+     "2"
+    ],
+    [
+     "17",
+     "F31206E002",
+     "31255414",
+     "Blade T-type",
+     "1"
+    ],
+    [
+     "18",
+     "F31206E001",
+     "31255076",
+     "Anti roll bar-T",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0546",
+     "COMP51702",
+     "Belleville Washer",
+     "2"
+    ],
+    [
+     "32",
+     "FCOM0702",
+     "VITE02103",
+     "SHCS M8 x 16 - 8.8",
+     "2"
+    ],
+    [
+     "33",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM1300",
+     "VITE02093",
+     "SHCS M6 x 40 - 8.8",
+     "1"
+    ],
+    [
+     "35",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "2"
+    ],
+    [
+     "36",
+     "FCOM0591",
+     "CUSC50145",
+     "Ball Joint ARTL5",
+     "2"
+    ],
+    [
+     "37",
+     "FCOM0792",
+     "VITE36257",
+     "Nut AN316-5L",
+     "2"
+    ],
+    [
+     "38",
+     "FCOM0790",
+     "VITE36247",
+     "Nut AN316-5",
+     "2"
+    ],
+    [
+     "39",
+     "FCOM1189",
+     "CUSC50142",
+     "Rose joint lower R/H",
+     "2"
+    ],
+    [
+     "40",
+     "FCOM0588",
+     "CUSC50018",
+     "Spherical Bearing NMB ABWT 6V",
+     "2"
+    ],
+    [
+     "41",
+     "F320100122",
+     "VITE08028",
+     "FHCS 4 x 30 - 10.9",
+     "4"
+    ],
+    [
+     "42",
+     "FCOM1299",
+     "VITE020311",
+     "SHCS M2,5 x 5 - 12.9",
+     "4"
+    ],
+    [
+     "43",
+     "FCOM0781",
+     "VITE36009",
+     "Nut M6 Lowered Head Nut",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM0685",
+     "VITE01235",
+     "Grub screw",
+     "1"
+    ],
+    [
+     "45",
+     "FCOM0822",
+     "VITE40001",
+     "Washer MS20002C5",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0753",
+     "VITE26077",
+     "Bolt hexagon head NAS1304-12",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0818",
+     "VITE38090",
+     "Washer dia.6 (6.6x18x2) (Large External Diameter)",
+     "4"
+    ],
+    [
+     "48",
+     "F320100128",
+     "VITE39090",
+     "McMaster-Carr shim p/n 94773A614",
+     "1"
+    ],
+    [
+     "49",
+     "F303097014",
+     "VITE39095",
+     "McMaster-Carr Shim (9,5x14,3x0,25 mm)",
+     "1"
+    ],
+    [
+     "50",
+     "F320100130",
+     "VITE390951",
+     "McMaster-Carr shim (9,5x14,3x0,5 mm)",
+     "1"
+    ],
+    [
+     "51",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "2"
+    ],
+    [
+     "17",
+     "",
+     "32091006F",
+     "Front Suspension - Upper Wishbone",
+     "1"
+    ],
+    [
+     "1",
+     "F32006F001",
+     "32055058",
+     "Front Upper Wishbone - Complete",
+     "2"
+    ],
+    [
+     "2",
+     "F32006F002",
+     "32055029",
+     "Front suspension upper wb wheel tether CPL",
+     "2"
+    ],
+    [
+     "3",
+     "F32006F003",
+     "SF1955046",
+     "Front Upper Wishbone Fairing",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM1142",
+     "CUSC50043",
+     "Spherical Bearing NMB ABYT 4V",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0586",
+     "CUSC50016",
+     "Spherical Bearing NMB ABWT 4V",
+     "4"
+    ],
+    [
+     "18",
+     "",
+     "32091006G",
+     "Front Suspension - Lower Wishbone",
+     "1"
+    ],
+    [
+     "1",
+     "F31206G001",
+     "31255263RH",
+     "W/bone front lower R/H",
+     "1"
+    ],
+    [
+     "2",
+     "F31206G002",
+     "31255263LH",
+     "W/bone front lower L/H",
+     "1"
+    ],
+    [
+     "3",
+     "F31706G005",
+     "31755008",
+     "2017 front Wheel Tether - 6kJ",
+     "2"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 7,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "4",
+     "F31206G004",
+     "31255239",
+     "Cover tether rope",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM0592",
+     "CUSC50176",
+     "Ball Joint ARHT-5",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0791",
+     "VITE36248",
+     "Nut AN316-6",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM0587",
+     "CUSC50017",
+     "Spherical Bearing NMB ABWT 5V",
+     "2"
+    ],
+    [
+     "14",
+     "FCOM1368",
+     "CUSC50045",
+     "Spherical Bearing NMB ABYT 6V",
+     "2"
+    ],
+    [
+     "19",
+     "",
+     "32091006H",
+     "Front Suspension - Wheel Side",
+     "1"
+    ],
+    [
+     "1",
+     "F31206H005",
+     "31255347",
+     "Wheel Rim Front",
+     "2"
+    ],
+    [
+     "2",
+     "F31206H010",
+     "31255379",
+     "Spacer bush 6mm",
+     "2"
+    ],
+    [
+     "3",
+     "F31206H018",
+     "31255378",
+     "Spacer bush 2mm",
+     "2"
+    ],
+    [
+     "4",
+     "F31206H019",
+     "31255365",
+     "Spacer bush 4mm",
+     "2"
+    ],
+    [
+     "5",
+     "F31206H033",
+     "31255432",
+     "Washers track rod",
+     "4"
+    ],
+    [
+     "11",
+     "FCOM1343",
+     "COMP91813",
+     "Wheel rim valve",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM1304",
+     "VITE26225",
+     "Bolt NAS 1306-32",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM1303",
+     "VITE40003",
+     "Washer MS20002C6",
+     "4"
+    ],
+    [
+     "14",
+     "FCOM0774",
+     "VITE32255",
+     "Nut 3/8-24",
+     "2"
+    ],
+    [
+     "15",
+     "FCOM1464",
+     "VITE30104",
+     "Nas Bolt front pushrod",
+     "2"
+    ],
+    [
+     "16",
+     "FCOM0822",
+     "VITE40001",
+     "Washer MS20002C5",
+     "12"
+    ],
+    [
+     "17",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "6"
+    ],
+    [
+     "18",
+     "FCOM0636",
+     "GUAR70801",
+     "O-Ring 18x24.6x3.8",
+     "4"
+    ],
+    [
+     "19",
+     "FCOM0819",
+     "VITE38091",
+     "Washer dia.6 (6,6x24x2) (Large External Diameter)",
+     "4"
+    ],
+    [
+     "20",
+     "FCOM1512",
+     "VITE26087",
+     "Nas Bolt",
+     "2"
+    ],
+    [
+     "21",
+     "FCOM1302",
+     "VITE26086",
+     "Bolt NAS 1304-21",
+     "2"
+    ],
+    [
+     "20",
+     "",
+     "32091007A",
+     "Front Wheel Assembly - Wheel Side Brackets",
+     "1"
+    ],
+    [
+     "1",
+     "F31206H001",
+     "31255292RH",
+     "Ackermann R/H",
+     "1"
+    ],
+    [
+     "2",
+     "F31206H002",
+     "31255292LH",
+     "Ackermann L/H",
+     "1"
+    ],
+    [
+     "3",
+     "F31206H007",
+     "31255294RH",
+     "Mtg block upright to push rod bracket rh",
+     "1"
+    ],
+    [
+     "4",
+     "F31206H008",
+     "31255294LH",
+     "Mtg block upright to push rod bracket lh",
+     "1"
+    ],
+    [
+     "5",
+     "F31206H006",
+     "31255272",
+     "Mtg bracket push rod",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM0330",
+     "39722036",
+     "Suspension Bracket Stud",
+     "4"
+    ],
+    [
+     "7",
+     "F31206H004",
+     "31237015",
+     "Mtg bracket wheel speed sensor",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM1362",
+     "BOC03017",
+     "Bush",
+     "4"
+    ],
+    [
+     "9",
+     "F31206H003",
+     "31255381",
+     "Camber spacer 2mm",
+     "2"
+    ],
+    [
+     "10",
+     "F31206H011",
+     "31255442",
+     "Camber spacer 1mm",
+     "2"
+    ],
+    [
+     "11",
+     "F31206H012",
+     "31255441",
+     "Camber spacer 1,5mm",
+     "2"
+    ],
+    [
+     "12",
+     "F31206H013",
+     "31255380",
+     "Camber spacer 0,6mm",
+     "2"
+    ],
+    [
+     "13",
+     "F31206H014",
+     "31255443",
+     "Camber spacer 0,5mm",
+     "2"
+    ],
+    [
+     "14",
+     "F31206H015",
+     "31255444",
+     "Camber spacer 0,8mm",
+     "2"
+    ],
+    [
+     "15",
+     "F31206H016",
+     "31255445",
+     "Camber spacer 1,2mm",
+     "2"
+    ],
+    [
+     "16",
+     "FCOM1361",
+     "BOC01074",
+     "Bush",
+     "4"
+    ],
+    [
+     "21",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "14"
+    ],
+    [
+     "23",
+     "FCOM1305",
+     "VITE38164",
+     "Washer dia.8 ( 8.4x14x1.6) UNI 6592-TC",
+     "10"
+    ],
+    [
+     "24",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "4"
+    ],
+    [
+     "25",
+     "FCOM0688",
+     "VITE02060",
+     "SHCS M4x12 - 8.8",
+     "4"
+    ],
+    [
+     "26",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "2"
+    ],
+    [
+     "27",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "2"
+    ],
+    [
+     "28",
+     "F320100146",
+     "VITE38163",
+     "Washer dia.6 ( 6.4x11x1.6) Uni 6592-TC",
+     "4"
+    ],
+    [
+     "29",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "4"
+    ],
+    [
+     "21",
+     "",
+     "32091007B",
+     "Front Wheel Assembly - Upright & Hub",
+     "1"
+    ],
+    [
+     "1",
+     "F31207B001",
+     "31255282RH",
+     "Upright front RH with studs",
+     "1"
+    ],
+    [
+     "2",
+     "F31207B002",
+     "31255282LH",
+     "Upright front LH with studs",
+     "1"
+    ],
+    [
+     "3",
+     "F31207A002",
+     "31255387LH",
+     "Upright front cplt LH",
+     "1"
+    ],
+    [
+     "4",
+     "F31207A001",
+     "31255387RH",
+     "Upright front cplt RH",
+     "1"
+    ],
+    [
+     "5",
+     "F31207C001",
+     "31255116RH",
+     "Hub front RH",
+     "1"
+    ],
+    [
+     "6",
+     "F31207C002",
+     "31255116LH",
+     "Hub front LH",
+     "1"
+    ],
+    [
+     "7",
+     "F31209A005",
+     "31245048",
+     "Wheel retaining clip",
+     "2"
+    ],
+    [
+     "8",
+     "F31207A007",
+     "T0245074",
+     "Pin wheel Nut security",
+     "4"
+    ],
+    [
+     "9",
+     "F31207A010",
+     "T0255086",
+     "Spring large",
+     "2"
+    ],
+    [
+     "10",
+     "F31207A008",
+     "T0255085",
+     "Pin",
+     "4"
+    ],
+    [
+     "11",
+     "F31207A009",
+     "T0255087",
+     "Spring small",
+     "4"
+    ],
+    [
+     "12",
+     "F31207A006",
+     "G31055064",
+     "Hub plug",
+     "2"
+    ],
+    [
+     "13",
+     "F31207C006",
+     "G31055112",
+     "Drive peg rear long",
+     "4"
+    ],
+    [
+     "14",
+     "F31207C005",
+     "31255007",
+     "Drive peg rear",
+     "4"
+    ],
+    [
+     "15",
+     "F31207C004",
+     "31255420",
+     "Wheel speed trigger",
+     "2"
+    ],
+    [
+     "16",
+     "F31207C003",
+     "31255155",
+     "Hub Nut",
+     "2"
+    ],
+    [
+     "17",
+     "FCOM0445",
+     "39955021",
+     "Stud M8",
+     "2"
+    ],
+    [
+     "18",
+     "FCOM0415",
+     "39922005",
+     "Upper Engine Stud",
+     "8"
+    ],
+    [
+     "19",
+     "FCOM1126",
+     "30822004",
+     "Stud M10 (Upper caliper)",
+     "2"
+    ],
+    [
+     "20",
+     "FCOM0413",
+     "39922002",
+     "Stud M10 (Brembo caliper)",
+     "2"
+    ],
+    [
+     "21",
+     "F31207A003",
+     "T0245068RH",
+     "Wheel Nut RH - Green",
+     "1"
+    ],
+    [
+     "22",
+     "F31207A004",
+     "T0245068LH",
+     "Wheel Nut LH - Red",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "6"
+    ],
+    [
+     "32",
+     "FCOM0798",
+     "VITE38013",
+     "Washer dia.10 (10.15x18x2) Uni 1750",
+     "4"
+    ],
+    [
+     "33",
+     "FCOM0768",
+     "VITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM0647",
+     "MINU02468",
+     "Circlip",
+     "2"
+    ],
+    [
+     "35",
+     "FCOM1306",
+     "VITE140171",
+     "Stud M6x35 10.9",
+     "4"
+    ],
+    [
+     "36",
+     "FCOM1080",
+     "CUSC22025",
+     "SKF low friction bearing",
+     "2"
+    ],
+    [
+     "22",
+     "",
+     "32091008A 24",
+     "Rear Suspension - Gearbox Side - 324",
+     "1"
+    ],
+    [
+     "1",
+     "FCOM1544",
+     "_\n31245241",
+     "Bracket",
+     "4"
+    ],
+    [
+     "2",
+     "F31208A005",
+     "31245199",
+     "Bracket",
+     "2"
+    ],
+    [
+     "3",
+     "F31208A008",
+     "31245148",
+     "Mtg bracket W/bone lower forward link",
+     "4"
+    ],
+    [
+     "4",
+     "F31208A010",
+     "31245119",
+     "Damper Bracket on Gearbox",
+     "2"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 8,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "6",
+     "F32408A006",
+     "32445021",
+     "Rear wheel tether retaining pin",
+     "2"
+    ],
+    [
+     "7",
+     "FCOM1119",
+     "30855093",
+     "Rebound stop",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0389",
+     "39755095",
+     "Bolt Rebound stop",
+     "2"
+    ],
+    [
+     "9",
+     "F31208A019",
+     "31245120",
+     "Mtg bracket 3rd element",
+     "1"
+    ],
+    [
+     "10",
+     "FCOM0365",
+     "39745028",
+     "Shim",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM1364",
+     "BOC01022",
+     "Bush",
+     "6"
+    ],
+    [
+     "31",
+     "FCOM0774",
+     "VITE32255",
+     "Nut 3/8-24",
+     "12"
+    ],
+    [
+     "32",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "4"
+    ],
+    [
+     "33",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "21"
+    ],
+    [
+     "36",
+     "FCOM0811",
+     "VITE38068",
+     "Washer dia.8 (8.4x15x0.5) DIN 137A",
+     "12"
+    ],
+    [
+     "37",
+     "FCOM1305",
+     "VITE38164",
+     "Washer dia.8 ( 8.4x14x1.6) UNI 6592-TC",
+     "3"
+    ],
+    [
+     "38",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "12"
+    ],
+    [
+     "39",
+     "FCOM0808",
+     "VITE38051",
+     "Washer",
+     "8"
+    ],
+    [
+     "40",
+     "FCOM0758",
+     "VITE26145",
+     "Bolt NAS 1305-16",
+     "3"
+    ],
+    [
+     "41",
+     "FCOM0761",
+     "VITE26205",
+     "Bolt NAS 1306-12",
+     "4"
+    ],
+    [
+     "42",
+     "FCOM0753",
+     "VITE26077",
+     "Bolt hexagon head NAS1304-12",
+     "4"
+    ],
+    [
+     "43",
+     "FCOM0756",
+     "VITE26141",
+     "Bolt Nas 1305-12",
+     "2"
+    ],
+    [
+     "44",
+     "FCOM0812",
+     "VITE38069",
+     "Washer dia.10 (10.5x18x0.8) Uni 1750",
+     "4"
+    ],
+    [
+     "45",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "6"
+    ],
+    [
+     "46",
+     "F320100153",
+     "VITE39016",
+     "Washer dia.16 (16x26x1)",
+     "2"
+    ],
+    [
+     "47",
+     "F320100154",
+     "MINU02014",
+     "Circlip A16 (UNI 7435)",
+     "2"
+    ],
+    [
+     "49",
+     "FCOM0780",
+     "VITE36006",
+     "Nut M8 Uni 5588",
+     "2"
+    ],
+    [
+     "50",
+     "FCOM0823",
+     "VITE40002",
+     "Washer MS20002C5",
+     "5"
+    ],
+    [
+     "23",
+     "",
+     "32091008B",
+     "Rear Suspension - Rocker",
+     "1"
+    ],
+    [
+     "1",
+     "F31208B001",
+     "31245030RH",
+     "Rocker rear RH",
+     "1"
+    ],
+    [
+     "2",
+     "F31208B002",
+     "31245030LH",
+     "Rocker rear LH",
+     "1"
+    ],
+    [
+     "3",
+     "F31208B003",
+     "31245058",
+     "Bump stop",
+     "2"
+    ],
+    [
+     "4",
+     "F31208B006",
+     "31245089RH",
+     "Fixing plate RH",
+     "1"
+    ],
+    [
+     "5",
+     "F31208B007",
+     "31245089LH",
+     "Fixing plate LH",
+     "1"
+    ],
+    [
+     "6",
+     "F31208B009",
+     "31245125",
+     "Rear rocker cap",
+     "2"
+    ],
+    [
+     "7",
+     "FCOM1557",
+     "39745029 A",
+     "Rocker shim .1.00mm",
+     "1"
+    ],
+    [
+     "8",
+     "FCOM1561",
+     "_\n39745029 B",
+     "Rocker shim .0.99mm",
+     "1"
+    ],
+    [
+     "9",
+     "FCOM1562",
+     "_\n39745029 C",
+     "Rocker shim .0.98mm",
+     "1"
+    ],
+    [
+     "10",
+     "FCOM1563",
+     "_\n39745029 D",
+     "Rocker shim .0.97mm",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM1564",
+     "_\n39745029 E",
+     "Rocker shim .0.96mm",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM1565",
+     "_\n39745029 F",
+     "Rocker shim .0.95mm",
+     "1"
+    ],
+    [
+     "13",
+     "FCOM1566",
+     "_\n39745029 G",
+     "Rocker shim .0.94mm",
+     "1"
+    ],
+    [
+     "14",
+     "FCOM1567",
+     "_\n39745029 H",
+     "Rocker shim .0.93mm",
+     "1"
+    ],
+    [
+     "15",
+     "FCOM1568",
+     "_\n39745029 I",
+     "Rocker shim .0.92mm",
+     "1"
+    ],
+    [
+     "16",
+     "FCOM1569",
+     "_\n39745029 L",
+     "Rocker shim .0.91mm",
+     "1"
+    ],
+    [
+     "17",
+     "FCOM1570",
+     "_\n39745029 M",
+     "Rocker shim .0.90mm",
+     "1"
+    ],
+    [
+     "18",
+     "FCOM1571",
+     "_\n39745029 N",
+     "Rocker shim .0.89mm",
+     "1"
+    ],
+    [
+     "19",
+     "FCOM1572",
+     "_\n39745029 O",
+     "Rocker shim .0.88mm",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM1573",
+     "_\n39745029 P",
+     "Rocker shim .0.87mm",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM1574",
+     "_\n39745029 Q",
+     "Rocker shim .0.86mm",
+     "1"
+    ],
+    [
+     "22",
+     "FCOM1575",
+     "_\n39745029 R",
+     "Rocker shim .0.85mm",
+     "1"
+    ],
+    [
+     "23",
+     "FCOM1576",
+     "_\n39745029 S",
+     "Rocker shim .0.84mm",
+     "1"
+    ],
+    [
+     "24",
+     "FCOM1577",
+     "_\n39745029 T",
+     "Rocker shim .0.83mm",
+     "1"
+    ],
+    [
+     "25",
+     "FCOM1578",
+     "_\n39745029 U",
+     "Rocker shim .0.82mm",
+     "1"
+    ],
+    [
+     "26",
+     "FCOM1579",
+     "_\n39745029 V",
+     "Rocker shim .0.81mm",
+     "1"
+    ],
+    [
+     "27",
+     "FCOM1580",
+     "_\n39745029 Z",
+     "Rocker shim .0.80mm",
+     "1"
+    ],
+    [
+     "28",
+     "FCOM1558",
+     "_\n39745029 AA",
+     "Rocker shim .0.79mm",
+     "1"
+    ],
+    [
+     "29",
+     "FCOM1559",
+     "_\n39745029 AB",
+     "Rocker shim .0.78mm",
+     "1"
+    ],
+    [
+     "30",
+     "FCOM1560",
+     "_\n39745029 AC",
+     "Rocker shim .0.77mm",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0768",
+     "_\nVITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "2"
+    ],
+    [
+     "42",
+     "FCOM0812",
+     "VITE38069",
+     "Washer dia.10 (10.5x18x0.8) Uni 1750",
+     "2"
+    ],
+    [
+     "43",
+     "FCOM0583",
+     "CUSC28100",
+     "Bearing Ina AXK 3047",
+     "4"
+    ],
+    [
+     "44",
+     "FCOM1124",
+     "CUSC28101",
+     "Torrington Washer",
+     "4"
+    ],
+    [
+     "45",
+     "FCOM1369",
+     "CUSC260023",
+     "Bearing",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0759",
+     "VITE26146",
+     "Bolt hexagon head NAS1305-17",
+     "4"
+    ],
+    [
+     "47",
+     "FCOM0823",
+     "VITE40002",
+     "Washer MS20002C5",
+     "6"
+    ],
+    [
+     "48",
+     "FCOM1364",
+     "BOC01022",
+     "Bush",
+     "8"
+    ],
+    [
+     "49",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "2"
+    ],
+    [
+     "50",
+     "FCOM1311",
+     "VITE36034",
+     "Nut M2.5 Din 985",
+     "2"
+    ],
+    [
+     "51",
+     "FCOM1312",
+     "VITE02289",
+     "SHCS M2,5 x 12 - 12.9",
+     "2"
+    ],
+    [
+     "52",
+     "FCOM1141",
+     "BOC02063",
+     "Bush",
+     "4"
+    ],
+    [
+     "53",
+     "FCOM1291",
+     "VITE26082",
+     "Bolt NAS 1304-17",
+     "2"
+    ],
+    [
+     "54",
+     "FCOM1177",
+     "VITE40049",
+     "Washer AN 960-416 Reg",
+     "2"
+    ],
+    [
+     "24",
+     "",
+     "32091008C",
+     "Rear Suspension - Damper",
+     "1"
+    ],
+    [
+     "1",
+     "F31208C001",
+     "31245086",
+     "Rear Damper Koni 2812-984-770",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM0380",
+     "39755039",
+     "Damper spring Koni 2812 support",
+     "1"
+    ],
+    [
+     "3",
+     "FCOM0269",
+     "30545009",
+     "Damper top adjuster",
+     "1"
+    ],
+    [
+     "4",
+     "FCOM0270",
+     "30545010",
+     "Damper top (with uniball)",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM0379",
+     "39755029",
+     "Spring Platform",
+     "1"
+    ],
+    [
+     "6",
+     "F32008C006",
+     "31245087",
+     "Rear 3th damper Koni 2812-985-925",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM0530",
+     "COMP51002 L",
+     "Damper Spring C400",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM0531",
+     "_\nCOMP51004 L",
+     "Damper Spring C500",
+     "1"
+    ],
+    [
+     "13",
+     "FCOM0532",
+     "_\nCOMP51006 L",
+     "Damper Spring C600",
+     "1"
+    ],
+    [
+     "14",
+     "FCOM0533",
+     "_\nCOMP51007 L",
+     "Damper Spring C700",
+     "1"
+    ],
+    [
+     "15",
+     "FCOM0534",
+     "_\nCOMP51008 L",
+     "Damper Spring C800",
+     "1"
+    ],
+    [
+     "16",
+     "FCOM0535",
+     "_\nCOMP51009 L",
+     "Damper Spring C900",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 9,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "17",
+     "FCOM0536",
+     "COMP51010 L",
+     "Damper Spring C1000",
+     "1"
+    ],
+    [
+     "18",
+     "FCOM0537",
+     "_\nCOMP51011 L",
+     "Damper Spring C1100",
+     "1"
+    ],
+    [
+     "19",
+     "FCOM0538",
+     "_\nCOMP51012 L",
+     "Damper Spring C1200",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM0539",
+     "_\nCOMP51013 L",
+     "Spring 1300",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM0540",
+     "_\nCOMP51014 L",
+     "Spring 1400",
+     "1"
+    ],
+    [
+     "22",
+     "FCOM0541",
+     "_\nCOMP51015 L",
+     "Spring 1500",
+     "1"
+    ],
+    [
+     "23",
+     "FCOM0542",
+     "_\nCOMP51016 L",
+     "Spring 1600",
+     "1"
+    ],
+    [
+     "24",
+     "FCOM1370",
+     "_\nCUSC50003",
+     "Spherical Bearing NMB ABWT 5",
+     "1"
+    ],
+    [
+     "25",
+     "",
+     "32091008D 24",
+     "Rear Suspension - Pushrod & Toe Link - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F31208D001",
+     "_\n31245079",
+     "Push rod rear",
+     "2"
+    ],
+    [
+     "2",
+     "FCOM0150",
+     "30245056",
+     "Barrel lockNut",
+     "4"
+    ],
+    [
+     "3",
+     "F32408D003",
+     "32445026",
+     "Rear Pushrod turnbuckle",
+     "2"
+    ],
+    [
+     "4",
+     "FCOM0161",
+     "30255093",
+     "Barrel lockNut",
+     "4"
+    ],
+    [
+     "5",
+     "F31208H001",
+     "31245108",
+     "Track rod rear",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM0149",
+     "30245055",
+     "Front barrell",
+     "4"
+    ],
+    [
+     "11",
+     "FCOM0593",
+     "CUSC50177",
+     "Ball Joint ARHTL-5",
+     "4"
+    ],
+    [
+     "12",
+     "FCOM0587",
+     "CUSC50017",
+     "Spherical Bearing NMB ABWT 5V",
+     "4"
+    ],
+    [
+     "26",
+     "",
+     "32091008E",
+     "Rear Suspension - Anti-Roll Bar",
+     "1"
+    ],
+    [
+     "1",
+     "F31208E001",
+     "31245161",
+     "Anti roll bar T 25x2",
+     "1"
+    ],
+    [
+     "2",
+     "F31208E002",
+     "31245172",
+     "Anti roll bar T 17",
+     "1"
+    ],
+    [
+     "3",
+     "F31208E003",
+     "31245168",
+     "Anti roll bar (blade type)",
+     "1"
+    ],
+    [
+     "4",
+     "F31208E004",
+     "31245183",
+     "Blade soft",
+     "1"
+    ],
+    [
+     "5",
+     "F31208E005",
+     "31245130",
+     "Mtg Bush rear anti roll bar",
+     "2"
+    ],
+    [
+     "6",
+     "F31208E006",
+     "31245057",
+     "Push rod anti roll bar",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM0591",
+     "CUSC50145",
+     "Ball Joint ARTL5",
+     "1"
+    ],
+    [
+     "22",
+     "FCOM0792",
+     "VITE36257",
+     "Nut AN316-5L",
+     "1"
+    ],
+    [
+     "23",
+     "FCOM0790",
+     "VITE36247",
+     "Nut AN316-5",
+     "1"
+    ],
+    [
+     "24",
+     "FCOM1189",
+     "CUSC50142",
+     "Rose joint lower R/H",
+     "1"
+    ],
+    [
+     "25",
+     "FCOM0753",
+     "VITE26077",
+     "Bolt hexagon head NAS1304-12",
+     "1"
+    ],
+    [
+     "26",
+     "FCOM0816",
+     "VITE38075",
+     "Washerdia.8 (8.4x15x0.8)",
+     "1"
+    ],
+    [
+     "27",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "1"
+    ],
+    [
+     "28",
+     "FCOM0588",
+     "CUSC50018",
+     "Spherical Bearing NMB ABWT 6V",
+     "2"
+    ],
+    [
+     "29",
+     "FCOM1294",
+     "VITE26081",
+     "Bolt NAS 1304-16",
+     "1"
+    ],
+    [
+     "30",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "1"
+    ],
+    [
+     "31",
+     "F320100128",
+     "VITE39090",
+     "McMaster-Carr shim p/n 94773A614",
+     "1"
+    ],
+    [
+     "32",
+     "F303097014",
+     "VITE39095",
+     "McMaster-Carr Shim (9,5x14,3x0,25 mm)",
+     "1"
+    ],
+    [
+     "33",
+     "F320100130",
+     "VITE390951",
+     "McMaster-Carr shim (9,5x14,3x0,5 mm)",
+     "1"
+    ],
+    [
+     "27",
+     "",
+     "32091008F",
+     "Rear Suspension - Upper Wishbone",
+     "1"
+    ],
+    [
+     "1",
+     "F31208F001",
+     "31245110",
+     "W/bone rear upper",
+     "2"
+    ],
+    [
+     "2",
+     "F31708F004",
+     "31745006",
+     "2017 rear Wheel Tether - 6kJ",
+     "2"
+    ],
+    [
+     "3",
+     "FCOM1125",
+     "30845013",
+     "Tether rope cover rear",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM0587",
+     "CUSC50017",
+     "Spherical Bearing NMB ABWT 5V",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0586",
+     "CUSC50016",
+     "Spherical Bearing NMB ABWT 4V",
+     "4"
+    ],
+    [
+     "28",
+     "",
+     "32091008G",
+     "Rear Suspension - Lower Wishbone",
+     "1"
+    ],
+    [
+     "1",
+     "F31208G002",
+     "31245066RH",
+     "W/bone rear lower RH",
+     "1"
+    ],
+    [
+     "2",
+     "F31208G001",
+     "31245066LH",
+     "W/bone rear lower LH",
+     "1"
+    ],
+    [
+     "3",
+     "F32008G003",
+     "32045022",
+     "Rear suspension lower wb wheel tether CPL",
+     "2"
+    ],
+    [
+     "4",
+     "F32008G004",
+     "21845046",
+     "Tether rope cover rear upper",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM0588",
+     "CUSC50018",
+     "Spherical Bearing NMB ABWT 6V",
+     "4"
+    ],
+    [
+     "12",
+     "FCOM1101",
+     "VITE36249",
+     "Nut AN316-7R",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM1102",
+     "CUSC50178",
+     "Ball Joint ARHT6",
+     "2"
+    ],
+    [
+     "29",
+     "",
+     "32091008H",
+     "Rear Suspension - Wheel Side",
+     "1"
+    ],
+    [
+     "1",
+     "F31208H005",
+     "31245121",
+     "Wheel Rim Rear",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM1343",
+     "COMP91813",
+     "Wheel rim valve",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0757",
+     "VITE26143",
+     "NAS Bolt 1305-14",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "6"
+    ],
+    [
+     "14",
+     "FCOM0756",
+     "VITE26141",
+     "Bolt Nas 1305-12",
+     "4"
+    ],
+    [
+     "15",
+     "FCOM0811",
+     "VITE38068",
+     "Washer dia.8 (8.4x15x0.5) DIN 137A",
+     "6"
+    ],
+    [
+     "16",
+     "FCOM0762",
+     "VITE26208",
+     "Bolt NAS 1306-15",
+     "2"
+    ],
+    [
+     "17",
+     "FCOM0812",
+     "VITE38069",
+     "Washer dia.10 (10.5x18x0.8) Uni 1750",
+     "2"
+    ],
+    [
+     "18",
+     "FCOM0774",
+     "VITE32255",
+     "Nut 3/8-24",
+     "2"
+    ],
+    [
+     "30",
+     "",
+     "32091008I",
+     "Rear Suspension - Driveshaft",
+     "1"
+    ],
+    [
+     "1",
+     "F31208I001",
+     "31234009",
+     "Tripod",
+     "4"
+    ],
+    [
+     "2",
+     "F31208I002",
+     "31234010",
+     "Spring",
+     "2"
+    ],
+    [
+     "3",
+     "FCOM1145",
+     "COMP10006",
+     "CV boot",
+     "4"
+    ],
+    [
+     "4",
+     "FCOM0114",
+     "30234007",
+     "Flange",
+     "2"
+    ],
+    [
+     "5",
+     "FCOM0337",
+     "39731017",
+     "Breather",
+     "4"
+    ],
+    [
+     "6",
+     "F31208I006",
+     "WL334006",
+     "Plunger",
+     "2"
+    ],
+    [
+     "7",
+     "F31208I007",
+     "31234008",
+     "Drive shaft cplt with plugs",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0671",
+     "MINU22319",
+     "Hose clip metal",
+     "2"
+    ],
+    [
+     "9",
+     "FCOM0668",
+     "MINU22150",
+     "Hose clip",
+     "2"
+    ],
+    [
+     "10",
+     "FCOM0620",
+     "GUAR10123",
+     "O-Ring 3275 NBR",
+     "2"
+    ],
+    [
+     "11",
+     "F31208I011",
+     "21134003",
+     "Backing plate CV boot",
+     "2"
+    ],
+    [
+     "12",
+     "F31208I012",
+     "21134004",
+     "Retaining flange CV boot",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM1380",
+     "GUAR09172",
+     "O-ring dia.int. 72x2 mm NBR",
+     "2"
+    ],
+    [
+     "14",
+     "FCOM1186",
+     "MINU02710",
+     "Circlip",
+     "4"
+    ],
+    [
+     "15",
+     "FCOM1187",
+     "MINU02021",
+     "Circlip",
+     "4"
+    ],
+    [
+     "16",
+     "FCOM0670",
+     "MINU22318",
+     "Hose clip",
+     "2"
+    ],
+    [
+     "17",
+     "FCOM0650",
+     "MINU05293",
+     "Circlip",
+     "2"
+    ],
+    [
+     "31",
+     "",
+     "32091009A",
+     "Rear Wheel Assembly - Wheel Side Brackets",
+     "1"
+    ],
+    [
+     "1",
+     "F31208A005",
+     "31245199",
+     "Bracket",
+     "2"
+    ],
+    [
+     "2",
+     "FCOM0271",
+     "30545011",
+     "Bracket",
+     "2"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 10,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "3",
+     "FCOM0370",
+     "39745046",
+     "Fixed Rear Camber Shim",
+     "2"
+    ],
+    [
+     "4",
+     "FCOM0433",
+     "39945016",
+     "Rear Camber Shim 0.8mm",
+     "2"
+    ],
+    [
+     "5",
+     "FCOM0435",
+     "39945053",
+     "Rear Camber Shim 1.0 mm",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM0436",
+     "39945054",
+     "Rear Camber Shim 1.2 mm",
+     "2"
+    ],
+    [
+     "7",
+     "FCOM0437",
+     "39945055",
+     "Rear Camber Shim 1.5 mm",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0438",
+     "39945056",
+     "Rear Camber Shim 2.0 mm",
+     "2"
+    ],
+    [
+     "9",
+     "FCOM0415",
+     "39922005",
+     "Upper Engine Stud",
+     "4"
+    ],
+    [
+     "21",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "4"
+    ],
+    [
+     "23",
+     "FCOM0799",
+     "VITE38014",
+     "Washer dia.12 (12.15x21x2.5) Uni 1750",
+     "2"
+    ],
+    [
+     "24",
+     "FCOM0769",
+     "VITE32207",
+     "Nut (M12x1.5) (Astori DS10-12)",
+     "2"
+    ],
+    [
+     "32",
+     "",
+     "32091009B",
+     "Rear Wheel Assembly - Upright & Hub",
+     "1"
+    ],
+    [
+     "1",
+     "F31209B011",
+     "31245227RH",
+     "RH Rear Upright w/studs and spacer V2",
+     "1"
+    ],
+    [
+     "2",
+     "F31209B012",
+     "31245227LH",
+     "LH Rear Upright w/studs and spacer V2",
+     "1"
+    ],
+    [
+     "3",
+     "F31209A012",
+     "31245219LH",
+     "LH Rear Complete Upright V2",
+     "1"
+    ],
+    [
+     "4",
+     "F31209A011",
+     "31245219RH",
+     "RH Rear Complete Upright V2",
+     "1"
+    ],
+    [
+     "5",
+     "F31209C012",
+     "31245206RH",
+     "Rear hub version 2 RH",
+     "1"
+    ],
+    [
+     "6",
+     "F31209C013",
+     "31245206LH",
+     "Rear hub version 2 LH",
+     "1"
+    ],
+    [
+     "7",
+     "F31209C006",
+     "20845064RH",
+     "RH Front Upright race Retainer Ring",
+     "1"
+    ],
+    [
+     "8",
+     "F31209C007",
+     "20845064LH",
+     "LH Front Upright race Retainer Ring",
+     "1"
+    ],
+    [
+     "9",
+     "F31209C005",
+     "31045018",
+     "Drive shaft stopper",
+     "2"
+    ],
+    [
+     "10",
+     "F31207C006",
+     "G31055112",
+     "Drive peg rear long",
+     "4"
+    ],
+    [
+     "11",
+     "F31207C005",
+     "31255007",
+     "Drive peg rear",
+     "4"
+    ],
+    [
+     "12",
+     "F31209A005",
+     "31245048",
+     "Wheel retaining clip",
+     "2"
+    ],
+    [
+     "13",
+     "F31207A008",
+     "T0255085",
+     "Pin",
+     "4"
+    ],
+    [
+     "14",
+     "F31207A009",
+     "T0255087",
+     "Spring small",
+     "4"
+    ],
+    [
+     "15",
+     "F31207A006",
+     "G31055064",
+     "Hub plug",
+     "2"
+    ],
+    [
+     "16",
+     "F31207A007",
+     "T0245074",
+     "Pin wheel Nut security",
+     "4"
+    ],
+    [
+     "17",
+     "F31207A010",
+     "T0255086",
+     "Spring large",
+     "2"
+    ],
+    [
+     "18",
+     "F31209C008",
+     "T0245008",
+     "Washer (locking ring)",
+     "2"
+    ],
+    [
+     "19",
+     "FCOM0413",
+     "39922002",
+     "Stud M10 (Brembo caliper)",
+     "2"
+    ],
+    [
+     "20",
+     "FCOM1126",
+     "30822004",
+     "Stud M10 (Upper caliper)",
+     "2"
+    ],
+    [
+     "21",
+     "F30809B004",
+     "30845023",
+     "Tether retaining Washer",
+     "2"
+    ],
+    [
+     "22",
+     "F31209C031",
+     "31245213 A",
+     "Shim 1,23 mm",
+     "2"
+    ],
+    [
+     "23",
+     "F31209C032",
+     "_\n31245213 B",
+     "Shim 1,24 mm",
+     "2"
+    ],
+    [
+     "24",
+     "F31209C033",
+     "_\n31245213 C",
+     "Shim 1,25 mm",
+     "2"
+    ],
+    [
+     "25",
+     "F31209C034",
+     "_\n31245213 D",
+     "Shim 1,26 mm",
+     "2"
+    ],
+    [
+     "26",
+     "F31209C035",
+     "_\n31245213 E",
+     "Shim 1,27 mm",
+     "2"
+    ],
+    [
+     "27",
+     "F31209C036",
+     "_\n31245213 F",
+     "Shim 1,28 mm",
+     "2"
+    ],
+    [
+     "28",
+     "F31209C003",
+     "_\n31245091",
+     "Spacer wheel bearing rear (+0.015/+0.022)",
+     "2"
+    ],
+    [
+     "29",
+     "F31209C004",
+     "31245116",
+     "Spacer wheel bearing rear (+0.023/+0.030))",
+     "2"
+    ],
+    [
+     "30",
+     "F31209C011",
+     "31245133",
+     "Spacer wheel bearing 55mm",
+     "2"
+    ],
+    [
+     "31",
+     "F31209C014",
+     "31245233",
+     "Spacer to be used with shims",
+     "2"
+    ],
+    [
+     "31",
+     "F31207A003",
+     "T0245068RH",
+     "Wheel Nut RH - Green",
+     "1"
+    ],
+    [
+     "32",
+     "F31207A004",
+     "T0245068LH",
+     "Wheel Nut LH - Red",
+     "1"
+    ],
+    [
+     "41",
+     "F320100194",
+     "VITE38165",
+     "Washer dia.10 (10.5x18x2) Uni 6592-TC",
+     "4"
+    ],
+    [
+     "42",
+     "FCOM0768",
+     "VITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "4"
+    ],
+    [
+     "43",
+     "FCOM1159",
+     "VITE38064",
+     "Washer dia.4,3 (4.3x8x0.5) DIN 137A",
+     "6"
+    ],
+    [
+     "44",
+     "FCOM1280",
+     "VITE02058",
+     "SHCS M4 x 8 - 8.8",
+     "6"
+    ],
+    [
+     "45",
+     "FCOM1372",
+     "CUSC22014",
+     "Bearing SKF singolo p/n BY-BAH-0183 (90x115x13 mm) ( equivalent to BA1-9498)",
+     "4"
+    ],
+    [
+     "33",
+     "",
+     "32091010A",
+     "Brakes - Brake Ducts",
+     "1"
+    ],
+    [
+     "1",
+     "F31710E001",
+     "31740028RH",
+     "RH Front Brakeduct scoop",
+     "1"
+    ],
+    [
+     "2",
+     "F31710E002",
+     "31740028LH",
+     "LH Front Brakeduct scoop",
+     "1"
+    ],
+    [
+     "3",
+     "F31710E005",
+     "31740003",
+     "Standoff for front brake duct",
+     "2"
+    ],
+    [
+     "4",
+     "F31710E004",
+     "31740021",
+     "Standoff for front brake duct",
+     "2"
+    ],
+    [
+     "5",
+     "F31710E003",
+     "31740022",
+     "Standoff for front brake duct",
+     "2"
+    ],
+    [
+     "6",
+     "F31710E006",
+     "31740017RH",
+     "Rear Brakeduct Part A RH",
+     "1"
+    ],
+    [
+     "7",
+     "F31710E007",
+     "31740017LH",
+     "Rear Brakeduct Part A LH",
+     "1"
+    ],
+    [
+     "8",
+     "F31710E008",
+     "31740025RH",
+     "Rear Brakeduct Part B RH",
+     "1"
+    ],
+    [
+     "9",
+     "F31710E009",
+     "31740025LH",
+     "Rear Brakeduct Part B LH",
+     "1"
+    ],
+    [
+     "10",
+     "F31710E010",
+     "31740026RH",
+     "Rear Brakeduct Tube Trap Nut RH",
+     "1"
+    ],
+    [
+     "11",
+     "F31710E011",
+     "31740026LH",
+     "Rear Brakeduct Tube Trap Nut LH",
+     "1"
+    ],
+    [
+     "12",
+     "F31710E012",
+     "31740020",
+     "Rear Brakeduct Scoop",
+     "2"
+    ],
+    [
+     "13",
+     "F31710E013",
+     "31740027RH",
+     "Brakeduct support ring RH",
+     "1"
+    ],
+    [
+     "14",
+     "F31710E014",
+     "31740027LH",
+     "Brakeduct support ring LH",
+     "1"
+    ],
+    [
+     "15",
+     "F31710E015",
+     "31740014",
+     "Standoff for rear brake duct",
+     "6"
+    ],
+    [
+     "16",
+     "F31710E016",
+     "31740040",
+     "Rear brake duct mounting plate",
+     "2"
+    ],
+    [
+     "31",
+     "FCOM1062",
+     "VITE14012",
+     "Stud M6x16 8.8 UNI 5911",
+     "4"
+    ],
+    [
+     "32",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "22"
+    ],
+    [
+     "33",
+     "FCOM0725",
+     "VITE06033",
+     "BHCS M6 x 20 - 10.9",
+     "6"
+    ],
+    [
+     "34",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "14"
+    ],
+    [
+     "35",
+     "FCOM1060",
+     "VITE06038",
+     "BHCS M6 x 40 - 10.9",
+     "2"
+    ],
+    [
+     "36",
+     "FCOM0743",
+     "VITE08058",
+     "FHCS 6 x 20 - 10.9",
+     "6"
+    ],
+    [
+     "37",
+     "FCOM0775",
+     "VITE34053",
+     "Trap Nut M5 Astori F700L-05",
+     "12"
+    ],
+    [
+     "38",
+     "FCOM0721",
+     "VITE06019",
+     "BHCS M5 x 12 - 10.9",
+     "14"
+    ],
+    [
+     "39",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "14"
+    ],
+    [
+     "34",
+     "",
+     "32091010B",
+     "Brakes - Brake Disc",
+     "1"
+    ],
+    [
+     "1",
+     "F31210B002",
+     "31240012",
+     "Disc bell front",
+     "2"
+    ],
+    [
+     "2",
+     "F31210B001",
+     "31240014",
+     "Disc bell rear",
+     "2"
+    ],
+    [
+     "3",
+     "F31210B005",
+     "31240016",
+     "Disc bell fixing ring",
+     "2"
+    ],
+    [
+     "11",
+     "FCOM1151",
+     "COMP26236",
+     "Brembo - Brake Disc LH",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM1152",
+     "COMP26237",
+     "Brembo - Brake Disc RH",
+     "2"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 11,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "13",
+     "F320100202",
+     "COMP262362",
+     "Brembo - Brake Disc LH (Light)",
+     "2"
+    ],
+    [
+     "14",
+     "F320100203",
+     "COMP262372",
+     "Brembo - Brake Disc RH (Light)",
+     "2"
+    ],
+    [
+     "15",
+     "F320100204",
+     "COMP26282",
+     "PFC - Brake Disc LH",
+     "2"
+    ],
+    [
+     "16",
+     "F320100205",
+     "COMP26281",
+     "PFC - Brake Disc RH",
+     "2"
+    ],
+    [
+     "17",
+     "FCOM1153",
+     "COMP262382",
+     "Disc bell flange Bolts",
+     "22"
+    ],
+    [
+     "18",
+     "FCOM1543",
+     "COMP2623821",
+     "FCOM1153 Alternative Bolt",
+     "22"
+    ],
+    [
+     "19",
+     "F305200368",
+     "VITE08023",
+     "FHCS 4 x 14 - 10.9",
+     "6"
+    ],
+    [
+     "35",
+     "",
+     "32091010C",
+     "Brakes - Brake Caliper & Pads",
+     "1"
+    ],
+    [
+     "1",
+     "F31210A021",
+     "COMP260532",
+     "Front left HRB caliper",
+     "1"
+    ],
+    [
+     "2",
+     "F31210A022",
+     "COMP260542",
+     "Front right HRB caliper",
+     "1"
+    ],
+    [
+     "3",
+     "F31210A023",
+     "COMP260552",
+     "Rear left HRB caliper",
+     "1"
+    ],
+    [
+     "4",
+     "F31210A024",
+     "COMP260562",
+     "Rear right HRB caliper",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM1546",
+     "COMP263231",
+     "Kit 4 brake pads Brembo RB170",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM1547",
+     "COMP26582",
+     "Kit 8 caliper seals 36 mm piston",
+     "1"
+    ],
+    [
+     "7",
+     "FCOM1548",
+     "COMP265821",
+     "Kit 8 caliper seals 30 mm piston",
+     "1"
+    ],
+    [
+     "8",
+     "FCOM1165",
+     "30840007",
+     "Cross over pipe",
+     "4"
+    ],
+    [
+     "9",
+     "FCOM1161",
+     "30840017",
+     "Cross over pipe",
+     "4"
+    ],
+    [
+     "10",
+     "FCOM1166",
+     "30840008",
+     "Pad abutment external",
+     "16"
+    ],
+    [
+     "11",
+     "FCOM1167",
+     "30840009",
+     "Pad abutment internal",
+     "16"
+    ],
+    [
+     "12",
+     "FCOM1168",
+     "30840010",
+     "Pad abutment Bolt",
+     "16"
+    ],
+    [
+     "13",
+     "FCOM1169",
+     "30840011",
+     "Piston dia.30",
+     "8"
+    ],
+    [
+     "14",
+     "FCOM1170",
+     "30840012",
+     "Piston dia.36",
+     "8"
+    ],
+    [
+     "15",
+     "FCOM1171",
+     "COMP26617",
+     "Inlet nipple",
+     "4"
+    ],
+    [
+     "16",
+     "FCOM1458",
+     "COMP26618",
+     "Copper Washer",
+     "4"
+    ],
+    [
+     "17",
+     "FCOM1173",
+     "COMP26619",
+     "Bleed nipple",
+     "8"
+    ],
+    [
+     "18",
+     "FCOM1461",
+     "COMP263301",
+     "Brake Pads Brembo Prebeaded",
+     "8"
+    ],
+    [
+     "36",
+     "",
+     "32091010D",
+     "Brakes - Brake Lines",
+     "1"
+    ],
+    [
+     "1",
+     "F31210D001",
+     "31214010",
+     "Brake line rear chassis",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM0283",
+     "30614002",
+     "WT Rear brake line",
+     "1"
+    ],
+    [
+     "3",
+     "F31210D002",
+     "31214006",
+     "Brake line front",
+     "2"
+    ],
+    [
+     "4",
+     "F32010D004",
+     "32040024",
+     "Brake Line From Pump to Threeways Junction",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM1446",
+     "31240030",
+     "Banjo Bolt",
+     "4"
+    ],
+    [
+     "21",
+     "FCOM1076",
+     "VITE42572",
+     "Copper Washer 3/8",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM1104",
+     "VITE04033",
+     "Bolt M6 x 16 - 8.8 - UNI 5739 nero",
+     "1"
+    ],
+    [
+     "23",
+     "FCOM1345",
+     "COMP71303",
+     "3 way fitting Goodridge",
+     "1"
+    ],
+    [
+     "37",
+     "",
+     "32091011A 24",
+     "Pedals - Complete Assembly - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32011A001",
+     "_\n32035033",
+     "Steel Heelrest",
+     "1"
+    ],
+    [
+     "8",
+     "FCOM0342",
+     "39735006",
+     "Cable extension",
+     "1"
+    ],
+    [
+     "9",
+     "F32011A009",
+     "32035049",
+     "Bracket For Throttle Cable Sleeve",
+     "1"
+    ],
+    [
+     "10",
+     "F31211A009",
+     "31235050",
+     "Throttle cable support pin",
+     "1"
+    ],
+    [
+     "11",
+     "F31211A011",
+     "31235070",
+     "Retaining plate throttle cable rod end",
+     "1"
+    ],
+    [
+     "12",
+     "F32011A012",
+     "32035041",
+     "Support For Pedal Stop Position Regulation",
+     "1"
+    ],
+    [
+     "13",
+     "F32011A013",
+     "32035037RH",
+     "Pedal's Travel Stop Clevis, Foremost Pedal Position RH",
+     "1"
+    ],
+    [
+     "14",
+     "F32011A014",
+     "32035037LH",
+     "Pedal's Travel Stop Clevis, Foremost Pedal Position LH",
+     "1"
+    ],
+    [
+     "15",
+     "F32011A015",
+     "32035038RH",
+     "Pedal's Travel Stop Clevis, Rearmost Pedal Position RH",
+     "1"
+    ],
+    [
+     "16",
+     "F32011A016",
+     "32035038LH",
+     "Pedal's Travel Stop Clevis, Rearmost Pedal Position LH",
+     "1"
+    ],
+    [
+     "17",
+     "F32011A017",
+     "32035072",
+     "Complete Pedal Stop",
+     "1"
+    ],
+    [
+     "18",
+     "F32011A018",
+     "32035068",
+     "ASM Bracket For Throttle Cable Sleeve On Pedal for Upward Position",
+     "1"
+    ],
+    [
+     "19",
+     "F32011A019",
+     "32035067",
+     "Welded Bracket For Throttle Cable Sleeve On Pedal Max. Rearward Position",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM1248",
+     "VITE01223",
+     "Crub screw M5x8",
+     "2"
+    ],
+    [
+     "32",
+     "FCOM0719",
+     "VITE06013",
+     "BHCS M4 x 12 - 10.9",
+     "2"
+    ],
+    [
+     "33",
+     "FCOM1159",
+     "VITE38064",
+     "Washer dia.4,3 (4.3x8x0.5) DIN 137A",
+     "2"
+    ],
+    [
+     "34",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "1"
+    ],
+    [
+     "35",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "1"
+    ],
+    [
+     "36",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "1"
+    ],
+    [
+     "37",
+     "FCOM0599",
+     "CUSC60386",
+     "Bearing SF 5",
+     "1"
+    ],
+    [
+     "38",
+     "FCOM0778",
+     "VITE36003",
+     "Nut M5 UNI 5588",
+     "1"
+    ],
+    [
+     "39",
+     "FCOM1029",
+     "MINU02179",
+     "Circlip RS 6 (UNI 7434)",
+     "1"
+    ],
+    [
+     "40",
+     "FCOM1188",
+     "MINU02007",
+     "Circlip A 9 (UNI 7435 - DIN 471)",
+     "1"
+    ],
+    [
+     "41",
+     "F320100229",
+     "VITE08060",
+     "FHCS 6 x 30 - 10.9",
+     "2"
+    ],
+    [
+     "42",
+     "F320100230",
+     "VITE34002",
+     "Trap Nut M4",
+     "1"
+    ],
+    [
+     "43",
+     "FCOM0779",
+     "VITE36004",
+     "Nut M7 Uni 5588",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "2"
+    ],
+    [
+     "45",
+     "FCOM0692",
+     "VITE02073",
+     "SHCS M5x12 - 8.8",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "1"
+    ],
+    [
+     "38",
+     "",
+     "32091011B",
+     "Pedals - Pedals Group",
+     "1"
+    ],
+    [
+     "1",
+     "F31211B001",
+     "31235011",
+     "Clutch pedal cplt with bearings",
+     "1"
+    ],
+    [
+     "2",
+     "F31211B002",
+     "31235004",
+     "Brake pedal with bearings",
+     "1"
+    ],
+    [
+     "3",
+     "F31211B004",
+     "31235007",
+     "Accelerator pedal",
+     "1"
+    ],
+    [
+     "4",
+     "F31211B003",
+     "31235035",
+     "Brake pedal pad",
+     "1"
+    ],
+    [
+     "5",
+     "F31211B005",
+     "31235021",
+     "Mtg bracket Pedals",
+     "1"
+    ],
+    [
+     "6",
+     "FCOM1128",
+     "IR335024",
+     "Pedal bronze bush",
+     "3"
+    ],
+    [
+     "21",
+     "FCOM1061",
+     "VITE08078",
+     "FHCS 8 x 30 - 10.9",
+     "3"
+    ],
+    [
+     "22",
+     "FCOM0811",
+     "VITE38068",
+     "Washer dia.8 (8.4x15x0.5) DIN 137A",
+     "3"
+    ],
+    [
+     "23",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "3"
+    ],
+    [
+     "24",
+     "FCOM1175",
+     "CUSC26008",
+     "Bearing INA HK 1010",
+     "6"
+    ],
+    [
+     "25",
+     "FCOM1286",
+     "VITE08038",
+     "FHCS 5 x 14 - 10.9",
+     "2"
+    ],
+    [
+     "26",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "2"
+    ],
+    [
+     "27",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "2"
+    ],
+    [
+     "28",
+     "FCOM0809",
+     "VITE38065",
+     "Washer dia.5 (5.3x10x0.5) DIN 137A",
+     "1"
+    ],
+    [
+     "29",
+     "FCOM0778",
+     "VITE36003",
+     "Nut M5 UNI 5588",
+     "1"
+    ],
+    [
+     "30",
+     "FCOM1112",
+     "VITE04023",
+     "Bolt M5 x 25",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 12,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "31",
+     "FCOM1158",
+     "VITE26111",
+     "Bolt NAS 6604-60",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM0822",
+     "VITE40001",
+     "Washer MS20002C5",
+     "2"
+    ],
+    [
+     "33",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "1"
+    ],
+    [
+     "39",
+     "",
+     "32091011C",
+     "Pedals - Pump & Brake Balance Adjuster",
+     "1"
+    ],
+    [
+     "1",
+     "F32011C001",
+     "32035026",
+     "Brake Bias Support",
+     "1"
+    ],
+    [
+     "2",
+     "F32011C002",
+     "32035027",
+     "Brake Bias Bush",
+     "1"
+    ],
+    [
+     "3",
+     "F32011C003",
+     "32035028",
+     "Brake Bias Pin",
+     "1"
+    ],
+    [
+     "4",
+     "F32011C004",
+     "32035023",
+     "Clutch Pump Support",
+     "1"
+    ],
+    [
+     "5",
+     "F31211C006",
+     "31235023",
+     "Uniball end",
+     "3"
+    ],
+    [
+     "6",
+     "F32011C006",
+     "P11835073",
+     "Uniball end in Ergal",
+     "3"
+    ],
+    [
+     "7",
+     "F32011C007",
+     "32035056",
+     "Extension rod for pedal assy 175mm backwards",
+     "3"
+    ],
+    [
+     "8",
+     "F32011C008",
+     "32035025",
+     "Extension rod for pedal assy 150mm backwards",
+     "3"
+    ],
+    [
+     "9",
+     "F32011C009",
+     "32035055",
+     "Extension rod for pedal assy 125mm backwards",
+     "3"
+    ],
+    [
+     "10",
+     "F31211C005",
+     "31235083",
+     "Master Cyl Extension 100mm",
+     "3"
+    ],
+    [
+     "11",
+     "F32011C011",
+     "32035054",
+     "Extension rod for pedal assy 75mm backwards",
+     "3"
+    ],
+    [
+     "12",
+     "F31211C004",
+     "31235082",
+     "Master Cyl Extension 50mm",
+     "3"
+    ],
+    [
+     "13",
+     "F32011C013",
+     "32035053",
+     "Extension rod for pedal assy 25mm backwards",
+     "3"
+    ],
+    [
+     "14",
+     "F31211C014",
+     "31235098",
+     "Pipe master cyl reservoir",
+     "3"
+    ],
+    [
+     "15",
+     "FCOM0681",
+     "T0222023",
+     "Bolt M8 x 50 - 20",
+     "1"
+    ],
+    [
+     "16",
+     "F31211B010",
+     "20835016",
+     "Master race Fixing Bush",
+     "2"
+    ],
+    [
+     "17",
+     "F32011C017",
+     "32035058",
+     "Brake BIAS Cable",
+     "1"
+    ],
+    [
+     "18",
+     "F32011C018",
+     "32035039",
+     "Complete Support For Brake Fluid Tanks and Clutch",
+     "1"
+    ],
+    [
+     "19",
+     "F32011C019",
+     "32035040",
+     "Complete Bracket Support for Tanks",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM1365",
+     "BOC02070",
+     "Bush",
+     "2"
+    ],
+    [
+     "21",
+     "F32011C021",
+     "32035076",
+     "Brake bias pin optional",
+     "1"
+    ],
+    [
+     "22",
+     "F32011C022",
+     "32035077",
+     "Bush for spring on brake pump",
+     "2"
+    ],
+    [
+     "23",
+     "F32011C023",
+     "32035079",
+     "Plate for spring on brake pump",
+     "2"
+    ],
+    [
+     "31",
+     "FCOM0576",
+     "CUSC202171",
+     "SKF Bearing",
+     "2"
+    ],
+    [
+     "32",
+     "F320100238",
+     "MINU02369",
+     "Circlip JV 21",
+     "1"
+    ],
+    [
+     "33",
+     "FCOM1513",
+     "COMP2643001",
+     "Master Cyl Brembo TBD dia.16.00 mm p/n Brembo XB2.B5.11 (ex p/n Brembo XA6.S2.11)",
+     "1"
+    ],
+    [
+     "34",
+     "FCOM1448",
+     "COMP264301",
+     "Master cyl 17.46mm",
+     "2"
+    ],
+    [
+     "35",
+     "FCOM1349",
+     "COMP264302",
+     "Master cyl 19mm",
+     "2"
+    ],
+    [
+     "36",
+     "FCOM1449",
+     "COMP264303",
+     "Master cyl 20.64mm",
+     "2"
+    ],
+    [
+     "37",
+     "FCOM1450",
+     "COMP264304",
+     "Master cyl 22.22mm",
+     "2"
+    ],
+    [
+     "38",
+     "FCOM0767",
+     "VITE32205",
+     "Nut (M8x1.25) (Astori LN9338-08)",
+     "1"
+    ],
+    [
+     "39",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "5"
+    ],
+    [
+     "40",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "4"
+    ],
+    [
+     "41",
+     "FCOM0744",
+     "VITE08059",
+     "FHCS 6 x 25 - 10.9",
+     "4"
+    ],
+    [
+     "42",
+     "FCOM0587",
+     "CUSC50017",
+     "Spherical Bearing NMB ABWT 5V",
+     "3"
+    ],
+    [
+     "43",
+     "FCOM1347",
+     "COMP264544",
+     "Clutch reservoir",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM1346",
+     "COMP264549",
+     "Brake reservoir",
+     "2"
+    ],
+    [
+     "45",
+     "FCOM1031",
+     "MINU14049",
+     "Camloc Washer 2600 LW",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0656",
+     "MINU14052",
+     "Camloc 2600-3D",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "2"
+    ],
+    [
+     "48",
+     "FCOM1322",
+     "VITE10050",
+     "Bolt C/H",
+     "1"
+    ],
+    [
+     "49",
+     "FCOM0779",
+     "VITE36004",
+     "Nut M7 Uni 5588",
+     "1"
+    ],
+    [
+     "50",
+     "FCOM1320",
+     "VITE360122",
+     "Nut M10x1mm half Nut",
+     "4"
+    ],
+    [
+     "51",
+     "FCOM0773",
+     "VITE32254",
+     "Nut MS 21042 L5 5/16-24 Unf",
+     "1"
+    ],
+    [
+     "52",
+     "F320100250",
+     "GUAR12085",
+     "O-Ring 3043 VITON",
+     "2"
+    ],
+    [
+     "53",
+     "F320100251",
+     "MINU22519",
+     "Grip Lock Ties, Re-Usable, 12''/305mm Long (max D82.5mm)",
+     "5"
+    ],
+    [
+     "54",
+     "FCOM1318",
+     "VITE26164",
+     "Bolt hexagon head NAS1305-38",
+     "1"
+    ],
+    [
+     "55",
+     "F320100253",
+     "VITE39121",
+     "Shim Washer 12x18x0.1 mm",
+     "1"
+    ],
+    [
+     "56",
+     "F320100254",
+     "VITE39122",
+     "Shim Washer 12x18x0.2 mm",
+     "1"
+    ],
+    [
+     "57",
+     "F320100255",
+     "VITE39123",
+     "Shim Washer 12x18x0.3 mm",
+     "1"
+    ],
+    [
+     "58",
+     "F320100256",
+     "VITE39125",
+     "Shim Washer 12x18x0.5 mm",
+     "1"
+    ],
+    [
+     "59",
+     "F320100257",
+     "MINU02556",
+     "Seeger RW 12 (UNI 7433)",
+     "1"
+    ],
+    [
+     "60",
+     "FCOM1586",
+     "COMP5195851",
+     "Spring for spring on brake pump",
+     "2"
+    ],
+    [
+     "61",
+     "FCOM1589",
+     "COMP51960",
+     "Sprinig for spring on brake pump stiff",
+     "2"
+    ],
+    [
+     "62",
+     "FCOM1594",
+     "COMP26475",
+     "Master Cylinder Ø16 mm - Steel Pushrod",
+     "1"
+    ],
+    [
+     "63",
+     "FCOM1595",
+     "COMP26476",
+     "Master Cylinder Ø 17,46 mm - Steel Pushrod",
+     "1"
+    ],
+    [
+     "64",
+     "FCOM1596",
+     "COMP26477",
+     "Master Cylinder Ø 19 mm - Steel Pushrod",
+     "1"
+    ],
+    [
+     "65",
+     "FCOM1597",
+     "COMP26478",
+     "Master Cylinder Ø 20,64 mm - Steel Pushrod",
+     "1"
+    ],
+    [
+     "66",
+     "FCOM1598",
+     "COMP26479",
+     "Master Cylinder Ø 22,22 mm - Steel Pushrod",
+     "1"
+    ],
+    [
+     "40",
+     "",
+     "32091011D 24",
+     "Pedals - Throttle Valve Simulator - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32411D001",
+     "_\n32435022",
+     "Throttle valve simulator TOM's Yaris - Rocker",
+     "1"
+    ],
+    [
+     "2",
+     "F32411D002",
+     "32435024",
+     "Throttle valve simulator TOM's Yaris - Pin",
+     "1"
+    ],
+    [
+     "3",
+     "F32411D003",
+     "32435026",
+     "Throttle valve simulator TOM's Yaris - Throttle damper support",
+     "1"
+    ],
+    [
+     "4",
+     "F32411D004",
+     "32435027",
+     "Throttle valve simulator TOM's Yaris - Throttle damper",
+     "1"
+    ],
+    [
+     "5",
+     "F32411D005",
+     "32435028",
+     "Throttle valve simulator TOM's Yaris - Base with studs",
+     "1"
+    ],
+    [
+     "6",
+     "F32411D006",
+     "32437035",
+     "Throttle pedal rotation sensor - Wired",
+     "1"
+    ],
+    [
+     "7",
+     "F32411D007",
+     "32437052",
+     "Plate for rotary potentiometer installation",
+     "1"
+    ],
+    [
+     "8",
+     "F324100080",
+     "COMP51568",
+     "Compression spring k 2.54 N/mm - 3\" Long, 0.845\" OD, 0.685\" ID - 9657K439",
+     "1"
+    ],
+    [
+     "9",
+     "F324100081",
+     "COMP51576",
+     "Compression spring k 1.75 N/mm - 3.5\" Long, 0.845\" OD, 0.685\" ID - 1986K603",
+     "1"
+    ],
+    [
+     "10",
+     "F324100082",
+     "COMP51570",
+     "Compression spring k 2.10 N/mm - 3.5\" Long, 0.845\" OD, 0.685\" ID - 9657K454",
+     "1"
+    ],
+    [
+     "11",
+     "F324100083",
+     "COMP51575",
+     "Compression spring k 3.06 N/mm - 2.5\" Long, 0.845\" OD, 0.685\" ID - 9657K424",
+     "1"
+    ],
+    [
+     "12",
+     "F324100084",
+     "COMP51569",
+     "Compression spring k 4.03 N/mm - 3\" Long, 0.85\" OD, 0.668\" ID - 9657K509",
+     "1"
+    ],
+    [
+     "13",
+     "FCOM0342",
+     "39735006",
+     "Cable extension",
+     "1"
+    ],
+    [
+     "14",
+     "F32411D014",
+     "32435032",
+     "Throttle valve simulator TOM's Yaris - Sheath support - welded",
+     "1"
+    ],
+    [
+     "15",
+     "F32411D015",
+     "32435034",
+     "Throttle valve simulator TOM's Yaris - Cable",
+     "1"
+    ],
+    [
+     "16",
+     "F32411D016",
+     "32435033",
+     "Throttle valve simulator TOM's Yaris - Sleeve",
+     "1"
+    ],
+    [
+     "17",
+     "F32411D017",
+     "G31635021",
+     "Shortened Rod End SM 5",
+     "1"
+    ],
+    [
+     "18",
+     "F32411D018",
+     "P22235096",
+     "Throttle Damper Housing",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 13,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "19",
+     "F324100085",
+     "COMP02335",
+     "Damper Bansbach - p/n V0V0YE6-025-109--007-040N",
+     "1"
+    ],
+    [
+     "20",
+     "F32411D020",
+     "P22235099",
+     "Throttle Damper Preload Adjuster",
+     "1"
+    ],
+    [
+     "21",
+     "F32411D021",
+     "P22235098",
+     "Throttle Damper Damping Adjuster",
+     "1"
+    ],
+    [
+     "22",
+     "F324100086",
+     "CUSC60362",
+     "Rod End SM 5",
+     "1"
+    ],
+    [
+     "30",
+     "F324100087",
+     "CUSC26017",
+     "Bearing HK 1412",
+     "2"
+    ],
+    [
+     "31",
+     "F32411D031",
+     "SP122033",
+     "Stud M6",
+     "4"
+    ],
+    [
+     "32",
+     "F324100088",
+     "VITE12237",
+     "Shoulder Bolt",
+     "1"
+    ],
+    [
+     "33",
+     "F324100089",
+     "VITE12238",
+     "Shoulder Bolt",
+     "1"
+    ],
+    [
+     "34",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "6"
+    ],
+    [
+     "35",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "4"
+    ],
+    [
+     "36",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "3"
+    ],
+    [
+     "37",
+     "FCOM0809",
+     "VITE38065",
+     "Washer dia.5 (5.3x10x0.5) DIN 137A",
+     "1"
+    ],
+    [
+     "38",
+     "FCOM0810",
+     "VITE38066",
+     "Washer dia.6 (6.4x11x0.5) DIN 137A",
+     "4"
+    ],
+    [
+     "39",
+     "F324100091",
+     "VITE38085",
+     "Washer dia. 4 (4.3x12x1)",
+     "3"
+    ],
+    [
+     "40",
+     "F324100092",
+     "VITE38162",
+     "Washer UNI 6592-TC dia.5 (5.3x9.5x1)",
+     "1"
+    ],
+    [
+     "41",
+     "F305200081",
+     "VITE38202",
+     "Washer dia.5 (5.5x15x1.6) Uni 6593",
+     "2"
+    ],
+    [
+     "42",
+     "FCOM0778",
+     "VITE36003",
+     "Nut M5 UNI 5588",
+     "1"
+    ],
+    [
+     "43",
+     "FCOM0599",
+     "CUSC60386",
+     "Bearing SF 5",
+     "1"
+    ],
+    [
+     "44",
+     "F305200131",
+     "VITE01046",
+     "Plastic Grub Screw M5 X 8",
+     "2"
+    ],
+    [
+     "45",
+     "F324100095",
+     "VITE36879",
+     "Nut",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM1320",
+     "VITE360122",
+     "Nut M10x1mm half Nut",
+     "1"
+    ],
+    [
+     "47",
+     "FCOM1029",
+     "MINU02179",
+     "Circlip RS 6 (UNI 7434)",
+     "1"
+    ],
+    [
+     "41",
+     "",
+     "32091012A",
+     "Steering Assembly - Complete Assembly",
+     "1"
+    ],
+    [
+     "1",
+     "F32012A001",
+     "32029028",
+     "Steering Column Wheel Side Welded",
+     "1"
+    ],
+    [
+     "2",
+     "F32012A002",
+     "FE1329024",
+     "Collapsible System, CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32012A003",
+     "32029026",
+     "Steering Column Tube CV Joint Side",
+     "1"
+    ],
+    [
+     "4",
+     "F32012A004",
+     "G31629003",
+     "Steering Column (Rack End)",
+     "1"
+    ],
+    [
+     "5",
+     "F32012A005",
+     "32029022",
+     "Steering Housing Assembly",
+     "1"
+    ],
+    [
+     "6",
+     "F31212A006",
+     "31229080",
+     "Steering Column Forward Bearing Holder",
+     "1"
+    ],
+    [
+     "7",
+     "F31212A005",
+     "31229067",
+     "Steering Column Support Forward",
+     "1"
+    ],
+    [
+     "8",
+     "F31212A007",
+     "31229072",
+     "Steering Column Forward Bearing",
+     "1"
+    ],
+    [
+     "9",
+     "FCOM1254",
+     "IR329012",
+     "Washer (Column Support)",
+     "4"
+    ],
+    [
+     "10",
+     "F32012A010",
+     "FE1329025",
+     "Washer (Column Support)",
+     "4"
+    ],
+    [
+     "11",
+     "F32012A011",
+     "G31029032",
+     "Steering Column Support",
+     "1"
+    ],
+    [
+     "12",
+     "F32012A012",
+     "G31029018",
+     "Shims Steering Column Suport",
+     "1"
+    ],
+    [
+     "13",
+     "FCOM0002",
+     "30029015",
+     "Joint (Column Support)",
+     "1"
+    ],
+    [
+     "14",
+     "FCOM1084",
+     "30822014",
+     "Bolt Steering Rack",
+     "5"
+    ],
+    [
+     "15",
+     "F32012A015",
+     "32029032",
+     "Bush for steering column F312 Joint Side",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0752",
+     "VITE26076",
+     "NAS 1304-11",
+     "1"
+    ],
+    [
+     "32",
+     "F308200025",
+     "VITE40034",
+     "Washer AN960-416Lt",
+     "2"
+    ],
+    [
+     "33",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "4"
+    ],
+    [
+     "34",
+     "FCOM1256",
+     "VITE26080",
+     "NAS 1304-15",
+     "2"
+    ],
+    [
+     "35",
+     "F320100260",
+     "VITE26085",
+     "Bolt Hexagon Head NAS1304-20",
+     "1"
+    ],
+    [
+     "36",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "3"
+    ],
+    [
+     "37",
+     "FCOM0809",
+     "VITE38065",
+     "Washer dia.5 (5.3x10x0.5) DIN 137A",
+     "3"
+    ],
+    [
+     "38",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "2"
+    ],
+    [
+     "39",
+     "FCOM0707",
+     "VITE02109",
+     "SHCS M8x45 - 8.8",
+     "2"
+    ],
+    [
+     "40",
+     "F300009017",
+     "VITE08061",
+     "FHCS 6 x 35 - 10.9",
+     "2"
+    ],
+    [
+     "41",
+     "FCOM0726",
+     "VITE06035",
+     "BHCS M6 x 25 - 10.9",
+     "2"
+    ],
+    [
+     "42",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "4"
+    ],
+    [
+     "43",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM0815",
+     "VITE38073",
+     "Washer dia. 6 (6.4x12x0.5)",
+     "5"
+    ],
+    [
+     "45",
+     "FCOM0566",
+     "COMP760027",
+     "Quick Release",
+     "1"
+    ],
+    [
+     "42",
+     "",
+     "32091012B",
+     "Steering Assembly - Collapsible Element",
+     "1"
+    ],
+    [
+     "1",
+     "F32012B001",
+     "FE1329010",
+     "Collapsible body complete",
+     "1"
+    ],
+    [
+     "2",
+     "F32012B002",
+     "FE1329015",
+     "Alu sleeve cover",
+     "1"
+    ],
+    [
+     "3",
+     "F32012B003",
+     "FE1329014",
+     "Pin",
+     "1"
+    ],
+    [
+     "4",
+     "F32012B004",
+     "FE1329013",
+     "Collapsible inner shaft",
+     "1"
+    ],
+    [
+     "11",
+     "F320100265",
+     "MINU02711",
+     "Seeger RB 26",
+     "1"
+    ],
+    [
+     "43",
+     "",
+     "32091012C",
+     "Steering Assembly - Steering Box",
+     "1"
+    ],
+    [
+     "1",
+     "F32012C001",
+     "32029023",
+     "Steering Housing With Bushings",
+     "1"
+    ],
+    [
+     "2",
+     "F31212D002",
+     "31229097",
+     "Rack Bar",
+     "1"
+    ],
+    [
+     "3",
+     "F31212D019",
+     "31229108",
+     "Pinion",
+     "1"
+    ],
+    [
+     "4",
+     "F31212D023",
+     "31229127",
+     "Eccentrical housing version 2",
+     "1"
+    ],
+    [
+     "5",
+     "F31212D018",
+     "31229106",
+     "Drop Gear",
+     "1"
+    ],
+    [
+     "6",
+     "F31212D024",
+     "31229126",
+     "Front cover version 2",
+     "1"
+    ],
+    [
+     "7",
+     "FCOM0228",
+     "30529029",
+     "Bearing Igus for rack bar",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM1129",
+     "30829028",
+     "Rack stop",
+     "2"
+    ],
+    [
+     "9",
+     "F32012C009",
+     "32029030",
+     "Long Tierod Spherical End",
+     "2"
+    ],
+    [
+     "10",
+     "FCOM1519",
+     "31229102",
+     "Ball End Socket",
+     "2"
+    ],
+    [
+     "11",
+     "F31212D009",
+     "30229050",
+     "Rack end plunger",
+     "2"
+    ],
+    [
+     "12",
+     "F31212D006",
+     "30229073",
+     "Shim 0.20 mm",
+     "1"
+    ],
+    [
+     "13",
+     "F31212D007",
+     "30229074",
+     "Shim 0.25 mm",
+     "1"
+    ],
+    [
+     "14",
+     "F31212D008",
+     "30229075",
+     "Shim 0.30 mm",
+     "1"
+    ],
+    [
+     "15",
+     "FCOM0233",
+     "30529036",
+     "Ball End Stop",
+     "2"
+    ],
+    [
+     "16",
+     "F32012C016",
+     "32029059",
+     "Steering box Potentiometer Mounting Plate",
+     "1"
+    ],
+    [
+     "17",
+     "F32012C017",
+     "SP122035",
+     "Stud M5",
+     "1"
+    ],
+    [
+     "19",
+     "F32012C019",
+     "T0829015",
+     "Shim (A10 913 117 15)",
+     "1"
+    ],
+    [
+     "20",
+     "F32012C020",
+     "T0829015A",
+     "Shim (A10 913 117 20)",
+     "1"
+    ],
+    [
+     "21",
+     "F32012C021",
+     "T0829015B",
+     "Shim (A10 913 117 25)",
+     "1"
+    ],
+    [
+     "22",
+     "F32012C022",
+     "T0829015C",
+     "Shim (A10 913 117 30)",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0543",
+     "COMP51689",
+     "Belleville Washer",
+     "4"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 14,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "42",
+     "FCOM1507",
+     "CUSC20227",
+     "SKF Bearing 61903 2RS",
+     "2"
+    ],
+    [
+     "43",
+     "FCOM1376",
+     "CUSC20209",
+     "SKF Bearing 61902-2RS1",
+     "2"
+    ],
+    [
+     "44",
+     "FCOM1358",
+     "MINU02309",
+     "Circlip J 28 (UNI 7437)",
+     "1"
+    ],
+    [
+     "45",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "4"
+    ],
+    [
+     "46",
+     "FCOM0693",
+     "VITE02074",
+     "SHCS M5 x 16 - 8.8",
+     "4"
+    ],
+    [
+     "47",
+     "FCOM0692",
+     "VITE02073",
+     "SHCS M5x12 - 8.8",
+     "1"
+    ],
+    [
+     "48",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "2"
+    ],
+    [
+     "49",
+     "F320100271",
+     "VITE02923",
+     "SHCS M4 x 14 - 8.8",
+     "1"
+    ],
+    [
+     "44",
+     "",
+     "32091012D",
+     "Steering Assembly - Steering Line with EPS",
+     "1"
+    ],
+    [
+     "1",
+     "F32012D001",
+     "SF1429074",
+     "Steering Coloumn (Collapsible)",
+     "1"
+    ],
+    [
+     "2",
+     "F32012D002",
+     "SF1429072",
+     "Kayaba Joint",
+     "1"
+    ],
+    [
+     "3",
+     "F32012D003",
+     "32022006",
+     "Chassis bush for EPS plate mounting",
+     "1"
+    ],
+    [
+     "4",
+     "F32012D004",
+     "32029050",
+     "EPS sensor plate",
+     "1"
+    ],
+    [
+     "5",
+     "F32012D005",
+     "SF1429024",
+     "Steering Coloumn (Steering box)",
+     "1"
+    ],
+    [
+     "6",
+     "F32012D006",
+     "32029042",
+     "Pinion For EPS Motor Equipped Steering Housing",
+     "1"
+    ],
+    [
+     "7",
+     "F32012D007",
+     "32029049",
+     "Joint Shaft between Pinion and EPS Motor",
+     "1"
+    ],
+    [
+     "8",
+     "F32012D008",
+     "32029058",
+     "Steering Housing Cap With Support for EPS",
+     "1"
+    ],
+    [
+     "9",
+     "F32012D009",
+     "32055056",
+     "Asymmetric ARB RH Support For EPS Installation",
+     "1"
+    ],
+    [
+     "10",
+     "F32012D010",
+     "32029060",
+     "Support Bracket For EPS Motor",
+     "1"
+    ],
+    [
+     "11",
+     "F32012D011",
+     "32035070",
+     "CPL Support For Brake and Clutch Fluid Tanks for EPS Installation",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0753",
+     "VITE26077",
+     "Bolt hexagon head NAS1304-12",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "2"
+    ],
+    [
+     "33",
+     "FCOM0704",
+     "VITE02105",
+     "SHCS M 8x 25 - 8.8",
+     "2"
+    ],
+    [
+     "34",
+     "FCOM0807",
+     "VITE38050",
+     "Spring Washer",
+     "2"
+    ],
+    [
+     "35",
+     "F300009017",
+     "VITE08061",
+     "FHCS 6 x 35 - 10.9",
+     "2"
+    ],
+    [
+     "36",
+     "F320100053",
+     "VITE08055",
+     "FHCS 6 x 14 - 10.9",
+     "3"
+    ],
+    [
+     "37",
+     "F308200025",
+     "VITE40034",
+     "Washer AN960-416Lt",
+     "2"
+    ],
+    [
+     "38",
+     "FCOM0752",
+     "VITE26076",
+     "NAS 1304-11",
+     "1"
+    ],
+    [
+     "39",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "3"
+    ],
+    [
+     "40",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "3"
+    ],
+    [
+     "41",
+     "FCOM0738",
+     "VITE08026",
+     "FHCS 4 x 20 - 10.9",
+     "2"
+    ],
+    [
+     "42",
+     "F320100361",
+     "VITE38046",
+     "Knurled Washer",
+     "5"
+    ],
+    [
+     "43",
+     "FCOM0694",
+     "VITE02075",
+     "SHCS M5 x 20 - 8.8",
+     "5"
+    ],
+    [
+     "44",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "2"
+    ],
+    [
+     "45",
+     "F320100363",
+     "VITE38047",
+     "Washer (locking) M6",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0815",
+     "VITE38073",
+     "Washer dia. 6 (6.4x12x0.5)",
+     "2"
+    ],
+    [
+     "48",
+     "F320100364",
+     "MINU22016",
+     "Hose Clamp Unifix 70-90 mm",
+     "1"
+    ],
+    [
+     "45",
+     "",
+     "32091013A 24",
+     "Electrics & Wirings - Complete Assembly - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32413A001",
+     "_\n32437050",
+     "Beacon support - Welded",
+     "1"
+    ],
+    [
+     "2",
+     "F32413A002",
+     "32437047",
+     "Bracket for data cable",
+     "1"
+    ],
+    [
+     "3",
+     "F32413A003",
+     "32418023",
+     "Kill switch support - Welded",
+     "1"
+    ],
+    [
+     "4",
+     "F32413A004",
+     "32018029",
+     "Stop Plate Kill Switch",
+     "1"
+    ],
+    [
+     "5",
+     "F32413A005",
+     "31218033",
+     "Kill Switch Cable and Fire Extiguisher",
+     "2"
+    ],
+    [
+     "11",
+     "F324100097",
+     "BOC07080",
+     "Bushing",
+     "2"
+    ],
+    [
+     "12",
+     "F324100098",
+     "COMP51344",
+     "Spring",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM1280",
+     "VITE02058",
+     "SHCS M4 x 8 - 8.8",
+     "4"
+    ],
+    [
+     "14",
+     "F324100099",
+     "VITE04010",
+     "Exagonal Bolt 4x12",
+     "4"
+    ],
+    [
+     "15",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "5"
+    ],
+    [
+     "16",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "5"
+    ],
+    [
+     "17",
+     "FCOM0653",
+     "MINU13903",
+     "Cable retainer",
+     "4"
+    ],
+    [
+     "18",
+     "FCOM1159",
+     "VITE38064",
+     "Washer dia.4,3 (4.3x8x0.5) DIN 137A",
+     "2"
+    ],
+    [
+     "19",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "2"
+    ],
+    [
+     "20",
+     "F320100278",
+     "VITE02046",
+     "SHCS M3 x 8 - 8.8",
+     "2"
+    ],
+    [
+     "21",
+     "FCOM1324",
+     "VITE38016",
+     "Washer dia.3 (3x7x0.5) UNI 6592-A",
+     "2"
+    ],
+    [
+     "22",
+     "F320100272",
+     "ELET10038",
+     "Super B Lithium battery SB12V15P-EC",
+     "1"
+    ],
+    [
+     "23",
+     "F320100122",
+     "VITE08028",
+     "FHCS 4 x 30 - 10.9",
+     "2"
+    ],
+    [
+     "31",
+     "F320100074",
+     "ELET25026",
+     "Rain Light Next Solution",
+     "1"
+    ],
+    [
+     "32",
+     "F320100368",
+     "ELET250261",
+     "Rain Light Y cable",
+     "1"
+    ],
+    [
+     "33",
+     "F320100081",
+     "ELET25027",
+     "Endplate Rain Light Next Solution",
+     "1"
+    ],
+    [
+     "34",
+     "FCOM1599",
+     "ELET15298",
+     "New Light connector from 2023 (Enplate Light Side)",
+     "2"
+    ],
+    [
+     "35",
+     "FCOM1600",
+     "ELET152981",
+     "New Light connector from 2023 (Loom Side)",
+     "2"
+    ],
+    [
+     "46",
+     "",
+     "32091013B 24",
+     "Electrics & Wirings - Control Units Supports - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32413B001",
+     "_\n32437042",
+     "ECU Bracket - Assembly",
+     "1"
+    ],
+    [
+     "2",
+     "F32013B002",
+     "21837015",
+     "Battery mtg bracket",
+     "1"
+    ],
+    [
+     "3",
+     "F32013B003",
+     "32037035",
+     "Clamp for Battery Super B SB12V15P-EC on 218 Support",
+     "1"
+    ],
+    [
+     "21",
+     "F324100110",
+     "VITE02063",
+     "SHCS M4 x 25 8.8-UNI 5931 Black",
+     "4"
+    ],
+    [
+     "22",
+     "F320100146",
+     "VITE38163",
+     "Washer dia.6 ( 6.4x11x1.6) Uni 6592-TC",
+     "4"
+    ],
+    [
+     "23",
+     "FCOM0697",
+     "VITE02087",
+     "SHCS M6 x 12 - 8.8",
+     "4"
+    ],
+    [
+     "24",
+     "FCOM1324",
+     "VITE38016",
+     "Washer dia.3 (3x7x0.5) UNI 6592-A",
+     "4"
+    ],
+    [
+     "25",
+     "F320100278",
+     "VITE02046",
+     "SHCS M3 x 8 - 8.8",
+     "4"
+    ],
+    [
+     "26",
+     "F320100280",
+     "MINU08250",
+     "Silent block GOMMA INDUSTRIALE 8x8 B",
+     "4"
+    ],
+    [
+     "27",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "2"
+    ],
+    [
+     "28",
+     "F324100113",
+     "VITE06026",
+     "BHCS 5x35",
+     "2"
+    ],
+    [
+     "29",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "5"
+    ],
+    [
+     "30",
+     "F320100042",
+     "VITE06030",
+     "BHCS M6 x 12 - 10.9",
+     "3"
+    ],
+    [
+     "47",
+     "",
+     "32091014A",
+     "Fuel System - Fuel Cell Assembly",
+     "1"
+    ],
+    [
+     "1",
+     "F32014A001",
+     "32015030",
+     "Fuel Tank with Studs",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM0041",
+     "30222020",
+     "Stud M6",
+     "10"
+    ],
+    [
+     "3",
+     "F32014A003",
+     "32015035",
+     "Fuel tank sealing",
+     "1"
+    ],
+    [
+     "4",
+     "FCOM1267",
+     "30815017",
+     "Fuel Cell Flange",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM1306",
+     "VITE140171",
+     "Stud M6x35 10.9",
+     "4"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 15,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "22",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "14"
+    ],
+    [
+     "23",
+     "FCOM0785",
+     "VITE36038",
+     "Nut M6 DIN 985",
+     "4"
+    ],
+    [
+     "24",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "10"
+    ],
+    [
+     "25",
+     "FCOM1381",
+     "GUAR12081",
+     "O-Ring 2425 VITON",
+     "1"
+    ],
+    [
+     "48",
+     "",
+     "32091014B 24",
+     "Fuel System - Nourice Assembly - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F31214B003",
+     "_\n31215056",
+     "Collector pot",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM0307",
+     "39715018",
+     "Fuel Pump Spacer",
+     "1"
+    ],
+    [
+     "3",
+     "F31214B015",
+     "31215072",
+     "Bafhal foam",
+     "1"
+    ],
+    [
+     "4",
+     "F31214B005",
+     "31215066",
+     "Fuel pipe",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM1106",
+     "30515019",
+     "Hose",
+     "1"
+    ],
+    [
+     "6",
+     "FCOM0395",
+     "39815008",
+     "Bracket",
+     "2"
+    ],
+    [
+     "7",
+     "FCOM1542",
+     "31415008",
+     "Support Premier low pressure pump",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0856",
+     "30515020",
+     "Sleeve low pressure pump",
+     "2"
+    ],
+    [
+     "9",
+     "F31714B042",
+     "31215089",
+     "High Pressure Fuel Pump (opt)",
+     "1"
+    ],
+    [
+     "10",
+     "F31214B004",
+     "31215062",
+     "Fuel pump high pressure",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM0308",
+     "39715021",
+     "Fuel Internal Hose Fitting (Lower)",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM1582",
+     "ELET50161",
+     "Low pressure lift pump Premier p/n 0700-0101 (ex ELET501511) w/o check valve",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM1540",
+     "ELET50151",
+     "Low pressure pump - Premier",
+     "1"
+    ],
+    [
+     "12",
+     "21815034",
+     "21815034",
+     "ATL lift pump",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0210",
+     "30522012",
+     "Stud M6x11",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM1581",
+     "COMP27052",
+     "Low Pressure Fuel Filter",
+     "1"
+    ],
+    [
+     "33",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "8"
+    ],
+    [
+     "34",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "8"
+    ],
+    [
+     "36",
+     "FCOM1108",
+     "COMP35007",
+     "Isolator",
+     "2"
+    ],
+    [
+     "37",
+     "FCOM1556",
+     "VITE42589",
+     "Copper Washer 10x16x1.5",
+     "1"
+    ],
+    [
+     "38",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "1"
+    ],
+    [
+     "39",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "1"
+    ],
+    [
+     "40",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "1"
+    ],
+    [
+     "42",
+     "FCOM0526",
+     "COMP27001",
+     "Fuel Filter",
+     "1"
+    ],
+    [
+     "49",
+     "",
+     "32091014C 24",
+     "Fuel System - Fuel Cell Flange - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F31214B006",
+     "_\n31215031",
+     "Collector pot cover with pressure valve includes studs",
+     "1"
+    ],
+    [
+     "2",
+     "F32414C002",
+     "32015045",
+     "Fuel inlet",
+     "1"
+    ],
+    [
+     "3",
+     "F31214C008",
+     "31315006",
+     "Fuel pipe breather valve",
+     "1"
+    ],
+    [
+     "4",
+     "F32414C004",
+     "32415037",
+     "Line - Vent from Rollover valve to rear of the car",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM0295",
+     "30815013",
+     "Pump Out Hose Fitting",
+     "1"
+    ],
+    [
+     "6",
+     "FCOM1077",
+     "30615034",
+     "Pressure valve Washer",
+     "1"
+    ],
+    [
+     "7",
+     "F31214B011",
+     "31237028",
+     "Wiring loom fuel pumps",
+     "1"
+    ],
+    [
+     "8",
+     "F32014C012",
+     "31315004",
+     "Fuel Breather Valve",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "3"
+    ],
+    [
+     "22",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "3"
+    ],
+    [
+     "23",
+     "FCOM0626",
+     "GUAR12051",
+     "O-Ring 2062 VITON",
+     "1"
+    ],
+    [
+     "24",
+     "FCOM0559",
+     "COMP71815",
+     "Cap Goodridge AN 929-06D",
+     "1"
+    ],
+    [
+     "25",
+     "FCOM0553",
+     "COMP71455",
+     "Nipples Goodridge AN815-06D",
+     "1"
+    ],
+    [
+     "26",
+     "FCOM0622",
+     "GUAR12007",
+     "O-Ring 115 VITON",
+     "1"
+    ],
+    [
+     "27",
+     "FCOM0628",
+     "GUAR12053",
+     "O-Ring 2075 VITON",
+     "1"
+    ],
+    [
+     "28",
+     "F320100278",
+     "VITE02046",
+     "SHCS M3 x 8 - 8.8",
+     "4"
+    ],
+    [
+     "29",
+     "FCOM1160",
+     "MINU02317",
+     "Circlip J 36 (UNI 7437)",
+     "1"
+    ],
+    [
+     "30",
+     "FCOM0633",
+     "GUAR12165",
+     "O-Ring 4150 VITON",
+     "1"
+    ],
+    [
+     "31",
+     "F320100298",
+     "VITE38062",
+     "Washer dia.3 (3.2x6x0.4) DIN 137A",
+     "4"
+    ],
+    [
+     "32",
+     "F320100299",
+     "MINU22051",
+     "Hose clip 11-19",
+     "3"
+    ],
+    [
+     "33",
+     "F324100128",
+     "COMP71172",
+     "Goodridge Fitting",
+     "1"
+    ],
+    [
+     "34",
+     "F324100129",
+     "VITE42675",
+     "Goodridge Fitting",
+     "2"
+    ],
+    [
+     "35",
+     "F324100130",
+     "COMP712139 Z1",
+     "Goodridge Banjo Adaptor",
+     "1"
+    ],
+    [
+     "36",
+     "F324100131",
+     "_\nCOMP71202",
+     "Goodridge Banjo Adaptor",
+     "1"
+    ],
+    [
+     "37",
+     "F324100132",
+     "COMP71422",
+     "Goodridge Bolt",
+     "1"
+    ],
+    [
+     "38",
+     "F324100133",
+     "COMP714037",
+     "Goodridge Bolt",
+     "1"
+    ],
+    [
+     "39",
+     "F324100134",
+     "VITE42674",
+     "Copper Washer",
+     "2"
+    ],
+    [
+     "50",
+     "",
+     "32091015A 24",
+     "324 TOM’S Yaris (2022) – Cooling System - Water Radiators",
+     "1"
+    ],
+    [
+     "1",
+     "F31215A001",
+     "_\n31217012LH",
+     "Radiator grill LH",
+     "1"
+    ],
+    [
+     "2",
+     "F32415A002",
+     "32417070",
+     "RHS Engine Water Radiator - PWR",
+     "1"
+    ],
+    [
+     "3",
+     "F31215A005",
+     "31217011LH",
+     "Radiator LH",
+     "1"
+    ],
+    [
+     "4",
+     "F32415A004",
+     "32417035",
+     "Chassis Cross-over Pipe - with centering hoses",
+     "1"
+    ],
+    [
+     "5",
+     "F32415A005",
+     "32417091",
+     "Water pipe engine to radiator LHS (320) - welded",
+     "1"
+    ],
+    [
+     "6",
+     "F32415A006",
+     "32414035",
+     "Water pipe radiator LHS (320) to heat excharger - Hardline",
+     "1"
+    ],
+    [
+     "7",
+     "F32415A007",
+     "32414026",
+     "Terminal water pipe engine to radiator RHS - Hardline",
+     "1"
+    ],
+    [
+     "8",
+     "F32415A008",
+     "32417088",
+     "Water pipe engine to radiator RHS - CPL",
+     "1"
+    ],
+    [
+     "9",
+     "F32415A009",
+     "32414028",
+     "Water pipe from radiator to inlet pump - Hardline",
+     "1"
+    ],
+    [
+     "10",
+     "F32415A010",
+     "32414029",
+     "Water pipe chassis crossover to inlet pump - Hardline",
+     "1"
+    ],
+    [
+     "11",
+     "F32415A011",
+     "32417051",
+     "Water Terminal RHS Hose",
+     "1"
+    ],
+    [
+     "12",
+     "F32415A012",
+     "32417050",
+     "Water Crossover LHS Hose",
+     "1"
+    ],
+    [
+     "13",
+     "F32415A013",
+     "32417058",
+     "Silicone Straight Hose",
+     "6"
+    ],
+    [
+     "14",
+     "F32415A014",
+     "32417033",
+     "Water inlet special Hose",
+     "1"
+    ],
+    [
+     "15",
+     "F31215A007",
+     "31217017",
+     "Water pipe rubber protection",
+     "1"
+    ],
+    [
+     "16",
+     "F324100135",
+     "COMP500441",
+     "Silicon Hoose 32mm-28mm",
+     "2"
+    ],
+    [
+     "21",
+     "F324100136",
+     "MINU22026",
+     "Hoose Clamp 26-38mm",
+     "20"
+    ],
+    [
+     "22",
+     "F320100302",
+     "MINU22027X",
+     "Hose Clamp ABA original INOX 32-44",
+     "3"
+    ],
+    [
+     "23",
+     "FCOM0550",
+     "COMP71402",
+     "Eye Bolt Goodridge 775-03L P",
+     "2"
+    ],
+    [
+     "24",
+     "FCOM0825",
+     "VITE42563",
+     "Copper Washer (0.4x0.59x0.05'') 3/8''",
+     "4"
+    ],
+    [
+     "51",
+     "",
+     "32091017A 24",
+     "Gearbox & Clutch - Gearbox Complete - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32017A001",
+     "_\n32031021",
+     "Gearbox Hewland F3B-201 Assy, 1st gear ratio 12/35 (input shaft not included)",
+     "1"
+    ],
+    [
+     "2",
+     "F32017A002",
+     "32031022",
+     "Gearbox Hewland F3B-201 Assy, 1st gear ratio 12/31 (input shaft not included)",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 16,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "3",
+     "F32417A003",
+     "32431021",
+     "Clutch-shaft Hewland Toyota Yaris",
+     "1"
+    ],
+    [
+     "7",
+     "F31218A010",
+     "31216019",
+     "Plug",
+     "1"
+    ],
+    [
+     "8",
+     "FCOM0272",
+     "30545012",
+     "Rocker Stud",
+     "2"
+    ],
+    [
+     "9",
+     "FCOM0330",
+     "39722036",
+     "Suspension Bracket Stud",
+     "19"
+    ],
+    [
+     "10",
+     "FCOM1386",
+     "30122010",
+     "Stud M6x15",
+     "4"
+    ],
+    [
+     "11",
+     "FCOM0416",
+     "39922006",
+     "Stud 3/8",
+     "4"
+    ],
+    [
+     "12",
+     "FCOM1277",
+     "30222054",
+     "Stud M6x16 8.8 UNI 5911",
+     "16"
+    ],
+    [
+     "13",
+     "FCOM0212",
+     "30522014",
+     "Stud M6x23",
+     "3"
+    ],
+    [
+     "14",
+     "FCOM0336",
+     "39731009",
+     "Gearbox/Bellhousing Stud",
+     "4"
+    ],
+    [
+     "15",
+     "FCOM0208",
+     "30522010",
+     "Stud M8X20",
+     "4"
+    ],
+    [
+     "16",
+     "F31208B004",
+     "31245040",
+     "Rocker post",
+     "2"
+    ],
+    [
+     "17",
+     "FCOM0371",
+     "39745059",
+     "Rear Rocker Stud Washer",
+     "2"
+    ],
+    [
+     "18",
+     "FCOM0335",
+     "39731008",
+     "Water Radiator and Gearbox Cap",
+     "1"
+    ],
+    [
+     "19",
+     "FCOM0085",
+     "30231040",
+     "Neutral Unlock Cylinder",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM0083",
+     "30231038",
+     "Neutral Unlock Spring",
+     "1"
+    ],
+    [
+     "21",
+     "FCOM0086",
+     "30231041",
+     "Neutral Unlock Plug O-Ring",
+     "1"
+    ],
+    [
+     "22",
+     "FCOM0084",
+     "30231039",
+     "Neutral Unlock Plug",
+     "1"
+    ],
+    [
+     "23",
+     "FCOM0082",
+     "30231037",
+     "Hewland plug 2002 version",
+     "1"
+    ],
+    [
+     "24",
+     "FCOM0264",
+     "30537036",
+     "Rear wheel speed trigger",
+     "2"
+    ],
+    [
+     "25",
+     "F32017A025",
+     "32027048",
+     "Sleeve for fixing of RIS onto gearbox",
+     "4"
+    ],
+    [
+     "26",
+     "FCOM0106",
+     "30231066",
+     "Gearbox Breather",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0578",
+     "CUSC20219",
+     "SKF Bearing 61905",
+     "1"
+    ],
+    [
+     "42",
+     "FCOM0645",
+     "MINU02323",
+     "Circlip J42",
+     "1"
+    ],
+    [
+     "43",
+     "FCOM0638",
+     "GUAR75004",
+     "Oil Seal 25X42X7",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM0684",
+     "VITE01203",
+     "Grub screw",
+     "6"
+    ],
+    [
+     "45",
+     "FCOM1078",
+     "VITE01505",
+     "Bolt",
+     "2"
+    ],
+    [
+     "46",
+     "FCOM0769",
+     "VITE32207",
+     "Nut (M12x1.5) (Astori DS10-12)",
+     "2"
+    ],
+    [
+     "47",
+     "FCOM0831",
+     "VITE42616",
+     "Copper Washer 22x26x1.5",
+     "1"
+    ],
+    [
+     "48",
+     "FCOM0829",
+     "VITE42596",
+     "Copper Washer 13.5x19x1.5",
+     "1"
+    ],
+    [
+     "49",
+     "FCOM0558",
+     "COMP71810",
+     "Goodridge Cap",
+     "1"
+    ],
+    [
+     "50",
+     "FCOM1316",
+     "VITE425881",
+     "Washer copper 10x14x1",
+     "1"
+    ],
+    [
+     "51",
+     "FCOM0608",
+     "ELET60904",
+     "Sensor 35600-413-023",
+     "1"
+    ],
+    [
+     "52",
+     "FCOM0813",
+     "VITE38071",
+     "Washer (4.3x9x0.5) DIN 137B",
+     "1"
+    ],
+    [
+     "53",
+     "FCOM0763",
+     "VITE32201",
+     "Nut (M4X0.7) (Astori DS10-04)",
+     "1"
+    ],
+    [
+     "54",
+     "FCOM0563",
+     "COMP71845",
+     "Breather Fitting",
+     "1"
+    ],
+    [
+     "55",
+     "FCOM1384",
+     "GUAR46660",
+     "Dowty O-Ring",
+     "1"
+    ],
+    [
+     "56",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "57",
+     "FCOM0785",
+     "VITE36038",
+     "Nut M6 DIN 985",
+     "4"
+    ],
+    [
+     "58",
+     "FCOM0678",
+     "MINU66197",
+     "Grub screw",
+     "2"
+    ],
+    [
+     "59",
+     "FCOM0325",
+     "39722011",
+     "Dowel Bush",
+     "8"
+    ],
+    [
+     "60",
+     "FCOM0417",
+     "39922007",
+     "Dowel",
+     "2"
+    ],
+    [
+     "52",
+     "",
+     "32091017B 24",
+     "Gearbox & Clutch - Slave Cylinder - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32017B001",
+     "_\n32030029",
+     "Clutch Lines From Pump with Tee for Bosch Pressure Sensor",
+     "1"
+    ],
+    [
+     "2",
+     "F32017B002",
+     "31214008",
+     "Clutch pipe",
+     "1"
+    ],
+    [
+     "3",
+     "FCOM0402",
+     "39914005",
+     "Clutch Bleed Hose",
+     "1"
+    ],
+    [
+     "4",
+     "FCOM0009",
+     "30214039",
+     "Clutch tube",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM1446",
+     "31240030",
+     "Banjo Bolt",
+     "1"
+    ],
+    [
+     "6",
+     "F32417B006",
+     "32430023",
+     "Clutch Tower Toyota Yaris - Sachs Clutch",
+     "1"
+    ],
+    [
+     "10",
+     "F32417B010",
+     "32430026",
+     "Spacer between Cluth tower and Slave cilynder",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM0744",
+     "VITE08059",
+     "FHCS 6 x 25 - 10.9",
+     "3"
+    ],
+    [
+     "21",
+     "FCOM1076",
+     "VITE42572",
+     "Copper Washer 3/8",
+     "2"
+    ],
+    [
+     "22",
+     "FCOM1516",
+     "MINU22159",
+     "Tyrap block",
+     "1"
+    ],
+    [
+     "53",
+     "",
+     "32091017D 24",
+     "Gearbox & Clutch - Gearbox Actuator - 324",
+     "1"
+    ],
+    [
+     "1",
+     "F32417D001",
+     "_\n32419040",
+     "Support for Megaline Valve block 3V and 2V - Assembly",
+     "1"
+    ],
+    [
+     "2",
+     "F32417D002",
+     "32419035",
+     "Gearshift line - Compressor to valve block (-06)",
+     "1"
+    ],
+    [
+     "3",
+     "F32417D003",
+     "32419036",
+     "Gearshift line - Valve block to actuator (-04) - Downshift",
+     "1"
+    ],
+    [
+     "4",
+     "F32417D004",
+     "32419037",
+     "Gearshift line - Valve block to actuator (-04) - Upshift",
+     "1"
+    ],
+    [
+     "5",
+     "F32417D005",
+     "32419039",
+     "Bracket for Megaline Compressor on Rear Diffuser",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM1113",
+     "VITE02092",
+     "SHCS 6x35 - 8.8",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "13",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "3"
+    ],
+    [
+     "14",
+     "FCOM1329",
+     "VITE40015",
+     "Washer Ms20002-4",
+     "2"
+    ],
+    [
+     "15",
+     "FCOM0772",
+     "VITE32253",
+     "Nut MS 21042 L4 1/4-28 Unf",
+     "1"
+    ],
+    [
+     "16",
+     "FCOM0752",
+     "VITE26076",
+     "NAS 1304-11",
+     "1"
+    ],
+    [
+     "17",
+     "F324100162",
+     "VITE02327",
+     "SHCS M5 x 16 12.9-UNI 5931 Black",
+     "4"
+    ],
+    [
+     "18",
+     "F324100092",
+     "VITE38162",
+     "Washer UNI 6592-TC dia.5 (5.3x9.5x1)",
+     "10"
+    ],
+    [
+     "19",
+     "FCOM0764",
+     "VITE32202",
+     "Nut (M5x0.8) (Astori DS10-05)",
+     "10"
+    ],
+    [
+     "20",
+     "F324100163",
+     "MINU08002",
+     "Silent block",
+     "4"
+    ],
+    [
+     "21",
+     "F324100164",
+     "MINU12003",
+     "Rubber belt",
+     "1"
+    ],
+    [
+     "22",
+     "F324100211",
+     "VITE10033",
+     "Head Cap Screw 5 x 16 - 8.8 Black",
+     "2"
+    ],
+    [
+     "54",
+     "",
+     "32091020A",
+     "Toolings - Front Suspension",
+     "1"
+    ],
+    [
+     "1",
+     "FCOM0006",
+     "30201098",
+     "Extractor assy",
+     "1"
+    ],
+    [
+     "2",
+     "FCOM1445",
+     "31201295",
+     "Slide hammer",
+     "1"
+    ],
+    [
+     "3",
+     "F31220A003",
+     "31201335",
+     "Extractor (rocker bearing & bush)",
+     "1"
+    ],
+    [
+     "4",
+     "F31220A004",
+     "31201336",
+     "Extractor (rocker bearing)",
+     "1"
+    ],
+    [
+     "5",
+     "F31220A005",
+     "31201337",
+     "False rocker bearing",
+     "1"
+    ],
+    [
+     "6",
+     "F31220A006",
+     "31201296",
+     "Extractor head (drive shaft flange)",
+     "1"
+    ],
+    [
+     "55",
+     "",
+     "32091020B",
+     "Toolings - Front Upright",
+     "1"
+    ],
+    [
+     "2",
+     "F31220B002",
+     "T0201068",
+     "Front wheel bearing fitting sleave",
+     "1"
+    ],
+    [
+     "3",
+     "F31220B003",
+     "T0201067",
+     "Dummy front hub",
+     "1"
+    ],
+    [
+     "5",
+     "F31220B005",
+     "G31001266",
+     "Hub insertion tool",
+     "1"
+    ],
+    [
+     "6",
+     "F31220B006",
+     "G31001265",
+     "Hub extractor",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 17,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    822.0
+   ],
+   "rows": [
+    [
+     "7",
+     "F31220B007",
+     "G31001142",
+     "Dummy wheel studs",
+     "3"
+    ],
+    [
+     "8",
+     "F31220B008",
+     "G31001140",
+     "Dummy wheel rim boss",
+     "1"
+    ],
+    [
+     "9",
+     "F31220B009",
+     "31201328",
+     "Bearing inner race extractor",
+     "1"
+    ],
+    [
+     "10",
+     "FCOM1465",
+     "MINU66109",
+     "Pin for bearing extractor",
+     "3"
+    ],
+    [
+     "56",
+     "",
+     "32091020C",
+     "Toolings - Rear Upright",
+     "1"
+    ],
+    [
+     "2",
+     "F31220C002",
+     "20801054",
+     "Spacer ring bearing fitting",
+     "2"
+    ],
+    [
+     "3",
+     "F31220C003",
+     "T0201062",
+     "Assembly sleave front wheel bearing",
+     "1"
+    ],
+    [
+     "4",
+     "F31220C004",
+     "T0201061",
+     "Dummy rear hub",
+     "1"
+    ],
+    [
+     "5",
+     "F31220C005",
+     "T0201063",
+     "Hub inserstion tool (rear)",
+     "1"
+    ],
+    [
+     "6",
+     "F31220C006",
+     "T0201065",
+     "Hub Extractor (rear)",
+     "1"
+    ],
+    [
+     "7",
+     "F31220B008",
+     "G31001140",
+     "Dummy wheel rim boss",
+     "1"
+    ],
+    [
+     "8",
+     "F31220B007",
+     "G31001142",
+     "Dummy wheel studs",
+     "3"
+    ],
+    [
+     "9",
+     "F31220C008",
+     "31201330",
+     "Hub Nut Socket",
+     "1"
+    ],
+    [
+     "10",
+     "F31220C009",
+     "31201327",
+     "Bearing inner race extractor (rear)",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM1466",
+     "MINU66106",
+     "Pin for bearing removal tool",
+     "6"
+    ],
+    [
+     "57",
+     "",
+     "32091020D",
+     "Toolings - Halo",
+     "1"
+    ],
+    [
+     "1",
+     "F32020D001",
+     "SF1901127",
+     "Special tooling - Halo - PCD 28 - D3 x 12 - With centering pin 12.8mm - CPL",
+     "1"
+    ],
+    [
+     "2",
+     "F32020D002",
+     "SF1901124",
+     "Special tooling - Halo - PCD 28 - D3 x 12 - Centering Pin 10.8mm - CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32020D003",
+     "SF1901128",
+     "Halo pivot remover",
+     "1"
+    ],
+    [
+     "58",
+     "",
+     "32091031A 24",
+     "324 TOM’S Yaris (2022) – Engine Installation, Chassis Side",
+     "1"
+    ],
+    [
+     "1",
+     "F32431A001",
+     "_\n32432110",
+     "Intercooler - PWR",
+     "1"
+    ],
+    [
+     "2",
+     "F32431A002",
+     "32432061",
+     "Intercooler Exit Hose",
+     "1"
+    ],
+    [
+     "3",
+     "F32431A003",
+     "32432144",
+     "Compressor Inlet Hose Variable Diameter Ø70 - Ø55 mm",
+     "1"
+    ],
+    [
+     "4",
+     "F32431A004",
+     "32432076",
+     "Intercooler Middle Hose",
+     "1"
+    ],
+    [
+     "5",
+     "F32431A005",
+     "32432098",
+     "IC crossover chassis Pipe - CPL",
+     "1"
+    ],
+    [
+     "6",
+     "F32431A006",
+     "32432117",
+     "Fixing Bracket Intercooler Pipe to Chassis",
+     "2"
+    ],
+    [
+     "7",
+     "F32431A007",
+     "32432043",
+     "Compressor Exit Hose",
+     "1"
+    ],
+    [
+     "8",
+     "F32431A008",
+     "32432101",
+     "Crossover Chassis to Engine Pipe - CPL",
+     "1"
+    ],
+    [
+     "9",
+     "F32431A009",
+     "32432042",
+     "Plenum Inlet Hose",
+     "1"
+    ],
+    [
+     "10",
+     "FCOM1471",
+     "31332024",
+     "Stud M10 (Toyota TOM'S)",
+     "3"
+    ],
+    [
+     "11",
+     "F32431A011",
+     "32432032",
+     "Stud TOM'S Yaris chassis-to-ICE bottom-left - M12x1.5-to-M10x1.5",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM1469",
+     "31221075",
+     "Bush",
+     "4"
+    ],
+    [
+     "13",
+     "FCOM1485",
+     "31221076",
+     "Bush",
+     "2"
+    ],
+    [
+     "21",
+     "F324100166",
+     "VITE02363",
+     "TCEI 8 x 50 12.9-UNI 5931 nero",
+     "4"
+    ],
+    [
+     "22",
+     "FCOM0804",
+     "VITE38021",
+     "Washer dia.8 (8x16x1.6) Uni 6592-A",
+     "4"
+    ],
+    [
+     "23",
+     "FCOM0692",
+     "VITE02073",
+     "SHCS M5x12 - 8.8",
+     "4"
+    ],
+    [
+     "24",
+     "FCOM0801",
+     "VITE38018",
+     "Washer dia.5 (5x10x1) Uni 6592-A",
+     "4"
+    ],
+    [
+     "25",
+     "F324100168",
+     "MINU22030",
+     "Hoose Clamp 50-65",
+     "8"
+    ],
+    [
+     "26",
+     "FCOM0768",
+     "VITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "4"
+    ],
+    [
+     "27",
+     "F324100170",
+     "MINU22029",
+     "Hoose Clamp 44-56",
+     "1"
+    ],
+    [
+     "28",
+     "FCOM0812",
+     "VITE38069",
+     "Washer dia.10 (10.5x18x0.8) Uni 1750",
+     "4"
+    ],
+    [
+     "29",
+     "F324100171",
+     "MINU22032",
+     "Hoose Clamp 68-85",
+     "1"
+    ],
+    [
+     "59",
+     "",
+     "32091031B 24",
+     "324 TOM’S Yaris (2022) – Engine Installation, Bell Housins Side",
+     "1"
+    ],
+    [
+     "1",
+     "F32431B001",
+     "_\n32432021",
+     "Bellhousing TOM'S Yaris - Assembly",
+     "1"
+    ],
+    [
+     "2",
+     "F32024B002",
+     "31422005",
+     "Bellhousing/Gearbox stud",
+     "1"
+    ],
+    [
+     "3",
+     "FCOM0336",
+     "39731009",
+     "Gearbox/Bellhousing Stud",
+     "3"
+    ],
+    [
+     "4",
+     "FCOM0416",
+     "39922006",
+     "Stud 3/8",
+     "4"
+    ],
+    [
+     "5",
+     "FCOM0417",
+     "39922007",
+     "Dowel",
+     "2"
+    ],
+    [
+     "6",
+     "FCOM0325",
+     "39722011",
+     "Dowel Bush",
+     "4"
+    ],
+    [
+     "7",
+     "F31221A016",
+     "31245141",
+     "Anti roll bar bush",
+     "2"
+    ],
+    [
+     "8",
+     "FCOM0330",
+     "39722036",
+     "Suspension Bracket Stud",
+     "4"
+    ],
+    [
+     "9",
+     "F32431B009",
+     "32432031",
+     "Bellhousing-to-cam-cover framework TOM'S Yaris - Machined",
+     "1"
+    ],
+    [
+     "10",
+     "FCOM0424",
+     "39930016",
+     "Clutch Bleed Support",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM0320",
+     "39722005",
+     "Bush",
+     "2"
+    ],
+    [
+     "12",
+     "F32431B012",
+     "32432124",
+     "Exhaust Support Bracket - Welded",
+     "1"
+    ],
+    [
+     "31",
+     "FCOM0797",
+     "VITE38012",
+     "Washer dia.8 (8.15x15x1.5) Uni 1750",
+     "11"
+    ],
+    [
+     "32",
+     "F320100077",
+     "VITE02359",
+     "SHCS M8 x 30 - 12.9",
+     "11"
+    ],
+    [
+     "33",
+     "FCOM0768",
+     "VITE32206",
+     "Nut (M10x1.5) (Astori DS10-10)",
+     "8"
+    ],
+    [
+     "34",
+     "FCOM0798",
+     "VITE38013",
+     "Washer dia.10 (10.15x18x2) Uni 1750",
+     "10"
+    ],
+    [
+     "35",
+     "FCOM0805",
+     "VITE38022",
+     "Washer dia.10 (10,5x21x2) Uni 6592-A",
+     "5"
+    ],
+    [
+     "36",
+     "F324100176",
+     "MINU220133",
+     "Hoseclip Unifix 50-70",
+     "1"
+    ],
+    [
+     "37",
+     "FCOM0704",
+     "VITE02105",
+     "SHCS M 8x 25 - 8.8",
+     "2"
+    ],
+    [
+     "38",
+     "F324100178",
+     "VITE02094",
+     "TCEI 6 x 45 8.8-UNI 5931 nero",
+     "1"
+    ],
+    [
+     "39",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "2"
+    ],
+    [
+     "40",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "1"
+    ],
+    [
+     "41",
+     "FCOM0556",
+     "COMP71801",
+     "Bleed Goodridge BN 704 P",
+     "1"
+    ],
+    [
+     "42",
+     "F320100302",
+     "MINU22027X",
+     "Hose Clamp ABA original INOX 32-44",
+     "1"
+    ],
+    [
+     "43",
+     "FCOM0799",
+     "VITE38014",
+     "Washer dia.12 (12.15x21x2.5) Uni 1750",
+     "1"
+    ],
+    [
+     "44",
+     "FCOM0806",
+     "VITE38023",
+     "Washer Uni 6592-A / Din125A Ø12",
+     "1"
+    ],
+    [
+     "45",
+     "FCOM1257",
+     "VITE32208",
+     "K-Nut M12",
+     "2"
+    ],
+    [
+     "46",
+     "F324100183",
+     "VITE32212",
+     "Nut",
+     "7"
+    ],
+    [
+     "60",
+     "",
+     "32091031C 24",
+     "324 TOM’S Yaris (2022) – Cooling System",
+     "1"
+    ],
+    [
+     "1",
+     "F32431C001",
+     "_\n32417038",
+     "Header tank Dual Section Toyota Yaris",
+     "1"
+    ],
+    [
+     "2",
+     "F32431C002",
+     "32417092",
+     "Header Tank Overflow Line",
+     "1"
+    ],
+    [
+     "3",
+     "F32431C003",
+     "32417089",
+     "Water bleed line - LHS radiator and OWHX to header tank - CPL",
+     "1"
+    ],
+    [
+     "4",
+     "F32431C004",
+     "32417082",
+     "Water bleed line - RHS radiator to header tank",
+     "1"
+    ],
+    [
+     "5",
+     "F32431C005",
+     "32417081",
+     "Water bleed line - Water outlet to header tank",
+     "1"
+    ],
+    [
+     "6",
+     "F32431C006",
+     "32417079",
+     "Water line - Header tank to water inlet",
+     "1"
+    ],
+    [
+     "7",
+     "F32431C007",
+     "32417023",
+     "Header Tank Support - Welded",
+     "1"
+    ],
+    [
+     "11",
+     "F324100184",
+     "MINU22033",
+     "Hoose Clamp 77-95",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "4"
+    ],
+    [
+     "13",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "4"
+    ]
+   ]
+  },
+  {
+   "type": "table",
+   "page": 18,
+   "bbox": [
+    28.8,
+    14.9,
+    578.9,
+    723.6
+   ],
+   "rows": [
+    [
+     "14",
+     "FCOM0550",
+     "COMP71402",
+     "Eye Bolt Goodridge 775-03L P",
+     "2"
+    ],
+    [
+     "15",
+     "FCOM0825",
+     "VITE42563",
+     "Copper Washer (0.4x0.59x0.05'') 3/8''",
+     "5"
+    ],
+    [
+     "16",
+     "F324100185",
+     "MINU225011",
+     "Hoose Clamp",
+     "1"
+    ],
+    [
+     "17",
+     "FCOM0552",
+     "COMP71452",
+     "Nipple",
+     "1"
+    ],
+    [
+     "18",
+     "F324100187",
+     "COMP80002",
+     "Radiator cap 28-32PSI",
+     "1"
+    ],
+    [
+     "19",
+     "FCOM0999",
+     "COMP42002",
+     "Oil Warning",
+     "1"
+    ],
+    [
+     "20",
+     "FCOM0549",
+     "COMP71252",
+     "2 Way Fitting Goodridge 779-03Pc",
+     "1"
+    ],
+    [
+     "61",
+     "",
+     "32091031D 24",
+     "324 TOM’S Yaris (2022) – Oil System",
+     "1"
+    ],
+    [
+     "1",
+     "F31222C001",
+     "_\n31216015",
+     "Swirl pot",
+     "1"
+    ],
+    [
+     "2",
+     "F3122C004",
+     "31214022",
+     "Catch tank hose",
+     "1"
+    ],
+    [
+     "3",
+     "F32431D003",
+     "32416041",
+     "Oil Line - OWHX to Oil tank",
+     "1"
+    ],
+    [
+     "4",
+     "F32431D004",
+     "32414022",
+     "Oil line - Gearbox tank to ICE RH hose (-12) - Complete",
+     "1"
+    ],
+    [
+     "5",
+     "FCOM0017",
+     "30216003",
+     "Oil Pick-Up Hole Cover",
+     "1"
+    ],
+    [
+     "6",
+     "FCOM0309",
+     "39716015",
+     "Oil Pot Hole Cover",
+     "1"
+    ],
+    [
+     "7",
+     "F3122C006",
+     "31214024",
+     "Breather pipe",
+     "1"
+    ],
+    [
+     "8",
+     "F32431D008",
+     "32416042",
+     "Oil Line - Cam-cover bleed to Oil tank",
+     "1"
+    ],
+    [
+     "9",
+     "F32431D009",
+     "32416026",
+     "Oil pipe from engine outlet to heat excharger - Welded",
+     "1"
+    ],
+    [
+     "10",
+     "F32431D010",
+     "32416031",
+     "Engine Oil Water Exchanger - PWR",
+     "1"
+    ],
+    [
+     "11",
+     "F32431D011",
+     "32416043",
+     "Engine Oil Water Exchanger Bracket - Assembly",
+     "1"
+    ],
+    [
+     "31",
+     "F324100190",
+     "MINU22215",
+     "Wiggins W991-12DE (clamp+sleeve)",
+     "3"
+    ],
+    [
+     "32",
+     "F324100191",
+     "GUAR09022",
+     "O-ring Wiggins-12 Viton",
+     "6"
+    ],
+    [
+     "33",
+     "FCOM0628",
+     "GUAR12053",
+     "O-Ring 2075 VITON",
+     "2"
+    ],
+    [
+     "34",
+     "FCOM0785",
+     "VITE36038",
+     "Nut M6 DIN 985",
+     "10"
+    ],
+    [
+     "35",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "10"
+    ],
+    [
+     "36",
+     "FCOM0796",
+     "VITE38010",
+     "Washer dia.6 ( 6.14x12x1) Uni 1750",
+     "2"
+    ],
+    [
+     "37",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "2"
+    ],
+    [
+     "38",
+     "FCOM1393",
+     "GUAR12058",
+     "O-Ring 2106 VITON",
+     "2"
+    ],
+    [
+     "39",
+     "FCOM1383",
+     "GUAR12063",
+     "O-Ring 2137 VITON",
+     "2"
+    ],
+    [
+     "40",
+     "F324100164",
+     "MINU12003",
+     "Rubber belt",
+     "1"
+    ],
+    [
+     "41",
+     "F324100194",
+     "VITE10047",
+     "Head Cap Screw M6x20",
+     "1"
+    ],
+    [
+     "42",
+     "FCOM0700",
+     "VITE02090",
+     "Cap Head Bolt M6X25 8.8",
+     "2"
+    ],
+    [
+     "43",
+     "FCOM1394",
+     "GUAR12076",
+     "O-Ring 2300 VITON",
+     "1"
+    ],
+    [
+     "62",
+     "",
+     "32091031E 24",
+     "324 TOM’S Yaris (2022) – Fuel System",
+     "1"
+    ],
+    [
+     "1",
+     "F32431E001",
+     "_\n32414021",
+     "Fuel line - Flange to ICE quick disconnect (-06)",
+     "1"
+    ],
+    [
+     "2",
+     "F32431E002",
+     "32415024",
+     "Support for refueling lines - Welded",
+     "1"
+    ],
+    [
+     "3",
+     "F32431E003",
+     "32415025",
+     "Fuel line - Refueling hose (-12)",
+     "1"
+    ],
+    [
+     "4",
+     "F32431E004",
+     "32415029",
+     "Fuel line - Breather hose for refueling (-06)",
+     "1"
+    ],
+    [
+     "11",
+     "FCOM1039",
+     "MINU67001",
+     "Clamp",
+     "1"
+    ],
+    [
+     "12",
+     "FCOM0718",
+     "VITE06012",
+     "BHCS M4 x 10 - 10.9",
+     "2"
+    ],
+    [
+     "13",
+     "FCOM1389",
+     "31215069",
+     "Female Quick Release",
+     "1"
+    ],
+    [
+     "14",
+     "FCOM1421",
+     "COMP910541",
+     "Male quick release",
+     "1"
+    ],
+    [
+     "15",
+     "FCOM1433",
+     "VITE42568",
+     "Dowety Washer (14.5x18x1.5mm)",
+     "1"
+    ],
+    [
+     "16",
+     "F324100200",
+     "COMP91065",
+     "Quick release Staubli SPT 12 5658 L JV",
+     "1"
+    ],
+    [
+     "17",
+     "F324100201",
+     "COMP91075",
+     "Staubli SPT 08.5655/L/JKV E85 Compatible",
+     "1"
+    ],
+    [
+     "18",
+     "FCOM0724",
+     "VITE06031",
+     "BHCS M6 x 16 - 10.9",
+     "2"
+    ],
+    [
+     "19",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "2"
+    ],
+    [
+     "20",
+     "FCOM0717",
+     "VITE06011",
+     "BHCS M4 x 8 - 10.9",
+     "2"
+    ],
+    [
+     "21",
+     "FCOM0800",
+     "VITE38017",
+     "Washer dia.4 (4 x9x0,8) Uni 6592-A",
+     "2"
+    ],
+    [
+     "31",
+     "FCOM0169",
+     "30315008",
+     "Re-Fuel Reservoir Adaptor",
+     "1"
+    ],
+    [
+     "32",
+     "FCOM0569",
+     "COMP91051",
+     "QR Female Staubli (Optional)",
+     "1"
+    ],
+    [
+     "33",
+     "F324100204",
+     "COMP910561",
+     "Staubli Valve SPT12-1658/L/JKV",
+     "1"
+    ],
+    [
+     "34",
+     "F324100205",
+     "COMP910591",
+     "Quick Valve Female Staubli SPT 08 1655 L JV",
+     "1"
+    ],
+    [
+     "63",
+     "",
+     "32091031F 24",
+     "324 TOM’S Yaris (2022) – Starter",
+     "1"
+    ],
+    [
+     "1",
+     "F32431F001",
+     "_\n32437022",
+     "Custom starter motor TOM'S Yaris - Flange - Machined",
+     "1"
+    ],
+    [
+     "2",
+     "F32431F002",
+     "32401093",
+     "Tool for oil seal instalation on starter motor - swing",
+     "1"
+    ],
+    [
+     "3",
+     "F32431F003",
+     "32401092",
+     "Tool for oil seal instalation on starter motor - guide",
+     "1"
+    ],
+    [
+     "11",
+     "F324100206",
+     "VITE02723X",
+     "SHCS Bolt 6x30",
+     "2"
+    ],
+    [
+     "12",
+     "FCOM0797",
+     "VITE38012",
+     "Washer dia.8 (8.15x15x1.5) Uni 1750",
+     "3"
+    ],
+    [
+     "13",
+     "F324100210",
+     "VITE02361",
+     "SHCS M8 x 40 12.9-UNI 5931 Black",
+     "3"
+    ],
+    [
+     "64",
+     "",
+     "32091031G 24",
+     "324 TOM’S Yaris (2022) – Engine Inlet",
+     "1"
+    ],
+    [
+     "1",
+     "F32431G001",
+     "_\n32432091",
+     "Airbox inlet - CPL",
+     "1"
+    ],
+    [
+     "2",
+     "F32431G002",
+     "32432145",
+     "Airbox outlet Ø70 mm - CPL",
+     "1"
+    ],
+    [
+     "3",
+     "F32431G003",
+     "32432090",
+     "Support flange btw Airbox outlet and Cam cover Rear",
+     "1"
+    ],
+    [
+     "4",
+     "F32431G004",
+     "32432088",
+     "Support flange btw Airbox outlet and Cam cover LH",
+     "1"
+    ],
+    [
+     "5",
+     "F32431G005",
+     "32432089",
+     "Support flange btw Airbox outlet and Cam cover RH",
+     "1"
+    ],
+    [
+     "6",
+     "F32431G006",
+     "32414033",
+     "Airbox outlet water hose",
+     "1"
+    ],
+    [
+     "10",
+     "F324100208",
+     "MINU080045",
+     "Silent block",
+     "6"
+    ],
+    [
+     "11",
+     "FCOM0559",
+     "COMP71815",
+     "Cap Goodridge AN 929-06D",
+     "1"
+    ],
+    [
+     "20",
+     "F324100209",
+     "VITE040333",
+     "SHCS M6x18 rondella incorporata (Misumi P/N CSHP1-SUS-M6-18)",
+     "10"
+    ],
+    [
+     "21",
+     "FCOM0698",
+     "VITE02088",
+     "SHCS M6x16 - 8.8",
+     "6"
+    ],
+    [
+     "22",
+     "FCOM0802",
+     "VITE38019",
+     "Washer dia.6 (6x12,5x1.6) Uni 6592-A",
+     "12"
+    ],
+    [
+     "23",
+     "FCOM0765",
+     "VITE32203",
+     "Nut (M6x1) (Astori DS10-06)",
+     "6"
+    ]
+   ]
+  }
+ ]
+}
