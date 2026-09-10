@@ -68,8 +68,15 @@ python pipeline/build_index.py                      # ベクトルを search.db 
 
 - `search.db` は毎回作り直しますが、本文が変わらないチャンクは**再取得しません**。
 - 規則が改訂されて本文が変わったチャンクだけが次回の対象になります。
-- このファイルは git にコミットします（約 27MB）。`.dockerignore` と
-  `.gcloudignore` で `data/*` を除外しつつ、これだけ通しています。
+- このファイル（34MB）の実体は **GCS** にあり、git には
+  `data/embeddings.manifest.json` だけをコミットします。取得と更新の手順は
+  [`embeddings-storage.md`](./embeddings-storage.md) を参照してください。
+
+```bash
+python pipeline/embeddings_store.py pull    # デプロイ前に手元へ落とす
+python pipeline/embeddings_store.py push    # 取得した分を GCS へ上げる
+python pipeline/embeddings_store.py status  # 手元・マニフェスト・GCS の食い違い
+```
 
 ## Cloud Run へのデプロイ
 
@@ -85,6 +92,9 @@ gcloud config set project gen-lang-client-0036162343
 
 # 0) 初回だけ: Secret Manager API を有効化する（これを忘れると 1 が失敗する）
 gcloud services enable secretmanager.googleapis.com
+
+# 0-b) 埋め込みの実体を GCS から落とす（git には入っていない）
+python pipeline/embeddings_store.py pull
 
 # 1) シークレットを作る
 #    echo は末尾に改行が入りキーが壊れるので printf を使う
@@ -216,24 +226,23 @@ curl -s $D/api/ask/status | python3 -m json.tool
 
 ## 日次更新に組み込む
 
-`.github/workflows/regulations-sync.yml` の「巡回・差分検出・変換」のあとに
-次を足すと、変更された条文の埋め込みも自動で追従します。
-リポジトリの Secrets に `GEMINI_API_KEY` を登録してください。
+規則が改訂されると本文が変わったチャンクの埋め込みが未取得になるため、
+次の 3 つを実行して GCS とマニフェストを更新します。
 
-```yaml
-      - name: 検索インデックスと埋め込みを更新
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          python pipeline/build_index.py
-          if [ -n "$GEMINI_API_KEY" ]; then
-            python pipeline/build_embeddings.py
-            python pipeline/build_index.py   # 取得したベクトルを反映
-          fi
+```bash
+export GEMINI_API_KEY=...
+python pipeline/build_index.py            # まず search.db を作り直す
+python pipeline/build_embeddings.py       # 変わったチャンクだけ取得
+python pipeline/embeddings_store.py push  # GCS とマニフェストを更新
 ```
 
-そのうえで、コミット対象に `data/embeddings.sqlite` を含めてください
-（現在の `git add -A content data` に含まれています）。
+忘れたままデプロイしても、`build_index.py --require-vectors` が
+ビルド時に止めます（ベクトルの充足率が 98% を切ると失敗）。
+
+これを GitHub Actions に載せるには GCS への書き込み認証が必要です。
+サービスアカウントキーを Secrets に置くのではなく Workload Identity 連携を
+使ってください。設定例は
+[`embeddings-storage.md`](./embeddings-storage.md) にあります。
 
 ## 分かっている限界
 

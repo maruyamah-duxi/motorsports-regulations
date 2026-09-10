@@ -67,7 +67,15 @@ python pipeline/cli.py probe samples/rule.pdf --out probe.json --pages 12
 
 # content/ から全文検索用の SQLite を作る
 python pipeline/build_index.py
+
+# 埋め込み（RAG 用ベクトル）。実体は GCS にあり git には入らない
+python pipeline/embeddings_store.py pull    # デプロイ前に手元へ落とす
+python pipeline/build_embeddings.py         # 本文が変わった分だけ取得
+python pipeline/embeddings_store.py push    # GCS とマニフェストを更新
 ```
+
+埋め込みの置き場と検証の仕組みは
+[`../docs/embeddings-storage.md`](../docs/embeddings-storage.md) を参照してください。
 
 主なオプション: `--dpi`（図版の解像度, 既定 200）, `--ocr`（テキスト層の無いページを OCR）,
 `--delay`（リクエスト間隔, 既定 1.5 秒）。
@@ -80,6 +88,8 @@ data/state.json                docId → sha256 / uploadDate / 変換統計
 data/index.json                フロント用の軽量インデックス
 data/changes/YYYY-MM-DD.json   その日の差分
 data/search.db                 全文検索用 SQLite（build_index.py が生成、git 管理外）
+data/embeddings.sqlite         埋め込みキャッシュ（実体は GCS、git 管理外）
+data/embeddings.manifest.json  上の実体を指すマニフェスト（git 管理）
 content/<docId>/document.json  構造化本文
 content/<docId>/index.html     単体で読める HTML
 content/<docId>/assets/*.webp  図版
@@ -96,5 +106,7 @@ content/<docId>/assets/*.webp  図版
 | `jafreg/layout.py` | ページ解析。XY-Cut / 図版領域 / 見出し / 段落再構成 / 柱の除去 |
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |
 | `jafreg/render.py` | 構造化データ → HTML |
-| `build_index.py` | content/ → SQLite FTS5 (trigram) 全文検索 DB |
+| `build_index.py` | content/ → SQLite FTS5 (trigram) 全文検索 DB。`--require-vectors` でベクトル不足を検出 |
+| `build_embeddings.py` | チャンク本文 → 埋め込みベクトル（本文ハッシュでキャッシュ） |
+| `embeddings_store.py` | 埋め込みキャッシュを GCS と出し入れ（`push` / `pull` / `status`） |
 | `commit_message.py` | CI 用。差分レポートからコミットメッセージを組み立てる |

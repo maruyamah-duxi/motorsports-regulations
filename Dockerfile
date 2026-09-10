@@ -27,12 +27,17 @@ COPY server/requirements.txt ./server/requirements.txt
 RUN pip install --no-cache-dir -r server/requirements.txt
 
 # 検索インデックスの生成は標準ライブラリだけで済む。
-# data/embeddings.sqlite があればベクトルも焼き込む（無ければ全文検索のみで動く）。
+#
+# 埋め込みの実体（data/embeddings.sqlite・34MB）は GCS にあり、git には
+# マニフェストだけが入っている。デプロイ前に
+#   python pipeline/embeddings_store.py pull
+# で手元へ落としておくこと。--require-vectors は、それを忘れて
+# ベクトル無しのまま公開してしまう事故をここで止める。
 COPY pipeline/build_index.py ./pipeline/build_index.py
 COPY content ./content
 COPY data/ ./data/
 RUN python pipeline/build_index.py --content content --out data/search.db \
-      --embeddings-cache data/embeddings.sqlite
+      --embeddings-cache data/embeddings.sqlite --require-vectors
 
 COPY server ./server
 COPY --from=web /app/dist ./dist

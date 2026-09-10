@@ -103,7 +103,13 @@ uvicorn server.app:app --reload --port 8080
 
 ## 3. コンテナで確認（Cloud Run と同じ形）
 
+**先に埋め込みを手元へ落としてください。** 実体は git ではなく GCS にあります
+（[`embeddings-storage.md`](./embeddings-storage.md)）。落とし忘れると
+`--require-vectors` のガードでビルドが失敗します。
+
 ```bash
+python pipeline/embeddings_store.py pull
+
 docker build -t jaf-reg .
 docker run --rm -p 8080:8080 jaf-reg
 ```
@@ -187,6 +193,8 @@ Cloud Run はリビジョンが残るので、**切り戻しは常に数十秒�
 **新しいサービス名でデプロイしてください。**
 
 ```bash
+python pipeline/embeddings_store.py pull    # 埋め込みの実体は GCS にある
+
 gcloud run deploy jaf-regulations-next \
   --source . --region us-west1 --allow-unauthenticated
 ```

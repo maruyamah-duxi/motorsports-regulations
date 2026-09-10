@@ -285,6 +285,20 @@ def main() -> int:
     )
     ap.add_argument("--embed-model", default="gemini-embedding-001")
     ap.add_argument("--embed-dim", type=int, default=768)
+    ap.add_argument(
+        "--require-vectors",
+        action="store_true",
+        help=(
+            "マニフェスト（data/embeddings.manifest.json）があるのにベクトルが"
+            "足りなければ失敗する。ベクトル無しで気づかず公開する事故を防ぐ"
+        ),
+    )
+    ap.add_argument(
+        "--min-vector-coverage",
+        type=float,
+        default=0.98,
+        help="--require-vectors のときに要求するベクトルの充足率",
+    )
     args = ap.parse_args()
 
     content_dir = Path(args.content)
@@ -305,6 +319,59 @@ def main() -> int:
         f"{stats['docs']} 文書 / {stats['chunks']} チャンク{note}"
         f" → {args.out} ({size/1024/1024:.1f} MB)"
     )
+
+    if args.require_vectors:
+        rc = check_vector_coverage(
+            Path(args.embeddings_cache) if args.embeddings_cache else None,
+            chunks=stats["chunks"],
+            vectors=vec,
+            minimum=args.min_vector_coverage,
+        )
+        if rc:
+            return rc
+    return 0
+
+
+def check_vector_coverage(
+    cache_path: Path | None, *, chunks: int, vectors: int, minimum: float
+) -> int:
+    """ベクトルが足りているかを確かめる。
+
+    マニフェストの有無を「このリポジトリはベクトル検索を前提にしている」
+    という宣言として読む。宣言が無ければ全文検索だけの構成として通す。
+    """
+    manifest_path = (
+        cache_path.with_name("embeddings.manifest.json")
+        if cache_path
+        else Path("data/embeddings.manifest.json")
+    )
+    if not manifest_path.exists():
+        return 0  # ベクトルを使わない構成。何も言わない
+
+    if cache_path is None or not cache_path.exists():
+        print()
+        print(f"エラー: {manifest_path.name} があるのに {cache_path} がありません。")
+        print("  埋め込みの実体は GCS にあります。先にこれを実行してください:")
+        print("    python pipeline/embeddings_store.py pull")
+        return 1
+
+    coverage = (vectors / chunks) if chunks else 0.0
+    if coverage < minimum:
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            manifest = {}
+        print()
+        print(
+            f"エラー: ベクトルが {vectors}/{chunks} チャンク"
+            f"（{coverage*100:.1f}%）しかありません。"
+        )
+        print(f"  マニフェストは {manifest.get('rows')} 行 / {manifest.get('updatedAt')} 時点です。")
+        print("  規則が改訂されて本文が変わった分の埋め込みが未取得だと思われます:")
+        print("    export GEMINI_API_KEY=...")
+        print("    python pipeline/build_embeddings.py")
+        print("    python pipeline/embeddings_store.py push")
+        return 1
     return 0
 
 

@@ -215,6 +215,11 @@ Cloud Run 上に **SQLite FTS5 + trigram トークナイザ** の DB をイメ�
   git に積み続けると重くなるので、図版と原本 PDF のキャッシュは **GCS バケット + Cloud CDN** に置き、
   git には `document.json` とメタデータのみを残すのが最終形です。
   （試作段階では git に入れて様子を見て、実測サイズを見てから移す。）
+- **埋め込みキャッシュ（34MB）は GCS に移設済み**です。SQLite のバイナリは
+  git の差分圧縮が効かず、1 行増えるだけで毎回まるごと新しい blob が積まれるため、
+  図版より先にこちらを移しました。git に残るのはマニフェスト
+  `data/embeddings.manifest.json` だけです（[`embeddings-storage.md`](./embeddings-storage.md)）。
+  配信経路には関わらないので、公開中のサイトに影響しません。
 
 ---
 
@@ -228,12 +233,13 @@ Cloud Run 上に **SQLite FTS5 + trigram トークナイザ** の DB をイメ�
 | 4 | GitHub Actions での定期実行 | ✅ 試作 |
 | 5 | **実 PDF での変換品質検証**（図の過検出・欠落、読み順、表） | ⬜ 次 |
 | 6 | 検索 DB（FTS5 trigram）生成と `/api/search` | ✅ 完了 |
-| 7 | RAG（チャンク・埋め込み・`/api/ask`）と鍵のサーバ移設 | ✅ 実装（[`ai-answers.md`](./ai-answers.md)）／埋め込みの初回取得が残 |
+| 7 | RAG（チャンク・埋め込み・`/api/ask`）と鍵のサーバ移設 | ✅ 完了（[`ai-answers.md`](./ai-answers.md)）。回答キャッシュ込み |
 | 8 | フロント刷新（規則ビューア・目次・全文検索・AI 質問） | ✅ 完了 |
 | 9 | 独自ドメインの付け替え（[`domain-switch.md`](./domain-switch.md)） | ✅ 完了 |
 | 10 | 改正差分ページ（更新前後の条単位の突き合わせ） | ⬜ |
 | 11 | 日次同期からのデプロイ自動化 | ⬜ |
-| 12 | 図版の GCS 移設 | ⬜ |
+| 12 | 埋め込みの GCS 移設（[`embeddings-storage.md`](./embeddings-storage.md)） | ✅ 完了 |
+| 13 | 図版の GCS 移設（配信経路が変わるので別途） | ⬜ |
 
 ---
 
