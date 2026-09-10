@@ -76,23 +76,56 @@ python pipeline/build_index.py                      # ベクトルを search.db 
 API キーは **Secret Manager** に置き、Cloud Run の環境変数として渡します。
 リポジトリにもクライアントのバンドルにも入れません。
 
-```bash
-# 初回だけ: シークレットを作る
-printf '%s' "$GEMINI_API_KEY" | gcloud secrets create gemini-api-key \
-  --data-file=- --replication-policy=automatic
+**この順番どおりに、各ステップの確認まで通してから次へ進んでください。**
+途中で失敗したまま先へ進むと、サービス仕様に「存在しないシークレットへの参照」が
+残り、以降のあらゆる更新が失敗します（下の「詰まったときの対処」を参照）。
 
-# Cloud Run のサービスアカウントに読み取り権限を与える
+```bash
+gcloud config set project gen-lang-client-0036162343
+
+# 0) 初回だけ: Secret Manager API を有効化する（これを忘れると 1 が失敗する）
+gcloud services enable secretmanager.googleapis.com
+
+# 1) シークレットを作る
+#    echo は末尾に改行が入りキーが壊れるので printf を使う
+printf '%s' "$GEMINI_API_KEY" | gcloud secrets create gemini-api-key --data-file=-
+gcloud secrets versions list gemini-api-key          # ← 1 件出ることを確認
+
+# 2) Cloud Run のサービスアカウントに読み取り権限を与える
 PROJECT_NUMBER=$(gcloud projects describe gen-lang-client-0036162343 --format='value(projectNumber)')
 gcloud secrets add-iam-policy-binding gemini-api-key \
   --member="serviceAccount:${PROJECT_NUMBER}-compute@developer.gserviceaccount.com" \
   --role=roles/secretmanager.secretAccessor
+gcloud secrets get-iam-policy gemini-api-key         # ← bindings に出ることを確認
 
-# デプロイ
+# 3) デプロイ
 gcloud run deploy jaf-regulations-next \
   --source . --region us-west1 --allow-unauthenticated \
-  --memory 1Gi \
+  --memory 1Gi --max-instances 3 \
   --update-secrets GEMINI_API_KEY=gemini-api-key:latest
 ```
+
+### 詰まったときの対処
+
+```
+ERROR: spec.template.spec.containers[0].env[0].value_from.secret_key_ref.name:
+Permission denied on secret: projects/.../secrets/gemini-api-key/versions/latest
+```
+
+このメッセージは権限の話に見えますが、**シークレット自体が存在しないとき**にも出ます。
+まず `gcloud secrets versions list gemini-api-key` で有無を確かめてください。
+
+一度この状態でデプロイすると、リビジョンは失敗してもサービス仕様には
+シークレット参照が残るため、`--max-instances` の変更だけでも失敗するようになります。
+参照を外せば更新は通ります。
+
+```bash
+gcloud run services update jaf-regulations-next --region us-west1 \
+  --remove-secrets GEMINI_API_KEY
+```
+
+なお、失敗したリビジョンにはトラフィックが流れないので、
+**この間も公開中のサイトは直前の正常なリビジョンで動き続けます**（2026-09-10 に実際に確認）。
 
 `--memory 1Gi` にしているのは、起動時にベクトル 27MB をメモリへ読み込むためです
 （既定の 512Mi でも動きますが余裕がありません）。
@@ -129,14 +162,25 @@ curl -N -X POST $D/api/ask -H 'Content-Type: application/json' \
 以降は変更されたチャンクだけなので、日次更新での増分はごくわずかです。
 
 **回答生成**: 1 回の質問で参考資料 8 チャンク（約 1 万文字）＋回答となります。
-公開エンドポイントから有料 API を呼ぶので、次の歯止めを入れています。
 
-- 質問は 400 文字まで、履歴は 10 往復まで
-- IP ごとのトークンバケット（30 秒あたり 10 回）
+### 濫用への歯止め（効果の高い順）
 
-ただし Cloud Run はインスタンスが増減するため、この制限は**厳密ではありません**。
-本格的に絞るなら Cloud Armor などを前段に置いてください。
-費用が心配な場合は、Google Cloud の予算アラートを設定しておくことを勧めます。
+| 手段 | 効果 | 手間 |
+| --- | --- | --- |
+| **AI Studio の Project Spend Cap** | 月額の上限を金額で設定し、達すると止まる。請求が跳ねない保証になる（反映に約 10 分の遅れあり） | 設定のみ |
+| **Cloud Run の `--max-instances`** | 同時処理数＝スループットの上限。インスタンスが増えないので、下記のアプリ側レート制限が実質的に全体へ効くようになる | 設定のみ |
+| 根拠 0 件なら生成を呼ばない | 実装済み。規則と無関係な質問は Gemini に到達しない | ― |
+| 質問 400 文字・履歴 10 往復 | 実装済み。入力トークンの上限 | ― |
+| IP ごとのトークンバケット（30 秒 10 回） | 実装済み。ただしインスタンスごとなので単体では弱い | ― |
+| 回答キャッシュ（同一質問を再利用） | 未実装。いたずらは同じ質問の連打が多いので効果が大きい | 小 |
+| ページ発行の短命トークン | 未実装。curl 直打ちや素朴なスクリプトを弾ける | 小 |
+| Cloud Armor のレート制限 | エッジで効く本命。ただし外部 ALB が前提（月 20 ドル程度）で、ドメインマッピング構成からの変更が必要 | 大 |
+
+「根拠 0 件なら生成を呼ばない」は部分的な防御です。規則の語を含む質問
+（例:「ロールケージについて詩を書いて」）は条文が引けてしまい生成が走ります。
+出力は system instruction で縛っていますが、呼び出しの費用は発生します。
+また、ベクトル検索が有効なときは質問ごとに埋め込み API を 1 回叩きます
+（1 回あたりごくわずかですが、根拠 0 件でも発生します）。
 
 ## 日次更新に組み込む
 
