@@ -22,13 +22,16 @@ SQLite のバイナリは git の差分圧縮がまったく効きません。1 
 ```bash
 gcloud config set project gen-lang-client-0036162343
 
-# Cloud Run と同じ us-west1 に置く。公開しない。
+# 0) API を有効化する（Secret Manager で忘れて詰まった手順と同じ）
+gcloud services enable storage.googleapis.com
+
+# 1) Cloud Run と同じ us-west1 に置く。公開しない。
 gcloud storage buckets create gs://gen-lang-client-0036162343-jaf-data \
   --location=us-west1 \
   --uniform-bucket-level-access \
   --public-access-prevention
 
-# 取り違え・巻き戻しに備えて世代管理を有効にする
+# 2) 取り違え・巻き戻しに備えて世代管理を有効にする
 gcloud storage buckets update gs://gen-lang-client-0036162343-jaf-data --versioning
 
 # 古い世代は 90 日で消す（放っておくと積もるため）
@@ -38,6 +41,19 @@ cat > /tmp/lifecycle.json <<'JSON'
 JSON
 gcloud storage buckets update gs://gen-lang-client-0036162343-jaf-data \
   --lifecycle-file=/tmp/lifecycle.json
+```
+
+設定を確認します。**`gcloud storage` の `--format` はスネークケース**です
+（`gcloud storage buckets describe` は JSON API の
+`iamConfiguration.publicAccessPrevention` では引けず、黙って空欄になります）。
+
+```bash
+gcloud storage buckets describe gs://gen-lang-client-0036162343-jaf-data \
+  --format='default(location,public_access_prevention,uniform_bucket_level_access,versioning)'
+# location:                     US-WEST1
+# public_access_prevention:     enforced        ← ここが inherited なら公開されうる
+# uniform_bucket_level_access:  True
+# versioning:                   True
 ```
 
 バケット名は全世界で一意なので、取られていたら別名にしてください

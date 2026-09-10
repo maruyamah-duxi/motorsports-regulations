@@ -291,21 +291,34 @@ def cmd_status(args: argparse.Namespace) -> int:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="埋め込みキャッシュを GCS と出し入れする")
-    ap.add_argument("--cache", default=str(DEFAULT_CACHE))
-    ap.add_argument("--manifest", default=str(DEFAULT_MANIFEST))
-    ap.add_argument(
+    # 共通オプションは各サブコマンド側に持たせる。親パーサだけに置くと
+    # `push --bucket ...` が通らず `--bucket ... push` を強いることになり、
+    # 実際そう書いて詰まった。parents= で共有すれば両方に生える。
+    # （親と子の両方に同じ dest を置くと、子の既定値が親の値を上書きして
+    #   しまうため、親には置かない。）
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("--cache", default=str(DEFAULT_CACHE))
+    common.add_argument("--manifest", default=str(DEFAULT_MANIFEST))
+    common.add_argument(
         "--bucket",
         default="",
         help="gs://BUCKET（省略時は環境変数 EMBEDDINGS_BUCKET、次にマニフェストの uri）",
     )
+
+    ap = argparse.ArgumentParser(description="埋め込みキャッシュを GCS と出し入れする")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    p = sub.add_parser("push", help="手元の埋め込みを GCS へ上げ、マニフェストを更新する")
+    p = sub.add_parser(
+        "push",
+        parents=[common],
+        help="手元の埋め込みを GCS へ上げ、マニフェストを更新する",
+    )
     p.add_argument("--force", action="store_true", help="縮小ガードと混在チェックを無視する")
     p.set_defaults(func=cmd_push)
 
-    p = sub.add_parser("pull", help="GCS から手元へ取得する（デプロイ前に実行）")
+    p = sub.add_parser(
+        "pull", parents=[common], help="GCS から手元へ取得する（デプロイ前に実行）"
+    )
     p.add_argument(
         "--latest",
         action="store_true",
@@ -313,7 +326,9 @@ def main() -> int:
     )
     p.set_defaults(func=cmd_pull)
 
-    p = sub.add_parser("status", help="手元・マニフェスト・GCS の食い違いを見る")
+    p = sub.add_parser(
+        "status", parents=[common], help="手元・マニフェスト・GCS の食い違いを見る"
+    )
     p.add_argument("--offline", action="store_true", help="GCS を参照しない")
     p.set_defaults(func=cmd_status)
 
