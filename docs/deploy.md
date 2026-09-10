@@ -242,15 +242,26 @@ gcloud beta run domain-mappings create \
 gcloud config set project gen-lang-client-0036162343
 gcloud services enable cloudbuild.googleapis.com artifactregistry.googleapis.com
 
+**権限を与える相手を推測しないこと。** 新しい Cloud Build のトリガーは
+`@cloudbuild.gserviceaccount.com` ではなく **compute のサービスアカウント**で
+走ります（2026-09-10 に実測。最初 cloudbuild 側に付けて外しました）。
+一度トリガーを実行して、実行主体を実物から確かめるのが確実です。
+
+```bash
+# 1) トリガーを 1 回実行し、実行主体を確かめる
+gcloud builds triggers run jaf-regulations-deploy --branch=main --region=global \
+  --format='value(metadata.build.serviceAccount)'
+# → projects/.../serviceAccounts/NNNNN-compute@developer.gserviceaccount.com
+
+# 2) その SA に権限を与える（上で出た方を CB に入れる）
 PROJECT_NUMBER=$(gcloud projects describe gen-lang-client-0036162343 --format='value(projectNumber)')
-CB="${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com"
+CB="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
 
 # Cloud Run へデプロイする権限
 gcloud projects add-iam-policy-binding gen-lang-client-0036162343 \
   --member="serviceAccount:${CB}" --role=roles/run.developer
-# デプロイ先サービスの実行 SA を使う権限
-gcloud iam service-accounts add-iam-policy-binding \
-  "${PROJECT_NUMBER}-compute@developer.gserviceaccount.com" \
+# Cloud Run サービスの実行 SA を使う権限（ビルド SA と同一なら自分自身に付ける）
+gcloud iam service-accounts add-iam-policy-binding "${CB}" \
   --member="serviceAccount:${CB}" --role=roles/iam.serviceAccountUser
 # 埋め込みを GCS から読む権限（このバケットに限る）
 gcloud storage buckets add-iam-policy-binding \
@@ -262,6 +273,10 @@ gcloud projects get-iam-policy gen-lang-client-0036162343 \
   --flatten='bindings[].members' --format='value(bindings.role)' \
   --filter="bindings.members:${CB}"
 ```
+
+> compute SA は既定で Editor を持っていることが多く、その場合は上の付与なしで
+> 通ります。Editor を外している環境では権限エラーになるので、そのときだけ
+> 実行してください。
 
 GitHub との接続とトリガーの作成は**コンソールが確実**です
 （GitHub App のインストール同意が必要なため）。
