@@ -40,6 +40,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write   # 更新があったとき Issue で通知する（デプロイは手動のまま）
 
 jobs:
   sync:
@@ -83,6 +84,11 @@ jobs:
       - name: 更新履歴を生成
         run: python pipeline/build_history.py
 
+      # 条単位の改正差分。前の版（previous.json）と前年度版の両方を相手にする。
+      # PDF は読み直さないので数秒で終わる。
+      - name: 改正差分を生成
+        run: python pipeline/build_diffs.py
+
       - name: 変更サマリ
         if: always()
         run: |
@@ -103,6 +109,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: コミット
+        id: commit
         run: |
           git config user.name "jaf-regulations-bot"
           git config user.email "actions@github.com"
@@ -116,3 +123,39 @@ jobs:
           python pipeline/commit_message.py > /tmp/commitmsg.txt
           git commit -F /tmp/commitmsg.txt
           git push
+          echo "committed=true" >> "$GITHUB_OUTPUT"
+
+      # デプロイは自動化しない（規則の内容が変わるので、公開は人が判断する）。
+      # 代わりに Issue を立てて GitHub からメールが届くようにする。
+      # 追加のサービスもシークレットも要らない。
+      - name: 更新を通知する
+        if: steps.commit.outputs.committed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "JAF の諸規則が更新されたので、生成物を更新してコミットしました。"
+            echo
+            echo "**公開サイトにはまだ反映されていません。** 手元で次を実行してください。"
+            echo
+            echo '```bash'
+            echo "git pull"
+            echo "python pipeline/embeddings_store.py pull"
+            echo "export GEMINI_API_KEY=...   # 本文が変わった分の埋め込みを取り直す"
+            echo "python pipeline/build_index.py && python pipeline/build_embeddings.py"
+            echo "python pipeline/embeddings_store.py push"
+            echo "gcloud run deploy jaf-regulations-next --source . --region us-west1 \\"
+            echo "  --allow-unauthenticated --memory 1Gi --max-instances 3"
+            echo '```'
+            echo
+            python pipeline/build_history.py --github-summary --days 14
+            echo
+            echo "コミット: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/$(git rev-parse HEAD)"
+            echo "実行ログ: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > /tmp/issue.md
+          # Issue が作れなくても同期自体は成功しているので、ジョブは落とさない
+          gh issue create \
+            --title "規則が更新されました（$(date -u +%Y-%m-%d)）" \
+            --body-file /tmp/issue.md || {
+              echo "Issue を作れませんでした。ジョブサマリに要約は出ています。"
+            }
