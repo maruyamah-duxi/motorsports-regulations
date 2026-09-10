@@ -7,6 +7,7 @@
     python pipeline/cli.py sync --only <doc_id>
     python pipeline/cli.py convert-one a.pdf --title "テスト"   # ローカル PDF を変換
     python pipeline/cli.py probe a.pdf           # 変換前の診断だけ出す
+    python pipeline/cli.py announcements         # 公示一覧（更新を一覧より早く知れる）
 """
 
 from __future__ import annotations
@@ -30,6 +31,7 @@ if sys.version_info < (3, 10):
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from jafreg import __version__
+from jafreg import announcements as ann
 from jafreg.catalog import SOURCE_PAGES, CatalogEntry, parse_listing
 from jafreg.convert import convert_pdf
 from jafreg.fetch import JafClient
@@ -90,6 +92,74 @@ def cmd_crawl(args) -> int:
 
     _save_json(DATA / "catalog.json", {"generatedAt": _now(), "count": len(catalog), "items": catalog})
     print(f"[crawl] 合計 {len(catalog)} 件 → data/catalog.json")
+    return 0
+
+
+def cmd_announcements(args) -> int:
+    """JAF の公示一覧を巡回する。
+
+    一覧は JSON API から取り、詳細ページは **必要なものだけ**開く。
+    詳細は 1 件 1 リクエストなので、既に公示 No. と添付を取れているものは
+    使い回す（`jafreg.announcements.merge`）。
+    """
+    out_path = DATA / "announcements.json"
+    previous = _load_json(out_path, {"items": []}).get("items", [])
+    known = {p["id"] for p in previous if p.get("id")}
+
+    fresh: list[ann.Announcement] = []
+    total = 0
+    with JafClient(CACHE, delay_sec=args.delay) as client:
+        page = 1
+        while True:
+            body = client.get_text(ann.list_api_url(page))
+            items, total = ann.parse_list_page(body)
+            if not items:
+                break
+            # API の形が変わって空を返し始めたら気づけるようにする
+            if page == 1 and total == 0:
+                print("公示 API が総件数 0 を返しました。API の形が変わった可能性があります。")
+                return 1
+            fresh.extend(items)
+            print(f"  一覧 {page} ページ目 … {len(items)} 件（総 {total} 件）", flush=True)
+            if args.since and all((i.date or "9999") < args.since for i in items):
+                break
+            if args.max_pages and page >= args.max_pages:
+                break
+            if len(fresh) >= total:
+                break
+            page += 1
+
+        if args.since:
+            fresh = [i for i in fresh if (i.date or "9999") >= args.since]
+
+        # 詳細を開くのは「規則変更」で、まだ取れていないものだけ
+        targets = [
+            i for i in fresh if i.is_rule_change and (args.force_detail or i.id not in known)
+        ]
+        print(f"詳細を取得する公示: {len(targets)} 件")
+        for i, item in enumerate(targets, 1):
+            try:
+                html = client.get_text(item.url)
+            except Exception as exc:  # noqa: BLE001 - 1 件の失敗で全体を止めない
+                print(f"  [{i}/{len(targets)}] 取得失敗 {item.url}: {exc}", flush=True)
+                continue
+            item.notice_no, item.attachments = ann.parse_detail(html, item.url)
+            mark = "（対比表あり）" if item.has_comparison else ""
+            print(
+                f"  [{i}/{len(targets)}] {item.date} {item.title[:38]} "
+                f"No.{item.notice_no} 添付{len(item.attachments)}{mark}",
+                flush=True,
+            )
+
+    merged = ann.merge(previous, fresh)
+    _save_json(out_path, {"generatedAt": _now(), "count": len(merged), "items": merged})
+
+    rule = [m for m in merged if m.get("ruleChange")]
+    comp = [m for m in rule if any(a.get("comparison") for a in m.get("attachments") or [])]
+    print(
+        f"\n[announcements] 公示 {len(merged)} 件 / 規則変更 {len(rule)} 件 / "
+        f"対比表あり {len(comp)} 件 → {out_path}"
+    )
     return 0
 
 
@@ -483,6 +553,20 @@ def main() -> int:
         "--force", action="store_true", help="変換済みのものも作り直す"
     )
     sp.set_defaults(func=cmd_reconvert)
+
+    sp = sub.add_parser("announcements", help="公示一覧を巡回（更新を一覧より早く知れる）")
+    sp.add_argument(
+        "--since",
+        default="",
+        help="この日付（YYYY-MM-DD）より新しいものだけ。既定は全件",
+    )
+    sp.add_argument("--max-pages", type=int, default=0, help="一覧の取得ページ数の上限")
+    sp.add_argument(
+        "--force-detail",
+        action="store_true",
+        help="既に取得済みの公示も詳細ページを開き直す",
+    )
+    sp.set_defaults(func=cmd_announcements)
 
     sp = sub.add_parser("probe", help="PDF の構造診断")
     sp.add_argument("pdf")

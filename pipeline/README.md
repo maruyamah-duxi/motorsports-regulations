@@ -65,6 +65,10 @@ python pipeline/cli.py convert-one samples/rule.pdf --title "国内競技規則"
 # 変換せず構造だけ診断（図版領域・表・フォント・文字数）
 python pipeline/cli.py probe samples/rule.pdf --out probe.json --pages 12
 
+# 公示一覧を巡回（諸規則一覧より約1か月早く更新が出る／対比表PDFを拾う）
+python pipeline/cli.py announcements
+python pipeline/cli.py announcements --since 2025-01-01   # 期間を絞る
+
 # content/ から全文検索用の SQLite を作る
 python pipeline/build_index.py
 
@@ -109,6 +113,7 @@ content/<docId>/assets/*.webp  図版
 content/<docId>/previous.json  上書き前の版（改正差分の比較元）
 content/<docId>/diff-*.json    条単位の改正差分
 data/diffs.json                差分の一覧
+data/announcements.json        JAF の公示（規則変更・対比表PDFへのリンク）
 ```
 
 原本 PDF は `.cache/pdf/` に置かれ、git には入りません（JAF の著作物のため）。
@@ -118,6 +123,7 @@ data/diffs.json                差分の一覧
 | ファイル | 役割 |
 | --- | --- |
 | `jafreg/catalog.py` | 諸規則ページの DOM からカタログを抽出 |
+| `jafreg/announcements.py` | 公示一覧（JSON API）と詳細ページの解析 |
 | `jafreg/fetch.py` | 礼儀正しい HTTP 取得と SHA-256 |
 | `jafreg/layout.py` | ページ解析。XY-Cut / 図版領域 / 見出し / 段落再構成 / 柱の除去 |
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |

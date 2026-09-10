@@ -19,6 +19,8 @@ data/*
 !data/history.json
 # 改正差分の一覧（本体は content/ 側にある）
 !data/diffs.json
+# 公示（規則ページから対比表へ案内するのに使う）
+!data/announcements.json
 **/__pycache__
 *.pyc
 probe*.json
