@@ -117,7 +117,33 @@ steps:
             ".dockerignore で data/ から通すファイル名が build_index.py の"
             "既定値と揃っているか確認してください。"
         )
+        # sitemap が 1 件（トップだけ）なら docs テーブルを読めていない＝
+        # 規則の URL がクローラに一切届かない。黙って進むと痛いので落とす。
+        urls = (h.get("seo") or {}).get("sitemapUrls", 0)
+        assert urls >= 100, f"sitemap の URL が {urls} 件しかありません"
         print(f"OK  リビジョン {h.get('revision')} / ベクトル {h['vectors']} / {w}")
+        print(f"    sitemap {urls} URL / canonical {(h.get('seo') or {}).get('origin')}")
+        PY
+
+        # 規則ページに head と本文が入っているかを 1 件だけ実物で見る。
+        # ここが素の JS シェルに戻ると、検索には二度と出なくなる。
+        doc=$(curl -fsS "$$url/api/documents" \
+                | python3 -c "import json,sys;print(json.load(sys.stdin)['items'][0]['docId'])")
+        curl -fsS "$$url/doc/$$doc" -o /tmp/page.html
+        curl -fsS "$$url/robots.txt" -o /tmp/robots.txt
+        python3 - "$$doc" <<'PY'
+        import sys
+        page = open("/tmp/page.html", encoding="utf-8").read()
+        robots = open("/tmp/robots.txt", encoding="utf-8").read()
+        for needle, what in (
+            ('<link rel="canonical"', "canonical"),
+            ('<meta name="description"', "description"),
+            ('id="prerender"', "本文のプリレンダ"),
+            ("application/ld+json", "構造化データ"),
+        ):
+            assert needle in page, f"/doc/{sys.argv[1]} に{what}がありません"
+        assert "Sitemap:" in robots, "robots.txt に Sitemap 行がありません"
+        print(f"OK  /doc/{sys.argv[1]} {len(page):,} 文字（head・本文・構造化データあり）")
         PY
 
 images:

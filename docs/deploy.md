@@ -340,3 +340,59 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 将来もし自動化するなら、`--no-traffic --tag preview` で上げて確認後に
 `update-traffic` する 2 段にしてください。**トラフィックの切り替えまで
 自動にしない**のが要点です。
+
+---
+
+## 7. 検索エンジンへの登録（デプロイ後に一度だけ）
+
+配信側の準備（`sitemap.xml` / `robots.txt` / `canonical` / 本文プリレンダ）は
+コードに入っています。設計は [`architecture.md`](./architecture.md) の 7-e。
+ここから先は**オーナーの手作業**で、これをやらないと 160 件が見つかるまで
+時間がかかります。
+
+### 7-1. まず出ているものを確認する
+
+```bash
+site=https://jp.motorsports-regulations.org
+
+curl -sS $site/robots.txt
+curl -sS $site/sitemap.xml | grep -c '<loc>'          # 166 前後
+curl -sS $site/api/healthz | python3 -m json.tool     # seo.sitemapUrls を見る
+
+# 規則ページに本文が入っているか（JS 無しで全文が見えるか）
+doc=$(curl -sS $site/api/documents | python3 -c "import json,sys;print(json.load(sys.stdin)['items'][0]['docId'])")
+curl -sS "$site/doc/$doc" | grep -o '<link rel="canonical"[^>]*>'
+curl -sS "$site/doc/$doc" | grep -c 'id="prerender"'  # 1
+```
+
+`sitemapUrls` が 1 なら `docs` テーブルを読めていません。Cloud Build の
+「中身を確認」ステップで落ちるはずですが、手で出したときは自分で見てください。
+
+### 7-2. Google Search Console
+
+1. https://search.google.com/search-console でプロパティを追加。
+   **URL プレフィックス**で `https://jp.motorsports-regulations.org/` を入力。
+2. 所有権の確認は **HTML タグ**が一番手軽です。渡された
+   `<meta name="google-site-verification" content="…">` を `index.html` の
+   `<head>` に足してデプロイし、確認ボタンを押します。
+   （DNS の TXT レコードでも可。ドメインを触れるならそちらが恒久的です。）
+3. 確認できたら **サイトマップ** → `sitemap.xml` を送信。
+4. **URL 検査**にトップと規則 1 件を入れて「インデックス登録をリクエスト」。
+   全件は待てばよいので、この 2 つだけで足ります。
+
+### 7-3. 数週間後に見るところ
+
+- **ページ** レポート → インデックス済みの件数。160 に近づいていくのが正常。
+- 同レポートの「**代替ページ（適切な canonical タグあり）**」に
+  `/content/…` が入っていれば、2 系統の URL の寄せが効いています。
+- **検索結果のパフォーマンス** → クエリ。条番号や規則名で入ってくるように
+  なったかどうか。`description` に条見出しを並べているので、
+  どの語で拾われているかがそのまま設計の答え合わせになります。
+
+### やらないこと
+
+`robots.txt` を触って全面 Disallow にすると即座に検索から消えます
+（JAF から取り下げを求められた場合の手段として、`server/seo.py` の
+`robots_txt()` を差し替えてデプロイすれば足ります）。
+逆に言えば、**ここを誤って書き換えると黙って検索から消える**ので、
+`robots.txt` の変更は必ず上の 7-1 で確認してください。

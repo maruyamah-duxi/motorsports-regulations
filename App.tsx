@@ -66,14 +66,23 @@ const App: React.FC = () => {
     return () => controller.abort();
   }, []);
 
+  // サーバは初回レスポンスの <title> を規則ごとに差し替えている
+  // （server/seo.py）。ここは SPA 内で移動したときの追従で、表記を
+  // サーバ側と揃えておく（末尾の _20260101 は落とす）。
   useEffect(() => {
+    const site = 'JAF モータースポーツ諸規則ビューア（非公式）';
+    const titleOf = (docId?: string) =>
+      (docs?.items.find((d) => d.docId === docId)?.title ?? '規則').replace(/[_-]\d{8}$/, '');
     if (route.name === 'document' && docs) {
-      const found = docs.items.find((d) => d.docId === route.docId)?.title ?? '規則';
-      document.title = `${found} | JAF モータースポーツ諸規則ビューア`;
+      document.title = `${titleOf(route.docId)}｜${site}`;
+    } else if (route.name === 'diff' && docs) {
+      document.title = `${titleOf(route.docId)} の改正点｜${site}`;
     } else if (route.name === 'ask') {
-      document.title = '規則について質問する | JAF モータースポーツ諸規則ビューア';
+      document.title = `規則について質問する｜${site}`;
+    } else if (route.name === 'search' && route.query) {
+      document.title = `「${route.query}」の検索結果｜${site}`;
     } else {
-      document.title = 'JAF モータースポーツ諸規則ビューア';
+      document.title = 'JAF モータースポーツ諸規則を全文検索｜非公式ビューア';
     }
   }, [route, docs]);
 

@@ -3,7 +3,21 @@
 from __future__ import annotations
 
 import html
+import re
+import unicodedata
 from typing import Any
+from urllib.parse import quote
+
+# この HTML は /content/<docId>/index.html として単体でも配信される。
+# アプリ側の /doc/<docId> と中身が重なるので、canonical で寄せ先を
+# 固定する（両方が別ページとして評価されると検索での順位が割れる）。
+CANONICAL_ORIGIN = "https://jp.motorsports-regulations.org"
+SITE_NAME = "JAF モータースポーツ諸規則ビューア（非公式）"
+DESCRIPTION_MAX = 150
+
+_WS = re.compile(r"\s+")
+_TRAILING_DATE = re.compile(r"[_\-]\d{8}$")
+_CLAUSE_HEAD = re.compile(r"^第[0-9０-９]+[条章編節]")
 
 _STYLE = """
 :root{--fg:#111827;--muted:#6b7280;--line:#e5e7eb;--accent:#1d4ed8;--bg:#fff}
@@ -43,16 +57,80 @@ def _esc(s: Any) -> str:
     return html.escape(str(s if s is not None else ""))
 
 
+def _norm(text: Any) -> str:
+    """全角英数・全角空白をならす（利用者は半角で検索する）."""
+    return _WS.sub(" ", unicodedata.normalize("NFKC", str(text or ""))).strip()
+
+
+def _plain_title(title: Any) -> str:
+    return _TRAILING_DATE.sub("", _norm(title))
+
+
+def description(document: dict[str, Any]) -> str:
+    """規則ごとに違う meta description を作る.
+
+    既定文を使い回すと 160 件が同じ説明になる。条見出しを並べておくと
+    「第12条 安全ベルト」のような検索で、どの規則のどこに何があるかが
+    検索結果の時点で分かる。
+    """
+    heads: list[str] = []
+    seen: set[str] = set()
+    for item in document.get("toc") or []:
+        text = _norm(item.get("text"))
+        if not text or text in seen or not _CLAUSE_HEAD.match(text):
+            continue
+        seen.add(text)
+        heads.append(text)
+        if len(heads) >= 12:
+            break
+
+    where = "／".join(
+        x for x in (_norm(document.get("section")), _norm(document.get("group"))) if x
+    )
+    lead = _plain_title(document.get("title") or document.get("docId"))
+    if where:
+        lead += f"（{where}）"
+    lead += "の全文。"
+    tail = (
+        "／".join(heads)
+        if heads
+        else "JAF 公開 PDF を条文単位で検索できる非公式アーカイブ。"
+    )
+    out = lead + tail
+    if len(out) > DESCRIPTION_MAX:
+        out = out[: DESCRIPTION_MAX - 1].rstrip("／、。 ") + "…"
+    return out
+
+
 def render_html(document: dict[str, Any]) -> str:
     title = document.get("title", document.get("docId", ""))
+    doc_id = document.get("docId") or ""
+    canonical = f"{CANONICAL_ORIGIN}/doc/{quote(doc_id, safe='')}" if doc_id else ""
+    desc = description(document)
     parts: list[str] = [
         "<!doctype html>",
         '<html lang="ja"><head><meta charset="utf-8">',
         '<meta name="viewport" content="width=device-width,initial-scale=1">',
-        f"<title>{_esc(title)}</title>",
+        f"<title>{_esc(_plain_title(title))}｜{_esc(SITE_NAME)}</title>",
+        f'<meta name="description" content="{_esc(desc)}">',
+        # 検索での寄せ先はアプリ側の /doc/<docId>。あちらは同じ本文を
+        # サーバ側で埋め込んだうえで、検索と AI 質問も付く（server/seo.py）。
+        *(
+            [
+                f'<link rel="canonical" href="{_esc(canonical)}">',
+                f'<meta property="og:url" content="{_esc(canonical)}">',
+            ]
+            if canonical
+            else []
+        ),
+        '<meta property="og:type" content="article">',
+        f'<meta property="og:site_name" content="{_esc(SITE_NAME)}">',
+        '<meta property="og:locale" content="ja_JP">',
+        f'<meta property="og:title" content="{_esc(_plain_title(title))}">',
+        f'<meta property="og:description" content="{_esc(desc)}">',
         f"<style>{_STYLE}</style>",
         "</head><body><article class=\"doc\">",
-        f"<h1>{_esc(title)}</h1>",
+        f"<h1>{_esc(_plain_title(title))}</h1>",
     ]
 
     meta_bits = [
@@ -84,7 +162,13 @@ def render_html(document: dict[str, Any]) -> str:
     parts.append(
         '<p class="src"><strong>JAF の公式サイトではありません。</strong>'
         "JAF が公開する PDF を自動変換した非公式の検索用アーカイブです。"
-        f"記載内容は必ず {pdf_link} で出典をご確認ください。</p>"
+        f"記載内容は必ず {pdf_link} で出典をご確認ください。"
+        + (
+            f' <a href="{_esc(canonical)}">検索と AI 質問つきのビューアで開く</a>'
+            if canonical
+            else ""
+        )
+        + "</p>"
     )
 
     if document.get("warnings"):

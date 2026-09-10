@@ -23,16 +23,27 @@ from urllib.parse import quote
 
 import httpx
 from fastapi import FastAPI, HTTPException, Query, Request
-from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
+from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import (
+    FileResponse,
+    HTMLResponse,
+    JSONResponse,
+    PlainTextResponse,
+    Response,
+    StreamingResponse,
+)
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import rag
+from . import rag, seo
 
 ROOT = Path(os.environ.get("APP_ROOT", Path(__file__).resolve().parent.parent))
 DB_PATH = Path(os.environ.get("SEARCH_DB", ROOT / "data" / "search.db"))
 CONTENT_DIR = Path(os.environ.get("CONTENT_DIR", ROOT / "content"))
 DIST_DIR = Path(os.environ.get("DIST_DIR", ROOT / "dist"))
+# canonical に使う正本の URL。既定は独自ドメイン（Cloud Run の
+# *.run.app にも同じ中身が出るため、寄せ先を固定しないと評価が割れる）。
+SITE_ORIGIN = os.environ.get("SITE_ORIGIN", seo.DEFAULT_ORIGIN)
 
 MIN_TRIGRAM_LEN = 3
 MAX_LIMIT = 100
@@ -44,6 +55,7 @@ _vectors = rag.VectorIndex(str(DB_PATH))
 _rate_limiter = rag.RateLimiter(capacity=10, refill_seconds=30.0)
 _answer_cache = rag.AnswerCache()
 _http = httpx.Client(timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0, pool=10.0))
+_seo = seo.Seo(DB_PATH, CONTENT_DIR, DIST_DIR, SITE_ORIGIN)
 
 # python:3.12-slim には .webp の MIME 定義が無く、図版が text/plain で配られる。
 # ブラウザは中身を見て画像と判断してくれるが、nosniff を効かせた環境では
@@ -51,6 +63,25 @@ _http = httpx.Client(timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0,
 mimetypes.add_type("image/webp", ".webp")
 
 app = FastAPI(title="JAF Motorsports Regulations API", docs_url="/api/docs", redoc_url=None)
+
+
+class _GZipExceptSSE(GZipMiddleware):
+    """gzip をかける。ただし /api/ask（SSE）は素通しする.
+
+    プリレンダを入れたので /doc/<docId> の HTML は数十〜250KB になる。
+    圧縮しないと表示が遅く、Core Web Vitals にも効く。一方 Starlette の
+    GZipMiddleware はストリーミング応答をチャンクごとに握るため、SSE の
+    トークンが手元に溜まって流れなくなる。パスで分ける。
+    """
+
+    async def __call__(self, scope, receive, send):  # type: ignore[override]
+        if scope.get("type") == "http" and scope.get("path", "").startswith("/api/ask"):
+            await self.app(scope, receive, send)
+            return
+        await super().__call__(scope, receive, send)
+
+
+app.add_middleware(_GZipExceptSSE, minimum_size=1024)
 
 
 def _connect() -> sqlite3.Connection:
@@ -347,6 +378,12 @@ def _health() -> dict[str, Any]:
         "vectors": _vectors.count,
         # 何が焼き込まれているか（0 のものはビルドコンテキストから漏れている）
         "docsWith": _optional_counts(),
+        # 検索エンジン向け。sitemap が 1 件（トップだけ）なら docs テーブルを
+        # 読めていない＝規則の URL がクローラに一切届かない状態。
+        "seo": {
+            "origin": SITE_ORIGIN,
+            "sitemapUrls": _seo.sitemap_xml().count("<loc>"),
+        },
         "revision": os.environ.get("K_REVISION"),
     }
 
@@ -492,6 +529,27 @@ def ask(body: AskRequest, request: Request) -> StreamingResponse:
 
 
 # ---------------------------------------------------------------------------
+# 検索エンジン向け（catch-all より前に登録する）
+# ---------------------------------------------------------------------------
+
+
+@app.get("/robots.txt", include_in_schema=False)
+def robots_txt() -> PlainTextResponse:
+    return PlainTextResponse(
+        _seo.robots_txt(), headers={"Cache-Control": "public, max-age=3600"}
+    )
+
+
+@app.get("/sitemap.xml", include_in_schema=False)
+def sitemap_xml() -> Response:
+    return Response(
+        _seo.sitemap_xml(),
+        media_type="application/xml",
+        headers={"Cache-Control": "public, max-age=3600"},
+    )
+
+
+# ---------------------------------------------------------------------------
 # 静的ファイル（API より後に登録する。Starlette は登録順にマッチする）
 # ---------------------------------------------------------------------------
 
@@ -508,11 +566,18 @@ if DIST_DIR.exists():
 
     _INDEX = DIST_DIR / "index.html"
 
-    @app.get("/{full_path:path}", include_in_schema=False)
-    def spa(full_path: str) -> FileResponse:
+    # HEAD も受ける。@app.get だけだとクローラや監視の HEAD が 405 になる。
+    @app.api_route("/{full_path:path}", methods=["GET", "HEAD"], include_in_schema=False)
+    def spa(full_path: str) -> Response:
         if full_path:
             candidate = (DIST_DIR / full_path).resolve()
             root = DIST_DIR.resolve()
             if candidate.is_file() and root in candidate.parents:
                 return FileResponse(candidate)
+        # 規則ごとの title / description / canonical と本文プリレンダを
+        # 差し込んだ HTML を返す。扱わないパスは None が返るので素の
+        # index.html（従来どおり）。
+        page = _seo.page("/" + full_path)
+        if page is not None:
+            return HTMLResponse(page, headers={"Cache-Control": "public, max-age=300"})
         return FileResponse(_INDEX)
