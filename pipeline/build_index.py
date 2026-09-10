@@ -259,6 +259,21 @@ def build(
     con = sqlite3.connect(out_path)
     con.executescript(SCHEMA)
 
+    # 任意入力は無くても動くが、**黙って欠ける**のがいちばん危ない。
+    # .dockerignore でファイル名を間違えて公示が 0 件になった事故があるので、
+    # 見つかったかどうかを必ずログに出す。
+    for label, path in (
+        ("履歴", history_path),
+        ("改正差分", diffs_path),
+        ("公示の紐づけ", announcements_path),
+    ):
+        if path is None:
+            print(f"  {label}: 指定なし")
+        elif path.exists():
+            print(f"  {label}: {path.name}")
+        else:
+            print(f"  {label}: 見つかりません（{path}）… この情報は入りません")
+
     history_docs = load_history(history_path)
     diff_docs = load_diffs(diffs_path)
     ann_series = load_announcements(announcements_path)
@@ -329,10 +344,20 @@ def build(
         " ('embedModel', ?), ('embedDim', ?), ('vectors', ?)",
         (str(n_docs), str(n_chunks), model, str(dim), str(vectors)),
     )
+    counts = {
+        key: con.execute(
+            f"SELECT count(*) FROM docs WHERE {col} IS NOT NULL AND {col} NOT IN ('', '[]')"
+        ).fetchone()[0]
+        for key, col in (
+            ("withHistory", "history"),
+            ("withDiffs", "diffs"),
+            ("withAnnouncements", "announcements"),
+        )
+    }
     con.commit()
     con.execute("VACUUM")
     con.close()
-    return {"docs": n_docs, "chunks": n_chunks, "vectors": vectors}
+    return {"docs": n_docs, "chunks": n_chunks, "vectors": vectors, **counts}
 
 
 def main() -> int:
@@ -398,6 +423,10 @@ def main() -> int:
     print(
         f"{stats['docs']} 文書 / {stats['chunks']} チャンク{note}"
         f" → {args.out} ({size/1024/1024:.1f} MB)"
+    )
+    print(
+        f"  履歴 {stats['withHistory']} 文書 / 改正差分 {stats['withDiffs']} 文書 / "
+        f"公示 {stats['withAnnouncements']} 文書"
     )
 
     if args.require_vectors:

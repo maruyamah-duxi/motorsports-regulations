@@ -313,6 +313,31 @@ def document_diff(doc_id: str, base_doc_id: str) -> JSONResponse:
     return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
+def _optional_counts() -> dict[str, int]:
+    """任意データが実際にイメージに入っているかを数える。
+
+    `.dockerignore` でファイル名を間違えて公示が 0 件になった事故があった。
+    ビルド時に黙って欠けても気づけるよう、1 回の curl で確かめられるように
+    しておく。DB が無い・列が無い場合は 0 を返して健全性チェック自体は通す。
+    """
+    out = {"history": 0, "diffs": 0, "announcements": 0}
+    if not DB_PATH.exists():
+        return out
+    try:
+        con = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
+        try:
+            for col in out:
+                out[col] = con.execute(
+                    f"SELECT count(*) FROM docs"
+                    f" WHERE {col} IS NOT NULL AND {col} NOT IN ('', '[]')"
+                ).fetchone()[0]
+        finally:
+            con.close()
+    except sqlite3.Error:
+        pass  # 古いスキーマなら 0 のまま
+    return out
+
+
 def _health() -> dict[str, Any]:
     return {
         "ok": True,
@@ -320,6 +345,8 @@ def _health() -> dict[str, Any]:
         "content": CONTENT_DIR.exists(),
         "dist": DIST_DIR.exists(),
         "vectors": _vectors.count,
+        # 何が焼き込まれているか（0 のものはビルドコンテキストから漏れている）
+        "docsWith": _optional_counts(),
         "revision": os.environ.get("K_REVISION"),
     }
 

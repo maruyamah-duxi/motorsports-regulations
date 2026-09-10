@@ -474,6 +474,13 @@ data/history.json（系列）      ┘                 → data/diffs.json（一
 
 本体を `content/` に置くのは、Docker の build context に `content/` が
 そのまま入るためです（`data/*` は除外設定なので通したいものを個別に書く）。
+
+> **`data/` から通すファイル名は build_index.py の既定値と必ず揃えること。**
+> `data/announcement_links.json` を `data/announcements.json` と書き間違えて、
+> 公示が**黙って 0 件**のまま公開してしまいました。任意入力は無くても動くので
+> エラーになりません。いまは (1) `build_index.py` がビルドログに入力の有無を
+> 出す、(2) `/api/healthz` の `docsWith` に件数を出す、の 2 つで気づけるように
+> してあります。デプロイ後は `docsWith` を必ず見てください。
 算出はビルド時に済ませます。数百ページの規則をサーバ側で `difflib` に
 かけると待たされるためです。
 

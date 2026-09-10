@@ -156,9 +156,22 @@ curl -s 'https://preview---.../api/search?q=安全ベルト&limit=3' | jq '.item
 
 ### プレビューで確認すること
 
+**まず `/api/healthz` の `docsWith` を見ること。** ここが 0 のものは
+`.dockerignore` / `.gcloudignore` からファイルが漏れています。一度
+`data/announcement_links.json` を `data/announcements.json` と書き間違えて、
+公示が黙って 0 件のまま公開してしまいました。
+
+```bash
+curl -s $D/api/healthz | python3 -m json.tool
+# "docsWith": {"history": 160, "diffs": 5, "announcements": 60}
+```
+
+`build_index.py` はビルドログにも入力の有無を出します。Cloud Build のログで
+「見つかりません」が出ていないか確認してください。
+
 | 見るところ | 期待 |
 | --- | --- |
-| `/api/healthz` | `searchDb` `content` `dist` がすべて true |
+| `/api/healthz` | `searchDb` `content` `dist` が true。`docsWith` がすべて 0 でない |
 | トップ | 規則 160 件・約 5,148 ページと表示される |
 | 検索「ロールケージ 溶接」 | 見出し階層つきでヒットし、抜粋がハイライトされる |
 | 検索結果の「該当箇所を開く」 | 該当する条にスクロールする |

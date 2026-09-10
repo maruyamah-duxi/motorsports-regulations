@@ -19,8 +19,10 @@ data/*
 !data/history.json
 # 改正差分の一覧（本体は content/ 側にある）
 !data/diffs.json
-# 公示（規則ページから対比表へ案内するのに使う）
-!data/announcements.json
+# 公示 → 規則の紐づけ（build_index.py がこれを docs に取り込む）。
+# ここで名前を間違えると黙って公示 0 件になるので、build_index.py の
+# --announcements の既定値と必ず揃えること。
+!data/announcement_links.json
 **/__pycache__
 *.pyc
 probe*.json
