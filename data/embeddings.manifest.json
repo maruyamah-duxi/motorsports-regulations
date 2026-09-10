@@ -1,0 +1,9 @@
+{
+  "uri": "gs://gen-lang-client-0036162343-jaf-data/embeddings/embeddings.sqlite",
+  "model": "gemini-embedding-001",
+  "dim": 768,
+  "rows": 8494,
+  "bytes": 35823616,
+  "sha256": "3856cb3e8e34a4c3deb3ceb7c16a9770ace89f0a197fc74df65f051d9e0b0068",
+  "updatedAt": "2026-09-10T02:50:39Z"
+}

@@ -35,6 +35,11 @@ __pycache__/
 # 検索インデックス（Dockerビルド時に生成）
 data/search.db
 
+# 埋め込みキャッシュ。34MB のバイナリで git の差分圧縮が効かないため
+# 実体は GCS に置き、data/embeddings.manifest.json だけをコミットする。
+# 取得: python pipeline/embeddings_store.py pull
+data/embeddings.sqlite
+
 # Python 仮想環境
 env/
 venv/
