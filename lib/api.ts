@@ -54,7 +54,7 @@ export interface AskHandlers {
   onSources?: (sources: AskSource[]) => void;
   onDelta?: (text: string) => void;
   onError?: (message: string) => void;
-  onDone?: () => void;
+  onDone?: (info: { cached?: boolean; sources?: number }) => void;
 }
 
 /** /api/ask の Server-Sent Events を読む。
@@ -105,7 +105,7 @@ export async function askStream(
     if (event === 'sources') handlers.onSources?.(payload as AskSource[]);
     else if (event === 'delta') handlers.onDelta?.(String(payload));
     else if (event === 'error') handlers.onError?.((payload as { message: string }).message);
-    else if (event === 'done') handlers.onDone?.();
+    else if (event === 'done') handlers.onDone?.(payload as { cached?: boolean });
   };
 
   for (;;) {

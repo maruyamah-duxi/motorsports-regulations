@@ -9,6 +9,8 @@ interface Turn {
   sources?: AskSource[];
   error?: string;
   streaming?: boolean;
+  /** 同じ質問への回答を使い回した（API を呼んでいない） */
+  cached?: boolean;
 }
 
 const EXAMPLES = [
@@ -181,7 +183,7 @@ export const Ask: React.FC<{ initialQuestion?: string }> = ({ initialQuestion })
               return next;
             }),
           onError: (message) => patchLast({ error: message, streaming: false }),
-          onDone: () => patchLast({ streaming: false }),
+          onDone: (info) => patchLast({ streaming: false, cached: info?.cached }),
         },
         controller.signal,
       );
@@ -264,6 +266,11 @@ export const Ask: React.FC<{ initialQuestion?: string }> = ({ initialQuestion })
                   {turn.streaming && turn.text && <span className="caret" aria-hidden="true" />}
                   {!turn.streaming && (turn.sources?.length ?? 0) > 0 && (
                     <SourceList sources={turn.sources!} />
+                  )}
+                  {!turn.streaming && turn.cached && (
+                    <p className="cache-note">
+                      同じ質問への回答を再利用しました（AI は呼び出していません）
+                    </p>
                   )}
                 </>
               )}

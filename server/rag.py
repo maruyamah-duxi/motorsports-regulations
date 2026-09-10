@@ -16,6 +16,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 import os
@@ -23,6 +24,8 @@ import re
 import sqlite3
 import threading
 import time
+import unicodedata
+from collections import OrderedDict
 from dataclasses import dataclass
 from typing import Any, Iterator
 from urllib.parse import quote
@@ -40,6 +43,10 @@ FTS_TOP = 30
 VEC_TOP = 30
 CONTEXT_CHUNKS = 8
 RRF_K = 60
+
+# 回答キャッシュ。いたずらは同じ質問の連打が大半なので、これが効く。
+ANSWER_CACHE_TTL = float(os.environ.get("ANSWER_CACHE_TTL", "21600"))  # 6 時間
+ANSWER_CACHE_SIZE = int(os.environ.get("ANSWER_CACHE_SIZE", "500"))
 
 SYSTEM_INSTRUCTION = """\
 あなたは JAF（日本自動車連盟）モータースポーツ諸規則の案内役です。
@@ -370,6 +377,81 @@ def retrieve(
             )
         )
     return sources
+
+
+# ---------------------------------------------------------------------------
+# 回答キャッシュ
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class CachedAnswer:
+    sources: list[dict[str, Any]]
+    answer: str
+
+
+class AnswerCache:
+    """同じ質問への回答を使い回す（TTL 付き LRU）。
+
+    いたずらや連打は同じ質問の繰り返しが大半なので、ここで止めると
+    埋め込みも生成も呼ばずに済み、費用がゼロになる。
+
+    * **単発の質問だけ**を対象にする。会話の続き（history あり）は文脈で
+      答えが変わるのでキャッシュしない。
+    * 根拠 0 件の結果もキャッシュする。「今日の天気は？」の連打が
+      いちばん止めたいケースなので、ここを外すと意味が薄れる。
+    * キーにデータ版（search.db の builtAt）を混ぜるので、規則が更新されれば
+      自動的に無効になる。
+
+    プロセス内に持つため、Cloud Run のインスタンスごとに別のキャッシュに
+    なる。`--max-instances` を絞っていれば実用上は十分効く。
+    """
+
+    def __init__(self, ttl: float = ANSWER_CACHE_TTL, size: int = ANSWER_CACHE_SIZE) -> None:
+        self.ttl = ttl
+        self.size = size
+        self._store: OrderedDict[str, tuple[float, CachedAnswer]] = OrderedDict()
+        self._lock = threading.Lock()
+        self.hits = 0
+        self.misses = 0
+
+    @staticmethod
+    def key(question: str, data_version: str) -> str:
+        normalized = re.sub(r"\s+", " ", unicodedata.normalize("NFKC", question)).strip().casefold()
+        raw = f"{normalized}\x00{CHAT_MODEL}\x00{EMBED_MODEL}/{EMBED_DIM}\x00{data_version}"
+        return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+    def get(self, key: str) -> CachedAnswer | None:
+        now = time.monotonic()
+        with self._lock:
+            entry = self._store.get(key)
+            if entry is None:
+                self.misses += 1
+                return None
+            stored_at, value = entry
+            if now - stored_at > self.ttl:
+                del self._store[key]
+                self.misses += 1
+                return None
+            self._store.move_to_end(key)
+            self.hits += 1
+            return value
+
+    def put(self, key: str, value: CachedAnswer) -> None:
+        with self._lock:
+            self._store[key] = (time.monotonic(), value)
+            self._store.move_to_end(key)
+            while len(self._store) > self.size:
+                self._store.popitem(last=False)
+
+    def stats(self) -> dict[str, Any]:
+        with self._lock:
+            return {
+                "entries": len(self._store),
+                "hits": self.hits,
+                "misses": self.misses,
+                "ttlSeconds": int(self.ttl),
+            }
 
 
 # ---------------------------------------------------------------------------

@@ -42,6 +42,7 @@ MAX_QUESTION_CHARS = 400
 # ベクトルは起動時に一度だけ読み込む（約 27MB）
 _vectors = rag.VectorIndex(str(DB_PATH))
 _rate_limiter = rag.RateLimiter(capacity=10, refill_seconds=30.0)
+_answer_cache = rag.AnswerCache()
 _http = httpx.Client(timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0, pool=10.0))
 
 # python:3.12-slim には .webp の MIME 定義が無く、図版が text/plain で配られる。
@@ -257,6 +258,25 @@ class AskRequest(BaseModel):
     history: list[HistoryTurn] = Field(default_factory=list, max_length=10)
 
 
+def _data_version() -> str:
+    """search.db の生成時刻。規則が更新されるとキャッシュを自動で無効化する."""
+    global _data_version_cached
+    if _data_version_cached is None:
+        try:
+            con = _connect()
+            try:
+                row = con.execute("SELECT value FROM meta WHERE key = 'builtAt'").fetchone()
+            finally:
+                con.close()
+            _data_version_cached = row[0] if row else "unknown"
+        except Exception:
+            _data_version_cached = "unknown"
+    return _data_version_cached
+
+
+_data_version_cached: str | None = None
+
+
 @app.get("/api/ask/status")
 def ask_status() -> dict[str, Any]:
     """AI 回答が使える状態かをフロントに知らせる."""
@@ -268,6 +288,7 @@ def ask_status() -> dict[str, Any]:
         "hybrid": _vectors.ready,
         "chatModel": rag.CHAT_MODEL,
         "embedModel": rag.EMBED_MODEL,
+        "cache": _answer_cache.stats(),
     }
 
 
@@ -285,28 +306,52 @@ def ask(body: AskRequest, request: Request) -> StreamingResponse:
     question = body.question.strip()
     history = [{"role": t.role, "text": t.text} for t in body.history]
 
+    # 会話の続きは文脈で答えが変わるのでキャッシュしない。
+    # 連打されるのは単発の質問なので、そこだけ効かせれば十分。
+    cache_key = rag.AnswerCache.key(question, _data_version()) if not history else None
+
+    NO_SOURCE_MESSAGE = (
+        "参考資料の中に該当する条文が見つかりませんでした。"
+        "語を変えて（例:「安全ベルト」→「ベルト」）お試しいただくか、"
+        "上の検索窓から全文検索をお使いください。"
+    )
+
     def generate() -> Iterator[str]:
+        if cache_key:
+            hit = _answer_cache.get(cache_key)
+            if hit is not None:
+                # 検索も生成も呼ばずに返す（費用ゼロ）
+                yield _sse("sources", hit.sources)
+                yield _sse("delta", hit.answer)
+                yield _sse("done", {"ok": True, "sources": len(hit.sources), "cached": True})
+                return
+
         con = None
         try:
             con = _connect()
             sources = rag.retrieve(
                 con, question, _vectors, _http, unicodedata.normalize("NFKC", question)
             )
-            yield _sse("sources", [s.to_dict() for s in sources])
+            source_dicts = [s.to_dict() for s in sources]
+            yield _sse("sources", source_dicts)
 
             if not sources:
-                yield _sse(
-                    "delta",
-                    "参考資料の中に該当する条文が見つかりませんでした。"
-                    "語を変えて（例:「安全ベルト」→「ベルト」）お試しいただくか、"
-                    "上の検索窓から全文検索をお使いください。",
-                )
-                yield _sse("done", {"ok": True, "sources": 0})
+                yield _sse("delta", NO_SOURCE_MESSAGE)
+                yield _sse("done", {"ok": True, "sources": 0, "cached": False})
+                # 根拠 0 件の連打がいちばん止めたいケースなので、これも覚える
+                if cache_key:
+                    _answer_cache.put(cache_key, rag.CachedAnswer([], NO_SOURCE_MESSAGE))
                 return
 
+            collected: list[str] = []
             for delta in rag.stream_answer(question, sources, history, _http):
+                collected.append(delta)
                 yield _sse("delta", delta)
-            yield _sse("done", {"ok": True, "sources": len(sources)})
+            yield _sse("done", {"ok": True, "sources": len(sources), "cached": False})
+
+            answer = "".join(collected).strip()
+            if cache_key and answer:  # 失敗・空応答は覚えない
+                _answer_cache.put(cache_key, rag.CachedAnswer(source_dicts, answer))
         except rag.RagUnavailable as exc:
             yield _sse("error", {"message": f"AI 回答は現在利用できません（{exc}）。"})
         except Exception as exc:  # noqa: BLE001 - 失敗の中身は利用者に見せない
