@@ -59,7 +59,9 @@ jobs:
         run: pip install -r pipeline/requirements.txt
 
       - name: テスト
-        run: python tests/test_catalog.py
+        run: |
+          python tests/test_catalog.py
+          python tests/test_announcements.py
 
       - name: OCR ツール（任意）
         if: ${{ inputs.ocr == true }}
@@ -67,6 +69,11 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn tesseract-ocr-jpn-vert
           echo "TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata" >> "$GITHUB_ENV"
+
+      # 公示一覧。諸規則一覧のアップロード日より約 1 か月早く更新が出るので、
+      # 先に取っておく。詳細ページは新しい規則変更のぶんだけ開く。
+      - name: 公示一覧を巡回
+        run: python pipeline/cli.py announcements
 
       - name: 巡回・差分検出・変換
         run: |
