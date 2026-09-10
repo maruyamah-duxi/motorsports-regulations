@@ -17,6 +17,7 @@ Cloud Run のイメージに焼き込む SQLite を採用する。
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sqlite3
 import unicodedata
@@ -67,10 +68,15 @@ CREATE TABLE chunks (
   page_end     INTEGER,
   part         INTEGER DEFAULT 0,
   text         TEXT NOT NULL,
-  -- 検索用に NFKC + 小文字化したもの。全角英数／半角カナ／英大小の
-  -- 揺れを吸収する（「ＲＲＮ」でも「rrn」でも、「ﾍﾞﾙﾄ」でも当たる）。
-  text_norm    TEXT NOT NULL
+  -- 検索用に NFKC で正規化したもの。全角英数／半角カナの揺れを吸収する
+  -- （「ＲＲＮ」でも「RRN」でも当たる）。大文字小文字は trigram が吸収する。
+  text_norm    TEXT NOT NULL,
+  -- 埋め込みベクトルのキャッシュキー（本文が変わらない限り再取得しない）
+  text_hash    TEXT NOT NULL,
+  -- float32 のリトルエンディアン配列。build_embeddings.py が埋める。
+  vec          BLOB
 );
+CREATE INDEX idx_chunks_hash ON chunks(text_hash);
 CREATE INDEX idx_chunks_doc ON chunks(doc_id);
 
 CREATE VIRTUAL TABLE chunks_fts USING fts5(
@@ -82,6 +88,24 @@ CREATE VIRTUAL TABLE chunks_fts USING fts5(
 
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
 """
+
+# 埋め込みキャッシュ（data/embeddings.sqlite）。search.db は毎回作り直すが、
+# ベクトルの取得には API 費用と時間がかかるので本文ハッシュで持ち回す。
+CACHE_SCHEMA = """
+CREATE TABLE IF NOT EXISTS vectors (
+  text_hash  TEXT NOT NULL,
+  model      TEXT NOT NULL,
+  dim        INTEGER NOT NULL,
+  vec        BLOB NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  PRIMARY KEY (text_hash, model, dim)
+);
+"""
+
+
+def text_hash(text: str) -> str:
+    """埋め込みキャッシュのキー。本文が 1 文字でも変われば別物になる。"""
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
@@ -155,7 +179,33 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
     yield from flush()
 
 
-def build(content_dir: Path, out_path: Path) -> dict[str, int]:
+def attach_cached_vectors(con: sqlite3.Connection, cache_path: Path, model: str, dim: int) -> int:
+    """埋め込みキャッシュから search.db へベクトルを流し込む."""
+    if not cache_path.exists():
+        return 0
+    con.execute("ATTACH DATABASE ? AS cache", (str(cache_path),))
+    try:
+        cur = con.execute(
+            "UPDATE chunks SET vec = ("
+            "  SELECT v.vec FROM cache.vectors v"
+            "  WHERE v.text_hash = chunks.text_hash AND v.model = ? AND v.dim = ?"
+            ") WHERE vec IS NULL",
+            (model, dim),
+        )
+        con.commit()
+        filled = con.execute("SELECT count(*) FROM chunks WHERE vec IS NOT NULL").fetchone()[0]
+        return filled
+    finally:
+        con.execute("DETACH DATABASE cache")
+
+
+def build(
+    content_dir: Path,
+    out_path: Path,
+    cache_path: Path | None = None,
+    model: str = "gemini-embedding-001",
+    dim: int = 768,
+) -> dict[str, int]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.exists():
         out_path.unlink()
@@ -187,7 +237,8 @@ def build(content_dir: Path, out_path: Path) -> dict[str, int]:
         for c in iter_chunks(doc):
             con.execute(
                 "INSERT INTO chunks (doc_id, anchor, heading, heading_path, clause,"
-                " page_start, page_end, part, text, text_norm) VALUES (?,?,?,?,?,?,?,?,?,?)",
+                " page_start, page_end, part, text, text_norm, text_hash)"
+                " VALUES (?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     doc_id,
                     c["anchor"],
@@ -199,19 +250,27 @@ def build(content_dir: Path, out_path: Path) -> dict[str, int]:
                     c["part"],
                     c["text"],
                     normalize(c["text"]),
+                    text_hash(c["text"]),
                 ),
             )
             n_chunks += 1
 
     con.execute("INSERT INTO chunks_fts(chunks_fts) VALUES ('rebuild')")
+    con.commit()
+
+    vectors = 0
+    if cache_path is not None:
+        vectors = attach_cached_vectors(con, cache_path, model, dim)
+
     con.execute(
-        "INSERT INTO meta VALUES ('builtAt', datetime('now')), ('docs', ?), ('chunks', ?)",
-        (str(n_docs), str(n_chunks)),
+        "INSERT INTO meta VALUES ('builtAt', datetime('now')), ('docs', ?), ('chunks', ?),"
+        " ('embedModel', ?), ('embedDim', ?), ('vectors', ?)",
+        (str(n_docs), str(n_chunks), model, str(dim), str(vectors)),
     )
     con.commit()
     con.execute("VACUUM")
     con.close()
-    return {"docs": n_docs, "chunks": n_chunks}
+    return {"docs": n_docs, "chunks": n_chunks, "vectors": vectors}
 
 
 def main() -> int:
@@ -219,15 +278,33 @@ def main() -> int:
     root = Path(__file__).resolve().parent.parent
     ap.add_argument("--content", default=str(root / "content"))
     ap.add_argument("--out", default=str(root / "data" / "search.db"))
+    ap.add_argument(
+        "--embeddings-cache",
+        default=str(root / "data" / "embeddings.sqlite"),
+        help="埋め込みキャッシュ。あればベクトルを流し込む",
+    )
+    ap.add_argument("--embed-model", default="gemini-embedding-001")
+    ap.add_argument("--embed-dim", type=int, default=768)
     args = ap.parse_args()
 
     content_dir = Path(args.content)
     if not content_dir.exists():
         print(f"content ディレクトリがありません: {content_dir}")
         return 1
-    stats = build(content_dir, Path(args.out))
+    stats = build(
+        content_dir,
+        Path(args.out),
+        cache_path=Path(args.embeddings_cache) if args.embeddings_cache else None,
+        model=args.embed_model,
+        dim=args.embed_dim,
+    )
     size = Path(args.out).stat().st_size
-    print(f"{stats['docs']} 文書 / {stats['chunks']} チャンク → {args.out} ({size/1024/1024:.1f} MB)")
+    vec = stats["vectors"]
+    note = f" / ベクトル {vec}" if vec else " / ベクトルなし（build_embeddings.py 未実行）"
+    print(
+        f"{stats['docs']} 文書 / {stats['chunks']} チャンク{note}"
+        f" → {args.out} ({size/1024/1024:.1f} MB)"
+    )
     return 0
 
 

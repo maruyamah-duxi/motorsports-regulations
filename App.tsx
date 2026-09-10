@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import type { DocumentsResponse } from './types';
 import { fetchDocuments } from './lib/api';
 import { navigate, parseRoute, useLocation } from './lib/router';
+import { Ask } from './components/Ask';
 import { CategoryTree } from './components/CategoryTree';
 import { DocumentList } from './components/DocumentList';
 import { DocumentView } from './components/DocumentView';
@@ -65,10 +66,14 @@ const App: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    document.title =
-      route.name === 'document' && docs
-        ? `${docs.items.find((d) => d.docId === route.docId)?.title ?? '規則'} | JAF モータースポーツ諸規則ビューア`
-        : 'JAF モータースポーツ諸規則ビューア';
+    if (route.name === 'document' && docs) {
+      const found = docs.items.find((d) => d.docId === route.docId)?.title ?? '規則';
+      document.title = `${found} | JAF モータースポーツ諸規則ビューア`;
+    } else if (route.name === 'ask') {
+      document.title = '規則について質問する | JAF モータースポーツ諸規則ビューア';
+    } else {
+      document.title = 'JAF モータースポーツ諸規則ビューア';
+    }
   }, [route, docs]);
 
   const onSearch = (q: string) => {
@@ -85,7 +90,10 @@ const App: React.FC = () => {
           <strong>JAF モータースポーツ諸規則</strong>
           <span>非公式ビューア</span>
         </Link>
-        <SearchBar value={route.query ?? ''} onSubmit={onSearch} />
+        <SearchBar value={route.name === 'search' ? (route.query ?? '') : ''} onSubmit={onSearch} />
+        <Link className={`nav-ask${route.name === 'ask' ? ' is-active' : ''}`} href="/ask">
+          AI に質問
+        </Link>
         {docs && (
           <div className="stats">
             {docs.count} 規則 / {totalPages.toLocaleString()} ページ
@@ -105,6 +113,7 @@ const App: React.FC = () => {
           {!error && !docs && <div className="loading">読み込み中…</div>}
           {docs && route.name === 'home' && <DocumentList documents={docs.items} />}
           {docs && route.name === 'search' && <SearchResults query={route.query ?? ''} />}
+          {route.name === 'ask' && <Ask initialQuestion={route.query} />}
           {route.name === 'document' && route.docId && <DocumentView docId={route.docId} />}
         </main>
       </div>

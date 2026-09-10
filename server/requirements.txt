@@ -1,2 +1,8 @@
+# Python 3.11 以上が必要です（numpy 2.5 系の要件）。
+# Dockerfile は python:3.12-slim を使うのでイメージ側は満たしています。
 fastapi==0.118.0
 uvicorn[standard]==0.37.0
+# ベクトル検索（8,778 チャンク × 768 次元の総当たり。SQLite 拡張は使わない）
+numpy==2.5.3
+# Gemini API 呼び出し
+httpx==0.28.1

@@ -121,6 +121,18 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
 .header .stats { font-size: 0.75rem; color: var(--fg-faint); white-space: nowrap; }
 @media (max-width: 720px) { .header .stats, .header .brand span { display: none; } }
 
+.header .nav-ask {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  padding: 0.35em 0.8em;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.header .nav-ask:hover { background: var(--accent-soft); text-decoration: none; }
+.header .nav-ask.is-active { background: var(--accent-soft); border-color: var(--accent); }
+
 /* ---------- レイアウト ---------- */
 
 .layout {
@@ -383,3 +395,117 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   line-height: 1.9;
 }
 .site-footer strong { color: var(--fg-muted); }
+
+/* ---------- AI への質問 ---------- */
+
+.ask-examples { margin-bottom: 2rem; display: grid; gap: 0.4rem; justify-items: start; }
+.ask-examples .label { font-size: 0.78rem; color: var(--fg-faint); margin-bottom: 0.2rem; }
+.ask-examples button {
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--fg-muted);
+  border-style: dashed;
+}
+.ask-examples button:hover { color: var(--accent); border-color: var(--accent); border-style: solid; }
+
+.ask-thread { display: grid; gap: 1.25rem; margin-bottom: 1.5rem; }
+
+.ask-q {
+  justify-self: end;
+  max-width: 85%;
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.9rem;
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+
+.ask-a { max-width: 46rem; }
+.ask-a p { margin: 0 0 0.9em; line-height: 1.85; }
+.ask-a ul { margin: 0 0 1em; padding-left: 1.3em; }
+.ask-a li { margin-bottom: 0.35em; line-height: 1.8; }
+.ask-a h3 { font-size: 1rem; margin: 1.4em 0 0.5em; }
+
+.cite {
+  display: inline-block;
+  min-width: 1.15em;
+  margin: 0 0.15em;
+  padding: 0 0.25em;
+  font-size: 0.72em;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: super;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 3px;
+  text-decoration: none;
+}
+.cite:hover { background: var(--accent); color: #fff; text-decoration: none; }
+.cite.is-dangling { background: var(--bg-inset); color: var(--fg-faint); }
+
+.caret {
+  display: inline-block;
+  width: 0.5em;
+  height: 1em;
+  background: var(--fg-muted);
+  vertical-align: text-bottom;
+  animation: caret-blink 1s step-end infinite;
+}
+@keyframes caret-blink { 50% { opacity: 0; } }
+
+.sources {
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.7rem 1rem;
+  background: var(--bg-soft);
+  font-size: 0.85rem;
+}
+.sources summary { cursor: pointer; color: var(--fg-muted); }
+.sources ol { margin: 0.8rem 0 0; padding-left: 1.6em; }
+.sources li { margin-bottom: 0.9rem; line-height: 1.6; }
+.sources .where { font-size: 0.75rem; color: var(--fg-faint); }
+.sources .excerpt {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  border-left: 2px solid var(--line);
+  padding-left: 0.6rem;
+  line-height: 1.7;
+}
+
+/* sticky にすると出典リストの上に重なってしまうので、素直に流れの中に置く。
+   回答が届くたびに末尾へスクロールするので、これで手が届く。 */
+.ask-form {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.6rem;
+  background: var(--bg);
+}
+.ask-form:focus-within { border-color: var(--accent); }
+.ask-form textarea {
+  width: 100%;
+  font: inherit;
+  line-height: 1.7;
+  border: 0;
+  outline: none;
+  resize: vertical;
+  background: transparent;
+  color: var(--fg);
+}
+.ask-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: flex-end;
+  margin-top: 0.4rem;
+}
+.ask-form-actions .hint { font-size: 0.72rem; color: var(--fg-faint); margin-right: auto; }
+
+.ask-disclaimer {
+  margin-top: 1.5rem;
+  font-size: 0.75rem;
+  color: var(--fg-faint);
+  line-height: 1.9;
+}

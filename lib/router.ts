@@ -42,7 +42,7 @@ export function useLocation(): string {
 }
 
 export interface Route {
-  name: 'home' | 'search' | 'document';
+  name: 'home' | 'search' | 'document' | 'ask';
   docId?: string;
   query?: string;
   anchor?: string;
@@ -55,6 +55,9 @@ export function parseRoute(location: string): Route {
 
   if (segments[0] === 'search') {
     return { name: 'search', query: params.get('q') || '' };
+  }
+  if (segments[0] === 'ask') {
+    return { name: 'ask', query: params.get('q') || '' };
   }
   if (segments[0] === 'doc' && segments[1]) {
     return { name: 'document', docId: decodeURIComponent(segments[1]) };

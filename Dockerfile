@@ -26,10 +26,13 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 COPY server/requirements.txt ./server/requirements.txt
 RUN pip install --no-cache-dir -r server/requirements.txt
 
-# 検索インデックスの生成は標準ライブラリだけで済む
+# 検索インデックスの生成は標準ライブラリだけで済む。
+# data/embeddings.sqlite があればベクトルも焼き込む（無ければ全文検索のみで動く）。
 COPY pipeline/build_index.py ./pipeline/build_index.py
 COPY content ./content
-RUN python pipeline/build_index.py --content content --out data/search.db
+COPY data/ ./data/
+RUN python pipeline/build_index.py --content content --out data/search.db \
+      --embeddings-cache data/embeddings.sqlite
 
 COPY server ./server
 COPY --from=web /app/dist ./dist

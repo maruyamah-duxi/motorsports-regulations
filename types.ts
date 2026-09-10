@@ -98,3 +98,28 @@ export interface SearchResponse {
   offset: number;
   items: SearchHit[];
 }
+
+/** /api/ask が最初に返す根拠チャンク */
+export interface AskSource {
+  index: number;
+  docId: string;
+  title: string;
+  heading: string;
+  headingPath: string;
+  page: number;
+  anchor: string | null;
+  /** アプリ内の該当箇所への直リンク */
+  url: string;
+  pdfUrl: string | null;
+  excerpt: string;
+}
+
+export interface AskStatus {
+  available: boolean;
+  hasApiKey: boolean;
+  /** ベクトル検索が有効なチャンク数（0 なら全文検索のみ） */
+  vectors: number;
+  hybrid: boolean;
+  chatModel: string;
+  embedModel: string;
+}

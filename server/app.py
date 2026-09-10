@@ -18,12 +18,16 @@ import re
 import sqlite3
 import unicodedata
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 from urllib.parse import quote
 
-from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import FileResponse, JSONResponse
+import httpx
+from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel, Field
+
+from . import rag
 
 ROOT = Path(os.environ.get("APP_ROOT", Path(__file__).resolve().parent.parent))
 DB_PATH = Path(os.environ.get("SEARCH_DB", ROOT / "data" / "search.db"))
@@ -32,6 +36,13 @@ DIST_DIR = Path(os.environ.get("DIST_DIR", ROOT / "dist"))
 
 MIN_TRIGRAM_LEN = 3
 MAX_LIMIT = 100
+
+MAX_QUESTION_CHARS = 400
+
+# ベクトルは起動時に一度だけ読み込む（約 27MB）
+_vectors = rag.VectorIndex(str(DB_PATH))
+_rate_limiter = rag.RateLimiter(capacity=10, refill_seconds=30.0)
+_http = httpx.Client(timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0, pool=10.0))
 
 # python:3.12-slim には .webp の MIME 定義が無く、図版が text/plain で配られる。
 # ブラウザは中身を見て画像と判断してくれるが、nosniff を効かせた環境では
@@ -69,8 +80,13 @@ def _fts_query(q: str) -> str:
     空白区切りの語は AND で繋ぐ。
     """
     # 大文字小文字は trigram トークナイザが吸収するので NFKC だけかける
-    normalized = unicodedata.normalize("NFKC", q)
-    terms = [t for t in _FTS_UNSAFE.sub("", normalized).split() if len(t) >= MIN_TRIGRAM_LEN]
+    normalized = _FTS_UNSAFE.sub("", unicodedata.normalize("NFKC", q))
+    # 空白区切りをそのまま使い、区切りが無ければ文字種の切れ目で分ける。
+    # 「ロールケージ 溶接」も「ロールケージの溶接」も引けるようにする。
+    parts = normalized.split()
+    terms = [p for p in parts if len(p) >= MIN_TRIGRAM_LEN]
+    if not terms:
+        terms = [t for t in rag.extract_terms(normalized) if len(t) >= MIN_TRIGRAM_LEN]
     return " AND ".join(f'"{t}"' for t in terms)
 
 
@@ -206,6 +222,7 @@ def _health() -> dict[str, Any]:
         "searchDb": DB_PATH.exists(),
         "content": CONTENT_DIR.exists(),
         "dist": DIST_DIR.exists(),
+        "vectors": _vectors.count,
         "revision": os.environ.get("K_REVISION"),
     }
 
@@ -223,6 +240,87 @@ def api_healthz() -> dict[str, Any]:
 @app.get("/healthz", include_in_schema=False)
 def healthz() -> dict[str, Any]:
     return _health()
+
+
+# ---------------------------------------------------------------------------
+# AI への質問（RAG）
+# ---------------------------------------------------------------------------
+
+
+class HistoryTurn(BaseModel):
+    role: str = Field(pattern="^(user|assistant)$")
+    text: str = Field(max_length=4000)
+
+
+class AskRequest(BaseModel):
+    question: str = Field(min_length=2, max_length=MAX_QUESTION_CHARS)
+    history: list[HistoryTurn] = Field(default_factory=list, max_length=10)
+
+
+@app.get("/api/ask/status")
+def ask_status() -> dict[str, Any]:
+    """AI 回答が使える状態かをフロントに知らせる."""
+    has_key = bool(os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
+    return {
+        "available": has_key and DB_PATH.exists(),
+        "hasApiKey": has_key,
+        "vectors": _vectors.count,
+        "hybrid": _vectors.ready,
+        "chatModel": rag.CHAT_MODEL,
+        "embedModel": rag.EMBED_MODEL,
+    }
+
+
+def _sse(event: str, data: Any) -> str:
+    return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
+
+
+@app.post("/api/ask")
+def ask(body: AskRequest, request: Request) -> StreamingResponse:
+    client_ip = (request.headers.get("x-forwarded-for") or "").split(",")[0].strip()
+    client_ip = client_ip or (request.client.host if request.client else "unknown")
+    if not _rate_limiter.allow(client_ip):
+        raise HTTPException(429, "短時間に多くの質問を受け付けました。少し待ってからお試しください。")
+
+    question = body.question.strip()
+    history = [{"role": t.role, "text": t.text} for t in body.history]
+
+    def generate() -> Iterator[str]:
+        con = None
+        try:
+            con = _connect()
+            sources = rag.retrieve(
+                con, question, _vectors, _http, unicodedata.normalize("NFKC", question)
+            )
+            yield _sse("sources", [s.to_dict() for s in sources])
+
+            if not sources:
+                yield _sse(
+                    "delta",
+                    "参考資料の中に該当する条文が見つかりませんでした。"
+                    "語を変えて（例:「安全ベルト」→「ベルト」）お試しいただくか、"
+                    "上の検索窓から全文検索をお使いください。",
+                )
+                yield _sse("done", {"ok": True, "sources": 0})
+                return
+
+            for delta in rag.stream_answer(question, sources, history, _http):
+                yield _sse("delta", delta)
+            yield _sse("done", {"ok": True, "sources": len(sources)})
+        except rag.RagUnavailable as exc:
+            yield _sse("error", {"message": f"AI 回答は現在利用できません（{exc}）。"})
+        except Exception as exc:  # noqa: BLE001 - 失敗の中身は利用者に見せない
+            print(f"[ask] {type(exc).__name__}: {exc}", flush=True)
+            yield _sse("error", {"message": "回答の生成に失敗しました。時間をおいてお試しください。"})
+        finally:
+            if con is not None:
+                con.close()
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-store", "X-Accel-Buffering": "no"},
+    )
 
 
 # ---------------------------------------------------------------------------
