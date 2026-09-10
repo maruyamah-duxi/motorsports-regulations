@@ -139,6 +139,24 @@ export interface DocumentDiff {
   changes: DiffChange[];
 }
 
+/** JAF の公示に添付された PDF。対比表なら JAF 自身の新旧対照。 */
+export interface NoticeAttachment {
+  text: string;
+  url: string;
+  comparison: boolean;
+}
+
+/** JAF の公示 1 件（規則に紐づけたもの） */
+export interface Notice {
+  id: string;
+  date: string | null;
+  noticeNo: string | null;
+  title: string;
+  url: string;
+  attachments: NoticeAttachment[];
+  hasComparison: boolean;
+}
+
 /** /api/documents/{docId}/history */
 export interface DocumentHistory {
   docId: string;
@@ -149,6 +167,8 @@ export interface DocumentHistory {
   editions: EditionRef[];
   /** 条単位の改正差分が取れる相手 */
   diffs: DiffRef[];
+  /** この規則に関する JAF の公示（新しい順） */
+  announcements: Notice[];
 }
 
 export interface DocumentsResponse {

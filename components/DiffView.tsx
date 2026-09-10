@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import type { DiffChange, DiffStatus, DocumentDiff } from '../types';
-import { fetchDocumentDiff } from '../lib/api';
+import type { DiffChange, DiffStatus, DocumentDiff, Notice } from '../types';
+import { fetchDocumentDiff, fetchDocumentHistory } from '../lib/api';
 import { Link } from './Link';
+import { ComparisonHint, Notices } from './Notices';
 
 const STATUS_LABEL: Record<DiffStatus, string> = {
   changed: '変更',
@@ -45,18 +46,24 @@ export const DiffView: React.FC<{ docId: string; baseDocId: string }> = ({
   baseDocId,
 }) => {
   const [diff, setDiff] = useState<DocumentDiff | null>(null);
+  const [notices, setNotices] = useState<Notice[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [hideYearOnly, setHideYearOnly] = useState(false);
 
   useEffect(() => {
     const controller = new AbortController();
     setDiff(null);
+    setNotices([]);
     setError(null);
     fetchDocumentDiff(docId, baseDocId, controller.signal)
       .then(setDiff)
       .catch((err) => {
         if (err.name !== 'AbortError') setError(String(err.message || err));
       });
+    // 公示は無くても差分は読めるので、失敗しても黙って諦める
+    fetchDocumentHistory(docId, controller.signal)
+      .then((h) => setNotices(h.announcements))
+      .catch(() => undefined);
     return () => controller.abort();
   }, [docId, baseDocId]);
 
@@ -90,6 +97,8 @@ export const DiffView: React.FC<{ docId: string; baseDocId: string }> = ({
         </div>
       </header>
 
+      <ComparisonHint notices={notices} />
+
       <p className="source-note">
         <strong>この差分は自動生成です。</strong>
         条項番号で新旧を突き合わせた結果で、JAF による正式な改正の告知ではありません。
@@ -122,6 +131,8 @@ export const DiffView: React.FC<{ docId: string; baseDocId: string }> = ({
       ) : (
         shown.map((c) => <Change key={`${c.status}-${c.key}`} change={c} docId={docId} />)
       )}
+
+      <Notices notices={notices} heading="この規則に関する JAF の公示" />
     </article>
   );
 };

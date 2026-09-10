@@ -3,6 +3,7 @@ import type { DocumentHistory, RegulationDocument } from '../types';
 import { fetchDocument, fetchDocumentHistory } from '../lib/api';
 import { Blocks } from './Blocks';
 import { DiffBanner, EditionBanner, HistoryDialog } from './History';
+import { Notices } from './Notices';
 
 const Toc: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
   // 条・章までを既定の目次とする。項番まで全部出すと数百行になる。
@@ -130,6 +131,8 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
       <div className="doc-body">
         <Blocks doc={doc} />
       </div>
+
+      {history && <Notices notices={history.announcements} />}
 
       <footer className="doc-footer">
         原本: {doc.title}（JAF）／ 自動変換 {doc.convertedAt?.slice(0, 10)} ／

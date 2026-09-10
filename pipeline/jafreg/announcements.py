@@ -9,9 +9,12 @@
 2. **改正には「対比表」PDF が付く。** JAF 自身が新旧を並べた権威ある
    差分です。こちらの自動差分の裏取りに使えます。
 
-なお **年度版の「制定」公示には変更点の列挙がありません**（「添付の
-とおり制定しました」だけ）。条項単位の正解が取れるのは「改正」の
-対比表がある場合に限られます。
+対比表が付くかは公示ごとに違います。実データ（2024-01 以降 439 件）では
+規則変更 107 件のうち **17 件に対比表**がありました。「一部改正」に多い
+一方、「制定」でも付くことがあります（2027 年 日本ドリフト選手権規定の
+制定など）。逆に日本レース選手権規定 2027 年版の制定公示は本体 PDF だけで、
+変更点の列挙はありませんでした。つまり **対比表の有無で分岐する**のが
+正しく、公示の種別では判断できません。
 
 ## 一覧は DOM ではなく JSON API から取る
 
@@ -35,6 +38,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from dataclasses import dataclass, field
 from typing import Any, Iterable
 from urllib.parse import urljoin
@@ -172,6 +176,44 @@ def parse_detail(html: str, page_url: str) -> tuple[str | None, list[Attachment]
             Attachment(text=text, url=url, comparison=bool(_COMPARISON.search(text)))
         )
     return notice_no, attachments
+
+
+# 規則名の突き合わせ用。年度・施行日・記号の揺れを落とす。
+_STRIP = re.compile(
+    r"(?:19|20)\d{2}年度?|(?:19|20)\d{6}|第?\d+編|[\s　_・／/（）\(\)【】「」、,\.：:～~\-－—]"
+)
+
+
+def normalize_title(text: str) -> str:
+    """規則名を突き合わせられる形に畳む。
+
+    我々の文書タイトル（`自動車競技の組織に関する規定_20250401`）と、公示や
+    添付の文言（`自動車競技の組織に関する規定_一部改正（新旧対照表）`）を
+    同じ土俵に載せる。年度・施行日・記号を落とし、NFKC で全角を畳む。
+    """
+    return _STRIP.sub("", unicodedata.normalize("NFKC", text or ""))
+
+
+# これより短い一致は偶然当たりやすいので採らない
+MIN_TITLE_MATCH = 6
+
+
+def match_titles(text: str, titles: dict[str, str]) -> str | None:
+    """文言の中に規則名が含まれていれば、その鍵を返す。
+
+    `titles` は {正規化済みの規則名: 鍵}。**最長一致**を採る。
+    「自動車競技に関する申請・登録等手数料規定」と「カート競技に関する
+    申請・登録等手数料規定」のように似た名前が並ぶため、短い側に
+    引き寄せられると取り違える。
+    """
+    hay = normalize_title(text)
+    best: tuple[int, str] | None = None
+    for name, key in titles.items():
+        if len(name) < MIN_TITLE_MATCH or name not in hay:
+            continue
+        if best is None or len(name) > best[0]:
+            best = (len(name), key)
+    return best[1] if best else None
 
 
 def merge(

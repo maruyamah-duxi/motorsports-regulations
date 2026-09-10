@@ -61,7 +61,10 @@ CREATE TABLE docs (
   -- 更新履歴のイベント配列（build_history.py が作る JSON）
   history     TEXT,
   -- 条単位の改正差分の一覧（build_diffs.py が作る JSON。本体は content/ 側）
-  diffs       TEXT
+  diffs       TEXT,
+  -- JAF の公示（link_announcements.py が系列に紐づけたもの）。
+  -- 対比表 PDF があれば JAF 自身の新旧対照へ案内できる。
+  announcements TEXT
 );
 CREATE INDEX idx_docs_series ON docs(series);
 
@@ -229,6 +232,17 @@ def load_diffs(path: Path | None) -> dict[str, list[dict[str, Any]]]:
         return {}
 
 
+def load_announcements(path: Path | None) -> dict[str, list[dict[str, Any]]]:
+    """link_announcements.py が作った「系列 → 公示」を読む."""
+    if path is None or not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("series") or {}
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"  公示の紐づけを読めませんでした（公示なしで続けます）: {exc}")
+        return {}
+
+
 def build(
     content_dir: Path,
     out_path: Path,
@@ -237,6 +251,7 @@ def build(
     dim: int = 768,
     history_path: Path | None = None,
     diffs_path: Path | None = None,
+    announcements_path: Path | None = None,
 ) -> dict[str, int]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.exists():
@@ -246,13 +261,16 @@ def build(
 
     history_docs = load_history(history_path)
     diff_docs = load_diffs(diffs_path)
+    ann_series = load_announcements(announcements_path)
+    # docId → 系列キー。履歴から引く（無ければ公示は付かない）
+    series_of = {k: (v or {}).get("series") for k, v in history_docs.items()}
     n_docs = n_chunks = 0
     for doc_json in sorted(content_dir.glob("*/document.json")):
         doc = json.loads(doc_json.read_text(encoding="utf-8"))
         doc_id = doc["docId"]
         stats = doc.get("stats") or {}
         con.execute(
-            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 doc_id,
                 doc.get("title") or doc_id,
@@ -272,6 +290,9 @@ def build(
                     ensure_ascii=False,
                 ),
                 json.dumps(diff_docs.get(doc_id) or [], ensure_ascii=False),
+                json.dumps(
+                    ann_series.get(series_of.get(doc_id) or "") or [], ensure_ascii=False
+                ),
             ),
         )
         n_docs += 1
@@ -334,6 +355,11 @@ def main() -> int:
         default=str(root / "data" / "diffs.json"),
         help="build_diffs.py が作った差分の一覧。あれば docs に取り込む",
     )
+    ap.add_argument(
+        "--announcements",
+        default=str(root / "data" / "announcement_links.json"),
+        help="link_announcements.py が作った公示の紐づけ",
+    )
     ap.add_argument("--embed-model", default="gemini-embedding-001")
     ap.add_argument("--embed-dim", type=int, default=768)
     ap.add_argument(
@@ -364,6 +390,7 @@ def main() -> int:
         dim=args.embed_dim,
         history_path=Path(args.history) if args.history else None,
         diffs_path=Path(args.diffs) if args.diffs else None,
+        announcements_path=Path(args.announcements) if args.announcements else None,
     )
     size = Path(args.out).stat().st_size
     vec = stats["vectors"]

@@ -432,6 +432,81 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   white-space: nowrap;
 }
 
+/* ---------- JAF の公示 ---------- */
+
+.comparison-hint {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  border: 1px solid var(--add-fg);
+  background: var(--add-bg);
+  color: var(--add-fg);
+  border-radius: var(--radius);
+  padding: 0.65rem 0.9rem;
+  font-size: 0.85rem;
+  margin: 0 0 0.8rem;
+}
+.comparison-hint a { color: inherit; font-weight: 700; white-space: nowrap; }
+
+.notices { margin-top: 3rem; }
+.notices > h2 {
+  font-size: 0.85rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--fg-muted);
+}
+.notices > h2 .count { font-size: 0.72rem; color: var(--fg-faint); font-weight: 400; }
+.notices > ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+
+.notice-row {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.8rem;
+  font-size: 0.82rem;
+}
+.notice-row.has-comparison { border-color: var(--add-fg); }
+
+.notice-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.7rem;
+}
+.notice-head time { color: var(--fg); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.notice-head .notice-no { color: var(--fg-faint); font-size: 0.72rem; white-space: nowrap; }
+
+.notice-files {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0 0 0 0.1rem;
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.78rem;
+}
+.notice-badge {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.05em 0.45em;
+  border-radius: 999px;
+  background: var(--add-bg);
+  color: var(--add-fg);
+  border: 1px solid currentColor;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.notice-more {
+  margin-top: 0.6rem;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+  border-style: dashed;
+}
+
 /* ---------- 更新履歴 ---------- */
 
 /* meta 行の中に並ぶので、リンクと同じ見た目にする */

@@ -241,7 +241,9 @@ def document_history(doc_id: str) -> dict[str, Any]:
     con = _connect()
     try:
         row = con.execute(
-            "SELECT series, edition, history, diffs FROM docs WHERE doc_id = ?", (doc_id,)
+            "SELECT series, edition, history, diffs, announcements"
+            " FROM docs WHERE doc_id = ?",
+            (doc_id,),
         ).fetchone()
         if row is None:
             raise HTTPException(404, "見つかりません")
@@ -254,6 +256,10 @@ def document_history(doc_id: str) -> dict[str, Any]:
             diffs = json.loads(row["diffs"] or "[]")
         except json.JSONDecodeError:
             diffs = []
+        try:
+            notices = json.loads(row["announcements"] or "[]")
+        except json.JSONDecodeError:
+            notices = []
 
         editions: list[dict[str, Any]] = []
         if row["series"]:
@@ -283,6 +289,8 @@ def document_history(doc_id: str) -> dict[str, Any]:
         "editions": editions if len(editions) > 1 else [],
         # 条単位の改正差分（本体は下の /diff/{base_doc_id}）
         "diffs": diffs,
+        # JAF の公示。対比表があれば JAF 自身の新旧対照へ案内できる。
+        "announcements": notices,
     }
 
 

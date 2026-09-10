@@ -69,6 +69,10 @@ python pipeline/cli.py probe samples/rule.pdf --out probe.json --pages 12
 python pipeline/cli.py announcements
 python pipeline/cli.py announcements --since 2025-01-01   # 期間を絞る
 
+# 公示を規則に紐づける（対比表へ案内できるようにする）
+python pipeline/link_announcements.py
+python pipeline/link_announcements.py --report   # 突き合わせ結果を目で見る
+
 # content/ から全文検索用の SQLite を作る
 python pipeline/build_index.py
 
@@ -114,6 +118,7 @@ content/<docId>/previous.json  上書き前の版（改正差分の比較元）
 content/<docId>/diff-*.json    条単位の改正差分
 data/diffs.json                差分の一覧
 data/announcements.json        JAF の公示（規則変更・対比表PDFへのリンク）
+data/announcement_links.json   公示 → 規則系列の紐づけ
 ```
 
 原本 PDF は `.cache/pdf/` に置かれ、git には入りません（JAF の著作物のため）。
@@ -123,7 +128,8 @@ data/announcements.json        JAF の公示（規則変更・対比表PDFへの
 | ファイル | 役割 |
 | --- | --- |
 | `jafreg/catalog.py` | 諸規則ページの DOM からカタログを抽出 |
-| `jafreg/announcements.py` | 公示一覧（JSON API）と詳細ページの解析 |
+| `jafreg/announcements.py` | 公示一覧（JSON API）と詳細ページの解析、規則名の突き合わせ |
+| `link_announcements.py` | 公示を規則系列に紐づける（添付の文言を優先・最長一致） |
 | `jafreg/fetch.py` | 礼儀正しい HTTP 取得と SHA-256 |
 | `jafreg/layout.py` | ページ解析。XY-Cut / 図版領域 / 見出し / 段落再構成 / 柱の除去 |
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |
