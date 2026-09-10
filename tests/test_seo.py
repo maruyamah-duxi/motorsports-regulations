@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from server import seo as seo_module  # noqa: E402
 from server.seo import Seo, _truncate_html  # noqa: E402
 
 ORIGIN = "https://example.test"
@@ -32,6 +33,20 @@ ARTICLE = (
     '<figure><img src="assets/fig-p0001-01.webp" alt="図版"></figure>'
     "</article></body></html>"
 )
+
+
+class indexing:
+    """`SEARCH_INDEXING` を一時的に切り替える（露出のオン／オフ両方を試す）."""
+
+    def __init__(self, value: bool) -> None:
+        self.value = value
+
+    def __enter__(self) -> None:
+        self.saved = seo_module.SEARCH_INDEXING
+        seo_module.SEARCH_INDEXING = self.value
+
+    def __exit__(self, *exc: object) -> None:
+        seo_module.SEARCH_INDEXING = self.saved
 
 
 def _fixture(tmp: Path) -> Seo:
@@ -145,7 +160,7 @@ def test_routes() -> None:
         assert s.page("/whatever") is None
 
 
-def test_sitemap_and_robots() -> None:
+def test_sitemap() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         s = _fixture(Path(tmp))
         xml = s.sitemap_xml()
@@ -156,9 +171,33 @@ def test_sitemap_and_robots() -> None:
         assert "<loc>https://example.test/diff/2026_rally-aaa/2025_rally-bbb</loc>" in xml
         assert "<lastmod>2026-04-01</lastmod>" in xml
 
-        robots = s.robots_txt()
-        assert "Sitemap: https://example.test/sitemap.xml" in robots
-        assert "Disallow: /search" in robots
+
+def test_indexing_switch() -> None:
+    """`SEARCH_INDEXING` の両方の状態で、robots と head が食い違わないこと."""
+    with tempfile.TemporaryDirectory() as tmp:
+        s = _fixture(Path(tmp))
+
+        with indexing(True):
+            robots = s.robots_txt()
+            page = s.page("/doc/2026_rally-aaa") or ""
+            assert "Sitemap: https://example.test/sitemap.xml" in robots
+            assert "Disallow: /search" in robots
+            assert "Disallow: /\n" not in robots  # 全面禁止にはしない
+            assert 'name="robots"' not in page
+
+        with indexing(False):
+            robots = s.robots_txt()
+            page = s.page("/doc/2026_rally-aaa") or ""
+            assert robots == "User-agent: *\nDisallow: /\n"
+            # 全面 Disallow のときに Sitemap 行を残すと言っていることが食い違う
+            assert "Sitemap:" not in robots
+            assert '<meta name="robots" content="noindex,nofollow">' in page
+            assert s.page("/") is not None  # トップも同じ扱い
+            assert 'name="robots"' in (s.page("/") or "")
+            # 中身の作りは変えない（再開時にそのまま出せるように）
+            assert '<link rel="canonical"' in page
+            assert 'id="prerender"' in page
+            assert s.sitemap_xml().count("<loc>") == 4
 
 
 def test_truncate_closes_tags() -> None:

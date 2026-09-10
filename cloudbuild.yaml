@@ -125,25 +125,49 @@ steps:
         print(f"    sitemap {urls} URL / canonical {(h.get('seo') or {}).get('origin')}")
         PY
 
-        # 規則ページに head と本文が入っているかを 1 件だけ実物で見る。
-        # ここが素の JS シェルに戻ると、検索には二度と出なくなる。
+        # 規則ページの中身と、robots.txt が食い違っていないかを実物で見る。
+        # 露出のオン／オフは server/seo.py の SEARCH_INDEXING 1 か所で決まる。
+        # 「robots は禁止なのにページは canonical だけ」のような中途半端な
+        # 状態で出さないよう、両方を突き合わせて落とす。
         doc=$(curl -fsS "$$url/api/documents" \
                 | python3 -c "import json,sys;print(json.load(sys.stdin)['items'][0]['docId'])")
         curl -fsS "$$url/doc/$$doc" -o /tmp/page.html
         curl -fsS "$$url/robots.txt" -o /tmp/robots.txt
+        curl -fsS -D /tmp/head.txt -o /dev/null "$$url/doc/$$doc"
         python3 - "$$doc" <<'PY'
         import sys
         page = open("/tmp/page.html", encoding="utf-8").read()
         robots = open("/tmp/robots.txt", encoding="utf-8").read()
+        headers = open("/tmp/head.txt", encoding="utf-8").read().lower()
+        doc = sys.argv[1]
+
+        # 中身の作りは露出の有無に関わらず入っている（再開時にそのまま出せる形）
         for needle, what in (
             ('<link rel="canonical"', "canonical"),
             ('<meta name="description"', "description"),
             ('id="prerender"', "本文のプリレンダ"),
             ("application/ld+json", "構造化データ"),
         ):
-            assert needle in page, f"/doc/{sys.argv[1]} に{what}がありません"
-        assert "Sitemap:" in robots, "robots.txt に Sitemap 行がありません"
-        print(f"OK  /doc/{sys.argv[1]} {len(page):,} 文字（head・本文・構造化データあり）")
+            assert needle in page, f"/doc/{doc} に{what}がありません"
+
+        blocked = "Disallow: /\n" in robots
+        if blocked:
+            assert "Sitemap:" not in robots, (
+                "全面 Disallow なのに Sitemap 行が残っています"
+            )
+            assert 'name="robots" content="noindex' in page, (
+                f"robots.txt は全面 Disallow なのに /doc/{doc} に noindex がありません"
+            )
+            assert "x-robots-tag: noindex" in headers, (
+                "X-Robots-Tag ヘッダが付いていません（/content 配下が素通しになります）"
+            )
+            print(f"OK  検索露出は OFF（robots.txt 全面 Disallow + noindex）/doc/{doc}")
+        else:
+            assert "Sitemap:" in robots, "robots.txt に Sitemap 行がありません"
+            assert 'name="robots" content="noindex' not in page, (
+                "露出 ON のはずのページに noindex が付いています"
+            )
+            print(f"OK  検索露出は ON /doc/{doc} {len(page):,} 文字")
         PY
 
 images:

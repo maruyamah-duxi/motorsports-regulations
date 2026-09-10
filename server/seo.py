@@ -47,6 +47,26 @@ from xml.sax.saxutils import escape as xml_escape
 # する（両方に同じ中身が出るので、寄せ先を固定しないと評価が割れる）。
 DEFAULT_ORIGIN = "https://jp.motorsports-regulations.org"
 
+# 検索エンジンへの露出。
+#
+# False の間は robots.txt が全面 Disallow になり、すべての応答に
+# `X-Robots-Tag: noindex, nofollow`（server/app.py）と、HTML には
+# `<meta name="robots">` も付く。sitemap.xml は作れるまま残すが、
+# robots.txt からは案内しない。
+#
+# 2026-09-10: JAF のサイトポリシー（https://jaf.or.jp/common/websitepolicy）に
+# 「当ウェブサイトは、JAFが所有、運営、管理しておりその資料のコピー、複製、
+# 再版、ダウンロード、配布などは認めておりません」との明示があることが
+# 分かったため、オーナーの判断で False にした。経緯は
+# docs/architecture.md の 7-e と 9 章。
+#
+# 再開するときはここを True に戻して出すだけでよい。ただし robots.txt で
+# クロールを止めている間は、クローラは noindex を読めないので、すでに
+# インデックスされた URL は URL だけ残ることがある。取り除きたいときは
+# Search Console の削除ツールを使うか、いったんクロールを許して noindex を
+# 読ませる（この 2 つは同時にはできない）。
+SEARCH_INDEXING = False
+
 SITE_NAME = "JAF モータースポーツ諸規則ビューア（非公式）"
 PUBLISHER = "一般社団法人日本自動車連盟（JAF）"
 
@@ -210,6 +230,7 @@ class Seo:
         url = self.url(path)
         return [
             f"<title>{html.escape(title)}</title>",
+            *([] if SEARCH_INDEXING else [_meta("robots", "noindex,nofollow")]),
             _meta("description", description),
             f'<link rel="canonical" href="{html.escape(url, quote=True)}">',
             _prop("og:type", kind),
@@ -494,6 +515,10 @@ class Seo:
     # -- robots / sitemap ---------------------------------------------------
 
     def robots_txt(self) -> str:
+        if not SEARCH_INDEXING:
+            # 全面 Disallow のときに Sitemap 行を残すと言っていることが
+            # 食い違うので、案内しない（/sitemap.xml 自体は配り続ける）。
+            return "User-agent: *\nDisallow: /\n"
         return (
             "User-agent: *\n"
             "Allow: /\n"

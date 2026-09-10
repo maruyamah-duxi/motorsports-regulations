@@ -343,30 +343,72 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 
 ---
 
-## 7. 検索エンジンへの登録（デプロイ後に一度だけ）
+## 7. 検索エンジンへの登録
 
-配信側の準備（`sitemap.xml` / `robots.txt` / `canonical` / 本文プリレンダ）は
-コードに入っています。設計は [`architecture.md`](./architecture.md) の 7-e。
-ここから先は**オーナーの手作業**で、これをやらないと 160 件が見つかるまで
-時間がかかります。
+> **いまは検索露出を止めてあります（2026-09-10）。** JAF のサイトポリシーに
+> 資料の再配布を認めない旨の明示があることが分かったためです
+> （[`architecture.md`](./architecture.md) の 9 章）。この節は
+> **再開するときの手順**として残しています。まず下の 7-1 で現状を
+> 確かめてください。
 
-### 7-1. まず出ているものを確認する
+配信側の準備（`sitemap.xml` / `canonical` / 本文プリレンダ）はコードに入って
+います。露出のオン／オフは **`server/seo.py` の `SEARCH_INDEXING` 1 か所**で、
+再開は `True` に戻して出すだけです。設計は
+[`architecture.md`](./architecture.md) の 7-e。
+
+### 7-1. いまどちらの状態か確認する
 
 ```bash
 site=https://jp.motorsports-regulations.org
 
 curl -sS $site/robots.txt
-curl -sS $site/sitemap.xml | grep -c '<loc>'          # 166 前後
-curl -sS $site/api/healthz | python3 -m json.tool     # seo.sitemapUrls を見る
+curl -sS $site/api/healthz | python3 -m json.tool     # seo.indexing を見る
+```
 
-# 規則ページに本文が入っているか（JS 無しで全文が見えるか）
+**停止中（現在）なら**こうなります。
+
+```
+User-agent: *
+Disallow: /
+```
+```json
+"seo": {"origin": "…", "sitemapUrls": 166, "indexing": false}
+```
+
+停止中は全応答に `noindex` が付きます。`/content/…` と図版にも掛かります。
+
+```bash
+curl -sSI $site/doc/$(curl -sS $site/api/documents \
+  | python3 -c "import json,sys;print(json.load(sys.stdin)['items'][0]['docId'])") \
+  | grep -i x-robots-tag          # noindex, nofollow
+```
+
+**再開後は** `robots.txt` に `Sitemap:` 行が出て、ページから `noindex` が
+消えます。中身の作り（`canonical` / `description` / 本文プリレンダ）は
+どちらの状態でも入っています。
+
+```bash
 doc=$(curl -sS $site/api/documents | python3 -c "import json,sys;print(json.load(sys.stdin)['items'][0]['docId'])")
 curl -sS "$site/doc/$doc" | grep -o '<link rel="canonical"[^>]*>'
 curl -sS "$site/doc/$doc" | grep -c 'id="prerender"'  # 1
+curl -sS $site/sitemap.xml | grep -c '<loc>'          # 166 前後
 ```
 
 `sitemapUrls` が 1 なら `docs` テーブルを読めていません。Cloud Build の
-「中身を確認」ステップで落ちるはずですが、手で出したときは自分で見てください。
+「中身を確認」ステップは `robots.txt` とページの `<meta>` を突き合わせるので、
+どちらの状態でも中途半端なら落ちます。手で出したときは自分で見てください。
+
+### 7-1b. 再開するとき
+
+```bash
+# server/seo.py の SEARCH_INDEXING を True にしてから
+git commit -m "..." server/seo.py && git push
+gcloud builds triggers run jaf-regulations-deploy --branch=main --region=global
+```
+
+再開の前に [`architecture.md`](./architecture.md) の 9 章（JAF のサイト
+ポリシー）を読んでください。露出を戻すことは、あの記載との食い違いを
+広げる方向の判断です。
 
 ### 7-2. Google Search Console
 
@@ -389,10 +431,9 @@ curl -sS "$site/doc/$doc" | grep -c 'id="prerender"'  # 1
   なったかどうか。`description` に条見出しを並べているので、
   どの語で拾われているかがそのまま設計の答え合わせになります。
 
-### やらないこと
+### 注意
 
-`robots.txt` を触って全面 Disallow にすると即座に検索から消えます
-（JAF から取り下げを求められた場合の手段として、`server/seo.py` の
-`robots_txt()` を差し替えてデプロイすれば足ります）。
-逆に言えば、**ここを誤って書き換えると黙って検索から消える**ので、
-`robots.txt` の変更は必ず上の 7-1 で確認してください。
+`SEARCH_INDEXING` を触ると**黙って検索から消える／出る**ので、変更したら
+必ず上の 7-1 で実物を確認してください。`robots.txt` を手で書き換えるのでは
+なく、このスイッチ 1 か所で操作します（ページの `noindex` と `X-Robots-Tag`
+まで一緒に切り替わります）。

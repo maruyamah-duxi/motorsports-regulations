@@ -34,6 +34,7 @@ from fastapi.responses import (
 )
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+from starlette.datastructures import MutableHeaders
 
 from . import rag, seo
 
@@ -82,6 +83,37 @@ class _GZipExceptSSE(GZipMiddleware):
 
 
 app.add_middleware(_GZipExceptSSE, minimum_size=1024)
+
+
+class _NoIndexHeader:
+    """検索露出を切っている間、全応答に X-Robots-Tag を足す.
+
+    `seo.SEARCH_INDEXING` が False のときだけ効く。HTML には
+    `<meta name="robots">` も入れているが、こちらは
+    `/content/<docId>/index.html`（StaticFiles が配る）や図版にも掛かる。
+
+    ASGI 層でヘッダだけ触る。`@app.middleware("http")`
+    （BaseHTTPMiddleware）はストリーミング応答を握るので、/api/ask の SSE を
+    壊さないためにこの形にしている。
+    """
+
+    def __init__(self, app: Any) -> None:
+        self.app = app
+
+    async def __call__(self, scope, receive, send):  # type: ignore[no-untyped-def]
+        if scope.get("type") != "http" or seo.SEARCH_INDEXING:
+            await self.app(scope, receive, send)
+            return
+
+        async def _send(message):  # type: ignore[no-untyped-def]
+            if message["type"] == "http.response.start":
+                MutableHeaders(scope=message)["X-Robots-Tag"] = "noindex, nofollow"
+            await send(message)
+
+        await self.app(scope, receive, _send)
+
+
+app.add_middleware(_NoIndexHeader)
 
 
 def _connect() -> sqlite3.Connection:
@@ -383,6 +415,8 @@ def _health() -> dict[str, Any]:
         "seo": {
             "origin": SITE_ORIGIN,
             "sitemapUrls": _seo.sitemap_xml().count("<loc>"),
+            # False の間は robots.txt が全面 Disallow で、全応答に noindex が付く
+            "indexing": seo.SEARCH_INDEXING,
         },
         "revision": os.environ.get("K_REVISION"),
     }
