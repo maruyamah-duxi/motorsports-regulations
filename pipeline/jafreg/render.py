@@ -33,6 +33,9 @@ nav.toc .l2{padding-left:1rem}
 nav.toc .l3{padding-left:2rem}
 nav.toc .l4{padding-left:3rem;color:var(--muted)}
 .warn{background:#fef3c7;color:#78350f;border-radius:.4rem;padding:.6rem .9rem;font-size:.85rem;margin-bottom:1.5rem}
+.src{border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:.4rem;padding:.6rem .9rem;font-size:.8rem;line-height:1.8;color:var(--muted);margin:0 0 2rem}
+.src strong{color:var(--fg)}
+.docfoot{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--line);font-size:.78rem;line-height:1.9;color:var(--muted)}
 """
 
 
@@ -69,10 +72,24 @@ def render_html(document: dict[str, Any]) -> str:
         + "</p>"
     )
 
+    # この HTML は /content/<docId>/index.html として単体でも配信され、
+    # SPA のヘッダもフッタも付かない。検索エンジン経由でここへ直接来る
+    # 読者にも出典の注意書きが届くよう、ページ自身に持たせる。
+    pdf_link = (
+        f'<a href="{_esc(document["pdfUrl"])}" rel="nofollow">JAF の原本 PDF</a>'
+        if document.get("pdfUrl")
+        else '<a href="https://motorsports.jaf.or.jp/regulations/information"'
+        ' rel="nofollow">JAF のサイト</a>'
+    )
+    parts.append(
+        '<p class="src"><strong>JAF の公式サイトではありません。</strong>'
+        "JAF が公開する PDF を自動変換した非公式の検索用アーカイブです。"
+        f"記載内容は必ず {pdf_link} で出典をご確認ください。</p>"
+    )
+
     if document.get("warnings"):
         parts.append(
-            '<p class="warn">この文書には自動変換で完全に読み取れなかった箇所があります。'
-            "正式な判断は必ず JAF の原本 PDF をご確認ください。</p>"
+            '<p class="warn">この文書には自動変換で完全に読み取れなかった箇所があります。</p>'
         )
 
     toc = document.get("toc") or []
@@ -119,6 +136,23 @@ def render_html(document: dict[str, Any]) -> str:
         elif btype == "table":
             parts.append(f'<div class="tablewrap">{pagemark}{_render_table(b.get("rows") or [])}</div>')
 
+    foot_bits = [
+        f"原本: {_esc(title)}（JAF）",
+        f"自動変換 {_esc(str(document['convertedAt'])[:10])}"
+        if document.get("convertedAt")
+        else None,
+        f"パイプライン {_esc(document['pipelineVersion'])}"
+        if document.get("pipelineVersion")
+        else None,
+    ]
+    parts.append(
+        '<footer class="docfoot">'
+        "自動変換のため誤りが含まれる可能性があります。"
+        f"競技における判断は必ず {pdf_link} をご確認ください。<br>"
+        + " ／ ".join(b for b in foot_bits if b)
+        + ' ／ <a href="/">検索して読む</a>'
+        + "</footer>"
+    )
     parts.append("</article></body></html>")
     return "\n".join(parts)
 

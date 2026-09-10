@@ -309,6 +309,22 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   margin-bottom: 1.5rem;
 }
 
+/* 出典の注意書き。変換警告（.notice）とは別物なので色を分ける。
+   警めるためではなく出典へ導くためのものなので、地味に、しかし常に出す。 */
+.source-note {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+  color: var(--fg-muted);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin: 0 0 1.5rem;
+}
+.source-note strong { color: var(--fg); }
+.source-note a { margin: 0 0.15em; }
+
 .toc {
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -515,3 +531,4 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   color: var(--fg-faint);
   line-height: 1.9;
 }
+.ask-disclaimer strong { color: var(--fg-muted); }

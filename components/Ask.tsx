@@ -316,8 +316,9 @@ export const Ask: React.FC<{ initialQuestion?: string }> = ({ initialQuestion })
       </form>
 
       <p className="ask-disclaimer">
+        <strong>JAF の公式見解ではありません。</strong>
         AI の回答は参考情報です。自動変換した本文をもとにしているため誤りが含まれる可能性があります。
-        競技における判断は必ず JAF の原本 PDF をご確認ください。
+        競技における判断は必ず、回答に付いた出典から JAF の原本 PDF を開いてご確認ください。
         {status?.chatModel && <> ／ モデル {status.chatModel}</>}
       </p>
     </>

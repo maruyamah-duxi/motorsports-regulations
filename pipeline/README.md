@@ -68,6 +68,10 @@ python pipeline/cli.py probe samples/rule.pdf --out probe.json --pages 12
 # content/ から全文検索用の SQLite を作る
 python pipeline/build_index.py
 
+# 注意書きやスタイルだけを直したとき（PDF は読み直さない・数秒）
+python pipeline/rerender.py --dry-run
+python pipeline/rerender.py
+
 # 埋め込み（RAG 用ベクトル）。実体は GCS にあり git には入らない
 python pipeline/embeddings_store.py pull    # デプロイ前に手元へ落とす
 python pipeline/build_embeddings.py         # 本文が変わった分だけ取得
@@ -105,7 +109,8 @@ content/<docId>/assets/*.webp  図版
 | `jafreg/fetch.py` | 礼儀正しい HTTP 取得と SHA-256 |
 | `jafreg/layout.py` | ページ解析。XY-Cut / 図版領域 / 見出し / 段落再構成 / 柱の除去 |
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |
-| `jafreg/render.py` | 構造化データ → HTML |
+| `jafreg/render.py` | 構造化データ → HTML（出典の注意書きもここ） |
+| `rerender.py` | document.json → index.html の作り直し（PyMuPDF 不要） |
 | `build_index.py` | content/ → SQLite FTS5 (trigram) 全文検索 DB。`--require-vectors` でベクトル不足を検出 |
 | `build_embeddings.py` | チャンク本文 → 埋め込みベクトル（本文ハッシュでキャッシュ） |
 | `embeddings_store.py` | 埋め込みキャッシュを GCS と出し入れ（`push` / `pull` / `status`） |

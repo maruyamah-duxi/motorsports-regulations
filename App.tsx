@@ -120,8 +120,9 @@ const App: React.FC = () => {
 
       <footer className="site-footer">
         <strong>これは JAF の公式サイトではありません。</strong>
+        JAF が公開する諸規則 PDF を検索できるようにした非公式のサービスです。
         <br />
-        本文は JAF が公開する PDF を自動変換したもので、誤りが含まれる可能性があります。
+        本文は自動変換したもので、誤りが含まれる可能性があります。
         競技における判断は必ず
         <a
           href="https://motorsports.jaf.or.jp/regulations/information"

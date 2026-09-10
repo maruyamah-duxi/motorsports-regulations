@@ -79,10 +79,32 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
         </div>
       </header>
 
+      {/* 本文を読む面なので、警告の有無に関わらず常に出す。
+          汎用の JAF トップではなく「この規則の PDF」へ直接飛ばす。 */}
+      <p className="source-note">
+        <strong>JAF の公式サイトではありません。</strong>
+        JAF が公開する PDF を自動変換した非公式の検索用アーカイブです。
+        記載内容は必ず
+        {doc.pdfUrl ? (
+          <a href={doc.pdfUrl} target="_blank" rel="noreferrer nofollow">
+            JAF の原本 PDF
+          </a>
+        ) : (
+          <a
+            href="https://motorsports.jaf.or.jp/regulations/information"
+            target="_blank"
+            rel="noreferrer nofollow"
+          >
+            JAF のサイト
+          </a>
+        )}
+        で出典をご確認ください。
+      </p>
+
       {doc.warnings.length > 0 && (
         <p className="notice">
-          この文書には自動変換で完全に読み取れなかったページが {doc.warnings.length} 件あります。
-          正式な判断は必ず JAF の原本 PDF をご確認ください。
+          この文書には自動変換で完全に読み取れなかったページが {doc.warnings.length} 件あります
+          （該当ページは本文中に印を付けています）。
         </p>
       )}
 
