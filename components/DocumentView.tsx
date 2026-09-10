@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import type { RegulationDocument } from '../types';
-import { fetchDocument } from '../lib/api';
+import type { DocumentHistory, RegulationDocument } from '../types';
+import { fetchDocument, fetchDocumentHistory } from '../lib/api';
 import { Blocks } from './Blocks';
+import { EditionBanner, HistoryDialog } from './History';
 
 const Toc: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
   // 条・章までを既定の目次とする。項番まで全部出すと数百行になる。
@@ -24,17 +25,25 @@ const Toc: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
 
 export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
   const [doc, setDoc] = useState<RegulationDocument | null>(null);
+  const [history, setHistory] = useState<DocumentHistory | null>(null);
+  const [historyOpen, setHistoryOpen] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const controller = new AbortController();
     setDoc(null);
+    setHistory(null);
+    setHistoryOpen(false); // 別年度版へ移動したときにポップアップを残さない
     setError(null);
     fetchDocument(docId, controller.signal)
       .then(setDoc)
       .catch((err) => {
         if (err.name !== 'AbortError') setError(String(err.message || err));
       });
+    // 履歴は本文より軽く、無くても本文は読めるので失敗しても黙って諦める
+    fetchDocumentHistory(docId, controller.signal)
+      .then(setHistory)
+      .catch(() => undefined);
     return () => controller.abort();
   }, [docId]);
 
@@ -76,8 +85,15 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
               JAF の原本 PDF を開く ↗
             </a>
           )}
+          {history && history.events.length > 0 && (
+            <button type="button" className="hist-open" onClick={() => setHistoryOpen(true)}>
+              更新履歴
+            </button>
+          )}
         </div>
       </header>
+
+      {history && <EditionBanner history={history} />}
 
       {/* 本文を読む面なので、警告の有無に関わらず常に出す。
           汎用の JAF トップではなく「この規則の PDF」へ直接飛ばす。 */}
@@ -118,6 +134,15 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
         原本: {doc.title}（JAF）／ 自動変換 {doc.convertedAt?.slice(0, 10)} ／
         パイプライン {doc.pipelineVersion}
       </footer>
+
+      {history && (
+        <HistoryDialog
+          history={history}
+          title={doc.title}
+          open={historyOpen}
+          onClose={() => setHistoryOpen(false)}
+        />
+      )}
     </article>
   );
 };

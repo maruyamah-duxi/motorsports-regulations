@@ -67,6 +67,36 @@ export interface DocumentSummary {
   tables: number;
 }
 
+/** 更新履歴の 1 件。日付は JAF の掲載日で、こちらが検出した日ではない。 */
+export interface HistoryEvent {
+  date: string;
+  /** listed: JAF に掲載された / updated: JAF が差し替えた
+   *  edition: 同じ規則の別年度版が公開された / removed: 一覧から消えた */
+  type: 'listed' | 'updated' | 'edition' | 'removed';
+  /** type が edition のときだけ。切り替わり先の版 */
+  docId?: string;
+  edition?: string;
+}
+
+/** 同じ規則の年度版 1 件 */
+export interface EditionRef {
+  docId: string;
+  title: string;
+  edition: string | null;
+  uploadDate: string | null;
+  current: boolean;
+}
+
+/** /api/documents/{docId}/history */
+export interface DocumentHistory {
+  docId: string;
+  series: string | null;
+  edition: string | null;
+  events: HistoryEvent[];
+  /** 年度版が 1 つしかなければ空配列 */
+  editions: EditionRef[];
+}
+
 export interface DocumentsResponse {
   builtAt: string | null;
   count: number;

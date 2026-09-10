@@ -1,6 +1,7 @@
 import type {
   AskSource,
   AskStatus,
+  DocumentHistory,
   DocumentsResponse,
   RegulationDocument,
   SearchResponse,
@@ -27,6 +28,16 @@ export function fetchDocuments(signal?: AbortSignal): Promise<DocumentsResponse>
 
 export function fetchDocument(docId: string, signal?: AbortSignal): Promise<RegulationDocument> {
   return getJson<RegulationDocument>(`/api/documents/${encodeURIComponent(docId)}`, signal);
+}
+
+export function fetchDocumentHistory(
+  docId: string,
+  signal?: AbortSignal,
+): Promise<DocumentHistory> {
+  return getJson<DocumentHistory>(
+    `/api/documents/${encodeURIComponent(docId)}/history`,
+    signal,
+  );
 }
 
 export function search(

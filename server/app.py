@@ -217,6 +217,59 @@ def document(doc_id: str) -> JSONResponse:
     return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
+@app.get("/api/documents/{doc_id}/history")
+def document_history(doc_id: str) -> dict[str, Any]:
+    """更新履歴と、同じ規則の別年度版。
+
+    JAF は年度が変わると別ファイルとして公開するため、こちらでは別文書に
+    なる。系列キー（`jafreg/series.py`）で束ねて相互リンクを出せるように
+    する。履歴の日付は **JAF の掲載日**で、こちらが検出した日ではない。
+    """
+    if not re.fullmatch(r"[0-9A-Za-z._\-]+", doc_id):
+        raise HTTPException(400, "不正な docId です")
+
+    con = _connect()
+    try:
+        row = con.execute(
+            "SELECT series, edition, history FROM docs WHERE doc_id = ?", (doc_id,)
+        ).fetchone()
+        if row is None:
+            raise HTTPException(404, "見つかりません")
+
+        try:
+            events = json.loads(row["history"] or "[]")
+        except json.JSONDecodeError:
+            events = []
+
+        editions: list[dict[str, Any]] = []
+        if row["series"]:
+            editions = [
+                {
+                    "docId": e["doc_id"],
+                    "title": e["title"],
+                    "edition": e["edition"],
+                    "uploadDate": e["upload_date"],
+                    "current": e["doc_id"] == doc_id,
+                }
+                for e in con.execute(
+                    "SELECT doc_id, title, edition, upload_date FROM docs"
+                    " WHERE series = ? ORDER BY edition, doc_id",
+                    (row["series"],),
+                ).fetchall()
+            ]
+    finally:
+        con.close()
+
+    return {
+        "docId": doc_id,
+        "series": row["series"],
+        "edition": row["edition"],
+        "events": events,
+        # 1 件（自分だけ）のときは相互リンクを出す必要がない
+        "editions": editions if len(editions) > 1 else [],
+    }
+
+
 def _health() -> dict[str, Any]:
     return {
         "ok": True,

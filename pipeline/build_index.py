@@ -54,8 +54,14 @@ CREATE TABLE docs (
   page_count  INTEGER,
   chars       INTEGER,
   figures     INTEGER,
-  tables      INTEGER
+  tables      INTEGER,
+  -- 年度版をまとめる系列キーと版の呼び名（jafreg/series.py）
+  series      TEXT,
+  edition     TEXT,
+  -- 更新履歴のイベント配列（build_history.py が作る JSON）
+  history     TEXT
 );
+CREATE INDEX idx_docs_series ON docs(series);
 
 CREATE TABLE chunks (
   id           INTEGER PRIMARY KEY,
@@ -199,12 +205,24 @@ def attach_cached_vectors(con: sqlite3.Connection, cache_path: Path, model: str,
         con.execute("DETACH DATABASE cache")
 
 
+def load_history(path: Path | None) -> dict[str, dict[str, Any]]:
+    """build_history.py が作った履歴を読む。無ければ空（履歴なしで動く）."""
+    if path is None or not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("docs") or {}
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"  履歴を読めませんでした（履歴なしで続けます）: {exc}")
+        return {}
+
+
 def build(
     content_dir: Path,
     out_path: Path,
     cache_path: Path | None = None,
     model: str = "gemini-embedding-001",
     dim: int = 768,
+    history_path: Path | None = None,
 ) -> dict[str, int]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.exists():
@@ -212,13 +230,14 @@ def build(
     con = sqlite3.connect(out_path)
     con.executescript(SCHEMA)
 
+    history_docs = load_history(history_path)
     n_docs = n_chunks = 0
     for doc_json in sorted(content_dir.glob("*/document.json")):
         doc = json.loads(doc_json.read_text(encoding="utf-8"))
         doc_id = doc["docId"]
         stats = doc.get("stats") or {}
         con.execute(
-            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 doc_id,
                 doc.get("title") or doc_id,
@@ -231,6 +250,12 @@ def build(
                 stats.get("chars"),
                 stats.get("figures"),
                 stats.get("tables"),
+                (history_docs.get(doc_id) or {}).get("series"),
+                (history_docs.get(doc_id) or {}).get("edition"),
+                json.dumps(
+                    (history_docs.get(doc_id) or {}).get("events") or [],
+                    ensure_ascii=False,
+                ),
             ),
         )
         n_docs += 1
@@ -283,6 +308,11 @@ def main() -> int:
         default=str(root / "data" / "embeddings.sqlite"),
         help="埋め込みキャッシュ。あればベクトルを流し込む",
     )
+    ap.add_argument(
+        "--history",
+        default=str(root / "data" / "history.json"),
+        help="build_history.py が作った更新履歴。あれば docs に取り込む",
+    )
     ap.add_argument("--embed-model", default="gemini-embedding-001")
     ap.add_argument("--embed-dim", type=int, default=768)
     ap.add_argument(
@@ -311,6 +341,7 @@ def main() -> int:
         cache_path=Path(args.embeddings_cache) if args.embeddings_cache else None,
         model=args.embed_model,
         dim=args.embed_dim,
+        history_path=Path(args.history) if args.history else None,
     )
     size = Path(args.out).stat().st_size
     vec = stats["vectors"]

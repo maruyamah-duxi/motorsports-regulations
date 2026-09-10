@@ -1,0 +1,2353 @@
+{
+ "generatedAt": "2026-09-10T03:29:38+00:00",
+ "docs": {
+  "2025_jaf_kokunai_sporting_code_20250101-6b63ea": {
+   "series": "jaf_kokunai_sporting_code",
+   "edition": "2025年版",
+   "effectiveDate": "2025-01-01",
+   "events": [
+    {
+     "date": "2024-12-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_soshiki_20250401-fbb9d0": {
+   "series": "jaf_kitei_soshiki",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    },
+    {
+     "date": "2026-06-10",
+     "type": "edition",
+     "docId": "jaf_kitei_soshiki_20270101-01-7cd2be",
+     "edition": "2027年版"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kitei_soshiki_20270101-01-7cd2be": {
+   "series": "jaf_kitei_soshiki",
+   "edition": "2027年版",
+   "effectiveDate": "2027-01-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "edition",
+     "docId": "2025_jaf_kitei_soshiki_20250401-fbb9d0",
+     "edition": "2025年版"
+    },
+    {
+     "date": "2026-06-10",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_saisoku_meishou_20120329-36dfb9": {
+   "series": "jaf_saisoku_meishou",
+   "edition": "2012年版",
+   "effectiveDate": "2012-03-29",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_saisoku_kounin_kaisai-ce034d": {
+   "series": "jaf_saisoku_kounin_kaisai",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kitei_shikaku_touroku_20260801-01-9260bd": {
+   "series": "jaf_kitei_shikaku_touroku",
+   "edition": "2026年版",
+   "effectiveDate": "2026-08-01",
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_fia_driver_license_hosoku-948432": {
+   "series": "jaf_kitei_fia_driver_license_hosoku",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_calendar_touroku_20250401-143921": {
+   "series": "jaf_kitei_calendar_touroku",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_yonrin_fees_20220901-02-e56390": {
+   "series": "jaf_kitei_yonrin_fees",
+   "edition": "2022年版",
+   "effectiveDate": "2022-09-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_all_japan_shinsa_20030601-d1babc": {
+   "series": "jaf_kitei_all_japan_shinsa",
+   "edition": "2003年版",
+   "effectiveDate": "2003-06-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_koushuu_kaisai_20250401-c32228": {
+   "series": "jaf_kitei_koushuu_kaisai",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_jaf_touroku_homologe_20250401-c2c1d1": {
+   "series": "jaf_kitei_jaf_touroku_homologe",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kokunai_circuit_kounin_20250401-29a5d8": {
+   "series": "jaf_kitei_kokunai_circuit_kounin",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kokunai_speed_course_kounin_20250401-439e1d": {
+   "series": "jaf_kitei_kokunai_speed_course_kounin",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_jmrc_kaigi_19980101-8ebee0": {
+   "series": "jaf_jmrc_kaigi",
+   "edition": "1998年版",
+   "effectiveDate": "1998-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_guideline_shinsa_fukumu-6f0b19": {
+   "series": "jaf_guideline_shinsa_fukumu",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kitei_shinpan_fukumu-9dad87": {
+   "series": "jaf_kitei_shinpan_fukumu",
+   "edition": "2026年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_guideline_official_resque-271780": {
+   "series": "jaf_guideline_official_resque",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_guideline_safety-8b63f6": {
+   "series": "jaf_guideline_safety",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-02-16",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_sport_reg_race_20260101-801c15": {
+   "series": "jaf_sport_reg_race",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-09-29",
+     "type": "listed"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "edition",
+     "docId": "jaf_sport_reg_race_20270101-01-9289b7",
+     "edition": "2027年版"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_sport_reg_race_20270101-01-9289b7": {
+   "series": "jaf_sport_reg_race",
+   "edition": "2027年版",
+   "effectiveDate": "2027-01-01",
+   "events": [
+    {
+     "date": "2025-09-29",
+     "type": "edition",
+     "docId": "2026_jaf_sport_reg_race_20260101-801c15",
+     "edition": "2026年版"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kaisai_race_gp_20250401-78d4f2": {
+   "series": "jaf_kitei_kaisai_race_gp",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_sport_reg_rally_20260101-02-8852f1": {
+   "series": "jaf_sport_reg_rally",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_sport_reg_gymk_dirt_20260101-02-3a4e95": {
+   "series": "jaf_sport_reg_gymk_dirt",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kitei_jafcup_gymk_dirt_20260401-495b27": {
+   "series": "jaf_kitei_jafcup_gymk_dirt",
+   "edition": "2026年版",
+   "effectiveDate": "2026-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_sport_reg_ct_20260101-14173f": {
+   "series": "jaf_sport_reg_ct",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "edition",
+     "docId": "jaf_sport_reg_ct_20270101-01-4d9cdd",
+     "edition": "2027年版"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_sport_reg_ct_20270101-01-4d9cdd": {
+   "series": "jaf_sport_reg_ct",
+   "edition": "2027年版",
+   "effectiveDate": "2027-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "edition",
+     "docId": "2026_jaf_sport_reg_ct_20260101-14173f",
+     "edition": "2026年版"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2": {
+   "series": "jaf_kitei_jafcup_circuit",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "edition",
+     "docId": "jaf_kitei_jafcup_circuit_20270101-01-63793e",
+     "edition": "2027年版"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kitei_jafcup_circuit_20270101-01-63793e": {
+   "series": "jaf_kitei_jafcup_circuit",
+   "edition": "2027年版",
+   "effectiveDate": "2027-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "edition",
+     "docId": "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2",
+     "edition": "2026年版"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_sport_reg_drift_20260101-56d8c3": {
+   "series": "jaf_sport_reg_drift",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-09-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kaisai_race_20250501-6eaf2c": {
+   "series": "jaf_kitei_kaisai_race",
+   "edition": "2025年版",
+   "effectiveDate": "2025-05-01",
+   "events": [
+    {
+     "date": "2025-06-04",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kitei_kaisai_race_nzero_2060401-01-aa6285": {
+   "series": "jaf_kitei_kaisai_race_nzero_2060401",
+   "edition": "2026年版",
+   "effectiveDate": "2026-04-01",
+   "events": [
+    {
+     "date": "2026-05-11",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kaisai_rally_20250401-c7b786": {
+   "series": "jaf_kitei_kaisai_rally",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kitei_kaisai_rally_ave1_20260101-d63678": {
+   "series": "jaf_kitei_kaisai_rally_ave1",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_rally_ave2_20220101-85df5d": {
+   "series": "jaf_kitei_kaisai_rally_ave2",
+   "edition": "2022年版",
+   "effectiveDate": "2022-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kitei_kaisai_rally_ss_20260101-01-c3487b": {
+   "series": "jaf_kitei_kaisai_rally_ss",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_speed_20240527-d000c3": {
+   "series": "jaf_kitei_speed",
+   "edition": "2024年版",
+   "effectiveDate": "2024-05-27",
+   "events": [
+    {
+     "date": "2024-08-13",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_closed_20170701-a6c860": {
+   "series": "jaf_kitei_kaisai_speed_guide_closed",
+   "edition": "2017年版",
+   "effectiveDate": "2017-07-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kaisai_speed_guide_ct_20250401-69e277": {
+   "series": "jaf_kitei_kaisai_speed_guide_ct",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_twint_20170701-ab3b78": {
+   "series": "jaf_kitei_kaisai_speed_guide_twint",
+   "edition": "2017年版",
+   "effectiveDate": "2017-07-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kitei_kaisai_speed_guide_dragr_20250401-81b81a": {
+   "series": "jaf_kitei_kaisai_speed_guide_dragr",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_drift_20170701-eb38ee": {
+   "series": "jaf_kitei_kaisai_speed_guide_drift",
+   "edition": "2017年版",
+   "effectiveDate": "2017-07-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_at_20200101-05d89c": {
+   "series": "jaf_kitei_kaisai_speed_guide_at",
+   "edition": "2020年版",
+   "effectiveDate": "2020-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_hillc_20200101-7ecf1e": {
+   "series": "jaf_kitei_kaisai_speed_guide_hillc",
+   "edition": "2020年版",
+   "effectiveDate": "2020-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kitei_kaisai_speed_guide_drifttest_20240527-b0d19a": {
+   "series": "jaf_kitei_kaisai_speed_guide_drifttest",
+   "edition": "2024年版",
+   "effectiveDate": "2024-05-27",
+   "events": [
+    {
+     "date": "2024-08-13",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_speed_signal_flag-bfa433": {
+   "series": "jaf_speed_signal_flag",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_sport_reg_e-sport_20250401-6e9678": {
+   "series": "jaf_sport_reg_e-sport",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_yb_iin_kitei_chuuou_shinsa_19980101-c9653b": {
+   "series": "jaf_yb_iin_kitei_chuuou_shinsa",
+   "edition": "1998年版",
+   "effectiveDate": "1998-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_yb_iin_kitei_shinsaiin_19980101-db828a": {
+   "series": "jaf_yb_iin_kitei_shinsaiin",
+   "edition": "1998年版",
+   "effectiveDate": "1998-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_yb_iin_kitei_shingikai_20250201-9519a6": {
+   "series": "jaf_yb_iin_kitei_shingikai",
+   "edition": "2025年版",
+   "effectiveDate": "2025-02-01",
+   "events": [
+    {
+     "date": "2025-04-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_yb_iin_kitei_senmonbukai_20250101-cdb287": {
+   "series": "jaf_yb_iin_kitei_senmonbukai",
+   "edition": "2025年版",
+   "effectiveDate": "2025-01-01",
+   "events": [
+    {
+     "date": "2024-12-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_yb_iin_kitei_meiyoiin_19980101-7f2beb": {
+   "series": "jaf_yb_iin_kitei_meiyoiin",
+   "edition": "1998年版",
+   "effectiveDate": "1998-01-01",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_yb_iin_kitei_tokubetsu_20011018-def966": {
+   "series": "jaf_yb_iin_kitei_tokubetsu",
+   "edition": "2001年版",
+   "effectiveDate": "2001-10-18",
+   "events": [
+    {
+     "date": "2024-04-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_list_kounin_circuit-8ee9ad": {
+   "series": "jaf_list_kounin_circuit",
+   "edition": "2025年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-07-31",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_list_kounin_course_speed-92d99c": {
+   "series": "jaf_list_kounin_course_speed",
+   "edition": "2025年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-07-31",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_2024_yonrin_toukei-0be851": {
+   "series": "jaf_2024_yonrin_toukei",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-07-31",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kokunai_kisoku_homologe_20260101-607ff1": {
+   "series": "jaf_kokunai_kisoku_homologe",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-02-01",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_01_kitei_race_tech_reg_20260101-52475d": {
+   "series": "jaf_01_kitei_race_tech_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_02_kitei_rally_tech_reg_20260101-4536a3": {
+   "series": "jaf_02_kitei_rally_tech_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_03_kitei_speed_tech_reg_20260101-cfa515": {
+   "series": "jaf_03_kitei_speed_tech_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_04_kitei_carbon_neutrality_tech_reg_20260101-fb086e": {
+   "series": "jaf_04_kitei_carbon_neutrality_tech_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_05_saisoku_race_soubi_20260101-121453": {
+   "series": "jaf_05_saisoku_race_soubi",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-06-10",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_saisoku_safety_belts_race_20250101-2b655c": {
+   "series": "jaf_05_saisoku_safety_belts_race",
+   "edition": "2025年版",
+   "effectiveDate": "2025-01-01",
+   "events": [
+    {
+     "date": "2024-11-25",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_saisoku_safety_belts_rally_20250101-22e4af": {
+   "series": "jaf_05_saisoku_safety_belts_rally",
+   "edition": "2025年版",
+   "effectiveDate": "2025-01-01",
+   "events": [
+    {
+     "date": "2024-11-25",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_05_saisoku_homologe_rollcage_20260101-819727": {
+   "series": "jaf_05_saisoku_homologe_rollcage",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_05_saisoku_superfj_operations_20260101-ce2fab": {
+   "series": "jaf_05_saisoku_superfj_operations",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_saisoku_fj1500_operations-697199": {
+   "series": "jaf_05_saisoku_fj1500_operations",
+   "edition": "2025年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_05_saisoku_f-be_operations_20260101-922556": {
+   "series": "jaf_05_saisoku_f-be_operations",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_05_saisoku_homologe_fuel_cells_2027-01-3f1519": {
+   "series": "jaf_05_saisoku_homologe_fuel_cells_2027",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_05_youkou_speed_helmets_2027-01-d3d2ea": {
+   "series": "jaf_05_youkou_speed_helmets_2027",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_05_youkou_rally_speed_safety_belts_2027-01-0dba76": {
+   "series": "jaf_05_youkou_rally_speed_safety_belts_2027",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_05_youkou_race_exaust-0df369": {
+   "series": "jaf_05_youkou_race_exaust",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_05_youkou_rally_speed_exaust-cc4e37": {
+   "series": "jaf_05_youkou_rally_speed_exaust",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_05_saisoku_rally_speed_silencer-f94bde": {
+   "series": "jaf_05_saisoku_rally_speed_silencer",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_05_saisoku_car_accessories-4dca70": {
+   "series": "jaf_05_saisoku_car_accessories",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_05_saisoku_air-spoiler-d4e859": {
+   "series": "jaf_05_saisoku_air-spoiler",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_05_saisoku_fia_homologe_seats_2027-01-73dfce": {
+   "series": "jaf_05_saisoku_fia_homologe_seats_2027",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_youkou_kounin_touroku_net-5cf67f": {
+   "series": "jaf_05_youkou_kounin_touroku_net",
+   "edition": "2025年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_saisoku_homologe_kounin_20251001-155ce6": {
+   "series": "jaf_05_saisoku_homologe_kounin",
+   "edition": "2025年版",
+   "effectiveDate": "2025-10-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_05_saisoku_homologe_touroku_20251001-aeeaa8": {
+   "series": "jaf_05_saisoku_homologe_touroku",
+   "edition": "2025年版",
+   "effectiveDate": "2025-10-01",
+   "events": [
+    {
+     "date": "2025-12-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_kokunai_sporting_code_20240801-47d80a": {
+   "series": "jaf_kart_kokunai_sporting_code",
+   "edition": "2024年版",
+   "effectiveDate": "2024-08-01",
+   "events": [
+    {
+     "date": "2024-09-13",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_soshiki_20250401-9f5979": {
+   "series": "jaf_kart_kitei_soshiki",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_kitei_entry_20140101-0aaaa8": {
+   "series": "jaf_kart_kitei_entry",
+   "edition": "2014年版",
+   "effectiveDate": "2014-01-01",
+   "events": [
+    {
+     "date": "2024-04-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_kitei_unei_20240801-f1398b": {
+   "series": "jaf_kart_kitei_unei",
+   "edition": "2024年版",
+   "effectiveDate": "2024-08-01",
+   "events": [
+    {
+     "date": "2024-09-13",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kart_kitei_license_application_20260801-01-18f747": {
+   "series": "jaf_kart_kitei_license_application",
+   "edition": "2026年版",
+   "effectiveDate": "2026-08-01",
+   "events": [
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_touroku_clubs_20250401-d16473": {
+   "series": "jaf_kart_kitei_touroku_clubs",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_kitei_name_clubs_20120101-d45dab": {
+   "series": "jaf_kart_kitei_name_clubs",
+   "edition": "2012年版",
+   "effectiveDate": "2012-01-01",
+   "events": [
+    {
+     "date": "2024-04-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_calendar_20250401-931646": {
+   "series": "jaf_kart_kitei_calendar",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_koushuu_driver_20250401-db4598": {
+   "series": "jaf_kart_kitei_koushuu_driver",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_koushuu_official_20250401-c71713": {
+   "series": "jaf_kart_kitei_koushuu_official",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_kitei_course_kounin_20250401-017047": {
+   "series": "jaf_kart_kitei_course_kounin",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-01",
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2025_jaf_kart_accreditation_standard_suits-e6c25b": {
+   "series": "jaf_kart_accreditation_standard_suits",
+   "edition": "2025年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2025-05-28",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_kitei_fees_20221101-5e1404": {
+   "series": "jaf_kart_kitei_fees",
+   "edition": "2022年版",
+   "effectiveDate": "2022-11-01",
+   "events": [
+    {
+     "date": "2024-04-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784": {
+   "series": "jaf_kart_kitei_sport_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "edition",
+     "docId": "jaf_kart_kitei_sport_reg_20270101-01-27628d",
+     "edition": "2027年版"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kart_kitei_sport_reg_20270101-01-27628d": {
+   "series": "jaf_kart_kitei_sport_reg",
+   "edition": "2027年版",
+   "effectiveDate": "2027-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "edition",
+     "docId": "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784",
+     "edition": "2026年版"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kart_kokunai_tech_reg_20260101-02-ca0fb3": {
+   "series": "jaf_kart_kokunai_tech_reg",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "jaf_kart_homologe_engine_suits_chassis_tyres-02-ada187": {
+   "series": "jaf_kart_homologe_engine_suits_chassis_tyres",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-06-10",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kart_homologe_course-01-97b915": {
+   "series": "jaf_kart_homologe_course",
+   "edition": "2026年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_jaf_kart_toukei-01-4beeda": {
+   "series": "jaf_kart_toukei",
+   "edition": "2026年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-03-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2024_jaf_kart_signal_flag-13d694": {
+   "series": "jaf_kart_signal_flag",
+   "edition": "2024年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2024-04-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_touitsu_kisoku_superformula_20260101-f03955": {
+   "series": "touitsu_kisoku_superformula",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-01-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_touitsu_kisoku_superformula_lights_20260101-1cb933": {
+   "series": "touitsu_kisoku_superformula_lights",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-01-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_001-2026_20260226-fa3156": {
+   "series": "race_bulletin_001-2026",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_001-2026_att_1_20260226-e86e70": {
+   "series": "race_bulletin_001-2026_att_1",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_002-2026_20260226-839de8": {
+   "series": "race_bulletin_002-2026",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_002-2026_att_1_20260226-968518": {
+   "series": "race_bulletin_002-2026_att_1",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_002-2026_att_2_20260226-d1237f": {
+   "series": "race_bulletin_002-2026_att_2",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_002-2026_att_3_20260226-8571e3": {
+   "series": "race_bulletin_002-2026_att_3",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-26",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "race_bulletin_003-2026_20260610-299efd": {
+   "series": "race_bulletin_003-2026",
+   "edition": "2026年版",
+   "effectiveDate": "2026-06-10",
+   "events": [
+    {
+     "date": "2026-06-10",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_touitsu_kisoku_all_japan_rally_20260101-5246e4": {
+   "series": "touitsu_kisoku_all_japan_rally",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "all_japan_rally_regulations_jp4-3e69c4": {
+   "series": "all_japan_rally_regulations_jp4",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_touitsu_kisoku_all_japan_gymk_dirt_20260101-451f80": {
+   "series": "touitsu_kisoku_all_japan_gymk_dirt",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-01-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_touitsu_kisoku_all_japan_junior_kart_20260101-fa8e5c": {
+   "series": "touitsu_kisoku_all_japan_junior_kart",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-03-16",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_japanese_karting_championship_specification_fs125-04a2ce": {
+   "series": "japanese_karting_championship_specification_fs125",
+   "edition": "2026年版",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-03-16",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "e-motorsport_bulletin_001-2026_20260224-0b9466": {
+   "series": "e-motorsport_bulletin_001-2026",
+   "edition": "2026年版",
+   "effectiveDate": "2026-02-24",
+   "events": [
+    {
+     "date": "2026-02-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "light-panel_guidelines_20250430-649f76": {
+   "series": "light-panel_guidelines",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-30",
+   "events": [
+    {
+     "date": "2025-04-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "autotest_guidelines_20241219-1f2748": {
+   "series": "autotest_guidelines",
+   "edition": "2024年版",
+   "effectiveDate": "2024-12-19",
+   "events": [
+    {
+     "date": "2024-12-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "autotest_promotion_flyer_20260522-ff2190": {
+   "series": "autotest_promotion_flyer",
+   "edition": "2026年版",
+   "effectiveDate": "2026-05-22",
+   "events": [
+    {
+     "date": "2026-05-22",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "drifttest_guidelines_20240624-d3d9e5": {
+   "series": "drifttest_guidelines",
+   "edition": "2024年版",
+   "effectiveDate": "2024-06-24",
+   "events": [
+    {
+     "date": "2024-06-24",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "vehicles_event_guidelines_20230327-3bce1a": {
+   "series": "vehicles_event_guidelines",
+   "edition": "2023年版",
+   "effectiveDate": "2023-03-27",
+   "events": [
+    {
+     "date": "2023-03-27",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "esports_drivers_guidelines_20251023-04c8e1": {
+   "series": "esports_drivers_guidelines",
+   "edition": "2025年版",
+   "effectiveDate": "2025-10-23",
+   "events": [
+    {
+     "date": "2025-10-23",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "esports_event_guidelines_20250410-3818f0": {
+   "series": "esports_event_guidelines",
+   "edition": "2025年版",
+   "effectiveDate": "2025-04-10",
+   "events": [
+    {
+     "date": "2025-04-10",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "ethics_requirements_20240901-9ac333": {
+   "series": "ethics_requirements",
+   "edition": "2024年版",
+   "effectiveDate": "2024-09-01",
+   "events": [
+    {
+     "date": "2024-09-20",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "report-consultation_desk_20240901-ca8c2d": {
+   "series": "report-consultation_desk",
+   "edition": "2024年版",
+   "effectiveDate": "2024-09-01",
+   "events": [
+    {
+     "date": "2024-09-20",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "event_go-nogo_decision_guidelines_20260814-5a73e6": {
+   "series": "event_go-nogo_decision_guidelines",
+   "edition": "2026年版",
+   "effectiveDate": "2026-08-14",
+   "events": [
+    {
+     "date": "2026-08-14",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_jadr_ja_20260101-e486ab": {
+   "series": "fia_isc_jadr_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_a_ja_20210331-ede9aa": {
+   "series": "fia_isc_apx_a_ja",
+   "edition": "2021年版",
+   "effectiveDate": "2021-03-31",
+   "events": [
+    {
+     "date": "2023-06-21",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_e_ja_20250820-267690": {
+   "series": "fia_isc_apx_e_ja",
+   "edition": "2025年版",
+   "effectiveDate": "2025-08-20",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_h_ja_20260312-ee90dd": {
+   "series": "fia_isc_apx_h_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-03-12",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_h_ja_flag-signal-4b4f1c": {
+   "series": "fia_isc_apx_h_ja_flag-signal",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-09-01",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_j_ja_20260109-46cee8": {
+   "series": "fia_isc_apx_j_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-09",
+   "events": [
+    {
+     "date": "2026-04-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_k_ja_20260101-6bd6d1": {
+   "series": "fia_isc_apx_k_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_l_ja_20260326-91f108": {
+   "series": "fia_isc_apx_l_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-03-26",
+   "events": [
+    {
+     "date": "2026-06-12",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_o_ja_20251223-e7bf17": {
+   "series": "fia_isc_apx_o_ja",
+   "edition": "2025年版",
+   "effectiveDate": "2025-12-23",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_s_ja_20230210-9b1058": {
+   "series": "fia_isc_apx_s_ja",
+   "edition": "2023年版",
+   "effectiveDate": "2023-02-10",
+   "events": [
+    {
+     "date": "2023-05-08",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_apx_s_fr_en_20200901-b8e01c": {
+   "series": "fia_isc_apx_s_fr_en",
+   "edition": "2020年版",
+   "effectiveDate": "2020-09-01",
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_driver_categorisation_reg_ja_20231206-f53f0f": {
+   "series": "fia_driver_categorisation_reg_ja",
+   "edition": "2023年版",
+   "effectiveDate": "2023-12-06",
+   "events": [
+    {
+     "date": "2024-03-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "fia_isc_fr_en_20170101-068528": {
+   "series": "fia_isc_fr_en",
+   "edition": "2017年版",
+   "effectiveDate": "2017-01-01",
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_f1_reg_a_ja_20251210-4cbc23": {
+   "series": "fia_f1_reg_a_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-12-10",
+   "events": [
+    {
+     "date": "2026-05-25",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_f1_reg_b_ja_20251210-beefe0": {
+   "series": "fia_f1_reg_b_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-12-10",
+   "events": [
+    {
+     "date": "2026-05-25",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_f1_reg_c_ja_20251210-9f87a0": {
+   "series": "fia_f1_reg_c_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-12-10",
+   "events": [
+    {
+     "date": "2026-05-25",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_fe_sport_reg_ja_20260227-7adf34": {
+   "series": "fia_fe_sport_reg_ja",
+   "edition": "2025年版",
+   "effectiveDate": "2026-02-27",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_fe_tech_reg_ja_20250611-25477c": {
+   "series": "fia_fe_tech_reg_ja",
+   "edition": "2025年版",
+   "effectiveDate": "2025-06-11",
+   "events": [
+    {
+     "date": "2026-06-30",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": [
+    "2026-09-09"
+   ]
+  },
+  "2026_fia_wec_sport_tech_reg_en_ja_20260101-b5a61f": {
+   "series": "fia_wec_sport_tech_reg_en_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wec_sport_reg_ja_20260101-95ef42": {
+   "series": "fia_wec_sport_reg_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-01",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wec_tech_reg_lemans_hypercar_ja_20251017-464043": {
+   "series": "fia_wec_tech_reg_lemans_hypercar_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-10-17",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wec_tech_reg_lmp2_in2017_ja_20251211-189e20": {
+   "series": "fia_wec_tech_reg_lmp2_in2017_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-12-11",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wec_tech_reg_lmgt3_ja_20251017-72c47c": {
+   "series": "fia_wec_tech_reg_lmgt3_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-10-17",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wec_tech_reg_lmdh_ja_20251016-2f1557": {
+   "series": "fia_wec_tech_reg_lmdh_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-10-16",
+   "events": [
+    {
+     "date": "2026-07-29",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2022_fia_wec_tech_reg_lmp1_nonhybrid_ja_20201216-e684f1": {
+   "series": "fia_wec_tech_reg_lmp1_nonhybrid_ja",
+   "edition": "2022年版",
+   "effectiveDate": "2020-12-16",
+   "events": [
+    {
+     "date": "2022-08-26",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2019_fia_wtcr_sport_reg_ja_20190614-5b61d9": {
+   "series": "fia_wtcr_sport_reg_ja",
+   "edition": "2019年版",
+   "effectiveDate": "2019-06-14",
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2019_fia_wtcr_tech_reg_ja_20190614-17bb7f": {
+   "series": "fia_wtcr_tech_reg_ja",
+   "edition": "2019年版",
+   "effectiveDate": "2019-06-14",
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_wrc_sport_reg_ja_20260113-8cb036": {
+   "series": "fia_wrc_sport_reg_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2026-01-13",
+   "events": [
+    {
+     "date": "2026-04-17",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "2026_fia_regional_rally_sport_reg_ja_20251210-42d0d2": {
+   "series": "fia_regional_rally_sport_reg_ja",
+   "edition": "2026年版",
+   "effectiveDate": "2025-12-10",
+   "events": [
+    {
+     "date": "2026-06-11",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_rally_safety_guidelines_2026_8rd_edition-c85315": {
+   "series": "fia_rally_safety_guidelines_2026_8rd_edition",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2026-06-11",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_guide_and_installation_hybrid_hybrid_pro_ja_sep_20220319-daa429": {
+   "series": "fia_guide_and_installation_hybrid_hybrid_pro_ja_sep",
+   "edition": "2022年版",
+   "effectiveDate": "2022-03-19",
+   "events": [
+    {
+     "date": "2022-08-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_guide_and_installation_hans_devices_ja_jun_20220319-e226c6": {
+   "series": "fia_guide_and_installation_hans_devices_ja_jun",
+   "edition": "2022年版",
+   "effectiveDate": "2022-03-19",
+   "events": [
+    {
+     "date": "2022-08-09",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_institute_drivers_guide_to_safe_ja_2011-494e71": {
+   "series": "fia_institute_drivers_guide_to_safe_ja_2011",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_institute_drivers_guide_to_safe_en_2011-d61f85": {
+   "series": "fia_institute_drivers_guide_to_safe_en_2011",
+   "edition": "",
+   "effectiveDate": null,
+   "events": [
+    {
+     "date": "2021-08-03",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  },
+  "fia_ethics_discrimination_harassment_ja_20230101-1c1f06": {
+   "series": "fia_ethics_discrimination_harassment_ja",
+   "edition": "2023年版",
+   "effectiveDate": "2023-01-01",
+   "events": [
+    {
+     "date": "2023-05-19",
+     "type": "listed"
+    }
+   ],
+   "reconvertedAt": []
+  }
+ },
+ "series": {
+  "jaf_kitei_soshiki": [
+   {
+    "docId": "2025_jaf_kitei_soshiki_20250401-fbb9d0",
+    "title": "自動車競技の組織に関する規定_20250401",
+    "edition": "2025年版",
+    "effectiveDate": "2025-04-01",
+    "uploadDate": "2025-05-28"
+   },
+   {
+    "docId": "jaf_kitei_soshiki_20270101-01-7cd2be",
+    "title": "自動車競技の組織に関する規定_20270101",
+    "edition": "2027年版",
+    "effectiveDate": "2027-01-01",
+    "uploadDate": "2026-06-10"
+   }
+  ],
+  "jaf_sport_reg_race": [
+   {
+    "docId": "2026_jaf_sport_reg_race_20260101-801c15",
+    "title": "2026年日本レース選手権規定_20260101",
+    "edition": "2026年版",
+    "effectiveDate": "2026-01-01",
+    "uploadDate": "2025-09-29"
+   },
+   {
+    "docId": "jaf_sport_reg_race_20270101-01-9289b7",
+    "title": "2027年日本レース選手権規定_20270101",
+    "edition": "2027年版",
+    "effectiveDate": "2027-01-01",
+    "uploadDate": "2026-09-09"
+   }
+  ],
+  "jaf_sport_reg_ct": [
+   {
+    "docId": "2026_jaf_sport_reg_ct_20260101-14173f",
+    "title": "2026年日本サーキットトライアル選手権規定_20260101",
+    "edition": "2026年版",
+    "effectiveDate": "2026-01-01",
+    "uploadDate": "2025-12-08"
+   },
+   {
+    "docId": "jaf_sport_reg_ct_20270101-01-4d9cdd",
+    "title": "2027年日本サーキットトライアル選手権規定_20270101",
+    "edition": "2027年版",
+    "effectiveDate": "2027-01-01",
+    "uploadDate": "2026-09-09"
+   }
+  ],
+  "jaf_kitei_jafcup_circuit": [
+   {
+    "docId": "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2",
+    "title": "2026年JAFカップオールジャパンサーキットトライアル規定_20260101",
+    "edition": "2026年版",
+    "effectiveDate": "2026-01-01",
+    "uploadDate": "2025-12-08"
+   },
+   {
+    "docId": "jaf_kitei_jafcup_circuit_20270101-01-63793e",
+    "title": "2027年JAFカップオールジャパンサーキットトライアル規定_20270101",
+    "edition": "2027年版",
+    "effectiveDate": "2027-01-01",
+    "uploadDate": "2026-09-09"
+   }
+  ],
+  "jaf_kart_kitei_sport_reg": [
+   {
+    "docId": "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784",
+    "title": "2026年日本カート選手権規定_20260101",
+    "edition": "2026年版",
+    "effectiveDate": "2026-01-01",
+    "uploadDate": "2026-03-23"
+   },
+   {
+    "docId": "jaf_kart_kitei_sport_reg_20270101-01-27628d",
+    "title": "2027年日本カート選手権規定_20270101",
+    "edition": "2027年版",
+    "effectiveDate": "2027-01-01",
+    "uploadDate": "2026-09-09"
+   }
+  ]
+ }
+}

@@ -309,6 +309,86 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   margin-bottom: 1.5rem;
 }
 
+/* ---------- 更新履歴 ---------- */
+
+/* meta 行の中に並ぶので、リンクと同じ見た目にする */
+.hist-open {
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: var(--accent);
+}
+.hist-open:hover { background: none; text-decoration: underline; }
+
+/* 年度版の相互リンク。どちらが有効か分からない状態を解消するためのもので、
+   注意書きより先に目に入ってよい。 */
+.edition-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.83rem;
+  margin: 0 0 1rem;
+}
+.edition-banner .edition-link { font-weight: 600; }
+
+.hist-dialog {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--fg);
+  padding: 1rem 1.2rem 1.1rem;
+  max-width: 26rem;
+  width: calc(100% - 2rem);
+  box-shadow: 0 12px 40px rgb(0 0 0 / 0.25);
+}
+.hist-dialog::backdrop { background: rgb(0 0 0 / 0.45); }
+
+.hist-head { display: flex; align-items: center; gap: 1rem; }
+.hist-head strong { font-size: 0.95rem; }
+.hist-head button {
+  margin-left: auto;
+  border: 0;
+  background: none;
+  color: var(--fg-faint);
+  padding: 0.1em 0.35em;
+  font-size: 0.9rem;
+}
+.hist-head button:hover { background: var(--bg-soft); color: var(--fg); }
+
+.hist-doc { font-size: 0.8rem; color: var(--fg-muted); margin: 0.2rem 0 0.9rem; }
+.hist-empty { font-size: 0.83rem; color: var(--fg-faint); margin: 0; }
+
+.hist-list { list-style: none; margin: 0; padding: 0; font-size: 0.85rem; }
+.hist-row {
+  display: flex;
+  gap: 0.9rem;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-top: 1px solid var(--line);
+}
+.hist-row:first-child { border-top: 0; }
+.hist-row time {
+  font-variant-numeric: tabular-nums;
+  color: var(--fg);
+  white-space: nowrap;
+}
+.hist-row .what { color: var(--fg-muted); }
+.hist-row.is-updated time { font-weight: 700; }
+.hist-row.is-removed .what { color: var(--warn-fg); }
+
+.hist-note {
+  margin: 0.9rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.7;
+  color: var(--fg-faint);
+}
+
 /* 出典の注意書き。変換警告（.notice）とは別物なので色を分ける。
    警めるためではなく出典へ導くためのものなので、地味に、しかし常に出す。 */
 .source-note {

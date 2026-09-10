@@ -19,6 +19,8 @@ samples
 data/*
 !data/embeddings.sqlite
 !data/embeddings.manifest.json
+# 更新履歴。build_index.py が docs テーブルに取り込む
+!data/history.json
 **/__pycache__
 *.pyc
 probe*.json

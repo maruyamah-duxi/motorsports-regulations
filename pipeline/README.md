@@ -68,6 +68,10 @@ python pipeline/cli.py probe samples/rule.pdf --out probe.json --pages 12
 # content/ から全文検索用の SQLite を作る
 python pipeline/build_index.py
 
+# 更新履歴（年度版の系列も含む）を組み立てる
+python pipeline/build_history.py
+python pipeline/build_history.py --print jaf_sport_reg_race   # 1 系列の中身を見る
+
 # 注意書きやスタイルだけを直したとき（PDF は読み直さない・数秒）
 python pipeline/rerender.py --dry-run
 python pipeline/rerender.py
@@ -94,6 +98,7 @@ data/changes/YYYY-MM-DD.json   その日の差分
 data/search.db                 全文検索用 SQLite（build_index.py が生成、git 管理外）
 data/embeddings.sqlite         埋め込みキャッシュ（実体は GCS、git 管理外）
 data/embeddings.manifest.json  上の実体を指すマニフェスト（git 管理）
+data/history.json              規則ごとの更新履歴と年度版の系列
 content/<docId>/document.json  構造化本文
 content/<docId>/index.html     単体で読める HTML
 content/<docId>/assets/*.webp  図版
@@ -111,6 +116,8 @@ content/<docId>/assets/*.webp  図版
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |
 | `jafreg/render.py` | 構造化データ → HTML（出典の注意書きもここ） |
 | `rerender.py` | document.json → index.html の作り直し（PyMuPDF 不要） |
+| `jafreg/series.py` | 年度版をまとめる系列キー（PDF のファイル名から取る） |
+| `build_history.py` | 更新履歴の組み立て。JAF の更新と自分の再変換を区別する |
 | `build_index.py` | content/ → SQLite FTS5 (trigram) 全文検索 DB。`--require-vectors` でベクトル不足を検出 |
 | `build_embeddings.py` | チャンク本文 → 埋め込みベクトル（本文ハッシュでキャッシュ） |
 | `embeddings_store.py` | 埋め込みキャッシュを GCS と出し入れ（`push` / `pull` / `status`） |
