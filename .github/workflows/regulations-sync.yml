@@ -4,11 +4,15 @@ name: regulations-sync
 #  - JAF の PDF には ETag も Last-Modified も無いため、
 #    「一覧ページのアップロード日」→「本体の SHA-256」の 2 段で差分を見る。
 #  - 生成物（content/ と data/）だけをコミットし、PDF 原本はコミットしない。
+#  - 年度が変わると JAF は別ファイルとして公開するため、こちらでは新規追加に
+#    見える。系列キー（jafreg/series.py）で束ねて更新履歴に出す。
 
 on:
   schedule:
-    # 毎日 03:10 JST（= 18:10 UTC）。JAF の更新は平日日中が多い。
-    - cron: "10 18 * * *"
+    # 毎週月曜 03:10 JST（= 日曜 18:10 UTC）。JAF の更新は平日日中に
+    # 集まるので、月曜の未明に回すと前週分をまとめて拾える。
+    # 週の途中に更新されて週内に再更新された場合、間の版は追えない。
+    - cron: "10 18 * * 0"
   workflow_dispatch:
     inputs:
       limit:
@@ -73,6 +77,12 @@ jobs:
             ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }} \
             | tee sync.log
 
+      # 更新履歴を組み立てる。state.json と changes/*.json だけを見るので
+      # PDF は読み直さない。「JAF が更新した」と「こちらが再変換した」を
+      # 区別するのはここ（uploadDate が変わったかで判定する）。
+      - name: 更新履歴を生成
+        run: python pipeline/build_history.py
+
       - name: 変更サマリ
         if: always()
         run: |
@@ -88,12 +98,16 @@ jobs:
               python -c "import json,sys;d=json.load(open(sys.argv[1]));print(json.dumps({k:d[k] for k in ('added','updated','removed','failed') if k in d},ensure_ascii=False,indent=1)[:4000])" "$latest"
               echo '```'
             fi
+            # 週次で誰も見ていないので、人が読む要約もここに出す
+            python pipeline/build_history.py --github-summary --days 14 2>/dev/null || true
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: コミット
         run: |
           git config user.name "jaf-regulations-bot"
           git config user.email "actions@github.com"
+          # data/embeddings.sqlite は .gitignore 済み（実体は GCS）。
+          # data/history.json と data/embeddings.manifest.json は入る。
           git add -A content data
           if git diff --cached --quiet; then
             echo "変更なし"
