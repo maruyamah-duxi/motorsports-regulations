@@ -114,3 +114,34 @@ export const EditionBanner: React.FC<{ history: DocumentHistory }> = ({ history 
     </p>
   );
 };
+
+/** 条単位の改正差分への案内。実質的な変更の件数まで出す。
+ *  「差分がある」だけでは開く価値が分からないため。 */
+export const DiffBanner: React.FC<{ history: DocumentHistory }> = ({ history }) => {
+  if (history.diffs.length === 0) return null;
+  return (
+    <>
+      {history.diffs.map((d) => {
+        const substantive = d.summary.changed + d.summary.added + d.summary.removed;
+        const label = d.kind === 'revision' ? '前の版' : d.baseTitle || '前年度版';
+        return (
+          <p className="diff-banner" key={d.baseDocId}>
+            <span>
+              {label}から <strong>{substantive} 条</strong>
+              に実質的な変更があります
+              {d.summary.yearOnly > 0 ? `（ほかに年号のみ ${d.summary.yearOnly} 条）` : ''}。
+            </span>
+            <Link
+              className="diff-link"
+              href={`/diff/${history.docId}/${
+                d.baseDocId.endsWith('#previous') ? 'previous' : d.baseDocId
+              }`}
+            >
+              改正差分を見る
+            </Link>
+          </p>
+        );
+      })}
+    </>
+  );
+};

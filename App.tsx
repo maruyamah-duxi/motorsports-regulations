@@ -6,6 +6,7 @@ import { Ask } from './components/Ask';
 import { CategoryTree } from './components/CategoryTree';
 import { DocumentList } from './components/DocumentList';
 import { DocumentView } from './components/DocumentView';
+import { DiffView } from './components/DiffView';
 import { SearchResults } from './components/SearchResults';
 import { Link } from './components/Link';
 
@@ -115,6 +116,9 @@ const App: React.FC = () => {
           {docs && route.name === 'search' && <SearchResults query={route.query ?? ''} />}
           {route.name === 'ask' && <Ask initialQuestion={route.query} />}
           {route.name === 'document' && route.docId && <DocumentView docId={route.docId} />}
+          {route.name === 'diff' && route.docId && route.baseDocId && (
+            <DiffView docId={route.docId} baseDocId={route.baseDocId} />
+          )}
         </main>
       </div>
 

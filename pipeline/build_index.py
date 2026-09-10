@@ -59,7 +59,9 @@ CREATE TABLE docs (
   series      TEXT,
   edition     TEXT,
   -- 更新履歴のイベント配列（build_history.py が作る JSON）
-  history     TEXT
+  history     TEXT,
+  -- 条単位の改正差分の一覧（build_diffs.py が作る JSON。本体は content/ 側）
+  diffs       TEXT
 );
 CREATE INDEX idx_docs_series ON docs(series);
 
@@ -216,6 +218,17 @@ def load_history(path: Path | None) -> dict[str, dict[str, Any]]:
         return {}
 
 
+def load_diffs(path: Path | None) -> dict[str, list[dict[str, Any]]]:
+    """build_diffs.py が作った差分の一覧を読む。本体は content/ 側にある."""
+    if path is None or not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("docs") or {}
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"  差分の一覧を読めませんでした（差分なしで続けます）: {exc}")
+        return {}
+
+
 def build(
     content_dir: Path,
     out_path: Path,
@@ -223,6 +236,7 @@ def build(
     model: str = "gemini-embedding-001",
     dim: int = 768,
     history_path: Path | None = None,
+    diffs_path: Path | None = None,
 ) -> dict[str, int]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.exists():
@@ -231,13 +245,14 @@ def build(
     con.executescript(SCHEMA)
 
     history_docs = load_history(history_path)
+    diff_docs = load_diffs(diffs_path)
     n_docs = n_chunks = 0
     for doc_json in sorted(content_dir.glob("*/document.json")):
         doc = json.loads(doc_json.read_text(encoding="utf-8"))
         doc_id = doc["docId"]
         stats = doc.get("stats") or {}
         con.execute(
-            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 doc_id,
                 doc.get("title") or doc_id,
@@ -256,6 +271,7 @@ def build(
                     (history_docs.get(doc_id) or {}).get("events") or [],
                     ensure_ascii=False,
                 ),
+                json.dumps(diff_docs.get(doc_id) or [], ensure_ascii=False),
             ),
         )
         n_docs += 1
@@ -313,6 +329,11 @@ def main() -> int:
         default=str(root / "data" / "history.json"),
         help="build_history.py が作った更新履歴。あれば docs に取り込む",
     )
+    ap.add_argument(
+        "--diffs",
+        default=str(root / "data" / "diffs.json"),
+        help="build_diffs.py が作った差分の一覧。あれば docs に取り込む",
+    )
     ap.add_argument("--embed-model", default="gemini-embedding-001")
     ap.add_argument("--embed-dim", type=int, default=768)
     ap.add_argument(
@@ -342,6 +363,7 @@ def main() -> int:
         model=args.embed_model,
         dim=args.embed_dim,
         history_path=Path(args.history) if args.history else None,
+        diffs_path=Path(args.diffs) if args.diffs else None,
     )
     size = Path(args.out).stat().st_size
     vec = stats["vectors"]

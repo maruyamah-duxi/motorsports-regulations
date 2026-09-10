@@ -1,0 +1,276 @@
+{
+ "base": {
+  "docId": "2026_jaf_sport_reg_race_20260101-801c15",
+  "title": "2026年日本レース選手権規定_20260101",
+  "uploadDate": "2025-09-29"
+ },
+ "target": {
+  "docId": "jaf_sport_reg_race_20270101-01-9289b7",
+  "title": "2027年日本レース選手権規定_20270101",
+  "uploadDate": "2026-09-09"
+ },
+ "summary": {
+  "clauses": 50,
+  "unchanged": 38,
+  "changed": 7,
+  "yearOnly": 5,
+  "added": 0,
+  "removed": 0
+ },
+ "changes": [
+  {
+   "status": "changed",
+   "key": "(前文)",
+   "heading": "２０２7年日本レース選手権規定",
+   "anchor": "7年日本レース選手権規定",
+   "page": 1,
+   "previousPage": 1,
+   "similarity": 0.85,
+   "lines": [
+    {
+     "op": "del",
+     "text": "2023年 9月12日制    定2024年 1月 1日施    行2024年 7月26日制    定"
+    },
+    {
+     "op": "del",
+     "text": "2025年 1月 1日施    行2025年 7月24日改    正2026年 1月 1日施    行"
+    },
+    {
+     "op": "add",
+     "text": "2023年 9月12日制    定2024年 1月 1日施    行2024年 7月26日制    定2025年 1月 1日施    行"
+    },
+    {
+     "op": "add",
+     "text": "2025年 7月24日改    正2026年 1月 1日施    行2026年 7月23日制    定2027年 1月 1日施    行"
+    }
+   ]
+  },
+  {
+   "status": "year_only",
+   "key": "第1章 > 第1条",
+   "heading": "第１条　目的",
+   "anchor": "第-条-目的",
+   "page": 1,
+   "previousPage": 1,
+   "similarity": 0.99,
+   "lines": [
+    {
+     "op": "del",
+     "text": "一般社団法人日本自動車連盟(以下「JAF」という。)は、2026年(以下「当該年」という。)のレース競技会において優秀な成績を収めた者の栄誉をたたえるため、これを認定する日本レース選手権規定を制定する。"
+    },
+    {
+     "op": "add",
+     "text": "一般社団法人日本自動車連盟(以下「JAF」という。)は、2027年(以下「当該年」という。)のレース競技会において優秀な成績を収めた者の栄誉をたたえるため、これを認定する日本レース選手権規定を制定する。"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第1章 > 第4条",
+   "heading": "第４条　レースの走行距離",
+   "anchor": "第-条-レースの走行距離",
+   "page": 1,
+   "previousPage": 1,
+   "similarity": 0.971,
+   "lines": [
+    {
+     "op": "del",
+     "text": "地方選手権 | FORMULA REGIONAL | 30km | 100km | 45km | 75km | 150km"
+    },
+    {
+     "op": "add",
+     "text": "地方選手権 | FORMULA REGIONAL | 20分 | 30分 | 45km | 75km | 150km"
+    },
+    {
+     "op": "del",
+     "text": "*レース距離は特別規則に明示される"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第1章 > 第5条",
+   "heading": "第５条　選手権レースの成立",
+   "anchor": "第-条-選手権レースの成立",
+   "page": 2,
+   "previousPage": 2,
+   "similarity": 0.921,
+   "lines": [
+    {
+     "op": "del",
+     "text": "ただし、FORMULA REGIONALは5回以上、FIA-F4は6回以上開催されなければ成立しない。"
+    },
+    {
+     "op": "del",
+     "text": "2.各部門のレースは、5台以上の車両がスタートしなければ成立せず、選手権得点は与えられない。"
+    },
+    {
+     "op": "del",
+     "text": "FIA-F4およびツーリングカー地方選手権は、当該クラスが5台以上の車両がスタートしなければ成立せず、選手権得点は与えられない。"
+    },
+    {
+     "op": "add",
+     "text": "ただし、FORMULA REGIONALおよびFIA-F4は6回以上開催されなければ成立しない。"
+    },
+    {
+     "op": "add",
+     "text": "2.FORMULA REGIONAL、FIA-F4(各クラス)およびF-Beは、5台以上の車両がスタートしなければ成立せず、選手権得点は与えられない。"
+    },
+    {
+     "op": "add",
+     "text": "S-FJ、FJ1500およびツーリングカー(各クラス)は、3台以上の車両がスタートしなければ成立せず、選手権得点は与えられない。"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第1章 > 第6条",
+   "heading": "第６条　適用規則",
+   "anchor": "第-条-適用規則",
+   "page": 2,
+   "previousPage": 2,
+   "similarity": 0.828,
+   "lines": [
+    {
+     "op": "add",
+     "text": "3.FORMULA REGIONALおよびFIA-F4について、FIA規定と本規則に相違がある場合にFIA規定を準用することができるが、シリーズ規則に明記すること。"
+    }
+   ]
+  },
+  {
+   "status": "year_only",
+   "key": "第2章 > 第16条 > 2",
+   "heading": "２．ＳＦＬ",
+   "anchor": "sec-2",
+   "page": 3,
+   "previousPage": 3,
+   "similarity": 0.995,
+   "lines": [
+    {
+     "op": "del",
+     "text": "2)2025年のFIA-F2またはSFにおいて、シリーズランキング上位6位までの者。"
+    },
+    {
+     "op": "add",
+     "text": "2)2026年のFIA-F2またはSFにおいて、シリーズランキング上位6位までの者。"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第2章 > 第17条",
+   "heading": "第１７条　得点基準",
+   "anchor": "第-条-得点基準",
+   "page": 3,
+   "previousPage": 3,
+   "similarity": 0.93,
+   "lines": [
+    {
+     "op": "del",
+     "text": "1.全日本選手権の得点は、所定の書式によりあらかじめJAFに登録されたドライバー、チームおよびエンジンチューナーを対象とする。"
+    },
+    {
+     "op": "add",
+     "text": "1.全日本選手権の得点は、所定の書式によりあらかじめJAFに登録されたドライバーおよびチームを対象とする。"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第3章 > 第18条 > 1",
+   "heading": "１．ＦＯＲＭＵＬＡ ＲＥＧＩＯＮＡＬ：",
+   "anchor": "sec-3",
+   "page": 4,
+   "previousPage": 4,
+   "similarity": 0.659,
+   "lines": [
+    {
+     "op": "del",
+     "text": "当該年のFIA国際競技規則付則J項に定めるFORMULA REGIONALとし、本選手権に使用するタイヤは、JAF承認のもとでプロモーターまたはオーガナイザーによって指定されたものを使用しなければならない。"
+    },
+    {
+     "op": "add",
+     "text": "当該年のFIA国際競技規則付則J項第275条Aに定めるFORMULA REGIONALとし、本選手権に使用するタイヤは、FIA規則に基づく。"
+    }
+   ]
+  },
+  {
+   "status": "changed",
+   "key": "第3章 > 第19条 > 1",
+   "heading": "１．ＦＯＲＭＵＬＡ ＲＥＧＩＯＮＡＬ",
+   "anchor": "sec-8",
+   "page": 4,
+   "previousPage": 4,
+   "similarity": 0.356,
+   "lines": [
+    {
+     "op": "del",
+     "text": "限定国内競技運転者許可証Aを含み、国内競技運転者許可証Aもしくはそれと同等以上国際競技運転者許可証B以下のライセンス所持者とする。"
+    },
+    {
+     "op": "add",
+     "text": "国際競技運転者許可証C-CまたはBのライセンス所持者とする。それに加え、FIA規定に準じて制定するシリーズ規則に記載される資格を満たした者。"
+    }
+   ]
+  },
+  {
+   "status": "year_only",
+   "key": "第3章 > 第19条 > 2",
+   "heading": "２．ＦＩＡ－Ｆ４",
+   "anchor": "sec-9",
+   "page": 4,
+   "previousPage": 4,
+   "similarity": 0.997,
+   "lines": [
+    {
+     "op": "del",
+     "text": "2)~4)のスポーツ走行の経験時間については参戦年での経験時間を含んでよい。ただし、インディペンデントクラスの参加者を除き、2023年~2025年にFIA-F2 、SF、FIA-F3、SFL、FORMULA REGIONALのいずれかのレースにおいて3位以内に入賞した経験を有する者は、参加できない。"
+    },
+    {
+     "op": "add",
+     "text": "2)~4)のスポーツ走行の経験時間については参戦年での経験時間を含んでよい。ただし、インディペンデントクラスの参加者を除き、2024年~2026年にFIA-F2 、SF、FIA-F3、SFL、FORMULA REGIONALのいずれかのレースにおいて3位以内に入賞した経験を有する者は、参加できない。"
+    }
+   ]
+  },
+  {
+   "status": "year_only",
+   "key": "第3章 > 第19条 > 4",
+   "heading": "４．Ｓ－ＦＪ",
+   "anchor": "sec-11",
+   "page": 5,
+   "previousPage": 5,
+   "similarity": 0.989,
+   "lines": [
+    {
+     "op": "del",
+     "text": "ただし、2023年~2025年にFIA-F2、SF、FIA-F3、SFL、FORMULA REGIONALのいずれかのレースにおいて3位以内に入賞した経験を有する者は、参加できない。"
+    },
+    {
+     "op": "add",
+     "text": "ただし、2024年~2026年にFIA-F2、SF、FIA-F3、SFL、FORMULA REGIONALのいずれかのレースにおいて3位以内に入賞した経験を有する者は、参加できない。"
+    }
+   ]
+  },
+  {
+   "status": "year_only",
+   "key": "第3章 > 第22条",
+   "heading": "第２２条　本規則の施行",
+   "anchor": "第-条-本規則の施行",
+   "page": 6,
+   "previousPage": 6,
+   "similarity": 0.955,
+   "lines": [
+    {
+     "op": "del",
+     "text": "本規則は、2026年1月1日施行する。"
+    },
+    {
+     "op": "add",
+     "text": "本規則は、2027年1月1日施行する。"
+    }
+   ]
+  }
+ ],
+ "kind": "edition",
+ "generatedAt": "2026-09-10T05:08:36+00:00"
+}

@@ -93,6 +93,22 @@ def cmd_crawl(args) -> int:
     return 0
 
 
+def _snapshot_previous(doc_id: str) -> None:
+    """上書き前の document.json を previous.json として残す.
+
+    条単位の改正差分（`build_diffs.py`）はこれを比較の相手にする。
+    テキストだけなので図版は複製しない（差分は本文の突き合わせなので不要）。
+    """
+    src = CONTENT / doc_id / "document.json"
+    if not src.exists():
+        return
+    dst = CONTENT / doc_id / "previous.json"
+    try:
+        dst.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+    except OSError as exc:  # 差分が取れないだけなので、変換は続ける
+        print(f"  前の版を退避できませんでした（差分は作られません）: {exc}", flush=True)
+
+
 def cmd_sync(args) -> int:
     if cmd_crawl(args) != 0:
         return 1
@@ -159,6 +175,17 @@ def cmd_sync(args) -> int:
                 "sha256": fetched.sha256,
                 "bytes": fetched.bytes,
             }
+            # JAF が掲載日を変えて差し替えたときは、上書き前に前の版を退避する。
+            # これが無いと条単位の改正差分（build_diffs.py）が取れない。
+            # 再変換（掲載日が同じ）では退避しない。前の版として残すべきものは
+            # 「JAF が変えた版」だけで、こちらの都合で作り直したものではない。
+            if (
+                prev
+                and prev.get("uploadDate")
+                and prev.get("uploadDate") != item.get("upload_date")
+            ):
+                _snapshot_previous(doc_id)
+
             try:
                 res = convert_pdf(
                     fetched.path, CONTENT / doc_id, meta=meta, ocr=args.ocr, figure_dpi=args.dpi

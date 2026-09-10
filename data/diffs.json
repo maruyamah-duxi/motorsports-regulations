@@ -1,0 +1,90 @@
+{
+ "generatedAt": "2026-09-10T05:08:36+00:00",
+ "docs": {
+  "jaf_kitei_soshiki_20270101-01-7cd2be": [
+   {
+    "baseDocId": "2025_jaf_kitei_soshiki_20250401-fbb9d0",
+    "baseTitle": "自動車競技の組織に関する規定_20250401",
+    "baseUploadDate": "2025-05-28",
+    "kind": "edition",
+    "file": "diff-2025_jaf_kitei_soshiki_20250401-fbb9d0.json",
+    "summary": {
+     "clauses": 20,
+     "unchanged": 17,
+     "changed": 3,
+     "yearOnly": 0,
+     "added": 0,
+     "removed": 0
+    }
+   }
+  ],
+  "jaf_sport_reg_race_20270101-01-9289b7": [
+   {
+    "baseDocId": "2026_jaf_sport_reg_race_20260101-801c15",
+    "baseTitle": "2026年日本レース選手権規定_20260101",
+    "baseUploadDate": "2025-09-29",
+    "kind": "edition",
+    "file": "diff-2026_jaf_sport_reg_race_20260101-801c15.json",
+    "summary": {
+     "clauses": 50,
+     "unchanged": 38,
+     "changed": 7,
+     "yearOnly": 5,
+     "added": 0,
+     "removed": 0
+    }
+   }
+  ],
+  "jaf_sport_reg_ct_20270101-01-4d9cdd": [
+   {
+    "baseDocId": "2026_jaf_sport_reg_ct_20260101-14173f",
+    "baseTitle": "2026年日本サーキットトライアル選手権規定_20260101",
+    "baseUploadDate": "2025-12-08",
+    "kind": "edition",
+    "file": "diff-2026_jaf_sport_reg_ct_20260101-14173f.json",
+    "summary": {
+     "clauses": 47,
+     "unchanged": 43,
+     "changed": 1,
+     "yearOnly": 3,
+     "added": 0,
+     "removed": 0
+    }
+   }
+  ],
+  "jaf_kitei_jafcup_circuit_20270101-01-63793e": [
+   {
+    "baseDocId": "2026_jaf_kitei_jafcup_circuit_20260101-53ccd2",
+    "baseTitle": "2026年JAFカップオールジャパンサーキットトライアル規定_20260101",
+    "baseUploadDate": "2025-12-08",
+    "kind": "edition",
+    "file": "diff-2026_jaf_kitei_jafcup_circuit_20260101-53ccd2.json",
+    "summary": {
+     "clauses": 27,
+     "unchanged": 19,
+     "changed": 4,
+     "yearOnly": 2,
+     "added": 2,
+     "removed": 0
+    }
+   }
+  ],
+  "jaf_kart_kitei_sport_reg_20270101-01-27628d": [
+   {
+    "baseDocId": "2026_jaf_kart_kitei_sport_reg_20260101-02-d65784",
+    "baseTitle": "2026年日本カート選手権規定_20260101",
+    "baseUploadDate": "2026-03-23",
+    "kind": "edition",
+    "file": "diff-2026_jaf_kart_kitei_sport_reg_20260101-02-d65784.json",
+    "summary": {
+     "clauses": 78,
+     "unchanged": 46,
+     "changed": 29,
+     "yearOnly": 1,
+     "added": 2,
+     "removed": 11
+    }
+   }
+  ]
+ }
+}

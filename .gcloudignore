@@ -21,6 +21,8 @@ data/*
 !data/embeddings.manifest.json
 # 更新履歴。build_index.py が docs テーブルに取り込む
 !data/history.json
+# 改正差分の一覧（本体は content/ 側にある）
+!data/diffs.json
 **/__pycache__
 *.pyc
 probe*.json

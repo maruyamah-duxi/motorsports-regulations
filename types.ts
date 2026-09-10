@@ -87,6 +87,58 @@ export interface EditionRef {
   current: boolean;
 }
 
+/** 差分の集計。「軽微」という区分は置かない。
+ *  類似度で軽重を決めると、走行距離が 30km→20分 に変わった条が
+ *  類似度 0.971 で「軽微」に分類されてしまうため（実測）。
+ *  yearOnly は「年号を伏せたら同一」という厳密な条件で判定している。 */
+export interface DiffSummary {
+  clauses: number;
+  unchanged: number;
+  changed: number;
+  yearOnly: number;
+  added: number;
+  removed: number;
+}
+
+/** 差分の一覧の 1 件（規則ページから差分ページへ案内するのに使う） */
+export interface DiffRef {
+  baseDocId: string;
+  baseTitle: string | null;
+  baseUploadDate: string | null;
+  /** revision: 同じ規則の前の版 / edition: 前年度版 */
+  kind: 'revision' | 'edition';
+  summary: DiffSummary;
+}
+
+export type DiffStatus = 'changed' | 'year_only' | 'added' | 'removed';
+
+export interface DiffLine {
+  op: 'add' | 'del';
+  text: string;
+}
+
+export interface DiffChange {
+  status: DiffStatus;
+  /** 条項番号の階層（第1章 > 第4条） */
+  key: string;
+  heading: string;
+  anchor: string | null;
+  page?: number | null;
+  previousPage?: number | null;
+  similarity?: number;
+  lines: DiffLine[];
+}
+
+/** /api/documents/{docId}/diff/{baseDocId} */
+export interface DocumentDiff {
+  kind: 'revision' | 'edition';
+  generatedAt: string;
+  base: { docId: string | null; title: string | null; uploadDate: string | null };
+  target: { docId: string | null; title: string | null; uploadDate: string | null };
+  summary: DiffSummary;
+  changes: DiffChange[];
+}
+
 /** /api/documents/{docId}/history */
 export interface DocumentHistory {
   docId: string;
@@ -95,6 +147,8 @@ export interface DocumentHistory {
   events: HistoryEvent[];
   /** 年度版が 1 つしかなければ空配列 */
   editions: EditionRef[];
+  /** 条単位の改正差分が取れる相手 */
+  diffs: DiffRef[];
 }
 
 export interface DocumentsResponse {

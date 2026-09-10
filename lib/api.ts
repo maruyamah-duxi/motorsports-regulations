@@ -1,6 +1,7 @@
 import type {
   AskSource,
   AskStatus,
+  DocumentDiff,
   DocumentHistory,
   DocumentsResponse,
   RegulationDocument,
@@ -36,6 +37,17 @@ export function fetchDocumentHistory(
 ): Promise<DocumentHistory> {
   return getJson<DocumentHistory>(
     `/api/documents/${encodeURIComponent(docId)}/history`,
+    signal,
+  );
+}
+
+export function fetchDocumentDiff(
+  docId: string,
+  baseDocId: string,
+  signal?: AbortSignal,
+): Promise<DocumentDiff> {
+  return getJson<DocumentDiff>(
+    `/api/documents/${encodeURIComponent(docId)}/diff/${encodeURIComponent(baseDocId)}`,
     signal,
   );
 }

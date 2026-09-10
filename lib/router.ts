@@ -42,8 +42,10 @@ export function useLocation(): string {
 }
 
 export interface Route {
-  name: 'home' | 'search' | 'document' | 'ask';
+  name: 'home' | 'search' | 'document' | 'ask' | 'diff';
   docId?: string;
+  /** diff のときの比較相手。'previous' なら同じ規則の前の版 */
+  baseDocId?: string;
   query?: string;
   anchor?: string;
 }
@@ -61,6 +63,13 @@ export function parseRoute(location: string): Route {
   }
   if (segments[0] === 'doc' && segments[1]) {
     return { name: 'document', docId: decodeURIComponent(segments[1]) };
+  }
+  if (segments[0] === 'diff' && segments[1] && segments[2]) {
+    return {
+      name: 'diff',
+      docId: decodeURIComponent(segments[1]),
+      baseDocId: decodeURIComponent(segments[2]),
+    };
   }
   return { name: 'home', query: params.get('q') || '' };
 }

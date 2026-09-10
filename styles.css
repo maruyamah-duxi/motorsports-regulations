@@ -12,6 +12,13 @@
   --mark-fg: #4a3400;
   --warn-bg: #fdf3d7;
   --warn-fg: #6b4e00;
+  /* 改正差分。緑赤だけに頼らず、記号（＋ / −）と語ラベルも併記している */
+  --add-bg: #e6f6ec;
+  --add-fg: #12603a;
+  --del-bg: #fdeceb;
+  --del-fg: #8a2018;
+  --diff-bg: #f4f7ff;
+  --diff-line: #b9c9f5;
   --radius: 8px;
   --header-h: 3.5rem;
 }
@@ -31,6 +38,12 @@
     --mark-fg: #ffe9a8;
     --warn-bg: #33280a;
     --warn-fg: #f3dfa4;
+    --add-bg: #12301f;
+    --add-fg: #86e0aa;
+    --del-bg: #351917;
+    --del-fg: #f5a9a1;
+    --diff-bg: #161d2e;
+    --diff-line: #2f3f66;
   }
 }
 
@@ -307,6 +320,116 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   padding: 0.6rem 0.9rem;
   font-size: 0.82rem;
   margin-bottom: 1.5rem;
+}
+
+/* ---------- 改正差分 ---------- */
+
+.diff-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.9rem;
+  border: 1px solid var(--diff-line);
+  background: var(--diff-bg);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.83rem;
+  margin: 0 0 0.6rem;
+}
+.diff-banner .diff-link { font-weight: 600; white-space: nowrap; }
+
+.diff-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.6rem;
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+.diff-summary .big {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.diff-summary .rest { flex-basis: 100%; font-size: 0.78rem; color: var(--fg-faint); }
+
+.diff-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  margin: 0 0 1.25rem;
+  cursor: pointer;
+}
+
+.diff-clause {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--fg-faint);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.diff-clause.is-changed { border-left-color: var(--accent); }
+.diff-clause.is-added { border-left-color: var(--add-fg); }
+.diff-clause.is-removed { border-left-color: var(--del-fg); }
+.diff-clause.is-year_only { border-left-color: var(--line); }
+
+.diff-clause > header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.7rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+.diff-tag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1em 0.5em;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+.diff-tag.is-changed { color: var(--accent); }
+.diff-tag.is-added { color: var(--add-fg); }
+.diff-tag.is-removed { color: var(--del-fg); }
+.diff-tag.is-year_only { color: var(--fg-faint); }
+
+.diff-key { color: var(--fg-faint); font-variant-numeric: tabular-nums; }
+.diff-heading { color: var(--fg); font-weight: 600; }
+.diff-clause .diff-jump { font-weight: 600; }
+.diff-page { margin-left: auto; color: var(--fg-faint); font-size: 0.72rem; }
+
+.diff-lines { display: grid; gap: 0.3rem; }
+.diff-line {
+  margin: 0;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  word-break: break-word;
+}
+.diff-line > span[aria-hidden] {
+  display: inline-block;
+  width: 1.1em;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.diff-line.is-del { background: var(--del-bg); color: var(--del-fg); }
+.diff-line.is-add { background: var(--add-bg); color: var(--add-fg); }
+
+/* スクリーンリーダー向け。＋ / − の記号だけでは伝わらない */
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 /* ---------- 更新履歴 ---------- */

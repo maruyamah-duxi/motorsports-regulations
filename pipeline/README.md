@@ -72,6 +72,10 @@ python pipeline/build_index.py
 python pipeline/build_history.py
 python pipeline/build_history.py --print jaf_sport_reg_race   # 1 系列の中身を見る
 
+# 条単位の改正差分（前年度版と、退避してある前の版が相手）
+python pipeline/build_diffs.py
+python pipeline/build_diffs.py --print <docId>   # 1 文書の差分を並べて見る
+
 # 注意書きやスタイルだけを直したとき（PDF は読み直さない・数秒）
 python pipeline/rerender.py --dry-run
 python pipeline/rerender.py
@@ -102,6 +106,9 @@ data/history.json              規則ごとの更新履歴と年度版の系列
 content/<docId>/document.json  構造化本文
 content/<docId>/index.html     単体で読める HTML
 content/<docId>/assets/*.webp  図版
+content/<docId>/previous.json  上書き前の版（改正差分の比較元）
+content/<docId>/diff-*.json    条単位の改正差分
+data/diffs.json                差分の一覧
 ```
 
 原本 PDF は `.cache/pdf/` に置かれ、git には入りません（JAF の著作物のため）。
@@ -118,6 +125,8 @@ content/<docId>/assets/*.webp  図版
 | `rerender.py` | document.json → index.html の作り直し（PyMuPDF 不要） |
 | `jafreg/series.py` | 年度版をまとめる系列キー（PDF のファイル名から取る） |
 | `build_history.py` | 更新履歴の組み立て。JAF の更新と自分の再変換を区別する |
+| `jafreg/clausediff.py` | 条単位の突き合わせと差分 |
+| `build_diffs.py` | 改正差分の算出。前年度版と前の版の両方を相手にする |
 | `build_index.py` | content/ → SQLite FTS5 (trigram) 全文検索 DB。`--require-vectors` でベクトル不足を検出 |
 | `build_embeddings.py` | チャンク本文 → 埋め込みベクトル（本文ハッシュでキャッシュ） |
 | `embeddings_store.py` | 埋め込みキャッシュを GCS と出し入れ（`push` / `pull` / `status`） |

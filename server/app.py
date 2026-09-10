@@ -207,10 +207,21 @@ def documents() -> dict[str, Any]:
     }
 
 
+# docId はそのままファイルパスに使うので、素性を厳しく確かめる。
+# 文字種の制限だけでは ".." が通ってしまい content/ の外に出られる
+# （区切り文字は弾けるが、"." と "-" は docId に必要なので許している）。
+_DOC_ID = re.compile(r"[0-9A-Za-z._\-]+")
+
+
+def _safe_doc_id(value: str) -> str:
+    if not _DOC_ID.fullmatch(value) or ".." in value or value in (".", ""):
+        raise HTTPException(400, "不正な docId です")
+    return value
+
+
 @app.get("/api/documents/{doc_id}")
 def document(doc_id: str) -> JSONResponse:
-    if not re.fullmatch(r"[0-9A-Za-z._\-]+", doc_id):
-        raise HTTPException(400, "不正な docId です")
+    doc_id = _safe_doc_id(doc_id)
     path = CONTENT_DIR / doc_id / "document.json"
     if not path.exists():
         raise HTTPException(404, "見つかりません")
@@ -225,13 +236,12 @@ def document_history(doc_id: str) -> dict[str, Any]:
     なる。系列キー（`jafreg/series.py`）で束ねて相互リンクを出せるように
     する。履歴の日付は **JAF の掲載日**で、こちらが検出した日ではない。
     """
-    if not re.fullmatch(r"[0-9A-Za-z._\-]+", doc_id):
-        raise HTTPException(400, "不正な docId です")
+    doc_id = _safe_doc_id(doc_id)
 
     con = _connect()
     try:
         row = con.execute(
-            "SELECT series, edition, history FROM docs WHERE doc_id = ?", (doc_id,)
+            "SELECT series, edition, history, diffs FROM docs WHERE doc_id = ?", (doc_id,)
         ).fetchone()
         if row is None:
             raise HTTPException(404, "見つかりません")
@@ -240,6 +250,10 @@ def document_history(doc_id: str) -> dict[str, Any]:
             events = json.loads(row["history"] or "[]")
         except json.JSONDecodeError:
             events = []
+        try:
+            diffs = json.loads(row["diffs"] or "[]")
+        except json.JSONDecodeError:
+            diffs = []
 
         editions: list[dict[str, Any]] = []
         if row["series"]:
@@ -267,7 +281,28 @@ def document_history(doc_id: str) -> dict[str, Any]:
         "events": events,
         # 1 件（自分だけ）のときは相互リンクを出す必要がない
         "editions": editions if len(editions) > 1 else [],
+        # 条単位の改正差分（本体は下の /diff/{base_doc_id}）
+        "diffs": diffs,
     }
+
+
+@app.get("/api/documents/{doc_id}/diff/{base_doc_id}")
+def document_diff(doc_id: str, base_doc_id: str) -> JSONResponse:
+    """条単位の改正差分。
+
+    本体は変換時ではなく `build_diffs.py` が作り、`content/<docId>/` に
+    置いてある。ここではそれをそのまま返す（サーバ側で difflib を回すと
+    数百ページの規則で待たされるため、算出はビルド時に済ませる）。
+    """
+    doc_id = _safe_doc_id(doc_id)
+    base_doc_id = _safe_doc_id(base_doc_id)
+
+    # previous.json との差分は "previous" という名前で置いてある
+    name = "diff-previous.json" if base_doc_id == "previous" else f"diff-{base_doc_id}.json"
+    path = CONTENT_DIR / doc_id / name
+    if not path.exists():
+        raise HTTPException(404, "この組み合わせの差分はありません")
+    return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
 
 
 def _health() -> dict[str, Any]:

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import type { DocumentHistory, RegulationDocument } from '../types';
 import { fetchDocument, fetchDocumentHistory } from '../lib/api';
 import { Blocks } from './Blocks';
-import { EditionBanner, HistoryDialog } from './History';
+import { DiffBanner, EditionBanner, HistoryDialog } from './History';
 
 const Toc: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
   // 条・章までを既定の目次とする。項番まで全部出すと数百行になる。
@@ -93,6 +93,7 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
         </div>
       </header>
 
+      {history && <DiffBanner history={history} />}
       {history && <EditionBanner history={history} />}
 
       {/* 本文を読む面なので、警告の有無に関わらず常に出す。
