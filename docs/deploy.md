@@ -226,6 +226,85 @@ gcloud beta run domain-mappings create \
 
 ---
 
+## 4-5. Cloud Build トリガーで出す（推奨。アップロード 0）
+
+`gcloud run deploy --source .` は**毎回 121MB をアップロード**します
+（`content/` 86MB + `data/embeddings.sqlite` 34MB）。Cloud Build を GitHub
+リポジトリに紐づけると Cloud Build 側が直接クローンするので、**アップロードが
+0 になります**。配信経路は一切変わらないのでリスクもありません。
+
+副産物として、**埋め込みの取得もビルドがやります**。手元で
+`embeddings_store.py pull` を忘れる余地が無くなります。
+
+### 初回だけ: 権限とリポジトリ接続
+
+```bash
+gcloud config set project gen-lang-client-0036162343
+gcloud services enable cloudbuild.googleapis.com artifactregistry.googleapis.com
+
+PROJECT_NUMBER=$(gcloud projects describe gen-lang-client-0036162343 --format='value(projectNumber)')
+CB="${PROJECT_NUMBER}@cloudbuild.gserviceaccount.com"
+
+# Cloud Run へデプロイする権限
+gcloud projects add-iam-policy-binding gen-lang-client-0036162343 \
+  --member="serviceAccount:${CB}" --role=roles/run.developer
+# デプロイ先サービスの実行 SA を使う権限
+gcloud iam service-accounts add-iam-policy-binding \
+  "${PROJECT_NUMBER}-compute@developer.gserviceaccount.com" \
+  --member="serviceAccount:${CB}" --role=roles/iam.serviceAccountUser
+# 埋め込みを GCS から読む権限（このバケットに限る）
+gcloud storage buckets add-iam-policy-binding \
+  gs://gen-lang-client-0036162343-jaf-data \
+  --member="serviceAccount:${CB}" --role=roles/storage.objectViewer
+
+# 確認
+gcloud projects get-iam-policy gen-lang-client-0036162343 \
+  --flatten='bindings[].members' --format='value(bindings.role)' \
+  --filter="bindings.members:${CB}"
+```
+
+GitHub との接続とトリガーの作成は**コンソールが確実**です
+（GitHub App のインストール同意が必要なため）。
+
+1. Cloud Build → トリガー → 「リポジトリを接続」→ GitHub →
+   `maruyamah-duxi/motorsports-regulations`
+2. トリガーを作成
+   - イベント: **手動起動**（push では起動しない）
+   - 構成: **Cloud Build 構成ファイル** `/cloudbuild.yaml`
+   - 名前: `jaf-regulations-deploy`
+
+**イベントは必ず「手動起動」にしてください。** 規則の内容が変わるサービスなので、
+公開は人が判断する方針です（`architecture.md` 7-d）。
+
+### ふだんのデプロイ
+
+```bash
+git push        # 先にこれ。Cloud Build は GitHub から取るので push 必須
+
+gcloud builds triggers run jaf-regulations-deploy --branch=main --region=global
+```
+
+コンソールのトリガー一覧から「実行」を押しても同じです。ビルドの最後に
+`/api/healthz` を叩いて **`docsWith` が 0 のものが無いか確かめてから終わります**。
+ここで落ちたら、その回のデプロイは中身が欠けています。
+
+> **`git push` を忘れると古いコードがデプロイされます。** Cloud Build は
+> 手元の作業ツリーではなく GitHub を見ます。`--source .` とはここが逆なので
+> 注意してください。
+
+### `--source .` はどこで残るか
+
+手元だけの変更を試したいとき（push したくないとき）は従来どおり使えます。
+そのときは埋め込みの取得を自分でやってください。
+
+```bash
+python pipeline/embeddings_store.py pull
+gcloud run deploy jaf-regulations-next --source . --region us-west1 \
+  --allow-unauthenticated --memory 1Gi --max-instances 3
+```
+
+---
+
 ## 5. 初回に必要な API の有効化
 
 `gcloud run deploy --source` は Cloud Build と Artifact Registry を使います。
@@ -237,12 +316,12 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 
 ---
 
-## 6. これから自動化する場合
+## 6. デプロイの自動化はしない
 
-`content/` は GitHub Actions が毎日更新するので、デプロイもそこに繋げられます。
+規則の内容が変わるサービスなので、**公開は人が判断する**方針です。
+週次同期が更新をコミットしたら GitHub Issue で通知が来るので、それを見て
+上の 4-5 のトリガーを手で実行します。
 
-1. Workload Identity 連携で GitHub Actions → GCP の認証を設定
-2. `regulations-sync` が `content/` を更新したときだけ `gcloud run deploy` を実行
-3. まず `--no-traffic --tag preview` で上げ、確認後に手動で `update-traffic`
-
-規則の内容が変わるサービスなので、**自動でトラフィックまで切り替えない**運用を勧めます。
+将来もし自動化するなら、`--no-traffic --tag preview` で上げて確認後に
+`update-traffic` する 2 段にしてください。**トラフィックの切り替えまで
+自動にしない**のが要点です。

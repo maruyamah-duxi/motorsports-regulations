@@ -13,6 +13,7 @@ docs
 tests
 samples
 .cache
+Claude outputs
 # 検索インデックスはイメージ内で作り直す。埋め込みは実体（GCS から pull した
 # もの）とマニフェストの両方を持ち込む。マニフェストが無いと
 # build_index.py --require-vectors のガードが働かない。

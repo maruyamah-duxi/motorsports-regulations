@@ -1,0 +1,133 @@
+# Cloud Build でイメージを作って Cloud Run へ出す。
+#
+# なぜこれを使うのか
+# ------------------
+# `gcloud run deploy --source .` は**毎回 121MB をアップロード**する
+# （content/ 86MB + data/embeddings.sqlite 34MB）。Cloud Build を GitHub
+# リポジトリに紐づけると Cloud Build 側が直接クローンするので、
+# **アップロードが 0 になる**。配信経路は一切変わらないのでリスクも低い。
+#
+# 副産物として、埋め込みの取得もここでやる。従来は手元で
+# `embeddings_store.py pull` を忘れるとビルドが落ちていたが、この構成では
+# **ビルドが自分で GCS から取る**ので忘れようがない。
+#
+# デプロイは自動化しない（規則の内容が変わるので公開は人が判断する）。
+# トリガーは**手動実行**で作る。手順は docs/deploy.md を参照。
+
+substitutions:
+  _SERVICE: jaf-regulations-next
+  _REGION: us-west1
+  _REPO: cloud-run-source-deploy
+
+steps:
+  # 埋め込みの実体は git に入っていない（34MB のバイナリなので GCS）。
+  # マニフェストが指す先（uri）から取る。バケット名をここに書かないのは、
+  # マニフェストが正本で、二重に持つと食い違うため。取れなければ落とす
+  # （build_index.py --require-vectors が後段で弾くが、原因が分かりにくい）。
+  - id: 埋め込みを取得
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -euo pipefail
+        uri=$(python3 -c "import json;print(json.load(open('data/embeddings.manifest.json'))['uri'])")
+        echo "埋め込みを取得: $$uri"
+        gcloud storage cp "$$uri" data/embeddings.sqlite
+        python3 - <<'PY'
+        import json, sqlite3, hashlib, pathlib
+        m = json.load(open("data/embeddings.manifest.json"))
+        p = pathlib.Path("data/embeddings.sqlite")
+        rows = sqlite3.connect(f"file:{p}?mode=ro", uri=True).execute(
+            "select count(*) from vectors").fetchone()[0]
+        h = hashlib.sha256(p.read_bytes()).hexdigest()
+        print(f"  {rows} 行 / sha256 {h[:16]}…")
+        assert rows > 0, "取得した埋め込みが 0 行です"
+        assert h == m["sha256"], (
+            f"マニフェストと一致しません。manifest={m['sha256'][:16]}… gcs={h[:16]}…\n"
+            "  マニフェストをコミットし忘れているか、GCS 側が更新されています。"
+        )
+        PY
+
+  - id: イメージをビルド
+    name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - -t
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+      - .
+
+  - id: イメージを push
+    name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - --all-tags
+      - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}
+
+  # --image だけを指定する。メモリ・インスタンス数・シークレット
+  # （GEMINI_API_KEY）は既存のサービス設定がそのまま引き継がれる。
+  # ここで --update-secrets を書くと、名前を間違えたときに壊れた参照が
+  # サービス仕様に残って以降の更新が全部失敗する（過去に踏んだ）。
+  - id: Cloud Run へデプロイ
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - ${_SERVICE}
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+      - --region=${_REGION}
+      - --quiet
+
+  # デプロイした中身が本当に入っているかを確かめる。
+  # 一度 .dockerignore のファイル名を間違えて、公示が黙って 0 件のまま
+  # 公開したことがある。任意データは欠けてもエラーにならないので、
+  # ここで数字を見て落とす。
+  - id: 中身を確認
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        set -euo pipefail
+        url=$(gcloud run services describe ${_SERVICE} --region ${_REGION} \
+                --format='value(status.url)')
+        echo "確認先: $$url/api/healthz"
+        body=""
+        for i in 1 2 3 4 5; do
+          body=$(curl -fsS "$$url/api/healthz") && break
+          echo "  まだ応答しません（$$i/5）"; sleep 6
+        done
+        if [ -z "$$body" ]; then
+          echo "デプロイしたリビジョンが応答しません: $$url/api/healthz"
+          exit 1
+        fi
+        echo "$$body"
+        python3 - "$$body" <<'PY'
+        import json, sys
+        h = json.loads(sys.argv[1])
+        assert h.get("ok"), h
+        assert h.get("vectors", 0) > 0, "ベクトルが入っていません"
+        w = h.get("docsWith") or {}
+        empty = [k for k, v in w.items() if not v]
+        assert not empty, (
+            f"{', '.join(empty)} が 0 件です。"
+            ".dockerignore で data/ から通すファイル名が build_index.py の"
+            "既定値と揃っているか確認してください。"
+        )
+        print(f"OK  リビジョン {h.get('revision')} / ベクトル {h['vectors']} / {w}")
+        PY
+
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:$SHORT_SHA
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/${_SERVICE}:latest
+
+# npm ci + pip install + 検索インデックス生成（5,148 ページ）で数分かかる
+timeout: 1800s
+
+options:
+  # ビルドログの置き場。サービスアカウントを指定する構成では必須で、
+  # 指定しないと「logs bucket が要る」で落ちる。
+  logging: CLOUD_LOGGING_ONLY
