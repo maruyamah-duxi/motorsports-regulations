@@ -227,10 +227,13 @@ Cloud Run 上に **SQLite FTS5 + trigram トークナイザ** の DB をイメ�
 | 3 | PDF → 構造化データ + 図版 (`layout.py` / `convert.py` / `render.py`) | ✅ 試作 |
 | 4 | GitHub Actions での定期実行 | ✅ 試作 |
 | 5 | **実 PDF での変換品質検証**（図の過検出・欠落、読み順、表） | ⬜ 次 |
-| 6 | 検索 DB（FTS5 trigram）生成と `/api/search` | ⬜ |
-| 7 | RAG（チャンク・埋め込み・`/api/ask`）と鍵のサーバ移設 | ⬜ |
-| 8 | フロント刷新（規則ビューア・目次・原本ページ並置・改正差分） | ⬜ |
-| 9 | 図版の GCS 移設 | ⬜ |
+| 6 | 検索 DB（FTS5 trigram）生成と `/api/search` | ✅ 完了 |
+| 7 | RAG（チャンク・埋め込み・`/api/ask`）と鍵のサーバ移設 | ✅ 実装（[`ai-answers.md`](./ai-answers.md)）／埋め込みの初回取得が残 |
+| 8 | フロント刷新（規則ビューア・目次・全文検索・AI 質問） | ✅ 完了 |
+| 9 | 独自ドメインの付け替え（[`domain-switch.md`](./domain-switch.md)） | ✅ 完了 |
+| 10 | 改正差分ページ（更新前後の条単位の突き合わせ） | ⬜ |
+| 11 | 日次同期からのデプロイ自動化 | ⬜ |
+| 12 | 図版の GCS 移設 | ⬜ |
 
 ---
 
