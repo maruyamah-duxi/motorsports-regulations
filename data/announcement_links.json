@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T05:50:42+00:00",
+ "generatedAt": "2026-09-11T04:53:33+00:00",
  "series": {
   "jaf_kokunai_kisoku_homologe": [
    {
@@ -155,6 +155,351 @@
     "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2024/20240219",
     "attachments": [],
     "hasComparison": false
+   },
+   {
+    "id": "bc58d37fa09a42fe9b411418ccef112d",
+    "date": "2023-11-28",
+    "noticeNo": "2023-WEB093",
+    "title": "2024年JAF国内競技車両規則 第2編および第4編の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231127",
+    "attachments": [
+     {
+      "text": "2024年JAF国内競技車両規則・第2編「ラリー車両規定」一部改正（PDF : 163.63KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231127.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2024年JAF国内競技車両規則・第4編「カーボンニュートラルに関する共通規定」一部改正（PDF : 134.27KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231127-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "2dc7200eda6b41638a8c269af42bb5e8",
+    "date": "2023-09-05",
+    "noticeNo": "2023-WEB069",
+    "title": "2024年JAF国内競技車両規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230905",
+    "attachments": [
+     {
+      "text": "2024年JAF国内競技車両規則・第1編レース車両規定（PDF : 681.4KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230905.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2024年JAF国内競技車両規則・第3編スピード車両規定（PDF : 71.96KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230905-2.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2024年JAF国内競技車両規則・第4編 カーボンニュートラルに関する共通規定（PDF : 975.5KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230905-3.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "43babbaf1bed41859b02d96c76a4015b",
+    "date": "2023-05-17",
+    "noticeNo": "2023-WEB041",
+    "title": "2023年JAF国内競技車両規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230517",
+    "attachments": [
+     {
+      "text": "2023年国内競技車両規則第1編第10章 一部改正 (対比表)　（PDF : 143.81 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230517.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "ed0f639877b24f00ae0db3e600c8d282",
+    "date": "2023-03-27",
+    "noticeNo": "2023-WEB027",
+    "title": "2023年JAF国内競技車両規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230324_02",
+    "attachments": [
+     {
+      "text": "2023年国内競技車両規則第1編第10章 一部改正（対比表）（PDF : 60.95KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230324_02-1.pdf",
+      "comparison": true
+     },
+     {
+      "text": "2023年国内競技車両規則第1編第11章 一部改正（対比表）（PDF : 129.46KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230324_02-2.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "46a014811bef4fd3a6d581c4e1ac10cc",
+    "date": "2022-09-21",
+    "noticeNo": "2022-WEB074",
+    "title": "2023年JAF国内競技車両規則第3編スピード車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220920",
+    "attachments": [
+     {
+      "text": "2023年JAF国内競技車両規則 第3編スピード車両規定（PDF : 392.16 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220920.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d29fb167adf644dba6d2d83b83bf4010",
+    "date": "2022-09-01",
+    "noticeNo": "2022-WEB069",
+    "title": "ラリー競技開催規定、2023年日本ラリー選手権規定およびJAF国内競技車両規則第2編ラリー車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220901",
+    "attachments": [
+     {
+      "text": "2023年JAF国内競技車両規則　第2編ラリー車両規定（PDF : 418.8KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220901-3.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b4649de1f7c746718346d056b605ae7d",
+    "date": "2022-08-22",
+    "noticeNo": "2022-WEB057",
+    "title": "2022年JAF国内競技車両規則一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220819",
+    "attachments": [
+     {
+      "text": "2022年国内競技車両規則一部改正 対比表（PDF : 1.53MB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220819.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "b6a525b8c4ef409283f093fcfc9046fc",
+    "date": "2022-04-06",
+    "noticeNo": "2022-WEB031",
+    "title": "2022年JAF国内競技車両規則第10章「スーパーフォーミュラ・ライツ（SFL）」第4条エンジンに基づく仕様変更に係るJAF承認について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220405-03",
+    "attachments": [
+     {
+      "text": "2022年JAF国内競技車両規則第10章「スーパーフォーミュラ・ライツ（SFL）」第4条エンジンに基づく仕様変更に係るJAF承認について（PDF : 1,099 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220405-03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "1eff30cdc36246febaa784c964257679",
+    "date": "2021-10-01",
+    "noticeNo": "2021-WEB095",
+    "title": "2022年JAF国内競技車両規則の制定と誤記訂正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20211001-02",
+    "attachments": [
+     {
+      "text": "2022年JAF国内競技車両規則 第4編 細則 改正（82.5 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20211001-02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "f0928c38b7f54707ae1f31c70ee6f35a",
+    "date": "2021-09-14",
+    "noticeNo": "2021-WEB085",
+    "title": "2022年日本ラリー選手権規定及びJAF国内競技車両規則第2編ラリー車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210913",
+    "attachments": [
+     {
+      "text": "2022年JAF国内競技車両規則　第2編ラリー車両規定（327KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210913_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "e6d7943e197b4c169ad0536b2d993930",
+    "date": "2021-08-27",
+    "noticeNo": "2021-WEB075",
+    "title": "2022年JAF国内競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210826-02",
+    "attachments": [
+     {
+      "text": "2022年JAF国内競技車両規則　第1編レース車両規定（313 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210826_01.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2022年JAF国内競技車両規則　第3編スピード車両規定 （89 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210826_02.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2022年JAF国内競技車両規則　第4編細則（85 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210826_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "19ba1b4caccd4496bd159fd1e89e39cd",
+    "date": "2020-08-27",
+    "noticeNo": "2020-WEB068",
+    "title": "2020年JAF国内競技車両規則第12章「スーパーフォーミュラ・ライツ（SFL）」第4条エンジンに基づく仕様変更に係るJAF承認について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200827-02",
+    "attachments": [
+     {
+      "text": "2020年JAF国内競技車両規則第12章「ｽｰﾊﾟｰﾌｫｰﾐｭﾗ･ﾗｲﾂ(SFL)」第4条エンジンに基づく仕様変更に係るJAF承認について(139.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/3414/1077_01_cms_20200826163525_7979_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d5214f0524754e9ab6786d6a05e88da5",
+    "date": "2020-08-14",
+    "noticeNo": "2020-WEB064",
+    "title": "2021年JAF国内競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200814",
+    "attachments": [
+     {
+      "text": "2021年JAF国内競技車両規則 第１編レース車両規定(81.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1146_cms_20200811113403_7960_00002.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2021年JAF国内競技車両規則 第２編ラリー車両規定(40.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1147_cms_20200811113403_7960_00001.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2021年JAF国内競技車両規則 第３編スピード車両規定(305.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1148_cms_20200811113403_7960_00003.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "2d179bdc1d2c4d618609f44eb518a567",
+    "date": "2019-08-29",
+    "noticeNo": "2019-WEB038",
+    "title": "2020年JAF国内競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190829-02",
+    "attachments": [
+     {
+      "text": "2020年JAF国内競技車両規則 第１編レース車両規定(477.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1295_cms_20190910154907_24233_00003.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2020年JAF国内競技車両規則 第２編ラリー車両規定(111.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1296_cms_20190910154907_24233_00002.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2020年JAF国内競技車両規則 第３編スピード車両規定(946.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1297_cms_20190910154907_24233_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "7dc2ea75d73f4d87a716f308176bfaea",
+    "date": "2019-04-18",
+    "noticeNo": "2019-WEB021",
+    "title": "2019年JAF国内競技車両規則　第1編第12章スーパーフォーミュラ（SF）一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190418",
+    "attachments": [
+     {
+      "text": "2019年JAF国内競技車両規則　第1編第12章スーパーフォーミュラ（SF）の一部改正(438.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1334_cms_20190417145523_30451_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b61b64920b4c4db591998d590c12283e",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB024",
+    "title": "2019年JAF国内競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-03",
+    "attachments": [
+     {
+      "text": "2019年JAF国内競技車両規則第１編レース車両規定の制定(1208.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1415_cms_20180823092338_22841_00001.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2019年JAF国内競技車両規則第２編ラリー車両規定の制定(216.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1416_cms_20180824171449_15138_00001.pdf",
+      "comparison": false
+     },
+     {
+      "text": "2019年JAF国内競技車両規則第３編スピード車両規定の制定(89KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1417_cms_20180821161138_26955_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "523f50de7dc24436b9a44647dde3e7a8",
+    "date": "2018-03-14",
+    "noticeNo": "2018-WEB004",
+    "title": "2018年JAF国内競技車両規則の訂正とお詫び",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180314",
+    "attachments": [
+     {
+      "text": "第11章フォーミュラ4 232ページ 第2条2.7）ウィング （訂正）（114.1KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1451_cms_20180314130857_756_00003.pdf",
+      "comparison": false
+     },
+     {
+      "text": "第11章フォーミュラ4 表11－3図の訂正（図面の差し替え）（540.6KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1452_cms_20180314130857_756_00002.pdf",
+      "comparison": false
+     },
+     {
+      "text": "第4編 付則 レース競技に参加するドライバーの装備品に関する付則 519および527ページ 耐火炎ソックスの着用義務に関する訂正（234.6KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1453_cms_20180314130857_756_00004.pdf",
+      "comparison": false
+     },
+     {
+      "text": "第4編 付則 ラリー車両およびスピードSA車両の後付マフラーに関する付則の追加（171.9KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1454_cms_20180314130857_756_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b16c3933a76c418992a4e39aa91290ba",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB007",
+    "title": "2018年JAF国内競技車両規則の制定（改正概要）",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-02",
+    "attachments": [
+     {
+      "text": "2018年JAF国内競技車両規則の制定（改正概要）（438.5KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1498_cms_20170822161659_6693_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_yonrin_fees": [
@@ -172,6 +517,51 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "54b0d26eb7a342d6a3c89fb379100af1",
+    "date": "2022-08-26",
+    "noticeNo": "2022-WEB063",
+    "title": "自動車競技に関する申請・登録等手数料規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220826_02",
+    "attachments": [
+     {
+      "text": "自動車競技に関する申請・登録等手数料規定の一部改正について\n（PDF : 43.24KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220826_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "2c87cf093c4d40fa9540b59de7ae4f6c",
+    "date": "2022-06-02",
+    "noticeNo": "2022-WEB039",
+    "title": "自動車競技に関する申請・登録等手数料規定、及びカート競技に関する申請・登録等手数料規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220601",
+    "attachments": [
+     {
+      "text": "自動車競技に関する申請・登録等手数料規定 新旧対照表（PDF : 74.1 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/20220601_01.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "8036173338be4878bd4d161c3092edf7",
+    "date": "2021-09-16",
+    "noticeNo": "2021-WEB091",
+    "title": "自動車競技に関する申請・登録等手数料規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210907-04",
+    "attachments": [
+     {
+      "text": "自動車競技に関する申請・登録等手数料規定の一部改正について（218 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210907-04_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_fees": [
@@ -189,6 +579,36 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "2c87cf093c4d40fa9540b59de7ae4f6c",
+    "date": "2022-06-02",
+    "noticeNo": "2022-WEB039",
+    "title": "自動車競技に関する申請・登録等手数料規定、及びカート競技に関する申請・登録等手数料規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220601",
+    "attachments": [
+     {
+      "text": "カート競技に関する申請・登録等手数料規定 新旧対照表（PDF : 84.1 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/20220601_02.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "0835778d31194f2ab5ed00b08851532e",
+    "date": "2021-10-01",
+    "noticeNo": "2021-WEBK13",
+    "title": "カート競技に関する申請・登録等手数料規定の改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210928",
+    "attachments": [
+     {
+      "text": "カート競技に関する申請・登録等手数料規定(289KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210928_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_jafcup_circuit": [
@@ -283,6 +703,150 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "9055d96504664e63a8192127b11ed47e",
+    "date": "2023-08-03",
+    "noticeNo": "2023-WEB057",
+    "title": "2024年日本カート選手権規定の制定及びJAFカートカレンダー登録規定の改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230801_02",
+    "attachments": [
+     {
+      "text": "2024年日本カート選手権規定の制定について（PDF : 256.85KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230801_02-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "bf7ebd5f81b5477da223480fbfa240fe",
+    "date": "2023-01-12",
+    "noticeNo": "2023-WEB002",
+    "title": "2023年日本カート選手権規定一部改正及び2023年全日本/ジュニアカート選手権統一規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230106",
+    "attachments": [
+     {
+      "text": "2023年日本カート選手権規定の一部改正（PDF : 161 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20230106.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "5ac402b923aa4b52b2532599206d9a6e",
+    "date": "2022-08-04",
+    "noticeNo": "2022-WEB049",
+    "title": "2023年日本カート選手権規定及び2023年国内カート競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220804",
+    "attachments": [
+     {
+      "text": "2023年日本カート選手権規定について",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220804_2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "2f90ca01a1d149a2a0d37ca5183bc504",
+    "date": "2022-01-19",
+    "noticeNo": "2022-WEB007",
+    "title": "2022年日本カート選手権規定及び2022年全日本/ジュニアカート選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220118",
+    "attachments": [
+     {
+      "text": "2022年日本カート選手権規定（対比表）（PDF : 100KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220118_03.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "c9dc3e374c464264b831db8b09981c1f",
+    "date": "2021-08-25",
+    "noticeNo": "2021-WEBK10",
+    "title": "2022年日本カート選手権規定及び2022年国内カート競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210825",
+    "attachments": [
+     {
+      "text": "2022年日本カート選手権規定（PDF : 280KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210825_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "e48af742078b4a72af66b2167d10db62",
+    "date": "2020-09-29",
+    "noticeNo": "2020-WEBK16",
+    "title": "2021年日本カート選手権規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200929-02",
+    "attachments": [
+     {
+      "text": "2021年日本カート選手権規定（2020年日本カート選手権規定対比表）(126.8KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1129_cms_20200929091609_3718_00001.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "08867289755a4b7c91527d96d384d34c",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEBK15",
+    "title": "2021年日本カート選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-01",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "fc19fce66c63495db094bd1d756e23f4",
+    "date": "2019-08-07",
+    "noticeNo": "2019-WEBK11",
+    "title": "2020年日本カート選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190807",
+    "attachments": [
+     {
+      "text": "2020年日本カート選手権規定の制定(280.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1319_cms_20190806160812_15224_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6f4aa98d1a3c443299dac91e1bee3c16",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEBK05",
+    "title": "2019年日本カート選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-02",
+    "attachments": [
+     {
+      "text": "2019年日本カート選手権規定の制定(245.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1419_cms_20180821172545_28312_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b537cac0a26a48a2859a1cc1c7f90b3e",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEBK01",
+    "title": "2018年日本カート選手権規定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-06",
+    "attachments": [
+     {
+      "text": "2018年日本カート選手権規定（137KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1489_cms_20170809110029_3194_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_sport_reg_ct": [
@@ -329,6 +893,90 @@
       "comparison": false
      }
     ],
+    "hasComparison": false
+   },
+   {
+    "id": "6b4e622dcf81427e874bf0fca5ca438c",
+    "date": "2023-08-03",
+    "noticeNo": "2023-WEB055",
+    "title": "2024年日本サーキットトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230801",
+    "attachments": [
+     {
+      "text": "2024年日本サーキットトライアル選手権規定（PDF : 80.27KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230801.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c35aefa4f1894a30859e748c402f86c1",
+    "date": "2022-08-08",
+    "noticeNo": "2022-WEB051",
+    "title": "2023年日本サーキットトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220805",
+    "attachments": [
+     {
+      "text": "2023年日本サーキットトライアル選手権規定の制定について（PDF ： 83.9KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220805_1.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "e0a3db9525d6405a8dbd77369bea9351",
+    "date": "2021-08-12",
+    "noticeNo": "2021-WEB057",
+    "title": "2022年日本サーキットトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210806-04",
+    "attachments": [
+     {
+      "text": "2022年日本サーキットトライアル選手権規定の制定(75.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210806-04_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "cf8e3525346d4c3e9f7e698a8fa7f2c5",
+    "date": "2020-04-10",
+    "noticeNo": "2020-WEB020",
+    "title": "2021年日本サーキットトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200410-03",
+    "attachments": [
+     {
+      "text": "2021年日本サーキットトライアル選手権規定の制定 (78.5KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1213_cms_20200410123253_13774_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "0c9b3ebdd1bb4c5fa776666363211556",
+    "date": "2019-08-20",
+    "noticeNo": "2019-WEB034",
+    "title": "2020年日本サーキットトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190820",
+    "attachments": [
+     {
+      "text": "2020年日本サーキットトライアル選手権規定の制定(110.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1306_cms_20190815172836_28435_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "da4fd403844f4ca6b1cb4b835f8f6899",
+    "date": "2018-05-25",
+    "noticeNo": "2018-WEB012",
+    "title": "2019年日本サーキットトライアル選手権規定　改正内容",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180525-01",
+    "attachments": [],
     "hasComparison": false
    }
   ],
@@ -388,6 +1036,156 @@
      {
       "text": "2025年日本レース選手権規定の制定について（PDF : 74.1 KB）",
       "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4199/20240729.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "99a69a8868524454b5f9adbb916971df",
+    "date": "2023-09-12",
+    "noticeNo": "2023-WEB071",
+    "title": "2024年日本レース選手権規定の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230912",
+    "attachments": [
+     {
+      "text": "2024年日本レース選手権規定の制定について（PDF : 69.66 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230912.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d74493404ee94cd3bccec2ad7f327680",
+    "date": "2023-05-17",
+    "noticeNo": "2023-WEB042",
+    "title": "2023年日本レース選手権規定一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230517_02",
+    "attachments": [
+     {
+      "text": "2023年日本レース選手権規定第19条ドライバーの参加資格　一部改正（PDF : 106.21 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230517_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "e196eb0f551b4b8f8b5208aae4ec4874",
+    "date": "2023-04-03",
+    "noticeNo": "2023-WEB032",
+    "title": "2023年日本レース選手権規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230330",
+    "attachments": [
+     {
+      "text": "2023年日本レース選手権規定の一部改正（PDF : 158.01 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230330.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3d03681fccfd41e2bf4b5ed2a17230df",
+    "date": "2022-08-09",
+    "noticeNo": "2022-WEB054",
+    "title": "2023年日本レース選手権の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220808-02",
+    "attachments": [
+     {
+      "text": "2023年日本レース選手権規定改正について（PDF : 190.5KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220808_1.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "04b8ceac6018484fad5300090085ba2f",
+    "date": "2021-08-13",
+    "noticeNo": "2021-WEB058",
+    "title": "2022年日本レース選手権の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210812",
+    "attachments": [
+     {
+      "text": "2022年日本レース選手権規定改正 (52.3 KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210812_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "cb5bdd2d06264549b48f259b6bb53864",
+    "date": "2020-08-07",
+    "noticeNo": "2020-WEB058",
+    "title": "2021年日本レース選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200807",
+    "attachments": [
+     {
+      "text": "2021年日本レース選手権規定の制定(126.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1160_cms_20200806153700_28680_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "26340365ad2945db8a102ab4cd3ad97f",
+    "date": "2019-12-26",
+    "noticeNo": "2019-WEB059",
+    "title": "2020年日本レース選手権規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191226-03",
+    "attachments": [
+     {
+      "text": "2020年日本レース選手権規定の一部改正(78.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1248_cms_20191225164133_4540_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "4be3827263f94f6d931ebe781715353f",
+    "date": "2019-08-09",
+    "noticeNo": "2019-WEB032",
+    "title": "2020年日本レース選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190809",
+    "attachments": [
+     {
+      "text": "2020年日本レース選手権規定の制定(167.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1314_cms_20190809150739_30532_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b1500e755c7f41769437e72afb03aa56",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB027",
+    "title": "2019年日本レース選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-06",
+    "attachments": [
+     {
+      "text": "2019年日本レース選手権規定の制定(128KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1409_cms_20180821165011_27763_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c47dcab7746c4765bd00ebf696794257",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB008",
+    "title": "2018年日本レース選手権規定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-03",
+    "attachments": [
+     {
+      "text": "2018年日本レース選手権規定（92KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1496_cms_20170809114100_3824_00001.pdf",
       "comparison": false
      }
     ],
@@ -491,6 +1289,165 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "ad41b3521820488a8ce56da03a340a45",
+    "date": "2023-10-13",
+    "noticeNo": "2023-WEB079",
+    "title": "2024年日本ラリー選手権規定の改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231013",
+    "attachments": [
+     {
+      "text": "日本ラリー選手権規定対比表（PDF : 77.76 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231013.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "d3ce96872d724c3aa146d1a19f1492de",
+    "date": "2023-08-08",
+    "noticeNo": "2023-WEB058",
+    "title": "2024年日本ラリー選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230808",
+    "attachments": [
+     {
+      "text": "2024年日本ラリー選手権規定（PDF : 29.16KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230808.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "7801981fde77489aac93e66b5748dbd4",
+    "date": "2023-02-02",
+    "noticeNo": "2023-WEB009",
+    "title": "2023年日本ラリー選手権規定第7条参加車両第2項および第3項に基づく車両の解釈について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230202",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "d29fb167adf644dba6d2d83b83bf4010",
+    "date": "2022-09-01",
+    "noticeNo": "2022-WEB069",
+    "title": "ラリー競技開催規定、2023年日本ラリー選手権規定およびJAF国内競技車両規則第2編ラリー車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220901",
+    "attachments": [
+     {
+      "text": "2023年日本ラリー選手権規定（PDF : 176.85KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220901-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6d490befe03944fc9c8731110ef7029b",
+    "date": "2022-01-14",
+    "noticeNo": "2022-WEB005",
+    "title": "2022年日本ラリー選手権規定一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220114",
+    "attachments": [
+     {
+      "text": "2022年日本ラリー選手権規定一部改正について（PDF : 32.4KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220114_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "f0928c38b7f54707ae1f31c70ee6f35a",
+    "date": "2021-09-14",
+    "noticeNo": "2021-WEB085",
+    "title": "2022年日本ラリー選手権規定及びJAF国内競技車両規則第2編ラリー車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210913",
+    "attachments": [
+     {
+      "text": "2022年日本ラリー選手権規定（160KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210913_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "992ad050054641c69288fc8656ce2234",
+    "date": "2020-08-11",
+    "noticeNo": "2020-WEB063",
+    "title": "2021年日本ラリー選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200811-05",
+    "attachments": [
+     {
+      "text": "2021年日本ラリー選手権規定の制定(61.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1150_cms_20200807124221_10571_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "7799889d8545491b967c31b68dcfa96c",
+    "date": "2020-07-08",
+    "noticeNo": "2020-WEB050",
+    "title": "2020年日本ラリー選手権規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200708",
+    "attachments": [
+     {
+      "text": "2020年日本ラリー選手権規定の一部改正について(33.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1172_cms_20200703130342_30952_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "1ab0b781d497410d9061f32e0f3fd0d9",
+    "date": "2019-08-23",
+    "noticeNo": "2019-WEB036",
+    "title": "2020年日本ラリー選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190823",
+    "attachments": [
+     {
+      "text": "2020年日本ラリー選手権規定の制定(54.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1302_cms_20190823145817_32320_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "8061719983c341709976267e31cd9476",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB026",
+    "title": "2019年日本ラリー選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-05",
+    "attachments": [
+     {
+      "text": "2019年日本ラリー選手権規定の制定(203.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1411_cms_20180821164851_27703_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "444367c025de4525ae0ce33c718e0cf7",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB009",
+    "title": "2018年日本ラリー選手権規定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-04",
+    "attachments": [
+     {
+      "text": "2018年日本ラリー選手権規定（242.3KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1494_cms_20170824091140_30951_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_shikaku_touroku": [
@@ -553,6 +1510,99 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "816f15851db849a6a6dc05a1ab2227bc",
+    "date": "2022-12-19",
+    "noticeNo": "2022-WEB089",
+    "title": "JAFスポーツ資格登録規定の取扱いについて",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20221219",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "9b93f40d55b44acf8a37d21be39c5474",
+    "date": "2022-12-07",
+    "noticeNo": "2022-WEB086",
+    "title": "JAFスポーツ資格登録規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20221206",
+    "attachments": [
+     {
+      "text": "JAFスポーツ資格登録規定の一部改正について（PDF : 73.22 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20221206.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3c58514e48f94bf6aeae82fe72b4b085",
+    "date": "2022-08-29",
+    "noticeNo": "2022-WEB064",
+    "title": "JAFスポーツ資格登録規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220829",
+    "attachments": [
+     {
+      "text": "JAFスポーツ資格登録規定の改正について（PDF : 55.37KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220829.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "439ab13bd92343bb978a27100d7d321c",
+    "date": "2022-03-29",
+    "noticeNo": "2022-WEB023",
+    "title": "JAFスポーツ資格登録規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220329-03",
+    "attachments": [
+     {
+      "text": "JAFスポーツ資格登録規定の改正について＜新旧対照表＞（PDF : 111KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220329-03_01.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "44a32f9eb5774c5d8df93043be91f8da",
+    "date": "2021-09-16",
+    "noticeNo": "2021-WEB089",
+    "title": "JAFスポーツ資格登録規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210907-02",
+    "attachments": [
+     {
+      "text": "JAFスポーツ資格登録規定の一部改正について（253 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210907-02_01_3.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6b86a527efa14f6ba95c089ce40d0e4c",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB023",
+    "title": "JAFスポーツ資格登録規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-10",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "b8be504f084443e28149bb0816650c69",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB011",
+    "title": "JAFスポーツ資格登録規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-07",
+    "attachments": [
+     {
+      "text": "JAFスポーツ資格登録規定の一部改正（30.4KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1487_cms_20170809110125_3247_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_license_application": [
@@ -585,6 +1635,51 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "ae1643e653ee4756b2e6d93fea6dc976",
+    "date": "2022-08-29",
+    "noticeNo": "2022-WEB065",
+    "title": "カートライセンス発給規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220829_02",
+    "attachments": [
+     {
+      "text": "カートライセンス発給規定の改正について（PDF : 33.27KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220829-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "09c69014ce8e45a69f0e4429c746a68c",
+    "date": "2021-12-28",
+    "noticeNo": "2021-WEBK19",
+    "title": "JAF国内カート競技規則・細則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20211228",
+    "attachments": [
+     {
+      "text": "カートライセンス発給規定　細則：ゴーカートライセンス（227KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20211228_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "54cc64608a9d4b88802e9fc8b9a9d873",
+    "date": "2021-09-29",
+    "noticeNo": "2021-WEBK12",
+    "title": "JAF国内カート競技規則・細則、規定の改定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210928-03",
+    "attachments": [
+     {
+      "text": "カートライセンス発給規定（591KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210928-03_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "touitsu_kisoku_all_japan_gymk_dirt": [
@@ -787,6 +1882,184 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "1734bb2f444d4a8daef84f75cf202c67",
+    "date": "2023-12-21",
+    "noticeNo": "2023-WEB101",
+    "title": "2024年全日本ジムカーナ/ダートトライアル選手権統一規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231220_02",
+    "attachments": [
+     {
+      "text": "2024年全日本ジムカーナ／ダートトライアル選手権統一規則 対比表（PDF :182.38 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231220-02.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "4924bd3f8d3c480ca74b74b30a940a80",
+    "date": "2023-08-16",
+    "noticeNo": "2023-WEB061",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則第2条2）における参考タイヤ銘柄について（2023年8月16日更新）",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230815",
+    "attachments": [
+     {
+      "text": "タイヤ銘柄・サイズ一覧表（2023年8月16日下線部更新）（PDF :  218.94 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230815.pdf",
+      "comparison": false
+     },
+     {
+      "text": "全日本ジムカーナ選手権　タイヤ銘柄一覧（PDF : 361.11 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230815-3.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "8c3b0957439145878e49cb23959315aa",
+    "date": "2023-03-02",
+    "noticeNo": "2023-WEB022",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則第2条2）における参考タイヤ銘柄追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230302_3",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "43150d035ca9431e93679fe3771c090c",
+    "date": "2023-02-15",
+    "noticeNo": "2023-WEB017",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則第2条2）における参考タイヤ銘柄追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230214_4",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "c6936146d53742e1b87a24979376de62",
+    "date": "2023-01-16",
+    "noticeNo": "2023-WEB003",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230116",
+    "attachments": [
+     {
+      "text": "2023年全日本ジムカーナダートトライアル選手権統一規則（PDF : 322.12 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20221208.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c450e1a01c00485bba29bd5b41911e53",
+    "date": "2022-11-30",
+    "noticeNo": "2022-WEB080",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則第2条2）における参考タイヤ銘柄について（2023年5月24日更新）",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20221130",
+    "attachments": [
+     {
+      "text": "適合サイズ一覧表（PDF : 218.5 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20221130.pdf",
+      "comparison": false
+     },
+     {
+      "text": "全日本ジムカーナ選手権 タイヤ銘柄一覧（2023年2月15日下線部更新）（PDF : 389.93 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20221130-3.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c893ffaf27934ed7bb8dae659146a82c",
+    "date": "2022-08-31",
+    "noticeNo": "2022-WEB066",
+    "title": "2023年全日本ジムカーナ/ダートトライアル選手権統一規則の一部制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220831",
+    "attachments": [
+     {
+      "text": "2023年全日本ジムカーナ・ダートトライアル選手権統一規則（PDF : 137.74 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220831.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b506621696304a4b8708e9a090cf6b81",
+    "date": "2022-01-06",
+    "noticeNo": "2022-WEB003",
+    "title": "2022年全日本ジムカーナ/ダートトライアル選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220106",
+    "attachments": [
+     {
+      "text": "2022年全日本ジムカーナ/ダートトライアル選手権統一規則（PDF : 195KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220106_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c48f300c43024a2f9b95bcfc64a346eb",
+    "date": "2021-01-20",
+    "noticeNo": "2021-WEB003",
+    "title": "2021年全日本ジムカーナ／ダートトライアル選手権統一規則の誤記訂正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210120",
+    "attachments": [
+     {
+      "text": "2021年全日本ジムカーナ／ダートトライアル選手権統一規則の誤記訂正(87.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1073_cms_20210120155345_5917_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "141b8bf1c4d0417d9d569d52cd45e5ee",
+    "date": "2020-12-18",
+    "noticeNo": "2020-WEB086",
+    "title": "2021年全日本ジムカーナ／ダートトライアル選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201218-01",
+    "attachments": [
+     {
+      "text": "2021年全日本ジムカーナ／ダートトライアル選手権統一規則(477.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1097_cms_20201218111216_23526_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "89f1e5bec41645cf910efed0358e9f68",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB057",
+    "title": "2020年全日本ジムカーナ／ダートトライアル選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-08",
+    "attachments": [
+     {
+      "text": "2020年全日本ジムカーナ／ダートトライアル選手権統一規則(200.1KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1255_cms_20191224142322_17642_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "075f841a782a41f8beb4ce15dfa9247c",
+    "date": "2019-01-17",
+    "noticeNo": "2019-WEB002",
+    "title": "2019年全日本ジムカーナ／ダートトライアル選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190117-03",
+    "attachments": [
+     {
+      "text": "2019年 全日本ジムカーナ／ダートトライアル選手権統一規則(221.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1370_cms_20190117150458_30973_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_sport_reg_gymk_dirt": [
@@ -899,6 +2172,150 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "e7eb427cc5cb46cd98a93f8297fc88af",
+    "date": "2023-03-28",
+    "noticeNo": "2023-WEB029",
+    "title": "2024年日本ジムカーナ/ダートトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230324_03",
+    "attachments": [
+     {
+      "text": "2024年日本ジムカーナ/ダートトライアル選手権規定（PDF : 100.15KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230324_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "93e29446436f4a6790cb5b1e512e2114",
+    "date": "2022-08-08",
+    "noticeNo": "2022-WEB052",
+    "title": "2023年日本ジムカーナ/ダートトライアル選手権規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220805-02",
+    "attachments": [
+     {
+      "text": "2023年日本ジムカーナ/ダートトライアル選手権規定の一部改正について（PDF : 150.09KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220805_2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6e85d4d093c64d43a652f535de92af62",
+    "date": "2022-04-05",
+    "noticeNo": "2022-WEB028",
+    "title": "2023年日本ジムカーナ/ダートトライアル選手権の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220405",
+    "attachments": [
+     {
+      "text": "2023年日本ジムカーナ/ダートトライアル選手権規定 対比表（PDF : 222 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220405.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "0f106e952c9342d093dc8ce025161b95",
+    "date": "2021-04-21",
+    "noticeNo": "2021-WEB024",
+    "title": "2022年日本ジムカーナ／ダートトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210421-01",
+    "attachments": [
+     {
+      "text": "2022年日本ジムカーナ／ダートトライアル選手権規定(135.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1036_cms_20210421110807_21897_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ca0eaadb2e8f4177a01c2f5b7091c85b",
+    "date": "2020-08-11",
+    "noticeNo": "2020-WEB061",
+    "title": "2021年日本ジムカーナ／ダートトライアル選手権規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200811-03",
+    "attachments": [
+     {
+      "text": "2021年日本ジムカーナ/ダートトライアル選手権規定の一部改正(47.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1154_cms_20200807123230_10306_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "fa0cbf6a1bab4959a4cf4441f3308c0d",
+    "date": "2020-08-11",
+    "noticeNo": "2020-WEB060",
+    "title": "2020年日本ジムカーナ／ダートトライアル選手権規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200811-02",
+    "attachments": [
+     {
+      "text": "2020年日本ジムカーナ／ダートトライアル選手権規定の一部改正(28KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1156_cms_20200807122704_10188_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ac1c8c2c0f4946a2b9fe726da2fed0dd",
+    "date": "2020-04-10",
+    "noticeNo": "2020-WEB018",
+    "title": "2021年日本ジムカーナ／ダートトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200410-01",
+    "attachments": [
+     {
+      "text": "2021年日本ジムカーナ/ダートトライアル選手権規定の制定(304.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/3414/1077_03_cms_20200410121349_13260_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "0255d373a69a48f2852a903392341aef",
+    "date": "2019-05-14",
+    "noticeNo": "2019-WEB023",
+    "title": "2020年日本ジムカーナ／ダートトライアル選手権規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190514-01",
+    "attachments": [
+     {
+      "text": "2020年日本ジムカーナ／ダートトライアル選手権規定の制定(70.1KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1331_cms_20190509150353_17322_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "38ceb5dd424c41be8da19cc191c87a21",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB025",
+    "title": "2019年日本ジムカーナ/ダートトライアル選手権規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-04",
+    "attachments": [
+     {
+      "text": "2019年日本ジムカーナ/ダートトライアル選手権規定の一部改正(38.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1413_cms_20180822172641_12027_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "197b7cd5d2ca4dd6aa25670d6186cbaa",
+    "date": "2018-05-25",
+    "noticeNo": "2018-WEB013",
+    "title": "2019年日本ジムカーナ/ダートトライアル選手権規定　改正内容",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180525-03",
+    "attachments": [],
+    "hasComparison": false
    }
   ],
   "touitsu_kisoku_all_japan_junior_kart": [
@@ -955,6 +2372,100 @@
       "comparison": false
      }
     ],
+    "hasComparison": false
+   },
+   {
+    "id": "2df5eed8367d48339525b9fb618c8b32",
+    "date": "2022-03-10",
+    "noticeNo": "2022-WEB020",
+    "title": "2022年全日本/ジュニアカート選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220310",
+    "attachments": [
+     {
+      "text": "2022年全日本カート選手権統一規則 改正案（対比表）（PDF : 150KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220310_01.pdf",
+      "comparison": true
+     },
+     {
+      "text": "2022年ジュニアカート選手権統一規則 改正案 （対比表）（PDF : 151KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220310_02.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "74775202315447168cd82dc20ec93d96",
+    "date": "2021-03-25",
+    "noticeNo": "2021-WEBK04",
+    "title": "全日本／ジュニアカート選手権統一規則 第21条4の統一解釈について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210325",
+    "attachments": [
+     {
+      "text": "※CIK Technical Appendices Appendix 2",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1045_Appendix_standards_for_karting_helmets_0.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3104305af9444288b9ce8c2fd6d1f74b",
+    "date": "2020-12-29",
+    "noticeNo": "2020-WEBK22",
+    "title": "2021年全日本／ジュニアカート選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201229-01",
+    "attachments": [
+     {
+      "text": "2021年全日本／ジュニアカート選手権統一規則(155.5KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1081_cms_20201223173106_12142_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "39518b048fa54a91a1c6088bee5b5d18",
+    "date": "2020-03-04",
+    "noticeNo": "2020-WEBK04",
+    "title": "2020年全日本／ジュニアカート選手権統一規則の誤記訂正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200304",
+    "attachments": [
+     {
+      "text": "2020年全日本 /ジュニア カート選手権統一規則(316.1KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1229_cms_20200305150716_29630_00001.pdf",
+      "comparison": false
+     },
+     {
+      "text": "全日本/ジュニアカート選手権統一規則および適用車両規定全文はこちら(6258.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1230_cms_20200303130820_26539_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "862712a6c09a45f888fcac143b45e646",
+    "date": "2020-03-03",
+    "noticeNo": "2020-WEBK03",
+    "title": "2020年全日本／ジュニアカート選手権適用車両規定の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200303",
+    "attachments": [
+     {
+      "text": "全日本／ジュニアカート選手権統一規則および適用車両規定全文はこちら(6253.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1233_cms_20200302141246_10128_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "9b851e6352e5449d819fb53dece1ce7a",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEBK16",
+    "title": "2020年全日本／ジュニアカート選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-03",
+    "attachments": [],
     "hasComparison": false
    }
   ],
@@ -1035,6 +2546,111 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "228ff79801ba455e84f976c4b04cbe45",
+    "date": "2023-05-17",
+    "noticeNo": "2023-WEB043",
+    "title": "2023年全日本スーパーフォーミュラ・ライツ選手権統一規則一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230517_03",
+    "attachments": [
+     {
+      "text": "2023年全日本スーパーフォーミュラ・ライツ選手権統一規則の一部改正（PDF : 171.07 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230517_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "f4d55274b98441b396f2aaf0dc0dfb13",
+    "date": "2023-04-03",
+    "noticeNo": "2023-WEB033",
+    "title": "2023年全日本スーパーフォーミュラ・ライツ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230330_02",
+    "attachments": [
+     {
+      "text": "2023年全日本スーパーフォーミュラ・ライツ選手権統一規則の一部改正（PDF : 251.59 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230330_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "5fa547ba37ad43ed836b9ab9a1ee929b",
+    "date": "2022-01-04",
+    "noticeNo": "2022-WEB001",
+    "title": "2022年全日本スーパーフォーミュラ・ライツ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220104",
+    "attachments": [
+     {
+      "text": "2022年全日本スーパーフォーミュラ・ライツ選手権統一規則（PDF : 131KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220104_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "679418140da547a1a72c4c8c1b5e92e4",
+    "date": "2021-02-08",
+    "noticeNo": "2021-WEB010",
+    "title": "2021年全日本スーパーフォーミュラ/スーパーフォーミュラ・ライツ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210208",
+    "attachments": [
+     {
+      "text": "2021年全日本スーパーフォーミュラ・ライツ選手権統一規則(66.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1064_cms_20210208094737_30873_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "9a1b8fc4065b4e19a3e1729ca93ec073",
+    "date": "2020-12-18",
+    "noticeNo": "2020-WEB087",
+    "title": "2021年全日本スーパーフォーミュラ・ライツ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201218-02",
+    "attachments": [
+     {
+      "text": "2021年全日本スーパーフォーミュラ・ライツ選手権統一規則(70KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1095_cms_20201218154407_26909_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "27c9d6b70e0a4b95a18082378a1402b9",
+    "date": "2020-08-19",
+    "noticeNo": "2020-WEB065",
+    "title": "2020年全日本スーパーフォーミュラ/スーパーフォーミュラ・ライツ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200819",
+    "attachments": [
+     {
+      "text": "2020年全日本スーパーフォーミュラ・ライツ選手権統一規則 一部改正について(59.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1144_cms_20200819103345_16529_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "332a3bcf3bfd4652a625f7e242008374",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB054",
+    "title": "2020年全日本スーパーフォーミュラ・ライツ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-04",
+    "attachments": [
+     {
+      "text": "2020年全日本スーパーフォーミュラ・ライツ選手権統一規則(322.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1263_cms_20191224140602_17277_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_soshiki": [
@@ -1067,6 +2683,30 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "d1cdbf6215094e7ea616f1d30f498dd4",
+    "date": "2022-03-29",
+    "noticeNo": "2022-WEB025",
+    "title": "自動車競技の組織に関する規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220329-02",
+    "attachments": [
+     {
+      "text": "自動車競技の組織に関する規定の一部改正について（PDF : 61.2KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220329-02_01-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d4908c5736774185a6e3845a5d764e12",
+    "date": "2018-05-09",
+    "noticeNo": "2018-WEB009",
+    "title": "自動車競技の組織に関する規定の改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180509",
+    "attachments": [],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_jafcup_gymk_dirt": [
@@ -1119,6 +2759,138 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "5b29d415660b40b4a399e7531ce570f9",
+    "date": "2023-03-28",
+    "noticeNo": "2023-WEB030",
+    "title": "2024年JAFカップオールジャパンジムカーナ/ダートトライアル規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230324_04",
+    "attachments": [
+     {
+      "text": "2024年JAFカップオールジャパンジムカーナ/ダートトライアル規定（PDF : 91.96KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230323_04.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "79f5cfeadad545998be92d5590d80647",
+    "date": "2022-04-05",
+    "noticeNo": "2022-WEB029",
+    "title": "2023年JAFカップオールジャパンジムカーナ/ダートトライアル規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220405-02",
+    "attachments": [
+     {
+      "text": "2023年JAFカップオールジャパンジムカーナ/ダートトライアル規定（PDF : 149 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220405-02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "a74a3bc04732433ca02e8789e5dac758",
+    "date": "2021-08-16",
+    "noticeNo": "2021-WEB059",
+    "title": "2021年日本ジムカーナ/ダートトライアル選手権規定 第7条 選手権開催日程および 2021年JAFカップオールジャパンジムカーナ/ダートトライアル規定 第9条 参加資格と優先順位における特例措置について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210813",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "e9447cebed94421c9199c112b4b665a0",
+    "date": "2021-04-21",
+    "noticeNo": "2021-WEB025",
+    "title": "2022年JAFカップオールジャパンジムカーナ／ダートトライアル規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210421-02",
+    "attachments": [
+     {
+      "text": "2022年JAFカップオールジャパンジムカーナ／ダートトライアル規定(96.5KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1035_cms_20210420113700_4614_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "fab4d675862e43bf900458efa8a5c502",
+    "date": "2020-08-11",
+    "noticeNo": "2020-WEB062",
+    "title": "2021年JAFカップオールジャパンジムカーナ／ダートトライアル規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200811-04",
+    "attachments": [
+     {
+      "text": "2021年JAFカップオールジャパンジムカーナ/ダートトライアル規定の一部改正(39.1KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1152_cms_20200807125635_10841_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ae21da7fa1f74872863fad4bb66ed9c3",
+    "date": "2020-06-29",
+    "noticeNo": "2020-WEB048",
+    "title": "2021年スピード競技カレンダー登録申請締切日の特例措置および2021年JAFカップオールジャパンジムカーナ／ダートトライアル規定一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200629-02",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "2ceae58fc2974009bf084df8d4dcd11f",
+    "date": "2020-04-10",
+    "noticeNo": "2020-WEB019",
+    "title": "2021年JAFカップオールジャパンジムカーナ／ダートトライアル規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200410-02",
+    "attachments": [
+     {
+      "text": "2021年JAFカップオールジャパンジムカーナ/ダートトライアル規定の制定(173.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1215_cms_20200410122335_13540_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d98e2132425245b8881f543e29ebe092",
+    "date": "2019-05-14",
+    "noticeNo": "2019-WEB024",
+    "title": "2020年JAFカップオールジャパンジムカーナ／ダートトライアル規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190514-02",
+    "attachments": [
+     {
+      "text": "2020年JAFカップオールジャパンジムカーナ／ダートトライアル規定の制定(40.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1329_cms_20190509145212_17102_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "84bf81eefb384051a620ee84250e613f",
+    "date": "2018-05-25",
+    "noticeNo": "2018-WEB014",
+    "title": "2019年JAFカップオールジャパンジムカーナ/ダートトライアル規定　改正内容",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180525-02",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "9e74e884e3284e1d8f5a51fab1460e35",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB013",
+    "title": "2017年JAFカップオールジャパンジムカーナ／ダートトライアル規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-10",
+    "attachments": [
+     {
+      "text": "2017年JAFカップオールジャパンジムカーナ/ダートトライアル規定の一部改正（41.1KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1481_cms_20170810143511_21873_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_kaisai_race_nzero_2060401": [
@@ -1198,6 +2970,21 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "cb5d3c04f1f14c05a937c6f051c659ed",
+    "date": "2023-11-28",
+    "noticeNo": "2023-WEB092",
+    "title": "2024年全日本ラリー選手権統一規則及び全日本ラリー選手権適用車両規定JAF公認車両「JP4」に関する規定の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231128_03",
+    "attachments": [
+     {
+      "text": "全日本ラリー選手権適用車両規定JAF公認車両「JP4」に関する規定対比表（PDF : 103KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231128_03-2.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
    }
   ],
   "touitsu_kisoku_superformula": [
@@ -1260,6 +3047,111 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "3c9d98fd27e44069868e9b5a48099d42",
+    "date": "2022-01-04",
+    "noticeNo": "2022-WEB002",
+    "title": "2022年全日本スーパーフォーミュラ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220104-02",
+    "attachments": [
+     {
+      "text": "2022年全日本スーパーフォーミュラ選手権統一規則（PDF : 189KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220104-02_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "73b46157daf1431787a58474ca477f9b",
+    "date": "2021-03-24",
+    "noticeNo": "2021-WEB016",
+    "title": "2021年全日本スーパーフォーミュラ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210324",
+    "attachments": [
+     {
+      "text": "2021年全日本スーパーフォーミュラ選手権統一規則(35.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1046_cms_20210324090700_21604_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "679418140da547a1a72c4c8c1b5e92e4",
+    "date": "2021-02-08",
+    "noticeNo": "2021-WEB010",
+    "title": "2021年全日本スーパーフォーミュラ/スーパーフォーミュラ・ライツ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210208",
+    "attachments": [
+     {
+      "text": "2021年全日本スーパーフォーミュラ選手権統一規則(76.1KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3405/1063_cms_20210208094737_30873_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "73c2b9825e4742d58bf092fd75f2b563",
+    "date": "2020-12-18",
+    "noticeNo": "2020-WEB088",
+    "title": "2021年全日本スーパーフォーミュラ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201218-03",
+    "attachments": [
+     {
+      "text": "2021年全日本スーパーフォーミュラ選手権統一規則(113.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1093_cms_20201218154906_27093_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "27c9d6b70e0a4b95a18082378a1402b9",
+    "date": "2020-08-19",
+    "noticeNo": "2020-WEB065",
+    "title": "2020年全日本スーパーフォーミュラ/スーパーフォーミュラ・ライツ選手権統一規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200819",
+    "attachments": [
+     {
+      "text": "2020年全日本スーパーフォーミュラ選手権統一規則一部改正について(36.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1143_cms_20200819103345_16529_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3d80299a24864acb8d1947d169bf9684",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB055",
+    "title": "2020年全日本スーパーフォーミュラ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-05",
+    "attachments": [
+     {
+      "text": "2020年全日本スーパーフォーミュラ選手権統一規則(312.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1261_cms_20191224141613_17506_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6cc2b2d459dc4bc5bd9cf79e3f55682f",
+    "date": "2019-01-17",
+    "noticeNo": "2019-WEB004",
+    "title": "2019年全日本スーパーフォーミュラ選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190117-05",
+    "attachments": [
+     {
+      "text": "2019全日本SF選手権統一規則対比表(103.8KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1366_cms_20190117154709_31928_00001.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
    }
   ],
   "jaf_kitei_kaisai_rally_ss": [
@@ -1288,6 +3180,36 @@
      {
       "text": "ラリー競技開催規定 細則：スペシャルステージラリー開催規定 （PDF : 1121KB）",
       "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4350/20250217.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "9032c6dcd71844acb478e130b8f9f0eb",
+    "date": "2023-12-01",
+    "noticeNo": "2023-WEB095",
+    "title": "ラリー競技開催規定　細則：スペシャルステージラリー開催規定の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231201",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定 細則：スペシャルステージラリー開催規定対比表（PDF : 735.67 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231201.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "ed56356e1132489dbeb0c6c0ba23b693",
+    "date": "2021-09-03",
+    "noticeNo": "2021-WEB077",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210903",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定細則：スペシャルステージラリー開催規定の一部改正（PDF : 240KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210903_04.pdf",
       "comparison": false
      }
     ],
@@ -1324,6 +3246,111 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "cb5d3c04f1f14c05a937c6f051c659ed",
+    "date": "2023-11-28",
+    "noticeNo": "2023-WEB092",
+    "title": "2024年全日本ラリー選手権統一規則及び全日本ラリー選手権適用車両規定JAF公認車両「JP4」に関する規定の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231128_03",
+    "attachments": [
+     {
+      "text": "2024年全日本ラリー選手権統一規則対比表（PDF : 122.85KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231128_03.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "0e0db4c2fc084d23ba9a8c837edc728c",
+    "date": "2023-02-24",
+    "noticeNo": "2023-WEB020",
+    "title": "2023年全日本ラリー選手権技術アドバイザーの派遣について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230224",
+    "attachments": [
+     {
+      "text": "2023年全日本ラリー選手権統一規則の一部改正について（PDF : 109.79 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/20230224.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3e52d5091da7411da8a85fb015d873ef",
+    "date": "2023-01-17",
+    "noticeNo": "2023-WEB004",
+    "title": "2023年全日本ラリー選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230116_03",
+    "attachments": [
+     {
+      "text": "2023年全日本ラリー選手権統一規則（PDF : 659.59 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230116_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "8f6e729d6aaa445dbbd449d8728d9f02",
+    "date": "2022-03-02",
+    "noticeNo": "2022-WEB017",
+    "title": "2022年全日本ラリー選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220302",
+    "attachments": [
+     {
+      "text": "2022年全日本ラリー選手権統一規則（PDF : 87.2KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220302_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "26abe3548cb44fd4806b05caf68ea655",
+    "date": "2020-12-28",
+    "noticeNo": "2020-WEB092",
+    "title": "2021年全日本ラリー選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201228-04",
+    "attachments": [
+     {
+      "text": "2021全日本ラリー選手権統一規則(95.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1083_cms_20201224142122_25814_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "020821f04f254badb897ae6218d21b41",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB056",
+    "title": "2020年全日本ラリー選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-07",
+    "attachments": [
+     {
+      "text": "2020年全日本ラリー選手権統一規則(182.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1257_cms_20191224143130_17810_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "e990a56b47354c939ef49eb5d4a5443c",
+    "date": "2019-01-17",
+    "noticeNo": "2019-WEB001",
+    "title": "2019年全日本ラリー選手権統一規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190117-02",
+    "attachments": [
+     {
+      "text": "2019全日本ラリー統一規則(200.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1372_cms_20190117143227_30013_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_kaisai_rally_ave1": [
@@ -1337,6 +3364,21 @@
      {
       "text": "ラリー競技開催規定 細則：第1種 アベレージラリー開催規定（PDF：203KB）",
       "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4350/20251218_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ed56356e1132489dbeb0c6c0ba23b693",
+    "date": "2021-09-03",
+    "noticeNo": "2021-WEB077",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210903",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定細則：第1種アベレージラリー開催規定の一部改正（PDF : 106KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210903_02.pdf",
       "comparison": false
      }
     ],
@@ -1384,6 +3426,51 @@
      {
       "text": "2025年JAF国内カート競技車両規則の制定について（PDF : 203.2 KB）",
       "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4199/20240731-02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c7b9f981e84e4af0a526fb9c1b522274",
+    "date": "2023-11-28",
+    "noticeNo": "2023-WEB090",
+    "title": "2024年全日本/ジュニアカート選手権統一規則並びにJAF国内カート競技車両規則の制定及び地方/ジュニアカート選手権カレンダー",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231128",
+    "attachments": [
+     {
+      "text": "2024年JAF国内カート競技車両規則対比表（PDF : 279.22KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231128-3.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "5ac402b923aa4b52b2532599206d9a6e",
+    "date": "2022-08-04",
+    "noticeNo": "2022-WEB049",
+    "title": "2023年日本カート選手権規定及び2023年国内カート競技車両規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220804",
+    "attachments": [
+     {
+      "text": "2023年JAF国内カート競技車両規則について",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220804_1.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "20eba3ce22c54c65b898a9a58fe400d8",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEBK02",
+    "title": "2018年JAF国内カート競技車両規則（改正概要）",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-08",
+    "attachments": [
+     {
+      "text": "2018年JAF国内カート競技車両規則（改正概要）(199.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1485_cms_20170809110448_3309_00001.pdf",
       "comparison": false
      }
     ],
@@ -1523,6 +3610,141 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "f24c74f55e734a518d1dc1b21c0203be",
+    "date": "2023-01-30",
+    "noticeNo": "2023-WEB007",
+    "title": "国内競技規則2-11「国内競技」の取扱いについて",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230127",
+    "attachments": [
+     {
+      "text": "国内競技規則2-11「国内競技」の取扱いについて(195.86KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230127.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "d8465db5f73947f49b341ded3d3b4389",
+    "date": "2022-08-25",
+    "noticeNo": "2022-WEB061",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220825",
+    "attachments": [
+     {
+      "text": "国内競技規則 一部改正＜新旧対照表＞（PDF : 107.2 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220825.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "c774f3d872fe40b895c05684f9a4360b",
+    "date": "2022-08-10",
+    "noticeNo": "2022-WEB055",
+    "title": "JAF国内競技規則細則：JAFモータースポーツ安全ガイドライン（国内版）の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220809-02",
+    "attachments": [
+     {
+      "text": "JAF国内競技規則細則：JAFモーターポーツ安全ガイドライン（PDF : 370.79KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220809_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "165881027b284fb9ab2d47b176cae7e9",
+    "date": "2021-11-22",
+    "noticeNo": "2021-WEB107",
+    "title": "JAF国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20211122-02",
+    "attachments": [
+     {
+      "text": "JAF国内競技規則改正＜新旧対照表＞（PDF : 112KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20211122-02_01.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "78f2a8c7b23b43b78e18c73eabfa8c68",
+    "date": "2021-09-16",
+    "noticeNo": "2021-WEB088",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210907",
+    "attachments": [
+     {
+      "text": "国内競技規則の一部改正について（207 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210907_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3c85384231b0452f9f22327972704772",
+    "date": "2020-08-28",
+    "noticeNo": "2020-WEB069",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200828",
+    "attachments": [
+     {
+      "text": "国内競技規則（2020年9月1日施行）(79.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1137_cms_20200828133834_9442_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c7a1a8d1a28240198fce3f337a0a807d",
+    "date": "2019-03-18",
+    "noticeNo": "2019-WEB017",
+    "title": "国内競技規則2-11「国内競技」の取扱いについて",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190318-03",
+    "attachments": [
+     {
+      "text": "国内競技規則2-11「国内競技」の取扱いについて(335.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1341_cms_20190320093401_14913_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "172d92329f9b49df8e2accfea4a7a542",
+    "date": "2018-11-14",
+    "noticeNo": "2018-WEB036",
+    "title": "国際Aライセンス取得条件の変更について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20181114",
+    "attachments": [
+     {
+      "text": "2018国内競技規則 付則",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1386_rules1-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "9c92a1d816794b6a97028d52687aa736",
+    "date": "2017-06-07",
+    "noticeNo": "2017-WEB005",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170607",
+    "attachments": [
+     {
+      "text": "国内競技規則（30.9KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1503_cms_20170607130219_22658_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_calendar_touroku": [
@@ -1570,6 +3792,21 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "1ad8253a0b98475186415be5e9c04256",
+    "date": "2023-08-03",
+    "noticeNo": "2023-WEB054",
+    "title": "国内スポーツカレンダー登録規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230728",
+    "attachments": [
+     {
+      "text": "国内スポーツカレンダー登録規定の一部改正（対比表）（PDF : 109KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230728.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
    }
   ],
   "jaf_kitei_koushuu_kaisai": [
@@ -1587,6 +3824,81 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "23a54f4d4ee4486d9497ca264672010b",
+    "date": "2023-03-24",
+    "noticeNo": "2023-WEB026",
+    "title": "講習会開設規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230323",
+    "attachments": [
+     {
+      "text": "講習会開設規定の一部改正について（PDF : 33.95KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230324.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "26c1f642037a401fbd2ba78bae5c063d",
+    "date": "2022-08-26",
+    "noticeNo": "2022-WEB062",
+    "title": "講習会開設規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220826",
+    "attachments": [
+     {
+      "text": "講習会開設規定の一部改正について（PDF : 60.03KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220826.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "44a0178bd3b84516a9d30d2cd5be0346",
+    "date": "2022-03-29",
+    "noticeNo": "2022-WEB024",
+    "title": "講習会開設規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220329",
+    "attachments": [
+     {
+      "text": "講習会開設規定の一部改正について（PDF : 58.2KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220329_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "8277c5e0676342269ec746f1ad2d9209",
+    "date": "2021-09-16",
+    "noticeNo": "2021-WEB090",
+    "title": "講習会開設規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210907-03",
+    "attachments": [
+     {
+      "text": "講習会開設規定の一部改正について（158 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210907-03_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "cadcb90f3ec44633ad2301452b56e4c1",
+    "date": "2021-04-01",
+    "noticeNo": "2021-WEB018",
+    "title": "講習会開設規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210401",
+    "attachments": [
+     {
+      "text": "講習会開設規定(41.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/1043_cms_20210401122437_24890_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_jaf_touroku_homologe": [
@@ -1672,6 +3984,90 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "d29fb167adf644dba6d2d83b83bf4010",
+    "date": "2022-09-01",
+    "noticeNo": "2022-WEB069",
+    "title": "ラリー競技開催規定、2023年日本ラリー選手権規定およびJAF国内競技車両規則第2編ラリー車両規定の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220901",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定（PDF : 288.81KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220901.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ed56356e1132489dbeb0c6c0ba23b693",
+    "date": "2021-09-03",
+    "noticeNo": "2021-WEB077",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210903",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定の一部改正（PDF : 163KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210903_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "b278cd94c029490c9a68d41b3e8a6a17",
+    "date": "2020-08-11",
+    "noticeNo": "2020-WEB059",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200811-01",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定の一部改正(61.9KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1158_cms_20200807130515_10990_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "8853233b1d0c411fb36d3d2d84314788",
+    "date": "2020-07-31",
+    "noticeNo": "2020-WEB056",
+    "title": "ラリー競技開催規定に係るコースカー等の運用について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200731",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "ee9ed98d8b49495a8bce3d815846241d",
+    "date": "2018-08-24",
+    "noticeNo": "2018-WEB028",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2018/20180824-07",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定の一部改正(54.5KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3408/1407_cms_20180822165141_11509_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "fd8d3756522d4629a7c21d2c1fe70252",
+    "date": "2017-08-09",
+    "noticeNo": "2017-WEB012",
+    "title": "ラリー競技開催規定および付則の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170809-09",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定および付則の一部改正（939.2KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1483_cms_20170822175825_7841_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_kaisai_speed_guide_ct": [
@@ -1723,6 +4119,21 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "54cc5d11ff8349c8b00b5eba3b5384fb",
+    "date": "2021-10-01",
+    "noticeNo": "2021-WEBK14",
+    "title": "カート競技会組織に関する規定の改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210928-02",
+    "attachments": [
+     {
+      "text": "カート競技会組織に関する規定(193KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210928-02_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_touroku_clubs": [
@@ -1740,6 +4151,21 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "54cc64608a9d4b88802e9fc8b9a9d873",
+    "date": "2021-09-29",
+    "noticeNo": "2021-WEBK12",
+    "title": "JAF国内カート競技規則・細則、規定の改定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210928-03",
+    "attachments": [
+     {
+      "text": "カートクラブおよび団体の登録規定（341KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210928-03_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_calendar": [
@@ -1757,6 +4183,21 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "9055d96504664e63a8192127b11ed47e",
+    "date": "2023-08-03",
+    "noticeNo": "2023-WEB057",
+    "title": "2024年日本カート選手権規定の制定及びJAFカートカレンダー登録規定の改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230801_02",
+    "attachments": [
+     {
+      "text": "JAFカートカレンダー登録規定の改正について（PDF : 91.63KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20230801_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_koushuu_driver": [
@@ -1774,6 +4215,21 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "54cc64608a9d4b88802e9fc8b9a9d873",
+    "date": "2021-09-29",
+    "noticeNo": "2021-WEBK12",
+    "title": "JAF国内カート競技規則・細則、規定の改定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210928-03",
+    "attachments": [
+     {
+      "text": "カートドライバーライセンス講習会規定（404KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210928-03_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_koushuu_official": [
@@ -1842,6 +4298,36 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "f5f9a868217d4ef3aaf0736b8cd6ead3",
+    "date": "2021-11-22",
+    "noticeNo": "2021-WEB106",
+    "title": "モータースポーツ専門部会規定、及びモータースポーツ審議会規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20211122",
+    "attachments": [
+     {
+      "text": "モータースポーツ審議会規定改正＜新旧対照表＞（PDF : 202KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20211122_02.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "4e80867395ff4e88ae5f8e7c10f6e943",
+    "date": "2020-11-24",
+    "noticeNo": "2020-WEB083",
+    "title": "モータースポーツ審議会規定およびモータースポーツ専門部会規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201124-03",
+    "attachments": [
+     {
+      "text": "モータースポーツ審議会規定（2021年1月1日施行）(97.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1102_cms_20201124094256_32158_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_05_youkou_kounin_touroku_net": [
@@ -1876,6 +4362,36 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "66234ba1fb1040d58f791896eb8f23da",
+    "date": "2021-08-18",
+    "noticeNo": "2021-WEB067",
+    "title": "オートテストオーガナイザーガイドラインの改定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210811",
+    "attachments": [
+     {
+      "text": "オートテストオーガナイザーガイドラインVer4 （222 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210811_01.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "ac6537d3692c4341a761d0c4ee5bae88",
+    "date": "2016-12-06",
+    "noticeNo": null,
+    "title": "「JAFモータースポーツニュースNo.290」をアップしました　～オートテストオーガナイザーガイドライン改正について～",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2016/20161206",
+    "attachments": [
+     {
+      "text": "JAFモータースポーツニュースNo.290（400.5KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3410/1537_cms_20170302013315_1600_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_yb_iin_kitei_senmonbukai": [
@@ -1893,6 +4409,66 @@
      }
     ],
     "hasComparison": true
+   },
+   {
+    "id": "f5f9a868217d4ef3aaf0736b8cd6ead3",
+    "date": "2021-11-22",
+    "noticeNo": "2021-WEB106",
+    "title": "モータースポーツ専門部会規定、及びモータースポーツ審議会規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20211122",
+    "attachments": [
+     {
+      "text": "モータースポーツ専門部会規定改正＜新旧対照表＞（PDF : 304KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20211122_01.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "4e80867395ff4e88ae5f8e7c10f6e943",
+    "date": "2020-11-24",
+    "noticeNo": "2020-WEB083",
+    "title": "モータースポーツ審議会規定およびモータースポーツ専門部会規定の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201124-03",
+    "attachments": [
+     {
+      "text": "モータースポーツ専門部会規定（2021年1月1日施行）(90.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1103_cms_20201124094256_32158_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3c85384231b0452f9f22327972704772",
+    "date": "2020-08-28",
+    "noticeNo": "2020-WEB069",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200828",
+    "attachments": [
+     {
+      "text": "モータースポーツ専門部会規定（2021年1月1日施行）(113.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1138_cms_20200828133834_9442_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "9c92a1d816794b6a97028d52687aa736",
+    "date": "2017-06-07",
+    "noticeNo": "2017-WEB005",
+    "title": "国内競技規則の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2017/20170607",
+    "attachments": [
+     {
+      "text": "モータースポーツ専門部会規定（42KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3409/1504_cms_20170607130219_22658_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kart_kitei_unei": [
@@ -1961,6 +4537,21 @@
      }
     ],
     "hasComparison": false
+   },
+   {
+    "id": "73f3ecf390ed4da3a308de78f79ea8ed",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB058",
+    "title": "スピード競技開催規定の改正および追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-09",
+    "attachments": [
+     {
+      "text": "スピード競技開催規定　一部改正(137.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1252_cms_20191224155302_18712_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
    }
   ],
   "jaf_kitei_kaisai_speed_guide_drifttest": [
@@ -1979,9 +4570,227 @@
     ],
     "hasComparison": false
    }
+  ],
+  "jaf_kart_kitei_entry": [
+   {
+    "id": "3a16ea98238d431bb0ed18afdbb6835c",
+    "date": "2023-12-21",
+    "noticeNo": "2023-WEB100",
+    "title": "2024年JAF国内カート競技規則の制定",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231220",
+    "attachments": [
+     {
+      "text": "2024年JAF 国内カート競技規則 カート競技会参加に関する規定 対比表（PDF :140.67 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231220.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   }
+  ],
+  "jaf_02_kitei_rally_tech_reg": [
+   {
+    "id": "70f73b387e3049cc90511c70831aa98b",
+    "date": "2023-10-13",
+    "noticeNo": "2023-WEB080",
+    "title": "2024年JAF国内競技車両規則の制定について（第2編ラリー車両規定）",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20231013_02",
+    "attachments": [
+     {
+      "text": "2024年国内競技車両規則 第2編 ラリー車両規定（PDF : 351.97 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4128/20231013_02.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "3d43bc3bfc83494eae7d2ce55f45aecc",
+    "date": "2023-02-14",
+    "noticeNo": "2023-WEB013",
+    "title": "国内で開催される国際格式ラリー競技会における参加資格の緩和に伴う「第2編ラリー車両規定 第2章安全規定 第4条ロールケージ　4.3」および4.4.3）8（○に8）に記載の手続きについて」の一部変更について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2023/20230214_2",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "bd09f97276b1482291d6cc48f1c82998",
+    "date": "2020-01-09",
+    "noticeNo": "2020-WEB001",
+    "title": "第2編ラリー車両規定 第2章安全規定 第4条ロールケージ　4.3）および4.4.3）8（○に8）に記載の手続きについて",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200109",
+    "attachments": [],
+    "hasComparison": false
+   },
+   {
+    "id": "6aedd55afb9d45b081631c5bcd5398b3",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB053",
+    "title": "2020年JAF国内競技車両規則の改正および追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-02",
+    "attachments": [
+     {
+      "text": "第2編ラリー車両規定(108.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1269_cms_20191224125142_16208_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
+  ],
+  "jaf_01_kitei_race_tech_reg": [
+   {
+    "id": "13028737bcac42fa81e0777e3b2a3404",
+    "date": "2022-08-22",
+    "noticeNo": "2022-WEB058",
+    "title": "2023年JAF国内競技車両規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220819_02",
+    "attachments": [
+     {
+      "text": "【添付1】2023年 第1編レース車両規定 対比表（PDF : 735.3 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220819_02.pdf",
+      "comparison": true
+     }
+    ],
+    "hasComparison": true
+   },
+   {
+    "id": "a04f32be45c640fcb6e69a9a2c230dd8",
+    "date": "2020-04-10",
+    "noticeNo": "2020-WEB021",
+    "title": "2020年国内競技車両規則 第1編レース車両規定 第12章スーパーフォーミュラ・ライツ(SFL)の一部改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20200410-04",
+    "attachments": [
+     {
+      "text": "2020年国内競技車両規則 第1編レース車両規定 第12章スーパーフォーミュラ・ライツ(SFL)の一部改正(69.6KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3406/1211_cms_20200410135146_15145_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "6aedd55afb9d45b081631c5bcd5398b3",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB053",
+    "title": "2020年JAF国内競技車両規則の改正および追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-02",
+    "attachments": [
+     {
+      "text": "第1編レース車両規定　第7章　グランドツーリングカー300(272.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1266_cms_20191224124649_16132_00005.pdf",
+      "comparison": false
+     },
+     {
+      "text": "第1編レース車両規定　第12章　スーパーフォーミュラ・ライツ（SFL）(1502.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1267_cms_20191224124649_16132_00004.pdf",
+      "comparison": false
+     },
+     {
+      "text": "第1編レース車両規定　第13章　スーパーフォーミュラ（SF）(82.4KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1268_cms_20191225134804_1985_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   },
+   {
+    "id": "c3c78f2faacc4899b21e12fe346d267e",
+    "date": "2019-02-06",
+    "noticeNo": "2019-WEB007",
+    "title": "2019年国内競技車両規則 第1編レース車両規定第12章スーパーフォーミュラ（SF） 一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20190206-01",
+    "attachments": [
+     {
+      "text": "2019年国内競技車両規則 第1編レース車両規定第12章スーパーフォーミュラ（SF） 一部改正(225.3KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1355_cms_20190206142025_23008_00001.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
+  ],
+  "jaf_04_kitei_carbon_neutrality_tech_reg": [
+   {
+    "id": "13028737bcac42fa81e0777e3b2a3404",
+    "date": "2022-08-22",
+    "noticeNo": "2022-WEB058",
+    "title": "2023年JAF国内競技車両規則の制定について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2022/20220819_02",
+    "attachments": [
+     {
+      "text": "【添付2】2023年 第4編カーボンニュートラル活動に関する共通規定（PDF : 1005.19 KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/4002/20220819_02-2.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
+  ],
+  "jaf_kitei_kaisai_rally_ave2": [
+   {
+    "id": "ed56356e1132489dbeb0c6c0ba23b693",
+    "date": "2021-09-03",
+    "noticeNo": "2021-WEB077",
+    "title": "ラリー競技開催規定の一部改正",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2021/20210903",
+    "attachments": [
+     {
+      "text": "ラリー競技開催規定細則：第2種アベレージラリー開催規定の一部改正（PDF : 193KB）",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3548/20210903_03.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
+  ],
+  "jaf_05_saisoku_homologe_rollcage": [
+   {
+    "id": "d499d7b335e14532ad48ad7ca446d4e3",
+    "date": "2020-11-24",
+    "noticeNo": "2020-WEB082",
+    "title": "2021年国内競技車両規則・第4編細則：「ロールケージ製造者のロールケージＪＡＦ公認申請手続きに関する細則」の改正について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2020/20201124-02",
+    "attachments": [],
+    "hasComparison": false
+   }
+  ],
+  "jaf_kitei_kaisai_speed_guide_hillc": [
+   {
+    "id": "73f3ecf390ed4da3a308de78f79ea8ed",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB058",
+    "title": "スピード競技開催規定の改正および追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-09",
+    "attachments": [
+     {
+      "text": "スピード競技開催規定　細則：ヒルクライム競技開催要項（新規追加）(164.7KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1253_cms_20191224155302_18712_00002.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
+  ],
+  "jaf_03_kitei_speed_tech_reg": [
+   {
+    "id": "6aedd55afb9d45b081631c5bcd5398b3",
+    "date": "2019-12-25",
+    "noticeNo": "2019-WEB053",
+    "title": "2020年JAF国内競技車両規則の改正および追加について",
+    "url": "https://motorsports.jaf.or.jp/regulations/announcement/notice/2019/20191225-02",
+    "attachments": [
+     {
+      "text": "第3編スピード車両規定(126.2KB)",
+      "url": "https://motorsports.jaf.or.jp/-/media/1/3375/3379/3402/3404/3407/1270_cms_20191224124649_16132_00003.pdf",
+      "comparison": false
+     }
+    ],
+    "hasComparison": false
+   }
   ]
  },
- "unmatchedCount": 16,
+ "unmatchedCount": 98,
  "unmatched": [
   {
    "date": "2026-02-26",
@@ -2062,6 +4871,416 @@
    "date": "2024-03-05",
    "noticeNo": "2024-WEB017",
    "title": "2024年ジュニアカート選手権統一規則の改正"
+  },
+  {
+   "date": "2023-12-26",
+   "noticeNo": "2023-WEB103",
+   "title": "2024年JAF地方ラリー選手権クラス区分等について"
+  },
+  {
+   "date": "2023-12-21",
+   "noticeNo": "2023-WEB102",
+   "title": "2024年JAF地方ジムカーナ/ダートトライアル/サーキットトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2023-02-15",
+   "noticeNo": "2023-WEB014",
+   "title": "全日本ラリー選手権に適用されるJAF公認車両「JP4」に関する特別規定"
+  },
+  {
+   "date": "2023-02-14",
+   "noticeNo": "2023-WEB012",
+   "title": "国内で開催される国際格式ラリー競技会における参加資格の緩和について"
+  },
+  {
+   "date": "2023-01-31",
+   "noticeNo": "2023-WEB008",
+   "title": "2023年JAF地方ダートトライアル選手権クラス区分について"
+  },
+  {
+   "date": "2023-01-23",
+   "noticeNo": "2023-WEB006",
+   "title": "2023年JAF地方ジムカーナ/ダートトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2022-12-23",
+   "noticeNo": "2022-WEB090",
+   "title": "2023年JAF地方ラリー選手権のクラス区分等について（2023年1月5日/1月16日訂正版）"
+  },
+  {
+   "date": "2022-12-23",
+   "noticeNo": "2022-WEB091",
+   "title": "2023年JAF地方ジムカーナ/ダートトライアル/サーキットトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2022-03-30",
+   "noticeNo": "2022-WEB027",
+   "title": "アンチ・ドーピングに関する規定の改定につきまして"
+  },
+  {
+   "date": "2022-02-14",
+   "noticeNo": "2022-WEB014",
+   "title": "2022年JAF近畿ジムカーナ選手権クラス区分等の変更について（訂正）"
+  },
+  {
+   "date": "2022-02-07",
+   "noticeNo": "2022-WEB012",
+   "title": "2022年JAF近畿ジムカーナ選手権クラス区分等の変更について"
+  },
+  {
+   "date": "2022-01-19",
+   "noticeNo": "2022-WEB008",
+   "title": "2022年JAF地方ラリー選手権のクラス区分等について"
+  },
+  {
+   "date": "2022-01-17",
+   "noticeNo": "2022-WEB006",
+   "title": "2022年JAF地方ジムカーナ/ダートトライアル/サーキットトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2021-11-19",
+   "noticeNo": "2021-WEBK15",
+   "title": "2022年カート競技カレンダー登録申請締切日の特例措置について"
+  },
+  {
+   "date": "2021-09-03",
+   "noticeNo": "2021-WEB078",
+   "title": "2022年ラリー/スピード/カート競技カレンダー登録申請締切日の特例措置について"
+  },
+  {
+   "date": "2021-08-10",
+   "noticeNo": "2021-WEB055",
+   "title": "FIA付則L項改正によるJAF発給国際ライセンスの種別変更について"
+  },
+  {
+   "date": "2021-05-18",
+   "noticeNo": "2021-WEB033",
+   "title": "「FIAインターナショナルシリーズ SUPER GT 適用車両規則」の改正について"
+  },
+  {
+   "date": "2021-04-19",
+   "noticeNo": "2021-WEBK05",
+   "title": "2021年地方カート選手権開催日程の変更について"
+  },
+  {
+   "date": "2021-04-19",
+   "noticeNo": "2021-WEB022",
+   "title": "2021年JAF日本ラリー選手権競技会の開催日程変更について"
+  },
+  {
+   "date": "2021-02-22",
+   "noticeNo": "2021-WEBK02",
+   "title": "2021年全日本／ジュニアカート選手権適用車両規定の制定について"
+  },
+  {
+   "date": "2021-01-26",
+   "noticeNo": "2021-WEB007",
+   "title": "2021年JAF関東ジムカーナ選手権クラス区分等の変更について"
+  },
+  {
+   "date": "2021-01-05",
+   "noticeNo": "2021-WEB001",
+   "title": "2021年JAF地方ジムカーナ／ダートトライアル／サーキットトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2020-12-29",
+   "noticeNo": "2020-WEBK23",
+   "title": "日本カート選手権使用タイヤ銘柄について"
+  },
+  {
+   "date": "2020-12-28",
+   "noticeNo": "2020-WEB091",
+   "title": "2021年JAF地方ラリー選手権のクラス区分等について"
+  },
+  {
+   "date": "2020-06-29",
+   "noticeNo": "2020-WEB049",
+   "title": "2020年日本ジムカーナ／ダートトライアル選手権の一部改正および同カレンダーについて"
+  },
+  {
+   "date": "2020-03-19",
+   "noticeNo": "2020-WEB013",
+   "title": "2020年JAF東日本ラリー選手権RPN車両のホイールについて"
+  },
+  {
+   "date": "2020-03-06",
+   "noticeNo": "2020-WEB008",
+   "title": "2020年全日本ジムカーナ／ダートトライアル選手権および2020年ＪＡＦカップオールジャパンジムカーナ／ダートトライアル競技会における「再出走」と「同一車両による重複参加」による作業について"
+  },
+  {
+   "date": "2020-02-05",
+   "noticeNo": "2020-WEB007",
+   "title": "2020年地方ジムカーナ／ダートトライアル選手権クラス区分の誤記訂正について"
+  },
+  {
+   "date": "2020-01-29",
+   "noticeNo": "2020-WEB002",
+   "title": "2020年JAF地方ラリー選手権のクラス区分等について"
+  },
+  {
+   "date": "2020-01-29",
+   "noticeNo": "2020-WEB003",
+   "title": "2020年JAF地方ジムカーナ/ダートトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2019-12-26",
+   "noticeNo": "2019-WEBK19",
+   "title": "2020年日本カート選手権使用エンジン銘柄および振興策について"
+  },
+  {
+   "date": "2019-12-26",
+   "noticeNo": "2019-WEBK18",
+   "title": "2020年日本カート選手権使用タイヤ銘柄および振興策について"
+  },
+  {
+   "date": "2019-12-25",
+   "noticeNo": "2019-WEBK17",
+   "title": "2020年国内カート競技車両規則の制定"
+  },
+  {
+   "date": "2019-08-15",
+   "noticeNo": "2019-WEBK10",
+   "title": "2020年国内カート競技車両規則の制定"
+  },
+  {
+   "date": "2019-04-26",
+   "noticeNo": "2019-WEB022",
+   "title": "2019年JAFモータースポーツ賞典規定の改正について"
+  },
+  {
+   "date": "2019-04-10",
+   "noticeNo": "2019-WEB019",
+   "title": "スーパーフォーミュラ（SF）用触媒装置の承認について"
+  },
+  {
+   "date": "2019-03-18",
+   "noticeNo": "2019-WEBK07",
+   "title": "JAF指定カートタイヤについて　2019年全日本／地方／ジュニアカート選手権統一規則に定める各部門使用タイヤについて"
+  },
+  {
+   "date": "2019-02-27",
+   "noticeNo": "2019-WEB009",
+   "title": "国内モータースポーツ競技規則の一部改正"
+  },
+  {
+   "date": "2019-02-22",
+   "noticeNo": "2019-WEBK06",
+   "title": "全日本／地方／ジュニアカート選手権統一規則 第２１条４．の解釈の統一について"
+  },
+  {
+   "date": "2019-02-21",
+   "noticeNo": "2019-WEB008",
+   "title": "重複参加と再出走の場合の作業について"
+  },
+  {
+   "date": "2019-02-06",
+   "noticeNo": "2019-WEBK05",
+   "title": "FP-Jr Cadets用 JAF登録シャシーの新規登録について"
+  },
+  {
+   "date": "2019-01-21",
+   "noticeNo": "2019-WEBK04",
+   "title": "2019年地方カート選手権統一規則の制定について"
+  },
+  {
+   "date": "2019-01-21",
+   "noticeNo": "2019-WEBK02",
+   "title": "2019年全日本カート選手権統一規則の制定について"
+  },
+  {
+   "date": "2019-01-21",
+   "noticeNo": "2019-WEBK03",
+   "title": "2019年ジュニアカート選手権統一規則の制定について"
+  },
+  {
+   "date": "2019-01-17",
+   "noticeNo": "2019-WEB003",
+   "title": "2019年地方ジムカーナ／ダートトライアル選手権クラス区分等について"
+  },
+  {
+   "date": "2019-01-17",
+   "noticeNo": "2019-WEB005",
+   "title": "2019年全日本フォーミュラ３選手権統一規則の制定について"
+  },
+  {
+   "date": "2018-12-28",
+   "noticeNo": "2018-WEB040",
+   "title": "2019年JAF地方ラリー選手権のクラス区分および過給器付車両のエアリストリクターについて"
+  },
+  {
+   "date": "2018-08-24",
+   "noticeNo": "2018-WEBK04",
+   "title": "2019年国内カート競技車両規則の制定"
+  },
+  {
+   "date": "2018-08-21",
+   "noticeNo": "2018-WEB022",
+   "title": "2019年全日本ジムカーナ/ダートトライアル選手権カレンダーおよびJAFカップオールジャパンジムカーナ/ダートトライアルカレンダー"
+  },
+  {
+   "date": "2018-06-15",
+   "noticeNo": "2018-WEB015",
+   "title": "国内モータースポーツ競技規則の一部改正について"
+  },
+  {
+   "date": "2018-03-10",
+   "noticeNo": "2018",
+   "title": "JAFスポーツ誌4月号掲載 公示（四輪） [PDF：4.86MB]"
+  },
+  {
+   "date": "2018-01-10",
+   "noticeNo": "2018",
+   "title": "JAFスポーツ誌2/3月号掲載 公示（四輪） [PDF：447KB]"
+  },
+  {
+   "date": "2018-01-10",
+   "noticeNo": "2018",
+   "title": "JAFスポーツ誌2/3月号掲載 公示（カート） [PDF：259KB]"
+  },
+  {
+   "date": "2017-12-10",
+   "noticeNo": "2018",
+   "title": "JAFスポーツ誌1月号掲載 公示（カート） [PDF：618KB]"
+  },
+  {
+   "date": "2017-12-10",
+   "noticeNo": "2018",
+   "title": "JAFスポーツ誌1月号掲載 公示（四輪） [PDF：2.14MB]"
+  },
+  {
+   "date": "2017-11-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌12月号掲載 公示（四輪） [PDF：1.39MB]"
+  },
+  {
+   "date": "2017-11-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌12月号掲載 公示（カート） [PDF：651KB]"
+  },
+  {
+   "date": "2017-10-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌11月号掲載 公示（カート） [PDF：1.00MB]"
+  },
+  {
+   "date": "2017-10-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌11月号掲載 公示（四輪） [PDF：1.48MB]"
+  },
+  {
+   "date": "2017-09-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌10月号掲載 公示（四輪） [PDF：1.2MB]"
+  },
+  {
+   "date": "2017-09-11",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌10月号掲載 公示（カート） [PDF：489KB]"
+  },
+  {
+   "date": "2017-07-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌8月/9月号掲載 公示（四輪） [PDF：418KB]"
+  },
+  {
+   "date": "2017-06-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌7月号掲載 公示（四輪） [PDF：305KB]"
+  },
+  {
+   "date": "2017-05-09",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌6月号掲載 公示（四輪） [PDF：403KB]"
+  },
+  {
+   "date": "2017-05-09",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌6月号掲載 公示（カート） [PDF：265KB]"
+  },
+  {
+   "date": "2017-04-28",
+   "noticeNo": "2017-WEB003",
+   "title": "スピード行事競技開催規定 付則:サーキットトライアル競技開催要項"
+  },
+  {
+   "date": "2017-04-19",
+   "noticeNo": "2017-WEB002",
+   "title": "2017年全日本ジムカーナ/ダートトライアル選手権競技会および2017年JAFカップオールジャパンジムカーナ/ダートトライアル競技会における「再出走」と「同一車両による重複参加」による車両に対する作業内容について"
+  },
+  {
+   "date": "2017-04-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌5月号掲載 公示（四輪） [PDF：429KB]"
+  },
+  {
+   "date": "2017-04-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌5月号掲載 公示（カート） [PDF：237KB]"
+  },
+  {
+   "date": "2017-03-23",
+   "noticeNo": null,
+   "title": "「JAFモータースポーツニュースNo.300」をアップしました　～2017年全日本/地方/ジュニアカート選手権統一規則適用車両規則の誤記訂正について～"
+  },
+  {
+   "date": "2017-03-16",
+   "noticeNo": null,
+   "title": "「ＪＡＦモータースポーツニュースNo.299」をアップしました　～2017年全日本/地方/ジュニアカート選手権統一規則適用車両規則の誤記訂正について"
+  },
+  {
+   "date": "2017-03-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌4月号掲載 公示（四輪） [PDF：5.1MB]"
+  },
+  {
+   "date": "2017-03-08",
+   "noticeNo": null,
+   "title": "「JAFモータースポーツニュースNo.298」をアップしました　～2017年全日本/地方/ジュニアカート選手権適用車両規定について～"
+  },
+  {
+   "date": "2017-03-08",
+   "noticeNo": null,
+   "title": "「JAFモータースポーツニュースNo.297」をアップしました　～2017年地方/ジュニアカート選手権統一規則の誤記訂正について～"
+  },
+  {
+   "date": "2017-01-10",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌2/3月号掲載 公示（カート） [PDF：338KB]"
+  },
+  {
+   "date": "2016-12-12",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌1月号掲載 公示（四輪） [PDF：2.25MB]"
+  },
+  {
+   "date": "2016-12-12",
+   "noticeNo": "2017",
+   "title": "JAFスポーツ誌1月号掲載 公示（カート） [PDF：964KB]"
+  },
+  {
+   "date": "2016-12-01",
+   "noticeNo": "2016",
+   "title": "JAFスポーツ誌12月号掲載 公示（カート） [PDF：683KB]"
+  },
+  {
+   "date": "2016-12-01",
+   "noticeNo": "2016",
+   "title": "JAFスポーツ誌12月号掲載 公示（四輪） [PDF：1.32MB]"
+  },
+  {
+   "date": "2016-10-12",
+   "noticeNo": "2016",
+   "title": "JAFスポーツ誌11月号掲載 公示（カート） [PDF：1.01MB]"
+  },
+  {
+   "date": "2016-10-12",
+   "noticeNo": "2016",
+   "title": "JAFスポーツ誌11月号掲載 公示（四輪） [PDF：1.61MB]"
+  },
+  {
+   "date": "2016-04-11",
+   "noticeNo": null,
+   "title": "「JAFモータースポーツニュースNo.283」をアップしました　～”大人のための”カート選手権FP-3部門出場資格について～"
   }
  ]
 }

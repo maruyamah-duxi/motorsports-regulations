@@ -98,6 +98,17 @@ jobs:
       - name: 改正差分を生成
         run: python pipeline/build_diffs.py
 
+      # 公示 → 規則系列の紐づけ。build_index.py がこれを docs テーブルに
+      # 取り込み、規則ページに「JAF の公示」と対比表 PDF への案内を出す。
+      #
+      # このステップは当初から抜けていた（2026-09-11 に気づいて追加）。
+      # 「公示一覧を巡回」で announcements.json は毎回更新されるのに、
+      # 紐づけを作り直していなかったので、公示が増えても規則に届かなかった。
+      # 実際に 439 → 1,188 件まで遡れたときも、紐づけは 55 系列のまま
+      # （作り直すと 63 系列）だった。
+      - name: 公示を規則に紐づける
+        run: python pipeline/link_announcements.py
+
       - name: 変更サマリ
         if: always()
         run: |
