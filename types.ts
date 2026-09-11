@@ -221,6 +221,8 @@ export interface AskSource {
   pdfUrl: string | null;
   /** 原本 PDF の該当ページ */
   pdfPageUrl: string | null;
+  /** 参照をたどって足した根拠なら、どの参照から来たか */
+  via: string | null;
   excerpt: string;
 }
 

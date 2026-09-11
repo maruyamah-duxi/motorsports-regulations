@@ -33,6 +33,8 @@ from urllib.parse import quote
 import httpx
 import numpy as np
 
+from . import crossref
+
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "gemini-embedding-001")
@@ -56,20 +58,43 @@ SYSTEM_INSTRUCTION = """\
 
 1. **与えられた「参考資料」に書かれていることだけ**を答えてください。
    資料に無いことは、一般的なモータースポーツの知識であっても答えないでください。
-2. 資料の中に答えが無い場合は、推測せず「参考資料の中に該当する条文が
-   見つかりませんでした」と述べ、関連しそうな規則名があれば挙げるに留めてください。
-3. 記述の根拠になった資料には、必ず文末に [1] [2] のような番号を付けてください。
+2. 記述の根拠になった資料には、必ず文末に [1] [2] のような番号を付けてください。
    番号は参考資料に振られたものをそのまま使います。複数あれば [1][3] のように並べます。
-4. 条文の数値・基準・型式（例: FIA基準8858、45mm、70mm以下）は資料のとおりに、
+3. 条文の数値・基準・型式（例: FIA基準8858、45mm、70mm以下）は資料のとおりに、
    言い換えずに書いてください。
-5. 資料に複数の車両区分（RRN／RJ／RPN／AE／RF など）や競技種別ごとの規定がある場合は、
-   どれについての規定かを明示してください。
 
-## 書き方
+## 区分を取り違えないこと（最重要）
 
-- 日本語で、結論から簡潔に。
-- 箇条書きを適度に使い、長い前置きは書かない。
-- 最後に必ず次の 1 文を添える:
+JAF の規則は車両区分ごとに別の条文を持ち、**似た条文が並んでいます**。
+取り違えた数値を自信を持って示すことは、答えないことより悪い結果になります。
+
+4. 利用者が車両区分（RRN／RJ／RPN／RF／AE など）を挙げているときは、
+   引用しようとする条文が**その区分に適用されるか**を資料の文面で必ず確かめる。
+5. 別の区分の規定だった場合、その数値を答えにしないでください。
+   「〈数値〉は RPN・RF・AE 車両の規定で、RJ 車両には適用されません」のように
+   区分を明示して述べます。
+6. 資料に「〈他の規則〉に従う」という**参照だけ**があり、参照先の条文本体が
+   資料に無い場合は、**数値を推測しないでください**。
+   「RJ 車両は〈参照先の規則名・条〉に従います。その条文は参考資料に
+   含まれていないため、原本 P.◯ をご確認ください」と答えて止まります。
+7. 資料の中に答えが無い場合も同様に、推測せず「参考資料の中に該当する条文が
+   見つかりませんでした」と述べ、関連しそうな規則名を挙げるに留めます。
+
+## 回答の形
+
+次の見出しで、日本語で書いてください。中身が無い項目は省いてかまいません。
+
+**結論** — 1〜2 文。条件付きで可否が決まる場合は「〜であれば可」と条件込みで。
+
+**条件** — 数値・材質・型式・取り付け方法を箇条書きで。資料のとおりに書く。
+
+**適用範囲** — どの車両区分・どの規則のどの条の話かを 1 行で。
+参照をたどって別の規則に行き着いた場合は、その経路も書く
+（例:「第2編 5.2 が第1編 第4章 第6条に送っており、そちらが本体」）。
+
+**注意** — 資料から読み取れない点、確認が必要な点があれば書く。無ければ省く。
+
+長い前置きは書かないでください。最後に必ず次の 1 文を添えます:
   「正式な判断は JAF の原本 PDF をご確認ください。」
 """
 
@@ -130,6 +155,8 @@ class Source:
     anchor: str | None
     text: str
     pdf_url: str | None
+    #: 参照をたどって足した場合、どの参照から来たか（例「第1編レース車両規定 第6条」）
+    via: str | None = None
 
     @property
     def url(self) -> str:
@@ -147,6 +174,8 @@ class Source:
             "anchor": self.anchor,
             "url": self.url,
             "pdfUrl": self.pdf_url,
+            # 参照をたどって足した根拠は、画面でもそう示す
+            "via": self.via,
             # 根拠の前後を読みたいときは JAF の原本の該当ページへ送る
             "pdfPageUrl": (
                 f"{self.pdf_url}#page={self.page}"
@@ -354,6 +383,7 @@ def retrieve(
 
     best = sorted(ranks.items(), key=lambda kv: -kv[1])[:CONTEXT_CHUNKS]
     ids = [cid for cid, _ in best]
+    followed: dict[int, str] = {}
     placeholders = ",".join("?" * len(ids))
     rows = con.execute(
         f"SELECT ch.id, ch.doc_id, ch.anchor, ch.heading, ch.heading_path,"
@@ -363,6 +393,24 @@ def retrieve(
         ids,
     ).fetchall()
     by_id = {r[0]: r for r in rows}
+
+    # 二段目: 拾った条文の中の「◯◯に従う」という参照をたどる。
+    # 規則が互いを指し合うので、これをやらないと支配している条文が根拠に
+    # 入らない（詳細は server/crossref.py の docstring）。
+    if match:
+        extra = crossref.follow(con, [r[6] for r in rows], match, set(ids))
+        if extra:
+            holes = ",".join("?" * len(extra))
+            more = con.execute(
+                "SELECT ch.id, ch.doc_id, ch.anchor, ch.heading, ch.heading_path,"
+                " ch.page_start, ch.text, d.title, d.pdf_url"
+                " FROM chunks ch JOIN docs d ON d.doc_id = ch.doc_id"
+                f" WHERE ch.id IN ({holes})",
+                [cid for cid, _ in extra],
+            ).fetchall()
+            by_id.update({r[0]: r for r in more})
+            followed = dict(extra)
+            ids += [cid for cid, _ in extra]
 
     sources: list[Source] = []
     for i, cid in enumerate(ids, 1):
@@ -380,6 +428,7 @@ def retrieve(
                 anchor=r[2],
                 text=r[6],
                 pdf_url=r[8],
+                via=followed.get(cid),
             )
         )
     return sources

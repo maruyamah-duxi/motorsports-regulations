@@ -952,3 +952,10 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   line-height: 1.9;
 }
 .ask-disclaimer strong { color: var(--fg-muted); }
+
+/* AI 回答の根拠のうち、参照をたどって足したもの */
+.sources .via {
+  font-size: 0.74rem;
+  color: var(--accent);
+  margin-bottom: 0.15rem;
+}

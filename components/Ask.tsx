@@ -104,6 +104,8 @@ const SourceList: React.FC<{ sources: AskSource[] }> = ({ sources }) => (
       {sources.map((s) => (
         <li key={s.index} value={s.index}>
           <Link href={s.url}>{s.title}</Link>
+          {/* 参照をたどって足した根拠は、どこから来たかを示す */}
+          {s.via && <div className="via">↳ {s.via} を参照</div>}
           <div className="where">
             {(s.headingPath || s.heading) && <>{s.headingPath || s.heading} ／ </>}P.{s.page}
             {(s.pdfPageUrl || s.pdfUrl) && (
