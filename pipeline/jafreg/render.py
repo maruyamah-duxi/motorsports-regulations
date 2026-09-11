@@ -111,6 +111,9 @@ def render_html(document: dict[str, Any]) -> str:
         "<!doctype html>",
         '<html lang="ja"><head><meta charset="utf-8">',
         '<meta name="viewport" content="width=device-width,initial-scale=1">',
+        # この HTML は SPA の外で配信されるので、アイコンも自前で指す
+        '<link rel="icon" href="/favicon.svg" type="image/svg+xml">',
+        '<link rel="icon" href="/favicon.ico" sizes="32x32">',
         f"<title>{_esc(_plain_title(title))}｜{_esc(SITE_NAME)}</title>",
         f'<meta name="description" content="{_esc(desc)}">',
         # 検索での寄せ先はアプリ側の /doc/<docId>。あちらは同じ本文を

@@ -16,6 +16,9 @@ RUN if [ -f package-lock.json ]; then npm ci --no-audit --no-fund; \
 COPY tsconfig.json vite.config.ts index.html index.tsx App.tsx types.ts styles.css ./
 COPY components ./components
 COPY lib ./lib
+# favicon とマニフェスト。Vite が public/ の中身を dist/ 直下へ複写する。
+# ここを忘れるとアイコンだけ黙って 404 になる。
+COPY public ./public
 RUN npm run build
 
 # --- 2. サーバ --------------------------------------------------------------

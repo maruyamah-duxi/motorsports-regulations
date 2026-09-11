@@ -343,6 +343,50 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 
 ---
 
+## 6-b. 「デプロイしたのに古いサイトが出る」
+
+**まず HTML のキャッシュを疑ってください。** 2026-09-11 に踏みました。
+
+検索エンジン向けの HTML 差し込みを入れたとき、応答に
+`Cache-Control: public, max-age=300` を付けていました。HTML には
+**ビルドごとに変わるアセットのファイル名**（`/assets/index-xxxxxxxx.js`）が
+書かれているので、HTML を寝かせると古いアセット名を指したままになり、
+ブラウザは古い JS を再利用します。つまり**サーバは新しいのに画面は古い**。
+
+いまは HTML は `no-cache`（「使うな」ではなく「毎回確かめろ」。中身が同じなら
+304 で済む）、`/assets/` の中身はファイル名にハッシュが入っているので
+`max-age=31536000, immutable` にしています（`server/app.py` の
+`HTML_CACHE` / `ASSET_CACHE`）。
+
+### 切り分け
+
+```bash
+site=https://jp.motorsports-regulations.org
+
+# 1. サーバ側が新しいか（ここが新しければデプロイは成功している）
+curl -sS $site/api/healthz | python3 -m json.tool
+curl -sS $site/robots.txt
+
+# 2. HTML が寝ていないか
+curl -sSI $site/ | grep -i cache-control        # no-cache であること
+
+# 3. 画面が指しているアセットと、実際に配られているものが一致するか
+curl -sS $site/ | grep -o '/assets/index-[^"]*'
+```
+
+ブラウザ側はスーパーリロード（Mac は ⌘⇧R）かプライベートウィンドウで
+確かめるのが早いです。
+
+### 確認のとき詰まる点
+
+**検索露出を止めている間、`robots.txt` が全面 Disallow なので、
+robots.txt に従うツールからはサイトを読めません。** Claude の WebFetch も
+含みます。この状態での動作確認は `curl`（robots.txt を見ない）で行って
+ください。Claude の実行環境と連携先の Linux VM はどちらも公開サイトに
+到達できないので、結局**丸さんの手元の curl 頼み**になります。
+
+---
+
 ## 7. 検索エンジンへの登録
 
 > **いまは検索露出を止めてあります（2026-09-10）。** JAF のサイトポリシーに

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img"
+     aria-label="JAF モータースポーツ諸規則ビューア（非公式）">
+  <title>規則を横断検索する</title>
+  <rect width="512" height="512" rx="112" fill="#1f4fd8"/>
+  <!-- 虫めがねの柄 -->
+  <line x1="315" y1="311" x2="404" y2="400" stroke="#fff" stroke-width="58" stroke-linecap="round"/>
+  <!-- レンズの枠 -->
+  <circle cx="222" cy="218" r="114" fill="none" stroke="#fff" stroke-width="36"/>
+  <!-- レンズの中のチェッカー（白 2 マスが対角） -->
+  <rect x="160" y="156" width="62" height="62" fill="#fff"/>
+  <rect x="222" y="218" width="62" height="62" fill="#fff"/>
+</svg>

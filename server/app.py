@@ -659,12 +659,33 @@ def sitemap_xml() -> Response:
 if CONTENT_DIR.exists():
     app.mount("/content", StaticFiles(directory=CONTENT_DIR, html=True), name="content")
 
+# HTML に効かせるキャッシュ指定。
+#
+# ここを `max-age=300` にしていたら「デプロイしたのに古いサイトが出る」に
+# なった。HTML にはビルドごとに変わるアセットのファイル名が書かれているので、
+# **HTML を寝かせると古いアセット名を指したままになる**。毎回問い合わせさせ、
+# 中身が同じなら 304 で済ませる（no-cache は「使うな」ではなく「毎回確かめろ」）。
+HTML_CACHE = "no-cache"
+# 逆に /assets/ の中身はファイル名にハッシュが入っていて、変わったら名前も
+# 変わる。1 年間そのまま使ってよい。
+ASSET_CACHE = "public, max-age=31536000, immutable"
+
+
+class _ImmutableAssets(StaticFiles):
+    """ハッシュ付きアセットに長期キャッシュを付ける StaticFiles."""
+
+    def file_response(self, *args: Any, **kwargs: Any) -> Any:
+        response = super().file_response(*args, **kwargs)
+        response.headers["Cache-Control"] = ASSET_CACHE
+        return response
+
+
 # ビルド済み SPA。フロントは History API でルーティングするので、
 # 実ファイルが無いパスには index.html を返す（/doc/<id> の直リンク・リロード対策）。
 if DIST_DIR.exists():
     assets = DIST_DIR / "assets"
     if assets.exists():
-        app.mount("/assets", StaticFiles(directory=assets), name="assets")
+        app.mount("/assets", _ImmutableAssets(directory=assets), name="assets")
 
     _INDEX = DIST_DIR / "index.html"
 
@@ -675,11 +696,13 @@ if DIST_DIR.exists():
             candidate = (DIST_DIR / full_path).resolve()
             root = DIST_DIR.resolve()
             if candidate.is_file() and root in candidate.parents:
-                return FileResponse(candidate)
+                # dist 直下の実ファイル（favicon など）。HTML だけは寝かせない。
+                cache = HTML_CACHE if candidate.suffix == ".html" else ASSET_CACHE
+                return FileResponse(candidate, headers={"Cache-Control": cache})
         # 規則ごとの title / description / canonical と本文プリレンダを
         # 差し込んだ HTML を返す。扱わないパスは None が返るので素の
         # index.html（従来どおり）。
         page = _seo.page("/" + full_path)
         if page is not None:
-            return HTMLResponse(page, headers={"Cache-Control": "public, max-age=300"})
-        return FileResponse(_INDEX)
+            return HTMLResponse(page, headers={"Cache-Control": HTML_CACHE})
+        return FileResponse(_INDEX, headers={"Cache-Control": HTML_CACHE})
