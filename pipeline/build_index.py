@@ -82,6 +82,13 @@ CREATE TABLE chunks (
   -- 紐づく図だけをその場に出すために持つ。全文ページを出さない代わりに
   -- 「拾った条文＋その図」で判断できるようにするのが狙い。
   figures      TEXT NOT NULL DEFAULT '[]',
+  -- 「本文の何文字目からどのページか」の対応表（[[offset, page], ...]）。
+  --
+  -- 見出しの検出が効かない規則では 1 つの見出しが 20 ページ分の本文を
+  -- 抱える（付則J項に 406 件、全体の 19% が 10 ページ以上をまたぐ）。
+  -- page_start だけを見せると、検索で当たった条文と原本のページが
+  -- 10 ページ以上ずれる。一致箇所の文字位置から実際のページを引くために持つ。
+  pages        TEXT NOT NULL DEFAULT '[]',
   text         TEXT NOT NULL,
   -- 検索用に NFKC で正規化したもの。全角英数／半角カナの揺れを吸収する
   -- （「ＲＲＮ」でも「RRN」でも当たる）。大文字小文字は trigram が吸収する。
@@ -131,6 +138,41 @@ FIGURE_MAX_PAGE_SPAN = 2
 FIGURE_MAX_PER_CLAUSE = 6
 
 
+def _add_line(current: dict[str, Any], line: str, page: Any) -> None:
+    """本文の 1 行を、その行があったページと一緒に足す."""
+    current["lines"].append(line)
+    current["line_pages"].append(page)
+
+
+def _page_map(
+    body_pages: list[tuple[int, int]],
+    start: int,
+    length: int,
+    prefix_len: int,
+    head_page: Any,
+) -> list[list[int]]:
+    """body の位置→ページを、切り出した part 内の位置→ページに読み替える."""
+    out: list[list[int]] = []
+    if prefix_len or head_page is not None:
+        # 先頭は見出し行。見出しのページに属する
+        out.append([0, int(head_page)] if head_page is not None else [0, 0])
+    for offset, page in body_pages:
+        if offset < start:
+            # part の先頭に既にかかっている行。先頭のページを上書きする
+            if out:
+                out[0] = [0, int(page)]
+            elif prefix_len == 0:
+                out.append([0, int(page)])
+            continue
+        rel = offset - start + prefix_len
+        if rel >= prefix_len + length:
+            break
+        if out and out[-1][1] == int(page):
+            continue  # 同じページが続くぶんは省く
+        out.append([rel, int(page)])
+    return out
+
+
 def _clause_figures(current: dict[str, Any]) -> list[dict[str, Any]]:
     figures = current.get("figures") or []
     if not figures:
@@ -155,6 +197,14 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
         head = current["heading"]
         prefix = f"{head}\n" if head else ""
         figures = _clause_figures(current)
+        # 行の開始位置 → ページ。body は "\n".join(lines) なので、
+        # 各行の開始位置は「それまでの行の長さ + 改行 1 文字」の累積。
+        body_pages: list[tuple[int, int]] = []
+        at = 0
+        for line, page in zip(current["lines"], current["line_pages"]):
+            if page is not None:
+                body_pages.append((at, page))
+            at += len(line) + 1
         # 長すぎるチャンクは分割し、どの部分にも見出しを残す
         budget = MAX_CHUNK_CHARS - len(prefix)
         parts = [body[i : i + budget] for i in range(0, len(body), budget)] or [""]
@@ -168,6 +218,10 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_end": current["page_end"],
                 "part": i,
                 "text": prefix + part,
+                # この part に入るぶんだけを、part 内の位置に読み替える。
+                # 先頭（見出し行）は見出しのページに属する。
+                "pages": _page_map(body_pages, i * budget, len(part), len(prefix),
+                                   current["page_start"]),
                 # 図は文字範囲ではなく「この条」に属するので、分割した
                 # どの part にも同じものを付ける
                 "figures": figures,
@@ -189,6 +243,7 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_start": b.get("page"),
                 "page_end": b.get("page"),
                 "lines": [],
+                "line_pages": [],
                 "figures": [],
             }
             continue
@@ -202,17 +257,18 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_start": b.get("page"),
                 "page_end": b.get("page"),
                 "lines": [],
+                "line_pages": [],
                 "figures": [],
             }
 
         if btype in ("paragraph", "caption"):
-            current["lines"].append(b.get("text", ""))
+            _add_line(current, b.get("text", ""), b.get("page"))
         elif btype == "table":
             for row in b.get("rows") or []:
-                current["lines"].append(" | ".join(str(c or "") for c in row))
+                _add_line(current, " | ".join(str(c or "") for c in row), b.get("page"))
         elif btype == "figure":
             if b.get("caption"):
-                current["lines"].append(b["caption"])
+                _add_line(current, b["caption"], b.get("page"))
             if b.get("asset"):
                 current["figures"].append(
                     {
@@ -350,8 +406,8 @@ def build(
         for c in iter_chunks(doc):
             con.execute(
                 "INSERT INTO chunks (doc_id, anchor, heading, heading_path, clause,"
-                " page_start, page_end, part, figures, text, text_norm, text_hash)"
-                " VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+                " page_start, page_end, part, figures, pages, text, text_norm,"
+                " text_hash) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     doc_id,
                     c["anchor"],
@@ -362,6 +418,7 @@ def build(
                     c["page_end"],
                     c["part"],
                     json.dumps(c.get("figures") or [], ensure_ascii=False),
+                    json.dumps(c.get("pages") or [], separators=(",", ":")),
                     c["text"],
                     normalize(c["text"]),
                     text_hash(c["text"]),

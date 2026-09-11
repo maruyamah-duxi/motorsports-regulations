@@ -55,9 +55,6 @@ const Spread: React.FC<{
         <strong>
           {docs.length.toLocaleString()} の規則に {total.toLocaleString()} 箇所
         </strong>
-        <span className="hint">
-          {bySection.length} 区分にまたがっています。PDF を 1 本ずつ開いても追えない部分です。
-        </span>
         {docs.length > 8 && (
           <button className="linkish" onClick={() => setOpen(!open)}>
             {open ? '内訳を閉じる' : '内訳を見る'}
@@ -96,11 +93,20 @@ const Spread: React.FC<{
 
 const Hit: React.FC<{ hit: SearchHit }> = ({ hit }) => {
   const anchor = hit.anchor ? `#${encodeURIComponent(hit.anchor)}` : `#p${hit.page}`;
+  const where = hit.headingReliable ? hit.headingPath || hit.heading : hit.clauseAtMatch;
   return (
     <div className="hit">
       <div className="path">
-        {hit.headingPath || hit.heading}
-        {` ／ P.${hit.page}`}
+        {/* 見出しが 20 ページ分を抱えている規則では、その条見出しは一致箇所の
+            ものとは言えない。そのときは本文から拾った条項を出す。
+            どちらも無ければページだけ（ページは一致箇所の実ページ）。*/}
+        {where ? (
+          <>
+            {where}
+            {' ／ '}
+          </>
+        ) : null}
+        {`P.${hit.page}`}
       </div>
       <Snippet text={hit.snippet} />
       {hit.figures.length > 0 && (

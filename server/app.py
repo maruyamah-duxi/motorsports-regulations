@@ -38,6 +38,8 @@ from starlette.datastructures import MutableHeaders
 
 from . import rag, seo
 from .excerpt import excerpt as _excerpt
+from .excerpt import clause_at as _clause_at
+from .excerpt import first_match as _first_match
 
 ROOT = Path(os.environ.get("APP_ROOT", Path(__file__).resolve().parent.parent))
 DB_PATH = Path(os.environ.get("SEARCH_DB", ROOT / "data" / "search.db"))
@@ -182,7 +184,8 @@ def search(
         if match:
             sql = f"""
               SELECT ch.doc_id, ch.anchor, ch.heading, ch.heading_path, ch.clause,
-                     ch.page_start, ch.page_end, ch.text, ch.figures,
+                     ch.page_start, ch.page_end, ch.part, ch.pages,
+                     ch.text, ch.figures,
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
                      bm25(chunks_fts) AS score
               FROM chunks_fts
@@ -211,7 +214,8 @@ def search(
             # 2 文字以下は trigram で引けないので LIKE にフォールバック
             sql = f"""
               SELECT ch.doc_id, ch.anchor, ch.heading, ch.heading_path, ch.clause,
-                     ch.page_start, ch.page_end, ch.text, ch.figures,
+                     ch.page_start, ch.page_end, ch.part, ch.pages,
+                     ch.text, ch.figures,
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
                      0 AS score
               FROM chunks ch JOIN docs d ON d.doc_id = ch.doc_id
@@ -235,49 +239,83 @@ def search(
 
     terms = _query_terms(q) or [q]
 
-    items = [
-        {
-            "docId": r["doc_id"],
-            "title": r["title"],
-            "section": r["section"],
-            "group": r["grp"],
-            "heading": r["heading"],
-            "headingPath": r["heading_path"],
-            "clause": r["clause"],
-            "page": r["page_start"],
-            "anchor": r["anchor"],
-            "snippet": _excerpt(r["text"], terms),
-            "uploadDate": r["upload_date"],
-            "pdfUrl": r["pdf_url"],
-            # 原本 PDF の**該当ページ**。ブラウザ内の PDF ビューアはこの
-            # 指定を見てそのページを開く（page_start は 1 起点で、8,778
-            # チャンクすべてがページ数の範囲内であることを確認済み）。
-            # スマホではダウンロードになってページ指定が効かないことがある。
-            "pdfPageUrl": (
-                f"{r['pdf_url']}#page={r['page_start']}"
-                if r["pdf_url"] and r["page_start"]
-                else r["pdf_url"]
-            ),
-            # この条に属する図版だけ。全文を出さない代わりに、拾った条文と
-            # 一緒に図を見て判断できるようにする。
-            "figures": [
-                {
-                    "url": f"/content/{quote(r['doc_id'])}/{quote(str(f.get('asset')))}",
-                    "caption": f.get("caption"),
-                    "page": f.get("page"),
-                }
-                for f in _json_list(r["figures"])
-                if isinstance(f, dict) and f.get("asset")
-            ],
-            # アプリ内の該当箇所への直リンク
-            "url": f"/doc/{quote(r['doc_id'])}"
-            + (f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{r['page_start']}"),
-            # 単体で読める静的 HTML（アプリを介さずに参照したいとき用）
-            "staticUrl": f"/content/{quote(r['doc_id'])}/index.html"
-            + (f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{r['page_start']}"),
-        }
-        for r in rows
-    ]
+
+    def locate(row: sqlite3.Row) -> tuple[int, bool, str | None]:
+        """一致箇所の実ページと、条見出しを信じてよいかを返す.
+
+        見出しの検出が効かない規則では 1 つの見出しが 20 ページ分の本文を
+        抱える（全体の 19% が 10 ページ以上をまたぐ）。そのとき
+        `page_start` を見せると原本のページが 10 ページ近くずれ、条見出しも
+        一致箇所のものではなくなる。実測例: 付則J項の「サイドロールバー」は
+        P.50 にあるのに P.41（＝見出しのページ）と出ていた。
+        """
+        start = row["page_start"] or 0
+        offset = _first_match(row["text"], terms) or 0
+        page = start
+        for entry in _json_list(row["pages"]):
+            if not isinstance(entry, list) or len(entry) != 2:
+                continue
+            at, pg = entry
+            if at > offset:
+                break
+            page = pg
+        # 見出しは page_start に書かれている。そこから離れた本文は、
+        # その見出しの条とは限らない。ただし本文には条項の目印が残っている
+        # ので、引き継いだ見出しの代わりにそれを拾う。
+        reliable = abs(page - start) <= 1
+        clause = (
+            None if reliable else _clause_at(row["text"], offset, row["heading"])
+        )
+        return page, reliable, clause
+
+
+    items = []
+    for r in rows:
+        # locate は本文を走査するので 1 行に 1 回だけ呼ぶ
+        page, heading_reliable, clause_at_match = locate(r)
+        frag = f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{page}"
+        items.append(
+            {
+                "docId": r["doc_id"],
+                "title": r["title"],
+                "section": r["section"],
+                "group": r["grp"],
+                "heading": r["heading"],
+                "headingPath": r["heading_path"],
+                "clause": r["clause"],
+                "page": page,
+                # 見出しが 20 ページ分を抱えているとき、その条見出しは一致箇所の
+                # ものではない。間違った条を示すより、本文から拾った条項
+                # （clauseAtMatch）を出す。どちらも無ければページだけ。
+                "headingReliable": heading_reliable,
+                "clauseAtMatch": clause_at_match,
+                "anchor": r["anchor"],
+                "snippet": _excerpt(r["text"], terms),
+                "uploadDate": r["upload_date"],
+                "pdfUrl": r["pdf_url"],
+                # 原本 PDF の**一致箇所のページ**。ブラウザ内の PDF ビューアは
+                # この指定を見てそのページを開く。スマホではダウンロードに
+                # なってページ指定が効かないことがある。
+                "pdfPageUrl": (
+                    f"{r['pdf_url']}#page={page}" if r["pdf_url"] and page else r["pdf_url"]
+                ),
+                # この条に属する図版だけ。全文を出さない代わりに、拾った条文と
+                # 一緒に図を見て判断できるようにする。
+                "figures": [
+                    {
+                        "url": f"/content/{quote(r['doc_id'])}/{quote(str(f.get('asset')))}",
+                        "caption": f.get("caption"),
+                        "page": f.get("page"),
+                    }
+                    for f in _json_list(r["figures"])
+                    if isinstance(f, dict) and f.get("asset")
+                ],
+                # アプリ内の該当箇所への直リンク
+                "url": f"/doc/{quote(r['doc_id'])}{frag}",
+                # 単体で読める静的 HTML（アプリを介さずに参照したいとき用）
+                "staticUrl": f"/content/{quote(r['doc_id'])}/index.html{frag}",
+            }
+        )
     return {
         "query": q,
         "total": total,

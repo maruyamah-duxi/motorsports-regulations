@@ -193,7 +193,12 @@ export interface SearchHit {
   heading: string;
   headingPath: string;
   clause: string | null;
+  /** 一致箇所が実際にある原本のページ（チャンクの先頭ページではない） */
   page: number;
+  /** 条見出しが一致箇所のものと言えるか */
+  headingReliable: boolean;
+  /** headingReliable が false のとき、本文から拾った実際の条項 */
+  clauseAtMatch: string | null;
   anchor: string | null;
   /** 制御文字でハイライト済みの抜粋（該当語の前後） */
   snippet: string;

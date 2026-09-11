@@ -12,7 +12,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from server.excerpt import HIGHLIGHT_END, HIGHLIGHT_START, excerpt, norm_map  # noqa: E402
+from server.excerpt import (  # noqa: E402
+    HIGHLIGHT_END,
+    HIGHLIGHT_START,
+    clause_at,
+    excerpt,
+    first_match,
+    norm_map,
+)
 
 S, E = HIGHLIGHT_START, HIGHLIGHT_END
 
@@ -71,6 +78,52 @@ def test_empty_inputs() -> None:
     assert excerpt("", ["x"]) == ""
     assert excerpt("本文", []) == "本文"
     assert excerpt("本文", [""]) == "本文"
+
+
+# 付則J項の実データを写したもの。見出しの検出が効かず、1 つの見出しが
+# 20 ページ分の本文を抱えているチャンク（part=5、P.41-60）。
+APX_J = (
+    "3.3)\u3000自動燃料遮断装置すべてのグループについて推奨：\n"
+    "ロールバーメインロールバーと同様なものであるが、その形状は…\n"
+    "8.2.4)\u3000サイドロールバーコクピットの左右に沿って配置された、ほぼ縦方向…\n"
+    "8.2.5)\u3000ハーフ・サイドロールバーリアピラーのないサイドロールバーに等しい。\n"
+)
+HEAD = "3.3)\u3000自動燃料遮断装置すべてのグループについて推奨："
+
+
+def test_first_match_offset() -> None:
+    text = "あ" * 50 + "安全ベルト" + "い" * 50
+    assert first_match(text, ["安全ベルト"]) == 50
+    # 全角の原文を半角で引いても、返るのは原文側の位置
+    assert first_match("料金は１０６,７００円", ["106,700"]) == 3
+    assert first_match("本文", ["無い語"]) is None
+
+
+def test_clause_at_finds_the_real_clause() -> None:
+    """引き継いだ見出しではなく、一致箇所の手前にある条項を返すこと."""
+    i = APX_J.index("サイドロールバーコクピット")
+    got = clause_at(APX_J, i, HEAD)
+    assert got is not None and got.startswith("8.2.4)"), got
+    i = APX_J.index("ハーフ・サイド")
+    got = clause_at(APX_J, i, HEAD)
+    assert got is not None and got.startswith("8.2.5)"), got
+
+
+def test_clause_at_skips_the_inherited_heading() -> None:
+    """先頭行は引き継いだ見出し。これを拾うと間違いをそのまま出すことになる."""
+    i = APX_J.index("ロールバーメインロールバー")
+    assert clause_at(APX_J, i, HEAD) is None
+
+
+def test_clause_at_rejects_false_positives() -> None:
+    # 目印の直後に空白が無いもの（文の途中で折り返した行）
+    assert clause_at("9)のうちの1つを選ぶ", 5) is None
+    assert clause_at("第253条4に合致しなければならない。", 5) is None
+    # 表を平坦化した行（セルを " | " で繋いだもの）
+    assert clause_at("031) | オリジナル車両\nロールバー", 25) is None
+    # 正しい形はちゃんと拾う
+    got = clause_at("第12条　安全ベルト\n肩部ストラップは…", 12)
+    assert got is not None and got.startswith("第12条"), got
 
 
 def main() -> int:

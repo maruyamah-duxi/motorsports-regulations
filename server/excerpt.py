@@ -16,6 +16,7 @@ FTS5 の `snippet()` は trigram トークナイザだと 64 トークン＝実�
 
 from __future__ import annotations
 
+import re
 import unicodedata
 
 # ハイライトは HTML ではなく制御文字で囲んで返す。規則本文には "<" が
@@ -26,6 +27,56 @@ HIGHLIGHT_END = ""
 
 BEFORE = 120
 AFTER = 220
+
+# 行頭に現れる条項の目印。変換後の本文はブロックごとに 1 行になっている。
+#   第12条　… / 第２章　… / 8.2.4)　… / 5.14)　…
+#
+# **目印の直後に空白を要求する**のが要点。要求しないと誤検出が出た（実測）:
+#   「9)のうちの1つ」            … 文の途中で折り返した行
+#   「第253条4に合致しなければ…」  … 同上
+# 表を平坦化した行（セルを " | " で繋いだもの）も条項ではないので外す:
+#   「031) | オリジナル車両」「211) | 主要寸法」
+_CLAUSE_AT_LINE_START = re.compile(
+    r"^(?:"
+    r"第\s*[0-9０-９]+\s*[条章編節項]"
+    r"|[0-9０-９]+(?:[.．][0-9０-９]+)*\s*[)）]"
+    r")[\s\u3000]"
+)
+_TABLE_ROW = " | "
+# 拾った行から見出しとして出す長さ
+CLAUSE_LABEL_MAX = 42
+
+
+def clause_at(text: str, offset: int, heading: str | None = None) -> str | None:
+    """一致箇所の直前にある条項の行を返す（見出しの検出が効かない規則向け）.
+
+    見出しが 20 ページ分の本文を抱えている場合、`heading` は一致箇所の条では
+    ない。ただし本文そのものには「8.2.4)　サイドロールバー…」のように条項の
+    目印が残っているので、一致位置から**手前に向かって**探せば実際の条が分かる。
+    引き継いだ見出しを出すより、こちらのほうが当たる。
+    """
+    if not text:
+        return None
+    found: str | None = None
+    at = 0
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if at > offset:
+            break
+        at += len(line) + 1
+        stripped = line.strip()
+        # 先頭行は引き継いだ見出しそのもの（チャンクの本文は見出し + 本文）。
+        # それを拾ってしまうと、直したはずの間違いをそのまま出すことになる。
+        if i == 0 and heading and stripped == heading.strip():
+            continue
+        if _TABLE_ROW in line:
+            continue
+        if _CLAUSE_AT_LINE_START.match(unicodedata.normalize("NFKC", stripped)):
+            found = stripped
+    if not found:
+        return None
+    label = re.sub(r"\s+", " ", found).strip()
+    return label[:CLAUSE_LABEL_MAX] + ("…" if len(label) > CLAUSE_LABEL_MAX else "")
 
 
 def norm_map(text: str) -> tuple[str, list[int]]:
@@ -47,6 +98,31 @@ def norm_map(text: str) -> tuple[str, list[int]]:
         out.append(n)
         back.extend([i] * len(n))
     return "".join(out), back
+
+
+def first_match(text: str, terms: list[str]) -> int | None:
+    """最初に一致した語の、原文での文字位置.
+
+    チャンク 1 つが 20 ページ分の本文を抱えることがあるので、原本 PDF の
+    どのページを開けばよいかは「チャンクの先頭ページ」ではなくここから
+    引く（`chunks.pages` の対応表と合わせて使う）。
+    """
+    if not text:
+        return None
+    normalized, back = norm_map(text)
+    haystack = normalized.casefold()
+    best: int | None = None
+    for term in terms:
+        needle = unicodedata.normalize("NFKC", term).casefold()
+        if not needle:
+            continue
+        i = haystack.find(needle)
+        if i == -1:
+            continue
+        at = back[i] if i < len(back) else len(text)
+        if best is None or at < best:
+            best = at
+    return best
 
 
 def excerpt(text: str, terms: list[str], before: int = BEFORE, after: int = AFTER) -> str:
