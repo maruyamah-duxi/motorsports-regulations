@@ -55,6 +55,11 @@ CREATE TABLE docs (
   chars       INTEGER,
   figures     INTEGER,
   tables      INTEGER,
+  -- 見出し一覧（[{id, level, text, page}, ...]）。
+  --
+  -- 全文は配信しないので、規則ページは「目次 + 原本ページへのリンク」で
+  -- 案内する。サーバが document.json を読まずに済むようここに持つ。
+  toc         TEXT NOT NULL DEFAULT '[]',
   -- 年度版をまとめる系列キーと版の呼び名（jafreg/series.py）
   series      TEXT,
   edition     TEXT,
@@ -123,6 +128,33 @@ CREATE TABLE IF NOT EXISTS vectors (
   PRIMARY KEY (text_hash, model, dim)
 );
 """
+
+
+def _toc(doc: dict[str, Any]) -> list[dict[str, Any]]:
+    """見出し一覧を、原本ページつきで取り出す.
+
+    `document.json` の `toc` は既に `page` を持っている（実測で 262/262 件）。
+    念のため見出しブロック側からも補える形にしておく。
+    """
+    pages = {
+        b.get("id"): b.get("page")
+        for b in doc.get("blocks") or []
+        if b.get("type") == "heading" and b.get("id")
+    }
+    out: list[dict[str, Any]] = []
+    for item in doc.get("toc") or []:
+        text = (item.get("text") or "").strip()
+        if not text:
+            continue
+        out.append(
+            {
+                "id": item.get("id"),
+                "level": int(item.get("level") or 3),
+                "text": text,
+                "page": item.get("page") or pages.get(item.get("id")),
+            }
+        )
+    return out
 
 
 def text_hash(text: str) -> str:
@@ -377,7 +409,7 @@ def build(
         doc_id = doc["docId"]
         stats = doc.get("stats") or {}
         con.execute(
-            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO docs VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (
                 doc_id,
                 doc.get("title") or doc_id,
@@ -390,6 +422,9 @@ def build(
                 stats.get("chars"),
                 stats.get("figures"),
                 stats.get("tables"),
+                # 見出し一覧。全文を配らないので、規則ページはこれと
+                # 原本ページへのリンクで案内する
+                json.dumps(_toc(doc), ensure_ascii=False),
                 (history_docs.get(doc_id) or {}).get("series"),
                 (history_docs.get(doc_id) or {}).get("edition"),
                 json.dumps(

@@ -134,6 +134,18 @@ steps:
         curl -fsS "$$url/doc/$$doc" -o /tmp/page.html
         curl -fsS "$$url/robots.txt" -o /tmp/robots.txt
         curl -fsS -D /tmp/head.txt -o /dev/null "$$url/doc/$$doc"
+        curl -fsS "$$url/api/documents/$$doc" -o /tmp/meta.json
+
+        # 全文が出ていないことを実物で確かめる。ここが開くと、JAF の
+        # サイトポリシーと食い違う状態で公開したことになる（7-e の「口の一覧」）。
+        for path in "/content/$$doc/document.json" "/content/$$doc/index.html" "/content/$$doc/"; do
+          code=$(curl -s -o /dev/null -w '%{http_code}' "$$url$$path")
+          echo "  $$path -> $$code"
+          if [ "$$code" != "404" ]; then
+            echo "全文の経路が開いています: $$path（404 であるべき）"
+            exit 1
+          fi
+        done
         python3 - "$$doc" <<'PY'
         import sys
         page = open("/tmp/page.html", encoding="utf-8").read()
@@ -160,21 +172,25 @@ steps:
             assert "x-robots-tag: noindex" in headers, (
                 "X-Robots-Tag ヘッダが付いていません（/content 配下が素通しになります）"
             )
-            # クローラに読ませないなら本文の埋め込みは入れない
-            assert 'id="prerender"' not in page, (
-                "露出 OFF なのに本文のプリレンダが入っています"
-                "（同じ本文を 2 度配ることになります）"
-            )
-            print(f"OK  検索露出は OFF（Disallow + noindex + プリレンダなし）/doc/{doc}")
+            print(f"OK  検索露出は OFF（Disallow + noindex）/doc/{doc}")
         else:
             assert "Sitemap:" in robots, "robots.txt に Sitemap 行がありません"
             assert 'name="robots" content="noindex' not in page, (
                 "露出 ON のはずのページに noindex が付いています"
             )
-            assert 'id="prerender"' in page, (
-                f"露出 ON なのに /doc/{doc} に本文のプリレンダがありません"
-            )
             print(f"OK  検索露出は ON /doc/{doc} {len(page):,} 文字")
+
+        # 規則ページの初回 HTML に本文を埋め込まない（露出の有無に関わらず）
+        assert 'id="prerender"' not in page, (
+            f"/doc/{doc} に本文のプリレンダが入っています。全文の配信は"
+            "やめたので、この経路は残っていてはいけません"
+        )
+        # API が本文を返さない
+        meta = json.load(open("/tmp/meta.json", encoding="utf-8"))
+        assert "blocks" not in meta, "/api/documents が本文（blocks）を返しています"
+        assert meta.get("toc") is not None, "目次が返っていません"
+        assert meta.get("pdfUrl"), "原本 PDF の URL が入っていません（本文へ送れません）"
+        print(f"OK  全文は非公開 / 目次 {len(meta['toc'])} 件 / 原本 PDF あり")
         PY
 
 images:

@@ -14,7 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from server import seo as seo_module  # noqa: E402
-from server.seo import Seo, _truncate_html  # noqa: E402
+from server.seo import Seo  # noqa: E402
 
 ORIGIN = "https://example.test"
 
@@ -108,8 +108,12 @@ def test_document_head() -> None:
                 '<link rel="canonical" href="https://example.test/doc/2026_rally-aaa">'
                 in page
             )
-            # description は条見出しを並べて、規則ごとに違うものにする
-            assert "第1条 総則" in page and "第2条 安全ベルト" in page
+            # description は条見出しを並べて、規則ごとに違うものにする。
+            # 全角の空白は NFKC で半角になる（「第１条　総　則」→「第1条 総 則」）
+            assert "第1条 総 則" in page and "第2条 安全ベルト" in page
+            # 本文は載せていないので「全文」と書かない
+            assert "の全文" not in page
+            assert "の条文一覧" in page
             # 条見出しでないものは入れない
             assert "1.適用" not in page
             assert '"@type": "BreadcrumbList"' in page
@@ -118,21 +122,23 @@ def test_document_head() -> None:
             assert "日本自動車連盟" in page
 
 
-def test_document_prerender() -> None:
-    with indexing(True):
-        with tempfile.TemporaryDirectory() as tmp:
-            s = _fixture(Path(tmp))
-            page = s.page("/doc/2026_rally-aaa")
-            assert page is not None
-            # 本文が #root の後ろに入る（React は #root しか触らない）
-            root = page.index('<div id="root"></div>')
-            pre = page.index('id="prerender"')
-            assert root < pre
-            assert "第1条 総則" in page or "第1条 総則" in page
-            assert "<p>本規則は…</p>" in page
-            # 図版の相対パスは絶対パスに直す（/doc/assets/… を見に行かせない）
-            assert 'src="/content/2026_rally-aaa/assets/fig-p0001-01.webp"' in page
-            assert 'src="assets/' not in page
+def test_document_never_embeds_the_body() -> None:
+    """規則ページに本文を埋め込まないこと（露出オンでも）.
+
+    以前は content/<docId>/index.html から <article> を切り出して初回 HTML に
+    入れていた。全文の配信をやめたので、この経路ごと外してある。露出を
+    再開したときに本文が戻らないよう、ここで固定する。
+    """
+    with tempfile.TemporaryDirectory() as tmp:
+        s = _fixture(Path(tmp))
+        for on in (True, False):
+            with indexing(on):
+                page = s.page("/doc/2026_rally-aaa") or ""
+                assert 'id="prerender"' not in page, on
+                assert "<p>本規則は…</p>" not in page, on
+                # head の作りは残る
+                assert '<link rel="canonical"' in page
+                assert '<meta name="description"' in page
 
 
 def test_routes() -> None:
@@ -197,32 +203,11 @@ def test_indexing_switch() -> None:
             assert '<meta name="robots" content="noindex,nofollow">' in page
             assert s.page("/") is not None  # トップも同じ扱い
             assert 'name="robots"' in (s.page("/") or "")
-            # クローラに読ませないならプリレンダを入れる意味がない。
-            # 入れたままだと同じ本文を #prerender と React で二重に配る。
-            assert 'id="prerender"' not in page
+            # クローラに読ませないなら一覧を入れる意味がない
             assert 'id="prerender"' not in (s.page("/") or "")
             # head の作りは変えない（再開時にそのまま出せるように）
             assert '<link rel="canonical"' in page
             assert s.sitemap_xml().count("<loc>") == 4
-
-
-def test_truncate_closes_tags() -> None:
-    # 目次そのものが上限より長いときに、直前の </p> まで戻ってしまう
-    # 事故があった。タグを数えて切り、閉じ忘れを補う。
-    body = '<article class="doc"><p>あ</p><nav><ol>' + (
-        "".join(f"<li><a href=\"#c{i}\">第{i}条</a></li>" for i in range(4000))
-    ) + "</ol></nav><p>い</p></article>"
-    out, truncated = _truncate_html(body, 20_000)
-    assert truncated
-    assert len(out.encode("utf-8")) < 21_000
-    # 目次の途中で切れていて、かつタグは閉じている
-    assert out.endswith("</li></ol></nav></article>") or out.endswith(
-        "</ol></nav></article>"
-    )
-    assert out.count("<li>") == out.count("</li>")
-    # 上限以下なら手を付けない
-    same, flag = _truncate_html("<p>短い</p>", 20_000)
-    assert same == "<p>短い</p>" and flag is False
 
 
 def main() -> int:

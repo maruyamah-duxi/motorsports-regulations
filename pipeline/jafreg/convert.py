@@ -19,7 +19,6 @@ from .layout import (
     detect_running_texts,
     estimate_body_size,
 )
-from .render import render_html
 
 FIGURE_DPI = 200
 FIGURE_MAX_PX = 1600
@@ -131,7 +130,6 @@ def convert_pdf(
     (out_dir / "document.json").write_text(
         json.dumps(document, ensure_ascii=False, indent=1), encoding="utf-8"
     )
-    (out_dir / "index.html").write_text(render_html(document), encoding="utf-8")
 
     return ConvertResult(
         doc_id=doc_id,

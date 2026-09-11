@@ -711,72 +711,106 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
 .source-note strong { color: var(--fg); }
 .source-note a { margin: 0 0.15em; }
 
-.toc {
+/* 目次。全文を載せないので、この一覧が規則ページの主役になる。
+   見出しを押すと原本 PDF の該当ページが開く。 */
+.toc-panel { margin-top: 1.5rem; }
+.toc-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  margin-bottom: 0.6rem;
+}
+.toc-head h2 { font-size: 1rem; margin: 0; }
+.toc-head .hint { font-size: 0.76rem; color: var(--fg-muted); }
+.toc-list { list-style: none; margin: 0; padding: 0; font-size: 0.88rem; }
+.toc-list li { border-bottom: 1px solid var(--line); }
+.toc-list li:last-child { border-bottom: 0; }
+.toc-list a,
+.toc-list > li > .t {
+  display: flex;
+  gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.4rem 0.35rem;
+  color: inherit;
+  text-decoration: none;
+  line-height: 1.7;
+}
+.toc-list a:hover { background: var(--bg-soft); }
+.toc-list a .t { flex: 1; }
+.toc-list a:hover .t { color: var(--accent); text-decoration: underline; }
+.toc-list .p {
+  flex: none;
+  font-size: 0.76rem;
+  color: var(--fg-faint);
+  font-variant-numeric: tabular-nums;
+}
+.toc-list .l1 > * { font-weight: 700; }
+.toc-list .l2 > * { font-weight: 600; }
+.toc-list .l3 { padding-left: 0.6rem; }
+.toc-list .l4 { padding-left: 1.2rem; }
+.toc-list .l5 { padding-left: 1.8rem; color: var(--fg-muted); }
+.empty-toc {
+  border: 1px dashed var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  color: var(--fg-muted);
+  font-size: 0.88rem;
+}
+
+/* 原本への導線。本文はこちらで読む。 */
+.pdf-cta { margin: 1.1rem 0; }
+.pdf-cta a {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.pdf-cta a:hover { filter: brightness(1.08); }
+
+/* この規則の中だけを検索する。全文を読ませない代わりの主役。 */
+.in-doc-search {
+  margin-top: 1.5rem;
+  padding: 0.9rem 1rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 0.9rem 1.1rem;
-  margin-bottom: 2rem;
-  font-size: 0.85rem;
   background: var(--bg-soft);
 }
-.toc summary { cursor: pointer; font-weight: 600; color: var(--fg-muted); }
-.toc ol { list-style: none; margin: 0.75rem 0 0; padding: 0; }
-.toc li a { color: var(--fg-muted); display: block; padding: 0.12rem 0; line-height: 1.6; }
-.toc li a:hover { color: var(--accent); text-decoration: none; }
-.toc .l1 { font-weight: 700; margin-top: 0.5rem; }
-.toc .l1 a { color: var(--fg); }
-.toc .l2 { padding-left: 1rem; }
-.toc .l3 { padding-left: 2rem; }
-.toc .l4 { padding-left: 3rem; }
-.toc .l5 { padding-left: 4rem; font-size: 0.95em; }
-
-.doc-body { max-width: 48rem; }
-.doc-body h2, .doc-body h3, .doc-body h4, .doc-body h5, .doc-body h6 {
-  line-height: 1.55;
-  margin: 2.2em 0 0.6em;
-  scroll-margin-top: calc(var(--header-h) + 1rem);
+.in-doc-search label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
 }
-.doc-body h2 { font-size: 1.2rem; border-left: 3px solid var(--accent); padding-left: 0.6rem; }
-.doc-body h3 { font-size: 1.08rem; }
-.doc-body h4 { font-size: 1rem; }
-.doc-body h5, .doc-body h6 { font-size: 0.95rem; color: var(--fg-muted); }
-.doc-body p { margin: 0 0 1em; text-align: justify; line-break: strict; }
-
-.doc-body figure {
-  margin: 1.8em 0;
-  padding: 0.7rem;
+.in-doc-search .row { display: flex; gap: 0.5rem; }
+.in-doc-search input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem 0.7rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--fg);
+  background: var(--bg);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: #fff;
+  border-radius: 6px;
 }
-.doc-body figure img { display: block; width: 100%; height: auto; }
-.doc-body figcaption {
-  margin-top: 0.5rem;
-  font-size: 0.82rem;
-  color: var(--fg-muted);
-  text-align: center;
+.in-doc-search button {
+  flex: none;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-size: 0.88rem;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
 }
-
-.table-wrap { overflow-x: auto; margin: 1.5em 0; border: 1px solid var(--line); border-radius: var(--radius); }
-.doc-body table { border-collapse: collapse; font-size: 0.86rem; width: 100%; }
-.doc-body th, .doc-body td {
-  border: 1px solid var(--line);
-  padding: 0.35em 0.6em;
-  vertical-align: top;
-  text-align: left;
-  line-height: 1.6;
-}
-.doc-body th { background: var(--bg-inset); font-weight: 600; }
-.doc-body tr:first-child td { background: transparent; }
-
-.page-mark {
-  float: right;
-  margin-left: 0.6rem;
-  font-size: 0.68rem;
-  color: var(--fg-faint);
-  user-select: none;
-  scroll-margin-top: calc(var(--header-h) + 1rem);
-}
+.in-doc-search .hit { background: var(--bg); }
+.in-doc-search .page-sub { margin: 0.8rem 0 0.5rem; }
 
 .doc-footer {
   margin-top: 3rem;

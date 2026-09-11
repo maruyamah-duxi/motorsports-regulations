@@ -16,20 +16,21 @@
 --------------
 * `/doc/<docId>` に規則ごとの title / description / canonical / OG /
   JSON-LD を差し込む
-* 同じレスポンスに**本文 HTML を `#prerender` として同梱**する。本文は
-  変換時に `content/<docId>/index.html` として作ってあるので、ここでは
-  `<article>` を切り出して貼るだけ（再変換はしない）。React は `#root`
-  しか触らないので競合しない。SPA は起動時に `#prerender` を消す
-  （index.tsx）。
+* トップに全 160 件への素の `<a>` を置く（`#prerender`。SPA 起動時に
+  index.tsx が消す）。JS を実行しないクローラにも一覧が見えるようにする。
+
+**本文は同梱しない。** 以前は `content/<docId>/index.html` から `<article>` を
+切り出して初回 HTML に入れていたが、全文の配信をやめたので本文そのものが
+存在しない（`docs/architecture.md` 9 章）。露出を再開しても本文が初回 HTML に
+戻らないよう、仕組みごと外してある。
 * `/search` `/ask` は noindex + robots.txt で Disallow。クエリ違いで
   URL が無限に増える種類のページなので、クロール予算を使わせない。
 * `/robots.txt` と `/sitemap.xml` を配る。
 
 やらないこと
 ------------
-`content/<docId>/index.html` を noindex にはしない。JS 無しで全文が
-読める唯一の経路なので残し、`canonical` で `/doc/<docId>` に寄せる
-（render.py 側で入れている）。
+本文を出さない。検索エンジンに読ませるのは規則名・条見出し・目次・
+メタデータまでで、条文の本文は原本 PDF へ送る。
 """
 
 from __future__ import annotations
@@ -60,10 +61,8 @@ DEFAULT_ORIGIN = "https://jp.motorsports-regulations.org"
 # 分かったため、オーナーの判断で False にした。経緯は
 # docs/architecture.md の 7-e と 9 章。
 #
-# False の間はプリレンダ（本文・一覧の埋め込み）も止める。クローラに
-# 読ませるための仕組みなので、読ませないなら入れる意味がない。入れたまま
-# だと /doc/<docId> の初回 HTML が 200KB 超になり、同じ本文を #prerender と
-# React の描画で二重に配ることになる。
+# False の間はトップの一覧（#prerender）も止める。クローラに読ませるための
+# 仕組みなので、読ませないなら入れる意味がない。
 #
 # 再開するときはここを True に戻して出すだけでよい。ただし robots.txt で
 # クロールを止めている間は、クローラは noindex を読めないので、すでに
@@ -77,29 +76,22 @@ PUBLISHER = "一般社団法人日本自動車連盟（JAF）"
 
 HOME_TITLE = "JAF モータースポーツ諸規則を全文検索｜非公式ビューア"
 HOME_DESCRIPTION = (
-    "JAF が PDF で公開している国内モータースポーツ諸規則を、条文単位で全文検索できる"
-    "非公式のビューアです。競技規則・車両規定・統轄規定などを横断検索し、AI に質問"
-    "することもできます。JAF の公式サイトではありません。"
+    "JAF が PDF で公開している国内モータースポーツ諸規則を横断検索できる非公式の"
+    "ビューアです。競技規則・車両規定・統轄規定などをまたいで該当条文を探し、その場から"
+    "JAF の原本 PDF の該当ページへ移動できます。条文の本文は掲載していません。"
+    "JAF の公式サイトではありません。"
 )
 
 # SERP に出る長さの目安。日本語は 120 字前後で切られるので、それより
 # 少し長めに作って末尾は削る。
 DESCRIPTION_MAX = 150
 
-# プリレンダに載せる本文の上限。最大の規則（FIA WEC）は HTML で 3.2MB
-# あり、そのまま返すと初回表示が壊れる。クローラも 1 ページあたり数百KB
-# 程度しか読まないので、途中で切って残りは JS レンダリングに任せる。
-PRERENDER_MAX_BYTES = 250_000
-
 _TITLE_TAG = re.compile(r"<title>.*?</title>", re.S)
 _DESC_TAG = re.compile(r'<meta\s+name="description"[^>]*>', re.I)
 _ROOT_DIV = re.compile(r'<div\s+id="root"\s*>\s*</div>')
-_ARTICLE = re.compile(r'<article class="doc">.*?</article>', re.S)
 _WS = re.compile(r"\s+")
 _TRAILING_DATE = re.compile(r"[_\-]\d{8}$")
 _CLAUSE_HEAD = re.compile(r"^第[0-9０-９]+[条章編節]")
-_TAG = re.compile(r"<(/?)([a-zA-Z][a-zA-Z0-9]*)\b[^>]*?(/?)>")
-_VOID = frozenset({"br", "img", "hr", "meta", "input", "source", "col", "wbr"})
 
 
 def _norm(text: str) -> str:
@@ -123,41 +115,6 @@ def _meta(name: str, content: str) -> str:
 
 def _prop(prop: str, content: str) -> str:
     return f'<meta property="{prop}" content="{html.escape(content, quote=True)}">'
-
-
-def _truncate_html(fragment: str, max_bytes: int) -> tuple[str, bool]:
-    """`max_bytes` を超えないところで切り、開いたままのタグを閉じて返す.
-
-    「最後の `</p>` で切る」だけでは足りない。770 ページの規則では目次
-    （`<nav class="toc"><ol>…`）そのものが上限より長く、目次の途中で
-    切ろうとすると直前の `</p>` まで戻ってしまい、本文が 1KB も入らない
-    という事故になる（実測で踏んだ）。タグを数えて切り、閉じ忘れを
-    こちらで補う。
-    """
-    if len(fragment.encode("utf-8")) <= max_bytes:
-        return fragment, False
-
-    stack: list[str] = []
-    cut = 0
-    cut_stack: list[str] = []
-    consumed = 0
-    prev_end = 0
-    for m in _TAG.finditer(fragment):
-        consumed += len(fragment[prev_end : m.end()].encode("utf-8"))
-        prev_end = m.end()
-        if consumed > max_bytes:
-            break
-        name = m.group(2).lower()
-        if m.group(1):  # 閉じタグ
-            if name in stack:
-                while stack and stack.pop() != name:
-                    pass
-        elif not m.group(3) and name not in _VOID:
-            stack.append(name)
-        cut = m.end()
-        cut_stack = list(stack)
-
-    return fragment[:cut] + "".join(f"</{t}>" for t in reversed(cut_stack)), True
 
 
 def _clip(text: str, limit: int) -> str:
@@ -416,7 +373,7 @@ class Seo:
         page["citation"] = citation
         tags.append(self._jsonld(page))
 
-        return self._compose(tags, self._prerender(doc_id) if SEARCH_INDEXING else "")
+        return self._compose(tags)
 
     def _doc_description(self, con: sqlite3.Connection, row: sqlite3.Row) -> str:
         """規則ごとに違う description を作る.
@@ -443,46 +400,14 @@ class Seo:
         lead = _display_title(row["title"])
         if where:
             lead += f"（{where}）"
-        lead += "の全文。"
+        # 本文は載せていないので「全文」と書かない。出せるのは条の一覧まで。
+        lead += "の条文一覧。"
         if heads:
             return _clip(lead + "／".join(heads), DESCRIPTION_MAX)
-        pages = f"{row['page_count']}ページ" if row["page_count"] else ""
+        pages = f"{row['page_count']}ページ。" if row["page_count"] else ""
         return _clip(
-            lead + f"JAF 公開 PDF を条文単位で検索できる非公式アーカイブ。{pages}",
+            lead + f"{pages}本文は JAF の原本 PDF でご確認ください。",
             DESCRIPTION_MAX,
-        )
-
-    def _prerender(self, doc_id: str) -> str:
-        """変換済み HTML から `<article>` を切り出して埋め込む形にする."""
-        source = self.content_dir / doc_id / "index.html"
-        if not source.exists():
-            return ""
-        match = _ARTICLE.search(source.read_text(encoding="utf-8"))
-        if not match:
-            return ""
-        article = match.group(0)
-
-        # 図版の src は `assets/…` の相対指定。`/content/<docId>/index.html`
-        # では正しく解けるが、`/doc/<docId>` に貼ると `/doc/assets/…` を
-        # 見に行ってしまうので絶対パスに直す。
-        article = article.replace('src="assets/', f'src="/content/{quote(doc_id, safe="")}/assets/')
-
-        article, truncated = _truncate_html(article, PRERENDER_MAX_BYTES)
-
-        note = (
-            '<p style="color:#6b7280;font-size:.85rem">'
-            "（この先は読み込み後に表示されます）</p>"
-            if truncated
-            else ""
-        )
-        # #prerender は SPA の起動時に index.tsx が消す。React は #root しか
-        # 触らないので、ここに何を置いても衝突しない。
-        return (
-            '<div id="prerender">'
-            "<style>#prerender{max-width:46rem;margin:0 auto;padding:0 1.25rem 4rem;"
-            "line-height:1.9}#prerender img{max-width:100%;height:auto}"
-            "#prerender .pagemark{display:none}</style>"
-            f"{article}{note}</div>"
         )
 
     def _diff(self, doc_id: str, base_doc_id: str) -> str | None:

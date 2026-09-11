@@ -15,15 +15,24 @@ const STATUS_LABEL: Record<DiffStatus, string> = {
  *
  *  年号だけの変更にも差分の行は必ず出す。ラベルで畳んでしまうと、
  *  判定を誤ったときに利用者が気づけない。 */
-const Change: React.FC<{ change: DiffChange; docId: string }> = ({ change, docId }) => (
+const Change: React.FC<{ change: DiffChange; pdfUrl: string | null }> = ({
+  change,
+  pdfUrl,
+}) => (
   <section className={`diff-clause is-${change.status}`}>
     <header>
       <span className={`diff-tag is-${change.status}`}>{STATUS_LABEL[change.status]}</span>
       <span className="diff-key">{change.key}</span>
-      {change.anchor ? (
-        <Link className="diff-jump" href={`/doc/${docId}#${encodeURIComponent(change.anchor)}`}>
-          {change.heading || '本文を開く'}
-        </Link>
+      {/* アプリ内に本文は無いので、原本 PDF の該当ページへ送る */}
+      {pdfUrl && change.page != null ? (
+        <a
+          className="diff-jump"
+          href={`${pdfUrl}#page=${change.page}`}
+          target="_blank"
+          rel="noreferrer nofollow"
+        >
+          {change.heading || `原本 P.${change.page}`} ↗
+        </a>
       ) : (
         <span className="diff-heading">{change.heading}</span>
       )}
@@ -89,10 +98,10 @@ export const DiffView: React.FC<{ docId: string; baseDocId: string }> = ({
             {diff.base.uploadDate ? `（${diff.base.uploadDate}）` : ''}
           </span>
           {diff.target.docId && (
-            <Link href={`/doc/${diff.target.docId}`}>この規則の本文 →</Link>
+            <Link href={`/doc/${diff.target.docId}`}>この規則のページ →</Link>
           )}
           {diff.base.docId && diff.kind === 'edition' && (
-            <Link href={`/doc/${diff.base.docId}`}>比較元の本文 →</Link>
+            <Link href={`/doc/${diff.base.docId}`}>比較元のページ →</Link>
           )}
         </div>
       </header>
@@ -129,7 +138,9 @@ export const DiffView: React.FC<{ docId: string; baseDocId: string }> = ({
       {shown.length === 0 ? (
         <div className="empty">表示する差分がありません。</div>
       ) : (
-        shown.map((c) => <Change key={`${c.status}-${c.key}`} change={c} docId={docId} />)
+        shown.map((c) => (
+          <Change key={`${c.status}-${c.key}`} change={c} pdfUrl={diff.pdfUrl} />
+        ))
       )}
 
       <Notices notices={notices} heading="この規則に関する JAF の公示" />

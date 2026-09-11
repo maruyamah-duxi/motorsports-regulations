@@ -54,6 +54,16 @@ MAX_LIMIT = 100
 
 MAX_QUESTION_CHARS = 400
 
+# HTML に効かせるキャッシュ指定。
+#
+# ここを `max-age=300` にしていたら「デプロイしたのに古いサイトが出る」に
+# なった。HTML にはビルドごとに変わるアセットのファイル名が書かれているので、
+# **HTML を寝かせると古いアセット名を指したままになる**。毎回問い合わせさせ、
+# 中身が同じなら 304 で済ませる（no-cache は「使うな」ではなく「毎回確かめろ」）。
+HTML_CACHE = "no-cache"
+# 逆に /assets/ と図版はファイル名で中身が決まる。1 年そのまま使ってよい。
+ASSET_CACHE = "public, max-age=31536000, immutable"
+
 # ベクトルは起動時に一度だけ読み込む（約 27MB）
 _vectors = rag.VectorIndex(str(DB_PATH))
 _rate_limiter = rag.RateLimiter(capacity=10, refill_seconds=30.0)
@@ -273,7 +283,6 @@ def search(
     for r in rows:
         # locate は本文を走査するので 1 行に 1 回だけ呼ぶ
         page, heading_reliable, clause_at_match = locate(r)
-        frag = f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{page}"
         items.append(
             {
                 "docId": r["doc_id"],
@@ -310,10 +319,8 @@ def search(
                     for f in _json_list(r["figures"])
                     if isinstance(f, dict) and f.get("asset")
                 ],
-                # アプリ内の該当箇所への直リンク
-                "url": f"/doc/{quote(r['doc_id'])}{frag}",
-                # 単体で読める静的 HTML（アプリを介さずに参照したいとき用）
-                "staticUrl": f"/content/{quote(r['doc_id'])}/index.html{frag}",
+                # アプリ内。全文は出さないので、この規則の目次・更新履歴へ
+                "url": f"/doc/{quote(r['doc_id'])}",
             }
         )
     return {
@@ -389,12 +396,60 @@ def _safe_doc_id(value: str) -> str:
 
 
 @app.get("/api/documents/{doc_id}")
-def document(doc_id: str) -> JSONResponse:
+def document(doc_id: str) -> dict[str, Any]:
+    """規則 1 件の**メタデータと目次**。本文は返さない.
+
+    以前は `document.json` をそのまま返していた（1 件 53,218 字）。JAF の
+    サイトポリシーが資料の再配布を認めていないため、全文の配信をやめた。
+    全文はサーバ側（`search.db` のチャンク）に残り、検索の抜粋と AI 回答の
+    根拠としてだけ使う。**索引に持つことと公開配信することは別**。
+
+    読者には「どの条がどのページにあるか」を返し、本文は原本 PDF の
+    該当ページ（`pdfUrl#page=N`）へ送る。
+    """
     doc_id = _safe_doc_id(doc_id)
-    path = CONTENT_DIR / doc_id / "document.json"
-    if not path.exists():
+    con = _connect()
+    try:
+        row = con.execute(
+            "SELECT doc_id, title, source, section, grp, upload_date, pdf_url,"
+            " page_count, chars, figures, tables, toc, series, edition"
+            " FROM docs WHERE doc_id = ?",
+            (doc_id,),
+        ).fetchone()
+    finally:
+        con.close()
+    if row is None:
         raise HTTPException(404, "見つかりません")
-    return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
+
+    # 見出しごとの PDF URL はここで組まない。262 件ある規則もあるので、
+    # 同じ URL を全行に繰り返すと応答が 62KB まで膨らむ（実測）。
+    # 画面側で pdfUrl と page から `#page=N` を作る。
+    toc = [
+        {
+            "level": t.get("level"),
+            "text": t.get("text"),
+            "page": t.get("page"),
+        }
+        for t in _json_list(row["toc"])
+        if isinstance(t, dict) and t.get("text")
+    ]
+
+    return {
+        "docId": row["doc_id"],
+        "title": row["title"],
+        "source": row["source"],
+        "section": row["section"],
+        "group": row["grp"],
+        "uploadDate": row["upload_date"],
+        "pdfUrl": row["pdf_url"],
+        "pageCount": row["page_count"],
+        "chars": row["chars"],
+        "figures": row["figures"],
+        "tables": row["tables"],
+        "series": row["series"],
+        "edition": row["edition"],
+        "toc": toc,
+    }
 
 
 @app.get("/api/documents/{doc_id}/history")
@@ -479,7 +534,17 @@ def document_diff(doc_id: str, base_doc_id: str) -> JSONResponse:
     path = CONTENT_DIR / doc_id / name
     if not path.exists():
         raise HTTPException(404, "この組み合わせの差分はありません")
-    return JSONResponse(json.loads(path.read_text(encoding="utf-8")))
+    payload = json.loads(path.read_text(encoding="utf-8"))
+
+    # 条ごとに原本 PDF の該当ページへ送るため、PDF の URL を添える
+    # （アプリ内に本文が無くなったので、条見出しのリンク先はそちらになる）
+    con = _connect()
+    try:
+        row = con.execute("SELECT pdf_url FROM docs WHERE doc_id = ?", (doc_id,)).fetchone()
+    finally:
+        con.close()
+    payload["pdfUrl"] = row["pdf_url"] if row else None
+    return JSONResponse(payload)
 
 
 def _optional_counts() -> dict[str, int]:
@@ -693,20 +758,31 @@ def sitemap_xml() -> Response:
 # 静的ファイル（API より後に登録する。Starlette は登録順にマッチする）
 # ---------------------------------------------------------------------------
 
-# 規則の HTML と図版
-if CONTENT_DIR.exists():
-    app.mount("/content", StaticFiles(directory=CONTENT_DIR, html=True), name="content")
-
-# HTML に効かせるキャッシュ指定。
+# 図版だけを配る。
 #
-# ここを `max-age=300` にしていたら「デプロイしたのに古いサイトが出る」に
-# なった。HTML にはビルドごとに変わるアセットのファイル名が書かれているので、
-# **HTML を寝かせると古いアセット名を指したままになる**。毎回問い合わせさせ、
-# 中身が同じなら 304 で済ませる（no-cache は「使うな」ではなく「毎回確かめろ」）。
-HTML_CACHE = "no-cache"
-# 逆に /assets/ の中身はファイル名にハッシュが入っていて、変わったら名前も
-# 変わる。1 年間そのまま使ってよい。
-ASSET_CACHE = "public, max-age=31536000, immutable"
+# 以前は `StaticFiles` で `content/` をまるごとマウントしていたため、
+# `/content/<docId>/index.html`（全文 HTML）と
+# `/content/<docId>/document.json`（全文 JSON）がそのまま取れていた。
+# 全文の配信をやめたので、通すのは図版だけに絞る。
+_ASSET_NAME = re.compile(r"[0-9A-Za-z._\-]+\.(?:webp|png|jpg|jpeg|svg)")
+
+
+@app.get("/content/{doc_id}/assets/{name}", include_in_schema=False)
+def content_asset(doc_id: str, name: str) -> FileResponse:
+    doc_id = _safe_doc_id(doc_id)
+    if not _ASSET_NAME.fullmatch(name):
+        raise HTTPException(400, "不正なファイル名です")
+    path = CONTENT_DIR / doc_id / "assets" / name
+    if not path.is_file():
+        raise HTTPException(404, "見つかりません")
+    return FileResponse(path, headers={"Cache-Control": ASSET_CACHE})
+
+
+# 図版以外の `/content/...` は明示的に 404 にする。catch-all に落として
+# index.html を返すと「配信していない」ことが伝わらない。
+@app.get("/content/{rest:path}", include_in_schema=False)
+def content_gone(rest: str) -> None:
+    raise HTTPException(404, "この経路では配信していません（図版のみ）")
 
 
 class _ImmutableAssets(StaticFiles):

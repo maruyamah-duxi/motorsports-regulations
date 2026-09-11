@@ -91,8 +91,7 @@ const Spread: React.FC<{
   );
 };
 
-const Hit: React.FC<{ hit: SearchHit }> = ({ hit }) => {
-  const anchor = hit.anchor ? `#${encodeURIComponent(hit.anchor)}` : `#p${hit.page}`;
+export const Hit: React.FC<{ hit: SearchHit }> = ({ hit }) => {
   const where = hit.headingReliable ? hit.headingPath || hit.heading : hit.clauseAtMatch;
   return (
     <div className="hit">
@@ -124,7 +123,7 @@ const Hit: React.FC<{ hit: SearchHit }> = ({ hit }) => {
         <a className="primary" href={hit.pdfPageUrl || hit.pdfUrl || '#'} target="_blank" rel="noreferrer nofollow">
           JAF の原本 P.{hit.page} を開く ↗
         </a>
-        <Link href={`/doc/${encodeURIComponent(hit.docId)}${anchor}`}>アプリで該当箇所を見る</Link>
+        <Link href={`/doc/${encodeURIComponent(hit.docId)}`}>この規則の目次・更新履歴</Link>
       </div>
     </div>
   );

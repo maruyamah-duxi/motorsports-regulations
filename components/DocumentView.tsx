@@ -1,26 +1,129 @@
-import React, { useEffect, useState } from 'react';
-import type { DocumentHistory, RegulationDocument } from '../types';
-import { fetchDocument, fetchDocumentHistory } from '../lib/api';
-import { Blocks } from './Blocks';
+import React, { useEffect, useMemo, useState } from 'react';
+import type { DocumentHistory, RegulationDocument, SearchResponse } from '../types';
+import { fetchDocument, fetchDocumentHistory, search } from '../lib/api';
 import { DiffBanner, EditionBanner, HistoryDialog } from './History';
 import { Notices } from './Notices';
+import { Hit } from './SearchResults';
 
+/** 目次。原本の該当ページへ送る。
+ *
+ *  全文を配信しないので、この画面の役目は「どの条がどのページにあるか」を
+ *  示して原本へ渡すこと。項番まで全部出すと数百行になるので、既定では
+ *  条・章までにする。 */
 const Toc: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
-  // 条・章までを既定の目次とする。項番まで全部出すと数百行になる。
+  const [deep, setDeep] = useState(false);
   const shallow = doc.toc.filter((t) => t.level <= 4);
-  const items = shallow.length >= 3 ? shallow : doc.toc;
-  if (items.length < 3) return null;
+  const items = deep || shallow.length < 3 ? doc.toc : shallow;
+
+  if (doc.toc.length === 0) {
+    return (
+      <p className="empty-toc">
+        この規則は見出しを自動で読み取れませんでした。上の検索か、原本 PDF をご覧ください。
+      </p>
+    );
+  }
+
   return (
-    <details className="toc" open={items.length <= 40}>
-      <summary>目次（{items.length}項目）</summary>
-      <ol>
-        {items.map((item) => (
-          <li key={item.id} className={`l${Math.min(5, item.level)}`}>
-            <a href={`#${encodeURIComponent(item.id)}`}>{item.text}</a>
+    <section className="toc-panel">
+      <div className="toc-head">
+        <h2>条文の一覧</h2>
+        <span className="hint">見出しを押すと原本 PDF の該当ページが開きます</span>
+        {doc.toc.length > shallow.length && (
+          <button className="linkish" onClick={() => setDeep(!deep)}>
+            {deep ? `条・章だけにする（${shallow.length}）` : `項番まで出す（${doc.toc.length}）`}
+          </button>
+        )}
+      </div>
+      <ol className="toc-list">
+        {items.map((item, i) => (
+          <li key={`${item.page}-${i}`} className={`l${Math.min(5, item.level)}`}>
+            {doc.pdfUrl && item.page ? (
+              <a
+                href={`${doc.pdfUrl}#page=${item.page}`}
+                target="_blank"
+                rel="noreferrer nofollow"
+              >
+                <span className="t">{item.text}</span>
+                <span className="p">P.{item.page}</span>
+              </a>
+            ) : (
+              <span className="t">{item.text}</span>
+            )}
           </li>
         ))}
       </ol>
-    </details>
+    </section>
+  );
+};
+
+/** この規則の中だけを検索する。全文を読ませない代わりの主役。 */
+const InDocumentSearch: React.FC<{ doc: RegulationDocument }> = ({ doc }) => {
+  const [input, setInput] = useState('');
+  const [query, setQuery] = useState('');
+  const [result, setResult] = useState<SearchResponse | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    setInput('');
+    setQuery('');
+    setResult(null);
+  }, [doc.docId]);
+
+  useEffect(() => {
+    if (!query.trim()) {
+      setResult(null);
+      return;
+    }
+    const controller = new AbortController();
+    setLoading(true);
+    setError(null);
+    search(query, { limit: 20, doc: doc.docId }, controller.signal)
+      .then(setResult)
+      .catch((err) => {
+        if (err.name !== 'AbortError') setError(String(err.message || err));
+      })
+      .finally(() => setLoading(false));
+    return () => controller.abort();
+  }, [query, doc.docId]);
+
+  return (
+    <section className="in-doc-search">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          setQuery(input);
+        }}
+      >
+        <label htmlFor="in-doc-q">この規則の中を検索</label>
+        <div className="row">
+          <input
+            id="in-doc-q"
+            type="search"
+            value={input}
+            placeholder="例: 安全ベルト、ロールケージ、第12条"
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button type="submit">検索</button>
+        </div>
+      </form>
+      {loading && <div className="loading">検索中…</div>}
+      {error && <div className="error">検索に失敗しました：{error}</div>}
+      {result && result.total === 0 && (
+        <div className="empty">この規則には一致する条文がありませんでした。</div>
+      )}
+      {result && result.total > 0 && (
+        <>
+          <p className="page-sub">
+            {result.total.toLocaleString()} 箇所
+            {result.total > result.items.length && `（上位 ${result.items.length} 件を表示）`}
+          </p>
+          {result.items.map((hit, i) => (
+            <Hit key={`${hit.anchor ?? hit.page}-${i}`} hit={hit} />
+          ))}
+        </>
+      )}
+    </section>
   );
 };
 
@@ -41,51 +144,33 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
       .catch((err) => {
         if (err.name !== 'AbortError') setError(String(err.message || err));
       });
-    // 履歴は本文より軽く、無くても本文は読めるので失敗しても黙って諦める
+    // 履歴は無くてもこの画面は成り立つので、失敗しても黙って諦める
     fetchDocumentHistory(docId, controller.signal)
       .then(setHistory)
       .catch(() => undefined);
     return () => controller.abort();
   }, [docId]);
 
-  // 本文を描いたあとで、URL のアンカー位置まで移動する。
-  // 図版は縦横比で領域を確保しているが、フォントの適用などで多少ずれる
-  // ことがあるので、描画直後ともう一度あとで位置を合わせる。
-  useEffect(() => {
-    if (!doc || !window.location.hash) return;
-    const id = decodeURIComponent(window.location.hash.slice(1));
-    const jump = () => document.getElementById(id)?.scrollIntoView({ block: 'start' });
-    jump();
-    const timer = window.setTimeout(jump, 300);
-    return () => window.clearTimeout(timer);
-  }, [doc]);
+  const pdfLabel = useMemo(
+    () => (doc?.pageCount ? `JAF の原本 PDF を開く（${doc.pageCount} ページ）↗` : 'JAF の原本 PDF を開く ↗'),
+    [doc],
+  );
 
   if (error) {
-    return (
-      <div className="error">
-        規則を読み込めませんでした：{error}
-      </div>
-    );
+    return <div className="error">規則を読み込めませんでした：{error}</div>;
   }
   if (!doc) return <div className="loading">読み込み中…</div>;
 
   return (
     <article>
       <header className="doc-header">
-        <div className="breadcrumb">
-          {[doc.section, doc.group].filter(Boolean).join(' ／ ')}
-        </div>
+        <div className="breadcrumb">{[doc.section, doc.group].filter(Boolean).join(' ／ ')}</div>
         <h1>{doc.title}</h1>
         <div className="meta">
           {doc.uploadDate && <span>アップロード日 {doc.uploadDate}</span>}
           <span>{doc.pageCount} ページ</span>
-          <span>図版 {doc.stats.figures}</span>
-          <span>表 {doc.stats.tables}</span>
-          {doc.pdfUrl && (
-            <a href={doc.pdfUrl} target="_blank" rel="noreferrer nofollow">
-              JAF の原本 PDF を開く ↗
-            </a>
-          )}
+          {doc.figures > 0 && <span>図版 {doc.figures}</span>}
+          {doc.tables > 0 && <span>表 {doc.tables}</span>}
           {history && history.events.length > 0 && (
             <button type="button" className="hist-open" onClick={() => setHistoryOpen(true)}>
               更新履歴
@@ -97,12 +182,19 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
       {history && <DiffBanner history={history} />}
       {history && <EditionBanner history={history} />}
 
-      {/* 本文を読む面なので、警告の有無に関わらず常に出す。
-          汎用の JAF トップではなく「この規則の PDF」へ直接飛ばす。 */}
+      {/* 全文を載せない理由と、どこを見ればよいかを最初に伝える */}
       <p className="source-note">
         <strong>JAF の公式サイトではありません。</strong>
-        JAF が公開する PDF を自動変換した非公式の検索用アーカイブです。
-        記載内容は必ず
+        条文の本文は掲載していません（JAF の
+        <a
+          href="https://jaf.or.jp/common/websitepolicy"
+          target="_blank"
+          rel="noreferrer nofollow"
+        >
+          サイトポリシー
+        </a>
+        に沿い、資料の再配布を行っていません）。このページは
+        <strong>どの条がどのページにあるかを探すためのもの</strong>です。本文は
         {doc.pdfUrl ? (
           <a href={doc.pdfUrl} target="_blank" rel="noreferrer nofollow">
             JAF の原本 PDF
@@ -116,27 +208,26 @@ export const DocumentView: React.FC<{ docId: string }> = ({ docId }) => {
             JAF のサイト
           </a>
         )}
-        で出典をご確認ください。
+        でご確認ください。
       </p>
 
-      {doc.warnings.length > 0 && (
-        <p className="notice">
-          この文書には自動変換で完全に読み取れなかったページが {doc.warnings.length} 件あります
-          （該当ページは本文中に印を付けています）。
+      {doc.pdfUrl && (
+        <p className="pdf-cta">
+          <a href={doc.pdfUrl} target="_blank" rel="noreferrer nofollow">
+            {pdfLabel}
+          </a>
         </p>
       )}
 
-      <Toc doc={doc} />
+      <InDocumentSearch doc={doc} />
 
-      <div className="doc-body">
-        <Blocks doc={doc} />
-      </div>
+      <Toc doc={doc} />
 
       {history && <Notices notices={history.announcements} />}
 
       <footer className="doc-footer">
-        原本: {doc.title}（JAF）／ 自動変換 {doc.convertedAt?.slice(0, 10)} ／
-        パイプライン {doc.pipelineVersion}
+        原本: {doc.title}（一般社団法人日本自動車連盟）
+        {doc.uploadDate && ` ／ JAF 掲載日 ${doc.uploadDate}`}
       </footer>
 
       {history && (

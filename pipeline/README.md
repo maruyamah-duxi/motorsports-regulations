@@ -85,8 +85,6 @@ python pipeline/build_diffs.py
 python pipeline/build_diffs.py --print <docId>   # 1 文書の差分を並べて見る
 
 # 注意書きやスタイルだけを直したとき（PDF は読み直さない・数秒）
-python pipeline/rerender.py --dry-run
-python pipeline/rerender.py
 
 # 埋め込み（RAG 用ベクトル）。実体は GCS にあり git には入らない
 python pipeline/embeddings_store.py pull    # デプロイ前に手元へ落とす
@@ -112,7 +110,6 @@ data/embeddings.sqlite         埋め込みキャッシュ（実体は GCS、git
 data/embeddings.manifest.json  上の実体を指すマニフェスト（git 管理）
 data/history.json              規則ごとの更新履歴と年度版の系列
 content/<docId>/document.json  構造化本文
-content/<docId>/index.html     単体で読める HTML
 content/<docId>/assets/*.webp  図版
 content/<docId>/previous.json  上書き前の版（改正差分の比較元）
 content/<docId>/diff-*.json    条単位の改正差分
@@ -133,8 +130,6 @@ data/announcement_links.json   公示 → 規則系列の紐づけ
 | `jafreg/fetch.py` | 礼儀正しい HTTP 取得と SHA-256 |
 | `jafreg/layout.py` | ページ解析。XY-Cut / 図版領域 / 見出し / 段落再構成 / 柱の除去 |
 | `jafreg/convert.py` | PDF 1 本 → document.json + 図版 + HTML |
-| `jafreg/render.py` | 構造化データ → HTML（出典の注意書きもここ） |
-| `rerender.py` | document.json → index.html の作り直し（PyMuPDF 不要） |
 | `jafreg/series.py` | 年度版をまとめる系列キー（PDF のファイル名から取る） |
 | `build_history.py` | 更新履歴の組み立て。JAF の更新と自分の再変換を区別する |
 | `jafreg/clausediff.py` | 条単位の突き合わせと差分 |
