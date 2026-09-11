@@ -149,15 +149,28 @@ jobs:
             echo
             echo '```bash'
             echo "git pull"
-            echo "python pipeline/embeddings_store.py pull"
+            echo "python pipeline/embeddings_store.py pull   # 既存の埋め込みを再利用するため"
             echo "export GEMINI_API_KEY=...   # 本文が変わった分の埋め込みを取り直す"
             echo "python pipeline/build_index.py && python pipeline/build_embeddings.py"
-            echo "python pipeline/embeddings_store.py push"
-            echo "gcloud run deploy jaf-regulations-next --source . --region us-west1 \\"
-            echo "  --allow-unauthenticated --memory 1Gi --max-instances 3"
+            echo "python pipeline/embeddings_store.py push   # マニフェストをコミットする"
+            echo "git push"
+            echo "gcloud builds triggers run jaf-regulations-deploy --branch=main --region=global"
             echo '```'
             echo
+            echo "> \`gcloud run deploy --source .\` は使わないこと。毎回 100MB 超を"
+            echo "> アップロードします。トリガーは Cloud Build が GitHub から直接"
+            echo "> クローンするのでアップロードが 0 です（docs/deploy.md 4-5）。"
+            echo
             python pipeline/build_history.py --github-summary --days 14
+            echo
+            echo "デプロイ後の確認:"
+            echo
+            echo '```bash'
+            echo "curl -s https://jp.motorsports-regulations.org/api/healthz | python3 -m json.tool"
+            echo '```'
+            echo
+            echo "\`docsWith\` に 0 が無いこと、\`seo.sitemapUrls\` が 100 以上あることを見ます。"
+            echo "（ビルドの「中身を確認」ステップでも同じことを検査しています）"
             echo
             echo "コミット: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/$(git rev-parse HEAD)"
             echo "実行ログ: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
