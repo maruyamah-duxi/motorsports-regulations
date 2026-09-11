@@ -116,6 +116,12 @@ def test_document_head() -> None:
             assert "の条文一覧" in page
             # 条見出しでないものは入れない
             assert "1.適用" not in page
+            # SNS のカード画像。og:image は絶対 URL でなければならない
+            assert (
+                '<meta property="og:image" content="https://example.test/og-card.png">'
+                in page
+            )
+            assert '<meta name="twitter:card" content="summary_large_image">' in page
             assert '"@type": "BreadcrumbList"' in page
             assert '"dateModified": "2026-04-01"' in page
             # 一次情報が JAF であることを構造化データでも示す

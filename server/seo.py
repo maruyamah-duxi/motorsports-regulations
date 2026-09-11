@@ -44,6 +44,8 @@ from pathlib import Path
 from urllib.parse import quote
 from xml.sax.saxutils import escape as xml_escape
 
+from .excerpt import _CLAUSE_AT_LINE_START
+
 # 正本の URL。Cloud Run の *.run.app ではなく独自ドメインを canonical に
 # する（両方に同じ中身が出るので、寄せ先を固定しないと評価が割れる）。
 DEFAULT_ORIGIN = "https://jp.motorsports-regulations.org"
@@ -72,6 +74,14 @@ DEFAULT_ORIGIN = "https://jp.motorsports-regulations.org"
 SEARCH_INDEXING = False
 
 SITE_NAME = "JAF モータースポーツ諸規則ビューア（非公式）"
+
+# SNS でリンクを展開したときの画像。**全規則で共通の 1 枚**にしている。
+# Slack・LINE・X は og:title と og:description を画像の横にテキストで出すので、
+# 規則名を画像にも焼き込むのは重複になる。そのために 160 枚を週次で
+# 作り直す手間は釣り合わない（`pipeline/build_icons.py` の og_card）。
+OG_IMAGE = "/og-card.png"
+OG_IMAGE_SIZE = (1200, 630)
+OG_IMAGE_ALT = "JAF モータースポーツ諸規則 横断検索（非公式）"
 PUBLISHER = "一般社団法人日本自動車連盟（JAF）"
 
 HOME_TITLE = "JAF モータースポーツ諸規則を全文検索｜非公式ビューア"
@@ -91,7 +101,14 @@ _DESC_TAG = re.compile(r'<meta\s+name="description"[^>]*>', re.I)
 _ROOT_DIV = re.compile(r'<div\s+id="root"\s*>\s*</div>')
 _WS = re.compile(r"\s+")
 _TRAILING_DATE = re.compile(r"[_\-]\d{8}$")
-_CLAUSE_HEAD = re.compile(r"^第[0-9０-９]+[条章編節]")
+# 条見出しらしさの判定。excerpt 側と同じ基準（目印の直後に空白を要求する）を
+# 使う。要求しないと、折り返した本文の行を見出しと誤認する。実測で
+# 「第260条の特別規定に定められる数値とすることができる。(ただし、…」が
+# description に入っていた。
+_CLAUSE_HEAD = _CLAUSE_AT_LINE_START
+# 見出しとして扱う長さの上限と、見出しには現れない文字
+CLAUSE_HEAD_MAX = 30
+_NOT_A_HEADING = ("。", "、")
 
 
 def _norm(text: str) -> str:
@@ -202,7 +219,12 @@ class Seo:
             _prop("og:title", og_title or title),
             _prop("og:description", description),
             _prop("og:url", url),
-            _meta("twitter:card", "summary"),
+            _prop("og:image", self.url(OG_IMAGE)),
+            _prop("og:image:width", str(OG_IMAGE_SIZE[0])),
+            _prop("og:image:height", str(OG_IMAGE_SIZE[1])),
+            _prop("og:image:alt", OG_IMAGE_ALT),
+            # 画像を持つので大きいカードにする
+            _meta("twitter:card", "summary_large_image"),
         ]
 
     def _jsonld(self, payload: dict) -> str:
@@ -389,7 +411,13 @@ class Seo:
             (row["doc_id"],),
         ):
             text = _norm(heading)
-            if not text or text in seen or not _CLAUSE_HEAD.match(text):
+            if (
+                not text
+                or text in seen
+                or len(text) > CLAUSE_HEAD_MAX
+                or any(ch in text for ch in _NOT_A_HEADING)
+                or not _CLAUSE_HEAD.match(text)
+            ):
                 continue
             seen.add(text)
             heads.append(text)
