@@ -106,11 +106,15 @@ const SourceList: React.FC<{ sources: AskSource[] }> = ({ sources }) => (
           <Link href={s.url}>{s.title}</Link>
           <div className="where">
             {(s.headingPath || s.heading) && <>{s.headingPath || s.heading} ／ </>}P.{s.page}
-            {s.pdfUrl && (
+            {(s.pdfPageUrl || s.pdfUrl) && (
               <>
                 {' ／ '}
-                <a href={s.pdfUrl} target="_blank" rel="noreferrer nofollow">
-                  原本 PDF ↗
+                <a
+                  href={s.pdfPageUrl || s.pdfUrl || '#'}
+                  target="_blank"
+                  rel="noreferrer nofollow"
+                >
+                  JAF の原本 P.{s.page} ↗
                 </a>
               </>
             )}

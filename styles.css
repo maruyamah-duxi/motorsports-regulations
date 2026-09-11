@@ -278,7 +278,115 @@ mark { background: var(--mark-bg); color: var(--mark-fg); border-radius: 2px; pa
   white-space: pre-wrap;
   word-break: break-word;
 }
-.hit .actions { margin-top: 0.45rem; font-size: 0.78rem; display: flex; gap: 1rem; }
+.hit .actions {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  align-items: center;
+}
+/* 前後や全文は JAF の原本で読む。そちらを主導線にする。 */
+.hit .actions .primary { font-weight: 600; }
+
+/* 該当条文に紐づく図版。条とページが対応している範囲のものだけ出る。 */
+.hit-figures {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.hit-figures figure {
+  margin: 0;
+  padding: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+  max-width: min(100%, 20rem);
+}
+.hit-figures img { display: block; width: 100%; height: auto; }
+.hit-figures figcaption {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  color: var(--fg-faint);
+  line-height: 1.6;
+}
+
+/* 同じ規則のヒットはまとめる（29 文書分が平坦に流れると読めない） */
+.hit-group { margin-top: 1.5rem; }
+.hit-group-head {
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.7rem;
+}
+.hit-group-head a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.hit-group-head a:hover { text-decoration: underline; }
+.hit-group-head .sec { font-size: 0.72rem; color: var(--fg-faint); font-weight: 400; }
+
+/* 「この語がどの規則に散らばっているか」 */
+.spread {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.8rem 0.95rem;
+  background: var(--bg-soft);
+  margin-bottom: 1.25rem;
+}
+.spread-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.85rem;
+}
+.spread-head .hint { font-size: 0.76rem; color: var(--fg-muted); }
+.spread-filter { margin: 0.5rem 0 0; font-size: 0.78rem; color: var(--fg-muted); }
+.spread-group { margin-top: 0.75rem; }
+.spread-section {
+  font-size: 0.72rem;
+  color: var(--fg-faint);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+.spread-group ul { list-style: none; margin: 0; padding: 0; }
+.spread-doc {
+  display: flex;
+  width: 100%;
+  gap: 0.6rem;
+  align-items: baseline;
+  background: none;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.2rem 0.35rem;
+  font: inherit;
+  font-size: 0.82rem;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.spread-doc:hover { background: var(--bg-inset); }
+.spread-doc.is-active { background: var(--accent-soft); color: var(--accent); }
+.spread-doc .t { flex: 1; line-height: 1.6; }
+.spread-doc .n {
+  flex: none;
+  font-variant-numeric: tabular-nums;
+  color: var(--fg-faint);
+  font-size: 0.76rem;
+}
+.spread-doc.is-active .n { color: var(--accent); }
+
+.linkish {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .empty {
   border: 1px dashed var(--line);

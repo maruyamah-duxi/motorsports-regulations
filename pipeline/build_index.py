@@ -78,6 +78,10 @@ CREATE TABLE chunks (
   page_start   INTEGER,
   page_end     INTEGER,
   part         INTEGER DEFAULT 0,
+  -- この見出し（条）に属する図版の JSON 配列。検索結果で、該当条文に
+  -- 紐づく図だけをその場に出すために持つ。全文ページを出さない代わりに
+  -- 「拾った条文＋その図」で判断できるようにするのが狙い。
+  figures      TEXT NOT NULL DEFAULT '[]',
   text         TEXT NOT NULL,
   -- 検索用に NFKC で正規化したもの。全角英数／半角カナの揺れを吸収する
   -- （「ＲＲＮ」でも「RRN」でも当たる）。大文字小文字は trigram が吸収する。
@@ -119,6 +123,24 @@ def text_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+# 図版を「この条の図」と言ってよい範囲。見出しの構造が薄い規則では
+# 1 チャンクがページをまたいで広がり、40 ページ分の図が全部ぶら下がる。
+# それは条文と図の対応ではなく単なる図版集なので、ページ幅で切る。
+# （実測: 図を持つ 1,868 チャンクのうち 956 が 6 ページ以上に広がっていた）
+FIGURE_MAX_PAGE_SPAN = 2
+FIGURE_MAX_PER_CLAUSE = 6
+
+
+def _clause_figures(current: dict[str, Any]) -> list[dict[str, Any]]:
+    figures = current.get("figures") or []
+    if not figures:
+        return []
+    start, end = current.get("page_start") or 0, current.get("page_end") or 0
+    if end - start > FIGURE_MAX_PAGE_SPAN:
+        return []
+    return figures[:FIGURE_MAX_PER_CLAUSE]
+
+
 def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
     """見出し単位でチャンクに切る."""
     stack: list[tuple[int, str]] = []  # (level, text)
@@ -132,6 +154,7 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
             return
         head = current["heading"]
         prefix = f"{head}\n" if head else ""
+        figures = _clause_figures(current)
         # 長すぎるチャンクは分割し、どの部分にも見出しを残す
         budget = MAX_CHUNK_CHARS - len(prefix)
         parts = [body[i : i + budget] for i in range(0, len(body), budget)] or [""]
@@ -145,6 +168,9 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_end": current["page_end"],
                 "part": i,
                 "text": prefix + part,
+                # 図は文字範囲ではなく「この条」に属するので、分割した
+                # どの part にも同じものを付ける
+                "figures": figures,
             }
 
     for b in doc.get("blocks", []):
@@ -163,6 +189,7 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_start": b.get("page"),
                 "page_end": b.get("page"),
                 "lines": [],
+                "figures": [],
             }
             continue
 
@@ -175,6 +202,7 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
                 "page_start": b.get("page"),
                 "page_end": b.get("page"),
                 "lines": [],
+                "figures": [],
             }
 
         if btype in ("paragraph", "caption"):
@@ -185,6 +213,14 @@ def iter_chunks(doc: dict[str, Any]) -> Iterator[dict[str, Any]]:
         elif btype == "figure":
             if b.get("caption"):
                 current["lines"].append(b["caption"])
+            if b.get("asset"):
+                current["figures"].append(
+                    {
+                        "asset": b["asset"],
+                        "caption": b.get("caption"),
+                        "page": b.get("page"),
+                    }
+                )
         current["page_end"] = b.get("page", current["page_end"])
 
     yield from flush()
@@ -314,8 +350,8 @@ def build(
         for c in iter_chunks(doc):
             con.execute(
                 "INSERT INTO chunks (doc_id, anchor, heading, heading_path, clause,"
-                " page_start, page_end, part, text, text_norm, text_hash)"
-                " VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                " page_start, page_end, part, figures, text, text_norm, text_hash)"
+                " VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                 (
                     doc_id,
                     c["anchor"],
@@ -325,6 +361,7 @@ def build(
                     c["page_start"],
                     c["page_end"],
                     c["part"],
+                    json.dumps(c.get("figures") or [], ensure_ascii=False),
                     c["text"],
                     normalize(c["text"]),
                     text_hash(c["text"]),

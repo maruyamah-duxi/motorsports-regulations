@@ -178,6 +178,13 @@ export interface DocumentsResponse {
 }
 
 /** /api/search のヒット 1 件 */
+/** 該当条文に紐づく図版（条とページが対応している範囲のものだけ） */
+export interface SearchFigure {
+  url: string;
+  caption: string | null;
+  page: number | null;
+}
+
 export interface SearchHit {
   docId: string;
   title: string;
@@ -188,11 +195,24 @@ export interface SearchHit {
   clause: string | null;
   page: number;
   anchor: string | null;
-  /** <mark> でハイライト済みの抜粋 */
+  /** 制御文字でハイライト済みの抜粋（該当語の前後） */
   snippet: string;
   uploadDate: string | null;
   pdfUrl: string | null;
+  /** 原本 PDF の該当ページ（…pdf#page=4） */
+  pdfPageUrl: string | null;
+  figures: SearchFigure[];
   url: string;
+}
+
+/** 「どの規則に何件あるか」。表示中のページではなく全ヒットの集計 */
+export interface SearchDocCount {
+  docId: string;
+  title: string;
+  section: string;
+  group: string;
+  pdfUrl: string | null;
+  count: number;
 }
 
 export interface SearchResponse {
@@ -201,6 +221,7 @@ export interface SearchResponse {
   limit: number;
   offset: number;
   items: SearchHit[];
+  byDoc: SearchDocCount[];
 }
 
 /** /api/ask が最初に返す根拠チャンク */
@@ -215,6 +236,8 @@ export interface AskSource {
   /** アプリ内の該当箇所への直リンク */
   url: string;
   pdfUrl: string | null;
+  /** 原本 PDF の該当ページ */
+  pdfPageUrl: string | null;
   excerpt: string;
 }
 

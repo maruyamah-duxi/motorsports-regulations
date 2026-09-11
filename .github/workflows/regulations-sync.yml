@@ -63,6 +63,7 @@ jobs:
           python tests/test_catalog.py
           python tests/test_announcements.py
           python tests/test_seo.py
+          python tests/test_search.py
 
       - name: OCR ツール（任意）
         if: ${{ inputs.ocr == true }}

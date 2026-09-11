@@ -37,6 +37,7 @@ from pydantic import BaseModel, Field
 from starlette.datastructures import MutableHeaders
 
 from . import rag, seo
+from .excerpt import excerpt as _excerpt
 
 ROOT = Path(os.environ.get("APP_ROOT", Path(__file__).resolve().parent.parent))
 DB_PATH = Path(os.environ.get("SEARCH_DB", ROOT / "data" / "search.db"))
@@ -116,6 +117,17 @@ class _NoIndexHeader:
 app.add_middleware(_NoIndexHeader)
 
 
+def _json_list(value: Any) -> list[Any]:
+    """JSON の配列を格納した列を読む。壊れていても落とさない."""
+    if not value:
+        return []
+    try:
+        parsed = json.loads(value)
+    except (json.JSONDecodeError, TypeError):
+        return []
+    return parsed if isinstance(parsed, list) else []
+
+
 def _connect() -> sqlite3.Connection:
     if not DB_PATH.exists():
         raise HTTPException(503, f"検索インデックスがありません: {DB_PATH.name}")
@@ -133,8 +145,16 @@ _FTS_UNSAFE = re.compile(r'["]')
 # 抜粋のハイライトは HTML ではなく制御文字で囲んで返す。
 # 規則本文には "<" が現れうるので、HTML を組み立てて返すと
 # 受け取り側でエスケープの判断が必要になり事故のもとになる。
-HIGHLIGHT_START = "\u0001"
-HIGHLIGHT_END = "\u0002"
+def _query_terms(q: str) -> list[str]:
+    """ユーザ入力を検索語に切る（FTS の式づくりと抜粋の両方で使う）."""
+    # 大文字小文字は trigram トークナイザが吸収するので NFKC だけかける
+    normalized = _FTS_UNSAFE.sub("", unicodedata.normalize("NFKC", q))
+    # 空白区切りをそのまま使い、区切りが無ければ文字種の切れ目で分ける。
+    # 「ロールケージ 溶接」も「ロールケージの溶接」も引けるようにする。
+    terms = [p for p in normalized.split() if len(p) >= MIN_TRIGRAM_LEN]
+    if not terms:
+        terms = [t for t in rag.extract_terms(normalized) if len(t) >= MIN_TRIGRAM_LEN]
+    return terms
 
 
 def _fts_query(q: str) -> str:
@@ -143,15 +163,7 @@ def _fts_query(q: str) -> str:
     trigram トークナイザではフレーズ（"…"）が部分一致検索になる。
     空白区切りの語は AND で繋ぐ。
     """
-    # 大文字小文字は trigram トークナイザが吸収するので NFKC だけかける
-    normalized = _FTS_UNSAFE.sub("", unicodedata.normalize("NFKC", q))
-    # 空白区切りをそのまま使い、区切りが無ければ文字種の切れ目で分ける。
-    # 「ロールケージ 溶接」も「ロールケージの溶接」も引けるようにする。
-    parts = normalized.split()
-    terms = [p for p in parts if len(p) >= MIN_TRIGRAM_LEN]
-    if not terms:
-        terms = [t for t in rag.extract_terms(normalized) if len(t) >= MIN_TRIGRAM_LEN]
-    return " AND ".join(f'"{t}"' for t in terms)
+    return " AND ".join(f'"{t}"' for t in _query_terms(q))
 
 
 @app.get("/api/search")
@@ -170,9 +182,8 @@ def search(
         if match:
             sql = f"""
               SELECT ch.doc_id, ch.anchor, ch.heading, ch.heading_path, ch.clause,
-                     ch.page_start, ch.page_end,
+                     ch.page_start, ch.page_end, ch.text, ch.figures,
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
-                     snippet(chunks_fts, 0, char(1), char(2), ' … ', 56) AS snippet,
                      bm25(chunks_fts) AS score
               FROM chunks_fts
               JOIN chunks ch ON ch.id = chunks_fts.rowid
@@ -186,24 +197,43 @@ def search(
                 "SELECT count(*) FROM chunks_fts JOIN chunks ch ON ch.id = chunks_fts.rowid"
                 f" WHERE chunks_fts MATCH :match{where_doc}"
             )
+            # 「どの規則に何件あるか」。装備品を調べるときは散らばり自体が
+            # 知りたい情報（「安全ベルト」は 29 文書 130 箇所）なので、
+            # 表示中のページではなく**全ヒット**を集計する。
+            facet_sql = (
+                "SELECT ch.doc_id, d.title, d.section, d.grp, d.pdf_url, count(*) AS n"
+                " FROM chunks_fts JOIN chunks ch ON ch.id = chunks_fts.rowid"
+                " JOIN docs d ON d.doc_id = ch.doc_id"
+                f" WHERE chunks_fts MATCH :match{where_doc}"
+                " GROUP BY ch.doc_id ORDER BY n DESC, d.section, d.title"
+            )
         else:
             # 2 文字以下は trigram で引けないので LIKE にフォールバック
             sql = f"""
               SELECT ch.doc_id, ch.anchor, ch.heading, ch.heading_path, ch.clause,
-                     ch.page_start, ch.page_end,
+                     ch.page_start, ch.page_end, ch.text, ch.figures,
                      d.title, d.section, d.grp, d.pdf_url, d.upload_date,
-                     substr(ch.text, 1, 160) AS snippet, 0 AS score
+                     0 AS score
               FROM chunks ch JOIN docs d ON d.doc_id = ch.doc_id
               WHERE ch.text_norm LIKE :like{where_doc} ESCAPE '\\'
               LIMIT :limit OFFSET :offset
             """
             params["like"] = f"%{unicodedata.normalize('NFKC', q)}%"
             count_sql = f"SELECT count(*) FROM chunks ch WHERE ch.text_norm LIKE :like{where_doc} ESCAPE '\\'"
+            facet_sql = (
+                "SELECT ch.doc_id, d.title, d.section, d.grp, d.pdf_url, count(*) AS n"
+                " FROM chunks ch JOIN docs d ON d.doc_id = ch.doc_id"
+                f" WHERE ch.text_norm LIKE :like{where_doc} ESCAPE '\\'"
+                " GROUP BY ch.doc_id ORDER BY n DESC, d.section, d.title"
+            )
 
         rows = con.execute(sql, params).fetchall()
         total = con.execute(count_sql, params).fetchone()[0]
+        facets = con.execute(facet_sql, params).fetchall()
     finally:
         con.close()
+
+    terms = _query_terms(q) or [q]
 
     items = [
         {
@@ -216,9 +246,29 @@ def search(
             "clause": r["clause"],
             "page": r["page_start"],
             "anchor": r["anchor"],
-            "snippet": r["snippet"],
+            "snippet": _excerpt(r["text"], terms),
             "uploadDate": r["upload_date"],
             "pdfUrl": r["pdf_url"],
+            # 原本 PDF の**該当ページ**。ブラウザ内の PDF ビューアはこの
+            # 指定を見てそのページを開く（page_start は 1 起点で、8,778
+            # チャンクすべてがページ数の範囲内であることを確認済み）。
+            # スマホではダウンロードになってページ指定が効かないことがある。
+            "pdfPageUrl": (
+                f"{r['pdf_url']}#page={r['page_start']}"
+                if r["pdf_url"] and r["page_start"]
+                else r["pdf_url"]
+            ),
+            # この条に属する図版だけ。全文を出さない代わりに、拾った条文と
+            # 一緒に図を見て判断できるようにする。
+            "figures": [
+                {
+                    "url": f"/content/{quote(r['doc_id'])}/{quote(str(f.get('asset')))}",
+                    "caption": f.get("caption"),
+                    "page": f.get("page"),
+                }
+                for f in _json_list(r["figures"])
+                if isinstance(f, dict) and f.get("asset")
+            ],
             # アプリ内の該当箇所への直リンク
             "url": f"/doc/{quote(r['doc_id'])}"
             + (f"#{quote(r['anchor'])}" if r["anchor"] else f"#p{r['page_start']}"),
@@ -228,7 +278,25 @@ def search(
         }
         for r in rows
     ]
-    return {"query": q, "total": total, "limit": limit, "offset": offset, "items": items}
+    return {
+        "query": q,
+        "total": total,
+        "limit": limit,
+        "offset": offset,
+        "items": items,
+        # 全ヒットを規則ごとに集計したもの（散らばりを最初に見せる）
+        "byDoc": [
+            {
+                "docId": f["doc_id"],
+                "title": f["title"],
+                "section": f["section"],
+                "group": f["grp"],
+                "pdfUrl": f["pdf_url"],
+                "count": f["n"],
+            }
+            for f in facets
+        ],
+    }
 
 
 # ---------------------------------------------------------------------------

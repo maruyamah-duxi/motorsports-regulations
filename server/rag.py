@@ -147,6 +147,12 @@ class Source:
             "anchor": self.anchor,
             "url": self.url,
             "pdfUrl": self.pdf_url,
+            # 根拠の前後を読みたいときは JAF の原本の該当ページへ送る
+            "pdfPageUrl": (
+                f"{self.pdf_url}#page={self.page}"
+                if self.pdf_url and self.page
+                else self.pdf_url
+            ),
             "excerpt": self.text[:200],
         }
 
