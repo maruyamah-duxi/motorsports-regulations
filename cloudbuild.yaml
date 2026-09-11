@@ -141,11 +141,10 @@ steps:
         headers = open("/tmp/head.txt", encoding="utf-8").read().lower()
         doc = sys.argv[1]
 
-        # 中身の作りは露出の有無に関わらず入っている（再開時にそのまま出せる形）
+        # head の作りは露出の有無に関わらず入っている（再開時にそのまま出せる形）
         for needle, what in (
             ('<link rel="canonical"', "canonical"),
             ('<meta name="description"', "description"),
-            ('id="prerender"', "本文のプリレンダ"),
             ("application/ld+json", "構造化データ"),
         ):
             assert needle in page, f"/doc/{doc} に{what}がありません"
@@ -161,11 +160,19 @@ steps:
             assert "x-robots-tag: noindex" in headers, (
                 "X-Robots-Tag ヘッダが付いていません（/content 配下が素通しになります）"
             )
-            print(f"OK  検索露出は OFF（robots.txt 全面 Disallow + noindex）/doc/{doc}")
+            # クローラに読ませないなら本文の埋め込みは入れない
+            assert 'id="prerender"' not in page, (
+                "露出 OFF なのに本文のプリレンダが入っています"
+                "（同じ本文を 2 度配ることになります）"
+            )
+            print(f"OK  検索露出は OFF（Disallow + noindex + プリレンダなし）/doc/{doc}")
         else:
             assert "Sitemap:" in robots, "robots.txt に Sitemap 行がありません"
             assert 'name="robots" content="noindex' not in page, (
                 "露出 ON のはずのページに noindex が付いています"
+            )
+            assert 'id="prerender"' in page, (
+                f"露出 ON なのに /doc/{doc} に本文のプリレンダがありません"
             )
             print(f"OK  検索露出は ON /doc/{doc} {len(page):,} 文字")
         PY

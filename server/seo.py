@@ -60,6 +60,11 @@ DEFAULT_ORIGIN = "https://jp.motorsports-regulations.org"
 # 分かったため、オーナーの判断で False にした。経緯は
 # docs/architecture.md の 7-e と 9 章。
 #
+# False の間はプリレンダ（本文・一覧の埋め込み）も止める。クローラに
+# 読ませるための仕組みなので、読ませないなら入れる意味がない。入れたまま
+# だと /doc/<docId> の初回 HTML が 200KB 超になり、同じ本文を #prerender と
+# React の描画で二重に配ることになる。
+#
 # 再開するときはここを True に戻して出すだけでよい。ただし robots.txt で
 # クロールを止めている間は、クローラは noindex を読めないので、すでに
 # インデックスされた URL は URL だけ残ることがある。取り除きたいときは
@@ -290,7 +295,7 @@ class Seo:
                 }
             )
         )
-        return self._compose(tags, self._home_index())
+        return self._compose(tags, self._home_index() if SEARCH_INDEXING else "")
 
     def _home_index(self) -> str:
         """トップに、全 160 件への素の <a> を置く.
@@ -411,7 +416,7 @@ class Seo:
         page["citation"] = citation
         tags.append(self._jsonld(page))
 
-        return self._compose(tags, self._prerender(doc_id))
+        return self._compose(tags, self._prerender(doc_id) if SEARCH_INDEXING else "")
 
     def _doc_description(self, con: sqlite3.Connection, row: sqlite3.Row) -> str:
         """規則ごとに違う description を作る.

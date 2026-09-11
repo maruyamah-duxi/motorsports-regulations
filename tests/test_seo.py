@@ -92,72 +92,75 @@ def _fixture(tmp: Path) -> Seo:
 
 
 def test_document_head() -> None:
-    with tempfile.TemporaryDirectory() as tmp:
-        s = _fixture(Path(tmp))
-        page = s.page("/doc/2026_rally-aaa")
-        assert page is not None
+    with indexing(True):
+        with tempfile.TemporaryDirectory() as tmp:
+            s = _fixture(Path(tmp))
+            page = s.page("/doc/2026_rally-aaa")
+            assert page is not None
 
-        # 既定の title / description は残さない（二重になる）
-        assert "既定のタイトル" not in page
-        assert "既定の説明" not in page
-        # 全角は NFKC でならし、末尾の _20260101 は落とす
-        assert "<title>2026年ラリー競技規則｜" in page
-        assert "_20260101" not in page.split("</head>")[0]
-        assert (
-            '<link rel="canonical" href="https://example.test/doc/2026_rally-aaa">'
-            in page
-        )
-        # description は条見出しを並べて、規則ごとに違うものにする
-        assert "第1条 総則" in page and "第2条 安全ベルト" in page
-        # 条見出しでないものは入れない
-        assert "1.適用" not in page
-        assert '"@type": "BreadcrumbList"' in page
-        assert '"dateModified": "2026-04-01"' in page
-        # 一次情報が JAF であることを構造化データでも示す
-        assert "日本自動車連盟" in page
+            # 既定の title / description は残さない（二重になる）
+            assert "既定のタイトル" not in page
+            assert "既定の説明" not in page
+            # 全角は NFKC でならし、末尾の _20260101 は落とす
+            assert "<title>2026年ラリー競技規則｜" in page
+            assert "_20260101" not in page.split("</head>")[0]
+            assert (
+                '<link rel="canonical" href="https://example.test/doc/2026_rally-aaa">'
+                in page
+            )
+            # description は条見出しを並べて、規則ごとに違うものにする
+            assert "第1条 総則" in page and "第2条 安全ベルト" in page
+            # 条見出しでないものは入れない
+            assert "1.適用" not in page
+            assert '"@type": "BreadcrumbList"' in page
+            assert '"dateModified": "2026-04-01"' in page
+            # 一次情報が JAF であることを構造化データでも示す
+            assert "日本自動車連盟" in page
 
 
 def test_document_prerender() -> None:
-    with tempfile.TemporaryDirectory() as tmp:
-        s = _fixture(Path(tmp))
-        page = s.page("/doc/2026_rally-aaa")
-        assert page is not None
-        # 本文が #root の後ろに入る（React は #root しか触らない）
-        root = page.index('<div id="root"></div>')
-        pre = page.index('id="prerender"')
-        assert root < pre
-        assert "第1条 総則" in page or "第1条 総則" in page
-        assert "<p>本規則は…</p>" in page
-        # 図版の相対パスは絶対パスに直す（/doc/assets/… を見に行かせない）
-        assert 'src="/content/2026_rally-aaa/assets/fig-p0001-01.webp"' in page
-        assert 'src="assets/' not in page
+    with indexing(True):
+        with tempfile.TemporaryDirectory() as tmp:
+            s = _fixture(Path(tmp))
+            page = s.page("/doc/2026_rally-aaa")
+            assert page is not None
+            # 本文が #root の後ろに入る（React は #root しか触らない）
+            root = page.index('<div id="root"></div>')
+            pre = page.index('id="prerender"')
+            assert root < pre
+            assert "第1条 総則" in page or "第1条 総則" in page
+            assert "<p>本規則は…</p>" in page
+            # 図版の相対パスは絶対パスに直す（/doc/assets/… を見に行かせない）
+            assert 'src="/content/2026_rally-aaa/assets/fig-p0001-01.webp"' in page
+            assert 'src="assets/' not in page
 
 
 def test_routes() -> None:
-    with tempfile.TemporaryDirectory() as tmp:
-        s = _fixture(Path(tmp))
+    with indexing(True):
+        with tempfile.TemporaryDirectory() as tmp:
+            s = _fixture(Path(tmp))
 
-        home = s.page("/")
-        assert home is not None
-        # トップに全件への素のリンクを置く（JS 無しでも辿れるように）
-        assert home.count('<a href="/doc/') == 2
+            home = s.page("/")
+            assert home is not None
+            # トップに全件への素のリンクを置く（JS 無しでも辿れるように）
+            assert home.count('<a href="/doc/') == 2
 
-        # クエリで無限に増えるページはインデックスさせない
-        for path in ("/search", "/ask"):
-            page = s.page(path)
-            assert page is not None
-            assert '<meta name="robots" content="noindex,follow">' in page
-            assert "<title>" in page  # 無題の HTML は返さない
+            # クエリで無限に増えるページはインデックスさせない
+            for path in ("/search", "/ask"):
+                page = s.page(path)
+                assert page is not None
+                assert '<meta name="robots" content="noindex,follow">' in page
+                assert "<title>" in page  # 無題の HTML は返さない
 
-        diff = s.page("/diff/2026_rally-aaa/2025_rally-bbb")
-        assert diff is not None
-        assert "2025年ラリー競技規則" in diff
-        assert "/diff/2026_rally-aaa/2025_rally-bbb" in diff
+            diff = s.page("/diff/2026_rally-aaa/2025_rally-bbb")
+            assert diff is not None
+            assert "2025年ラリー競技規則" in diff
+            assert "/diff/2026_rally-aaa/2025_rally-bbb" in diff
 
-        # 存在しない docId は noindex（素の shell を返して 200 にしない）
-        assert '"noindex,follow"' in (s.page("/doc/nope") or "")
-        # 扱わないパスは None（従来どおり素の index.html）
-        assert s.page("/whatever") is None
+            # 存在しない docId は noindex（素の shell を返して 200 にしない）
+            assert '"noindex,follow"' in (s.page("/doc/nope") or "")
+            # 扱わないパスは None（従来どおり素の index.html）
+            assert s.page("/whatever") is None
 
 
 def test_sitemap() -> None:
@@ -194,9 +197,12 @@ def test_indexing_switch() -> None:
             assert '<meta name="robots" content="noindex,nofollow">' in page
             assert s.page("/") is not None  # トップも同じ扱い
             assert 'name="robots"' in (s.page("/") or "")
-            # 中身の作りは変えない（再開時にそのまま出せるように）
+            # クローラに読ませないならプリレンダを入れる意味がない。
+            # 入れたままだと同じ本文を #prerender と React で二重に配る。
+            assert 'id="prerender"' not in page
+            assert 'id="prerender"' not in (s.page("/") or "")
+            # head の作りは変えない（再開時にそのまま出せるように）
             assert '<link rel="canonical"' in page
-            assert 'id="prerender"' in page
             assert s.sitemap_xml().count("<loc>") == 4
 
 
